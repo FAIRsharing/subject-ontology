@@ -31,7 +31,7 @@ Terms are added to SRAO manually, and additional annotation from the originating
 # Build
 
 Domains are the largest set of tags available when curating FAIRsharing records. The classes used within DRAO are imported from external ontologies using Ontofox, and then appropriate annotation
-is added to those classes using Ontodog. Additional FAIRsharing-specific annotation is added manually. DRAO is written in OWL and serialized as OWL/RDF. 
+is added to those classes using Ontodog. Additional FAIRsharing-specific annotation is added manually. DRAO is written in OWL and serialized as RDF/XML. 
 
 ## Tools Used
 
