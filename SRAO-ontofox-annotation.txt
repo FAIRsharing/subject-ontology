@@ -1,0 +1,237 @@
+#### NOTES ON SRAO IMPORT ####
+##
+## All classes within SRAO are added manually.
+## However, in order to add supplementary annotation more
+## quickly, we use Ontofox to pull that annotation out.
+## Below are all terms used within the SRAO
+## file so that we can retrieve their definitions and synonyms.
+##
+## Resources used
+##
+## Available in Ontofox: EDAM, NCIT, PO
+## Not available in Ontofox: re3data, OMIT, AgroVoc, Agroportal Categories
+
+[URI of the OWL(RDF/XML) output file]
+http://www.fairsharing.org/ontology/external/SRAO-annotation.owl
+
+[Source ontology]
+EDAM
+
+[Low level source term URIs]
+http://edamontology.org/topic_0084
+http://edamontology.org/topic_0085
+http://edamontology.org/topic_0089
+http://edamontology.org/topic_0091
+http://edamontology.org/topic_0092
+http://edamontology.org/topic_0121
+http://edamontology.org/topic_0122
+http://edamontology.org/topic_0176
+http://edamontology.org/topic_0194
+http://edamontology.org/topic_0202
+http://edamontology.org/topic_0208
+http://edamontology.org/topic_0209
+http://edamontology.org/topic_0218
+http://edamontology.org/topic_0219
+http://edamontology.org/topic_0605
+http://edamontology.org/topic_0610
+http://edamontology.org/topic_0622
+http://edamontology.org/topic_0634
+http://edamontology.org/topic_0637
+http://edamontology.org/topic_0780
+http://edamontology.org/topic_0781
+http://edamontology.org/topic_0797
+http://edamontology.org/topic_0804
+http://edamontology.org/topic_1317
+http://edamontology.org/topic_2229
+http://edamontology.org/topic_2258
+http://edamontology.org/topic_2259
+http://edamontology.org/topic_2269
+http://edamontology.org/topic_2640
+http://edamontology.org/topic_2815
+http://edamontology.org/topic_2840
+http://edamontology.org/topic_3047
+http://edamontology.org/topic_3050
+http://edamontology.org/topic_3053
+http://edamontology.org/topic_3055
+http://edamontology.org/topic_3056
+http://edamontology.org/topic_3063
+http://edamontology.org/topic_3064
+http://edamontology.org/topic_3065
+http://edamontology.org/topic_3067
+http://edamontology.org/topic_3070
+http://edamontology.org/topic_3071
+http://edamontology.org/topic_3077
+http://edamontology.org/topic_3172
+http://edamontology.org/topic_3173
+http://edamontology.org/topic_3174
+http://edamontology.org/topic_3263
+http://edamontology.org/topic_3292
+http://edamontology.org/topic_3293
+http://edamontology.org/topic_3295
+http://edamontology.org/topic_3297
+http://edamontology.org/topic_3298
+http://edamontology.org/topic_3299
+http://edamontology.org/topic_3300
+http://edamontology.org/topic_3301
+http://edamontology.org/topic_3302
+http://edamontology.org/topic_3303
+http://edamontology.org/topic_3304
+http://edamontology.org/topic_3305
+http://edamontology.org/topic_3306
+http://edamontology.org/topic_3307
+http://edamontology.org/topic_3308
+http://edamontology.org/topic_3314
+http://edamontology.org/topic_3315
+http://edamontology.org/topic_3316
+http://edamontology.org/topic_3318
+http://edamontology.org/topic_3321
+http://edamontology.org/topic_3332
+http://edamontology.org/topic_3334
+http://edamontology.org/topic_3335
+http://edamontology.org/topic_3336
+http://edamontology.org/topic_3342
+http://edamontology.org/topic_3344
+http://edamontology.org/topic_3345
+http://edamontology.org/topic_3365
+http://edamontology.org/topic_3366
+http://edamontology.org/topic_3368
+http://edamontology.org/topic_3369
+http://edamontology.org/topic_3370
+http://edamontology.org/topic_3371
+http://edamontology.org/topic_3372
+http://edamontology.org/topic_3373
+http://edamontology.org/topic_3374
+http://edamontology.org/topic_3375
+http://edamontology.org/topic_3376
+http://edamontology.org/topic_3377
+http://edamontology.org/topic_3379
+http://edamontology.org/topic_3387
+http://edamontology.org/topic_3388
+http://edamontology.org/topic_3390
+http://edamontology.org/topic_3391
+http://edamontology.org/topic_3395
+http://edamontology.org/topic_3396
+http://edamontology.org/topic_3397
+http://edamontology.org/topic_3399
+http://edamontology.org/topic_3400
+http://edamontology.org/topic_3401
+http://edamontology.org/topic_3402
+http://edamontology.org/topic_3403
+http://edamontology.org/topic_3404
+http://edamontology.org/topic_3405
+http://edamontology.org/topic_3406
+http://edamontology.org/topic_3407
+http://edamontology.org/topic_3408
+http://edamontology.org/topic_3409
+http://edamontology.org/topic_3410
+http://edamontology.org/topic_3411
+http://edamontology.org/topic_3412
+http://edamontology.org/topic_3414
+http://edamontology.org/topic_3415
+http://edamontology.org/topic_3416
+http://edamontology.org/topic_3417
+http://edamontology.org/topic_3418
+http://edamontology.org/topic_3419
+http://edamontology.org/topic_3420
+http://edamontology.org/topic_3421
+http://edamontology.org/topic_3422
+http://edamontology.org/topic_3423
+http://edamontology.org/topic_3473
+http://edamontology.org/topic_3474
+http://edamontology.org/topic_3489
+http://edamontology.org/topic_3500
+http://edamontology.org/topic_3569
+http://edamontology.org/topic_3570
+http://edamontology.org/topic_3571
+http://edamontology.org/topic_3572
+http://edamontology.org/topic_3573
+http://edamontology.org/topic_3574
+http://edamontology.org/topic_3575
+http://edamontology.org/topic_3576
+http://edamontology.org/topic_3577
+http://edamontology.org/topic_3697
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasDefinition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+
+#### NOTES ON OMIT IMPORT ####
+##
+## OMIT makes use of the BFO upper-level hierarchy as well as 
+## the GO biological process hierarchy. However, it currently
+## does not store definitions or synonyms, so we don't need
+## to run Ontofox over it.
+##
+
+#### NOTES ON NCIT IMPORT ####
+##
+##
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C16147 # Natural History
+http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
+http://purl.obolibrary.org/obo/NCIT_C16478 # Culture
+http://purl.obolibrary.org/obo/NCIT_C16495 # Demographics
+http://purl.obolibrary.org/obo/NCIT_C16548 # Engineering Science
+http://purl.obolibrary.org/obo/NCIT_C16550 # Entomology
+http://purl.obolibrary.org/obo/NCIT_C16633 # Geography
+http://purl.obolibrary.org/obo/NCIT_C16715 # Immunogenetics
+http://purl.obolibrary.org/obo/NCIT_C16922 # Nuclear Medicine
+http://purl.obolibrary.org/obo/NCIT_C17059 # Radiology
+http://purl.obolibrary.org/obo/NCIT_C17141 # Social Sciences
+http://purl.obolibrary.org/obo/NCIT_C18076 # Bioengineering
+http://purl.obolibrary.org/obo/NCIT_C18633 # Animal Genetics
+http://purl.obolibrary.org/obo/NCIT_C18645 # Enzymology
+http://purl.obolibrary.org/obo/NCIT_C19199 # Health Sciences
+http://purl.obolibrary.org/obo/NCIT_C20179 # Toxicogenomics
+http://purl.obolibrary.org/obo/NCIT_C54625 # History
+http://purl.obolibrary.org/obo/NCIT_C95096 # Neuroscience
+http://purl.obolibrary.org/obo/NCIT_C119712 # Proteogenomics
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON PO IMPORT ####
+##
+##
+
+[Source ontology]
+PO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PO_0025131 # Plant Anatomy
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

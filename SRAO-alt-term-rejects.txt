@@ -1,0 +1,13 @@
+##
+## Alternative Terms for Removal from SRAO
+## ---------------------------------------
+##
+## Simple list of all alternative terms that are automatically
+## pulled into the SRAO but then need to be removed again as
+## they are unsuitable as synonyms within FAIRsharing,
+##
+
+## Term URI|Alternative Term
+http://edamontology.org/topic_3314|Organic Chemistry
+http://edamontology.org/topic_3314|Physical Chemistry
+
