@@ -11,6 +11,7 @@ FAIRsharing has developed an application ontology designed to provide structure 
 4. AgroVoc
 5. AgroPortal categories
 6. PO
+7. EDAM
 
 
 # Background
