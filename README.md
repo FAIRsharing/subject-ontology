@@ -21,7 +21,7 @@ FAIRsharing (https://www.fairsharing.org) is a manually-curated, cross-disciplin
 As FAIRsharing has grown, over 1000 domain tags across all areas of research have been added by users and curators. This tagging system, essentially a flat list, has become unwieldy and limited. To provide a hierarchical structure and richer semantics, two application ontologies drawn from multiple community ontologies were created to supplement these user tags. FAIRsharing domain tags are now divided into three separate fields:
 
 - Subject Resource Application Ontology (SRAO) - **This repository.** A hierarchy of academic disciplines that formalises the re3data subject list (https://www.re3data.org/browse/by-subject/). Combined with subsets of five additional ontologies, SRAO provides over 350 classes.
-- Domain Resource Application Ontology (DRAO) - a hierarchy of specific research domains and descriptors. Fifty external ontologies are used to provide over 1000 classes.
+- [Domain Resource Application Ontology (DRAO)](https://github.com/FAIRsharing/domain-ontology) - a hierarchy of specific research domains and descriptors. Fifty external ontologies are used to provide over 1000 classes.
 - Free-text user tags. A small number of FAIRsharing domain tags were not mappable to external ontologies and are retained as user tags. Existing and new user tags may be promoted to either application ontology as required.
 
 # SRAO Curation
