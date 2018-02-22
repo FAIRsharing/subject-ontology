@@ -38,7 +38,13 @@ A small number of classes come from other sources:
 4. AgroPortal categories
 5. PO
 
-This OWL file is more than just an import of the source ontologies listed. Firstly, only those disciplines which are appropriate for use within FAIRsharing have been retained. Modifications to the hierarchy have also been performed to aid usability within FAIRsharing as well as to aid ontology alignment and merging.</rdfs:comment>
+This OWL file is more than just an import of the source ontologies listed. Firstly, only those disciplines which are appropriate for use within FAIRsharing have been retained. Modifications to the hierarchy have also been performed to aid usability within FAIRsharing as well as to aid ontology alignment and merging.
+
+Created by Allyson L. Lister, Peter McQuilton, Alejandra Gonzalez-Beltran, Philippe Rocca-Serra, Milo Thurston, Massimiliano Izzo, Susanna-Assunta Sansone
+
+Originally developed for use within FAIRsharing.org
+
+Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), https://creativecommons.org/licenses/by-sa/4.0/</rdfs:comment>
     </owl:Ontology>
     
 
