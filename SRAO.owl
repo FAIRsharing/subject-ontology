@@ -192,6 +192,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_9000089">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000256"/>
+        <obo:IAO_0000115>Knowledge and Information systems create, share, and manage knowledge and information. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>AGROVOC</obo:IAO_0000412>
         <rdfs:label>Knowledge And Information Systems</rdfs:label>
     </owl:Class>
@@ -1064,6 +1065,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3345">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
+        <obo:IAO_0000115>The use of identifier schema to provide unambiguous identification of entities and records in a variety of locations, such as databases, repositories, journals and datasets. [PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Data Identity and Mapping</rdfs:label>
     </owl:Class>
@@ -1142,6 +1144,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3372">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>The systematic application of scientific and technological knowledge, methods, and experience to the design, implementation, testing, and documentation of software. [IEEE Systems and software engineering - vocabulary, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Software technology</ontology:SRAO_0000268>
@@ -3615,6 +3618,7 @@ Industrial engineering is a branch of engineering which deals with the optimizat
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000207">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000206"/>
+        <obo:IAO_0000115>Production Technology is a combination of manufacturing technology, engineering sciences with management science. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Production Technology</rdfs:label>
     </owl:Class>
@@ -3675,6 +3679,7 @@ Industrial engineering is a branch of engineering which deals with the optimizat
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000213">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000206"/>
+        <obo:IAO_0000115>&apos;Mechanics and Constructive Mechanical Engineering&apos; applies engineering, physics, and materials science principles to design, analyze, manufacture, and maintain mechanical systems. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Mechanics and Constructive Mechanical Engineering</rdfs:label>
     </owl:Class>
@@ -3778,6 +3783,7 @@ Process engineering focuses on the design, operation, control, optimization and 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000224">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000218"/>
+        <obo:IAO_0000115>&apos;Heat Energy Technology, Thermal Machines, Fluid Mechanics&apos; covers all aspects of heat transfer and storage systems, including thermal efficiency machines and the study of forces and flow within fluids [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Heat Energy Technology, Thermal Machines, Fluid Mechanics</rdfs:label>
     </owl:Class>
@@ -3788,6 +3794,7 @@ Process engineering focuses on the design, operation, control, optimization and 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000225">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000224"/>
+        <obo:IAO_0000115>&apos;Energy Process Engineering&apos; covers the broad field of engineering dealing with energy efficiency, energy services, facility management, plant engineering, environmental compliance and alternative energy technologies, focussing on design, operation, control and optimization of energy use. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Energy Process Engineering</rdfs:label>
     </owl:Class>
@@ -3975,6 +3982,7 @@ System Engineering - The investigation of complex, man-made systems in relation 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000244">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000243"/>
+        <obo:IAO_0000115>&apos;Automation, Control Systems, Robotics, Mechatronics&apos; covers the use of mechanical automation. [PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Automation, Control Systems, Robotics, Mechatronics</rdfs:label>
     </owl:Class>
@@ -3985,6 +3993,7 @@ System Engineering - The investigation of complex, man-made systems in relation 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000245">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000243"/>
+        <obo:IAO_0000115>A system of measurement is a collection of units of measurement and rules relating them to each other. Systems of measurement have historically been important, regulated and defined for the purposes of science and commerce. Systems of measurement in modern use include the metric system, the imperial system, and United States customary units. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Measurement Systems</rdfs:label>
     </owl:Class>
@@ -3995,6 +4004,9 @@ System Engineering - The investigation of complex, man-made systems in relation 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000246">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000243"/>
+        <obo:IAO_0000115>Microsystem is the name commonly used in Europe to describe the same technology which goes under the name MEMS (Micro Electro Mechanical Systems) in the US. In Japan, this field is often termed micromachines.
+
+Microsystems are miniaturized (silicon or polymer) devices which perform electrical and non-electronic functions: typically sensing and actuation. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Microsystems</rdfs:label>
     </owl:Class>
@@ -4005,6 +4017,7 @@ System Engineering - The investigation of complex, man-made systems in relation 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000247">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000243"/>
+        <obo:IAO_0000115>&apos;Traffic and Transport Systems, Logistics&apos; covers the detailed organization and implementation of a complex operation, such as traffic flow or the management of the flow of things between the point of origin and the point of consumption in order to meet requirements of customers or corporations. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Traffic and Transport Systems, Logistics</rdfs:label>
     </owl:Class>
@@ -4015,6 +4028,7 @@ System Engineering - The investigation of complex, man-made systems in relation 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000248">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000243"/>
+        <obo:IAO_0000115>&apos;Human Factors, Ergonomics, Human-Machine Systems&apos; covers all aspects of human interaction with their working environment or machines. [PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Human Factors, Ergonomics, Human-Machine Systems</rdfs:label>
     </owl:Class>
@@ -4036,6 +4050,7 @@ System Engineering - The investigation of complex, man-made systems in relation 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000250">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000249"/>
+        <obo:IAO_0000115>&apos;Electronic Semiconductors, Components, Circuits, Systems&apos; covers all aspects of electrical component circuity. [PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Electronic Semiconductors, Components, Circuits, Systems</rdfs:label>
     </owl:Class>
@@ -4046,6 +4061,7 @@ System Engineering - The investigation of complex, man-made systems in relation 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000251">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000249"/>
+        <obo:IAO_0000115>&apos;Communication, High-Frequency and Network Technology, Theoretical Electrical Engineering&apos; covers a number of disciplines related to the hardware and strategy surrounding communication networks. [PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Communication, High-Frequency and Network Technology, Theoretical Electrical Engineering</rdfs:label>
     </owl:Class>
@@ -4056,6 +4072,7 @@ System Engineering - The investigation of complex, man-made systems in relation 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000252">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000249"/>
+        <obo:IAO_0000115>&apos;Electrical Energy Generation, Distribution, Application&apos; covers the pipeline from generation to application of electrical energy. [PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Electrical Energy Generation, Distribution, Application</rdfs:label>
     </owl:Class>
@@ -4066,6 +4083,7 @@ System Engineering - The investigation of complex, man-made systems in relation 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000254">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>Theoretical computer science is a subset of general computer science and mathematics that focuses on more mathematical topics of computing and includes the theory of computation. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Theoretical Computer Science</rdfs:label>
     </owl:Class>
@@ -4076,6 +4094,7 @@ System Engineering - The investigation of complex, man-made systems in relation 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000256">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>&apos;Operating, Communication and Information Systems&apos; collate data from a variety of disparate sources and synthesise them into a new structure for dissemination via a variety of media and methods. [PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Operating, Communication and Information Systems</rdfs:label>
     </owl:Class>
