@@ -5,12 +5,12 @@ The Subject Resource Application Ontology (SRAO) is an application ontology desc
 All classes within SRAO come from publicly-available ontologies and controlled vocabularies. Currently, the following ontologies are used to build SRAO:
 
 1. [re3data](https://www.re3data.org/browse/by-subject/)
-2. [OMIT](https://github.com/OmniSearch/omit) [in OLS](https://www.ebi.ac.uk/ols/ontologies/omit)
-3. [NCIT](https://ncit.nci.nih.gov/ncitbrowser/) [in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit)
+2. [OMIT](https://github.com/OmniSearch/omit) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/omit))
+3. [NCIT](https://ncit.nci.nih.gov/ncitbrowser/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit))
 4. [AgroVoc](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/)
-5. [AgroPortal categories](https://www.sciencedirect.com/science/article/pii/S0168169916309541) - and available to view in the [AgroPortal Browse screen](http://agroportal.lirmm.fr/ontologies).
-6. [PO](http://browser.planteome.org/amigo) [in OLS](https://www.ebi.ac.uk/ols/ontologies/po)
-7. [EDAM](http://edamontology.org/page) [in OLS](https://www.ebi.ac.uk/ols/ontologies/edam)
+5. [AgroPortal categories](https://www.sciencedirect.com/science/article/pii/S0168169916309541) - view in the [AgroPortal Browse screen](http://agroportal.lirmm.fr/ontologies).
+6. [PO](http://browser.planteome.org/amigo) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/po))
+7. [EDAM](http://edamontology.org/page) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/edam))
 
 # Files
 
