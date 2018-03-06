@@ -12,8 +12,8 @@
 ]>
 
 
-<rdf:RDF xmlns="&ontology;SRAO-inferred.owl#"
-     xml:base="&ontology;SRAO-inferred.owl"
+<rdf:RDF xmlns="&ontology;SRAO-merged.owl#"
+     xml:base="&ontology;SRAO-merged.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -21,7 +21,7 @@
      xmlns:SRAO="&ontology;SRAO.owl/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ontology="http://www.fairsharing.org/ontology/">
-    <owl:Ontology rdf:about="&ontology;SRAO-inferred.owl">
+    <owl:Ontology rdf:about="&ontology;SRAO-merged.owl">
         <rdfs:comment rdf:datatype="&xsd;string">This OWL file is a hierarchical categorization of research disciplines based on multiple resources. It is used within FAIRsharing as the basis for the discipline tags present within FAIRsharing records. 
 
 The majority of the classes come from two sources:
@@ -160,11 +160,36 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_211 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_211">
+        <rdfs:label>Agronomy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <rdfs:comment>AL 6.3.18: Placement of Agronomy follows the AgroVoc hierarchy.</rdfs:comment>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000115>Science of crop production and soil management.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_3235 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3235">
         <rdfs:label xml:lang="en">Geophysics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000196"/>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_7188 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_7188">
+        <rdfs:label xml:lang="en">Soil Sciences</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_211"/>
+        <rdfs:subClassOf rdf:resource="&obo;OMIT_0026615"/>
+        <rdfs:comment>AL 6.3.18: Placement of Soil Sciences is modified from the re3data hierarchy due to adjustments to align with the AgroVoc hierarchy. re3data placement is as a child of Agriculture, which has been further refined to Agronomy. AgroVoc places Soil Sciences as a child of Earth Sciences, which has been reproduced here.</rdfs:comment>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
@@ -191,6 +216,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_9000089">
         <rdfs:label>Knowledge And Information Systems</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000256"/>
+        <obo:IAO_0000115>Knowledge and Information systems create, share, and manage knowledge and information. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>AGROVOC</obo:IAO_0000412>
     </owl:Class>
     
@@ -280,6 +306,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268>Bioinformatics and Theoretical Biology</ontology:SRAO_0000268>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000269>Bioinformatics tools and formats</ontology:SRAO_0000269>
+        <rdfs:comment>Should &apos;Informatics&apos;-&gt;&apos;Bioinformatics&apos; be under &apos;Engineering Science&apos; rather than &apos;Life Sciences&apos;? PAM 27.02.2018</rdfs:comment>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The archival, curation, processing and analysis of complex biological data.</obo:IAO_0000115>
         <rdfs:comment>AL 27.9.17 Bioinformatics is asserted as a child of Informatics by EDAM and as a child of Biology within re3data. Within FAIRsharing, this term used to be labelled &apos;Bioinformatics tools and formats&apos;, but has been modified for simplicity. Within re3data, this term used to be labelled &apos;Bioinformatics and Theoretical Biology&apos; but was simplified as these are two distinct disciplines. Currently Theoretical Biology has not been re-introduced, but this may need to be revisited in future.</rdfs:comment>
@@ -294,6 +321,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Data visualization</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000257"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <obo:IAO_0000115>Data visualization is a general term that describes any effort to help people understand the significance of data by placing it in a visual context. [PAM 27.02.2018]</obo:IAO_0000115>
         <rdfs:comment>AL: 29.9.17 &apos;Data visualization&apos; is asserted as a child of &apos;Computer Science&apos; within EDAM. This assertion has been refined to &apos;Artifical Intelligence, Imaging and Language Processing&apos;.</rdfs:comment>
         <obo:IAO_0000118>Data rendering</obo:IAO_0000118>
         <obo:IAO_0000115>Rendering (drawing on a computer screen) or visualisation of molecular sequences, structures or other biomolecular data.</obo:IAO_0000115>
@@ -412,6 +440,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000019"/>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000257"/>
         <obo:IAO_0000118>Text data mining</obo:IAO_0000118>
+        <obo:IAO_0000115>The application of computational techniques to the analysis and synthesis of natural language and speech. [Oxford English Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000115>The processing and analysis of natural language, such as scientific literature in English, in order to extract data and information, or to enable human-computer interaction.</obo:IAO_0000115>
         <obo:IAO_0000118>Text mining</obo:IAO_0000118>
         <rdfs:comment>AL: 29.9.17 &apos;Natural Language Processing&apos; is asserted as a child of &apos;Computer Science&apos; and &apos;Literature and language&apos; within EDAM. These assertions have been refined to &apos;Artifical Intelligence, Imaging and Language Processing&apos; and &apos;Linguistics&apos;.</rdfs:comment>
@@ -444,6 +473,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Informatics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <obo:IAO_0000115>The study and practice of information processing and use of computer information systems.</obo:IAO_0000115>
+        <obo:IAO_0000115>The science of processing data for storage and retrieval; information science. [Oxford English Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000118>Knowledge management</obo:IAO_0000118>
         <obo:IAO_0000118>Information management</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
@@ -1167,6 +1197,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3316">
         <rdfs:label xml:lang="en">Computer Science</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000242"/>
+        <obo:IAO_0000115>Computer Science - The study of the principles and use of computers. [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The theory and practical use of computer systems.</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -1210,6 +1241,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Computational Chemistry</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>Computational chemistry is a branch of chemistry that uses computer simulation to assist in solving chemical problems. [Wikipedia, PAM 27.02.0218]</obo:IAO_0000115>
         <rdfs:comment>AL: 29.9.17 Child of Chemistry and &apos;Computer science&apos;, to align with the EDAM hierarchy.</rdfs:comment>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1297,6 +1329,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3345">
         <rdfs:label>Data Identity and Mapping</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
+        <obo:IAO_0000115>The use of identifier schema to provide unambiguous identification of entities and records in a variety of locations, such as databases, repositories, journals and datasets. [PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000115>Topic concerning the identity of biological entities, or reports on such entities, and the mapping of entities and records in different databases.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1402,6 +1435,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118>Software development</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000118>Computer programming</obo:IAO_0000118>
+        <obo:IAO_0000115>The systematic application of scientific and technological knowledge, methods, and experience to the design, implementation, testing, and documentation of software. [IEEE Systems and software engineering - vocabulary, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000118>Data structures</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000118>Algorithms</obo:IAO_0000118>
@@ -1967,6 +2001,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3473">
         <rdfs:label>Data Mining</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000115>The discovery of patterns in large data sets and the extraction and trasnsformation of those patterns into a useful format.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000118>Pattern recognition</obo:IAO_0000118>
@@ -1982,6 +2017,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000257"/>
         <rdfs:comment>AL: 29.9.17 &apos;Machine learning&apos; is asserted as a child of &apos;Computer Science&apos; within EDAM. This assertion has been refined to &apos;Artifical Intelligence, Imaging and Language Processing&apos;.</rdfs:comment>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <obo:IAO_0000115>The application of artificial intelligence methods to algorithms, in order to create methods that can learn from data in order to generate an ouput, rather than relying on explicitly encoded information only. [EDAM, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000115>A topic concerning the application of artificial intelligence methods to algorithms, in order to create methods that can learn from data in order to generate an ouput, rather than relying on explicitly encoded information only.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -2248,6 +2284,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C16548">
         <rdfs:label xml:lang="en">Engineering Science</rdfs:label>
         <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <obo:IAO_0000115>The parts of science concerned with the physical and mathematical basis of engineering and machine technology. [Oxford Dictionary, https://en.oxforddictionaries.com/definition/engineering_science, PAM 27.02.18]</obo:IAO_0000115>
         <obo:IAO_0000115>The discipline concerned with the application of scientific knowledge to solve practical issues in commerce or industry.</obo:IAO_0000115>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -2355,6 +2392,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000118>Bioengineering</obo:IAO_0000118>
         <obo:IAO_0000118>Biomedical Engineering</obo:IAO_0000118>
+        <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health. [ NCIT, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
@@ -2652,6 +2690,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Synthetic Biology</rdfs:label>
         <rdfs:label>OMIT</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C18076"/>
+        <obo:IAO_0000115>A field of biological research combining engineering in the formulation, design, and building (synthesis) of novel biological structures, functions, and systems. [MeSH, PAM 27.02.2018]</obo:IAO_0000115>
+        <rdfs:comment>PAM 27.02.2018: Cannot find placement in OMIT hierarchy, so taken definition from MeSH.</rdfs:comment>
         <rdfs:comment>AL 23.11.17: Placement within this hierarchy partially follows original placement within the OMIT hierarchy (which placed &apos;Synthetic Biology&apos; as a child of both &apos;Biology&apos; and &apos;Bioengineering&apos;. We just use &apos;Bioengineering&apos;, which itself is within the &apos;Biology&apos; hierarchy.</rdfs:comment>
     </owl:Class>
     
@@ -3662,22 +3702,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000148 -->
-
-    <owl:Class rdf:about="&ontology;SRAO_0000148">
-        <rdfs:label xml:lang="en">Soil Sciences</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000149 -->
 
     <owl:Class rdf:about="&ontology;SRAO_0000149">
         <rdfs:label xml:lang="en">Plant Cultivation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_211"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment>AL 6.3.18: re3data placement of Plant Cultivation is as a direct child of Agriculture. However, to align with the introduction of the Agronomy term from AgroVoc, Plant Cultivation has moved under Agronomy.</rdfs:comment>
     </owl:Class>
     
 
@@ -4120,6 +4151,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Mechanical and industrial Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>Mechanical Engineering applies the principles of engineering, physics and materials science to the design, analysis, manufacture and maintenance of mechnical systems. [Adapted from Quora, PAM 27.02.2018]
+
+Industrial engineering is a branch of engineering which deals with the optimization of complex processes, systems, or organizations, to create engineering processes and systems that improve quality and productivity. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4130,6 +4164,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Production Technology</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000206"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>Production Technology is a combination of manufacturing technology, engineering sciences with management science. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4189,6 +4224,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000213">
         <rdfs:label xml:lang="en">Mechanics and Constructive Mechanical Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000206"/>
+        <obo:IAO_0000115>&apos;Mechanics and Constructive Mechanical Engineering&apos; applies engineering, physics, and materials science principles to design, analyze, manufacture, and maintain mechanical systems. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4239,6 +4275,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000218">
         <rdfs:label xml:lang="en">Thermal Engineering/Process Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
+        <obo:IAO_0000115>Thermal Engineering is a study of energy transport particularly in nanoscale structure to obtain knowledge and understanding of the scientific effects on physical world that can engineering discoveries in industrial energy applications. [Wikipedia, PAM 27.02.2018]
+
+Process engineering focuses on the design, operation, control, optimization and intensification of chemical, physical, and biological processes. Process engineering encompasses a vast range of industries, such as chemical, petrochemical, agriculture, mineral processing, advanced material, food, pharmaceutical, software development and biotechnological industries. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4289,6 +4328,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000224">
         <rdfs:label xml:lang="en">Heat Energy Technology, Thermal Machines, Fluid Mechanics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000218"/>
+        <obo:IAO_0000115>&apos;Heat Energy Technology, Thermal Machines, Fluid Mechanics&apos; covers all aspects of heat transfer and storage systems, including thermal efficiency machines and the study of forces and flow within fluids [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4299,6 +4339,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000225">
         <rdfs:label xml:lang="en">Energy Process Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000224"/>
+        <obo:IAO_0000115>&apos;Energy Process Engineering&apos; covers the broad field of engineering dealing with energy efficiency, energy services, facility management, plant engineering, environmental compliance and alternative energy technologies, focussing on design, operation, control and optimization of energy use. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4339,6 +4380,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000229">
         <rdfs:label xml:lang="en">Materials Science and Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
+        <obo:IAO_0000115>The interdisciplinary field of materials science, also commonly termed materials science and engineering is the design and discovery of new materials, particularly solids. [Wikipedia PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4349,6 +4391,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000230">
         <rdfs:label xml:lang="en">Materials Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000229"/>
+        <obo:IAO_0000115>[Definition needed]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4360,6 +4403,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000230"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>&apos;Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials&apos; - are metallurgical processes that combine mechanical or plastic deformation processes like compression or forging, rolling etc. with thermal processes like heat-treatment, water quenching, heating and cooling at various rates into a single process. [Adapted from Wikipedia, PAM 01.03.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4370,6 +4414,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Sintered Metallic and Ceramic Materials</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000230"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>Sintering is the process of compacting and forming a solid mass of material by heat or pressure without melting it to the point of liquefaction. This can be applied to metallic or ceramic materials. [Adapted from Wikipedia, PAM 01.03.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4379,6 +4424,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000233">
         <rdfs:label xml:lang="en">Composite Materials</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000230"/>
+        <obo:IAO_0000115>A composite material (also called a composition material or shortened to composite, which is the common name) is a material made from two or more constituent materials with significantly different physical or chemical properties that, when combined, produce a material with characteristics different from the individual components. The individual components remain separate and distinct within the finished structure. [Wikipedia, PAM 01.03.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4390,6 +4436,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Mechanical Behaviour of Construction Materials</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000230"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>The study of the mechnical behaviour of materials used in construction. [PAM 01.03.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4399,6 +4446,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000235">
         <rdfs:label xml:lang="en">Coating and Surface Technology</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000230"/>
+        <obo:IAO_0000115>&apos;Coating and Surface Technology&apos; covers the technology surround any mixture of film-forming materials, including pigments, solvents, and other additives. [Adapted from Britannica, PAM 01.03.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4409,6 +4457,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000236">
         <rdfs:label xml:lang="en">Materials Science</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000229"/>
+        <obo:IAO_0000115>The scientific study of the properties and applications of materials of construction or manufacture (such as ceramics, metals, polymers, and composites. [Merriam Webster Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4460,6 +4509,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Computer Science, Electrical and System Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>Computer Science - The study of the principles and use of computers. [Oxford English Dictionary, PAM 27.02.2018]
+Electrical Engineering - The electrical aspects of engineering and electrical and electronic devices. [Oxford English Dictionary, PAM 27.02.2018]
+System Engineering - The investigation of complex, man-made systems in relation to the apparatus that is or might be involved in them. [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4469,6 +4521,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000243">
         <rdfs:label xml:lang="en">Systems Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000242"/>
+        <obo:IAO_0000115>System Engineering - The investigation of complex, man-made systems in relation to the apparatus that is or might be involved in them. [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4479,6 +4532,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000244">
         <rdfs:label xml:lang="en">Automation, Control Systems, Robotics, Mechatronics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000243"/>
+        <obo:IAO_0000115>&apos;Automation, Control Systems, Robotics, Mechatronics&apos; covers the use of mechanical automation. [PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4490,6 +4544,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Measurement Systems</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000243"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>A system of measurement is a collection of units of measurement and rules relating them to each other. Systems of measurement have historically been important, regulated and defined for the purposes of science and commerce. Systems of measurement in modern use include the metric system, the imperial system, and United States customary units. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4499,6 +4554,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000246">
         <rdfs:label xml:lang="en">Microsystems</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000243"/>
+        <obo:IAO_0000115>Microsystem is the name commonly used in Europe to describe the same technology which goes under the name MEMS (Micro Electro Mechanical Systems) in the US. In Japan, this field is often termed micromachines.
+
+Microsystems are miniaturized (silicon or polymer) devices which perform electrical and non-electronic functions: typically sensing and actuation. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4510,6 +4568,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Traffic and Transport Systems, Logistics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000243"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>&apos;Traffic and Transport Systems, Logistics&apos; covers the detailed organization and implementation of a complex operation, such as traffic flow or the management of the flow of things between the point of origin and the point of consumption in order to meet requirements of customers or corporations. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4520,6 +4579,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Human Factors, Ergonomics, Human-Machine Systems</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000243"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>&apos;Human Factors, Ergonomics, Human-Machine Systems&apos; covers all aspects of human interaction with their working environment or machines. [PAM 28.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4529,6 +4589,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000249">
         <rdfs:label xml:lang="en">Electrical Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000242"/>
+        <obo:IAO_0000115>Electrical Engineering - The electrical aspects of engineering and electrical and electronic devices. [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4540,6 +4601,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Electronic Semiconductors, Components, Circuits, Systems</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000249"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>&apos;Electronic Semiconductors, Components, Circuits, Systems&apos; covers all aspects of electrical component circuity. [PAM 28.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4550,6 +4612,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Communication, High-Frequency and Network Technology, Theoretical Electrical Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000249"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>&apos;Communication, High-Frequency and Network Technology, Theoretical Electrical Engineering&apos; covers a number of disciplines related to the hardware and strategy surrounding communication networks. [PAM 28.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4559,6 +4622,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000252">
         <rdfs:label xml:lang="en">Electrical Energy Generation, Distribution, Application</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000249"/>
+        <obo:IAO_0000115>&apos;Electrical Energy Generation, Distribution, Application&apos; covers the pipeline from generation to application of electrical energy. [PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4569,6 +4633,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000254">
         <rdfs:label xml:lang="en">Theoretical Computer Science</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>Theoretical computer science is a subset of general computer science and mathematics that focuses on more mathematical topics of computing and includes the theory of computation. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4579,6 +4644,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000256">
         <rdfs:label xml:lang="en">Operating, Communication and Information Systems</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>&apos;Operating, Communication and Information Systems&apos; collate data from a variety of disparate sources and synthesise them into a new structure for dissemination via a variety of media and methods. [PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4590,6 +4656,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Artificial Intelligence, Image and Language Processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>&apos;Artificial Intelligence, Image and Language Processing&apos; covers three related but separate topics.
+Artificial Intelligence - the theory and development of computer systems able to perform tasks normally requiring human intelligence, such as visual perception, speech recongition, decision-making and translation between languages. [Oxford English Dictionary. PAM 27.02.2018]
+
+Image Processing - The analysis and manipulation of a digitized image, especially in order to improve its quality. [Oxford English Dictionary. PAM 27.02.2018]
+
+Language Processing - The application of computational techniques to the analysis and synthesis of natural language and speech. [Oxford English Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4599,6 +4671,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000258">
         <rdfs:label xml:lang="en">Computer Architecture and Embedded Systems</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>&apos;Computer Architecture and Embedded Systems&apos; covers two related topics.
+Computer Architecture is a set of rules and methods that describe the functionality, organisation, and implementation of computer systems. Embedded Systems  [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -4610,6 +4684,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Construction Engineering and Architecture</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>Construction Engineering - a professional discipline that deals with the designing, planning, construction, and management of infrastructures such as roads, tunnels, bridges, airports, railroads, facilities, buildings, dams, utilities and other projects. Construction Engineering is considered a professional sub-practice area of civil engineering or architectural engineering. [Wikipedia, PAM 27.02.2018]
+Architecture - The art or practice of designing and constructing buildings [Oxford English Dictionary, PAM27.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4620,6 +4696,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Architecture, Building and Construction History, Sustainable Building Technology, Building Design</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>&apos;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&apos; covers the art or practice of designing and constructing buildings, both in the past and with a view towards the use of modern materials and energy-saving techniques [Adapted from the Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4630,6 +4707,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>&apos;Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning&apos; covers the process of defining future policies, goals, investments, and designs to prepare for future needs to move people and goods to destinations, urban traffic flow, and human settlement planning [Adapted from Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4640,6 +4718,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Construction Material Sciences, Chemistry, Building Physics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>&apos;Construction Material Sciences, Chemistry, Building Physics&apos; covers a the design, planning construction and management of buildings and infrastructure projects, taking into account material science, chemistry and mechanics. [Adapted from Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4650,6 +4729,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Sructural Engineering, Building Informatics, Construction Operation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>Structural engineering is a sub-discipline of civil engineering in which structural engineers are trained to understand, predict, and calculate the stability, strength and rigidity of built structures for buildings and nonbuilding structures, to develop designs and integrate their design with that of other designers, and to supervise construction of projects on site. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4660,6 +4740,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Applied Mechanics, Statics and Dynamics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>Applied mechanics, Statics and Dynamics are branches of the physical sciences and the practical application of mechanics. Applied mechanics, bridges the gap between physical theory and its application to technology. It is used in many fields of engineering, especially mechanical engineering and civil engineering. [Adapted from Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4669,7 +4750,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000265">
         <rdfs:label xml:lang="en">Geotechnics, Hydraulic Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
+        <obo:IAO_0000115>Geotechnics is the application of scientific methods and engineering principles to the acquisition, interpretation, and use of knowledge of materials of the Earth&apos;s crust and earth materials for the solution of engineering problems and the design of engineering works. [Wikipedia, PAM 27.02.0218]
+Hydraulic engineering as a sub-discipline of civil engineering is concerned with the flow and conveyance of fluids, principally water and sewage. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000280 -->
+
+    <owl:Class rdf:about="&ontology;SRAO_0000280">
+        <rdfs:label xml:lang="en">Rural and Agricultural Sociology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C17141"/>
+        <obo:IAO_0000412>User request</obo:IAO_0000412>
     </owl:Class>
     
 
