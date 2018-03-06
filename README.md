@@ -16,7 +16,7 @@ All classes within SRAO come from publicly-available ontologies and controlled v
 
 The simplest way to view SRAO is by using [SRAO-merged.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO-merged.owl). This file was created by merging the development files into a single document for easier loading within the editor of your choice, such as [Protege](http://protege.stanford.edu/). 
 
-Below is are short descriptions of the other files found within this repository:
+Below are short descriptions of the other files found within this repository:
 - [SRAO.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO.owl) - This is the main development file, manually edited by our team to ensure that all subject areas relevant to FAIRsharing are included within SRAO.
 - [SRAO-ontofox-annotation.txt](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO-ontofox-annotation.txt) - The configuration file required by Ontofox for automatically adding annotation from the external ontologies to SRAO.
 - [SRAO-annotation.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO-annotation.owl) - the file created by Ontofox containing all automatically-generated annotation from the external ontologies
