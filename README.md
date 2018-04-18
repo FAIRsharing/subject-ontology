@@ -1,6 +1,6 @@
 # Subject Resource Application Ontology
 
-The Subject Resource Application Ontology (SRAO) is an application ontology describing subject areas / academic disciplines used within [FAIRsharing](https://www.fairsharing.org) records by curators and the user community. It is built in conjunction with the [Domain Resource Application Ontology (DRAO)](https://github.com/FAIRsharing/domain-ontology), which contains more specific domain terms and other descriptors.
+The Subject Resource Application Ontology (SRAO) is an application ontology describing subject areas / academic disciplines used within [FAIRsharing](https://www.fairsharing.org) records by curators and the user community (see also the [SRAO FAIRsharing record]((https://fairsharing.org/bsg-s001177))). It is built in conjunction with the [Domain Resource Application Ontology (DRAO)](https://github.com/FAIRsharing/domain-ontology), which contains more specific domain terms and other descriptors.
 
 All classes within SRAO come from publicly-available ontologies and controlled vocabularies. Currently, the following ontologies are used to build SRAO:
 
