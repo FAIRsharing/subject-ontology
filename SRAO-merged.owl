@@ -148,6 +148,28 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_10967 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_10967">
+        <rdfs:label>Food Security</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000058"/>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000115>Physical and economic access, by all people at all times, to the basic food they need</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_1648 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1648">
+        <rdfs:label>Civil Engineering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
+        <obo:IAO_0000115>Civil engineering is the branch of engineering that deals with the design, construction, and maintenance of works of public utility, especially those relating to social infrastructure. [Oxford English Dictionary, AL 08.05.18]</obo:IAO_0000115>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_203 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_203">
@@ -172,6 +194,28 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_28633 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_28633">
+        <rdfs:label>Agricultural Law</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMIT_0008715"/>
+        <obo:IAO_0000115>Agricultural law is the study of the special laws and regulations that apply to the production and sale of agricultural products. It deals with such legal issues as agricultural infrastructure, seed, water, fertilizer, pesticide use, agricultural finance, agricultural labour, agricultural marketing, agricultural insurance, farming rights, land tenure and tenancy system and law on agricultural processing and rural industry. With implementation of modern technologies, issues including credit, intellectual property, trade and commerce related to agricultural products are dealt within the sphere of this law. [Wikipedia https://en.wikipedia.org/wiki/Agricultural_law, AL 23.5.18]</obo:IAO_0000115>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_2934 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2934">
+        <rdfs:label>Fisheries Science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
+        <obo:IAO_0000115>Fisheries science is the academic discipline of managing and understanding fisheries. It is a multidisciplinary science, which draws on the disciplines of limnology, oceanography, freshwater biology, marine biology, conservation, ecology, population dynamics, economics and management to attempt to provide an integrated picture of fisheries. [Wikipedia https://en.wikipedia.org/wiki/Fisheries_science, AL 23.5.18]</obo:IAO_0000115>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_3235 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3235">
@@ -179,6 +223,59 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000196"/>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_3713 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3713">
+        <rdfs:label>Hydraulic Engineering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <rdfs:comment>AL 23.5.18: The original &quot;Geotechnics, Hydraulic Engineering&quot; class from re3data has been split into &quot;Geotechnics&quot; and &quot;Hydraulic Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <obo:IAO_0000115>Hydraulic engineering as a sub-discipline of civil engineering is concerned with the flow and conveyance of fluids, principally water and sewage. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_37948 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_37948">
+        <rdfs:label>Urban Planning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
+        <ontology:SRAO_0000268>Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning</ontology:SRAO_0000268>
+        <rdfs:comment>AL 23.5.18: The original &quot;Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning&quot; class from re3data has been split into &quot;Urban Planning&quot;, &quot;Transportation Planning&quot; and &quot;Landscape Planning&quot;. Urbanism and Spatial Planning have been consolidated into a single class as it provides an appropriate level of detail for FAIRsharing users. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000115>Urban Planning is the planning and regulation of building, development, reconstruction, etc., in an urban area [Oxford English Dictionary, AL 08.05.18]</obo:IAO_0000115>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_4682 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_4682">
+        <rdfs:label>Mechanical Engineering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
+        <rdfs:comment>AL 24.5.18: The original &quot;Mechanical and industrial Engineering&quot; class from re3data has been split into &quot;Mechanical Engineering&quot; and &quot;Industrial Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <obo:IAO_0000115>Industrial engineering is a branch of engineering which deals with the optimization of complex processes, systems, or organizations, to create engineering processes and systems that improve quality and productivity. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_550 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_550">
+        <rdfs:label>Aquaculture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2934"/>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000115>Aquaculture is the farming of aquatic organisms in both coastal and inland areas involving interventions in the rearing process to enhance production.[Food and Agriculture Organization of the United Nations (FAO) http://www.fao.org/aquaculture/en/, AL 23.5.18]
+
+</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -339,7 +436,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118>Protein and peptide identification</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>Protein and peptide identification, especially in the study of whole proteomes of organisms.</obo:IAO_0000115>
+        <obo:IAO_0000118>Targeted proteomics</obo:IAO_0000118>
         <obo:IAO_0000118>Metaproteomics</obo:IAO_0000118>
+        <obo:IAO_0000118>Discovery proteomics</obo:IAO_0000118>
         <obo:IAO_0000118>Peptide identification</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -505,6 +604,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Genomics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
         <obo:IAO_0000115>Whole genomes of one or more organisms, or genomes in general, such as meta-information on genomes, genome projects, gene names etc.</obo:IAO_0000115>
+        <obo:IAO_0000118>Viral genomics</obo:IAO_0000118>
+        <obo:IAO_0000118>Genome annotation</obo:IAO_0000118>
         <obo:IAO_0000118>Personal genomics</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -546,11 +647,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000269>Plant biology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000268>Plant Sciences</ontology:SRAO_0000268>
-        <obo:IAO_0000118>Plant</obo:IAO_0000118>
-        <rdfs:comment>AL: 28.9.17 Changed re3data label from &apos;Plant Sciences&apos; to Botany to align with FAIRsharing terminology.</rdfs:comment>
         <obo:IAO_0000115>Plants, e.g. information on a specific plant genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
+        <obo:IAO_0000118>Plants</obo:IAO_0000118>
+        <ontology:SRAO_0000268>Plant Sciences</ontology:SRAO_0000268>
+        <ontology:SRAO_0000269>Plant biology</ontology:SRAO_0000269>
+        <obo:IAO_0000118>Plant science</obo:IAO_0000118>
+        <obo:IAO_0000118>Plant</obo:IAO_0000118>
+        <obo:IAO_0000118>Botany</obo:IAO_0000118>
+        <rdfs:comment>AL: 28.9.17 Changed re3data label from &apos;Plant Sciences&apos; to Botany to align with FAIRsharing terminology.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -561,7 +665,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0781">
         <rdfs:label xml:lang="en">Virology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
-        <obo:IAO_0000115>Viruses, e.g. sequence and structural data, interactions of viral proteins, or a viral genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
+        <obo:IAO_0000115>Study of viruses, e.g. sequence and structural data, interactions of viral proteins, or a viral genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
         <rdfs:comment>AL: 25.9.17 Virology is asserted as a child of Microbiology by re3data, and at the top level of the Topic hierarchy within EDAM.  is asserted. This assertion has been refined to Microbiology to align with re3data.</rdfs:comment>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
@@ -683,6 +787,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000116"/>
         <obo:IAO_0000115>The study of cancer, for example, genes and proteins implicated in cancer.</obo:IAO_0000115>
         <obo:IAO_0000118>Cancer biology</obo:IAO_0000118>
+        <obo:IAO_0000118>Neoplasms</obo:IAO_0000118>
+        <obo:IAO_0000118>Neoplasm</obo:IAO_0000118>
         <obo:IAO_0000118>Cancer</obo:IAO_0000118>
         <rdfs:comment>EDAM</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -696,7 +802,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Human Biology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000115>The human genome, including molecular sequences, genes, annotation, maps and viewers, the human proteome or human beings in general.</obo:IAO_0000115>
+        <obo:IAO_0000115>The study of human beings in general, including the human genome and proteome.</obo:IAO_0000115>
+        <obo:IAO_0000118>Humans</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -923,7 +1030,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118>Shotgun metagenomics</obo:IAO_0000118>
         <obo:IAO_0000118>Biome sequencing</obo:IAO_0000118>
         <obo:IAO_0000115>The study of genetic material recovered from environmental samples, and associated environmental data.</obo:IAO_0000115>
-        <obo:IAO_0000118>Environmental sequencing</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1042,8 +1148,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3301">
         <rdfs:label>Microbiology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <obo:IAO_0000118>Microbial surveillance</obo:IAO_0000118>
         <obo:IAO_0000115>The biology of microorganisms.</obo:IAO_0000115>
         <rdfs:comment>AL: 25.9.17 Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology to align with the EDAM hierarchy. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science based on the EDAM hierarchy, removing it from the Medicine hierarchy as listed by re3data.</rdfs:comment>
+        <obo:IAO_0000118>Microbiological surveillance</obo:IAO_0000118>
+        <obo:IAO_0000118>Antimicrobial stewardship</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Microbiology, Virology and Immunology</ontology:SRAO_0000268>
@@ -1241,6 +1350,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Computational Chemistry</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>Topic concerning the development and application of theory, analytical methods, mathematical models and computational simulation of chemical systems.</obo:IAO_0000115>
         <obo:IAO_0000115>Computational chemistry is a branch of chemistry that uses computer simulation to assist in solving chemical problems. [Wikipedia, PAM 27.02.0218]</obo:IAO_0000115>
         <rdfs:comment>AL: 29.9.17 Child of Chemistry and &apos;Computer science&apos;, to align with the EDAM hierarchy.</rdfs:comment>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
@@ -1318,6 +1428,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>Topic concerning biological science that is (typically) performed in the context of medicine.</obo:IAO_0000115>
         <rdfs:comment>AL: 28.9.17 &apos;Biomedical Science&apos; is at the top level of the Topic hierarchy within EDAM. This assertion has been refined to &apos;Life Sciences&apos;. There was no direct equivalent for this discipline within re3data.</rdfs:comment>
+        <obo:IAO_0000118>Biomedical sciences</obo:IAO_0000118>
         <rdfs:comment>AL 10.1.18: EDAM has &apos;Biomedical Science&apos; as synonymous with &apos;Health Science&apos;. FAIRsharing retains these as separate, albeit overlapping, fields. As such they are sibling classes rather than a single class, and the EDAM synonym &apos;Health Science&apos; is not relevant here, although the automatic annotation tool adds it.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1342,8 +1453,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3365">
         <rdfs:label>Data Architecture, Analysis and Design</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000115>The development of policies, models and standards that cover data acquisitioin, storage and integration, such that it can be put to use, typically through a process of systematically applying statistical and / or logical techniques to describe, illustrate, summarise or evaluate data.</obo:IAO_0000115>
         <obo:IAO_0000118>Data analysis</obo:IAO_0000118>
+        <obo:IAO_0000115>The development of policies, models and standards that cover data acquisition, storage and integration, such that it can be put to use, typically through a process of systematically applying statistical and / or logical techniques to describe, illustrate, summarise or evaluate data.</obo:IAO_0000115>
         <obo:IAO_0000118>Data architecture</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000118>Data design</obo:IAO_0000118>
@@ -1358,10 +1469,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Data Integration and Warehousing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000115>The combination and integration of data from different sources, for example into a central repository or warehouse, to provide users with a unified view of these data.
-
-</obo:IAO_0000115>
         <obo:IAO_0000118>Data warehousing</obo:IAO_0000118>
+        <obo:IAO_0000115>The combination and integration of data from different sources, for example into a central repository or warehouse, to provide users with a unified view of these data.</obo:IAO_0000115>
         <obo:IAO_0000118>Data integration</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1467,10 +1576,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Biotherapeutics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
         <obo:IAO_0000115>The process of formulating abd administering a pharmaceutical compound to achieve a therapeutic effect.</obo:IAO_0000115>
-        <obo:IAO_0000118>Drug delivery</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Biotherapeutics</obo:IAO_0000118>
-        <obo:IAO_0000118>Drug formulation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1485,9 +1591,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118>ADME</obo:IAO_0000118>
         <obo:IAO_0000118>Pharmacodynamics</obo:IAO_0000118>
         <obo:IAO_0000118>Drug excretion</obo:IAO_0000118>
+        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <obo:IAO_0000118>Pharmacokinetics and pharmacodynamics</obo:IAO_0000118>
         <obo:IAO_0000118>Pharmacokinetics</obo:IAO_0000118>
         <obo:IAO_0000118>Drug distribution</obo:IAO_0000118>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000118>Drug absorption</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1526,6 +1633,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Preclinical and Clinical Studies</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
         <obo:IAO_0000118>Preclinical study</obo:IAO_0000118>
+        <obo:IAO_0000118>Drug trials</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000118>Clinical study</obo:IAO_0000118>
         <obo:IAO_0000115>The testing of new medicines, vaccines or procedures on animals (preclinical) and humans (clinical) prior to their approval by regulatory authorities.</obo:IAO_0000115>
@@ -2030,6 +2138,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Database Management</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
         <obo:IAO_0000118>Databases</obo:IAO_0000118>
+        <obo:IAO_0000115>The general handling of data stored in digital archives such as databanks, databases proper, web portals and other data resources.</obo:IAO_0000115>
         <obo:IAO_0000118>Document management</obo:IAO_0000118>
         <obo:IAO_0000118>Database administration</obo:IAO_0000118>
         <obo:IAO_0000118>File management</obo:IAO_0000118>
@@ -2038,8 +2147,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118>Data maintenance</obo:IAO_0000118>
         <obo:IAO_0000118>Document, record and content management</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000115>The general handling of data stored in digital archives such as databanks, databases proper, web portals and other data resources.
-</obo:IAO_0000115>
         <obo:IAO_0000118>Biological databases</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -2055,6 +2162,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118>Animal</obo:IAO_0000118>
         <obo:IAO_0000118>Metazoa</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000118>Animal biology</obo:IAO_0000118>
+        <obo:IAO_0000118>Animals</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -2172,9 +2281,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Personalized Medicine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <obo:IAO_0000115>An approach to medicine whereby decisions, practices and are tailored to the individual patient based on their predicted response or risk of disease.</obo:IAO_0000115>
+        <obo:IAO_0000118>Precision medicine</obo:IAO_0000118>
         <ontology:SRAO_0000269>Personalised medicine</ontology:SRAO_0000269>
         <obo:IAO_0000118>Molecular diagnostics</obo:IAO_0000118>
-        <obo:IAO_0000115>Health problems that are prevalent in tropical and subtropical regions.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2186,13 +2296,15 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Microbial Ecology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0610"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
-        <rdfs:comment>AL 27.9.17 &apos;Microbial Ecology&apos; is asserted as a child of Microbiology by both EDAM and re3data and as a child of Ecology by EDAM. The re3data label &apos;Microbial Ecology and Applied Microbiology&apos; was split into &apos;Microbial Ecology&apos; and &apos;Applied Microbiology&apos;</rdfs:comment>
         <obo:IAO_0000115>The ecology of microorganisms including their relationship with one another and their environment.</obo:IAO_0000115>
-        <obo:IAO_0000118>Environmental microbiology</obo:IAO_0000118>
         <ontology:SRAO_0000268>Microbial Ecology and Applied Microbiology</ontology:SRAO_0000268>
+        <obo:IAO_0000118>Molecular community analysis</obo:IAO_0000118>
+        <rdfs:comment>AL 27.9.17 &apos;Microbial Ecology&apos; is asserted as a child of Microbiology by both EDAM and re3data and as a child of Ecology by EDAM. The re3data label &apos;Microbial Ecology and Applied Microbiology&apos; was split into &apos;Microbial Ecology&apos; and &apos;Applied Microbiology&apos;</rdfs:comment>
+        <obo:IAO_0000118>Environmental microbiology</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000118>Microbiome</obo:IAO_0000118>
+        <obo:IAO_0000118>Community analysis</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2225,6 +2337,23 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118>Natural History</obo:IAO_0000118>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000115>The systematic account of natural phenomena; in medicine, the elucidation and description of disease progress.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16304 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C16304">
+        <rdfs:label>Architecture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1648"/>
+        <rdfs:comment>AL 23.5.18: The original &quot;Construction Engineering and Architecture&quot; class from re3data has been split into &quot;Construction Engineering&quot; and &quot;Architecture&quot;. Users have requested the single terms, and removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <obo:IAO_0000118>Architecture</obo:IAO_0000118>
+        <obo:IAO_0000115>The art or science of building; especially, the art of building houses, churches, bridges, and other structures, for the purposes of civil life</obo:IAO_0000115>
+        <obo:IAO_0000115>Architecture - The art or practice of designing and constructing buildings [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000118>Engineering / Architecture</obo:IAO_0000118>
+        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2301,6 +2430,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Entomology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000118>Entomology</obo:IAO_0000118>
+        <obo:IAO_0000115>Entomology; the branch of zoology that studies insects.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
 
@@ -2404,10 +2536,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C18633">
         <rdfs:label>Animal Genetics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
+        <obo:IAO_0000118>Animal Genetics</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 25.1 18: The label within NCIT has been chosen as the label for this class as it is simpler, while the re3data has been retained as an alternative term.</rdfs:comment>
         <ontology:SRAO_0000268 xml:lang="en">Animal Genetics, Cell and Developmental Biology</ontology:SRAO_0000268>
+        <obo:IAO_0000115>The study of genetic traits in animals.</obo:IAO_0000115>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
 
@@ -4148,12 +4283,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000206 -->
 
     <owl:Class rdf:about="&ontology;SRAO_0000206">
-        <rdfs:label xml:lang="en">Mechanical and industrial Engineering</rdfs:label>
+        <rdfs:label>Industrial Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
+        <rdfs:comment>AL 24.5.18: The original &quot;Mechanical and industrial Engineering&quot; class from re3data has been split into &quot;Mechanical Engineering&quot; and &quot;Industrial Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000115>Mechanical Engineering applies the principles of engineering, physics and materials science to the design, analysis, manufacture and maintenance of mechnical systems. [Adapted from Quora, PAM 27.02.2018]
-
-Industrial engineering is a branch of engineering which deals with the optimization of complex processes, systems, or organizations, to create engineering processes and systems that improve quality and productivity. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115>Mechanical Engineering applies the principles of engineering, physics and materials science to the design, analysis, manufacture and maintenance of mechnical systems. [Adapted from Quora, PAM 27.02.2018]</obo:IAO_0000115>
+        <ontology:SRAO_0000268 xml:lang="en">Mechanical and industrial Engineering</ontology:SRAO_0000268>
     </owl:Class>
     
 
@@ -4223,7 +4358,7 @@ Industrial engineering is a branch of engineering which deals with the optimizat
 
     <owl:Class rdf:about="&ontology;SRAO_0000213">
         <rdfs:label xml:lang="en">Mechanics and Constructive Mechanical Engineering</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000206"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
         <obo:IAO_0000115>&apos;Mechanics and Constructive Mechanical Engineering&apos; applies engineering, physics, and materials science principles to design, analyze, manufacture, and maintain mechanical systems. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
@@ -4457,8 +4592,10 @@ Process engineering focuses on the design, operation, control, optimization and 
     <owl:Class rdf:about="&ontology;SRAO_0000236">
         <rdfs:label xml:lang="en">Materials Science</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000229"/>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
         <obo:IAO_0000115>The scientific study of the properties and applications of materials of construction or manufacture (such as ceramics, metals, polymers, and composites. [Merriam Webster Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment>AL 23.5.18: Placement within the hierarchy follows re3data (where the parent is &quot;Materials Science and Engineering&quot;) and FAIRsharing curation choices (because this research area involves Construction Engineering).</rdfs:comment>
     </owl:Class>
     
 
@@ -4681,11 +4818,13 @@ Computer Architecture is a set of rules and methods that describe the functional
     <!-- http://www.fairsharing.org/ontology/SRAO_0000259 -->
 
     <owl:Class rdf:about="&ontology;SRAO_0000259">
-        <rdfs:label xml:lang="en">Construction Engineering and Architecture</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
+        <rdfs:label xml:lang="en">Construction Engineering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1648"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000115>Construction Engineering - a professional discipline that deals with the designing, planning, construction, and management of infrastructures such as roads, tunnels, bridges, airports, railroads, facilities, buildings, dams, utilities and other projects. Construction Engineering is considered a professional sub-practice area of civil engineering or architectural engineering. [Wikipedia, PAM 27.02.2018]
-Architecture - The art or practice of designing and constructing buildings [Oxford English Dictionary, PAM27.02.2018]</obo:IAO_0000115>
+</obo:IAO_0000115>
+        <rdfs:comment>AL 23.5.18: The original &quot;Construction Engineering and Architecture&quot; class from re3data has been split into &quot;Construction Engineering&quot; and &quot;Architecture&quot;. Users have requested the single terms, and removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <ontology:SRAO_0000268>Construction Engineering and Architecture</ontology:SRAO_0000268>
     </owl:Class>
     
 
@@ -4693,10 +4832,12 @@ Architecture - The art or practice of designing and constructing buildings [Oxfo
     <!-- http://www.fairsharing.org/ontology/SRAO_0000260 -->
 
     <owl:Class rdf:about="&ontology;SRAO_0000260">
-        <rdfs:label xml:lang="en">Architecture, Building and Construction History, Sustainable Building Technology, Building Design</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
+        <rdfs:label>Construction History</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16304"/>
+        <rdfs:comment>AL 24.5.18: The original &quot;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&quot; class from re3data has been split into &quot;Construction History&quot;, &quot;Sustainable Building Technology&quot; and &quot;Building Design&quot;. &quot;Architecture&quot; is now the parent class, &quot;Building and Construction History&quot; have been consolidated into a single class to align with community usage and to remove it as a compound term. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <obo:IAO_0000115>Construction History is the history of how not only buildings are constructed, but also the construction of civil engineering and infrastructure. As such, it includes bridges, sewers, power stations, mills etc. as well as conventional buildings. In particular, the subject focuses on how these objects were constructed. [Adapted from http://www.constructionhistory.co.uk/about-construction-history-society/construction-history/, AL 08.05.18]</obo:IAO_0000115>
+        <ontology:SRAO_0000268 xml:lang="en">Architecture, Building and Construction History, Sustainable Building Technology, Building Design</ontology:SRAO_0000268>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000115>&apos;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&apos; covers the art or practice of designing and constructing buildings, both in the past and with a view towards the use of modern materials and energy-saving techniques [Adapted from the Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4704,10 +4845,11 @@ Architecture - The art or practice of designing and constructing buildings [Oxfo
     <!-- http://www.fairsharing.org/ontology/SRAO_0000261 -->
 
     <owl:Class rdf:about="&ontology;SRAO_0000261">
-        <rdfs:label xml:lang="en">Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning</rdfs:label>
+        <rdfs:label>Transportation Planning</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000115>&apos;Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning&apos; covers the process of defining future policies, goals, investments, and designs to prepare for future needs to move people and goods to destinations, urban traffic flow, and human settlement planning [Adapted from Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115>Transport Planning is the process of defining future policies, goals, investments, and designs to prepare for future needs to move people and goods to destinations. It is involved with the evaluation, assessment, design, and siting of transport facilities (generally streets, highways, bike lanes, and public transport lines). [Wikipedia https://en.wikipedia.org/wiki/Transportation_planning, AL 08.05.18]</obo:IAO_0000115>
+        <rdfs:comment>AL 23.5.18: The original &quot;Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning&quot; class from re3data has been split into &quot;Urban Planning&quot;, &quot;Transportation Planning&quot; and &quot;Landscape Planning&quot;. Urbanism and Spatial Planning have been consolidated into a single class as it provides an appropriate level of detail for FAIRsharing users. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
     </owl:Class>
     
 
@@ -4715,10 +4857,12 @@ Architecture - The art or practice of designing and constructing buildings [Oxfo
     <!-- http://www.fairsharing.org/ontology/SRAO_0000262 -->
 
     <owl:Class rdf:about="&ontology;SRAO_0000262">
-        <rdfs:label xml:lang="en">Construction Material Sciences, Chemistry, Building Physics</rdfs:label>
+        <rdfs:label xml:lang="en">Building Engineering Physics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
+        <rdfs:comment>AL 23.5.18: Renamed to align with FAIRsharing best practices. &quot;Building Engineering Physics&quot; was chosen rather than &quot;Building Physics to match what appears to be common usage within the community.</rdfs:comment>
+        <ontology:SRAO_0000268>Construction Material Sciences, Chemistry, Building Physics</ontology:SRAO_0000268>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000115>&apos;Construction Material Sciences, Chemistry, Building Physics&apos; covers a the design, planning construction and management of buildings and infrastructure projects, taking into account material science, chemistry and mechanics. [Adapted from Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115>Building Engineering Physics investigates the areas of natural science that relate to the energy performance of buildings and their indoor and outdoor environments. The understanding and application of Building Engineering Physics allows us to design and construct high performance buildings which are comfortable and functional, yet use natural resources efficiently and minimise the environmental impacts of their construction and operation. It is related to Architecture, Structural Engineering and Building Services Engineering. [https://www.raeng.org.uk/news/news-releases/2010/January/engineering-a-low-carbon-built-environment, AL 08.05.18]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4726,10 +4870,13 @@ Architecture - The art or practice of designing and constructing buildings [Oxfo
     <!-- http://www.fairsharing.org/ontology/SRAO_0000263 -->
 
     <owl:Class rdf:about="&ontology;SRAO_0000263">
-        <rdfs:label xml:lang="en">Sructural Engineering, Building Informatics, Construction Operation</rdfs:label>
+        <rdfs:label>Structural Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
+        <ontology:SRAO_0000268 xml:lang="en">Sructural Engineering, Building Informatics, Construction Operation</ontology:SRAO_0000268>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000115>Structural engineering is a sub-discipline of civil engineering in which structural engineers are trained to understand, predict, and calculate the stability, strength and rigidity of built structures for buildings and nonbuilding structures, to develop designs and integrate their design with that of other designers, and to supervise construction of projects on site. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115>Structural engineering is a sub-discipline of civil engineering in which structural engineers are trained to understand, predict, and calculate the stability, strength and rigidity of built structures for buildings and nonbuilding structures, to develop designs and integrate their design with that of other designers, and to supervise construction of projects on site. [Wikipedia, PAM 27.02.2018]
+Structural Engineering is the branch of civil engineering concerned with the analysis and design of large buildings and load-bearing structures. [Oxford English Dictionary, AL 08.15.18]</obo:IAO_0000115>
+        <rdfs:comment>AL 23.5.18: The original &quot;Structural Engineering, Building Informatics, Construction Operation&quot; class from re3data has been split into &quot;Structural Engineering&quot; and &quot;Building Informatics&quot;. Removal of compound terms aligns with FAIRsharing best practices. &quot;Construction Operation&quot; has been removed until it is clear what re3data intend with this discipline.</rdfs:comment>
     </owl:Class>
     
 
@@ -4748,11 +4895,13 @@ Architecture - The art or practice of designing and constructing buildings [Oxfo
     <!-- http://www.fairsharing.org/ontology/SRAO_0000265 -->
 
     <owl:Class rdf:about="&ontology;SRAO_0000265">
-        <rdfs:label xml:lang="en">Geotechnics, Hydraulic Engineering</rdfs:label>
+        <rdfs:label>Geotechnics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
-        <obo:IAO_0000115>Geotechnics is the application of scientific methods and engineering principles to the acquisition, interpretation, and use of knowledge of materials of the Earth&apos;s crust and earth materials for the solution of engineering problems and the design of engineering works. [Wikipedia, PAM 27.02.0218]
-Hydraulic engineering as a sub-discipline of civil engineering is concerned with the flow and conveyance of fluids, principally water and sewage. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>Geotechnics is the application of science and technology to the management and utilization of the earth&apos;s physical resources. [Oxford English Dictionary, AL 08.05.18] It is the application of scientific methods and engineering principles to the acquisition, interpretation, and use of knowledge of materials of the Earth&apos;s crust and earth materials for the solution of engineering problems and the design of engineering works. [Wikipedia, PAM 27.02.0218]
+</obo:IAO_0000115>
+        <rdfs:comment>AL 23.5.18: The original &quot;Geotechnics, Hydraulic Engineering&quot; class from re3data has been split into &quot;Geotechnics&quot; and &quot;Hydraulic Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <ontology:SRAO_0000268 xml:lang="en">Geotechnics, Hydraulic Engineering</ontology:SRAO_0000268>
     </owl:Class>
     
 
@@ -4763,6 +4912,77 @@ Hydraulic engineering as a sub-discipline of civil engineering is concerned with
         <rdfs:label xml:lang="en">Rural and Agricultural Sociology</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C17141"/>
         <obo:IAO_0000412>User request</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000282 -->
+
+    <owl:Class rdf:about="&ontology;SRAO_0000282">
+        <rdfs:label xml:lang="en">Maritime Engineering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
+        <rdfs:comment>AL 22.5.18: This class has been created based on requirements from FAIRsharing records rather than via the re3data import.</rdfs:comment>
+        <obo:IAO_0000118>Marine Engineering</obo:IAO_0000118>
+        <obo:IAO_0000115>Maritime Engineering is a broad-based research area focusing on the study and investigation of engineering systems operating in the maritime environment. [University of Southampton https://www.southampton.ac.uk/engineering/what_we_do/maritime_engineering_and_ship_science.page, AL 22.05.18</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000283 -->
+
+    <owl:Class rdf:about="&ontology;SRAO_0000283">
+        <rdfs:label xml:lang="en">Aerospace Engineering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
+        <obo:IAO_0000115>Aerospace engineering is the field of engineering concerned with the development of aircraft and spacecraft. [Wikipedia https://en.wikipedia.org/wiki/Aerospace_engineering, AL 22.05.18]</obo:IAO_0000115>
+        <rdfs:comment>AL 22.5.18: This class has been created based on requirements from FAIRsharing records rather than via the re3data import.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000285 -->
+
+    <owl:Class rdf:about="&ontology;SRAO_0000285">
+        <rdfs:label xml:lang="en">Building Informatics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
+        <rdfs:comment>AL 23.5.18: Awaiting definition. The original &quot;Structural Engineering, Building Informatics, Construction Operation&quot; class from re3data has been split into &quot;Structural Engineering&quot; and &quot;Building Informatics&quot;. Removal of compound terms aligns with FAIRsharing best practices. &quot;Construction Operation&quot; has been removed until it is clear what re3data intend with this discipline.</rdfs:comment>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000286 -->
+
+    <owl:Class rdf:about="&ontology;SRAO_0000286">
+        <rdfs:label xml:lang="en">Landscape Planning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000259"/>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment>AL 24.5.18: The original &quot;Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning&quot; class from re3data has been split into &quot;Urban Planning&quot;, &quot;Transportation Planning&quot; and &quot;Landscape Planning&quot;. Urbanism and Spatial Planning have been consolidated into a single class as it provides an appropriate level of detail for FAIRsharing users. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <obo:IAO_0000115>Landscape Planning is concerned with developing landscaping amongst competing land uses while protecting natural processes and significant cultural and natural resources. [Wikipedia https://en.wikipedia.org/wiki/Landscape_planning, AL 08.05.18]</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000287 -->
+
+    <owl:Class rdf:about="&ontology;SRAO_0000287">
+        <rdfs:label xml:lang="en">Sustainable Building Technology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16304"/>
+        <rdfs:comment>AL 24.5.18: The original &quot;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&quot; class from re3data has been split into &quot;Construction History&quot;, &quot;Sustainable Building Technology&quot; and &quot;Building Design&quot;. &quot;Architecture&quot; is now the parent class, &quot;Building and Construction History&quot; have been consolidated into a single class to align with community usage and to remove it as a compound term. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <obo:IAO_0000118>Green Building Technology</obo:IAO_0000118>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>Sustainable Building Technology is the application of processes that are environmentally responsible and resource-efficient throughout a building&apos;s life-cycle: from planning to design, construction, operation, maintenance, renovation, and demolition. This requires close cooperation of the contractor, the architects, the engineers, and the client at all project stages. [Wikipedia https://en.wikipedia.org/wiki/Green_building, AL 08.05.18]</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000288 -->
+
+    <owl:Class rdf:about="&ontology;SRAO_0000288">
+        <rdfs:label xml:lang="en">Building Design</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16304"/>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>Building design refers to the broadly based architectural, engineering and technical applications to the design of buildings. [Wikipedia https://en.wikipedia.org/wiki/Building_design, AL 08.05.18]</obo:IAO_0000115>
+        <rdfs:comment>AL 24.5.18: The original &quot;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&quot; class from re3data has been split into &quot;Construction History&quot;, &quot;Sustainable Building Technology&quot; and &quot;Building Design&quot;. &quot;Architecture&quot; is now the parent class, &quot;Building and Construction History&quot; have been consolidated into a single class to align with community usage and to remove it as a compound term. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
     </owl:Class>
     
 

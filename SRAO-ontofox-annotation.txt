@@ -180,6 +180,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000115
 NCIT
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C16304 # Architecture
 http://purl.obolibrary.org/obo/NCIT_C16147 # Natural History
 http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
 http://purl.obolibrary.org/obo/NCIT_C16478 # Culture

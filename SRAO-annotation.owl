@@ -112,8 +112,10 @@
     <owl:Class rdf:about="http://edamontology.org/topic_0121">
         <obo:IAO_0000115>Protein and peptide identification, especially in the study of whole proteomes of organisms.</obo:IAO_0000115>
         <obo:IAO_0000118>Metaproteomics</obo:IAO_0000118>
+        <obo:IAO_0000118>Discovery proteomics</obo:IAO_0000118>
         <obo:IAO_0000118>Protein and peptide identification</obo:IAO_0000118>
         <obo:IAO_0000118>Peptide identification</obo:IAO_0000118>
+        <obo:IAO_0000118>Targeted proteomics</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -230,6 +232,8 @@
     <!-- http://edamontology.org/topic_0622 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0622">
+        <obo:IAO_0000118>Genome annotation</obo:IAO_0000118>
+        <obo:IAO_0000118>Viral genomics</obo:IAO_0000118>
         <obo:IAO_0000118>Personal genomics</obo:IAO_0000118>
         <obo:IAO_0000115>Whole genomes of one or more organisms, or genomes in general, such as meta-information on genomes, genome projects, gene names etc.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -259,7 +263,10 @@
     <!-- http://edamontology.org/topic_0780 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0780">
+        <obo:IAO_0000118>Plants</obo:IAO_0000118>
+        <obo:IAO_0000118>Plant science</obo:IAO_0000118>
         <obo:IAO_0000115>Plants, e.g. information on a specific plant genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
+        <obo:IAO_0000118>Botany</obo:IAO_0000118>
         <obo:IAO_0000118>Plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -269,7 +276,7 @@
     <!-- http://edamontology.org/topic_0781 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0781">
-        <obo:IAO_0000115>Viruses, e.g. sequence and structural data, interactions of viral proteins, or a viral genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
+        <obo:IAO_0000115>Study of viruses, e.g. sequence and structural data, interactions of viral proteins, or a viral genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -355,6 +362,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_2640">
         <obo:IAO_0000115>The study of cancer, for example, genes and proteins implicated in cancer.</obo:IAO_0000115>
+        <obo:IAO_0000118>Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Neoplasms</obo:IAO_0000118>
         <obo:IAO_0000118>Cancer biology</obo:IAO_0000118>
         <obo:IAO_0000118>Cancer</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -365,7 +374,8 @@
     <!-- http://edamontology.org/topic_2815 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2815">
-        <obo:IAO_0000115>The human genome, including molecular sequences, genes, annotation, maps and viewers, the human proteome or human beings in general.</obo:IAO_0000115>
+        <obo:IAO_0000115>The study of human beings in general, including the human genome and proteome.</obo:IAO_0000115>
+        <obo:IAO_0000118>Humans</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -525,7 +535,6 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3174">
         <obo:IAO_0000118>Shotgun metagenomics</obo:IAO_0000118>
-        <obo:IAO_0000118>Environmental sequencing</obo:IAO_0000118>
         <obo:IAO_0000115>The study of genetic material recovered from environmental samples, and associated environmental data.</obo:IAO_0000115>
         <obo:IAO_0000118>Biome sequencing</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -612,7 +621,10 @@
     <!-- http://edamontology.org/topic_3301 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3301">
+        <obo:IAO_0000118>Antimicrobial stewardship</obo:IAO_0000118>
         <obo:IAO_0000115>The biology of microorganisms.</obo:IAO_0000115>
+        <obo:IAO_0000118>Microbial surveillance</obo:IAO_0000118>
+        <obo:IAO_0000118>Microbiological surveillance</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -748,6 +760,7 @@
     <!-- http://edamontology.org/topic_3332 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3332">
+        <obo:IAO_0000115>Topic concerning the development and application of theory, analytical methods, mathematical models and computational simulation of chemical systems.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -797,6 +810,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3344">
         <obo:IAO_0000115>Topic concerning biological science that is (typically) performed in the context of medicine.</obo:IAO_0000115>
+        <obo:IAO_0000118>Biomedical sciences</obo:IAO_0000118>
         <obo:IAO_0000118>Health science</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -815,10 +829,10 @@
     <!-- http://edamontology.org/topic_3365 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3365">
-        <obo:IAO_0000115>The development of policies, models and standards that cover data acquisitioin, storage and integration, such that it can be put to use, typically through a process of systematically applying statistical and / or logical techniques to describe, illustrate, summarise or evaluate data.</obo:IAO_0000115>
         <obo:IAO_0000118>Data analysis</obo:IAO_0000118>
         <obo:IAO_0000118>Data design</obo:IAO_0000118>
         <obo:IAO_0000118>Data architecture</obo:IAO_0000118>
+        <obo:IAO_0000115>The development of policies, models and standards that cover data acquisition, storage and integration, such that it can be put to use, typically through a process of systematically applying statistical and / or logical techniques to describe, illustrate, summarise or evaluate data.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -827,10 +841,8 @@
     <!-- http://edamontology.org/topic_3366 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3366">
-        <obo:IAO_0000115>The combination and integration of data from different sources, for example into a central repository or warehouse, to provide users with a unified view of these data.
-
-</obo:IAO_0000115>
         <obo:IAO_0000118>Data warehousing</obo:IAO_0000118>
+        <obo:IAO_0000115>The combination and integration of data from different sources, for example into a central repository or warehouse, to provide users with a unified view of these data.</obo:IAO_0000115>
         <obo:IAO_0000118>Data integration</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -903,10 +915,7 @@
     <!-- http://edamontology.org/topic_3374 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3374">
-        <obo:IAO_0000118>Drug delivery</obo:IAO_0000118>
         <obo:IAO_0000115>The process of formulating abd administering a pharmaceutical compound to achieve a therapeutic effect.</obo:IAO_0000115>
-        <obo:IAO_0000118>Drug formulation</obo:IAO_0000118>
-        <obo:IAO_0000118>Biotherapeutics</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -917,6 +926,7 @@
     <owl:Class rdf:about="http://edamontology.org/topic_3375">
         <obo:IAO_0000118>Drug absorption</obo:IAO_0000118>
         <obo:IAO_0000118>Pharmacodynamics</obo:IAO_0000118>
+        <obo:IAO_0000118>Pharmacokinetics and pharmacodynamics</obo:IAO_0000118>
         <obo:IAO_0000115>The study of how a drug interacts with the body.</obo:IAO_0000115>
         <obo:IAO_0000118>Drug distribution</obo:IAO_0000118>
         <obo:IAO_0000118>Pharmacokinetics</obo:IAO_0000118>
@@ -953,6 +963,7 @@
         <obo:IAO_0000118>Preclinical study</obo:IAO_0000118>
         <obo:IAO_0000118>Preclinical studies</obo:IAO_0000118>
         <obo:IAO_0000118>Clinical studies</obo:IAO_0000118>
+        <obo:IAO_0000118>Drug trials</obo:IAO_0000118>
         <obo:IAO_0000118>Clinical study</obo:IAO_0000118>
         <obo:IAO_0000115>The testing of new medicines, vaccines or procedures on animals (preclinical) and humans (clinical) prior to their approval by regulatory authorities.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1309,10 +1320,9 @@
         <obo:IAO_0000118>Database administration</obo:IAO_0000118>
         <obo:IAO_0000118>Data maintenance</obo:IAO_0000118>
         <obo:IAO_0000118>Record management</obo:IAO_0000118>
+        <obo:IAO_0000115>The general handling of data stored in digital archives such as databanks, databases proper, web portals and other data resources.</obo:IAO_0000115>
         <obo:IAO_0000118>Document, record and content management</obo:IAO_0000118>
         <obo:IAO_0000118>Content management</obo:IAO_0000118>
-        <obo:IAO_0000115>The general handling of data stored in digital archives such as databanks, databases proper, web portals and other data resources.
-</obo:IAO_0000115>
         <obo:IAO_0000118>Document management</obo:IAO_0000118>
         <obo:IAO_0000118>File management</obo:IAO_0000118>
         <obo:IAO_0000118>Biological databases</obo:IAO_0000118>
@@ -1326,8 +1336,10 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3500">
         <obo:IAO_0000118>Metazoa</obo:IAO_0000118>
+        <obo:IAO_0000118>Animals</obo:IAO_0000118>
         <obo:IAO_0000118>Animal</obo:IAO_0000118>
         <obo:IAO_0000115>Animals, e.g. information on a specific animal genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
+        <obo:IAO_0000118>Animal biology</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1413,7 +1425,8 @@
     <!-- http://edamontology.org/topic_3577 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3577">
-        <obo:IAO_0000115>Health problems that are prevalent in tropical and subtropical regions.</obo:IAO_0000115>
+        <obo:IAO_0000115>An approach to medicine whereby decisions, practices and are tailored to the individual patient based on their predicted response or risk of disease.</obo:IAO_0000115>
+        <obo:IAO_0000118>Precision medicine</obo:IAO_0000118>
         <obo:IAO_0000118>Molecular diagnostics</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1423,6 +1436,8 @@
     <!-- http://edamontology.org/topic_3697 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3697">
+        <obo:IAO_0000118>Community analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Molecular community analysis</obo:IAO_0000118>
         <obo:IAO_0000118>Microbiome</obo:IAO_0000118>
         <obo:IAO_0000115>The ecology of microorganisms including their relationship with one another and their environment.</obo:IAO_0000115>
         <obo:IAO_0000118>Environmental microbiology</obo:IAO_0000118>
@@ -1450,6 +1465,17 @@
         <obo:IAO_0000118>Natural History</obo:IAO_0000118>
         <obo:IAO_0000118>natural history study</obo:IAO_0000118>
         <obo:IAO_0000115>The systematic account of natural phenomena; in medicine, the elucidation and description of disease progress.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16304">
+        <obo:IAO_0000118>Architecture</obo:IAO_0000118>
+        <obo:IAO_0000118>Engineering / Architecture</obo:IAO_0000118>
+        <obo:IAO_0000115>The art or science of building; especially, the art of building houses, churches, bridges, and other structures, for the purposes of civil life</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -1497,6 +1523,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16548">
         <obo:IAO_0000118>Engineering</obo:IAO_0000118>
         <obo:IAO_0000115>The discipline concerned with the application of scientific knowledge to solve practical issues in commerce or industry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16550">
+        <obo:IAO_0000118>Entomology</obo:IAO_0000118>
+        <obo:IAO_0000115>Entomology; the branch of zoology that studies insects.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -1564,6 +1600,16 @@
         <obo:IAO_0000118>Bioengineering</obo:IAO_0000118>
         <obo:IAO_0000118>Biomedical Engineering</obo:IAO_0000118>
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18633">
+        <obo:IAO_0000118>Animal Genetics</obo:IAO_0000118>
+        <obo:IAO_0000115>The study of genetic traits in animals.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
