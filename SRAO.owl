@@ -190,9 +190,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_203">
         <rdfs:label>Agriculture</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000412>AGROVOC</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Agriculture, Forestry, Horticulture and Veterinary Medicine</ontology:SRAO_0000268>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
     </owl:Class>
     
 
@@ -242,6 +242,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_3671 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3671">
+        <rdfs:label>Horticulture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000115>The cultivation of a garden; the art or science of cultivating or managing gardens, including the growing of flowers, fruits, and vegetables. [Oxford English Dictionary]</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_3713 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3713">
@@ -274,8 +285,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_4682">
         <rdfs:label>Mechanical Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
-        <obo:IAO_0000115>Industrial engineering is a branch of engineering which deals with the optimization of complex processes, systems, or organizations, to create engineering processes and systems that improve quality and productivity. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <rdfs:comment>AL 24.5.18: The original &quot;Mechanical and industrial Engineering&quot; class from re3data has been split into &quot;Mechanical Engineering&quot; and &quot;Industrial Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <obo:IAO_0000115>Industrial engineering is a branch of engineering which deals with the optimization of complex processes, systems, or organizations, to create engineering processes and systems that improve quality and productivity. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
     </owl:Class>
@@ -328,8 +339,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_9000089">
         <rdfs:label>Knowledge And Information Systems</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000256"/>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000115>Knowledge and Information systems create, share, and manage knowledge and information. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>AGROVOC</obo:IAO_0000412>
     </owl:Class>
     
 
@@ -342,7 +353,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0610"/>
         <rdfs:comment>AL 9.11.2017: Added subClassOf Ecology axiom to allow users to find this subject both via the original re3data hierarchy and the additional EDAM hierarchy. Also added the URI and label from AGROVOC as it is preferred to the re3data label, which has become an alternative term.</rdfs:comment>
         <ontology:SRAO_0000268>Ecology of Agricultural Landscapes</ontology:SRAO_0000268>
-        <obo:IAO_0000412>AGROVOC</obo:IAO_0000412>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
