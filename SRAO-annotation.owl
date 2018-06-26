@@ -217,18 +217,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0610 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0610">
-        <obo:IAO_0000118>Ecological informatics</obo:IAO_0000118>
-        <obo:IAO_0000115>The ecological and environmental sciences and especially the application of information technology (ecoinformatics).</obo:IAO_0000115>
-        <obo:IAO_0000118>Computational ecology</obo:IAO_0000118>
-        <obo:IAO_0000118>Ecoinformatics</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0622 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0622">
@@ -1513,6 +1501,16 @@
         <obo:IAO_0000118>Demography</obo:IAO_0000118>
         <obo:IAO_0000115>The statistical characterization of human populations or segments of human populations (e.g., characterization by age, sex, race, or income).</obo:IAO_0000115>
         <obo:IAO_0000118>Demographic Factor</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16526">
+        <obo:IAO_0000115>The branch of biology concerned with the relations between organisms and their environment.</obo:IAO_0000115>
+        <obo:IAO_0000118>Ecology</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     

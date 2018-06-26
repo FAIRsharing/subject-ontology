@@ -175,9 +175,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_203">
         <rdfs:label>Agriculture</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000412>AGROVOC</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Agriculture, Forestry, Horticulture and Veterinary Medicine</ontology:SRAO_0000268>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
     </owl:Class>
     
 
@@ -223,6 +223,29 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000196"/>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_331559 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_331559">
+        <rdfs:label>Environmental Sciences</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="&obo;OMIT_0026615"/>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000115>Environmental Sciences is a broad interdisciplinary field in which ecologists work with other physical, chemical, and biological researchers to study and seek solutions to environmental problems. Environmental science focuses on the environment and how humans can manage and utilise its resources and the effects our actions have on the environment. [Adapted by AL from https://www.quora.com/What-are-the-main-differences-between-ecology-and-environmental-science and https://blog.oup.com/2012/05/its-ecology-not-environmental-science/ 26.6.18]</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_3671 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3671">
+        <rdfs:label>Horticulture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000115>The cultivation of a garden; the art or science of cultivating or managing gardens, including the growing of flowers, fruits, and vegetables. [Oxford English Dictionary]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -313,8 +336,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_9000089">
         <rdfs:label>Knowledge And Information Systems</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000256"/>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000115>Knowledge and Information systems create, share, and manage knowledge and information. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>AGROVOC</obo:IAO_0000412>
     </owl:Class>
     
 
@@ -324,10 +347,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_92381">
         <rdfs:label xml:lang="en">Agroecology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0610"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16526"/>
         <rdfs:comment>AL 9.11.2017: Added subClassOf Ecology axiom to allow users to find this subject both via the original re3data hierarchy and the additional EDAM hierarchy. Also added the URI and label from AGROVOC as it is preferred to the re3data label, which has become an alternative term.</rdfs:comment>
         <ontology:SRAO_0000268>Ecology of Agricultural Landscapes</ontology:SRAO_0000268>
-        <obo:IAO_0000412>AGROVOC</obo:IAO_0000412>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -583,21 +606,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_0610 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0610">
-        <rdfs:label>Ecology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Computational ecology</obo:IAO_0000118>
-        <obo:IAO_0000115>The ecological and environmental sciences and especially the application of information technology (ecoinformatics).</obo:IAO_0000115>
-        <obo:IAO_0000118>Ecoinformatics</obo:IAO_0000118>
-        <obo:IAO_0000118>Ecological informatics</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0622 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0622">
@@ -840,7 +848,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3050">
         <rdfs:label>Biodiversity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0610"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16526"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The degree of variation of life forms within a given ecosystem, biome or an entire planet.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1025,7 +1033,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3174">
         <rdfs:label>Metagenomics</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0610"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16526"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000118>Shotgun metagenomics</obo:IAO_0000118>
         <obo:IAO_0000118>Biome sequencing</obo:IAO_0000118>
@@ -2294,8 +2302,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3697">
         <rdfs:label>Microbial Ecology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0610"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16526"/>
         <obo:IAO_0000115>The ecology of microorganisms including their relationship with one another and their environment.</obo:IAO_0000115>
         <ontology:SRAO_0000268>Microbial Ecology and Applied Microbiology</ontology:SRAO_0000268>
         <obo:IAO_0000118>Molecular community analysis</obo:IAO_0000118>
@@ -2403,6 +2411,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118>Demographic Factors</obo:IAO_0000118>
         <obo:IAO_0000118>Demographics</obo:IAO_0000118>
         <obo:IAO_0000118>Demography</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16526 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C16526">
+        <rdfs:label>Ecology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <obo:IAO_0000115>The branch of biology concerned with the relations between organisms and their environment.</obo:IAO_0000115>
+        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000118>Ecology</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     

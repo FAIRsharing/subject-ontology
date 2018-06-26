@@ -33,7 +33,6 @@ http://edamontology.org/topic_0209
 http://edamontology.org/topic_0218
 http://edamontology.org/topic_0219
 http://edamontology.org/topic_0605
-http://edamontology.org/topic_0610
 http://edamontology.org/topic_0622
 http://edamontology.org/topic_0634
 http://edamontology.org/topic_0637
@@ -185,6 +184,7 @@ http://purl.obolibrary.org/obo/NCIT_C16147 # Natural History
 http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
 http://purl.obolibrary.org/obo/NCIT_C16478 # Culture
 http://purl.obolibrary.org/obo/NCIT_C16495 # Demographics
+http://purl.obolibrary.org/obo/NCIT_C16526 # Ecology
 http://purl.obolibrary.org/obo/NCIT_C16548 # Engineering Science
 http://purl.obolibrary.org/obo/NCIT_C16550 # Entomology
 http://purl.obolibrary.org/obo/NCIT_C16633 # Geography

@@ -242,6 +242,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_331559 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_331559">
+        <rdfs:label>Environmental Sciences</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="&obo;OMIT_0026615"/>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000115>Environmental Sciences is a broad interdisciplinary field in which ecologists work with other physical, chemical, and biological researchers to study and seek solutions to environmental problems. Environmental science focuses on the environment and how humans can manage and utilise its resources and the effects our actions have on the environment. [Adapted by AL from https://www.quora.com/What-are-the-main-differences-between-ecology-and-environmental-science and https://blog.oup.com/2012/05/its-ecology-not-environmental-science/ 26.6.18]</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_3671 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3671">
@@ -350,7 +362,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_92381">
         <rdfs:label xml:lang="en">Agroecology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0610"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16526"/>
         <rdfs:comment>AL 9.11.2017: Added subClassOf Ecology axiom to allow users to find this subject both via the original re3data hierarchy and the additional EDAM hierarchy. Also added the URI and label from AGROVOC as it is preferred to the re3data label, which has become an alternative term.</rdfs:comment>
         <ontology:SRAO_0000268>Ecology of Agricultural Landscapes</ontology:SRAO_0000268>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
@@ -549,16 +561,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_0610 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0610">
-        <rdfs:label>Ecology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0622 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0622">
@@ -741,7 +743,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3050">
         <rdfs:label>Biodiversity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0610"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16526"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
     </owl:Class>
     
@@ -887,7 +889,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3174">
         <rdfs:label>Metagenomics</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0610"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16526"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
     </owl:Class>
     
@@ -1856,8 +1858,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3697">
         <rdfs:label>Microbial Ecology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0610"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16526"/>
         <rdfs:comment>AL 27.9.17 &apos;Microbial Ecology&apos; is asserted as a child of Microbiology by both EDAM and re3data and as a child of Ecology by EDAM. The re3data label &apos;Microbial Ecology and Applied Microbiology&apos; was split into &apos;Microbial Ecology&apos; and &apos;Applied Microbiology&apos;</rdfs:comment>
         <ontology:SRAO_0000268>Microbial Ecology and Applied Microbiology</ontology:SRAO_0000268>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -1930,6 +1932,16 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C17141"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Hierarchy placement based on ESRC descriptions (http://www.esrc.ac.uk/about-us/what-is-social-science/social-science-disciplines/).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16526 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C16526">
+        <rdfs:label>Ecology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
     </owl:Class>
     
 
