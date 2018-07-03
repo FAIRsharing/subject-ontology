@@ -1431,12 +1431,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3397 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3397">
-        <rdfs:label xml:lang="en">Basic Veterinary Medical Science</rdfs:label>
+        <rdfs:label>Veterinary medicine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <ontology:SRAO_0000269>Veterinary medicine</ontology:SRAO_0000269>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:DRAO_0000001>Veterinary Science</ontology:DRAO_0000001>
         <rdfs:comment>AL: 28.9.17 &apos;Basic Veterinary Medical Science&apos; is asserted as a child of &apos;Agriculture, Forestry, Horticulture and Veterinary Medicine&apos; by re3data and as a child of Medicine by EDAM. The EDAM assertion has not been retained, in preference to the re3data hierarchy, but this may need to be revisited in the future.</rdfs:comment>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Basic Veterinary Medical Science</ontology:SRAO_0000268>
     </owl:Class>
     
 

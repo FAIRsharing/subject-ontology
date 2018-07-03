@@ -89,6 +89,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://www.fairsharing.org/ontology/DRAO_0000001 -->
+
+    <rdf:Description rdf:about="&ontology;DRAO_0000001">
+        <rdfs:label>FAIRsharing alternative term</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://www.fairsharing.org/ontology/SRAO_0000268 -->
 
     <rdf:Description rdf:about="&ontology;SRAO_0000268">
@@ -1736,13 +1744,15 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3397 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3397">
-        <rdfs:label xml:lang="en">Basic Veterinary Medical Science</rdfs:label>
+        <rdfs:label>Veterinary medicine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <ontology:SRAO_0000269>Veterinary medicine</ontology:SRAO_0000269>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:DRAO_0000001>Veterinary Science</ontology:DRAO_0000001>
         <obo:IAO_0000115>Topic concerning the branch of medicine that deals with the prevention, diagnosis, and treatment of disease, disorder and injury in animals.</obo:IAO_0000115>
         <rdfs:comment>AL: 28.9.17 &apos;Basic Veterinary Medical Science&apos; is asserted as a child of &apos;Agriculture, Forestry, Horticulture and Veterinary Medicine&apos; by re3data and as a child of Medicine by EDAM. The EDAM assertion has not been retained, in preference to the re3data hierarchy, but this may need to be revisited in the future.</rdfs:comment>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Basic Veterinary Medical Science</ontology:SRAO_0000268>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -5005,20 +5015,6 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000115>Building design refers to the broadly based architectural, engineering and technical applications to the design of buildings. [Wikipedia https://en.wikipedia.org/wiki/Building_design, AL 08.05.18]</obo:IAO_0000115>
         <rdfs:comment>AL 24.5.18: The original &quot;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&quot; class from re3data has been split into &quot;Construction History&quot;, &quot;Sustainable Building Technology&quot; and &quot;Building Design&quot;. &quot;Architecture&quot; is now the parent class, &quot;Building and Construction History&quot; have been consolidated into a single class to align with community usage and to remove it as a compound term. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="&ontology;DRAO_0000001">
-        <rdfs:label>FAIRsharing alternative term</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
