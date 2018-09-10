@@ -5015,6 +5015,17 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000115>Building design refers to the broadly based architectural, engineering and technical applications to the design of buildings. [Wikipedia https://en.wikipedia.org/wiki/Building_design, AL 08.05.18]</obo:IAO_0000115>
         <rdfs:comment>AL 24.5.18: The original &quot;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&quot; class from re3data has been split into &quot;Construction History&quot;, &quot;Sustainable Building Technology&quot; and &quot;Building Design&quot;. &quot;Architecture&quot; is now the parent class, &quot;Building and Construction History&quot; have been consolidated into a single class to align with community usage and to remove it as a compound term. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
     </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000290 -->
+
+    <owl:Class rdf:about="&ontology;SRAO_0000290">
+        <rdfs:label xml:lang="en">Materials Informatics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000236"/>
+        <obo:IAO_0000115>Materials informatics employs techniques, tools, and theories drawn from the emerging fields of data science, internet, computer science and engineering, and digital technologies to the materials science and engineering to accelerate materials, products and manufacturing innovations. [https://doi.org/10.1007/s10845-018-1392-0, AL accessed 10.9.18]</obo:IAO_0000115>
+    </owl:Class>
 </rdf:RDF>
 
 
