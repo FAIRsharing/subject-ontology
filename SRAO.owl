@@ -2285,6 +2285,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0026522 -->
+
+    <owl:Class rdf:about="&obo;OMIT_0026522">
+        <rdfs:label>Meteorology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000193"/>
+        <obo:IAO_0000115>Meteorology is the branch of science that deals with atmospheric phenomena and processes, especially with a view to forecasting the weather. [AL, modified from OED, accessed 26.11.18]</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0026554 -->
 
     <owl:Class rdf:about="&obo;OMIT_0026554">
