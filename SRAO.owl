@@ -2215,8 +2215,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&obo;OMIT_0011166">
         <rdfs:label>Paleontology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCIT_C17141"/>
         <rdfs:subClassOf rdf:resource="&obo;OMIT_0026615"/>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000291"/>
         <rdfs:comment>AL 24.11.17: This class was created when the original re3data subject &apos;Geology and Paleontology&apos; was split into two sibling classes. As such, we have noted that this term also comes from re3data.</rdfs:comment>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
