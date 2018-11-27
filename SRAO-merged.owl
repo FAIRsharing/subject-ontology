@@ -629,21 +629,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_0634 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0634">
-        <rdfs:label xml:lang="en">Pathology and Forensic Medicine</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <ontology:SRAO_0000269>Pathology</ontology:SRAO_0000269>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:comment>re3data</rdfs:comment>
-        <obo:IAO_0000118>Disease</obo:IAO_0000118>
-        <obo:IAO_0000115>Diseases, including diseases in general and the genes, gene variations and proteins involved in one or more specific diseases.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0637 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0637">
@@ -1288,13 +1273,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3314">
         <rdfs:label xml:lang="en">Chemistry</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000162"/>
+        <obo:IAO_0000115>The composition and properties of matter, reactions, and the use of reactions to create new substances.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000118>Mathematical chemistry</obo:IAO_0000118>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000115>The composition and properties of matter, reactions, and the use of reactions to create new substances.</obo:IAO_0000115>
-        <obo:IAO_0000118>Organic chemistry</obo:IAO_0000118>
-        <obo:IAO_0000118>Physical chemistry</obo:IAO_0000118>
         <obo:IAO_0000118>Inorganic chemistry</obo:IAO_0000118>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 26.9.17 Chemistry is asserted as a child of &apos;Natural Sciences&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
         <obo:IAO_0000118>Nuclear chemistry</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -2346,20 +2329,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C16147 -->
-
-    <owl:Class rdf:about="&obo;NCIT_C16147">
-        <rdfs:label>Natural History</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000162"/>
-        <obo:IAO_0000118>natural history study</obo:IAO_0000118>
-        <obo:IAO_0000118>Natural History</obo:IAO_0000118>
-        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000115>The systematic account of natural phenomena; in medicine, the elucidation and description of disease progress.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C16304 -->
 
     <owl:Class rdf:about="&obo;NCIT_C16304">
@@ -2468,6 +2437,22 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16591 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C16591">
+        <rdfs:label>Forensic Medicine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000115>The application of medical knowledge to questions of law; research, reports and testimony in court by experts in medical science to assist in determining a legal question.</obo:IAO_0000115>
+        <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000118>Forensics</obo:IAO_0000118>
+        <obo:IAO_0000118>Forensic Medicine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16633 -->
 
     <owl:Class rdf:about="&obo;NCIT_C16633">
@@ -2557,6 +2542,22 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118>Biomedical Engineering</obo:IAO_0000118>
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health. [ NCIT, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18189 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C18189">
+        <rdfs:label>Pathology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000118>Pathological</obo:IAO_0000118>
+        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115>The medical science, and specialty practice, concerned with all aspects of disease, but with special reference to the essential nature, causes, and development of abnormal conditions, as well as the structural and functional changes that result from the disease processes. Informally used to mean the result of such an examination.</obo:IAO_0000115>
+        <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <obo:IAO_0000118>Pathology</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2755,8 +2756,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&obo;OMIT_0011166">
         <rdfs:label>Paleontology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCIT_C17141"/>
         <rdfs:subClassOf rdf:resource="&obo;OMIT_0026615"/>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000291"/>
         <rdfs:comment>AL 24.11.17: This class was created when the original re3data subject &apos;Geology and Paleontology&apos; was split into two sibling classes. As such, we have noted that this term also comes from re3data.</rdfs:comment>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -2823,6 +2824,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Glycomics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0026522 -->
+
+    <owl:Class rdf:about="&obo;OMIT_0026522">
+        <rdfs:label>Meteorology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000193"/>
+        <obo:IAO_0000115>Meteorology is the branch of science that deals with atmospheric phenomena and processes, especially with a view to forecasting the weather. [AL, modified from OED, accessed 26.11.18]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -5025,6 +5037,16 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000236"/>
         <obo:IAO_0000115>Materials informatics employs techniques, tools, and theories drawn from the emerging fields of data science, internet, computer science and engineering, and digital technologies to the materials science and engineering to accelerate materials, products and manufacturing innovations. [https://doi.org/10.1007/s10845-018-1392-0, AL accessed 10.9.18]</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000291 -->
+
+    <owl:Class rdf:about="&ontology;SRAO_0000291">
+        <rdfs:label xml:lang="en">Natural History</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
+        <obo:IAO_0000115>Natural history is a domain of inquiry involving organisms including animals, fungi and plants in their environment; leaning more towards observational than experimental methods of study. [Wikipedia https://en.wikipedia.org/wiki/Natural_history, accessed 27.11.18]</obo:IAO_0000115>
     </owl:Class>
 </rdf:RDF>
 
