@@ -1447,17 +1447,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C16147 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16147">
-        <obo:IAO_0000118>Natural History</obo:IAO_0000118>
-        <obo:IAO_0000118>natural history study</obo:IAO_0000118>
-        <obo:IAO_0000115>The systematic account of natural phenomena; in medicine, the elucidation and description of disease progress.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C16304 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16304">

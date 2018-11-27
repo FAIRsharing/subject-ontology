@@ -1882,16 +1882,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C16147 -->
-
-    <owl:Class rdf:about="&obo;NCIT_C16147">
-        <rdfs:label>Natural History</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000162"/>
-        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C16304 -->
 
     <owl:Class rdf:about="&obo;NCIT_C16304">
@@ -4490,6 +4480,16 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000236"/>
         <obo:IAO_0000115>Materials informatics employs techniques, tools, and theories drawn from the emerging fields of data science, internet, computer science and engineering, and digital technologies to the materials science and engineering to accelerate materials, products and manufacturing innovations. [https://doi.org/10.1007/s10845-018-1392-0, AL accessed 10.9.18]</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000291 -->
+
+    <owl:Class rdf:about="&ontology;SRAO_0000291">
+        <rdfs:label xml:lang="en">Natural History</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
+        <obo:IAO_0000115>Natural history is a domain of inquiry involving organisms including animals, fungi and plants in their environment; leaning more towards observational than experimental methods of study. [Wikipedia https://en.wikipedia.org/wiki/Natural_history, accessed 27.11.18]</obo:IAO_0000115>
     </owl:Class>
 </rdf:RDF>
 
