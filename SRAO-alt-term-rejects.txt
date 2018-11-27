@@ -4,10 +4,16 @@
 ##
 ## Simple list of all alternative terms that are automatically
 ## pulled into the SRAO but then need to be removed again as
-## they are unsuitable as synonyms within FAIRsharing,
+## they are unsuitable as synonyms within FAIRsharing, generally
+## because those terms are already present as primary labels
+## elsewhere in SRAO. 
 ##
+## This is currently a manual process which should happen after
+## each Ontofox run.
 
 ## Term URI|Alternative Term
+
+## For the class 'Chemistry'
 http://edamontology.org/topic_3314|Organic Chemistry
 http://edamontology.org/topic_3314|Physical Chemistry
 
