@@ -571,18 +571,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_0634 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0634">
-        <rdfs:label xml:lang="en">Pathology and Forensic Medicine</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <ontology:SRAO_0000269>Pathology</ontology:SRAO_0000269>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:comment>re3data</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0637 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0637">
@@ -1961,6 +1949,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16591 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C16591">
+        <rdfs:label>Forensic Medicine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16633 -->
 
     <owl:Class rdf:about="&obo;NCIT_C16633">
@@ -2026,6 +2026,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:comment>AL 23.11.17: Added parent &apos;Engineering Sciences&apos; to align with the structure found within NCIT.</rdfs:comment>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health. [ NCIT, PAM 27.02.2018]</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18189 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C18189">
+        <rdfs:label>Pathology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
     </owl:Class>
     
 

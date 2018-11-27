@@ -229,16 +229,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0634 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0634">
-        <obo:IAO_0000118>Disease</obo:IAO_0000118>
-        <obo:IAO_0000115>Diseases, including diseases in general and the genes, gene variations and proteins involved in one or more specific diseases.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0637 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0637">
@@ -1525,6 +1515,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16591">
+        <obo:IAO_0000118>Forensic Medicine</obo:IAO_0000118>
+        <obo:IAO_0000115>The application of medical knowledge to questions of law; research, reports and testimony in court by experts in medical science to assist in determining a legal question.</obo:IAO_0000115>
+        <obo:IAO_0000118>Forensics</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16633">
@@ -1587,6 +1588,17 @@
         <obo:IAO_0000118>Bioengineering</obo:IAO_0000118>
         <obo:IAO_0000118>Biomedical Engineering</obo:IAO_0000118>
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18189">
+        <obo:IAO_0000115>The medical science, and specialty practice, concerned with all aspects of disease, but with special reference to the essential nature, causes, and development of abnormal conditions, as well as the structural and functional changes that result from the disease processes. Informally used to mean the result of such an examination.</obo:IAO_0000115>
+        <obo:IAO_0000118>Pathology</obo:IAO_0000118>
+        <obo:IAO_0000118>Pathological</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
