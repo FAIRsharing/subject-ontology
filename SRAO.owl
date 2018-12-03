@@ -125,28 +125,37 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO.owl/SRAO_0000276 -->
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000276 -->
 
-    <owl:AnnotationProperty rdf:about="&ontology;SRAO.owl/SRAO_0000276">
+    <owl:AnnotationProperty rdf:about="&ontology;SRAO_0000276">
         <rdfs:label xml:lang="en">NCIT alternative term</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000118"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO.owl/SRAO_0000278 -->
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000278 -->
 
-    <owl:AnnotationProperty rdf:about="&ontology;SRAO.owl/SRAO_0000278">
+    <owl:AnnotationProperty rdf:about="&ontology;SRAO_0000278">
         <rdfs:label xml:lang="en">AgroVoc alternative term</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000118"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO.owl/SRAO_0000279 -->
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000279 -->
 
-    <owl:AnnotationProperty rdf:about="&ontology;SRAO.owl/SRAO_0000279">
+    <owl:AnnotationProperty rdf:about="&ontology;SRAO_0000279">
         <rdfs:label xml:lang="en">AgroPortal alternative term</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000292 -->
+
+    <owl:AnnotationProperty rdf:about="&ontology;SRAO_0000292">
+        <rdfs:label xml:lang="en">PO alternative term</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000118"/>
     </owl:AnnotationProperty>
     
@@ -336,10 +345,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8673">
         <rdfs:label xml:lang="en">Agricultural and Food Process Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <SRAO:SRAO_0000279>Agricultural Research, Technology and Engineering</SRAO:SRAO_0000279>
-        <SRAO:SRAO_0000278>Agricultural Engineering</SRAO:SRAO_0000278>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000279>Agricultural Research, Technology and Engineering</ontology:SRAO_0000279>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <ontology:SRAO_0000278>Agricultural Engineering</ontology:SRAO_0000278>
         <rdfs:comment>AL 22.01.18: There is also a suitable equivalent AgroPortal category (Agricultural Research, Technology and Engineering) however it is difficult to ascertain the proper annotation associated with this category, and therefore the AgroVoc URI has been used instead.</rdfs:comment>
         <obo:IAO_0000412>AgroPortal</obo:IAO_0000412>
     </owl:Class>
@@ -2102,7 +2111,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C95096">
         <rdfs:label>Neuroscience</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
-        <SRAO:SRAO_0000276>Neuroscience Domain</SRAO:SRAO_0000276>
+        <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
         <rdfs:comment>AL: 17.10.17 Neuroscience is asserted as a child of Medicine by re3data and Neuro*biology* as a child of &apos;Biomedical Science&apos; by EDAM. We have placed Neurobiology as a child of Neuroscience. The re3data label has been changed from Neurosciences to Neuroscience to align with FAIRsharing terminology.</rdfs:comment>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>

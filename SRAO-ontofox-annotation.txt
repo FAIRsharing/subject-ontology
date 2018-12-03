@@ -159,9 +159,9 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
+mapTo http://www.fairsharing.org/ontology/SRAO_0000269
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
+mapTo http://www.fairsharing.org/ontology/SRAO_0000269
 http://www.geneontology.org/formats/oboInOwl#hasDefinition
 mapTo http://purl.obolibrary.org/obo/IAO_0000115
 
@@ -213,10 +213,11 @@ includeNoIntermediates
 [Source annotation URIs]
 http://purl.obolibrary.org/obo/IAO_0000115
 http://purl.obolibrary.org/obo/IAO_0000118
+mapTo http://www.fairsharing.org/ontology/SRAO_0000276
 http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
+mapTo http://www.fairsharing.org/ontology/SRAO_0000276
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
+mapTo http://www.fairsharing.org/ontology/SRAO_0000276
 
 #### NOTES ON PO IMPORT ####
 ##
@@ -236,7 +237,8 @@ includeNoIntermediates
 [Source annotation URIs]
 http://purl.obolibrary.org/obo/IAO_0000115
 http://purl.obolibrary.org/obo/IAO_0000118
+mapTo http://www.fairsharing.org/ontology/SRAO_0000292
 http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
+mapTo http://www.fairsharing.org/ontology/SRAO_0000292
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
+mapTo http://www.fairsharing.org/ontology/SRAO_0000292

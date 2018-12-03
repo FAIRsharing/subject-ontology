@@ -8,7 +8,6 @@
     <!ENTITY ontology "http://www.fairsharing.org/ontology/" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY SRAO "http://www.fairsharing.org/ontology/SRAO.owl/" >
 ]>
 
 
@@ -18,7 +17,6 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:SRAO="&ontology;SRAO.owl/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ontology="http://www.fairsharing.org/ontology/">
     <owl:Ontology rdf:about="&ontology;SRAO-merged.owl">
@@ -64,8 +62,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
         <rdfs:label>definition</rdfs:label>
-        <obo:IAO_0000118>DEFINITION</obo:IAO_0000118>
         <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>DEFINITION</ontology:SRAO_0000276>
         <obo:IAO_0000115>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
     </owl:AnnotationProperty>
     
@@ -121,26 +119,34 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO.owl/SRAO_0000276 -->
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000276 -->
 
-    <rdf:Description rdf:about="&ontology;SRAO.owl/SRAO_0000276">
+    <rdf:Description rdf:about="&ontology;SRAO_0000276">
         <rdfs:label xml:lang="en">NCIT alternative term</rdfs:label>
     </rdf:Description>
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO.owl/SRAO_0000278 -->
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000278 -->
 
-    <rdf:Description rdf:about="&ontology;SRAO.owl/SRAO_0000278">
+    <rdf:Description rdf:about="&ontology;SRAO_0000278">
         <rdfs:label xml:lang="en">AgroVoc alternative term</rdfs:label>
     </rdf:Description>
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO.owl/SRAO_0000279 -->
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000279 -->
 
-    <rdf:Description rdf:about="&ontology;SRAO.owl/SRAO_0000279">
+    <rdf:Description rdf:about="&ontology;SRAO_0000279">
         <rdfs:label xml:lang="en">AgroPortal alternative term</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000292 -->
+
+    <rdf:Description rdf:about="&ontology;SRAO_0000292">
+        <rdfs:label xml:lang="en">PO alternative term</rdfs:label>
     </rdf:Description>
     
 
@@ -329,10 +335,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8673">
         <rdfs:label xml:lang="en">Agricultural and Food Process Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <SRAO:SRAO_0000279>Agricultural Research, Technology and Engineering</SRAO:SRAO_0000279>
-        <SRAO:SRAO_0000278>Agricultural Engineering</SRAO:SRAO_0000278>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000279>Agricultural Research, Technology and Engineering</ontology:SRAO_0000279>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <ontology:SRAO_0000278>Agricultural Engineering</ontology:SRAO_0000278>
         <rdfs:comment>AL 22.01.18: There is also a suitable equivalent AgroPortal category (Agricultural Research, Technology and Engineering) however it is difficult to ascertain the proper annotation associated with this category, and therefore the AgroVoc URI has been used instead.</rdfs:comment>
         <obo:IAO_0000412>AgroPortal</obo:IAO_0000412>
     </owl:Class>
@@ -382,14 +388,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Phylogeny</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3299"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
-        <obo:IAO_0000118>Phylogenetic dating</obo:IAO_0000118>
-        <obo:IAO_0000118>Phylogenetic simulation</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Phylogenetic stratigraphy</ontology:SRAO_0000269>
         <obo:IAO_0000115>The study of evolutionary relationships amongst organisms.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Phylogenetic clocks</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Phylogeny reconstruction</ontology:SRAO_0000269>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Computational biology&apos; and &apos;Evolutionary biology&apos;, to align with the EDAM hierarchy.</rdfs:comment>
+        <ontology:SRAO_0000269>Phylogenetic simulation</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Phylogenetic dating</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Phylogenetic stratigraphy</obo:IAO_0000118>
-        <obo:IAO_0000118>Phylogeny reconstruction</obo:IAO_0000118>
-        <obo:IAO_0000118>Phylogenetic clocks</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -414,12 +420,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0089">
         <rdfs:label>Ontology and Terminology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
+        <ontology:SRAO_0000269>Ontology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Terminology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Ontologies</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Applied ontology</ontology:SRAO_0000269>
         <obo:IAO_0000115>The conceptualisation, categorisation and nomenclature (naming) of entities or phenomena within biology or bioinformatics. This includes formal ontologies, controlled vocabularies, structured glossary, symbols and terminology or other related resource.</obo:IAO_0000115>
-        <obo:IAO_0000118>Ontology</obo:IAO_0000118>
-        <obo:IAO_0000118>Ontologies</obo:IAO_0000118>
-        <obo:IAO_0000118>Terminology</obo:IAO_0000118>
-        <obo:IAO_0000118>Applied ontology</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -448,10 +454,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0092">
         <rdfs:label>Data visualization</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000257"/>
+        <ontology:SRAO_0000269>Data rendering</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>Data visualization is a general term that describes any effort to help people understand the significance of data by placing it in a visual context. [PAM 27.02.2018]</obo:IAO_0000115>
         <rdfs:comment>AL: 29.9.17 &apos;Data visualization&apos; is asserted as a child of &apos;Computer Science&apos; within EDAM. This assertion has been refined to &apos;Artifical Intelligence, Imaging and Language Processing&apos;.</rdfs:comment>
-        <obo:IAO_0000118>Data rendering</obo:IAO_0000118>
         <obo:IAO_0000115>Rendering (drawing on a computer screen) or visualisation of molecular sequences, structures or other biomolecular data.</obo:IAO_0000115>
         <ontology:SRAO_0000269>Data visualisation</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -464,13 +470,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0121">
         <rdfs:label>Proteomics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
-        <obo:IAO_0000118>Protein and peptide identification</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Targeted proteomics</ontology:SRAO_0000269>
         <obo:IAO_0000115>Protein and peptide identification, especially in the study of whole proteomes of organisms.</obo:IAO_0000115>
-        <obo:IAO_0000118>Targeted proteomics</obo:IAO_0000118>
-        <obo:IAO_0000118>Metaproteomics</obo:IAO_0000118>
-        <obo:IAO_0000118>Discovery proteomics</obo:IAO_0000118>
-        <obo:IAO_0000118>Peptide identification</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Protein and peptide identification</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Metaproteomics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Discovery proteomics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Peptide identification</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -494,9 +500,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0176">
         <rdfs:label>Molecular Dynamics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
-        <obo:IAO_0000118>Protein dynamics</obo:IAO_0000118>
         <obo:IAO_0000115>The study and simulation of molecular (typically protein) conformation using a computational model of physical forces and computer simulation.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Protein dynamics</ontology:SRAO_0000269>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Computational Biology&apos; to align with the EDAM hierarchy. &apos;Molecular Dynamics&apos; is asserted as a child of &apos;Structure Analysis&apos; -&gt; &apos;Structure Prediction&apos; within EDAM, however this sub-hierarchy has not been retained within FAIRsharing, and its parent term &apos;Computational Biology&apos; is used instead.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -522,11 +528,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0202">
         <rdfs:label xml:lang="en">Pharmacology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Computational pharmacology</obo:IAO_0000118>
         <obo:IAO_0000115>The study of drugs and their effects or responses in living systems. </obo:IAO_0000115>
-        <obo:IAO_0000118>Pharmacoinformatics</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Pharmacoinformatics</ontology:SRAO_0000269>
         <rdfs:comment>AL: 28.9.17 Pharmacology is asserted as a child of Medicine by re3data and as a child of &apos;Biomedical Science&apos; by EDAM. We have retained the re3data assertion.</rdfs:comment>
+        <ontology:SRAO_0000269>Computational pharmacology</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -541,7 +547,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
         <rdfs:comment>AL: 25.9.17 Child of Pharmacology and Genomics, to align with the EDAM hierarchy.</rdfs:comment>
         <obo:IAO_0000115>The influence of genotype on drug response, for example by correlating gene expression or single-nucleotide polymorphisms with drug efficacy or toxicity.</obo:IAO_0000115>
-        <obo:IAO_0000118>Pharmacogenetics</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Pharmacogenetics</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -554,8 +560,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Medicinal Chemistry</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3336"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3371"/>
+        <ontology:SRAO_0000269>Drug design</ontology:SRAO_0000269>
         <obo:IAO_0000115>The design and chemical synthesis of bioactive molecules, for example drugs or potential drug compounds, for medicinal purposes.</obo:IAO_0000115>
-        <obo:IAO_0000118>Drug design</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Synthetic Chemistry&apos; and &apos;Drug Discovery&apos; to align with the EDAM hierarchy.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -569,16 +575,16 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Natural Language Processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000019"/>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000257"/>
-        <obo:IAO_0000118>Text data mining</obo:IAO_0000118>
         <obo:IAO_0000115>The application of computational techniques to the analysis and synthesis of natural language and speech. [Oxford English Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Text analytics</ontology:SRAO_0000269>
         <obo:IAO_0000115>The processing and analysis of natural language, such as scientific literature in English, in order to extract data and information, or to enable human-computer interaction.</obo:IAO_0000115>
-        <obo:IAO_0000118>Text mining</obo:IAO_0000118>
+        <ontology:SRAO_0000269>BioNLP</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>NLP</ontology:SRAO_0000269>
         <rdfs:comment>AL: 29.9.17 &apos;Natural Language Processing&apos; is asserted as a child of &apos;Computer Science&apos; and &apos;Literature and language&apos; within EDAM. These assertions have been refined to &apos;Artifical Intelligence, Imaging and Language Processing&apos; and &apos;Linguistics&apos;.</rdfs:comment>
-        <obo:IAO_0000118>Literature mining</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Text analytics</obo:IAO_0000118>
-        <obo:IAO_0000118>BioNLP</obo:IAO_0000118>
-        <obo:IAO_0000118>NLP</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Text data mining</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Text mining</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Literature mining</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -589,7 +595,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0219">
         <rdfs:label>Data Submission, Annotation and Curation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000118>Database curation</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Database curation</ontology:SRAO_0000269>
         <obo:IAO_0000115>Deposition and curation of database accessions, including annotation, typically with terms from a controlled vocabulary.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -604,11 +610,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <obo:IAO_0000115>The study and practice of information processing and use of computer information systems.</obo:IAO_0000115>
         <obo:IAO_0000115>The science of processing data for storage and retrieval; information science. [Oxford English Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000118>Knowledge management</obo:IAO_0000118>
-        <obo:IAO_0000118>Information management</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Knowledge management</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Information management</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Information science</ontology:SRAO_0000269>
         <rdfs:comment>AL: 26.9.17 Informatics is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to &apos;Computer Science&apos;.</rdfs:comment>
-        <obo:IAO_0000118>Information science</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -619,11 +625,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0622">
         <rdfs:label>Genomics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
+        <ontology:SRAO_0000269>Genome annotation</ontology:SRAO_0000269>
         <obo:IAO_0000115>Whole genomes of one or more organisms, or genomes in general, such as meta-information on genomes, genome projects, gene names etc.</obo:IAO_0000115>
-        <obo:IAO_0000118>Viral genomics</obo:IAO_0000118>
-        <obo:IAO_0000118>Genome annotation</obo:IAO_0000118>
-        <obo:IAO_0000118>Personal genomics</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Personal genomics</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Viral genomics</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -648,14 +654,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Botany</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Plant</ontology:SRAO_0000269>
         <obo:IAO_0000115>Plants, e.g. information on a specific plant genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
-        <obo:IAO_0000118>Plants</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Plant science</ontology:SRAO_0000269>
         <ontology:SRAO_0000268>Plant Sciences</ontology:SRAO_0000268>
         <ontology:SRAO_0000269>Plant biology</ontology:SRAO_0000269>
-        <obo:IAO_0000118>Plant science</obo:IAO_0000118>
-        <obo:IAO_0000118>Plant</obo:IAO_0000118>
-        <obo:IAO_0000118>Botany</obo:IAO_0000118>
         <rdfs:comment>AL: 28.9.17 Changed re3data label from &apos;Plant Sciences&apos; to Botany to align with FAIRsharing terminology.</rdfs:comment>
+        <ontology:SRAO_0000269>Plants</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -691,14 +697,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_0804">
         <rdfs:label xml:lang="en">Immunology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
-        <obo:IAO_0000118>Immunoinformatics</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 28.9.17 Immunology is asserted as a child of Microbiology (in its original location within the Medicine hierarchy) by re3data, and as a child of &apos;Biomedical Science&apos; by EDAM. We have retained the EDAM assertion.
 </rdfs:comment>
+        <ontology:SRAO_0000269>Immunoinformatics</ontology:SRAO_0000269>
         <obo:IAO_0000115>The application of information technology to immunology such as immunological processes, immunological genes, proteins and peptide ligands, antigens and so on.</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Computational immunology</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Computational immunology</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -709,12 +715,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_1317">
         <rdfs:label xml:lang="en">Structural Biology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
-        <obo:IAO_0000118>Structure determination</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Structural assignment</ontology:SRAO_0000269>
         <obo:IAO_0000115>The molecular structure of biological molecules, particularly macromolecules such as proteins and nucleic acids.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Structure determination</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Structural assignment</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Structural determination</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Structural determination</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -728,7 +734,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115>Cells, such as key genes and proteins involved in the cell cycle.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Cellular processes</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Cellular processes</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -741,10 +747,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
-        <obo:IAO_0000118>Chemoinformatics</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Chemical informatics</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Chemoinformatics</ontology:SRAO_0000269>
         <obo:IAO_0000115>The application of information technology to chemistry in biological research environment.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Chemical informatics</ontology:SRAO_0000269>
         <rdfs:comment>AL 27.9.17 Cheminformatics is asserted as a child of Informatics by EDAM,  and also as a child of Chemistry and Biology within FAIRsharing. This &apos;subClass of Bioinformatics&apos; assertion is based on the definition of Cheminformatics as provided by EDAM: &quot;The application of information technology to chemistry in biological research environment.&quot; However, this may need to be revisited at some point in the future.
 </rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -757,10 +763,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_2259">
         <rdfs:label>Systems biology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
-        <obo:IAO_0000118>Biological modelling</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Biological modelling</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Biological system modelling</obo:IAO_0000118>
         <obo:IAO_0000115>The holistic modelling and analysis of complex biological systems and the interactions therein.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Biological system modelling</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -771,11 +777,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_2269">
         <rdfs:label>Statistics and Probability</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
-        <obo:IAO_0000118>Statistics</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Biostatistics</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The application of statistical methods to biological problems.</obo:IAO_0000115>
-        <obo:IAO_0000118>Biostatistics</obo:IAO_0000118>
-        <obo:IAO_0000118>Probability</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Statistics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Probability</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -787,10 +793,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Oncology</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000116"/>
         <obo:IAO_0000115>The study of cancer, for example, genes and proteins implicated in cancer.</obo:IAO_0000115>
-        <obo:IAO_0000118>Cancer biology</obo:IAO_0000118>
-        <obo:IAO_0000118>Neoplasms</obo:IAO_0000118>
-        <obo:IAO_0000118>Neoplasm</obo:IAO_0000118>
-        <obo:IAO_0000118>Cancer</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Neoplasms</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Cancer biology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Neoplasm</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Cancer</ontology:SRAO_0000269>
         <rdfs:comment>EDAM</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -804,7 +810,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The study of human beings in general, including the human genome and proteome.</obo:IAO_0000115>
-        <obo:IAO_0000118>Humans</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Humans</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -816,9 +822,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Toxicology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3377"/>
         <obo:IAO_0000115>Toxins and the adverse effects of these chemical substances on living organisms.</obo:IAO_0000115>
-        <obo:IAO_0000118>Toxicoinformatics</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Computational toxicology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Toxicoinformatics</ontology:SRAO_0000269>
         <rdfs:comment>AL: 28.9.17 Changed re3data label from &apos;Toxicology and Occupational Medicine&apos; to &apos;Occupational Medicine&apos; as these are two distinct disciplines. The new class, Toxicology, is also present within EDAM, and is asserted as a child of &apos;Safety Sciences&apos;, This assertion has been retained for Toxicology while Occupational Medicine has been kept as a child of Medicine. Within EDAM, Toxicology is also asserted as a child of Medicine. This subClass assertion has not been retained as the re3data term &apos;Medical toxicology&apos; performs this function.</rdfs:comment>
-        <obo:IAO_0000118>Computational toxicology</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -855,10 +861,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Genetics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <obo:IAO_0000115>The study of genes, genetic variation and heredity in living organisms.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Heredity</ontology:SRAO_0000269>
         <rdfs:comment>Changed re3data label from &apos;General Genetics&apos; to Genetics as this is the term used both within FAIRsharing and EDAM.</rdfs:comment>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Heredity</obo:IAO_0000118>
         <ontology:SRAO_0000268>General Genetics</ontology:SRAO_0000268>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -896,13 +902,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Medical Informatics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Healthcare informatics</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Health and disease</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Health and disease</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Clinical informatics</ontology:SRAO_0000269>
         <obo:IAO_0000115>The application of information technology to health, disease and biomedicine.</obo:IAO_0000115>
-        <obo:IAO_0000118>Clinical informatics</obo:IAO_0000118>
-        <obo:IAO_0000118>Biomedical informatics</obo:IAO_0000118>
-        <obo:IAO_0000118>Health informatics</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Health informatics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Healthcare informatics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Biomedical informatics</ontology:SRAO_0000269>
         <rdfs:comment>AL 26.9.17 &apos;Medical Informatics&apos; is asserted as a child of Informatics by EDAM, and also as a child of Medicine within FAIRsharing.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -939,7 +945,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3067">
         <rdfs:label xml:lang="en">Anatomy</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <rdfs:comment>AL: 25.9.17 Anatomy is asserted as a child of Biology by re3data, and as a child of Biomedical Science by EDAM. As both are correct depending on context, both assertions have been retained.</rdfs:comment>
         <obo:IAO_0000115>The form and function of the structures of living organisms.</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -954,17 +960,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3070">
         <rdfs:label xml:lang="en">Biology</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
-        <obo:IAO_0000118>Cryobiology</obo:IAO_0000118>
-        <obo:IAO_0000118>Biological rhythms</obo:IAO_0000118>
-        <obo:IAO_0000118>Aerobiology</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Behavioural biology</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>A particular biological science, especially observable traits such as aspects of biochemistry, physiology, morphology, anatomy, development and so on.</obo:IAO_0000115>
-        <obo:IAO_0000118>Behavioural biology</obo:IAO_0000118>
-        <obo:IAO_0000118>Reproductive biology</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Biological science</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Aerobiology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Cryobiology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Reproductive biology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Chronobiology</ontology:SRAO_0000269>
         <rdfs:comment>AL: 25.9.17 Biology is asserted as a child of &apos;Life Science&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
-        <obo:IAO_0000118>Chronobiology</obo:IAO_0000118>
-        <obo:IAO_0000118>Biological science</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Biological rhythms</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1028,8 +1034,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Metagenomics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C16526"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Shotgun metagenomics</obo:IAO_0000118>
-        <obo:IAO_0000118>Biome sequencing</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Shotgun metagenomics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Biome sequencing</ontology:SRAO_0000269>
         <obo:IAO_0000115>The study of genetic material recovered from environmental samples, and associated environmental data.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1041,7 +1047,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3263">
         <rdfs:label>Data Security</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000118>Data privacy</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Data privacy</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The protection of data, such as patient health data, from damage or unwanted access from unauthorised users.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1055,9 +1061,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Biochemistry</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000176"/>
-        <obo:IAO_0000118>Biological chemistry</obo:IAO_0000118>
         <rdfs:comment>AL 25.9.17 Biochemistry is asserted as a child of Biology by both EDAM and re3data, and as a child of Chemistry by EDAM. This assertion has been refined to &apos;Biology and Biomimetic Chemistry&apos;.</rdfs:comment>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Biological chemistry</ontology:SRAO_0000269>
         <obo:IAO_0000115>Chemical substances and physico-chemical processes and that occur within living organisms.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1084,8 +1090,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3295">
         <rdfs:label>Epigenetics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
-        <obo:IAO_0000118>DNA methylation</obo:IAO_0000118>
-        <obo:IAO_0000118>Histone modification</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Histone modification</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>DNA methylation</ontology:SRAO_0000269>
         <obo:IAO_0000115>Topic concerning the study of heritable changes, for example in gene expression or phenotype, caused by mechanisms other than changes in the DNA sequence.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1149,14 +1155,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3301">
         <rdfs:label>Microbiology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
-        <obo:IAO_0000118>Microbial surveillance</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Antimicrobial stewardship</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Microbiological surveillance</ontology:SRAO_0000269>
         <obo:IAO_0000115>The biology of microorganisms.</obo:IAO_0000115>
         <rdfs:comment>AL: 25.9.17 Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology to align with the EDAM hierarchy. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science based on the EDAM hierarchy, removing it from the Medicine hierarchy as listed by re3data.</rdfs:comment>
-        <obo:IAO_0000118>Microbiological surveillance</obo:IAO_0000118>
-        <obo:IAO_0000118>Antimicrobial stewardship</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Microbiology, Virology and Immunology</ontology:SRAO_0000268>
+        <ontology:SRAO_0000269>Microbial surveillance</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1166,7 +1172,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3302">
         <rdfs:label>Parasitology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The biology of parasites.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1179,15 +1185,15 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3303">
         <rdfs:label xml:lang="en">Medicine</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
-        <obo:IAO_0000118>Clinical medicine</obo:IAO_0000118>
-        <obo:IAO_0000118>Biomedical research</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Internal medicine</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>General medicine</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Experimental medicine</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000115>Research in support of healing by diagnosis, treatment, and prevention of disease.</obo:IAO_0000115>
-        <obo:IAO_0000118>General medicine</obo:IAO_0000118>
-        <obo:IAO_0000118>Experimental medicine</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Clinical medicine</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Biomedical research</ontology:SRAO_0000269>
         <rdfs:comment>AL: 25.9.17 Medicine is asserted as a child of &apos;Life Science&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
-        <obo:IAO_0000118>Internal medicine</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1211,10 +1217,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3305">
         <rdfs:label>Public Health and Epidemiology</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000103"/>
-        <obo:IAO_0000118>Public health</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Epidemiology</ontology:SRAO_0000269>
         <obo:IAO_0000115>Topic concerning the the patterns, cause, and effect of disease within populations.</obo:IAO_0000115>
-        <obo:IAO_0000118>Epidemiology</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Public health</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1240,11 +1246,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3307">
         <rdfs:label>Computational Biology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
-        <obo:IAO_0000118>Theoretical biology</obo:IAO_0000118>
         <obo:IAO_0000115>The development and application of theory, analytical methods, mathematical models and computational simulation of biological systems.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Biomathematics</obo:IAO_0000118>
-        <obo:IAO_0000118>Mathematical biology</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Biomathematics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Mathematical biology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Theoretical biology</ontology:SRAO_0000269>
         <rdfs:comment>AL: 27.9.17 &apos;Computational biology&apos; is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to Biology.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1257,12 +1263,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Transcriptomics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3321"/>
-        <obo:IAO_0000118>Transcriptome</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Metatranscriptomics</ontology:SRAO_0000269>
         <rdfs:comment>Child of Genomics to align with the EDAM hierarchy. EDAM further asserts this as a child of &apos;Gene expression&apos;. However, &apos;Gene expression&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained. Instead, Transcriptomics has also been asserted as the child of the parent term for &apos;Gene expression&apos;, &apos;Molecular Genetics&apos;.</rdfs:comment>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Metatranscriptomics</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Transcriptome</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Comparative transcriptomics</ontology:SRAO_0000269>
         <obo:IAO_0000115>The analysis of transcriptomes, or a set of all the RNA molecules in a specific cell, tissue etc.</obo:IAO_0000115>
-        <obo:IAO_0000118>Comparative transcriptomics</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1273,13 +1279,15 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3314">
         <rdfs:label xml:lang="en">Chemistry</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000162"/>
-        <obo:IAO_0000115>The composition and properties of matter, reactions, and the use of reactions to create new substances.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Mathematical chemistry</obo:IAO_0000118>
-        <obo:IAO_0000118>Inorganic chemistry</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Mathematical chemistry</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Physical chemistry</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Nuclear chemistry</ontology:SRAO_0000269>
+        <obo:IAO_0000115>The composition and properties of matter, reactions, and the use of reactions to create new substances.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Inorganic chemistry</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Organic chemistry</ontology:SRAO_0000269>
         <rdfs:comment>AL: 26.9.17 Chemistry is asserted as a child of &apos;Natural Sciences&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
-        <obo:IAO_0000118>Nuclear chemistry</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1290,9 +1298,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3315">
         <rdfs:label xml:lang="en">Mathematics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000162"/>
-        <obo:IAO_0000118>Maths</obo:IAO_0000118>
         <rdfs:comment>AL: 26.9.17 Mathematics is asserted as a child of &apos;Natural Sciences&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
         <obo:IAO_0000115>The study of numbers (quantity) and other topics including structure, space, and change.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Maths</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1365,7 +1373,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C95096"/>
         <obo:IAO_0000115>The branch of medicine that deals with the anatomy, functions and disorders of the nervous system.</obo:IAO_0000115>
-        <obo:IAO_0000118>Neurological disorders</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Neurological disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Clinical Neurosciences I - Neurology, Neurosurgery</ontology:SRAO_0000268>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
@@ -1382,11 +1390,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000115>The diseases and abnormalities of the heart and circulatory system.</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Cardiovascular disease</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Cardiovascular disease</obo:IAO_0000118>
-        <obo:IAO_0000118>Cardiovascular medicine</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Heart disease</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Cardiovascular medicine</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Cardiology</ontology:SRAO_0000269>
-        <obo:IAO_0000118>Heart disease</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1418,22 +1426,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3344 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3344">
-        <rdfs:label xml:lang="en">Biomedical Science</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
-        <obo:IAO_0000118>Health science</obo:IAO_0000118>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000115>Topic concerning biological science that is (typically) performed in the context of medicine.</obo:IAO_0000115>
-        <rdfs:comment>AL: 28.9.17 &apos;Biomedical Science&apos; is at the top level of the Topic hierarchy within EDAM. This assertion has been refined to &apos;Life Sciences&apos;. There was no direct equivalent for this discipline within re3data.</rdfs:comment>
-        <obo:IAO_0000118>Biomedical sciences</obo:IAO_0000118>
-        <rdfs:comment>AL 10.1.18: EDAM has &apos;Biomedical Science&apos; as synonymous with &apos;Health Science&apos;. FAIRsharing retains these as separate, albeit overlapping, fields. As such they are sibling classes rather than a single class, and the EDAM synonym &apos;Health Science&apos; is not relevant here, although the automatic annotation tool adds it.</rdfs:comment>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3345 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3345">
@@ -1452,11 +1444,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3365">
         <rdfs:label>Data Architecture, Analysis and Design</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000118>Data analysis</obo:IAO_0000118>
         <obo:IAO_0000115>The development of policies, models and standards that cover data acquisition, storage and integration, such that it can be put to use, typically through a process of systematically applying statistical and / or logical techniques to describe, illustrate, summarise or evaluate data.</obo:IAO_0000115>
-        <obo:IAO_0000118>Data architecture</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Data design</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Data architecture</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Data analysis</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Data design</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1468,9 +1460,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Data Integration and Warehousing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Data warehousing</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Data integration</ontology:SRAO_0000269>
         <obo:IAO_0000115>The combination and integration of data from different sources, for example into a central repository or warehouse, to provide users with a unified view of these data.</obo:IAO_0000115>
-        <obo:IAO_0000118>Data integration</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Data warehousing</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1525,8 +1517,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Synthetic Chemistry</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
         <rdfs:comment>AL: 29.9.17 This class may be related to the re3data class &apos;Solid State and Surface Chemistry, Material Synthesis&apos;, and the placement of &apos;Synthetic Chemistry&apos; may need to be revisited.</rdfs:comment>
-        <obo:IAO_0000118>Synthetic organic chemistry</obo:IAO_0000118>
         <obo:IAO_0000115>The use of chemistry to create new compounds.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Synthetic organic chemistry</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1539,16 +1531,16 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Software Engineering</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <ontology:SRAO_0000268>Software technology</ontology:SRAO_0000268>
-        <obo:IAO_0000118> Programming languages</obo:IAO_0000118>
-        <obo:IAO_0000118>Software development</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Algorithms</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Computer programming</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Data structures</ontology:SRAO_0000269>
         <obo:IAO_0000115>The systematic application of scientific and technological knowledge, methods, and experience to the design, implementation, testing, and documentation of software. [IEEE Systems and software engineering - vocabulary, PAM 28.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000118>Data structures</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Computer programming</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Algorithms</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Software development</ontology:SRAO_0000269>
         <obo:IAO_0000115>The process that leads from an original formulation of a computing problem to executable programs.</obo:IAO_0000115>
         <rdfs:comment>AL: 29.9.17 Changed label from &apos;Software Technology&apos; (sourced from re3data) to &apos;Software engineering&apos; to align with EDAM. </rdfs:comment>
+        <ontology:SRAO_0000269> Programming languages</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1561,9 +1553,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
         <obo:IAO_0000115>The process of bringing a new drug to market once a lead compounds has been identified through drug discovery.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Medicines development</obo:IAO_0000118>
-        <obo:IAO_0000118>Medicine development</obo:IAO_0000118>
-        <obo:IAO_0000118>Drug development science</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Drug development science</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Medicine development</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Medicines development</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1587,14 +1579,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Drug Metabolism</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
         <obo:IAO_0000115>The study of how a drug interacts with the body.</obo:IAO_0000115>
-        <obo:IAO_0000118>ADME</obo:IAO_0000118>
-        <obo:IAO_0000118>Pharmacodynamics</obo:IAO_0000118>
-        <obo:IAO_0000118>Drug excretion</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Drug absorption</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Drug distribution</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Pharmacokinetics and pharmacodynamics</obo:IAO_0000118>
-        <obo:IAO_0000118>Pharmacokinetics</obo:IAO_0000118>
-        <obo:IAO_0000118>Drug distribution</obo:IAO_0000118>
-        <obo:IAO_0000118>Drug absorption</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Drug excretion</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Pharmacokinetics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Pharmacodynamics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Pharmacokinetics and pharmacodynamics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>ADME</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1604,10 +1596,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3376">
         <rdfs:label>Medicines Research and Development</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
-        <obo:IAO_0000118>Drug discovery and development</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The discovery, development and approval of medicines.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Drug discovery and development</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1619,8 +1611,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Safety Sciences</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
         <obo:IAO_0000115>The safety (or lack) of drugs and other medical interventions.</obo:IAO_0000115>
-        <obo:IAO_0000118>Drug safety</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Drug safety</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1631,13 +1623,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3379">
         <rdfs:label>Preclinical and Clinical Studies</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
-        <obo:IAO_0000118>Preclinical study</obo:IAO_0000118>
-        <obo:IAO_0000118>Drug trials</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Preclinical studies</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Clinical study</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Clinical study</obo:IAO_0000118>
         <obo:IAO_0000115>The testing of new medicines, vaccines or procedures on animals (preclinical) and humans (clinical) prior to their approval by regulatory authorities.</obo:IAO_0000115>
-        <obo:IAO_0000118>Preclinical studies</obo:IAO_0000118>
-        <obo:IAO_0000118>Clinical studies</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Drug trials</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Preclinical study</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Clinical studies</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1672,10 +1664,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3390">
         <rdfs:label xml:lang="en">Nutritional Science</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Dietetics</obo:IAO_0000118>
-        <obo:IAO_0000118>Nutrition science</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Nutrition science</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Dietetics</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <ontology:SRAO_0000268>Nutritional sciences</ontology:SRAO_0000268>
         <obo:IAO_0000115>The study of the effects of food components on the metabolism, health, performance and disease resistance of humans and animals.  It also includes the study of human behaviours related to food choices.</obo:IAO_0000115>
@@ -1701,11 +1693,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3395">
         <rdfs:label>Regenerative Medicine</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <rdfs:comment>AL: 28.9.17 Please note the spelling mistake within EDAM for this class has been retained as an alternative term.</rdfs:comment>
         <ontology:SRAO_0000269>Regnerative medicine</ontology:SRAO_0000269>
         <obo:IAO_0000115>Biomedical approaches to clinical interventions that involve the use of stem cells.</obo:IAO_0000115>
-        <obo:IAO_0000118>Stem cell research</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Stem cell research</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1747,8 +1739,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Geriatric Medicine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <ontology:SRAO_0000268>Gerontology and Geriatric Medicine</ontology:SRAO_0000268>
+        <ontology:SRAO_0000269>Geriatrics</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Geriatrics</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The branch of medicine dealing with the diagnosis, treatment and prevention of disease in older people, and the problems specific to aging.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1761,15 +1753,15 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3400">
         <rdfs:label xml:lang="en">Rheumatology, Clinical Immunology, Allergology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Allergy</obo:IAO_0000118>
-        <obo:IAO_0000118>Clinical immunology</obo:IAO_0000118>
         <obo:IAO_0000115>Health issues related to the immune system and their prevention, diagnosis and mangement.</obo:IAO_0000115>
-        <obo:IAO_0000118>Immunomodulators</obo:IAO_0000118>
-        <obo:IAO_0000118>Immunotherapeutics</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Immunotherapeutics</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Allergy, clinical immunology and immunotherapeutics</ontology:SRAO_0000269>
-        <obo:IAO_0000118>Immune disorders</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Immunomodulators</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Clinical immunology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Immune disorders</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Allergy</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1780,9 +1772,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3401">
         <rdfs:label>Pain Medicine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <ontology:SRAO_0000269>Algiatry</ontology:SRAO_0000269>
         <obo:IAO_0000115>The prevention of pain and the evaluation, treatment and rehabilitation of persons in pain.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Algiatry</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1795,8 +1787,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Anaesthetics</ontology:SRAO_0000269>
         <obo:IAO_0000115>Anaesthesia and anaesthetics.</obo:IAO_0000115>
-        <obo:IAO_0000118>Anaesthetics</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1807,10 +1799,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3403">
         <rdfs:label>Critical Care Medicine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Emergency medicine</obo:IAO_0000118>
         <obo:IAO_0000115>The multidisciplinary that cares for patients with acute, life-threatening illness or injury.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Emergency medicine</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Acute medicine</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Acute medicine</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1821,10 +1813,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3404">
         <rdfs:label xml:lang="en">Dermatology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Dermatological disorders</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000115>The branch of medicine that deals with prevention, diagnosis and treatment of disorders of the skin, scalp, hair and nails.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Dermatological disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1852,12 +1844,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <ontology:SRAO_0000269>Ear, nose and throat medicine</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Audiovestibular medicine</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Head and neck disorders</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Audiovestibular medicine</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The branch of medicine that deals with the prevention, diagnosis, and treatment of disorders of the ear, nose and throat.</obo:IAO_0000115>
-        <obo:IAO_0000118>Otolaryngology</obo:IAO_0000118>
-        <obo:IAO_0000118>Head and neck disorders</obo:IAO_0000118>
-        <obo:IAO_0000118>Otorhinolaryngology</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Otolaryngology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Otorhinolaryngology</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1868,14 +1860,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3407">
         <rdfs:label xml:lang="en">Endocrinology, Diabetology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Metabolic disorders</obo:IAO_0000118>
         <obo:IAO_0000115>The branch of medicine dealing with diseases of endocrine organs, hormone systems, their target organs, and disorders of the pathways of glucose and lipid metabolism.</obo:IAO_0000115>
-        <obo:IAO_0000118>Endocrine disorders</obo:IAO_0000118>
-        <obo:IAO_0000118>Endocrinology</obo:IAO_0000118>
         <rdfs:comment>re3data</rdfs:comment>
-        <obo:IAO_0000118>Metabolism</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Metabolism</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Endocrinology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Endocrine disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Metabolic disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1886,8 +1877,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3408">
         <rdfs:label>Hematology</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000116"/>
-        <obo:IAO_0000118>Blood disorders</obo:IAO_0000118>
-        <obo:IAO_0000118>Haematological disorders</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Blood disorders</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Haematological disorders</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Haematology</ontology:SRAO_0000269>
         <obo:IAO_0000115>The branch of medicine that deals with the blood, blood-forming organs and blood diseases.</obo:IAO_0000115>
         <rdfs:comment>EDAM</rdfs:comment>
@@ -1903,7 +1894,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000117"/>
         <obo:IAO_0000115>The branch of medicine that deals with disorders of the oesophagus, stomach, duodenum, jejenum, ileum, large intestine, sigmoid colon and rectum.</obo:IAO_0000115>
         <rdfs:comment>EDAM</rdfs:comment>
-        <obo:IAO_0000118>Gastrointestinal disorders</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Gastrointestinal disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1927,11 +1918,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Gynecology and Obstetrics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000115>The branch of medicine that deals with the health of the female reproductive system, pregnancy and birth.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Gynaecology</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Gynaecology</obo:IAO_0000118>
-        <obo:IAO_0000118>Obstetrics</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Obstetrics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Gynaecological disorders</ontology:SRAO_0000269>
         <ontology:SRAO_0000268>Gynaecology and Obstetrics</ontology:SRAO_0000268>
-        <obo:IAO_0000118>Gynaecological disorders</obo:IAO_0000118>
         <ontology:SRAO_0000269>Gynaecology and Obstetrics</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1945,9 +1936,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Hepatics and Biliary Medicine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3409"/>
         <obo:IAO_0000118>Hepatology</obo:IAO_0000118>
-        <obo:IAO_0000118>Liver disorders</obo:IAO_0000118>
-        <obo:IAO_0000118>Hepatobiliary medicine</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Liver disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Hepatobiliary medicine</ontology:SRAO_0000269>
         <obo:IAO_0000115>The branch of medicine that deals with the liver, gallbladder, bile ducts and bile.</obo:IAO_0000115>
         <obo:IAO_0000412>AL: 28.9.17 &apos;Hepatics and biliary medicine&apos; is asserted as a child of Medicine within EDAM. This assertion has been further refined within FAIRsharing as a child of Gastroenterology.</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1988,11 +1979,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3416">
         <rdfs:label>Musculoskeletal Medicine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Orthopaedics</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Rheumatology</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Rheumatology</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Orthopaedics</ontology:SRAO_0000269>
         <obo:IAO_0000115>The branch of medicine that deals with the prevention, diagnosis, and treatment of disorders of the muscle, bone and connective tissue.  It incorporates aspects of orthopaedics, rheumatology, rehabilitation medicine and pain medicine.</obo:IAO_0000115>
-        <obo:IAO_0000118>Musculoskeletal disorders</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Musculoskeletal disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2006,7 +1997,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C95096"/>
         <rdfs:comment>AL: 28.9.17 Changed re3data label from &apos;Clinical Neurosciences III - Opthalmology&apos; to Opthalmology as the new label is simpler and aligns with EDAM. Opthalmology is asserted as a child of Medicine by EDAM and as a child of Neurobiology by re3data. Both assertions have been retained, although this may need to be revisited in future.</rdfs:comment>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Eye disoders</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Eye disoders</ontology:SRAO_0000269>
         <obo:IAO_0000115>The branch of medicine that deals with disorders of the eye, including eyelid, optic nerve/visual pathways and occular muscles.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <ontology:SRAO_0000268>Clinical Neurosciences III - Ophthalmology</ontology:SRAO_0000268>
@@ -2021,10 +2012,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Pediatric and Adolescent Medicine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Child health</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Paediatrics</ontology:SRAO_0000269>
         <rdfs:comment>re3data</rdfs:comment>
         <obo:IAO_0000118>Pediatrics</obo:IAO_0000118>
-        <obo:IAO_0000118>Child health</obo:IAO_0000118>
         <obo:IAO_0000115>The branch of medicine that deals with the medical care of infants, children and adolescents.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -2036,7 +2027,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3419">
         <rdfs:label>Psychiatry</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Psychiatric disorders</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Psychiatric disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The branch of medicine that deals with the mangement of mental illness, emotional disturbance and abnormal behaviour.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -2049,14 +2040,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3420">
         <rdfs:label xml:lang="en">Reproductive Health</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Andrology</obo:IAO_0000118>
         <ontology:SRAO_0000268>Reproductive Medicine/Biology</ontology:SRAO_0000268>
+        <ontology:SRAO_0000269>Reproductive disorders</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Family planning</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Reproductive disorders</obo:IAO_0000118>
-        <obo:IAO_0000118>Fertility medicine</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Fertility medicine</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Andrology</ontology:SRAO_0000269>
         <obo:IAO_0000115>The health of the reproductive processes, functions and systems at all stages of life.</obo:IAO_0000115>
-        <obo:IAO_0000118>Family planning</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2067,7 +2058,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3421">
         <rdfs:label>Surgery</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Transplantation</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Transplantation</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>The use of operative, manual and instrumental techniques on a patient to investigate and/or treat a pathological condition or help improve bodily function or appearance.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -2081,13 +2072,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Urology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Urology</obo:IAO_0000118>
-        <obo:IAO_0000118>Kidney disease</obo:IAO_0000118>
         <ontology:SRAO_0000269>Urology and nephrology</ontology:SRAO_0000269>
-        <obo:IAO_0000118>Urological disorders</obo:IAO_0000118>
         <obo:IAO_0000115>The branches of medicine and physiology focussing on the function and disorders of the urinary system in males and females, the reproductive system in males, and the kidney.</obo:IAO_0000115>
-        <obo:IAO_0000118>Nephrology</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Kidney disease</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Nephrology</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Urology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Urological disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2113,7 +2104,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115>Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000115>The discovery of patterns in large data sets and the extraction and trasnsformation of those patterns into a useful format.</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Pattern recognition</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Pattern recognition</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2138,17 +2129,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3489">
         <rdfs:label>Database Management</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000118>Databases</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Record management</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Content management</ontology:SRAO_0000269>
         <obo:IAO_0000115>The general handling of data stored in digital archives such as databanks, databases proper, web portals and other data resources.</obo:IAO_0000115>
-        <obo:IAO_0000118>Document management</obo:IAO_0000118>
-        <obo:IAO_0000118>Database administration</obo:IAO_0000118>
-        <obo:IAO_0000118>File management</obo:IAO_0000118>
-        <obo:IAO_0000118>Content management</obo:IAO_0000118>
-        <obo:IAO_0000118>Record management</obo:IAO_0000118>
-        <obo:IAO_0000118>Data maintenance</obo:IAO_0000118>
-        <obo:IAO_0000118>Document, record and content management</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Document, record and content management</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Biological databases</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>File management</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Data maintenance</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Databases</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Document management</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Biological databases</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Database administration</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2160,12 +2151,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Zoology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <obo:IAO_0000115>Animals, e.g. information on a specific animal genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
-        <obo:IAO_0000118>Animal</obo:IAO_0000118>
-        <obo:IAO_0000118>Metazoa</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Animal</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Animals</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Metazoa</ontology:SRAO_0000269>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Animal biology</obo:IAO_0000118>
-        <obo:IAO_0000118>Animals</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Animal biology</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2201,8 +2192,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Data Governance</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Data stewardship</obo:IAO_0000118>
         <obo:IAO_0000115>The control of data entry and maintenance to ensure the data meets defined standards, qualities or constraints.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Data stewardship</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2213,9 +2204,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3572">
         <rdfs:label>Data Quality Management</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000118>Data quality</obo:IAO_0000118>
-        <obo:IAO_0000118>Data clean-up</obo:IAO_0000118>
-        <obo:IAO_0000118>Data integrity</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Data clean-up</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Data integrity</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Data quality</ontology:SRAO_0000269>
         <obo:IAO_0000115>The quality, integrity, and cleaning up of data. </obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -2268,7 +2259,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3576">
         <rdfs:label>Medical Biotechnology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3297"/>
-        <obo:IAO_0000118>Pharmaceutical biotechnology</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Pharmaceutical biotechnology</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>Biotechnology applied to the medical sciences and the development of medicines.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -2283,9 +2274,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000115>An approach to medicine whereby decisions, practices and are tailored to the individual patient based on their predicted response or risk of disease.</obo:IAO_0000115>
-        <obo:IAO_0000118>Precision medicine</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Precision medicine</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Molecular diagnostics</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Personalised medicine</ontology:SRAO_0000269>
-        <obo:IAO_0000118>Molecular diagnostics</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2299,13 +2290,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C16526"/>
         <obo:IAO_0000115>The ecology of microorganisms including their relationship with one another and their environment.</obo:IAO_0000115>
         <ontology:SRAO_0000268>Microbial Ecology and Applied Microbiology</ontology:SRAO_0000268>
-        <obo:IAO_0000118>Molecular community analysis</obo:IAO_0000118>
+        <ontology:SRAO_0000269>Microbiome</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Environmental microbiology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Community analysis</ontology:SRAO_0000269>
         <rdfs:comment>AL 27.9.17 &apos;Microbial Ecology&apos; is asserted as a child of Microbiology by both EDAM and re3data and as a child of Ecology by EDAM. The re3data label &apos;Microbial Ecology and Applied Microbiology&apos; was split into &apos;Microbial Ecology&apos; and &apos;Applied Microbiology&apos;</rdfs:comment>
-        <obo:IAO_0000118>Environmental microbiology</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000269>Molecular community analysis</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000118>Microbiome</obo:IAO_0000118>
-        <obo:IAO_0000118>Community analysis</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2317,13 +2308,27 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Proteogenomics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0091"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
-        <obo:IAO_0000118>Proteogenomic Analysis</obo:IAO_0000118>
-        <obo:IAO_0000118>Proteogenomic Characterization</obo:IAO_0000118>
         <rdfs:comment>AL 12.12.17 Child of Bioinformatics (to align with NCIT) and also of Genomics, to align with FAIRsharing usage.</rdfs:comment>
+        <ontology:SRAO_0000276>Proteogenomic Characterization</ontology:SRAO_0000276>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000118>Proteogenomic Research</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Proteogenomic Analysis</ontology:SRAO_0000276>
         <obo:IAO_0000115>A method of study that relates annotated genomic information to global protein expression in order to determine the relationship between genomic sequences and both expressed proteins and predicted peptide sequences; these studies can identify novel coding regions.</obo:IAO_0000115>
-        <obo:IAO_0000118>Proteogenomics</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Proteogenomic Research</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Proteogenomics</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15188 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C15188">
+        <rdfs:label xml:lang="en">Biomedical Science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
+        <rdfs:comment>AL: 3.12.18 &apos;Biomedical Research&apos; is a child of &apos;Research Activity&apos; within NCIT. This assertion has been modified to &apos;Life Sciences&apos; as SRAO focuses more on the subject area rather than the research activity. There was no direct equivalent for this discipline within re3data.</rdfs:comment>
+        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000115>Research concerned with the application of biological and physiological principles to clinical medicine.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Biomedical Research</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2334,13 +2339,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C16304">
         <rdfs:label>Architecture</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1648"/>
+        <ontology:SRAO_0000276>Architecture</ontology:SRAO_0000276>
         <rdfs:comment>AL 23.5.18: The original &quot;Construction Engineering and Architecture&quot; class from re3data has been split into &quot;Construction Engineering&quot; and &quot;Architecture&quot;. Users have requested the single terms, and removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <obo:IAO_0000118>Architecture</obo:IAO_0000118>
         <obo:IAO_0000115>The art or science of building; especially, the art of building houses, churches, bridges, and other structures, for the purposes of civil life</obo:IAO_0000115>
         <obo:IAO_0000115>Architecture - The art or practice of designing and constructing buildings [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Engineering / Architecture</obo:IAO_0000118>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <ontology:SRAO_0000276>Engineering / Architecture</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2354,7 +2359,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000115>Chemical Engineering; engineering dealing with the industrial application of chemistry. (WWWebster Dictionary)</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Chemical Engineering</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Chemical Engineering</ontology:SRAO_0000276>
         <ontology:SRAO_0000268 xml:lang="en">Chemical and Thermal Process Engineering</ontology:SRAO_0000268>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
@@ -2366,12 +2371,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C16478">
         <rdfs:label>Culture</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C17141"/>
+        <ontology:SRAO_0000276>culture</ontology:SRAO_0000276>
         <obo:IAO_0000115>A pattern of learned beliefs, values, and behavior that are shared within a group. It includes language, styles of communication, practices, customs, and views on roles and relationships.</obo:IAO_0000115>
-        <obo:IAO_0000118>Culture</obo:IAO_0000118>
-        <obo:IAO_0000118>Cultural</obo:IAO_0000118>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000118>culture</obo:IAO_0000118>
-        <obo:IAO_0000118>Culturally</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Cultural</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Culture</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Culturally</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2382,14 +2387,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C16495">
         <rdfs:label>Demographics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C17141"/>
-        <obo:IAO_0000118>Population Studies / Demography</obo:IAO_0000118>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Hierarchy placement based on ESRC descriptions (http://www.esrc.ac.uk/about-us/what-is-social-science/social-science-disciplines/).</rdfs:comment>
-        <obo:IAO_0000118>Demographic Factor</obo:IAO_0000118>
         <obo:IAO_0000115>The statistical characterization of human populations or segments of human populations (e.g., characterization by age, sex, race, or income).</obo:IAO_0000115>
-        <obo:IAO_0000118>Demographic Factors</obo:IAO_0000118>
-        <obo:IAO_0000118>Demographics</obo:IAO_0000118>
-        <obo:IAO_0000118>Demography</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Population Studies / Demography</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Demography</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Demographics</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Demographic Factor</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Demographic Factors</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2401,8 +2406,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Ecology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <obo:IAO_0000115>The branch of biology concerned with the relations between organisms and their environment.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Ecology</ontology:SRAO_0000276>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000118>Ecology</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2418,7 +2423,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Engineering Sciences</ontology:SRAO_0000268>
-        <obo:IAO_0000118>Engineering</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Engineering</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2430,8 +2435,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Entomology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000118>Entomology</obo:IAO_0000118>
         <obo:IAO_0000115>Entomology; the branch of zoology that studies insects.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Entomology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2444,10 +2449,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000115>The application of medical knowledge to questions of law; research, reports and testimony in court by experts in medical science to assist in determining a legal question.</obo:IAO_0000115>
         <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
+        <ontology:SRAO_0000276>Forensics</ontology:SRAO_0000276>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Forensics</obo:IAO_0000118>
-        <obo:IAO_0000118>Forensic Medicine</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Forensic Medicine</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2458,10 +2463,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C16633">
         <rdfs:label xml:lang="en">Geography</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OMIT_0026615"/>
+        <ontology:SRAO_0000276>Geography</ontology:SRAO_0000276>
         <obo:IAO_0000115>The science that deals with the world and its inhabitants; a description of the earth, or a portion of the earth, including its structure, features, products, political divisions, and the people by whom it is inhabited.</obo:IAO_0000115>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Geography</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2472,7 +2477,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C16715">
         <rdfs:label>Immunogenetics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
-        <obo:IAO_0000118>Immunogenetics</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Immunogenetics</ontology:SRAO_0000276>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000115>A sub-field of genetics that uses both genetic and immunological analyses to study the genetics behind antibody formation and the immune response. (Biotech Life Science Dictionary)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
@@ -2486,12 +2491,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Nuclear Medicine</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C17059"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <ontology:SRAO_0000276>Radiology / Radiation Biology / Nuclear Medicine</ontology:SRAO_0000276>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Nuclear Medicine</obo:IAO_0000118>
-        <obo:IAO_0000118>Radiology-Nuclear Medicine</obo:IAO_0000118>
         <rdfs:comment>AL 15.1.18: While this particular class was not directly imported from re3data, its parent class was originally named &apos;Radiology and Nuclear Medicine&apos;. As NCIT has terms separately describing both concepts, FAIRsharing has split the re3data class along the hierarchy described in NCIT.</rdfs:comment>
         <obo:IAO_0000115>Nuclear Medicine is the branch of medicine that uses radioactive materials either to image a patient&apos;s body or to destroy diseased cells.</obo:IAO_0000115>
-        <obo:IAO_0000118>Radiology / Radiation Biology / Nuclear Medicine</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Nuclear Medicine</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Radiology-Nuclear Medicine</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2502,14 +2507,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C17059">
         <rdfs:label xml:lang="en">Radiology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Radiology, General</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Radiologic</ontology:SRAO_0000276>
         <obo:IAO_0000115>The branch of medical science dealing with the medical use of X-rays or other penetrating radiation.</obo:IAO_0000115>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000118>radiology</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <obo:IAO_0000118>Radiology</obo:IAO_0000118>
-        <obo:IAO_0000118>Radiologic</obo:IAO_0000118>
         <rdfs:comment>AL 15.1.18 Originally named &apos;Radiology and Nuclear Medicine&apos;, but split into two separate classes (according to the NCIT hierarchy) after Radiology was required in FAIRsharing as a standalone concept.</rdfs:comment>
+        <ontology:SRAO_0000276>radiology</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Radiology</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Radiology, General</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2521,9 +2526,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">Social Sciences</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000041"/>
         <obo:IAO_0000115>Comprises the scientific study of the human aspects of the world. They are also known as social studies. Psychology studies the human mind, sociology examines human society, political science studies the governing of groups and economics concerns itself with the allocation of wealth in society.</obo:IAO_0000115>
-        <obo:IAO_0000118>Social Sciences</obo:IAO_0000118>
-        <obo:IAO_0000118>Social Studies</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Social Studies</ontology:SRAO_0000276>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000276>Social Sciences</ontology:SRAO_0000276>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
@@ -2538,10 +2543,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C16548"/>
         <rdfs:comment>AL 23.11.17: Added parent &apos;Engineering Sciences&apos; to align with the structure found within NCIT.</rdfs:comment>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000118>Bioengineering</obo:IAO_0000118>
-        <obo:IAO_0000118>Biomedical Engineering</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Biomedical Engineering</ontology:SRAO_0000276>
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health. [ NCIT, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Bioengineering</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2552,12 +2557,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C18189">
         <rdfs:label>Pathology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000118>Pathological</obo:IAO_0000118>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000115>The medical science, and specialty practice, concerned with all aspects of disease, but with special reference to the essential nature, causes, and development of abnormal conditions, as well as the structural and functional changes that result from the disease processes. Informally used to mean the result of such an examination.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Pathology</ontology:SRAO_0000276>
         <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <obo:IAO_0000118>Pathology</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Pathological</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2568,8 +2573,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C18633">
         <rdfs:label>Animal Genetics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
-        <obo:IAO_0000118>Animal Genetics</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000276>Animal Genetics</ontology:SRAO_0000276>
         <rdfs:comment>AL 25.1 18: The label within NCIT has been chosen as the label for this class as it is simpler, while the re3data has been retained as an alternative term.</rdfs:comment>
         <ontology:SRAO_0000268 xml:lang="en">Animal Genetics, Cell and Developmental Biology</ontology:SRAO_0000268>
         <obo:IAO_0000115>The study of genetic traits in animals.</obo:IAO_0000115>
@@ -2584,9 +2589,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C18645">
         <rdfs:label>Enzymology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3292"/>
-        <obo:IAO_0000118>Biochemistry, Enzymatic</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Enzymology</ontology:SRAO_0000276>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000118>Enzymology</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Biochemistry, Enzymatic</ontology:SRAO_0000276>
         <obo:IAO_0000115>The branch of biochemistry dealing with the chemical nature and biological activity of enzymes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
@@ -2600,7 +2605,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
         <obo:IAO_0000115>The sciences concerned with health promotion and maintenance.</obo:IAO_0000115>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000118>Health Sciences</obo:IAO_0000118>
+        <ontology:SRAO_0000276>Health Sciences</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2613,9 +2618,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_2840"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000118>Toxicogenomics</obo:IAO_0000118>
         <rdfs:comment>AL 20.12.17: Although NCIT places Toxicogenomics as a child of Bioinformatics, FAIRsharing instead places it as a child of both Genomics and Toxicology.</rdfs:comment>
         <obo:IAO_0000115>Toxicogenomics is a new scientific field that elucidates how the entire genome is involved in biological responses of organisms exposed to environmental toxicants/stressors. Toxicogenomics combines information from studies of genomic-scale mRNA profiling (by microarray analysis), cell-wide or tissue-wide protein profiling (proteomics), genetic susceptibility, and computational models to understand the roles of gene-environment interactions in disease. (from National Center for Toxicogenomics homepage)</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Toxicogenomics</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2626,11 +2631,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C54625">
         <rdfs:label xml:lang="en">History</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OMIT_0007951"/>
-        <obo:IAO_0000118>History</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000118>Historical</obo:IAO_0000118>
         <obo:IAO_0000115>The aggregate of past events; the continuum of events occurring in succession leading from the past to the present; a record or narrative description of past events.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>History</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Historical</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -2640,13 +2645,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&obo;NCIT_C95096">
         <rdfs:label>Neuroscience</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
-        <SRAO:SRAO_0000276>Neuroscience Domain</SRAO:SRAO_0000276>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
+        <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
         <rdfs:comment>AL: 17.10.17 Neuroscience is asserted as a child of Medicine by re3data and Neuro*biology* as a child of &apos;Biomedical Science&apos; by EDAM. We have placed Neurobiology as a child of Neuroscience. The re3data label has been changed from Neurosciences to Neuroscience to align with FAIRsharing terminology.</rdfs:comment>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000115>A subject domain utilized for the submission of information encompassing and representing data, vocabulary or records related to the brain and nervous system.</obo:IAO_0000115>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000118>Neuroscience Domain</obo:IAO_0000118>
         <ontology:SRAO_0000268>Neurosciences</ontology:SRAO_0000268>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
@@ -2891,8 +2895,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Plant Anatomy</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An anatomical entity that is or was part of a plant.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="&xsd;string">entidad anat&amp;#243mica vegetal (Spanish, exact)</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="&xsd;string">植物 解剖学（形態）的実体 (Japanese, exact)</obo:IAO_0000118>
+        <ontology:SRAO_0000292 rdf:datatype="&xsd;string">entidad anat&amp;#243mica vegetal (Spanish, exact)</ontology:SRAO_0000292>
+        <ontology:SRAO_0000292 rdf:datatype="&xsd;string">植物 解剖学（形態）的実体 (Japanese, exact)</ontology:SRAO_0000292>
         <obo:IAO_0000412>PO</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Please note the original Plant Ontology term is &apos;plant anatomical entity&apos;, however FAIRsharing requires the use of the term in the sense of a subject/discipline.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
@@ -3656,7 +3660,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000099">
         <rdfs:label xml:lang="en">Medical Microbiology, Molecular Infection Biology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <rdfs:comment>AL: 28.9.17 &apos;Medical Microbiology, Molecular Infection Biology&apos; is asserted as a child of Microbiology by re3data, and has additionally been positioned as a child of &apos;Biomedical Sciences&apos;.</rdfs:comment>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
