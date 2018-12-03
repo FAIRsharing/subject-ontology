@@ -1,24 +1,12 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY edamontology "http://edamontology.org/" >
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
 <rdf:RDF xmlns="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl#"
      xml:base="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:edamontology="http://edamontology.org/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:edamontology="http://edamontology.org/">
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl"/>
     
 
@@ -31,29 +19,25 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <obo:IAO_0000118>DEFINITION</obo:IAO_0000118>
-        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
     
 
 
@@ -70,1627 +54,1628 @@
 
     <!-- http://edamontology.org/topic_0084 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0084">
-        <obo:IAO_0000118>Phylogenetic dating</obo:IAO_0000118>
-        <obo:IAO_0000118>Phylogenetic simulation</obo:IAO_0000118>
-        <obo:IAO_0000115>The study of evolutionary relationships amongst organisms.</obo:IAO_0000115>
-        <obo:IAO_0000118>Phylogenetic stratigraphy</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_0084">
         <obo:IAO_0000118>Phylogeny reconstruction</obo:IAO_0000118>
         <obo:IAO_0000118>Phylogenetic clocks</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000115>The study of evolutionary relationships amongst organisms.</obo:IAO_0000115>
+        <obo:IAO_0000118>Phylogenetic dating</obo:IAO_0000118>
+        <obo:IAO_0000118>Phylogenetic stratigraphy</obo:IAO_0000118>
+        <obo:IAO_0000118>Phylogenetic simulation</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0085 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0085">
+    <owl:Class rdf:about="http://edamontology.org/topic_0085">
         <obo:IAO_0000115>The study of gene or protein functions and their interactions in totality in a given organism, tissue, cell etc.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0089 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0089">
+    <owl:Class rdf:about="http://edamontology.org/topic_0089">
+        <obo:IAO_0000118>Applied ontology</obo:IAO_0000118>
+        <obo:IAO_0000118>Terminology</obo:IAO_0000118>
         <obo:IAO_0000115>The conceptualisation, categorisation and nomenclature (naming) of entities or phenomena within biology or bioinformatics. This includes formal ontologies, controlled vocabularies, structured glossary, symbols and terminology or other related resource.</obo:IAO_0000115>
         <obo:IAO_0000118>Ontology</obo:IAO_0000118>
         <obo:IAO_0000118>Ontologies</obo:IAO_0000118>
-        <obo:IAO_0000118>Terminology</obo:IAO_0000118>
-        <obo:IAO_0000118>Applied ontology</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0091 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0091">
+    <owl:Class rdf:about="http://edamontology.org/topic_0091">
         <obo:IAO_0000115>The archival, curation, processing and analysis of complex biological data.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0092 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0092">
-        <obo:IAO_0000118>Data rendering</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_0092">
         <obo:IAO_0000115>Rendering (drawing on a computer screen) or visualisation of molecular sequences, structures or other biomolecular data.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Data rendering</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0121 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0121">
-        <obo:IAO_0000118>Protein and peptide identification</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_0121">
         <obo:IAO_0000115>Protein and peptide identification, especially in the study of whole proteomes of organisms.</obo:IAO_0000115>
-        <obo:IAO_0000118>Targeted proteomics</obo:IAO_0000118>
         <obo:IAO_0000118>Metaproteomics</obo:IAO_0000118>
         <obo:IAO_0000118>Discovery proteomics</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein and peptide identification</obo:IAO_0000118>
         <obo:IAO_0000118>Peptide identification</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Targeted proteomics</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0122 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0122">
+    <owl:Class rdf:about="http://edamontology.org/topic_0122">
         <obo:IAO_0000115>The elucidation of the three dimensional structure for all (available) proteins in a given organism.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0176 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0176">
-        <obo:IAO_0000118>Protein dynamics</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_0176">
         <obo:IAO_0000115>The study and simulation of molecular (typically protein) conformation using a computational model of physical forces and computer simulation.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Protein dynamics</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0194 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0194">
+    <owl:Class rdf:about="http://edamontology.org/topic_0194">
         <obo:IAO_0000115>The integrated study of evolutionary relationships and whole genome data, for example, in the analysis of species trees, horizontal gene transfer and evolutionary reconstruction.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0202 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0202">
-        <obo:IAO_0000118>Computational pharmacology</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_0202">
         <obo:IAO_0000115>The study of drugs and their effects or responses in living systems. </obo:IAO_0000115>
+        <obo:IAO_0000118>Computational pharmacology</obo:IAO_0000118>
         <obo:IAO_0000118>Pharmacoinformatics</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0208 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0208">
-        <obo:IAO_0000115>The influence of genotype on drug response, for example by correlating gene expression or single-nucleotide polymorphisms with drug efficacy or toxicity.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://edamontology.org/topic_0208">
         <obo:IAO_0000118>Pharmacogenetics</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000115>The influence of genotype on drug response, for example by correlating gene expression or single-nucleotide polymorphisms with drug efficacy or toxicity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0209 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0209">
-        <obo:IAO_0000115>The design and chemical synthesis of bioactive molecules, for example drugs or potential drug compounds, for medicinal purposes.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://edamontology.org/topic_0209">
         <obo:IAO_0000118>Drug design</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000115>The design and chemical synthesis of bioactive molecules, for example drugs or potential drug compounds, for medicinal purposes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0218 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0218">
-        <obo:IAO_0000118>Text data mining</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_0218">
+        <obo:IAO_0000118>Text mining</obo:IAO_0000118>
         <obo:IAO_0000118>Literature mining</obo:IAO_0000118>
         <obo:IAO_0000115>The processing and analysis of natural language, such as scientific literature in English, in order to extract data and information, or to enable human-computer interaction.</obo:IAO_0000115>
-        <obo:IAO_0000118>Text analytics</obo:IAO_0000118>
-        <obo:IAO_0000118>Text mining</obo:IAO_0000118>
         <obo:IAO_0000118>BioNLP</obo:IAO_0000118>
+        <obo:IAO_0000118>Text analytics</obo:IAO_0000118>
         <obo:IAO_0000118>NLP</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Text data mining</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0219 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0219">
+    <owl:Class rdf:about="http://edamontology.org/topic_0219">
         <obo:IAO_0000118>Database curation</obo:IAO_0000118>
         <obo:IAO_0000115>Deposition and curation of database accessions, including annotation, typically with terms from a controlled vocabulary.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0605 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0605">
+    <owl:Class rdf:about="http://edamontology.org/topic_0605">
         <obo:IAO_0000115>The study and practice of information processing and use of computer information systems.</obo:IAO_0000115>
         <obo:IAO_0000118>Knowledge management</obo:IAO_0000118>
         <obo:IAO_0000118>Information management</obo:IAO_0000118>
         <obo:IAO_0000118>Information science</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0622 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0622">
-        <obo:IAO_0000115>Whole genomes of one or more organisms, or genomes in general, such as meta-information on genomes, genome projects, gene names etc.</obo:IAO_0000115>
-        <obo:IAO_0000118>Viral genomics</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_0622">
         <obo:IAO_0000118>Genome annotation</obo:IAO_0000118>
+        <obo:IAO_0000118>Viral genomics</obo:IAO_0000118>
         <obo:IAO_0000118>Personal genomics</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000115>Whole genomes of one or more organisms, or genomes in general, such as meta-information on genomes, genome projects, gene names etc.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0637 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0637">
+    <owl:Class rdf:about="http://edamontology.org/topic_0637">
         <obo:IAO_0000115>Organism classification, identification and naming.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0780 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0780">
+    <owl:Class rdf:about="http://edamontology.org/topic_0780">
         <obo:IAO_0000118>Plants</obo:IAO_0000118>
-        <obo:IAO_0000118>Plant</obo:IAO_0000118>
         <obo:IAO_0000118>Plant science</obo:IAO_0000118>
-        <obo:IAO_0000118>Botany</obo:IAO_0000118>
         <obo:IAO_0000115>Plants, e.g. information on a specific plant genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Botany</obo:IAO_0000118>
+        <obo:IAO_0000118>Plant</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0781 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0781">
+    <owl:Class rdf:about="http://edamontology.org/topic_0781">
         <obo:IAO_0000115>Study of viruses, e.g. sequence and structural data, interactions of viral proteins, or a viral genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0797 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0797">
+    <owl:Class rdf:about="http://edamontology.org/topic_0797">
         <obo:IAO_0000115>The study (typically comparison) of the sequence, structure or function of multiple genomes.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_0804 -->
 
-    <owl:Class rdf:about="&edamontology;topic_0804">
+    <owl:Class rdf:about="http://edamontology.org/topic_0804">
         <obo:IAO_0000118>Immunoinformatics</obo:IAO_0000118>
-        <obo:IAO_0000115>The application of information technology to immunology such as immunological processes, immunological genes, proteins and peptide ligands, antigens and so on.</obo:IAO_0000115>
         <obo:IAO_0000118>Computational immunology</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000115>The application of information technology to immunology such as immunological processes, immunological genes, proteins and peptide ligands, antigens and so on.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_1317 -->
 
-    <owl:Class rdf:about="&edamontology;topic_1317">
+    <owl:Class rdf:about="http://edamontology.org/topic_1317">
+        <obo:IAO_0000118>Structural determination</obo:IAO_0000118>
         <obo:IAO_0000118>Structure determination</obo:IAO_0000118>
         <obo:IAO_0000115>The molecular structure of biological molecules, particularly macromolecules such as proteins and nucleic acids.</obo:IAO_0000115>
         <obo:IAO_0000118>Structural assignment</obo:IAO_0000118>
-        <obo:IAO_0000118>Structural determination</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_2229 -->
 
-    <owl:Class rdf:about="&edamontology;topic_2229">
+    <owl:Class rdf:about="http://edamontology.org/topic_2229">
         <obo:IAO_0000115>Cells, such as key genes and proteins involved in the cell cycle.</obo:IAO_0000115>
         <obo:IAO_0000118>Cellular processes</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_2258 -->
 
-    <owl:Class rdf:about="&edamontology;topic_2258">
-        <obo:IAO_0000118>Chemoinformatics</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_2258">
         <obo:IAO_0000118>Chemical informatics</obo:IAO_0000118>
         <obo:IAO_0000115>The application of information technology to chemistry in biological research environment.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Chemoinformatics</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_2259 -->
 
-    <owl:Class rdf:about="&edamontology;topic_2259">
-        <obo:IAO_0000118>Biological modelling</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_2259">
         <obo:IAO_0000118>Biological system modelling</obo:IAO_0000118>
+        <obo:IAO_0000118>Biological modelling</obo:IAO_0000118>
         <obo:IAO_0000115>The holistic modelling and analysis of complex biological systems and the interactions therein.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_2269 -->
 
-    <owl:Class rdf:about="&edamontology;topic_2269">
+    <owl:Class rdf:about="http://edamontology.org/topic_2269">
         <obo:IAO_0000118>Statistics</obo:IAO_0000118>
-        <obo:IAO_0000115>The application of statistical methods to biological problems.</obo:IAO_0000115>
         <obo:IAO_0000118>Biostatistics</obo:IAO_0000118>
         <obo:IAO_0000118>Probability</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000115>The application of statistical methods to biological problems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_2640 -->
 
-    <owl:Class rdf:about="&edamontology;topic_2640">
+    <owl:Class rdf:about="http://edamontology.org/topic_2640">
         <obo:IAO_0000115>The study of cancer, for example, genes and proteins implicated in cancer.</obo:IAO_0000115>
-        <obo:IAO_0000118>Cancer biology</obo:IAO_0000118>
-        <obo:IAO_0000118>Neoplasms</obo:IAO_0000118>
         <obo:IAO_0000118>Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Neoplasms</obo:IAO_0000118>
+        <obo:IAO_0000118>Cancer biology</obo:IAO_0000118>
         <obo:IAO_0000118>Cancer</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_2815 -->
 
-    <owl:Class rdf:about="&edamontology;topic_2815">
+    <owl:Class rdf:about="http://edamontology.org/topic_2815">
         <obo:IAO_0000115>The study of human beings in general, including the human genome and proteome.</obo:IAO_0000115>
         <obo:IAO_0000118>Humans</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_2840 -->
 
-    <owl:Class rdf:about="&edamontology;topic_2840">
+    <owl:Class rdf:about="http://edamontology.org/topic_2840">
+        <obo:IAO_0000118>Computational toxicology</obo:IAO_0000118>
         <obo:IAO_0000115>Toxins and the adverse effects of these chemical substances on living organisms.</obo:IAO_0000115>
         <obo:IAO_0000118>Toxicoinformatics</obo:IAO_0000118>
-        <obo:IAO_0000118>Computational toxicology</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3047 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3047">
+    <owl:Class rdf:about="http://edamontology.org/topic_3047">
         <obo:IAO_0000115>The molecular basis of biological activity, particularly the macromolecules (e.g. proteins and nucleic acids) that are essential to life.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3050 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3050">
+    <owl:Class rdf:about="http://edamontology.org/topic_3050">
         <obo:IAO_0000115>The degree of variation of life forms within a given ecosystem, biome or an entire planet.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3053 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3053">
+    <owl:Class rdf:about="http://edamontology.org/topic_3053">
         <obo:IAO_0000115>The study of genes, genetic variation and heredity in living organisms.</obo:IAO_0000115>
         <obo:IAO_0000118>Heredity</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3055 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3055">
+    <owl:Class rdf:about="http://edamontology.org/topic_3055">
         <obo:IAO_0000115>The genes and genetic mechanisms such as Mendelian inheritance that underly continuous phenotypic traits (such as height or weight).</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3056 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3056">
+    <owl:Class rdf:about="http://edamontology.org/topic_3056">
         <obo:IAO_0000115>The distribution of allele frequencies in a population of organisms and its change subject to evolutionary processes including natural selection, genetic drift, mutation and gene flow.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3063 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3063">
-        <obo:IAO_0000118>Healthcare informatics</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3063">
         <obo:IAO_0000118>Health and disease</obo:IAO_0000118>
-        <obo:IAO_0000118>Clinical informatics</obo:IAO_0000118>
+        <obo:IAO_0000118>Healthcare informatics</obo:IAO_0000118>
         <obo:IAO_0000118>Biomedical informatics</obo:IAO_0000118>
         <obo:IAO_0000115>The application of information technology to health, disease and biomedicine.</obo:IAO_0000115>
         <obo:IAO_0000118>Health informatics</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Clinical informatics</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3064 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3064">
+    <owl:Class rdf:about="http://edamontology.org/topic_3064">
         <obo:IAO_0000115>How organisms grow and develop.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3065 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3065">
+    <owl:Class rdf:about="http://edamontology.org/topic_3065">
         <obo:IAO_0000115>The development of organisms between the one-cell stage (typically the zygote) and the end of the embryonic stage.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3067 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3067">
+    <owl:Class rdf:about="http://edamontology.org/topic_3067">
         <obo:IAO_0000115>The form and function of the structures of living organisms.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3070 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3070">
+    <owl:Class rdf:about="http://edamontology.org/topic_3070">
         <obo:IAO_0000118>Biological rhythms</obo:IAO_0000118>
-        <obo:IAO_0000118>Cryobiology</obo:IAO_0000118>
-        <obo:IAO_0000118>Aerobiology</obo:IAO_0000118>
-        <obo:IAO_0000118>Behavioural biology</obo:IAO_0000118>
         <obo:IAO_0000118>Reproductive biology</obo:IAO_0000118>
-        <obo:IAO_0000118>Chronobiology</obo:IAO_0000118>
+        <obo:IAO_0000118>Aerobiology</obo:IAO_0000118>
         <obo:IAO_0000115>A particular biological science, especially observable traits such as aspects of biochemistry, physiology, morphology, anatomy, development and so on.</obo:IAO_0000115>
         <obo:IAO_0000118>Biological science</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Chronobiology</obo:IAO_0000118>
+        <obo:IAO_0000118>Behavioural biology</obo:IAO_0000118>
+        <obo:IAO_0000118>Cryobiology</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3071 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3071">
+    <owl:Class rdf:about="http://edamontology.org/topic_3071">
         <obo:IAO_0000115>The development and use of architectures, policies, practices and procedures for management of data.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3077 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3077">
+    <owl:Class rdf:about="http://edamontology.org/topic_3077">
         <obo:IAO_0000115>The acquisition of data, typically measurements of physical systems using any type of sampling system, or by another other means.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3172 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3172">
+    <owl:Class rdf:about="http://edamontology.org/topic_3172">
         <obo:IAO_0000115>The systematic study of metabolites, the chemical processes they are involved, and the chemical fingerprints of specific cellular processes in a whole cell, tissue, organ or organism.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3173 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3173">
+    <owl:Class rdf:about="http://edamontology.org/topic_3173">
         <obo:IAO_0000115>The study of the epigenetic modifications of a whole cell, tissue, organism etc.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3174 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3174">
+    <owl:Class rdf:about="http://edamontology.org/topic_3174">
         <obo:IAO_0000118>Shotgun metagenomics</obo:IAO_0000118>
-        <obo:IAO_0000118>Biome sequencing</obo:IAO_0000118>
         <obo:IAO_0000115>The study of genetic material recovered from environmental samples, and associated environmental data.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Biome sequencing</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3263 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3263">
+    <owl:Class rdf:about="http://edamontology.org/topic_3263">
         <obo:IAO_0000118>Data privacy</obo:IAO_0000118>
         <obo:IAO_0000115>The protection of data, such as patient health data, from damage or unwanted access from unauthorised users.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3292 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3292">
-        <obo:IAO_0000118>Biological chemistry</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3292">
         <obo:IAO_0000115>Chemical substances and physico-chemical processes and that occur within living organisms.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Biological chemistry</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3293 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3293">
+    <owl:Class rdf:about="http://edamontology.org/topic_3293">
         <obo:IAO_0000115>The study of evolutionary relationships amongst organisms from analysis of genetic information (typically gene or protein sequences).</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3295 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3295">
-        <obo:IAO_0000118>DNA methylation</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3295">
         <obo:IAO_0000118>Histone modification</obo:IAO_0000118>
         <obo:IAO_0000115>Topic concerning the study of heritable changes, for example in gene expression or phenotype, caused by mechanisms other than changes in the DNA sequence.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>DNA methylation</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3297 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3297">
+    <owl:Class rdf:about="http://edamontology.org/topic_3297">
         <obo:IAO_0000115>The exploitation of biological process, structure and function for industrial purposes, for example the genetic manipulation of microorganisms for the antibody production.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3298 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3298">
+    <owl:Class rdf:about="http://edamontology.org/topic_3298">
         <obo:IAO_0000115>Phenomes, or the study of the change in phenotype (the physical and biochemical traits of organisms) in response to genetic and environmental factors. </obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3299 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3299">
+    <owl:Class rdf:about="http://edamontology.org/topic_3299">
         <obo:IAO_0000115>The evolutionary processes, from the genetic to environmental scale, that produced life in all its diversity.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3300 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3300">
+    <owl:Class rdf:about="http://edamontology.org/topic_3300">
         <obo:IAO_0000115>The functions of living organisms and their constituent parts.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3301 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3301">
-        <obo:IAO_0000118>Microbial surveillance</obo:IAO_0000118>
-        <obo:IAO_0000115>The biology of microorganisms.</obo:IAO_0000115>
-        <obo:IAO_0000118>Microbiological surveillance</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3301">
         <obo:IAO_0000118>Antimicrobial stewardship</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000115>The biology of microorganisms.</obo:IAO_0000115>
+        <obo:IAO_0000118>Microbial surveillance</obo:IAO_0000118>
+        <obo:IAO_0000118>Microbiological surveillance</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3302 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3302">
+    <owl:Class rdf:about="http://edamontology.org/topic_3302">
         <obo:IAO_0000115>The biology of parasites.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3303 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3303">
-        <obo:IAO_0000115>Research in support of healing by diagnosis, treatment, and prevention of disease.</obo:IAO_0000115>
-        <obo:IAO_0000118>Clinical medicine</obo:IAO_0000118>
-        <obo:IAO_0000118>Biomedical research</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3303">
         <obo:IAO_0000118>General medicine</obo:IAO_0000118>
-        <obo:IAO_0000118>Experimental medicine</obo:IAO_0000118>
         <obo:IAO_0000118>Internal medicine</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Biomedical research</obo:IAO_0000118>
+        <obo:IAO_0000115>Research in support of healing by diagnosis, treatment, and prevention of disease.</obo:IAO_0000115>
+        <obo:IAO_0000118>Experimental medicine</obo:IAO_0000118>
+        <obo:IAO_0000118>Clinical medicine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3304 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3304">
+    <owl:Class rdf:about="http://edamontology.org/topic_3304">
         <obo:IAO_0000115>The study of the nervous system and brain; its anatomy, physiology and function.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3305 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3305">
-        <obo:IAO_0000118>Public health</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3305">
         <obo:IAO_0000115>Topic concerning the the patterns, cause, and effect of disease within populations.</obo:IAO_0000115>
         <obo:IAO_0000118>Epidemiology</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Public health</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3306 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3306">
+    <owl:Class rdf:about="http://edamontology.org/topic_3306">
         <obo:IAO_0000115>The use of physics to study biological system.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3307 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3307">
+    <owl:Class rdf:about="http://edamontology.org/topic_3307">
+        <obo:IAO_0000118>Biomathematics</obo:IAO_0000118>
         <obo:IAO_0000118>Theoretical biology</obo:IAO_0000118>
         <obo:IAO_0000115>The development and application of theory, analytical methods, mathematical models and computational simulation of biological systems.</obo:IAO_0000115>
-        <obo:IAO_0000118>Biomathematics</obo:IAO_0000118>
         <obo:IAO_0000118>Mathematical biology</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3308 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3308">
+    <owl:Class rdf:about="http://edamontology.org/topic_3308">
         <obo:IAO_0000118>Transcriptome</obo:IAO_0000118>
-        <obo:IAO_0000118>Metatranscriptomics</obo:IAO_0000118>
         <obo:IAO_0000115>The analysis of transcriptomes, or a set of all the RNA molecules in a specific cell, tissue etc.</obo:IAO_0000115>
         <obo:IAO_0000118>Comparative transcriptomics</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Metatranscriptomics</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3314 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3314">
-        <obo:IAO_0000115>The composition and properties of matter, reactions, and the use of reactions to create new substances.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://edamontology.org/topic_3314">
+        <obo:IAO_0000118>Physical chemistry</obo:IAO_0000118>
         <obo:IAO_0000118>Mathematical chemistry</obo:IAO_0000118>
-        <obo:IAO_0000118>Inorganic chemistry</obo:IAO_0000118>
         <obo:IAO_0000118>Nuclear chemistry</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000115>The composition and properties of matter, reactions, and the use of reactions to create new substances.</obo:IAO_0000115>
+        <obo:IAO_0000118>Organic chemistry</obo:IAO_0000118>
+        <obo:IAO_0000118>Inorganic chemistry</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3315 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3315">
-        <obo:IAO_0000118>Maths</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3315">
         <obo:IAO_0000115>The study of numbers (quantity) and other topics including structure, space, and change.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Maths</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3316 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3316">
+    <owl:Class rdf:about="http://edamontology.org/topic_3316">
         <obo:IAO_0000115>The theory and practical use of computer systems.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3318 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3318">
+    <owl:Class rdf:about="http://edamontology.org/topic_3318">
         <obo:IAO_0000115>The study of matter, space and time, and related concepts such as energy and force.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3321 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3321">
+    <owl:Class rdf:about="http://edamontology.org/topic_3321">
         <obo:IAO_0000115>The structure and function of genes at a molecular level.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3332 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3332">
+    <owl:Class rdf:about="http://edamontology.org/topic_3332">
         <obo:IAO_0000115>Topic concerning the development and application of theory, analytical methods, mathematical models and computational simulation of chemical systems.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3334 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3334">
+    <owl:Class rdf:about="http://edamontology.org/topic_3334">
         <obo:IAO_0000115>The branch of medicine that deals with the anatomy, functions and disorders of the nervous system.</obo:IAO_0000115>
         <obo:IAO_0000118>Neurological disorders</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3335 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3335">
-        <obo:IAO_0000115>The diseases and abnormalities of the heart and circulatory system.</obo:IAO_0000115>
-        <obo:IAO_0000118>Cardiovascular disease</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3335">
         <obo:IAO_0000118>Cardiovascular medicine</obo:IAO_0000118>
         <obo:IAO_0000118>Heart disease</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000115>The diseases and abnormalities of the heart and circulatory system.</obo:IAO_0000115>
+        <obo:IAO_0000118>Cardiovascular disease</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3336 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3336">
+    <owl:Class rdf:about="http://edamontology.org/topic_3336">
         <obo:IAO_0000115>The discovery and design of drugs or potential drug compounds.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3342 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3342">
-        <obo:IAO_0000115>&apos;translating&apos; the output of basic and biomedical research into better diagnostic tools, medicines, medical procedures, policies and advice.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_3344 -->
-
-    <owl:Class rdf:about="&edamontology;topic_3344">
-        <obo:IAO_0000118>Health science</obo:IAO_0000118>
-        <obo:IAO_0000115>Topic concerning biological science that is (typically) performed in the context of medicine.</obo:IAO_0000115>
-        <obo:IAO_0000118>Biomedical sciences</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+    <owl:Class rdf:about="http://edamontology.org/topic_3342">
+        <obo:IAO_0000115>&#39;translating&#39; the output of basic and biomedical research into better diagnostic tools, medicines, medical procedures, policies and advice.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3345 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3345">
+    <owl:Class rdf:about="http://edamontology.org/topic_3345">
         <obo:IAO_0000115>Topic concerning the identity of biological entities, or reports on such entities, and the mapping of entities and records in different databases.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3365 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3365">
+    <owl:Class rdf:about="http://edamontology.org/topic_3365">
         <obo:IAO_0000118>Data analysis</obo:IAO_0000118>
-        <obo:IAO_0000115>The development of policies, models and standards that cover data acquisition, storage and integration, such that it can be put to use, typically through a process of systematically applying statistical and / or logical techniques to describe, illustrate, summarise or evaluate data.</obo:IAO_0000115>
-        <obo:IAO_0000118>Data architecture</obo:IAO_0000118>
         <obo:IAO_0000118>Data design</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Data architecture</obo:IAO_0000118>
+        <obo:IAO_0000115>The development of policies, models and standards that cover data acquisition, storage and integration, such that it can be put to use, typically through a process of systematically applying statistical and / or logical techniques to describe, illustrate, summarise or evaluate data.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3366 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3366">
+    <owl:Class rdf:about="http://edamontology.org/topic_3366">
         <obo:IAO_0000118>Data warehousing</obo:IAO_0000118>
         <obo:IAO_0000115>The combination and integration of data from different sources, for example into a central repository or warehouse, to provide users with a unified view of these data.</obo:IAO_0000115>
         <obo:IAO_0000118>Data integration</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3368 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3368">
+    <owl:Class rdf:about="http://edamontology.org/topic_3368">
         <obo:IAO_0000115>Any matter, surface or construct that interacts with a biological system.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3369 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3369">
+    <owl:Class rdf:about="http://edamontology.org/topic_3369">
         <obo:IAO_0000115>The use of synthetic chemistry to study and manipulate biological systems.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3370 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3370">
+    <owl:Class rdf:about="http://edamontology.org/topic_3370">
         <obo:IAO_0000115>The study of the separation, identification, and quantification of the chemical components of natural and artificial materials.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3371 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3371">
+    <owl:Class rdf:about="http://edamontology.org/topic_3371">
         <obo:IAO_0000118>Synthetic organic chemistry</obo:IAO_0000118>
         <obo:IAO_0000115>The use of chemistry to create new compounds.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3372 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3372">
-        <obo:IAO_0000118>Data structures</obo:IAO_0000118>
-        <obo:IAO_0000118> Programming languages</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3372">
         <obo:IAO_0000118>Software development</obo:IAO_0000118>
-        <obo:IAO_0000115>The process that leads from an original formulation of a computing problem to executable programs.</obo:IAO_0000115>
-        <obo:IAO_0000118>Algorithms</obo:IAO_0000118>
+        <obo:IAO_0000118>Data structures</obo:IAO_0000118>
         <obo:IAO_0000118>Computer programming</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Algorithms</obo:IAO_0000118>
+        <obo:IAO_0000115>The process that leads from an original formulation of a computing problem to executable programs.</obo:IAO_0000115>
+        <obo:IAO_0000118> Programming languages</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3373 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3373">
-        <obo:IAO_0000115>The process of bringing a new drug to market once a lead compounds has been identified through drug discovery.</obo:IAO_0000115>
-        <obo:IAO_0000118>Medicines development</obo:IAO_0000118>
-        <obo:IAO_0000118>Medicine development</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3373">
         <obo:IAO_0000118>Drug development science</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Medicines development</obo:IAO_0000118>
+        <obo:IAO_0000115>The process of bringing a new drug to market once a lead compounds has been identified through drug discovery.</obo:IAO_0000115>
+        <obo:IAO_0000118>Medicine development</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3374 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3374">
+    <owl:Class rdf:about="http://edamontology.org/topic_3374">
         <obo:IAO_0000115>The process of formulating abd administering a pharmaceutical compound to achieve a therapeutic effect.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3375 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3375">
-        <obo:IAO_0000115>The study of how a drug interacts with the body.</obo:IAO_0000115>
-        <obo:IAO_0000118>ADME</obo:IAO_0000118>
-        <obo:IAO_0000118>Pharmacokinetics and pharmacodynamics</obo:IAO_0000118>
-        <obo:IAO_0000118>Pharmacodynamics</obo:IAO_0000118>
-        <obo:IAO_0000118>Drug excretion</obo:IAO_0000118>
-        <obo:IAO_0000118>Pharmacokinetics</obo:IAO_0000118>
-        <obo:IAO_0000118>Drug distribution</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3375">
         <obo:IAO_0000118>Drug absorption</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Pharmacodynamics</obo:IAO_0000118>
+        <obo:IAO_0000118>Pharmacokinetics and pharmacodynamics</obo:IAO_0000118>
+        <obo:IAO_0000115>The study of how a drug interacts with the body.</obo:IAO_0000115>
+        <obo:IAO_0000118>Drug distribution</obo:IAO_0000118>
+        <obo:IAO_0000118>Pharmacokinetics</obo:IAO_0000118>
+        <obo:IAO_0000118>Drug excretion</obo:IAO_0000118>
+        <obo:IAO_0000118>ADME</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3376 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3376">
-        <obo:IAO_0000118>Drug discovery and development</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3376">
         <obo:IAO_0000115>The discovery, development and approval of medicines.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Drug discovery and development</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3377 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3377">
-        <obo:IAO_0000115>The safety (or lack) of drugs and other medical interventions.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://edamontology.org/topic_3377">
         <obo:IAO_0000118>Drug safety</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000115>The safety (or lack) of drugs and other medical interventions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3379 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3379">
+    <owl:Class rdf:about="http://edamontology.org/topic_3379">
         <obo:IAO_0000118>Preclinical study</obo:IAO_0000118>
+        <obo:IAO_0000118>Preclinical studies</obo:IAO_0000118>
+        <obo:IAO_0000118>Clinical studies</obo:IAO_0000118>
         <obo:IAO_0000118>Drug trials</obo:IAO_0000118>
         <obo:IAO_0000118>Clinical study</obo:IAO_0000118>
         <obo:IAO_0000115>The testing of new medicines, vaccines or procedures on animals (preclinical) and humans (clinical) prior to their approval by regulatory authorities.</obo:IAO_0000115>
-        <obo:IAO_0000118>Preclinical studies</obo:IAO_0000118>
-        <obo:IAO_0000118>Clinical studies</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3387 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3387">
+    <owl:Class rdf:about="http://edamontology.org/topic_3387">
         <obo:IAO_0000115>The study of organisms in the ocean or brackish waters.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3388 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3388">
+    <owl:Class rdf:about="http://edamontology.org/topic_3388">
         <obo:IAO_0000115>The identification of molecular and genetic causes of disease and the development of interventions to correct them.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3390 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3390">
-        <obo:IAO_0000118>Dietetics</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3390">
         <obo:IAO_0000118>Nutrition science</obo:IAO_0000118>
+        <obo:IAO_0000118>Dietetics</obo:IAO_0000118>
         <obo:IAO_0000115>The study of the effects of food components on the metabolism, health, performance and disease resistance of humans and animals.  It also includes the study of human behaviours related to food choices.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3391 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3391">
+    <owl:Class rdf:about="http://edamontology.org/topic_3391">
         <obo:IAO_0000115>The collective characterisation and quantification of pools of biological molecules that translate into the structure, function, and dynamics of an organism or organisms.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3395 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3395">
+    <owl:Class rdf:about="http://edamontology.org/topic_3395">
         <obo:IAO_0000115>Biomedical approaches to clinical interventions that involve the use of stem cells.</obo:IAO_0000115>
         <obo:IAO_0000118>Stem cell research</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3396 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3396">
+    <owl:Class rdf:about="http://edamontology.org/topic_3396">
         <obo:IAO_0000115>An interdisciplinary field of study that looks at the dynamic systems of the human body as part of an integrted whole, incoporating biochemical, physiological, and environmental interactions that sustain life.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3397 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3397">
+    <owl:Class rdf:about="http://edamontology.org/topic_3397">
         <obo:IAO_0000115>Topic concerning the branch of medicine that deals with the prevention, diagnosis, and treatment of disease, disorder and injury in animals.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3399 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3399">
+    <owl:Class rdf:about="http://edamontology.org/topic_3399">
         <obo:IAO_0000118>Geriatrics</obo:IAO_0000118>
         <obo:IAO_0000115>The branch of medicine dealing with the diagnosis, treatment and prevention of disease in older people, and the problems specific to aging.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3400 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3400">
-        <obo:IAO_0000118>Allergy</obo:IAO_0000118>
-        <obo:IAO_0000118>Immune disorders</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3400">
         <obo:IAO_0000118>Clinical immunology</obo:IAO_0000118>
-        <obo:IAO_0000115>Health issues related to the immune system and their prevention, diagnosis and mangement.</obo:IAO_0000115>
         <obo:IAO_0000118>Immunomodulators</obo:IAO_0000118>
+        <obo:IAO_0000115>Health issues related to the immune system and their prevention, diagnosis and mangement.</obo:IAO_0000115>
         <obo:IAO_0000118>Immunotherapeutics</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Immune disorders</obo:IAO_0000118>
+        <obo:IAO_0000118>Allergy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3401 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3401">
+    <owl:Class rdf:about="http://edamontology.org/topic_3401">
         <obo:IAO_0000115>The prevention of pain and the evaluation, treatment and rehabilitation of persons in pain.</obo:IAO_0000115>
         <obo:IAO_0000118>Algiatry</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3402 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3402">
+    <owl:Class rdf:about="http://edamontology.org/topic_3402">
         <obo:IAO_0000115>Anaesthesia and anaesthetics.</obo:IAO_0000115>
         <obo:IAO_0000118>Anaesthetics</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3403 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3403">
+    <owl:Class rdf:about="http://edamontology.org/topic_3403">
         <obo:IAO_0000118>Emergency medicine</obo:IAO_0000118>
         <obo:IAO_0000115>The multidisciplinary that cares for patients with acute, life-threatening illness or injury.</obo:IAO_0000115>
         <obo:IAO_0000118>Acute medicine</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3404 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3404">
+    <owl:Class rdf:about="http://edamontology.org/topic_3404">
         <obo:IAO_0000118>Dermatological disorders</obo:IAO_0000118>
         <obo:IAO_0000115>The branch of medicine that deals with prevention, diagnosis and treatment of disorders of the skin, scalp, hair and nails.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3405 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3405">
+    <owl:Class rdf:about="http://edamontology.org/topic_3405">
         <obo:IAO_0000115>The study, diagnosis, prevention and treatments of disorders of the oral cavity, maxillofacial area and adjacent structures.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3406 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3406">
-        <obo:IAO_0000118>Audiovestibular medicine</obo:IAO_0000118>
-        <obo:IAO_0000115>The branch of medicine that deals with the prevention, diagnosis, and treatment of disorders of the ear, nose and throat.</obo:IAO_0000115>
-        <obo:IAO_0000118>Otolaryngology</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3406">
         <obo:IAO_0000118>Head and neck disorders</obo:IAO_0000118>
+        <obo:IAO_0000118>Audiovestibular medicine</obo:IAO_0000118>
         <obo:IAO_0000118>Otorhinolaryngology</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Otolaryngology</obo:IAO_0000118>
+        <obo:IAO_0000115>The branch of medicine that deals with the prevention, diagnosis, and treatment of disorders of the ear, nose and throat.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3407 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3407">
-        <obo:IAO_0000118>Metabolic disorders</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3407">
         <obo:IAO_0000115>The branch of medicine dealing with diseases of endocrine organs, hormone systems, their target organs, and disorders of the pathways of glucose and lipid metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000118>Metabolic disorders</obo:IAO_0000118>
         <obo:IAO_0000118>Endocrine disorders</obo:IAO_0000118>
-        <obo:IAO_0000118>Endocrinology</obo:IAO_0000118>
         <obo:IAO_0000118>Metabolism</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Endocrinology</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3408 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3408">
+    <owl:Class rdf:about="http://edamontology.org/topic_3408">
+        <obo:IAO_0000115>The branch of medicine that deals with the blood, blood-forming organs and blood diseases.</obo:IAO_0000115>
         <obo:IAO_0000118>Blood disorders</obo:IAO_0000118>
         <obo:IAO_0000118>Haematological disorders</obo:IAO_0000118>
-        <obo:IAO_0000115>The branch of medicine that deals with the blood, blood-forming organs and blood diseases.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3409 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3409">
+    <owl:Class rdf:about="http://edamontology.org/topic_3409">
         <obo:IAO_0000115>The branch of medicine that deals with disorders of the oesophagus, stomach, duodenum, jejenum, ileum, large intestine, sigmoid colon and rectum.</obo:IAO_0000115>
         <obo:IAO_0000118>Gastrointestinal disorders</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3410 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3410">
+    <owl:Class rdf:about="http://edamontology.org/topic_3410">
         <obo:IAO_0000115>The study of the biological and physiological differences between males and females and how they effect differences in disease presentation and management.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3411 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3411">
+    <owl:Class rdf:about="http://edamontology.org/topic_3411">
+        <obo:IAO_0000118>Gynaecological disorders</obo:IAO_0000118>
+        <obo:IAO_0000118>Obstetrics</obo:IAO_0000118>
         <obo:IAO_0000115>The branch of medicine that deals with the health of the female reproductive system, pregnancy and birth.</obo:IAO_0000115>
         <obo:IAO_0000118>Gynaecology</obo:IAO_0000118>
-        <obo:IAO_0000118>Obstetrics</obo:IAO_0000118>
-        <obo:IAO_0000118>Gynaecological disorders</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3412 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3412">
+    <owl:Class rdf:about="http://edamontology.org/topic_3412">
         <obo:IAO_0000118>Liver disorders</obo:IAO_0000118>
-        <obo:IAO_0000118>Hepatobiliary medicine</obo:IAO_0000118>
         <obo:IAO_0000115>The branch of medicine that deals with the liver, gallbladder, bile ducts and bile.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Hepatobiliary medicine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3414 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3414">
+    <owl:Class rdf:about="http://edamontology.org/topic_3414">
         <obo:IAO_0000115>The branch of medicine that treats body wounds or shock produced by sudden physical injury, as from violence or accident.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3415 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3415">
+    <owl:Class rdf:about="http://edamontology.org/topic_3415">
         <obo:IAO_0000115>The branch of medicine that deals with the diagnosis, management and prevention of poisoning and other adverse health effects caused by medications, occupational and environmental toxins, and biological agents.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3416 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3416">
+    <owl:Class rdf:about="http://edamontology.org/topic_3416">
         <obo:IAO_0000118>Orthopaedics</obo:IAO_0000118>
-        <obo:IAO_0000118>Rheumatology</obo:IAO_0000118>
         <obo:IAO_0000115>The branch of medicine that deals with the prevention, diagnosis, and treatment of disorders of the muscle, bone and connective tissue.  It incorporates aspects of orthopaedics, rheumatology, rehabilitation medicine and pain medicine.</obo:IAO_0000115>
+        <obo:IAO_0000118>Rheumatology</obo:IAO_0000118>
         <obo:IAO_0000118>Musculoskeletal disorders</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3417 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3417">
+    <owl:Class rdf:about="http://edamontology.org/topic_3417">
         <obo:IAO_0000118>Eye disoders</obo:IAO_0000118>
         <obo:IAO_0000115>The branch of medicine that deals with disorders of the eye, including eyelid, optic nerve/visual pathways and occular muscles.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3418 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3418">
+    <owl:Class rdf:about="http://edamontology.org/topic_3418">
         <obo:IAO_0000118>Child health</obo:IAO_0000118>
         <obo:IAO_0000115>The branch of medicine that deals with the medical care of infants, children and adolescents.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3419 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3419">
+    <owl:Class rdf:about="http://edamontology.org/topic_3419">
         <obo:IAO_0000118>Psychiatric disorders</obo:IAO_0000118>
         <obo:IAO_0000115>The branch of medicine that deals with the mangement of mental illness, emotional disturbance and abnormal behaviour.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3420 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3420">
+    <owl:Class rdf:about="http://edamontology.org/topic_3420">
         <obo:IAO_0000118>Andrology</obo:IAO_0000118>
         <obo:IAO_0000118>Reproductive disorders</obo:IAO_0000118>
-        <obo:IAO_0000118>Fertility medicine</obo:IAO_0000118>
         <obo:IAO_0000115>The health of the reproductive processes, functions and systems at all stages of life.</obo:IAO_0000115>
+        <obo:IAO_0000118>Fertility medicine</obo:IAO_0000118>
         <obo:IAO_0000118>Family planning</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3421 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3421">
+    <owl:Class rdf:about="http://edamontology.org/topic_3421">
         <obo:IAO_0000118>Transplantation</obo:IAO_0000118>
         <obo:IAO_0000115>The use of operative, manual and instrumental techniques on a patient to investigate and/or treat a pathological condition or help improve bodily function or appearance.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3422 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3422">
-        <obo:IAO_0000118>Urology</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3422">
         <obo:IAO_0000118>Kidney disease</obo:IAO_0000118>
-        <obo:IAO_0000118>Urological disorders</obo:IAO_0000118>
         <obo:IAO_0000115>The branches of medicine and physiology focussing on the function and disorders of the urinary system in males and females, the reproductive system in males, and the kidney.</obo:IAO_0000115>
+        <obo:IAO_0000118>Urological disorders</obo:IAO_0000118>
         <obo:IAO_0000118>Nephrology</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Urology</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3423 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3423">
+    <owl:Class rdf:about="http://edamontology.org/topic_3423">
         <obo:IAO_0000115>Medical therapies that fall beyond the scope of conventional medicine but may be used alongside it in the treatment of disease and ill health.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3473 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3473">
+    <owl:Class rdf:about="http://edamontology.org/topic_3473">
         <obo:IAO_0000115>The discovery of patterns in large data sets and the extraction and trasnsformation of those patterns into a useful format.</obo:IAO_0000115>
         <obo:IAO_0000118>Pattern recognition</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3474 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3474">
+    <owl:Class rdf:about="http://edamontology.org/topic_3474">
         <obo:IAO_0000115>A topic concerning the application of artificial intelligence methods to algorithms, in order to create methods that can learn from data in order to generate an ouput, rather than relying on explicitly encoded information only.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3489 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3489">
-        <obo:IAO_0000118>Content management</obo:IAO_0000118>
-        <obo:IAO_0000118>Databases</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3489">
+        <obo:IAO_0000118>Database administration</obo:IAO_0000118>
+        <obo:IAO_0000118>Data maintenance</obo:IAO_0000118>
         <obo:IAO_0000118>Record management</obo:IAO_0000118>
         <obo:IAO_0000115>The general handling of data stored in digital archives such as databanks, databases proper, web portals and other data resources.</obo:IAO_0000115>
-        <obo:IAO_0000118>Data maintenance</obo:IAO_0000118>
-        <obo:IAO_0000118>Document management</obo:IAO_0000118>
         <obo:IAO_0000118>Document, record and content management</obo:IAO_0000118>
-        <obo:IAO_0000118>Database administration</obo:IAO_0000118>
+        <obo:IAO_0000118>Content management</obo:IAO_0000118>
+        <obo:IAO_0000118>Document management</obo:IAO_0000118>
         <obo:IAO_0000118>File management</obo:IAO_0000118>
         <obo:IAO_0000118>Biological databases</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Databases</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3500 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3500">
-        <obo:IAO_0000115>Animals, e.g. information on a specific animal genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
-        <obo:IAO_0000118>Animal</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3500">
         <obo:IAO_0000118>Metazoa</obo:IAO_0000118>
-        <obo:IAO_0000118>Animal biology</obo:IAO_0000118>
         <obo:IAO_0000118>Animals</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Animal</obo:IAO_0000118>
+        <obo:IAO_0000115>Animals, e.g. information on a specific animal genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
+        <obo:IAO_0000118>Animal biology</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3569 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3569">
+    <owl:Class rdf:about="http://edamontology.org/topic_3569">
         <obo:IAO_0000115>The application of mathematics to specific problems in science, typically by the formulation and analysis of mathematical models.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3570 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3570">
+    <owl:Class rdf:about="http://edamontology.org/topic_3570">
         <obo:IAO_0000115>The study of abstract mathematical concepts.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3571 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3571">
+    <owl:Class rdf:about="http://edamontology.org/topic_3571">
         <obo:IAO_0000118>Data stewardship</obo:IAO_0000118>
         <obo:IAO_0000115>The control of data entry and maintenance to ensure the data meets defined standards, qualities or constraints.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3572 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3572">
+    <owl:Class rdf:about="http://edamontology.org/topic_3572">
         <obo:IAO_0000118>Data quality</obo:IAO_0000118>
         <obo:IAO_0000118>Data clean-up</obo:IAO_0000118>
         <obo:IAO_0000118>Data integrity</obo:IAO_0000118>
         <obo:IAO_0000115>The quality, integrity, and cleaning up of data. </obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3573 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3573">
+    <owl:Class rdf:about="http://edamontology.org/topic_3573">
         <obo:IAO_0000115>The study of organisms in freshwater ecosystems.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3574 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3574">
+    <owl:Class rdf:about="http://edamontology.org/topic_3574">
         <obo:IAO_0000115>The study of inheritatnce in human beings.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3575 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3575">
+    <owl:Class rdf:about="http://edamontology.org/topic_3575">
         <obo:IAO_0000115>Health problems that are prevalent in tropical and subtropical regions.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3576 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3576">
-        <obo:IAO_0000118>Pharmaceutical biotechnology</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3576">
         <obo:IAO_0000115>Biotechnology applied to the medical sciences and the development of medicines.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000118>Pharmaceutical biotechnology</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3577 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3577">
+    <owl:Class rdf:about="http://edamontology.org/topic_3577">
         <obo:IAO_0000115>An approach to medicine whereby decisions, practices and are tailored to the individual patient based on their predicted response or risk of disease.</obo:IAO_0000115>
         <obo:IAO_0000118>Precision medicine</obo:IAO_0000118>
         <obo:IAO_0000118>Molecular diagnostics</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://edamontology.org/topic_3697 -->
 
-    <owl:Class rdf:about="&edamontology;topic_3697">
-        <obo:IAO_0000115>The ecology of microorganisms including their relationship with one another and their environment.</obo:IAO_0000115>
-        <obo:IAO_0000118>Environmental microbiology</obo:IAO_0000118>
+    <owl:Class rdf:about="http://edamontology.org/topic_3697">
+        <obo:IAO_0000118>Community analysis</obo:IAO_0000118>
         <obo:IAO_0000118>Molecular community analysis</obo:IAO_0000118>
         <obo:IAO_0000118>Microbiome</obo:IAO_0000118>
-        <obo:IAO_0000118>Community analysis</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&edamontology;EDAM.owl"/>
+        <obo:IAO_0000115>The ecology of microorganisms including their relationship with one another and their environment.</obo:IAO_0000115>
+        <obo:IAO_0000118>Environmental microbiology</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C119712 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C119712">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C119712">
+        <obo:IAO_0000115>A method of study that relates annotated genomic information to global protein expression in order to determine the relationship between genomic sequences and both expressed proteins and predicted peptide sequences; these studies can identify novel coding regions.</obo:IAO_0000115>
+        <obo:IAO_0000118>Proteogenomic Research</obo:IAO_0000118>
+        <obo:IAO_0000118>Proteogenomics</obo:IAO_0000118>
         <obo:IAO_0000118>Proteogenomic Analysis</obo:IAO_0000118>
         <obo:IAO_0000118>Proteogenomic Characterization</obo:IAO_0000118>
-        <obo:IAO_0000118>Proteogenomic Research</obo:IAO_0000118>
-        <obo:IAO_0000115>A method of study that relates annotated genomic information to global protein expression in order to determine the relationship between genomic sequences and both expressed proteins and predicted peptide sequences; these studies can identify novel coding regions.</obo:IAO_0000115>
-        <obo:IAO_0000118>Proteogenomics</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15188">
+        <obo:IAO_0000118>Biomedical Research</obo:IAO_0000118>
+        <obo:IAO_0000115>Research concerned with the application of biological and physiological principles to clinical medicine.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16304 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C16304">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16304">
         <obo:IAO_0000118>Architecture</obo:IAO_0000118>
-        <obo:IAO_0000115>The art or science of building; especially, the art of building houses, churches, bridges, and other structures, for the purposes of civil life</obo:IAO_0000115>
         <obo:IAO_0000118>Engineering / Architecture</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000115>The art or science of building; especially, the art of building houses, churches, bridges, and other structures, for the purposes of civil life</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16413 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C16413">
-        <obo:IAO_0000115>Chemical Engineering; engineering dealing with the industrial application of chemistry. (WWWebster Dictionary)</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16413">
         <obo:IAO_0000118>Chemical Engineering</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000115>Chemical Engineering; engineering dealing with the industrial application of chemistry. (WWWebster Dictionary)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16478 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C16478">
-        <obo:IAO_0000115>A pattern of learned beliefs, values, and behavior that are shared within a group. It includes language, styles of communication, practices, customs, and views on roles and relationships.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16478">
         <obo:IAO_0000118>Culture</obo:IAO_0000118>
-        <obo:IAO_0000118>Cultural</obo:IAO_0000118>
         <obo:IAO_0000118>culture</obo:IAO_0000118>
+        <obo:IAO_0000115>A pattern of learned beliefs, values, and behavior that are shared within a group. It includes language, styles of communication, practices, customs, and views on roles and relationships.</obo:IAO_0000115>
+        <obo:IAO_0000118>Cultural</obo:IAO_0000118>
         <obo:IAO_0000118>Culturally</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16495 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C16495">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16495">
         <obo:IAO_0000118>Population Studies / Demography</obo:IAO_0000118>
-        <obo:IAO_0000118>Demographic Factor</obo:IAO_0000118>
-        <obo:IAO_0000115>The statistical characterization of human populations or segments of human populations (e.g., characterization by age, sex, race, or income).</obo:IAO_0000115>
         <obo:IAO_0000118>Demographic Factors</obo:IAO_0000118>
         <obo:IAO_0000118>Demographics</obo:IAO_0000118>
         <obo:IAO_0000118>Demography</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000115>The statistical characterization of human populations or segments of human populations (e.g., characterization by age, sex, race, or income).</obo:IAO_0000115>
+        <obo:IAO_0000118>Demographic Factor</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16526 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C16526">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16526">
         <obo:IAO_0000115>The branch of biology concerned with the relations between organisms and their environment.</obo:IAO_0000115>
         <obo:IAO_0000118>Ecology</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16548 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C16548">
-        <obo:IAO_0000115>The discipline concerned with the application of scientific knowledge to solve practical issues in commerce or industry.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16548">
         <obo:IAO_0000118>Engineering</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000115>The discipline concerned with the application of scientific knowledge to solve practical issues in commerce or industry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16550 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C16550">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16550">
         <obo:IAO_0000118>Entomology</obo:IAO_0000118>
         <obo:IAO_0000115>Entomology; the branch of zoology that studies insects.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16591 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C16591">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16591">
+        <obo:IAO_0000118>Forensic Medicine</obo:IAO_0000118>
         <obo:IAO_0000115>The application of medical knowledge to questions of law; research, reports and testimony in court by experts in medical science to assist in determining a legal question.</obo:IAO_0000115>
         <obo:IAO_0000118>Forensics</obo:IAO_0000118>
-        <obo:IAO_0000118>Forensic Medicine</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16633 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C16633">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16633">
         <obo:IAO_0000115>The science that deals with the world and its inhabitants; a description of the earth, or a portion of the earth, including its structure, features, products, political divisions, and the people by whom it is inhabited.</obo:IAO_0000115>
         <obo:IAO_0000118>Geography</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16715 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C16715">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16715">
         <obo:IAO_0000118>Immunogenetics</obo:IAO_0000118>
         <obo:IAO_0000115>A sub-field of genetics that uses both genetic and immunological analyses to study the genetics behind antibody formation and the immune response. (Biotech Life Science Dictionary)</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16922 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C16922">
-        <obo:IAO_0000118>Nuclear Medicine</obo:IAO_0000118>
-        <obo:IAO_0000118>Radiology-Nuclear Medicine</obo:IAO_0000118>
-        <obo:IAO_0000115>Nuclear Medicine is the branch of medicine that uses radioactive materials either to image a patient&apos;s body or to destroy diseased cells.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16922">
         <obo:IAO_0000118>Radiology / Radiation Biology / Nuclear Medicine</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000118>Radiology-Nuclear Medicine</obo:IAO_0000118>
+        <obo:IAO_0000118>Nuclear Medicine</obo:IAO_0000118>
+        <obo:IAO_0000115>Nuclear Medicine is the branch of medicine that uses radioactive materials either to image a patient&#39;s body or to destroy diseased cells.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C17059 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C17059">
-        <obo:IAO_0000118>Radiology, General</obo:IAO_0000118>
-        <obo:IAO_0000115>The branch of medical science dealing with the medical use of X-rays or other penetrating radiation.</obo:IAO_0000115>
-        <obo:IAO_0000118>radiology</obo:IAO_0000118>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17059">
         <obo:IAO_0000118>Radiology</obo:IAO_0000118>
+        <obo:IAO_0000115>The branch of medical science dealing with the medical use of X-rays or other penetrating radiation.</obo:IAO_0000115>
         <obo:IAO_0000118>Radiologic</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000118>radiology</obo:IAO_0000118>
+        <obo:IAO_0000118>Radiology, General</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C17141 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C17141">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17141">
         <obo:IAO_0000115>Comprises the scientific study of the human aspects of the world. They are also known as social studies. Psychology studies the human mind, sociology examines human society, political science studies the governing of groups and economics concerns itself with the allocation of wealth in society.</obo:IAO_0000115>
-        <obo:IAO_0000118>Social Sciences</obo:IAO_0000118>
         <obo:IAO_0000118>Social Studies</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000118>Social Sciences</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C18076 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C18076">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18076">
         <obo:IAO_0000118>Bioengineering</obo:IAO_0000118>
         <obo:IAO_0000118>Biomedical Engineering</obo:IAO_0000118>
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C18189 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C18189">
-        <obo:IAO_0000118>Pathological</obo:IAO_0000118>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18189">
         <obo:IAO_0000115>The medical science, and specialty practice, concerned with all aspects of disease, but with special reference to the essential nature, causes, and development of abnormal conditions, as well as the structural and functional changes that result from the disease processes. Informally used to mean the result of such an examination.</obo:IAO_0000115>
         <obo:IAO_0000118>Pathology</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000118>Pathological</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C18633 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C18633">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18633">
         <obo:IAO_0000118>Animal Genetics</obo:IAO_0000118>
         <obo:IAO_0000115>The study of genetic traits in animals.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C18645 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C18645">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18645">
+        <obo:IAO_0000115>The branch of biochemistry dealing with the chemical nature and biological activity of enzymes.</obo:IAO_0000115>
         <obo:IAO_0000118>Biochemistry, Enzymatic</obo:IAO_0000118>
         <obo:IAO_0000118>Enzymology</obo:IAO_0000118>
-        <obo:IAO_0000115>The branch of biochemistry dealing with the chemical nature and biological activity of enzymes.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C19199 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C19199">
-        <obo:IAO_0000115>The sciences concerned with health promotion and maintenance.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19199">
         <obo:IAO_0000118>Health Sciences</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000115>The sciences concerned with health promotion and maintenance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C20179 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C20179">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20179">
         <obo:IAO_0000118>Toxicogenomics</obo:IAO_0000118>
         <obo:IAO_0000115>Toxicogenomics is a new scientific field that elucidates how the entire genome is involved in biological responses of organisms exposed to environmental toxicants/stressors. Toxicogenomics combines information from studies of genomic-scale mRNA profiling (by microarray analysis), cell-wide or tissue-wide protein profiling (proteomics), genetic susceptibility, and computational models to understand the roles of gene-environment interactions in disease. (from National Center for Toxicogenomics homepage)</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C54625 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C54625">
-        <obo:IAO_0000118>History</obo:IAO_0000118>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C54625">
         <obo:IAO_0000118>Historical</obo:IAO_0000118>
+        <obo:IAO_0000118>History</obo:IAO_0000118>
         <obo:IAO_0000115>The aggregate of past events; the continuum of events occurring in succession leading from the past to the present; a record or narrative description of past events.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C95096 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C95096">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C95096">
         <obo:IAO_0000115>A subject domain utilized for the submission of information encompassing and representing data, vocabulary or records related to the brain and nervous system.</obo:IAO_0000115>
         <obo:IAO_0000118>Neuroscience Domain</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PO_0025131 -->
 
-    <owl:Class rdf:about="&obo;PO_0025131">
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anatomical entity that is or was part of a plant.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="&xsd;string">entidad anat&amp;#243mica vegetal (Spanish, exact)</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="&xsd;string">植物 解剖学（形態）的実体 (Japanese, exact)</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical entity that is or was part of a plant.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad anat&amp;#243mica vegetal (Spanish, exact)</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物 解剖学（形態）的実体 (Japanese, exact)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
 

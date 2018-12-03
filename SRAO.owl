@@ -621,7 +621,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_0804">
         <rdfs:label xml:lang="en">Immunology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 28.9.17 Immunology is asserted as a child of Microbiology (in its original location within the Medicine hierarchy) by re3data, and as a child of &apos;Biomedical Science&apos; by EDAM. We have retained the EDAM assertion.
 </rdfs:comment>
@@ -809,7 +809,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3067">
         <rdfs:label xml:lang="en">Anatomy</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <rdfs:comment>AL: 25.9.17 Anatomy is asserted as a child of Biology by re3data, and as a child of Biomedical Science by EDAM. As both are correct depending on context, both assertions have been retained.</rdfs:comment>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
@@ -988,7 +988,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3302">
         <rdfs:label>Parasitology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
     </owl:Class>
     
@@ -1185,18 +1185,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3344 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3344">
-        <rdfs:label xml:lang="en">Biomedical Science</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:comment>AL: 28.9.17 &apos;Biomedical Science&apos; is at the top level of the Topic hierarchy within EDAM. This assertion has been refined to &apos;Life Sciences&apos;. There was no direct equivalent for this discipline within re3data.</rdfs:comment>
-        <rdfs:comment>AL 10.1.18: EDAM has &apos;Biomedical Science&apos; as synonymous with &apos;Health Science&apos;. FAIRsharing retains these as separate, albeit overlapping, fields. As such they are sibling classes rather than a single class, and the EDAM synonym &apos;Health Science&apos; is not relevant here, although the automatic annotation tool adds it.</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3345 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3345">
@@ -1324,7 +1312,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3376">
         <rdfs:label>Medicines Research and Development</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
     </owl:Class>
     
@@ -1375,7 +1363,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3390">
         <rdfs:label xml:lang="en">Nutritional Science</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <ontology:SRAO_0000268>Nutritional sciences</ontology:SRAO_0000268>
@@ -1398,7 +1386,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3395">
         <rdfs:label>Regenerative Medicine</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <rdfs:comment>AL: 28.9.17 Please note the spelling mistake within EDAM for this class has been retained as an alternative term.</rdfs:comment>
         <ontology:SRAO_0000269>Regnerative medicine</ontology:SRAO_0000269>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
@@ -1870,6 +1858,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15188 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C15188">
+        <rdfs:label xml:lang="en">Biomedical Science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000069"/>
+        <rdfs:comment>AL: 3.12.18 &apos;Biomedical Research&apos; is a child of &apos;Research Activity&apos; within NCIT. This assertion has been modified to &apos;Life Sciences&apos; as SRAO focuses more on the subject area rather than the research activity. There was no direct equivalent for this discipline within re3data.</rdfs:comment>
+        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16304 -->
 
     <owl:Class rdf:about="&obo;NCIT_C16304">
@@ -2102,7 +2101,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&obo;NCIT_C95096">
         <rdfs:label>Neuroscience</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <SRAO:SRAO_0000276>Neuroscience Domain</SRAO:SRAO_0000276>
         <rdfs:comment>AL: 17.10.17 Neuroscience is asserted as a child of Medicine by re3data and Neuro*biology* as a child of &apos;Biomedical Science&apos; by EDAM. We have placed Neurobiology as a child of Neuroscience. The re3data label has been changed from Neurosciences to Neuroscience to align with FAIRsharing terminology.</rdfs:comment>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -3111,7 +3110,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&ontology;SRAO_0000099">
         <rdfs:label xml:lang="en">Medical Microbiology, Molecular Infection Biology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3344"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
         <rdfs:comment>AL: 28.9.17 &apos;Medical Microbiology, Molecular Infection Biology&apos; is asserted as a child of Microbiology by re3data, and has additionally been positioned as a child of &apos;Biomedical Sciences&apos;.</rdfs:comment>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
