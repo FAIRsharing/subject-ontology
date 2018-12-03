@@ -687,20 +687,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3314 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3314">
-        <ontology:SRAO_0000269>Physical chemistry</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Nuclear chemistry</ontology:SRAO_0000269>
-        <obo:IAO_0000115>The composition and properties of matter, reactions, and the use of reactions to create new substances.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Organic chemistry</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Mathematical chemistry</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Inorganic chemistry</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3315 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3315">
@@ -1455,6 +1441,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16413">
         <obo:IAO_0000115>Chemical Engineering; engineering dealing with the industrial application of chemistry. (WWWebster Dictionary)</obo:IAO_0000115>
         <ontology:SRAO_0000276>Chemical Engineering</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16414">
+        <ontology:SRAO_0000276>Chemistry</ontology:SRAO_0000276>
+        <obo:IAO_0000115>The science of the composition, structure, properties, and reactions of matter, especially of atomic and molecular systems.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     

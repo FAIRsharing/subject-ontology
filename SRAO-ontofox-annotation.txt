@@ -82,7 +82,6 @@ http://edamontology.org/topic_3305
 http://edamontology.org/topic_3306
 http://edamontology.org/topic_3307
 http://edamontology.org/topic_3308
-http://edamontology.org/topic_3314
 http://edamontology.org/topic_3315
 http://edamontology.org/topic_3316
 http://edamontology.org/topic_3318
@@ -182,6 +181,7 @@ NCIT
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/NCIT_C15188 # Biomedical Science
+http://purl.obolibrary.org/obo/NCIT_C16414 # Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16304 # Architecture
 http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
 http://purl.obolibrary.org/obo/NCIT_C16478 # Culture

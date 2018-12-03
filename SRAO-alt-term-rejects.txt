@@ -9,11 +9,8 @@
 ## elsewhere in SRAO. 
 ##
 ## This is currently a manual process which should happen after
-## each Ontofox run.
+## each Ontofox run. However, we try to not have any values
+## in this file and it is currently empty.
 
 ## Term URI|Alternative Term
-
-## For the class 'Chemistry'
-http://edamontology.org/topic_3314|Organic Chemistry
-http://edamontology.org/topic_3314|Physical Chemistry
 

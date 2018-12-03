@@ -667,7 +667,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>Cheminformatics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16414"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 27.9.17 Cheminformatics is asserted as a child of Informatics by EDAM,  and also as a child of Chemistry and Biology within FAIRsharing. This &apos;subClass of Bioinformatics&apos; assertion is based on the definition of Cheminformatics as provided by EDAM: &quot;The application of information technology to chemistry in biological research environment.&quot; However, this may need to be revisited at some point in the future.
 </rdfs:comment>
@@ -1072,18 +1072,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3314 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3314">
-        <rdfs:label xml:lang="en">Chemistry</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000162"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:comment>AL: 26.9.17 Chemistry is asserted as a child of &apos;Natural Sciences&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3315 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3315">
@@ -1137,8 +1125,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3332">
         <rdfs:label>Computational Chemistry</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16414"/>
         <obo:IAO_0000115>Computational chemistry is a branch of chemistry that uses computer simulation to assist in solving chemical problems. [Wikipedia, PAM 27.02.0218]</obo:IAO_0000115>
         <rdfs:comment>AL: 29.9.17 Child of Chemistry and &apos;Computer science&apos;, to align with the EDAM hierarchy.</rdfs:comment>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
@@ -1176,8 +1164,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3336">
         <rdfs:label>Drug Discovery</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16414"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 29.9.17 Child of &apos;Medicines research and development&apos; and Chemistry, to align with the EDAM hierarchy.</rdfs:comment>
     </owl:Class>
@@ -1254,7 +1242,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3370">
         <rdfs:label xml:lang="en">Analytical Chemistry</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16414"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Analytical Chemistry, Method Development (Chemistry)</ontology:SRAO_0000268>
@@ -1266,7 +1254,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3371">
         <rdfs:label>Synthetic Chemistry</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16414"/>
         <rdfs:comment>AL: 29.9.17 This class may be related to the re3data class &apos;Solid State and Surface Chemistry, Material Synthesis&apos;, and the placement of &apos;Synthetic Chemistry&apos; may need to be revisited.</rdfs:comment>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
     </owl:Class>
@@ -1903,6 +1891,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16414 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C16414">
+        <rdfs:label xml:lang="en">Chemistry</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000162"/>
+        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <rdfs:comment>AL: 26.9.17 Chemistry is asserted as a child of &apos;Natural Sciences&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16478 -->
 
     <owl:Class rdf:about="&obo;NCIT_C16478">
@@ -2111,8 +2111,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C95096">
         <rdfs:label>Neuroscience</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCIT_C15188"/>
-        <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
         <rdfs:comment>AL: 17.10.17 Neuroscience is asserted as a child of Medicine by re3data and Neuro*biology* as a child of &apos;Biomedical Science&apos; by EDAM. We have placed Neurobiology as a child of Neuroscience. The re3data label has been changed from Neurosciences to Neuroscience to align with FAIRsharing terminology.</rdfs:comment>
+        <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <ontology:SRAO_0000268>Neurosciences</ontology:SRAO_0000268>
@@ -2147,7 +2147,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&obo;OMIT_0003951">
         <rdfs:label>Organic Chemistry</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16414"/>
         <ontology:SRAO_0000272>Chemistry, Organic</ontology:SRAO_0000272>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
     </owl:Class>
@@ -3458,7 +3458,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&ontology;SRAO_0000164">
         <rdfs:label xml:lang="en">Molecular Chemistry</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16414"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -3490,7 +3490,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&ontology;SRAO_0000167">
         <rdfs:label xml:lang="en">Chemical Solid State and Surface Research</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16414"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -3530,7 +3530,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&ontology;SRAO_0000171">
         <rdfs:label xml:lang="en">Physical and Theoretical Chemistry</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16414"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -3560,7 +3560,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&ontology;SRAO_0000175">
         <rdfs:label xml:lang="en">Biological Chemistry and Food Chemistry</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16414"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
@@ -3590,7 +3590,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&ontology;SRAO_0000178">
         <rdfs:label xml:lang="en">Polymer Research</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C16414"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
