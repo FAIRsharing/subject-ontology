@@ -45,7 +45,7 @@ SRAO is written in OWL and serialized as RDF/XML.
 
 ## Tools Used
 
-[Ontofox](http://ontofox.hegroup.org/) has been used to add annotation. [Protege](https://protege.stanford.edu/) (including versions 4.3.0 and 5.2.0) has been used to create the core OWL file and to view, check and merge all development ontology files into a single merged file. 
+[Ontofox](http://ontofox.hegroup.org/) has been used to add annotation. [Protege](https://protege.stanford.edu/) (including versions 4.3.0 and 5.2.0) has been used to create and curate the core OWL file. [ROBOT](http://robot.obolibrary.org/) has been used to compare, check and merge all development ontology files into a single merged release file.
 
 - [Ontofox](http://ontofox.hegroup.org/) - Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse. 
 BMC Research Notes. 2010, 3:175. PMID: 20569493
