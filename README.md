@@ -4,7 +4,7 @@ The Subject Resource Application Ontology (SRAO) is an application ontology desc
 
 All classes within SRAO come from publicly-available ontologies and controlled vocabularies. Currently, the following ontologies are used to build SRAO:
 
-1. [re3data](https://www.re3data.org/browse/by-subject/)
+1. [re3data](https://www.re3data.org/browse/by-subject/). Please note that this is a hierarchical controlled vocabulary and not an ontology. As such, terms which originate within re3data and which do not have a corresponding class within the external ontologies listed here will have a SRAO IRI.
 2. [OMIT](https://github.com/OmniSearch/omit) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/omit))
 3. [NCIT](https://ncit.nci.nih.gov/ncitbrowser/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit))
 4. [AgroVoc](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/)
