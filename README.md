@@ -54,7 +54,7 @@ BMC Research Notes. 2010, 3:175. PMID: 20569493
 
 # Usage and License
 
-Within FAIRsharing, SRAO is used by both curators and our user community to annotate FAIRsharing records. SRAO itself is also available for general use from this repository under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. 
+Within FAIRsharing, SRAO is used by both curators and our user community to annotate FAIRsharing records. SRAO itself is also available for general use from this repository under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. Please also see our [License file](LICENSE.md).
 
 If you wish to use the ontology in your work, you are free to do so. The license, as above, is CC-BY-SA, and we request that you also add the FAIRsharing logo to your work wherever you mention the ontology. Also, please let us know so we can get a warm feeling inside.
 
