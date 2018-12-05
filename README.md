@@ -37,9 +37,9 @@ Terms are added to SRAO manually, and additional annotation from the originating
 
 # Build
 
-Domain tags form the biggest grouping of curation tags for FAIRsharing records. They categorize and describe resource to help users find the right resource for their data. Initially, SRAO was built from the [re3data subject list](https://www.re3data.org/browse/by-subject/). However, this list is neither comprehensive enough nor does it include any extra metadata such as definitions and synonyms. Therefore additional external ontology classes were added by our curation team until all subject areas / disciplines required to describe FAIRsharing records were included.
+Initially, SRAO was built from the [re3data subject list](https://www.re3data.org/browse/by-subject/). However, this list is neither comprehensive enough nor does it include any extra metadata such as definitions and synonyms. Therefore additional external ontology classes were added by our curation team until all subject areas / disciplines required to describe FAIRsharing records were included.
 
-Where an external ontology contains definitions and/or synonyms, these are automatically imported into SRAO via Ontofox to supplement the curation already present.
+Where an external ontology contains definitions and/or synonyms, these are automatically imported into SRAO via Ontofox to supplement the curation already present. Release files are created using [ROBOT](http://robot.obolibrary.org/) via a controlling [Makefile](Makefile).
 
 SRAO is written in OWL and serialized as RDF/XML. 
 
