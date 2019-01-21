@@ -19,9 +19,9 @@ To view the latest release of SRAO please visit [our release directory](https://
 Below are short descriptions of the other files found within this repository:
 
 Within any [releases/](https://github.com/FAIRsharing/subject-ontology/tree/master/releases) subdirectory
-- [SRAO-release-RELNUM.owl] - This is the release file, generated automatically as a single file to be easy to view and use.
-- [refactoredIRIs-SRAO-RELNUM.txt] - The configuration file required by Ontofox for automatically adding annotation from the external ontologies to SRAO.
-- [README.md] A short description of the changes made since the last release.
+- SRAO-release-RELNUM.owl - The automatically-generated release file. It is a single file (with no imports) for ease of use.
+- refactoredIRIs-SRAO-RELNUM.txt - A list of IRI refactorings performed since the last release.
+- README.md A short description of the changes made since the last release.
 
 Within [development/](https://github.com/FAIRsharing/subject-ontology/tree/master/development)
 - [SRAO.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO.owl) - This is the main "bleeding edge" development file, manually edited by our team to ensure that all subject areas relevant to FAIRsharing are included within SRAO. It contains a number of import statements.
