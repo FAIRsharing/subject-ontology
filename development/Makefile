@@ -72,7 +72,7 @@ check_relfiles: check_relnum
 	test -f $(BUILD_RELFILE)
 
 # All files, including the release files, are put into build/ in case there are
-# any issues with the run. They can be moved up a directory with a separate target,
+# any issues with the run. They can be be moved to a release directory via the release target
 # then committed manually once we're sure they're ok.
 reqd_build_dirs:
 	mkdir -p $(BUILD_DIR)
