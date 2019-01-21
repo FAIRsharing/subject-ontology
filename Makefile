@@ -99,6 +99,5 @@ add_version : merge
 
 copy_release_files: | reqd_release_dirs check_relfiles
 	cp $(BUILD_RELFILE) $(RELEASE_DIR)
-	ln -sf $(RELEASE_DIR) $(RELEASE_TOP_DIR)/latest
 
 
