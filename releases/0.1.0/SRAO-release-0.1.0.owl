@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.fairsharing.org/ontology/SRAO-merged.owl#"
-     xml:base="http://www.fairsharing.org/ontology/SRAO-merged.owl"
+<rdf:RDF xmlns="http://www.fairsharing.org/ontology/SRAO-release.owl#"
+     xml:base="http://www.fairsharing.org/ontology/SRAO-release.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,7 +8,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:ontology="http://www.fairsharing.org/ontology/">
-    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/SRAO-merged.owl">
+    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/SRAO-release.owl">
+        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/SRAO-release-0.1.0.owl"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This OWL file is a hierarchical categorization of research disciplines based on multiple resources. It is used within FAIRsharing as the basis for the discipline tags present within FAIRsharing records. 
 
 The majority of the classes come from two sources:
