@@ -23,7 +23,7 @@ Within any [releases/](https://github.com/FAIRsharing/subject-ontology/tree/mast
 - [refactoredIRIs-SRAO-RELNUM.txt] - The configuration file required by Ontofox for automatically adding annotation from the external ontologies to SRAO.
 - [README.md] A short description of the changes made since the last release.
 
-Within development/
+Within [development/](https://github.com/FAIRsharing/subject-ontology/tree/master/development)
 - [SRAO.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO.owl) - This is the main "bleeding edge" development file, manually edited by our team to ensure that all subject areas relevant to FAIRsharing are included within SRAO. It contains a number of import statements.
 - [SRAO-merged.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO.owl) - This is the main "bleeding edge" development file, generated automatically as a single file to be easy to view and use. Please note that it may not always be as up to date as SRAO.owl.
 - [SRAO-ontofox-annotation.txt](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO-ontofox-annotation.txt) - The configuration file required by Ontofox for automatically adding annotation from the external ontologies to SRAO.
@@ -47,7 +47,7 @@ Terms are added to SRAO manually, and additional annotation from the originating
 
 Initially, SRAO was built from the [re3data subject list](https://www.re3data.org/browse/by-subject/). However, this list is neither comprehensive enough nor does it include any extra metadata such as definitions and synonyms. Therefore additional external ontology classes were added by our curation team until all subject areas / disciplines required to describe FAIRsharing records were included.
 
-Where an external ontology contains definitions and/or synonyms, these are automatically imported into SRAO via Ontofox to supplement the curation already present. Release files are created using [ROBOT](http://robot.obolibrary.org/) via a controlling [Makefile](Makefile).
+Where an external ontology contains definitions and/or synonyms, these are automatically imported into SRAO via Ontofox to supplement the curation already present. Release files are created using [ROBOT](http://robot.obolibrary.org/) via a controlling [Makefile](development/Makefile).
 
 SRAO is written in OWL and serialized as RDF/XML. 
 
