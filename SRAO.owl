@@ -1896,8 +1896,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;NCIT_C16414">
         <rdfs:label xml:lang="en">Chemistry</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000162"/>
+        <rdfs:comment>AL: 21.1.19 Chemistry is asserted as a child of &apos;Natural Sciences&apos; by re3data, and a child of Physical Sciences within NCIT.</rdfs:comment>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <rdfs:comment>AL: 26.9.17 Chemistry is asserted as a child of &apos;Natural Sciences&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
     </owl:Class>
     
