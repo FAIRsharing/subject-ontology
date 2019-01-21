@@ -4173,10 +4173,13 @@ System Engineering - The investigation of complex, man-made systems in relation 
     <!-- http://www.fairsharing.org/ontology/SRAO_0000244 -->
 
     <owl:Class rdf:about="&ontology;SRAO_0000244">
-        <rdfs:label xml:lang="en">Automation, Control Systems, Robotics, Mechatronics</rdfs:label>
+        <rdfs:label xml:lang="en">Robotics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ontology;SRAO_0000243"/>
-        <obo:IAO_0000115>&apos;Automation, Control Systems, Robotics, Mechatronics&apos; covers the use of mechanical automation. [PAM 28.02.2018]</obo:IAO_0000115>
+        <ontology:SRAO_0000268>Mechatronics Engineering</ontology:SRAO_0000268>
+        <ontology:SRAO_0000268>Mechatronics</ontology:SRAO_0000268>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment>21.1.19 Changes to the label, synonyms and definition of this class reference the following issue: https://github.com/FAIRsharing/subject-ontology/issues/11</rdfs:comment>
+        <obo:IAO_0000115>Robotics is an interdisciplinary branch of engineering and science that deals with the design, construction, operation, and use of robots, as well as computer systems for their control, sensory feedback, and information processing. [AL, modified from Wikipedia https://en.wikipedia.org/wiki/Robotics, accessed 26.11.18]</obo:IAO_0000115>
     </owl:Class>
     
 
