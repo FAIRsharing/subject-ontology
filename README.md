@@ -14,10 +14,18 @@ All classes within SRAO come from publicly-available ontologies and controlled v
 
 # Files
 
-The simplest way to view SRAO is by using [SRAO-merged.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO-merged.owl). This file was created by merging the development files into a single document for easier loading within the editor of your choice, such as [Protege](http://protege.stanford.edu/). 
+To view the latest release of SRAO please visit [our release directory](https://github.com/FAIRsharing/subject-ontology/tree/master/releases). The release files are created by merging the development files into a single document for easier loading within the editor of your choice, such as [Protege](http://protege.stanford.edu/). 
 
 Below are short descriptions of the other files found within this repository:
-- [SRAO.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO.owl) - This is the main development file, manually edited by our team to ensure that all subject areas relevant to FAIRsharing are included within SRAO.
+
+Within any [releases/](https://github.com/FAIRsharing/subject-ontology/tree/master/releases) subdirectory
+- [SRAO-release-RELNUM.owl] - This is the release file, generated automatically as a single file to be easy to view and use.
+- [refactoredIRIs-SRAO-RELNUM.txt] - The configuration file required by Ontofox for automatically adding annotation from the external ontologies to SRAO.
+- [README.md] A short description of the changes made since the last release.
+
+Within development/
+- [SRAO.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO.owl) - This is the main "bleeding edge" development file, manually edited by our team to ensure that all subject areas relevant to FAIRsharing are included within SRAO. It contains a number of import statements.
+- [SRAO-merged.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO.owl) - This is the main "bleeding edge" development file, generated automatically as a single file to be easy to view and use. Please note that it may not always be as up to date as SRAO.owl.
 - [SRAO-ontofox-annotation.txt](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO-ontofox-annotation.txt) - The configuration file required by Ontofox for automatically adding annotation from the external ontologies to SRAO.
 - [SRAO-annotation.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/SRAO-annotation.owl) - the file created by Ontofox containing all automatically-generated annotation from the external ontologies
 
@@ -50,7 +58,7 @@ SRAO is written in OWL and serialized as RDF/XML.
 - [Ontofox](http://ontofox.hegroup.org/) - Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse. 
 BMC Research Notes. 2010, 3:175. PMID: 20569493
 - [Protege](http://protege.stanford.edu/) - Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003.
-
+- [ROBOT](http://robot.obolibrary.org/)
 
 # Usage and License
 
