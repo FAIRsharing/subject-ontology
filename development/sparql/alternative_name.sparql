@@ -1,0 +1,11 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?class (GROUP_CONCAT(DISTINCT ?synonym; separator="|") as ?synonyms)
+WHERE {
+    ?class rdf:type owl:Class.
+    ?class obo:IAO_0000118 ?synonym
+}
+GROUP BY ?class
