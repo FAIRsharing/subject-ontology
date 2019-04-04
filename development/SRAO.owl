@@ -252,6 +252,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_331401 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_331401">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000243"/>
+        <obo:IAO_0000115 xml:lang="en">Logistics engineering is a field of engineering dedicated to the scientific organization of the purchase, transport, storage, distribution, and warehousing of materials and finished goods. [Wikipedia https://en.wikipedia.org/wiki/Logistics_engineering, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Traffic and Transport Systems, Logistics</ontology:SRAO_0000268>
+        <ontology:SRAO_0000278 xml:lang="en">Logistics</ontology:SRAO_0000278>
+        <rdfs:comment xml:lang="en">AL: 4.4.2019 Refactored re3data composite label &apos;Traffic and Transport Systems, Logistics&apos; into &apos;Logistics Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Logistics Engineering</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_331559 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_331559">
@@ -1867,6 +1882,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Clinical Neurosciences II - Psychotherapy, Psychosomatic Medicine</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 4.4.2019 Refactored re3data composite class &apos;Clinical Neurosciences II - Psychotherapy, Psychosomatic Medicine&apos; into sibling classes &apos;Psychotherapy&apos; and &apos;Psychosomatic Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Psychotherapy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16304 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16304">
@@ -1999,6 +2027,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 15.1.18: While this particular class was not directly imported from re3data, its parent class was originally named &apos;Radiology and Nuclear Medicine&apos;. As NCIT has terms separately describing both concepts, FAIRsharing has split the re3data class along the hierarchy described in NCIT.</rdfs:comment>
         <rdfs:label>Nuclear Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17038">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3419"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 4.4.2019 Refactored re3data composite class &apos;Clinical Neurosciences II - Psychotherapy, Psychosomatic Medicine&apos; into sibling classes &apos;Psychotherapy&apos; and &apos;Psychosomatic Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Psychosomatic Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -3334,16 +3375,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000145 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000145">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Clinical Neurosciences II - Psychotherapy, Psychosomatic Medicine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000149 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000149">
@@ -4205,17 +4236,6 @@ System Engineering - The investigation of complex, man-made systems in relation 
 Microsystems are miniaturized (silicon or polymer) devices which perform electrical and non-electronic functions: typically sensing and actuation. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Microsystems</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000247 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000247">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000243"/>
-        <obo:IAO_0000115 xml:lang="en">Logistics engineering is a field of engineering dedicated to the scientific organization of the purchase, transport, storage, distribution, and warehousing of materials and finished goods. [Wikipedia https://en.wikipedia.org/wiki/Logistics_engineering, 3.4.2019]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Logistics Engineering</rdfs:label>
     </owl:Class>
     
 

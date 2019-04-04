@@ -10,9 +10,9 @@
 ##
 ## Available in Ontofox: EDAM, NCIT, PO
 ## Not available in Ontofox: re3data, AgroVoc, Agroportal Categories
-## 
+##
 ## OMIT does not currently store definitions or synonyms, so we
-## do not need to use Ontofox with it as that is all we are 
+## do not need to use Ontofox with it as that is all we are
 ## retrieving for SRAO.
 
 [URI of the OWL(RDF/XML) output file]
@@ -166,7 +166,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000115
 
 #### NOTES ON OMIT IMPORT ####
 ##
-## OMIT makes use of the BFO upper-level hierarchy as well as 
+## OMIT makes use of the BFO upper-level hierarchy as well as
 ## the GO biological process hierarchy. However, it currently
 ## does not store definitions or synonyms, so we don't need
 ## to run Ontofox over it.
@@ -180,6 +180,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000115
 NCIT
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C15308 # Psychotherapy
 http://purl.obolibrary.org/obo/NCIT_C15188 # Biomedical Science
 http://purl.obolibrary.org/obo/NCIT_C16414 # Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16304 # Architecture
