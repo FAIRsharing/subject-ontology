@@ -2204,8 +2204,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/OMIT_0001094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0001094">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000047"/>
         <obo:IAO_0000115 xml:lang="en">Cognitive neuroscience is the field of study focusing on the neural substrates of mental processes. It is at the intersection of psychology and neuroscience, but also overlaps with physiological psychology, cognitive psychology and neuropsychology. It combines the theories of cognitive psychology and computational modelling with experimental data about the brain. [Nature https://www.nature.com/subjects/cognitive-neuroscience, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -2881,9 +2880,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000047 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <obo:IAO_0000115 xml:lang="en">Biological psychology is the application of the principles of biology to the study of mental processes and behaviour. For example, it involves the measuring of biological, physiological, or genetic variables in an attempt to relate them to psychological or behavioural variables. [Adapted from https://opentextbc.ca/introductiontopsychology/chapter/2-1-biological-psychology-structuralism-and-functionalism/, AL 9.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Behavioral Neuroscience</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Behavioural Neuroscience</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Biopsychology</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Physiological Psychology</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Psychobiology</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">General, Biological and Mathematical Psychology</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">General, Biological and Mathematical Psychology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;General, Biological and Mathematical Psychology&apos; into sibling classes &apos;Biological Psychology&apos; and &apos;Mathematical Psychology&apos; according to FAIRsharing curation best practises. Please note that, although there is an NCIT term &apos;Psychobiology&apos; it has a synonym of &apos;Biological Psychiatry&apos;, and FAIRsharing considers &apos;Biological Psychiatry&apos; and &apos;Biological Psychology&apos; as two separate concepts.Placement of &apos;Cognitive Neuroscience&apos; as a child (rather than a sibling) term of this class follows https://opentextbc.ca/introductiontopsychology/chapter/2-1-biological-psychology-structuralism-and-functionalism/</rdfs:comment>
+        <rdfs:label xml:lang="en">Biological Psychology</rdfs:label>
     </owl:Class>
     
 
@@ -4624,6 +4632,19 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Systemic Neuroscience, Computational Neuroscience, Behaviour&apos; into sibling classes &apos;Systemic Neuroscience&apos; and &apos;Computational Neuroscience&apos; according to FAIRsharing curation best practises. The &apos;Behaviour&apos; aspect of the original class name is now superceded by &apos;Biological Psychology&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Computational Neuroscience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000296 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000296">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <obo:IAO_0000115 xml:lang="en">Mathematical psychology is an approach to psychological research that is based on mathematical modeling of perceptual, thought, cognitive and motor processes, and on the establishment of law-like rules that relate quantifiable stimulus characteristics with quantifiable behavior. [Wikipedia https://en.wikipedia.org/wiki/Mathematical_psychology, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;General, Biological and Mathematical Psychology&apos; into sibling classes &apos;Biological Psychology&apos; and &apos;Mathematical Psychology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Mathematical Psychology</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
