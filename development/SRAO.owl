@@ -2900,8 +2900,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <obo:IAO_0000115 xml:lang="en">The study of social interactions, including their origins and effects on individuals and groups. [OED, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Social Psychology, Industrial and Organisational Psychology</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Social Psychology, Industrial and Organisational Psychology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Social Psychology, Industrial and Organisational Psychology&apos; into sibling classes &apos;Social Psychology&apos; and &apos;Industrial and Organisational Psychology&apos; according to FAIRsharing curation best practises. Definitions and common usage show that the composite term &apos;Industrial and Organisational Psychology&apos; should not be further divided.</rdfs:comment>
+        <rdfs:label xml:lang="en">Social Psychology</rdfs:label>
     </owl:Class>
     
 
@@ -4645,6 +4648,23 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;General, Biological and Mathematical Psychology&apos; into sibling classes &apos;Biological Psychology&apos; and &apos;Mathematical Psychology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Mathematical Psychology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000297 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <obo:IAO_0000115 xml:lang="en">Industrial and Organisational Psychology is the science of human behaviour relating to work and applies psychological theories and principles to organizations and individuals in their places of work as well as the individual&apos;s work-life more generally. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Industrial_and_organizational_psychology, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">I/O Psychology</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Industrial and Organizational Psychology</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Occupational Psychology</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Organisational Psychology</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Organizational Psychology</obo:IAO_0000118>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Social Psychology, Industrial and Organisational Psychology&apos; into sibling classes &apos;Social Psychology&apos; and &apos;Industrial and Organisational Psychology&apos; according to FAIRsharing curation best practises. Definitions and common usage show that the composite term &apos;Industrial and Organisational Psychology&apos; should not be further divided.</rdfs:comment>
+        <rdfs:label xml:lang="en">Industrial and Organisational Psychology</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
