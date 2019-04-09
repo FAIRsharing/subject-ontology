@@ -2031,6 +2031,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Differential Psychology, Clinical Psychology, Medical Psychology, Methodology&apos; into sibling classes &apos;Differential Psychology&apos;, &apos;Clinical Psychology&apos; and &apos;Medical Psychology&apos; according to FAIRsharing curation best practises.&apos;Methodology&apos; was not required within SRAO at this time.</rdfs:comment>
+        <rdfs:label xml:lang="en">Clinical Psychology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17038">
@@ -2318,6 +2330,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Psychology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0012532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0012532">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17028"/>
+        <obo:IAO_0000115 xml:lang="en">Medical Psychology is the application of Clinical Psychology to medicine-specific issues. It also includes the application of psychological principles to the practice of medicine, including the integration of somatic and psychotherapeutic modalities into the management of illnesses and disorders. [Adapted from https://en.wikipedia.org/wiki/Medical_psychology and https://www.quora.com/What-is-the-difference-between-clinical-psychology-and-medical-psychology, AL 9.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Differential Psychology, Clinical Psychology, Medical Psychology, Methodology&apos; into sibling classes &apos;Differential Psychology&apos;, &apos;Clinical Psychology&apos; and &apos;Medical Psychology&apos; according to FAIRsharing curation best practises.&apos;Methodology&apos; was not required within SRAO at this time.</rdfs:comment>
+        <rdfs:label xml:lang="en">Medical Psychology</rdfs:label>
     </owl:Class>
     
 
@@ -2859,8 +2885,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <obo:IAO_0000115 xml:lang="en">Differential psychology studies the ways in which individuals differ in their behavior and the processes that underlie it. This is a discipline that develops classifications (taxonomies) of psychological individual differences. This is distinguished from other aspects of psychology in that although psychology is ostensibly a study of individuals, modern psychologists often study groups, or attempt to discover general psychological processes that apply to all individuals. [Wikipedia, https://en.wikipedia.org/wiki/Differential_psychology, 28.3.19]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Differential Psychology, Clinical Psychology, Medical Psychology, Methodology</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Differential Psychology, Clinical Psychology, Medical Psychology, Methodology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Differential Psychology, Clinical Psychology, Medical Psychology, Methodology&apos; into sibling classes &apos;Differential Psychology&apos;, &apos;Clinical Psychology&apos; and &apos;Medical Psychology&apos; according to FAIRsharing curation best practises.&apos;Methodology&apos; was not required within SRAO at this time.</rdfs:comment>
+        <rdfs:label xml:lang="en">Differential Psychology</rdfs:label>
     </owl:Class>
     
 
