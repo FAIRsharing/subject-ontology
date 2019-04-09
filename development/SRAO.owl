@@ -3313,9 +3313,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000136 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000136">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3047"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <obo:IAO_0000115 xml:lang="en">Molecular neuroscience is a branch of neuroscience that examines the biology of the nervous system with molecular biology, molecular genetics, protein chemistry and related methodologies. [Nature https://www.nature.com/subjects/molecular-neuroscience, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Molecular Neuroscience and Neurogenetics</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Molecular Neuroscience and Neurogenetics</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Molecular Neuroscience and Neurogenetics&apos; into sibling classes &apos;Molecular Neuroscience&apos; and &apos;Neurogenetics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Molecular Neuroscience</rdfs:label>
     </owl:Class>
     
 
@@ -4541,6 +4545,19 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000069"/>
         <obo:IAO_0000115>Natural history is a domain of inquiry involving organisms including animals, fungi and plants in their environment; leaning more towards observational than experimental methods of study. [Wikipedia https://en.wikipedia.org/wiki/Natural_history, accessed 27.11.18]</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Natural History</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000294 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000294">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <obo:IAO_0000115 xml:lang="en">Neurogenetics studies the role of genetics in the development and function of the nervous system. [Wikipedia https://en.wikipedia.org/wiki/Neurogenetics, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Molecular Neuroscience and Neurogenetics&apos; into sibling classes &apos;Molecular Neuroscience&apos; and &apos;Neurogenetics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Neurogenetics</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
