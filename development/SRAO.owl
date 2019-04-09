@@ -3347,9 +3347,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000139 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000139">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_2259"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <obo:IAO_0000115 xml:lang="en">Systemic Neuroscience is a subdiscipline of neuroscience and systems biology that studies the structure and function of neural circuits and systems. It encompasses a number of areas of study concerned with how nerve cells behave when connected together to form neural pathways, neural circuits, and larger brain networks. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Systems_neuroscience, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Systems Neuroscience</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Systemic Neuroscience, Computational Neuroscience, Behaviour</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Systemic Neuroscience, Computational Neuroscience, Behaviour</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Systemic Neuroscience, Computational Neuroscience, Behaviour&apos; into sibling classes &apos;Systemic Neuroscience&apos; and &apos;Computational Neuroscience&apos; according to FAIRsharing curation best practises. The &apos;Behaviour&apos; aspect of the original class name is now superceded by &apos;Biological Psychology&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="en">Systemic Neuroscience</rdfs:label>
     </owl:Class>
     
 
@@ -4558,6 +4563,21 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Molecular Neuroscience and Neurogenetics&apos; into sibling classes &apos;Molecular Neuroscience&apos; and &apos;Neurogenetics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Neurogenetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000295 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000295">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000249"/>
+        <obo:IAO_0000115 xml:lang="en">Computational neuroscience is the field of study in which mathematical tools and theories are used to investigate brain function. It can also incorporate diverse approaches from electrical engineering, computer science and physics in order to understand how the nervous system processes information. [Nature https://www.nature.com/subjects/computational-neuroscience, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Systemic Neuroscience, Computational Neuroscience, Behaviour&apos; into sibling classes &apos;Systemic Neuroscience&apos; and &apos;Computational Neuroscience&apos; according to FAIRsharing curation best practises. The &apos;Behaviour&apos; aspect of the original class name is now superceded by &apos;Biological Psychology&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="en">Computational Neuroscience</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
