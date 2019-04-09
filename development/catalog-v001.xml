@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1548079745675" name="http://www.fairsharing.org/fairsharing" uri="SRAO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1548079745675" name="http://www.fairsharing.org/ontology/SRAO-merged.owl" uri="SRAO-merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1548079745675" name="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl" uri="SRAO-annotation.owl"/>
-    </group>
-</catalog>
