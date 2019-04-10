@@ -2106,6 +2106,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17940">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label>Microbial Genetics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C18076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18076">
@@ -2164,6 +2177,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268 xml:lang="en">Developmental and Educational Psychology</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Developmental and Educational Psychology&apos; into sibling classes &apos;Developmental Psychology&apos; and &apos;Educational Psychology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Developmental Psychology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18873">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3300"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
+        <obo:IAO_0000118 xml:lang="en">Microbial Metabolism</obo:IAO_0000118>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Microbial Physiology</rdfs:label>
     </owl:Class>
     
 
@@ -3225,7 +3252,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000097">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Metabolism, Biochemistry and Genetics of Microorganisms</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Metabolism, Biochemistry and Genetics of Microorganisms</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Molecular Microbiology</rdfs:label>
     </owl:Class>
     
 
@@ -3248,8 +3277,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Medical Microbiology, Molecular Infection Biology</ontology:SRAO_0000268>
         <rdfs:comment>AL: 28.9.17 &apos;Medical Microbiology, Molecular Infection Biology&apos; is asserted as a child of Microbiology by re3data, and has additionally been positioned as a child of &apos;Biomedical Sciences&apos;.</rdfs:comment>
-        <rdfs:label xml:lang="en">Medical Microbiology, Molecular Infection Biology</rdfs:label>
+        <rdfs:label xml:lang="en">Molecular Infection Biology</rdfs:label>
     </owl:Class>
     
 
