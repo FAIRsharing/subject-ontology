@@ -729,10 +729,7 @@
 
     <!-- http://edamontology.org/topic_3332 -->
 
-    <owl:Class rdf:about="http://edamontology.org/topic_3332">
-        <obo:IAO_0000115>Topic concerning the development and application of theory, analytical methods, mathematical models and computational simulation of chemical systems.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://edamontology.org/topic_3332"/>
     
 
 
