@@ -170,6 +170,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_16129 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_16129">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000157"/>
+        <obo:IAO_0000115 xml:lang="en">Forest management is a branch of forestry concerned with overall administrative, economic, legal, and social aspects, as well as scientific and technical aspects, such as silviculture, protection, and forest regulation. This includes management for aesthetics, fish, recreation, urban values, water, wilderness, wildlife, wood products, forest genetic resources, and other forest resource values. Management can be based on conservation, economics, or a mixture of the two. [Wikipedia https://en.wikipedia.org/wiki/Forest_management, 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Inventory Control and Use of Forest Resources</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Inventory Control and Use of Forest Resources&apos; into &apos;Forest Management&apos; to simplify the term according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Inventory Control&apos; subdomain.</rdfs:comment>
+        <rdfs:label xml:lang="en">Forest Management</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_1648 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1648">
@@ -230,6 +244,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 4.4.2019 Refactored re3data composite class &apos;Human Factors, Ergonomics, Human-Machine Systems&apos; into sibling classes &apos;Ergonomics&apos; and &apos;Human-Machine Systems Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Ergonomics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_27925 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_27925">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <obo:IAO_0000115 xml:lang="en">Science of feeds and their nutrients, their relation to animal health and disease; for providing feeds to animals use [AgroVoc, 28.3.19]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Animal Nutrition and Nutrition Physiology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Animal Nutrition and Nutrition Physiology&apos; into &apos;Animal Nutrition&apos; to simplify the term according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Nutrition Physiology&apos; subdomain.</rdfs:comment>
+        <rdfs:label xml:lang="en">Animal Nutrition</rdfs:label>
     </owl:Class>
     
 
@@ -328,6 +356,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268>Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning</ontology:SRAO_0000268>
         <rdfs:comment>AL 23.5.18: The original &quot;Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning&quot; class from re3data has been split into &quot;Urban Planning&quot;, &quot;Transportation Planning&quot; and &quot;Landscape Planning&quot;. Urbanism and Spatial Planning have been consolidated into a single class as it provides an appropriate level of detail for FAIRsharing users. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label>Urban Planning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_423 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_423">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000158"/>
+        <obo:IAO_0000115 xml:lang="en">Animal breeding is a branch of Agriculture that addresses the controlled improvement of selected characteristics of livestock. [Adapted from AgroVoc and Wikipedia, https://en.wikipedia.org/wiki/Animal_breeding, 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Animal Husbandry, Breeding and Hygiene&apos; into parent &apos;Animal Husbandry&apos; and child &apos;Animal Breeding&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Animal Hygiene&apos; subdomain.</rdfs:comment>
+        <rdfs:label xml:lang="en">Animal Breeding</rdfs:label>
     </owl:Class>
     
 
@@ -3624,16 +3665,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000156 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000156">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Inventory Control and Use of Forest Resources</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000157 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000157">
@@ -3648,18 +3679,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000158">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <obo:IAO_0000115 xml:lang="en">Animal husbandry is the branch of agriculture concerned with animals that are raised for meat, fibre, milk, eggs, or other products. It includes day-to-day care, selective breeding and the raising of livestock. [Wikipedia, https://en.wikipedia.org/wiki/Animal_husbandry, 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Animal Husbandry, Breeding and Hygiene</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000159 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000159">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Animal Nutrition and Nutrition Physiology</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Animal Husbandry, Breeding and Hygiene</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Animal Husbandry, Breeding and Hygiene&apos; into parent &apos;Animal Husbandry&apos; and child &apos;Animal Breeding&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Animal Hygiene&apos; subdomain.</rdfs:comment>
+        <rdfs:label xml:lang="en">Animal Husbandry</rdfs:label>
     </owl:Class>
     
 
