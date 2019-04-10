@@ -2336,6 +2336,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0002710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0002710">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000207"/>
+        <obo:IAO_0000115 xml:lang="en">Automation is the action or process of introducing automatic equipment or devices into a manufacturing or other process or facility [OED]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Production Automation, Factory Operation, Operations Manangement</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Production Automation, Factory Operation, Operations Manangement&apos; into &apos;Automation&apos; to simplify the term according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Automation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0003951 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0003951">
@@ -4006,8 +4020,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000209">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000207"/>
+        <obo:IAO_0000115 xml:lang="en">Primary Shaping Technology concerns the primary processes within production technology, which convert raw material or scrap to a basic primary shaped and sized product. [Adapted from http://www.minaprem.com/machining/introduction/primary-secondary-and-advanced-manufacturing-processes-examples/, AL 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Primary Shaping and Reshaping Technology</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Primary Shaping and Reshaping Technology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Production Automation, Factory Operation, Operations Manangement&apos; into &apos;Automation&apos; to simplify the term according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Primary Shaping Technology</rdfs:label>
     </owl:Class>
     
 
@@ -4028,16 +4045,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000207"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Plastics Engineering</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000212 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000212">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000207"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Production Automation, Factory Operation, Operations Manangement</rdfs:label>
     </owl:Class>
     
 
