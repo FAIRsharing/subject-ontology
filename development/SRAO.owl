@@ -364,6 +364,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
         <obo:IAO_0000115 xml:lang="en">Plant ecology is a subdiscipline of ecology which studies the distribution and abundance of plants, the effects of environmental factors upon the abundance of plants, and the interactions among and between plants and other organisms. [Wikipedia https://en.wikipedia.org/wiki/Plant_ecology, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Plant Ecology and Ecosystem Analysis</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Plant Ecology and Ecosystem Analysis&apos; into &apos;Plant Ecology&apos; to simplify the term according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Ecosystem Analysis&apos; subdomain.</rdfs:comment>
