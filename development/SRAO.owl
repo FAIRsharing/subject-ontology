@@ -2286,8 +2286,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0002540">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000015"/>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
-        <ontology:SRAO_0000272>Art</ontology:SRAO_0000272>
-        <rdfs:label>Arts</rdfs:label>
+        <ontology:SRAO_0000268>Arts</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 10.4.2019: Renamed &apos;Arts&apos; to &apos;Art&apos; to match the meaning intended within OMIT.</rdfs:comment>
+        <rdfs:label>Art</rdfs:label>
     </owl:Class>
     
 
@@ -2630,8 +2631,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007951"/>
+        <obo:IAO_0000115 xml:lang="en">Fine Arts is a subject area covering the creative arts, including the visual arts, poetry, music, rhetoric, etc., whose products are intended to be appreciated primarily or solely for their aesthetic, imaginative, or intellectual content. [Adapted from OED, AL 10.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Fine Arts, Music, Theatre and Media Studies</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Fine Arts, Music, Theatre and Media Studies</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 10.4.2019: Renamed &apos;Fine Arts, Music, Theatre and Media Studies&apos; to &apos;Fine Arts&apos; to align with FAIRsharing curation best practices.</rdfs:comment>
+        <rdfs:label xml:lang="en">Fine Arts</rdfs:label>
     </owl:Class>
     
 
@@ -2660,8 +2664,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000018">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">Media studies is a discipline and field of study that deals with the content, history, and effects of various media; in particular, the mass media. [Wikipedia, https://en.wikipedia.org/wiki/Media_studies, 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Theatre and Media Studies</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Theatre and Media Studies</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 10.4.2019: Renamed &apos;Theatre and Media Studies&apos; to &apos;Media Studies&apos; to align with FAIRsharing curation best practices.</rdfs:comment>
+        <rdfs:label xml:lang="en">Media Studies</rdfs:label>
     </owl:Class>
     
 
