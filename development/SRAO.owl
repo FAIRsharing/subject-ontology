@@ -205,6 +205,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_2468 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17167"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
+        <obo:IAO_0000115 xml:lang="en">The application of mathematics and statistics to the study of economic and financial data. [AgroVoc]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Statistics and Econometrics</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Statistics and Econometrics&apos; into &apos;Econometrics&apos; and added a parent term of &apos;Statistics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Econometrics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_2638 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2638">
@@ -711,16 +726,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Systems biology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_2269 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_2269">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Statistics and Probability</rdfs:label>
     </owl:Class>
     
 
@@ -2106,6 +2111,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17167">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
+        <obo:IAO_0000118 xml:lang="en">Statistics and Probability</obo:IAO_0000118>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 10.4.2019: Renamed &apos;Statistics and Probability&apos; to &apos;Statistics&apos; to align with FAIRsharing curation best practices.</rdfs:comment>
+        <rdfs:label xml:lang="en">Statistics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17940">
@@ -3069,16 +3086,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Business Administration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000061 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000061">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Statistics and Econometrics</rdfs:label>
     </owl:Class>
     
 

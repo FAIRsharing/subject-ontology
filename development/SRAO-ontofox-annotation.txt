@@ -47,7 +47,6 @@ http://edamontology.org/topic_1317
 http://edamontology.org/topic_2229
 http://edamontology.org/topic_2258
 http://edamontology.org/topic_2259
-http://edamontology.org/topic_2269
 http://edamontology.org/topic_2640
 http://edamontology.org/topic_2815
 http://edamontology.org/topic_2840
@@ -199,6 +198,7 @@ http://purl.obolibrary.org/obo/NCIT_C17030 # Educational Psychology
 http://purl.obolibrary.org/obo/NCIT_C17038 # Psychosomatic Medicine
 http://purl.obolibrary.org/obo/NCIT_C17059 # Radiology
 http://purl.obolibrary.org/obo/NCIT_C17141 # Social Sciences
+http://purl.obolibrary.org/obo/NCIT_C17167 # Statistics
 http://purl.obolibrary.org/obo/NCIT_C17940 # Microbial Genetics
 http://purl.obolibrary.org/obo/NCIT_C18076 # Bioengineering
 http://purl.obolibrary.org/obo/NCIT_C18189 # Pathology
