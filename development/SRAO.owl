@@ -2195,6 +2195,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18874">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Medical Microbiology, Molecular Infection Biology&apos; into sibling classes &apos;Molecular Infection Biology&apos; and &apos;Medical Microbiology&apos; according to FAIRsharing curation best practises. Added an additional parent term of &apos;Biomedical Science&apos; to align with the definition.</rdfs:comment>
+        <rdfs:label xml:lang="en">Medical Microbiology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C19199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19199">
@@ -3274,10 +3287,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000099 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000099">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3047"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <obo:IAO_0000115 xml:lang="en">Molecular Infection Biology is the branch of molecular biology which applies to infectious agents. [Adapted from https://www.vu.nl/en/study-guide/2018-2019/master/a-b/biomolecular-sciences/index.aspx?view=module&amp;origin=50051465x50051462&amp;id=50043925, AL 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Medical Microbiology, Molecular Infection Biology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Medical Microbiology, Molecular Infection Biology&apos; into sibling classes &apos;Molecular Infection Biology&apos; and &apos;Medical Microbiology&apos; according to FAIRsharing curation best practises. Added an additional parent term of &apos;Molecular Biology&apos; to align with the definition.</rdfs:comment>
         <rdfs:comment>AL: 28.9.17 &apos;Medical Microbiology, Molecular Infection Biology&apos; is asserted as a child of Microbiology by re3data, and has additionally been positioned as a child of &apos;Biomedical Sciences&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Molecular Infection Biology</rdfs:label>
     </owl:Class>
