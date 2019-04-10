@@ -4243,21 +4243,10 @@ Process engineering focuses on the design, operation, control, optimization and 
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000229 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000229">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115>The interdisciplinary field of materials science, also commonly termed materials science and engineering is the design and discovery of new materials, particularly solids. [Wikipedia PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Materials Science and Engineering</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000230 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000230">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000229"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
         <obo:IAO_0000115>[Definition needed]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Materials Engineering</rdfs:label>
@@ -4323,11 +4312,12 @@ Process engineering focuses on the design, operation, control, optimization and 
     <!-- http://www.fairsharing.org/ontology/SRAO_0000236 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000236">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000229"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115>The scientific study of the properties and applications of materials of construction or manufacture (such as ceramics, metals, polymers, and composites. [Merriam Webster Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:comment>AL 23.5.18: Placement within the hierarchy follows re3data (where the parent is &quot;Materials Science and Engineering&quot;) and FAIRsharing curation choices (because this research area involves Construction Engineering).</rdfs:comment>
+        <ontology:SRAO_0000268 xml:lang="en">Materials Science and Engineering</ontology:SRAO_0000268>
+        <rdfs:comment>AL 10.4.2019: Placement within the hierarchy follows FAIRsharing curation choices; we have split &apos;Materials Science and Engineering&apos; to better focus on the various subjects that are primarily either Materials Engineering or Materials Science. On 23.5.18, the parent term &apos;Construction Engineering&apos; was added.</rdfs:comment>
         <rdfs:label xml:lang="en">Materials Science</rdfs:label>
     </owl:Class>
     
