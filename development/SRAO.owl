@@ -170,6 +170,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_11669 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_11669">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_3731"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007039"/>
+        <obo:IAO_0000115 xml:lang="en">That part of geology which treats of the relations of water on or below the surface of the earth. [OED, 28.3.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored &apos;Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management&apos; and its hierarchy into: &apos;Hydrology&apos; with child &apos;Hydrogeology&apos;; &apos;Limnology&apos;; and &apos;Water Management&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Water Chemistry&apos; subdomain. Hydrology and Limnology had previously been refactored out of this class, and now the class has been completely refactored to create one class per concept.</rdfs:comment>
+        <rdfs:label xml:lang="en">Hydrogeology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_16129 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_16129">
@@ -346,6 +361,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_3731 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3731">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000203"/>
+        <obo:IAO_0000115 xml:lang="en">Hydrology is the scientific study of the movement, distribution, and quality of water on Earth and other planets, including the water cycle, water resources and environmental watershed sustainability. [AgroVoc, 28.3.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored &apos;Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management&apos; and its hierarchy into: &apos;Hydrology&apos; with child &apos;Hydrogeology&apos;; &apos;Limnology&apos;; and &apos;Water Management&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Water Chemistry&apos; subdomain. Hydrology and Limnology had previously been refactored out of this class, and now the class has been completely refactored to create one class per concept.</rdfs:comment>
+        <rdfs:label>Hydrology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_37948 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_37948">
@@ -369,6 +397,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Animal Husbandry, Breeding and Hygiene&apos; into parent &apos;Animal Husbandry&apos; and child &apos;Animal Breeding&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Animal Hygiene&apos; subdomain.</rdfs:comment>
         <rdfs:label xml:lang="en">Animal Breeding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_4343 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_4343">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000203"/>
+        <obo:IAO_0000115 xml:lang="en">Limnology is the study of the physical, chemical, hydrological, and biological aspects of fresh water bodies. [AgroVoc 28.3.19]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored &apos;Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management&apos; and its hierarchy into: &apos;Hydrology&apos; with child &apos;Hydrogeology&apos;; &apos;Limnology&apos;; and &apos;Water Management&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Water Chemistry&apos; subdomain. Hydrology and Limnology had previously been refactored out of this class, and now the class has been completely refactored to create one class per concept.</rdfs:comment>
+        <rdfs:label>Limnology</rdfs:label>
     </owl:Class>
     
 
@@ -437,6 +478,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 6.3.18: Placement of Soil Sciences is modified from the re3data hierarchy due to adjustments to align with the AgroVoc hierarchy. re3data placement is as a child of Agriculture, which has been further refined to Agronomy. AgroVoc places Soil Sciences as a child of Earth Sciences, which has been reproduced here.</rdfs:comment>
         <rdfs:label xml:lang="en">Soil Sciences</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_8320 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8320">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000203"/>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored &apos;Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management&apos; and its hierarchy into: &apos;Hydrology&apos; with child &apos;Hydrogeology&apos;; &apos;Limnology&apos;; and &apos;Water Management&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Water Chemistry&apos; subdomain. Hydrology and Limnology had previously been refactored out of this class, and now the class has been completely refactored to create one class per concept.</rdfs:comment>
+        <rdfs:label xml:lang="en">Water Management</rdfs:label>
     </owl:Class>
     
 
@@ -2583,16 +2636,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIT_0026554 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026554">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000204"/>
-        <obo:IAO_0000412>OMIT</obo:IAO_0000412>
-        <rdfs:label>Limnology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIT_0026615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026615">
@@ -2615,16 +2658,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:comment>PAM 27.02.2018: Cannot find placement in OMIT hierarchy, so taken definition from MeSH.</rdfs:comment>
         <rdfs:label>OMIT</rdfs:label>
         <rdfs:label>Synthetic Biology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIT_0028040 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0028040">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000204"/>
-        <obo:IAO_0000412>OMIT</obo:IAO_0000412>
-        <rdfs:label>Hydrology</rdfs:label>
     </owl:Class>
     
 
@@ -3240,6 +3273,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000069">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000162"/>
+        <obo:IAO_0000115 xml:lang="en">Water management is the activity of planning, developing, distributing and optimum use of water resources under defined water polices and regulations. It includes: management of water treatment of drinking water, industrial water, sewage or wastewater, management of water resources, management of flood protection, management of irrigation, and management of the water table. [Wikipedia, https://en.wikipedia.org/wiki/Category:Water_management, 28.3.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Water Resource Management</obo:IAO_0000118>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Life Sciences</rdfs:label>
     </owl:Class>
@@ -4006,16 +4042,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Water Research</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000204 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000204">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000203"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management</rdfs:label>
     </owl:Class>
     
 
