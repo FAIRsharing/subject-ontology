@@ -3858,20 +3858,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000175 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Biological Chemistry and Food Chemistry</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000176 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000176">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000175"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Biological and Biomimetic Chemistry</rdfs:label>
     </owl:Class>
@@ -3881,8 +3871,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000177 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000177">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000175"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115 xml:lang="en">Food chemistry is the study of chemical processes and interactions of all biological and non-biological components of foods. The biological substances include such items as meat, poultry, lettuce, beer, and milk as examples. It is similar to biochemistry in its main components such as carbohydrates, lipids, and protein, but it also includes areas such as water, vitamins, minerals, enzymes, food additives, flavors, and colors. [Adapted from Wikipedia, AL 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 11.4.2019: &apos;Food Chemistry&apos; used to be a child term of the now-deleted &apos;Biological Chemistry and Food Chemistry&apos; class, which was deleted according to FAIRsharing curation guidelines as it overlapped with &apos;Food Chemistry&apos; itself.</rdfs:comment>
         <rdfs:label xml:lang="en">Food Chemistry</rdfs:label>
     </owl:Class>
     
