@@ -4357,8 +4357,11 @@ Process engineering focuses on the design, operation, control, optimization and 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000240">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
+        <obo:IAO_0000115 xml:lang="en">Materials Structuring and Functionalisation is a type of Materials Science where surfaces of materials attain desired functionalities through the use of surface structuring. [Adapted from https://www.lzh.de/en/services-for-industry/functionalization-and-structuring-of-surfaces, AL 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Structuring and Functionalisation</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Structuring and Functionalisation</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Renamed re3data class &apos;Structuring and Functionalisation&apos; into the more descriptive &apos;Materials Structuring and Functionalisation&apos;. Definitions and common usage show that the composite term &apos;Materials Structuring and Functionalisation&apos; should not be further divided.</rdfs:comment>
+        <rdfs:label xml:lang="en">Materials Structuring and Functionalisation</rdfs:label>
     </owl:Class>
     
 
@@ -4604,7 +4607,9 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115>Applied mechanics, Statics and Dynamics are branches of the physical sciences and the practical application of mechanics. Applied mechanics, bridges the gap between physical theory and its application to technology. It is used in many fields of engineering, especially mechanical engineering and civil engineering. [Adapted from Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Applied Mechanics, Statics and Dynamics</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Applied Mechanics, Statics and Dynamics</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored &apos;Applied Mechanics, Statics and Dynamics&apos; into &apos;Applied Mechanics&apos; to simplify the term according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Applied Mechanics</rdfs:label>
     </owl:Class>
     
 
