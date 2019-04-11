@@ -469,6 +469,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_7128 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_7128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16294"/>
+        <obo:IAO_0000115 xml:lang="en">Social Anthropology is the study of human societies where the culture and its continuity (including narratives, rituals, and symbolic behavior associated with them) are seen as a dependent variable, embedded in its historical and social context, rather than the independent variable. Social anthropology is the more common term in Britain, with Cultural Anthropology usually preferred in the United States, though these can also often describe different research areas. The terms tend to reflect a difference in emphasis between the two disciplines, with social anthropology emphasizing the organizational bases of societies and cultures, such as political systems, tribal kinship, and economic organization. In practice, the disciplines coincide in many respects. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Social_anthropology and OED, AL 11.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Social and Cultural Anthropology and Ethnology/Folklore</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Social Anthropology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_7188 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_7188">
@@ -2023,6 +2037,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007951"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Anthropology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16304 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16304">
@@ -2417,6 +2444,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268 xml:lang="en">Cognitive Neuroscience and Neuroimaging</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Cognitive Neuroscience and Neuroimaging&apos; into &apos;Cognitive Neuroscience&apos; according to FAIRsharing curation best practises. Added parent &apos;Psychology&apos; to align with the definition provided.</rdfs:comment>
         <rdfs:label xml:lang="en">Cognitive Neuroscience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0002286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0002286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16294"/>
+        <obo:IAO_0000115 xml:lang="en">Cultural Anthropology is a branch of anthropology focused on the study of cultural variation among humans. It is in contrast to social anthropology, which perceives cultural variation as a subset of the anthropological constant. Cultural Anthropology is the more common term in the United States, with Social Anthropology usually preferred in Britain, although they are also often considered distinct research areas. The terms tend to reflect a difference in emphasis between the two disciplines, with Cultural Anthropology aiming to appreciate the whole sphere of human cultural life, by examining historical, political, psychological, and other frameworks. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Cultural_anthropology and OED, AL 11.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cultural Anthropology</rdfs:label>
     </owl:Class>
     
 
@@ -2909,31 +2949,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000028 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007951"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000029 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000029">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000028"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Social and Cultural Anthropology and Ethnology/Folklore</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000030 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000030">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000028"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000299"/>
+        <obo:IAO_0000115 xml:lang="en">Asian Studies is the term used usually in North America and Australia for what in Europe is known as Oriental studies. The field is concerned with the Asian people and societies, their cultures, languages, history and politics. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Asian_studies, 11.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Oriental Studies</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Asian Studies</rdfs:label>
     </owl:Class>
     
@@ -2942,9 +2965,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000031 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000031">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000028"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000299"/>
+        <obo:IAO_0000115 xml:lang="en">African Studies is the study of Africa, especially the continent&apos;s cultures and societies (as opposed to its geology, geography, zoology, etc.). [Wikipedia https://en.wikipedia.org/wiki/African_studies, 11.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">African, American and Oceania Studies</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">African, American and Oceania Studies</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">African Studies</rdfs:label>
     </owl:Class>
     
 
@@ -2952,9 +2978,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000032 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000032">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000028"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">Islamic studies refers to the study of Islam. Islamic studies can be pursued from a primarily secular or traditional religous perspective. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Islamic_studies, 11.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Islamic Studies, Arabian Studies, Semitic Studies</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Islamic Studies, Arabian Studies, Semitic Studies</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Islamic Studies</rdfs:label>
     </owl:Class>
     
 
@@ -2962,9 +2991,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000033 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000033">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000028"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000299"/>
+        <obo:IAO_0000115 xml:lang="en">Religious studies, is an academic field devoted to research into religious beliefs, behaviors, and institutions. It describes, compares, interprets, and explains religion, emphasizing systematic, historically based, and cross-cultural perspectives. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Religious_studies, AL 11.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Religious Studies and Jewish Studies</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Religious Studies and Jewish Studies</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Religious Studies</rdfs:label>
     </owl:Class>
     
 
@@ -4812,6 +4844,74 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Chemical Solid State and Surface Research&apos; into &apos;Physical Chemistry&apos;, and refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises. Refactored &apos;Physical Chemistry of Solids and Surfaces, Material Characterisation&apos; into &apos;Solid-State Chemistry&apos;, and &apos;Surface Science&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Surface Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000299 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16294"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16478"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16633"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000055"/>
+        <obo:IAO_0000115 xml:lang="en">Area studies, multidisciplinary social research focusing on specific geographic regions or culturally defined areas. Area studies typically draw on disciplines such as political science, history, sociology, ethnology, geography, linguistics, literature, and cultural studies. [Adapted from Encyclopedia Britannica https://www.britannica.com/topic/area-studies, AL 11.4.2019]</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">AL 11.4.19: This class has been created based on hierarchy requirements from FAIRsharing rather than via the re3data import.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Area Studies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000300 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000300">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000299"/>
+        <obo:IAO_0000115 xml:lang="en">American Studies is an interdisciplinary field of scholarship that examines American history, society, and culture. It traditionally incorporates the study of history, literature, and critical theory, but also welcomes research methods from a variety of other disciplines. Scholarship in American studies has most often concerned the United States. In the past decades, however, it has also sought to study other nations and territories in the Americas, as well as American interactions with countries across the globe. [Adapted from Wikipedia https://en.wikipedia.org/wiki/American_studies, AL 11.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">American Studies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000301 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000301">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000299"/>
+        <obo:IAO_0000115 xml:lang="en">Oceania Studies is the study of the Pacific region across academic disciplines. In the fields of anthropology and linguistics, Oceania is often subdivided into Melanesia, Micronesia, and Polynesia, while also including Australasia. In archeology and prehistory, Oceania extends into the southern Pacific Rim of Asia, especially the islands now comprising Indonesia, Malaysia, the Philippines, and Taiwan. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Pacific_studies, AL 11.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Pacific Studies</obo:IAO_0000118>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Oceania Studies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000302 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000302">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000299"/>
+        <obo:IAO_0000115 xml:lang="en">Arabian Studies is the study of the Arabian region including the Gulf, the Red Sea and Arabia. [AL 11.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Arabian Studies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000303 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000303">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">Jewish studies is an academic discipline centered on the study of Jews and Judaism. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Jewish_studies, AL 11.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Judaic Studies</obo:IAO_0000118>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Jewish Studies</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

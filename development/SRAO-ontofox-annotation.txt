@@ -181,9 +181,10 @@ NCIT
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/NCIT_C15308 # Psychotherapy
 http://purl.obolibrary.org/obo/NCIT_C15188 # Biomedical Science
-http://purl.obolibrary.org/obo/NCIT_C16414 # Chemistry
+http://purl.obolibrary.org/obo/NCIT_C16294 # Anthropology
 http://purl.obolibrary.org/obo/NCIT_C16304 # Architecture
 http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
+http://purl.obolibrary.org/obo/NCIT_C16414 # Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16421 # Physical Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16478 # Culture
 http://purl.obolibrary.org/obo/NCIT_C16495 # Demographics
