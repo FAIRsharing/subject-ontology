@@ -3590,8 +3590,15 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000134">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3306"/>
+        <obo:IAO_0000115 xml:lang="en">Medical Physics is the application of physics to healthcare; using physics for patient imaging, measurement and treatment. [EFOMP https://www.efomp.org/index.php?r=pages&amp;id=public, accessed 2.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Applied Physics in Medicine</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Biomedical Physics</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Medical Biophysics</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Biomedical Technology and Medical Physics</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Biomedical Technology and Medical Physics</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Biomedical Technology and Medical Physics&apos; into &apos;Medical Physics&apos; according to FAIRsharing curation best practises. SRAO already contains &apos;Biotechnology&apos; which, though slightly broader, may be used in place of &apos;Biomedical Technology&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="en">Medical Physics</rdfs:label>
     </owl:Class>
     
 
