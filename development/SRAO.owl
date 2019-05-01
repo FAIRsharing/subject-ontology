@@ -1120,8 +1120,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3299 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3299">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000090"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268>Evolution, Anthropology</ontology:SRAO_0000268>
+        <rdfs:comment>AL 1.5.2019: Refactored re3data class &apos;Evolution, Anthropology&apos; into &apos;Evolutionary Biology&apos; to better fit the hierarchy. Please note Anthropology is already an existing term within SRAO. The re3data label has been retained as a re3data alternative term for backwards compatibility.</rdfs:comment>
         <rdfs:label>Evolutionary Biology</rdfs:label>
     </owl:Class>
     
@@ -3390,16 +3393,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Systematics and Morphology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000090 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000090">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Evolution, Anthropology</rdfs:label>
     </owl:Class>
     
 
