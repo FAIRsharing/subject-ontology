@@ -77,7 +77,6 @@ http://edamontology.org/topic_3301
 http://edamontology.org/topic_3302
 http://edamontology.org/topic_3303
 http://edamontology.org/topic_3304
-http://edamontology.org/topic_3305
 http://edamontology.org/topic_3306
 http://edamontology.org/topic_3307
 http://edamontology.org/topic_3308
@@ -180,16 +179,19 @@ NCIT
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/NCIT_C15308 # Psychotherapy
 http://purl.obolibrary.org/obo/NCIT_C15188 # Biomedical Science
+http://purl.obolibrary.org/obo/NCIT_C15245 # Health Services Research
 http://purl.obolibrary.org/obo/NCIT_C16294 # Anthropology
 http://purl.obolibrary.org/obo/NCIT_C16304 # Architecture
 http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
 http://purl.obolibrary.org/obo/NCIT_C16414 # Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16421 # Physical Chemistry
+http://purl.obolibrary.org/obo/NCIT_C16439 # Medical Informatics
 http://purl.obolibrary.org/obo/NCIT_C16478 # Culture
 http://purl.obolibrary.org/obo/NCIT_C16495 # Demographics
 http://purl.obolibrary.org/obo/NCIT_C16526 # Ecology
 http://purl.obolibrary.org/obo/NCIT_C16548 # Engineering Science
 http://purl.obolibrary.org/obo/NCIT_C16550 # Entomology
+http://purl.obolibrary.org/obo/NCIT_C16556 # Epidemiology
 http://purl.obolibrary.org/obo/NCIT_C16591 # Forensic Medicine
 http://purl.obolibrary.org/obo/NCIT_C16633 # Geography
 http://purl.obolibrary.org/obo/NCIT_C16658 # Gynecology
@@ -199,6 +201,7 @@ http://purl.obolibrary.org/obo/NCIT_C16928 # Obstetrics
 http://purl.obolibrary.org/obo/NCIT_C17028 # Clinical Psychology
 http://purl.obolibrary.org/obo/NCIT_C17030 # Educational Psychology
 http://purl.obolibrary.org/obo/NCIT_C17038 # Psychosomatic Medicine
+http://purl.obolibrary.org/obo/NCIT_C17039 # Public Health
 http://purl.obolibrary.org/obo/NCIT_C17059 # Radiology
 http://purl.obolibrary.org/obo/NCIT_C17141 # Social Sciences
 http://purl.obolibrary.org/obo/NCIT_C17167 # Statistics

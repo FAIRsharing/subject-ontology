@@ -422,20 +422,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3063 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3063">
-        <obo:IAO_0000115>The application of information technology to health, disease and biomedicine.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Biomedical informatics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Clinical informatics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Health and disease</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Health informatics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Healthcare informatics</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3064 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3064">
@@ -642,17 +628,6 @@
     <owl:Class rdf:about="http://edamontology.org/topic_3304">
         <obo:IAO_0000115>The study of the nervous system and brain; its anatomy, physiology and function.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_3305 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3305">
-        <obo:IAO_0000115>Topic concerning the the patterns, cause, and effect of disease within populations.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Epidemiology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Public health</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -1444,6 +1419,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16439"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16478 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16478">
@@ -1498,6 +1479,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Entomology</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16556"/>
     
 
 

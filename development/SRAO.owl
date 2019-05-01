@@ -939,18 +939,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3063 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3063">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:comment>AL 26.9.17 &apos;Medical Informatics&apos; is asserted as a child of Informatics by EDAM, and also as a child of Medicine within FAIRsharing.</rdfs:comment>
-        <rdfs:label>Medical Informatics</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3064 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3064">
@@ -1184,16 +1172,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 17.10.17 Neurobiology is asserted as a child of &apos;Biomedical Science&apos; by EDAM and Neuro*science* as a child of Medicine by re3data. We have further refined the EDAM assertion and placed Neurobiology as a child of Neuroscience. Earlier versions of this class (from 28.9.17) had it synonymous with Neuroscience.</rdfs:comment>
         <rdfs:label xml:lang="en">Neurobiology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_3305 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3305">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000103"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Public Health and Epidemiology</rdfs:label>
     </owl:Class>
     
 
@@ -2018,6 +1996,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17039"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Public Health, Health Services Research, Social Medicine&apos; into the &apos;Public Health&apos; class and parts of its hierarchy according to FAIRsharing curation best practises. Child terms from this refactoring are &apos;Social Medicine&apos; and &apos;Health Services Research&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="en">Health Services Research</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C15308 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15308">
@@ -2094,6 +2084,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16439">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Epidemiology, Medical Biometry, Medical Informatics&apos; into the &apos;Public Health&apos; subclass &apos;Epidemiology&apos; and its sibling &apos;Medical Biometry&apos; according to FAIRsharing curation best practises. &apos;Medical Informatics&apos; (which was already present) is now a parent term of &apos;Medical Biometry&apos;, which also has Public Health as an additional parent. &apos;Medical informatics&apos; was also refactored from EDAM to NCIT due to EDAM&apos;s composite term and generic synonyms.</rdfs:comment>
+        <rdfs:label>Medical Informatics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16478 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16478">
@@ -2144,6 +2147,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:label>Entomology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17039"/>
+        <obo:IAO_0000115 xml:lang="en">AL: 1.5.2019 Earlier releases of SRAO had an EDAM term (topic_3305) but this was refactored to NCIT to remove the composite concepts.</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Epidemiology, Medical Biometry, Medical Informatics&apos; into the &apos;Public Health&apos; subclass &apos;Epidemiology&apos; and its sibling &apos;Medical Biometry&apos; according to FAIRsharing curation best practises. &apos;Medical Informatics&apos; (which was already present) is now a parent term of &apos;Medical Biometry&apos;, which also has Public Health as an additional parent.</rdfs:comment>
+        <rdfs:label>Epidemiology</rdfs:label>
     </owl:Class>
     
 
@@ -2252,6 +2268,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 4.4.2019 Refactored re3data composite class &apos;Clinical Neurosciences II - Psychotherapy, Psychosomatic Medicine&apos; into sibling classes &apos;Psychotherapy&apos; and &apos;Psychosomatic Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Psychosomatic Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17039">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Public Health, Health Services Research, Social Medicine</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Public Health, Health Services Research, Social Medicine&apos; into the &apos;Public Health&apos; class and parts of its hierarchy according to FAIRsharing curation best practises. Child terms from this refactoring are &apos;Social Medicine&apos; and &apos;Health Services Research&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="en">Public Health</rdfs:label>
     </owl:Class>
     
 
@@ -2654,10 +2683,23 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0013823 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0013823">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17039"/>
+        <obo:IAO_0000115 xml:lang="en">Social Medicine is a branch of science concerned with social and economic aspects of health, disease, and medical care [Adapted from OED, AL 1.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Public Health, Health Services Research, Social Medicine&apos; into the &apos;Public Health&apos; class and parts of its hierarchy according to FAIRsharing curation best practises. Child terms from this refactoring are &apos;Social Medicine&apos; and &apos;Health Services Research&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="en">Social Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0015767 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0015767">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17039"/>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <rdfs:label>Global Health</rdfs:label>
     </owl:Class>
@@ -3502,20 +3544,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000103 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000103">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16439"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17039"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17167"/>
+        <obo:IAO_0000115 xml:lang="en">Medical Biometry is the branch of science that deals with the statistical analysis of numerical data relating to humans, especially concerning genetic relationships or medical conditions. [Adapted from OED, AL 1.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:comment>AL: 28.9.17 In future, it may be best to split this discipline into its constituent parts. For now, a child class has been created for each of the EDAM terms.</rdfs:comment>
-        <rdfs:label xml:lang="en">Epidemiology, Medical Biometry, Medical Informatics</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000104 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000104">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Public Health, Health Services Research, Social Medicine</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Epidemiology, Medical Biometry, Medical Informatics</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Epidemiology, Medical Biometry, Medical Informatics&apos; into the &apos;Public Health&apos; subclass &apos;Epidemiology&apos; and its sibling &apos;Medical Biometry&apos; according to FAIRsharing curation best practises. &apos;Medical Informatics&apos; (which was already present) is now a parent term of &apos;Medical Biometry&apos;, which also has Public Health as an additional parent.</rdfs:comment>
+        <rdfs:label xml:lang="en">Medical Biometry</rdfs:label>
     </owl:Class>
     
 
