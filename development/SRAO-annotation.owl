@@ -1123,18 +1123,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3411 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3411">
-        <obo:IAO_0000115>The branch of medicine that deals with the health of the female reproductive system, pregnancy and birth.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Gynaecological disorders</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Gynaecology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Obstetrics</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3412 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3412">
@@ -1531,6 +1519,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Geography</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16658"/>
     
 
 
