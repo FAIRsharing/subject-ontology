@@ -856,7 +856,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_2640 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2640">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000116"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Hematology, Oncology, Transfusion Medicine&apos; into sibling classes &apos;Hematology&apos; and &apos;Oncology&apos;, and a child of Hematology called &apos;Transfusion Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:comment>EDAM</rdfs:comment>
         <rdfs:label>Oncology</rdfs:label>
     </owl:Class>
@@ -1685,8 +1686,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3408 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3408">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000116"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <ontology:SRAO_0000269>Haematology</ontology:SRAO_0000269>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Hematology, Oncology, Transfusion Medicine&apos; into sibling classes &apos;Hematology&apos; and &apos;Oncology&apos;, and a child of Hematology called &apos;Transfusion Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:comment>EDAM</rdfs:comment>
         <rdfs:label>Hematology</rdfs:label>
     </owl:Class>
@@ -2719,6 +2721,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0028546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0028546">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3408"/>
+        <obo:IAO_0000115 xml:lang="en">Transfusion medicine is the branch of medicine that is concerned with transfusion of blood and blood components. It encompasses issues of blood donation, immunohematology and other laboratory testing, transfusion practices, patient blood management, therapeutic apheresis, stem cell collections, cellular therapy, and coagulation. [Adapted from Wikipedia, https://en.wikipedia.org/wiki/Transfusion_medicine, AL 28.3.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Hematology, Oncology, Transfusion Medicine</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Hematology, Oncology, Transfusion Medicine&apos; into sibling classes &apos;Hematology&apos; and &apos;Oncology&apos;, and a child of Hematology called &apos;Transfusion Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Transfusion Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
@@ -3532,17 +3548,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Pneumology, Clinical Infectiology Intensive Care Medicine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000116 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000116">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000412>AL: 28.9.17 In future, it may be best to split this discipline into its constituent parts. For now, a child class has been created for each of the EDAM terms.</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Hematology, Oncology, Transfusion Medicine</rdfs:label>
     </owl:Class>
     
 
