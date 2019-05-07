@@ -111,7 +111,6 @@ http://edamontology.org/topic_3395
 http://edamontology.org/topic_3396
 http://edamontology.org/topic_3397
 http://edamontology.org/topic_3399
-http://edamontology.org/topic_3400
 http://edamontology.org/topic_3401
 http://edamontology.org/topic_3402
 http://edamontology.org/topic_3403
@@ -203,6 +202,7 @@ http://purl.obolibrary.org/obo/NCIT_C17030 # Educational Psychology
 http://purl.obolibrary.org/obo/NCIT_C17038 # Psychosomatic Medicine
 http://purl.obolibrary.org/obo/NCIT_C17039 # Public Health
 http://purl.obolibrary.org/obo/NCIT_C17059 # Radiology
+http://purl.obolibrary.org/obo/NCIT_C17099 # Rheumatology
 http://purl.obolibrary.org/obo/NCIT_C17141 # Social Sciences
 http://purl.obolibrary.org/obo/NCIT_C17167 # Statistics
 http://purl.obolibrary.org/obo/NCIT_C17940 # Microbial Genetics
@@ -211,6 +211,7 @@ http://purl.obolibrary.org/obo/NCIT_C18189 # Pathology
 http://purl.obolibrary.org/obo/NCIT_C18470 # Computational Chemistry
 http://purl.obolibrary.org/obo/NCIT_C18633 # Animal Genetics
 http://purl.obolibrary.org/obo/NCIT_C18645 # Enzymology
+http://purl.obolibrary.org/obo/NCIT_C18701 # Clinical Immunology
 http://purl.obolibrary.org/obo/NCIT_C18740 # Developmental Psychology
 http://purl.obolibrary.org/obo/NCIT_C18873 # Microbial Physiology
 http://purl.obolibrary.org/obo/NCIT_C19199 # Health Sciences

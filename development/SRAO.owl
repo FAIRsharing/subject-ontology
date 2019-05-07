@@ -1568,18 +1568,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3400 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3400">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000269>Allergy, clinical immunology and immunotherapeutics</ontology:SRAO_0000269>
-        <rdfs:label xml:lang="en">Rheumatology, Clinical Immunology, Allergology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3401 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3401">
@@ -2297,6 +2285,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17099">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268>Rheumatology, Clinical Immunology, Allergology</ontology:SRAO_0000268>
+        <rdfs:comment>AL: 7.5.2019 Refactored re3data composite class &apos;Rheumatology, Clinical Immunology, Allergology&apos; into classes &apos;Rheumatology&apos; (remains child of Medicine) and &apos;Clinical Immunology&apos; (child of Immunology and Health Sciences) according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rheumatology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17141">
@@ -2377,6 +2378,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3292"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:label>Enzymology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18701">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0804"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19199"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 7.5.2019 Refactored re3data composite class &apos;Rheumatology, Clinical Immunology, Allergology&apos; into classes &apos;Rheumatology&apos; (remains child of Medicine) and &apos;Clinical Immunology&apos; (child of Immunology and Health Sciences) according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Clinical Immunology</rdfs:label>
     </owl:Class>
     
 

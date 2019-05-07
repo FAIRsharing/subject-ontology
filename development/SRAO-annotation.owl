@@ -978,20 +978,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3400 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3400">
-        <obo:IAO_0000115>Health issues related to the immune system and their prevention, diagnosis and mangement.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Allergy</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Clinical immunology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Immune disorders</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Immunomodulators</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Immunotherapeutics</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3401 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3401">
@@ -1546,6 +1532,14 @@
         <ontology:SRAO_0000276>Radiology</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Radiology, General</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>radiology</ontology:SRAO_0000276>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17099">
+        <obo:IAO_0000115>Health issues related to the immune system and their prevention, diagnosis and mangement.</obo:IAO_0000115>
     </owl:Class>
     
 
