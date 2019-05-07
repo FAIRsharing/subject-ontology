@@ -2616,6 +2616,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0009732 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0009732">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000230"/>
+        <obo:IAO_0000115 xml:lang="en">Metallurgy is the domain of Materials Engineering that is concerned with the physical and chemical behavior of metallic elements, their inter-metallic compounds, and their mixtures, called alloys. [Adapted from Wikipedia, https://en.wikipedia.org/wiki/Metallurgy, AL 28.3.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 7.5.2019 Refactored re3data composite class &apos;Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials&apos; into child class &apos;Thermomechanical Processing&apos; with parent class &apos;Metallurgy&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Metallurgy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0010508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0010508">
@@ -4376,10 +4389,12 @@ Process engineering focuses on the design, operation, control, optimization and 
     <!-- http://www.fairsharing.org/ontology/SRAO_0000231 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000231">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000230"/>
-        <obo:IAO_0000115>&apos;Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials&apos; - are metallurgical processes that combine mechanical or plastic deformation processes like compression or forging, rolling etc. with thermal processes like heat-treatment, water quenching, heating and cooling at various rates into a single process. [Adapted from Wikipedia, PAM 01.03.2018]</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009732"/>
+        <obo:IAO_0000115 xml:lang="en">Thermomechanical processing is a metallurgical process that combines mechanical or plastic deformation process like compression or forging, rolling etc. with thermal processes like heat-treatment, water quenching, heating and cooling at various rates into a single process. [Adapted from Wikipedia, https://en.wikipedia.org/wiki/Thermomechanical_processing, AL 28.3.19]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 7.5.2019 Refactored re3data composite class &apos;Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials&apos; into child class &apos;Thermomechanical Processing&apos; with parent class &apos;Metallurgy&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Thermomechanical Processing</rdfs:label>
     </owl:Class>
     
 
@@ -4388,9 +4403,11 @@ Process engineering focuses on the design, operation, control, optimization and 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000232">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000230"/>
-        <obo:IAO_0000115>Sintering is the process of compacting and forming a solid mass of material by heat or pressure without melting it to the point of liquefaction. This can be applied to metallic or ceramic materials. [Adapted from Wikipedia, PAM 01.03.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Sintering is the process of compacting and forming a solid mass of material by heat or pressure without melting it to the point of liquefaction. Within materials engineering, sintering is a manufacturing process used with metals, ceramics, plastics, and other materials. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Sintering, AL 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Sintered Metallic and Ceramic Materials</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Sintered Metallic and Ceramic Materials</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 7.5.2019 Refactored re3data composite class &apos;Sintered Metallic and Ceramic Materials&apos; into &apos;Sintering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Sintering</rdfs:label>
     </owl:Class>
     
 
