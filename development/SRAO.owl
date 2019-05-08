@@ -4607,9 +4607,11 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000250">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000249"/>
-        <obo:IAO_0000115>&apos;Electronic Semiconductors, Components, Circuits, Systems&apos; covers all aspects of electrical component circuity. [PAM 28.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Component Engineering is an Electrical Engineering discipline primarily used to ensure the availability of suitable components required to manufacture a larger product. [Wikipedia, https://en.wikipedia.org/wiki/Component_engineering, 23.3.19]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Electronic Semiconductors, Components, Circuits, Systems</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Electronic Semiconductors, Components, Circuits, Systems</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Electronic Semiconductors, Components, Circuits, Systems&apos; into &apos;Component Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Component Engineering</rdfs:label>
     </owl:Class>
     
 
@@ -4618,9 +4620,12 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000251">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000249"/>
-        <obo:IAO_0000115>&apos;Communication, High-Frequency and Network Technology, Theoretical Electrical Engineering&apos; covers a number of disciplines related to the hardware and strategy surrounding communication networks. [PAM 28.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Telecommunications engineering is a subfield of Electrical Engineering that encompasses modes of communication such as satellites, radio, internet and broadband technologies and wireless telephone services. It also deals with wireless modes of communication and information transfer, such as wireless telephony services, radio and satellite communications, and internet and broadband technologies. [Adapted from https://gradireland.com/careers-advice/job-descriptions/communications-engineer and Wikipedia https://en.wikipedia.org/wiki/Telecommunications_engineering, AL 2.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Communication Engineering</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Communication, High-Frequency and Network Technology, Theoretical Electrical Engineering</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Communication, High-Frequency and Network Technology, Theoretical Electrical Engineering</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Communication, High-Frequency and Network Technology, Theoretical Electrical Engineering&apos; into &apos;Telecommunication Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Telecommunication Engineering</rdfs:label>
     </owl:Class>
     
 
@@ -4629,9 +4634,12 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000252">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000249"/>
-        <obo:IAO_0000115>&apos;Electrical Energy Generation, Distribution, Application&apos; covers the pipeline from generation to application of electrical energy. [PAM 28.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Power Engineering is a subfield of Electrical Engineering that deals with the generation, transmission, distribution and utilization of electric power, and the electrical apparatus connected to such systems. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Power_engineering, AL 8.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Power Systems Engineering</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Electrical Energy Generation, Distribution, Application</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Electrical Energy Generation, Distribution, Application</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Electrical Energy Generation, Distribution, Application&apos; into &apos;Power Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Power Engineering</rdfs:label>
     </owl:Class>
     
 
