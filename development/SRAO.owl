@@ -197,6 +197,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_1344 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1344">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000198"/>
+        <obo:IAO_0000115 xml:lang="en">Cartography is the art and science of the production of maps. This includes the construction of projections, design, compilation, drafting and reproduction. [AgroVoc]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartogaphy&apos; into parent class &apos;Geoinformatics&apos; and child classes &apos;Geodesy&apos;, &apos;Photogrammetry&apos;, &apos;Remote Sensing&apos; and &apos;Cartography&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cartography</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_16129 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_16129">
@@ -261,6 +274,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_24848 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_24848">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007039"/>
+        <obo:IAO_0000115 xml:lang="en">Geochemistry is defined as the study of the processes that control the abundance, composition, and distribution of chemical compounds and isotopes in geologic environments. [Adapted from https://www.sciencedirect.com/topics/earth-and-planetary-sciences/geochemistry and https://doi.org/10.1016/B978-0-12-803350-0.00001-5, AL 2.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Geochemistry, Mineralogy and Crystallography&apos; into sibling classes &apos;Geochemistry&apos; and &apos;Mineralogy&apos; according to FAIRsharing curation best practises. &apos;Crystallography&apos; is more suited to DRAO. Placement within the hierarchy follows re3data (where the parent is &apos;Earth Science&apos;) and more precisely places it as a child of &apos;Geology&apos; according to FAIRsharing best practices.</rdfs:comment>
+        <rdfs:label xml:lang="en">Geochemistry</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_2638 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2638">
@@ -311,10 +338,23 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_3228 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3228">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000198"/>
+        <obo:IAO_0000115 xml:lang="en">Geodesy is the science of accurately measuring and understanding three fundamental properties of the Earth: its geometric shape, its orientation in space, and its gravity field— as well as the changes of these properties with time. [Adapted from https://oceanservice.noaa.gov/facts/geodesy.html, AL 8.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartogaphy&apos; into parent class &apos;Geoinformatics&apos; and child classes &apos;Geodesy&apos;, &apos;Photogrammetry&apos;, &apos;Remote Sensing&apos; and &apos;Cartography&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Geodesy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_3235 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3235">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000196"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Geophysics</rdfs:label>
@@ -439,6 +479,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_4856 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_4856">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007039"/>
+        <obo:IAO_0000115 xml:lang="en">Mineralogy is a subfield of Geology specializing in the scientific study of the chemistry, crystal structure, and physical (including optical) properties of minerals and mineralized artifacts. Specific studies within mineralogy include the processes of mineral origin and formation, classification of minerals, their geographical distribution, as well as their utilization. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Mineralogy, AL 2.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Geochemistry, Mineralogy and Crystallography&apos; into sibling classes &apos;Geochemistry&apos; and &apos;Mineralogy&apos; according to FAIRsharing curation best practises. &apos;Crystallography&apos; is more suited to DRAO. Placement within the hierarchy follows re3data (where the parent is &apos;Earth Science&apos;) and more precisely places it as a child of &apos;Geology&apos; according to FAIRsharing best practices.</rdfs:comment>
+        <rdfs:label xml:lang="en">Mineralogy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_550 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_550">
@@ -448,6 +501,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 </obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <rdfs:label>Aquaculture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_5807 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_5807">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000198"/>
+        <obo:IAO_0000115 xml:lang="en">The technique of using photographs to ascertain measurements of what is photographed, esp. in surveying and mapping. [OED]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartogaphy&apos; into parent class &apos;Geoinformatics&apos; and child classes &apos;Geodesy&apos;, &apos;Photogrammetry&apos;, &apos;Remote Sensing&apos; and &apos;Cartography&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Photogrammetry</rdfs:label>
     </owl:Class>
     
 
@@ -463,6 +529,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268 xml:lang="en">Plant Ecology and Ecosystem Analysis</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Plant Ecology and Ecosystem Analysis&apos; into &apos;Plant Ecology&apos; to simplify the term according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Ecosystem Analysis&apos; subdomain.</rdfs:comment>
         <rdfs:label xml:lang="en">Plant Ecology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_6498 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_6498">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000198"/>
+        <obo:IAO_0000115 xml:lang="en">Remote sensing is the acquisition of information about an object or phenomenon without making physical contact with the object and thus in contrast to on-site observation, especially the Earth. Remote sensing is used in numerous fields, including geography, land surveying and most Earth Science disciplines as well as military, intelligence, commercial, economic, planning, and humanitarian applications. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Remote_sensing, AL 2.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartogaphy&apos; into parent class &apos;Geoinformatics&apos; and child classes &apos;Geodesy&apos;, &apos;Photogrammetry&apos;, &apos;Remote Sensing&apos; and &apos;Cartography&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Remote Sensing</rdfs:label>
     </owl:Class>
     
 
@@ -4111,32 +4190,15 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000196 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000196">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Geophysics and Geodesy</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000198 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000198">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000196"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_3235"/>
+        <obo:IAO_0000115 xml:lang="en">Geoinformatics is the science of developing and using information science infrastructure to address the problems of geography, cartography, geosciences and related branches of science and engineering. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Geoinformatics, AL 8.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartogaphy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000199 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Geochemistry, Mineralogy and Crystallography</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartogaphy</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartogaphy&apos; into parent class &apos;Geoinformatics&apos; and child classes &apos;Geodesy&apos;, &apos;Photogrammetry&apos;, &apos;Remote Sensing&apos; and &apos;Cartography&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Geoinformatics</rdfs:label>
     </owl:Class>
     
 
