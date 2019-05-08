@@ -4051,8 +4051,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000186">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <obo:IAO_0000115 xml:lang="en">Atomic, molecular, optical and plasma physics (AMOP) is the study of matter-matter and light-matter interactions; at the scale of one or a few atoms and energy scales around several electron volts [Adapted from Wikipedia, https://en.wikipedia.org/wiki/Atomic,_molecular,_and_optical_physics, AL 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">AMOP</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Optics, Quantum Optics and Physics of Atoms, Molecules and Plasmas</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Optics, Quantum Optics and Physics of Atoms, Molecules and Plasmas</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Optics, Quantum Optics and Physics of Atoms, Molecules and Plasmas&apos; into &apos;Atomic, Molecular, Optical and Plasma Physics&apos; according to FAIRsharing curation best practises. This &apos;composite term&apos; is a standard conflation within physics. Optics is very often included in atomic/molecular physics - the standard abbreviation is AMO, which is often seen now as AMOP, which includes plasma physics.</rdfs:comment>
+        <rdfs:label xml:lang="en">Atomic, Molecular, Optical and Plasma Physics</rdfs:label>
     </owl:Class>
     
 
