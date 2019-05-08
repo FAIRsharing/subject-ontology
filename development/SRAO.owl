@@ -3224,8 +3224,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000045">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000042"/>
+        <obo:IAO_0000115 xml:lang="en">Professional socialization is the process of forming associations with others in a chosen profession; specifically, the process by which a person learns to function within a particular profession by internalizing its values and norms. [Adapted from OED, AL 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Research on Socialization and Educational Institutions and Professions</rdfs:label>
+        <ontology:SRAO_0000268>Research on Socialization and Educational Institutions and Professions</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Research on Socialization and Educational Institutions and Professions&apos; into &apos;Professional Socialization&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Professional Socialization</rdfs:label>
     </owl:Class>
     
 
