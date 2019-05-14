@@ -76,7 +76,6 @@ http://edamontology.org/topic_3301
 http://edamontology.org/topic_3302
 http://edamontology.org/topic_3303
 http://edamontology.org/topic_3304
-http://edamontology.org/topic_3306
 http://edamontology.org/topic_3307
 http://edamontology.org/topic_3308
 http://edamontology.org/topic_3315
@@ -177,6 +176,7 @@ http://purl.obolibrary.org/obo/NCIT_C15188 # Biomedical Science
 http://purl.obolibrary.org/obo/NCIT_C15245 # Health Services Research
 http://purl.obolibrary.org/obo/NCIT_C16294 # Anthropology
 http://purl.obolibrary.org/obo/NCIT_C16304 # Architecture
+http://purl.obolibrary.org/obo/NCIT_C16349 # Biophysics
 http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
 http://purl.obolibrary.org/obo/NCIT_C16414 # Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16421 # Physical Chemistry
