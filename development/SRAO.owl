@@ -1437,16 +1437,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3365 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3365">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Data Architecture, Analysis and Design</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3366 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3366">

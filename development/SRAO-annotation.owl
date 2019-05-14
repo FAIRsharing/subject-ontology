@@ -757,18 +757,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3365 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3365">
-        <obo:IAO_0000115>The development of policies, models and standards that cover data acquisition, storage and integration, such that it can be put to use, typically through a process of systematically applying statistical and / or logical techniques to describe, illustrate, summarise or evaluate data.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Data analysis</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Data architecture</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Data design</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3366 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3366">
