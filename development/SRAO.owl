@@ -1437,16 +1437,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3366 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3366">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Data Integration and Warehousing</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3368 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3368">
@@ -5099,6 +5089,18 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 14.5.2019: Refactored &apos;Theatre and Media Studies&apos; to sibling classes &apos;Theatre Studies&apos; and &apos;Media Studies&apos; to align with FAIRsharing curation best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Theatre Studies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000306 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000306">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
+        <obo:IAO_0000115 xml:lang="en">Data integration involves combining data residing in different sources and providing users with a unified view of them. [Wikipedia https://en.wikipedia.org/wiki/Data_integration, AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">User request</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored EDAM composite class &apos;Data Integration and Warehousing&apos; (topic_3366) with a SRAO IRI and renamed it &apos;Data Integration&apos; according to FAIRsharing curation best practises. The EDAM term was determined to not align with FAIRsharing best practices.</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Integration</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

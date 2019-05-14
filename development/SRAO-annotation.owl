@@ -757,17 +757,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3366 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3366">
-        <obo:IAO_0000115>The combination and integration of data from different sources, for example into a central repository or warehouse, to provide users with a unified view of these data.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Data integration</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Data warehousing</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3368 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3368">
