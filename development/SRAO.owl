@@ -1365,19 +1365,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3332 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3332">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000173"/>
-        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
-        <rdfs:comment xml:lang="en">AL 10.4.2019: Modified location as child of Theoretical Chemistry. This may be a temporary relocation, as am in the process of taking specialist advice on this.</rdfs:comment>
-        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:label>Computational Chemistry</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3334 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3334">
@@ -2439,6 +2426,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label>Pathology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18470">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000173"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label>Computational Chemistry</rdfs:label>
     </owl:Class>
     
 
@@ -4010,6 +4009,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115 xml:lang="en">Theoretical chemistry is the examination of the structural and dynamic properties of molecules and molecular materials using the tools of quantum chemistry, equilibrium and nonequilibrium statistical mechanics and dynamics. [https://chemistry.cornell.edu/theoretical, AL 14.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">General Theoretical Chemistry</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;General Theoretical Chemistry&apos; into &apos;Theoretical Chemistry&apos; to simplify the term according to FAIRsharing curation best practises.</rdfs:comment>

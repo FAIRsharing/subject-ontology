@@ -702,12 +702,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3332 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3332"/>
-    
-
-
     <!-- http://edamontology.org/topic_3334 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3334">
@@ -1557,6 +1551,12 @@
         <ontology:SRAO_0000276>Pathological</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Pathology</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18470"/>
     
 
 
