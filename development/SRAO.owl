@@ -3575,8 +3575,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000092">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
+        <obo:IAO_0000115 xml:lang="en">Behavioural Biology is an interdisciplinary degree and field of science that examines the bidirectional interactions between behaviour and biology. An organism’s genetic, physiological and immunological processes drive behaviour, just as an individual&apos;s behaviour will impact its physiological and immunological state. [https://www.abdn.ac.uk/study/undergraduate/degree-programmes/445/C859/behavioural-biology/. AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Behavioral Biology</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Sensory and Behavioural Biology</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Sensory and Behavioural Biology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Sensory and Behavioural Biology&apos; into &apos;Behavioural Biology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Behavioural Biology</rdfs:label>
     </owl:Class>
     
 
