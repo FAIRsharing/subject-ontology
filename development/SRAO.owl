@@ -4457,6 +4457,7 @@ Process engineering focuses on the design, operation, control, optimization and 
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000230"/>
         <obo:IAO_0000115>&apos;Coating and Surface Technology&apos; covers the technology surround any mixture of film-forming materials, including pigments, solvents, and other additives. [Adapted from Britannica, PAM 01.03.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 14.5.2019: Please note that this composite term is correct with regards to the subject area, and therefore has not been modified to have a singular form.</rdfs:comment>
         <rdfs:label xml:lang="en">Coating and Surface Technology</rdfs:label>
     </owl:Class>
     
