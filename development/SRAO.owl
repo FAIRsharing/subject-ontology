@@ -235,6 +235,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_177f109f -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_177f109f">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <obo:IAO_0000115 xml:lang="en">Farming System Research is an approach designed to generate relevant technologies for specific clients, most commonly, the resource-limited farm households. It focuses on clients&apos; priority needs and problems, applies an inter-disciplinary systems perspective in diagnosing problems and generating technological solutions, and involve a series of operational activities carried out on farm with farmers. Although descriptions of Farming Systems Research vary, the general consensus is that there are four major activities: diagnosis, planning and priority setting, experimentation and evaluation. The activities incorporated under farming systems research range from computer models simulating small-scale farm systems to integrated rural development strategies, and from complex experiment station trials of cropping systems to simple on-farm testing of technologies. [AgroVoc, AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <ontology:SRAO_0000279>Farms and Farming Systems</ontology:SRAO_0000279>
+        <rdfs:comment>AL 14.5.2019: Originally this was an AgroPortal Category (&apos;Farms and Farming Systems&apos;), and the original label has been retained as an AgroPortal synonym. However, the AgroVoc term better fits FAIRsharing curation best practices and has been chosen instead.</rdfs:comment>
+        <rdfs:label xml:lang="en">Farming Systems Research</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_203 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_203">
@@ -663,18 +676,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268>Ecology of Agricultural Landscapes</ontology:SRAO_0000268>
         <rdfs:comment>AL 9.11.2017: Added subClassOf Ecology axiom to allow users to find this subject both via the original re3data hierarchy and the additional EDAM hierarchy. Also added the URI and label from AGROVOC as it is preferred to the re3data label, which has become an alternative term.</rdfs:comment>
         <rdfs:label xml:lang="en">Agroecology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://data.agroportal.lirmm.fr/categories/FARMING -->
-
-    <owl:Class rdf:about="http://data.agroportal.lirmm.fr/categories/FARMING">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000412>AgroPortal Categories</obo:IAO_0000412>
-        <rdfs:comment>AL 10.11.2017: This placement may need to be revisited, as the re3data hierarchy and the AgroPortal categories are not aligned - we may find that we can subsume one of the re3data subject types in this AgroPortal category.
-</rdfs:comment>
-        <rdfs:label>Farms and Farming Systems</rdfs:label>
     </owl:Class>
     
 
@@ -1627,7 +1628,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:DRAO_0000001>Veterinary Science</ontology:DRAO_0000001>
         <ontology:SRAO_0000268 xml:lang="en">Basic Veterinary Medical Science</ontology:SRAO_0000268>
-        <rdfs:comment>AL: 28.9.17 &apos;Basic Veterinary Medical Science&apos; is asserted as a child of &apos;Agriculture, Forestry, Horticulture and Veterinary Medicine&apos; by re3data and as a child of Medicine by EDAM. The EDAM assertion has not been retained, in preference to the re3data hierarchy, but this may need to be revisited in the future.</rdfs:comment>
         <rdfs:label>Veterinary medicine</rdfs:label>
     </owl:Class>
     
@@ -3876,9 +3876,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000161 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000161">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3397"/>
+        <obo:IAO_0000115 xml:lang="en">Clinical Veterinary Medicine deals with the observation, diagnosis and treatment of illness, disease or damage through direct interaction with non-human patients. [https://www.thecompleteuniversityguide.co.uk/league-tables/hesa-subjects/D2, AL 14.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Basic Research on Pathogenesis, Diagnostics and Therapy and Clinical Veterinary Medicine</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Basic Research on Pathogenesis, Diagnostics and Therapy and Clinical Veterinary Medicine</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Basic Research on Pathogenesis, Diagnostics and Therapy and Clinical Veterinary Medicine&apos; into &apos;Clinical Veterinary Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Clinical Veterinary Medicine</rdfs:label>
     </owl:Class>
     
 
