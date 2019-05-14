@@ -3265,16 +3265,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000043 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000043">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000042"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">General Education and History of Education</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000044 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000044">
