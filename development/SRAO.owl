@@ -3994,16 +3994,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000170 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000170">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16421"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Theory and Modelling</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000172 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000172">
