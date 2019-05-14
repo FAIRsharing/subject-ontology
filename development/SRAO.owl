@@ -163,7 +163,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_10967">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000058"/>
-        <obo:IAO_0000115>Physical and economic access, by all people at all times, to the basic food they need</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Physical and economic access, by all people at all times, to the basic food they need [AgroVoc]</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <rdfs:label>Food Security</rdfs:label>
     </owl:Class>
@@ -488,6 +488,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Geochemistry, Mineralogy and Crystallography&apos; into sibling classes &apos;Geochemistry&apos; and &apos;Mineralogy&apos; according to FAIRsharing curation best practises. &apos;Crystallography&apos; is more suited to DRAO. Placement within the hierarchy follows re3data (where the parent is &apos;Earth Science&apos;) and more precisely places it as a child of &apos;Geology&apos; according to FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Mineralogy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_49911 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_49911">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000213"/>
+        <obo:IAO_0000115 xml:lang="en">The branch of physics concerned with the properties and phenomena of sound, sometimes esp. in relation to hearing or speech. [OED, AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Acoustics</rdfs:label>
     </owl:Class>
     
 
@@ -1777,8 +1789,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3412">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3409"/>
         <obo:IAO_0000118>Hepatology</obo:IAO_0000118>
-        <obo:IAO_0000412>AL: 28.9.17 &apos;Hepatics and biliary medicine&apos; is asserted as a child of Medicine within EDAM. This assertion has been further refined within FAIRsharing as a child of Gastroenterology.</obo:IAO_0000412>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <rdfs:comment>AL: 28.9.17 &apos;Hepatics and biliary medicine&apos; is asserted as a child of Medicine within EDAM. This assertion has been further refined within FAIRsharing as a child of Gastroenterology.</rdfs:comment>
         <rdfs:label>Hepatics and Biliary Medicine</rdfs:label>
     </owl:Class>
     
@@ -4338,16 +4350,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000213"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Lightweight Construction, Textile Technology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000217 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000217">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000213"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Acoustics</rdfs:label>
     </owl:Class>
     
 
