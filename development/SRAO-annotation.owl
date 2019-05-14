@@ -287,17 +287,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0804 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0804">
-        <obo:IAO_0000115>The application of information technology to immunology such as immunological processes, immunological genes, proteins and peptide ligands, antigens and so on.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Computational immunology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Immunoinformatics</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_1317 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_1317">
@@ -1529,6 +1518,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C17167 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17167"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18011"/>
     
 
 

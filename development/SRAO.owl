@@ -898,19 +898,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_0804 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0804">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:comment>AL: 28.9.17 Immunology is asserted as a child of Microbiology (in its original location within the Medicine hierarchy) by re3data, and as a child of &apos;Biomedical Science&apos; by EDAM. We have retained the EDAM assertion.
-</rdfs:comment>
-        <rdfs:label xml:lang="en">Immunology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_1317 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_1317">
@@ -1739,7 +1726,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3409 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3409">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000117"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <rdfs:comment>EDAM</rdfs:comment>
         <rdfs:label>Gastroenterology</rdfs:label>
     </owl:Class>
@@ -2409,6 +2396,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 14.5.2019: Refactored Immunology from the EDAM to the NCIT class due to conflation of subject areas by the EDAM class.</rdfs:comment>
+        <rdfs:label xml:lang="en">Immunology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C18076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18076">
@@ -2472,7 +2471,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C18701 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18701">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0804"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18011"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19199"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -3682,17 +3681,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Pneumology, Clinical Infectiology Intensive Care Medicine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000117 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000117">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <rdfs:comment>AL: 28.9.17 In future, it may be best to split this discipline into its constituent parts. For now, a child class has been created for the EDAM Gastroenterology term.</rdfs:comment>
-        <rdfs:comment>re3data</rdfs:comment>
-        <rdfs:label xml:lang="en">Gastroenterology, Metabolism</rdfs:label>
     </owl:Class>
     
 
