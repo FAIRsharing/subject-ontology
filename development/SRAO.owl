@@ -612,6 +612,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_8672 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8672">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
+        <obo:IAO_0000115 xml:lang="en">Agricultural Economics is an applied social science that deals with the production, distribution, and consumption of agricultural or farming goods and services. [https://www.eionet.europa.eu/gemet/en/concept/193, AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Agricultural Economics and Sociology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Agricultural Economics and Sociology&apos; into &apos;Agricultural Economics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Agricultural Economics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_8673 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8673">
@@ -3840,16 +3855,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Phytomedicine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000155 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000155">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Agricultural Economics and Sociology</rdfs:label>
     </owl:Class>
     
 
