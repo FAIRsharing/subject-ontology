@@ -1005,6 +1005,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3050 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3050">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Biodiversity</rdfs:label>
