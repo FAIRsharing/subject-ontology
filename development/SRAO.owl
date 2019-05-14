@@ -4478,6 +4478,8 @@ Process engineering focuses on the design, operation, control, optimization and 
     <!-- http://www.fairsharing.org/ontology/SRAO_0000238 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16413"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
         <obo:IAO_0000115 xml:lang="en">Functional Materials Research is concerned with materials which possess particular native properties and functions of their own, such as ferroelectricity, piezoelectricity, magnetism or energy storage functions. Functional materials are found in all classes of materials: ceramics, metals, polymers and organic molecules. Functional materials are often used in electromagnetic applications from KHz to THz and at optical frequencies where the plasmonic properties of metals assume particular importance. Functional materials are also of critical importance in materials for energy such as electro- and magnetocaloric materials, for energy storage and for solar harvesting functions. [Adapted from http://www.imperial.ac.uk/materials/research/functional/, Al 14.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
