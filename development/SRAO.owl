@@ -1069,8 +1069,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3067">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <obo:IAO_0000118 xml:lang="en">Morphology</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 14.5.2019: Synonym &apos;Morphology&apos; was added upon the removal of the &apos;Systematics and Morphology&apos; re3data class. &apos;Systematics and Morphology&apos; was removed as the subject was already present via both Anatomy and Biological Systematics (via Phylogenetics).</rdfs:comment>
         <rdfs:comment>AL: 25.9.17 Anatomy is asserted as a child of Biology by re3data, and as a child of Biomedical Science by EDAM. As both are correct depending on context, both assertions have been retained.</rdfs:comment>
         <rdfs:label xml:lang="en">Anatomy</rdfs:label>
     </owl:Class>
@@ -1171,7 +1173,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3293">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0084"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
+        <obo:IAO_0000118 xml:lang="en">Biological Systematics</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 14.5.2019: Synonym &apos;Biological Systematics&apos; was added upon the removal of the &apos;Plant Systematics and Evolution&apos; re3data class. &apos;Plant Systematics and Evolution&apos; was removed as it was not in scope for FAIRsharing (the subject represented by this class would be better served by a broader concept of Systematics).</rdfs:comment>
         <rdfs:comment>AL 25.9.17 Phylogenetics is asserted as a child of Phylogeny and &apos;Sequence Analysis&apos; by EDAM, and as a child of Genetics within FAIRsharing. &apos;Sequence Analysis&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained.</rdfs:comment>
         <rdfs:label>Phylogenetics</rdfs:label>
     </owl:Class>
@@ -3503,16 +3507,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000081 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000081">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Plant Systematics and Evolution</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000083 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000083">
@@ -3569,16 +3563,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 28.9.17 &apos;Plant Genetics&apos; is asserted as a child of Botany within re3data, and as a child of Genetics within FAIRsharing.</rdfs:comment>
         <rdfs:label xml:lang="en">Plant Genetics</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000089 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000089">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Systematics and Morphology</rdfs:label>
     </owl:Class>
     
 
