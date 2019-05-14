@@ -615,14 +615,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://aims.fao.org/aos/agrovoc/c_8673 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8673">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1648"/>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000412>AgroPortal</obo:IAO_0000412>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000278>Agricultural Engineering</ontology:SRAO_0000278>
-        <ontology:SRAO_0000279>Agricultural Research, Technology and Engineering</ontology:SRAO_0000279>
-        <rdfs:comment>AL 22.01.18: There is also a suitable equivalent AgroPortal category (Agricultural Research, Technology and Engineering) however it is difficult to ascertain the proper annotation associated with this category, and therefore the AgroVoc URI has been used instead.</rdfs:comment>
-        <rdfs:label xml:lang="en">Agricultural and Food Process Engineering</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Agricultural and Food Process Engineering</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Agricultural and Food Process Engineering&apos; into sibling classes &apos;Agricultural Engineering&apos; and &apos;Food Process Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Agricultural Engineering</rdfs:label>
     </owl:Class>
     
 
@@ -2868,9 +2868,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0027298">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18076"/>
         <obo:IAO_0000115>A field of biological research combining engineering in the formulation, design, and building (synthesis) of novel biological structures, functions, and systems. [MeSH, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Placement within this hierarchy partially follows original placement within the OMIT hierarchy (which placed &apos;Synthetic Biology&apos; as a child of both &apos;Biology&apos; and &apos;Bioengineering&apos;. We just use &apos;Bioengineering&apos;, which itself is within the &apos;Biology&apos; hierarchy.</rdfs:comment>
         <rdfs:comment>PAM 27.02.2018: Cannot find placement in OMIT hierarchy, so taken definition from MeSH.</rdfs:comment>
-        <rdfs:label>OMIT</rdfs:label>
         <rdfs:label>Synthetic Biology</rdfs:label>
     </owl:Class>
     
@@ -5034,6 +5034,19 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">User request</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored EDAM composite class &apos;Data Integration and Warehousing&apos; (topic_3366) with a SRAO IRI and renamed it &apos;Data Integration&apos; according to FAIRsharing curation best practises. The EDAM term was determined to not align with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Data Integration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000307 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000307">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
+        <obo:IAO_0000115 xml:lang="en">Food Process Engineering is a field of study focusing on the applications of engineering principles and concepts to food and food processes. The processes include any physical properties and changes to the food product that result in preservation of the food, extending to transportation, product shelf-life, or improvements in the product quality attributes. [Adapted from https://onlinelibrary.wiley.com/page/journal/17454530/homepage/productinformation.html, AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Agricultural and Food Process Engineering&apos; into sibling classes &apos;Agricultural Engineering&apos; and &apos;Food Process Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Food Process Engineering</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
