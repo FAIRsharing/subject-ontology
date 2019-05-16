@@ -217,6 +217,7 @@ http://purl.obolibrary.org/obo/NCIT_C20179 # Toxicogenomics
 http://purl.obolibrary.org/obo/NCIT_C20609 # Synthesis Chemistry
 http://purl.obolibrary.org/obo/NCIT_C54625 # History
 http://purl.obolibrary.org/obo/NCIT_C95096 # Neuroscience
+http://purl.obolibrary.org/obo/NCIT_C105699 # Vascular Surgery
 http://purl.obolibrary.org/obo/NCIT_C119712 # Proteogenomics
 http://purl.obolibrary.org/obo/NCIT_C142642 # Preclinical Studies
 

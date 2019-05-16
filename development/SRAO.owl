@@ -3748,9 +3748,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000127">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3421"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Vascular and Visceral Surgery</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Vascular and Visceral Surgery&apos; into &apos;Vascular Surgery&apos; according to FAIRsharing&apos;s requirements and curation best practises.</rdfs:comment>
         <rdfs:comment>AL: 28.9.17 &apos;Vascular and Visceral Surgery&apos; is asserted as a child of Medicine by re3data, and has been further refined by FAIRsharing as a child of Surgery, a class originating in EDAM.</rdfs:comment>
-        <rdfs:label xml:lang="en">Vascular and Visceral Surgery</rdfs:label>
+        <rdfs:label xml:lang="en">Vascular Surgery</rdfs:label>
     </owl:Class>
     
 
