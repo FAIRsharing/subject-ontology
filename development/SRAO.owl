@@ -1534,16 +1534,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3379 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3379">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Preclinical and Clinical Studies</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3387 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3387">
@@ -2041,6 +2031,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C142642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142642">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Preclinical and Clinical Studies&apos; into sibling classes &apos;Preclinical Studies&apos; and &apos;Clinical Studies&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Preclinical Studies</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C15188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15188">
@@ -2048,6 +2049,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:comment>AL: 3.12.18 &apos;Biomedical Research&apos; is a child of &apos;Research Activity&apos; within NCIT. This assertion has been modified to &apos;Life Sciences&apos; as SRAO focuses more on the subject area rather than the research activity. There was no direct equivalent for this discipline within re3data.</rdfs:comment>
         <rdfs:label xml:lang="en">Biomedical Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15206">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Preclinical and Clinical Studies&apos; into sibling classes &apos;Preclinical Studies&apos; and &apos;Clinical Studies&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Clinical Studies</rdfs:label>
     </owl:Class>
     
 

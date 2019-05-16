@@ -839,20 +839,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3379 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3379">
-        <obo:IAO_0000115>The testing of new medicines, vaccines or procedures on animals (preclinical) and humans (clinical) prior to their approval by regulatory authorities.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Clinical studies</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Clinical study</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Drug trials</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Preclinical studies</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Preclinical study</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3387 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3387">
@@ -1312,6 +1298,12 @@
         <ontology:SRAO_0000276>Proteogenomic Research</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Proteogenomics</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C142642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142642"/>
     
 
 

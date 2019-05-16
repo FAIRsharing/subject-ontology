@@ -97,7 +97,6 @@ http://edamontology.org/topic_3374
 http://edamontology.org/topic_3375
 http://edamontology.org/topic_3376
 http://edamontology.org/topic_3377
-http://edamontology.org/topic_3379
 http://edamontology.org/topic_3387
 http://edamontology.org/topic_3388
 http://edamontology.org/topic_3390
@@ -171,6 +170,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000115
 NCIT
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C15206 # Clinical Studies
 http://purl.obolibrary.org/obo/NCIT_C15308 # Psychotherapy
 http://purl.obolibrary.org/obo/NCIT_C15188 # Biomedical Science
 http://purl.obolibrary.org/obo/NCIT_C15245 # Health Services Research
@@ -217,6 +217,7 @@ http://purl.obolibrary.org/obo/NCIT_C20609 # Synthesis Chemistry
 http://purl.obolibrary.org/obo/NCIT_C54625 # History
 http://purl.obolibrary.org/obo/NCIT_C95096 # Neuroscience
 http://purl.obolibrary.org/obo/NCIT_C119712 # Proteogenomics
+http://purl.obolibrary.org/obo/NCIT_C142642 # Preclinical Studies
 
 [Top level source term URIs and target direct superclass URIs]
 
