@@ -3991,12 +3991,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000176 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000176">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0027298"/>
         <obo:IAO_0000115 xml:lang="en">Biomimetic chemistry deals with chemical systems that can simulate biological phenomena, particularly catalysis and specificity. [https://doi.org/10.1016/B978-0-08-026220-8.50026-9, AL 14.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Biological and Biomimetic Chemistry</ontology:SRAO_0000268>
-        <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Biological and Biomimetic Chemistry&apos; into &apos;Biomimetic Chemistry&apos; according to FAIRsharing curation best practises. Also removed Biochemistry as a child and made it a sibling class, as Biochemistry is not a subset of Biomimetic Chemistry. We may wish to consider linking this to Synthetic Biology.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Biological and Biomimetic Chemistry&apos; into &apos;Biomimetic Chemistry&apos; according to FAIRsharing curation best practises. Also removed Biochemistry as a child and made it a sibling class, as Biochemistry is not a subset of Biomimetic Chemistry.</rdfs:comment>
         <rdfs:label xml:lang="en">Biomimetic Chemistry</rdfs:label>
     </owl:Class>
     
