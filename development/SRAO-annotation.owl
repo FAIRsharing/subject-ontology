@@ -1012,17 +1012,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3412 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3412">
-        <obo:IAO_0000115>The branch of medicine that deals with the liver, gallbladder, bile ducts and bile.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Hepatobiliary medicine</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Liver disorders</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3414 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3414">

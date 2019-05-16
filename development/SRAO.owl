@@ -1733,18 +1733,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3412 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3412">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3409"/>
-        <obo:IAO_0000118>Hepatology</obo:IAO_0000118>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:comment>AL: 28.9.17 &apos;Hepatics and biliary medicine&apos; is asserted as a child of Medicine within EDAM. This assertion has been further refined within FAIRsharing as a child of Gastroenterology.</rdfs:comment>
-        <rdfs:label>Hepatics and Biliary Medicine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3414 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3414">
