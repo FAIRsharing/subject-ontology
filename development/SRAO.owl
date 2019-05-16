@@ -1796,9 +1796,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000118>Pediatrics</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Pediatric and Adolescent Medicine</ontology:SRAO_0000268>
         <ontology:SRAO_0000269>Paediatrics</ontology:SRAO_0000269>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Pediatric and Adolescent Medicine&apos; by renaming it to &apos;Pediatrics&apos; to align with EDAM and according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:comment>re3data</rdfs:comment>
-        <rdfs:label xml:lang="en">Pediatric and Adolescent Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Pediatrics</rdfs:label>
     </owl:Class>
     
 
