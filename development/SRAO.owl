@@ -1643,6 +1643,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3403">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Pneumology, Clinical Infectiology Intensive Care Medicine&apos; into &apos;Critical Care Medicine&apos; (which was already in SRAO) according to FAIRsharing&apos;s remit and curation best practises.</rdfs:comment>
         <rdfs:label>Critical Care Medicine</rdfs:label>
     </owl:Class>
     
@@ -3734,16 +3736,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268>Toxicology and Occupational Medicine</ontology:SRAO_0000268>
         <rdfs:comment>AL: 27.9.17 Changed re3data label from &apos;Toxicology and Occupational Medicine&apos; to &apos;Occupational Medicine&apos; as these are two distinct disciplines. The placement of Toxicology within EDAM, a child of &apos;Safety Sciences&apos;, has been retained while Occupational Medicine has been kept as a child of Medicine</rdfs:comment>
         <rdfs:label xml:lang="en">Occupational Medicine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000115 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000115">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Pneumology, Clinical Infectiology Intensive Care Medicine</rdfs:label>
     </owl:Class>
     
 
