@@ -178,6 +178,7 @@ http://purl.obolibrary.org/obo/NCIT_C16304 # Architecture
 http://purl.obolibrary.org/obo/NCIT_C16349 # Biophysics
 http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
 http://purl.obolibrary.org/obo/NCIT_C16414 # Chemistry
+http://purl.obolibrary.org/obo/NCIT_C16417 # Clinical Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16421 # Physical Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16439 # Medical Informatics
 http://purl.obolibrary.org/obo/NCIT_C16478 # Culture
