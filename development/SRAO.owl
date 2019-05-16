@@ -1665,9 +1665,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3421"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Dentistry, Oral Surgery</ontology:SRAO_0000268>
         <ontology:SRAO_0000269>Dentistry</ontology:SRAO_0000269>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Dentistry, Oral Surgery&apos; by renaming it to &apos;Dentistry&apos; to align with EDAM and according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:comment>AL: 28.9.17 &apos;Dentistry, Oral Surgery&apos; is asserted as a child of Medicine by re3data, but has been further refined as a child of Surgery due to the reference to Oral Surgery. This may need to be revisited in future.</rdfs:comment>
-        <rdfs:label xml:lang="en">Dentistry, Oral Surgery</rdfs:label>
+        <rdfs:label xml:lang="en">Dentistry</rdfs:label>
     </owl:Class>
     
 
