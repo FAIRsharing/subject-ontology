@@ -4501,16 +4501,6 @@ Process engineering focuses on the design, operation, control, optimization and 
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000237 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000237">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Thermodynamics and Kinetics of Materials</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000238 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000238">
