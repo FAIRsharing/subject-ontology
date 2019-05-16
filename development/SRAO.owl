@@ -162,9 +162,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://aims.fao.org/aos/agrovoc/c_10967 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_10967">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_8672"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000058"/>
         <obo:IAO_0000115 xml:lang="en">Physical and economic access, by all people at all times, to the basic food they need [AgroVoc]</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 16.5.2019: Added additional parent of &apos;Agricultural Economics&apos; as per https://github.com/FAIRsharing/subject-ontology/issues/31</rdfs:comment>
         <rdfs:label>Food Security</rdfs:label>
     </owl:Class>
     
