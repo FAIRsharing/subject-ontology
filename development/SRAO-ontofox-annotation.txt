@@ -193,6 +193,7 @@ http://purl.obolibrary.org/obo/NCIT_C16658 # Gynecology
 http://purl.obolibrary.org/obo/NCIT_C16715 # Immunogenetics
 http://purl.obolibrary.org/obo/NCIT_C16922 # Nuclear Medicine
 http://purl.obolibrary.org/obo/NCIT_C16928 # Obstetrics
+http://purl.obolibrary.org/obo/NCIT_C16942 # Orthopedics
 http://purl.obolibrary.org/obo/NCIT_C17028 # Clinical Psychology
 http://purl.obolibrary.org/obo/NCIT_C17030 # Educational Psychology
 http://purl.obolibrary.org/obo/NCIT_C17038 # Psychosomatic Medicine

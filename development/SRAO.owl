@@ -1749,8 +1749,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Traumatology and Orthopaedics</ontology:SRAO_0000268>
         <ontology:SRAO_0000269>Trauma medicine</ontology:SRAO_0000269>
-        <rdfs:label xml:lang="en">Traumatology and Orthopaedics</rdfs:label>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Traumatology and Orthopaedics&apos; into sibling classes &apos;Traumatology&apos; and &apos;Orthopaedics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Traumatology</rdfs:label>
     </owl:Class>
     
 
@@ -2321,6 +2323,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 1.5.2019: Refactored re3data composite class &apos;Gynecology and Obstetrics&apos; into sibling classes &apos;Gynecology&apos; and &apos;Obstetrics&apos;. This replaced the composite EDAM IRI representing &apos;Gynecology and Obstetrics&apos; with individual NCIT terms according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Obstetrics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16942">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3421"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Traumatology and Orthopaedics&apos; into sibling classes &apos;Traumatology&apos; and &apos;Orthopaedics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Orthopaedics</rdfs:label>
     </owl:Class>
     
 
