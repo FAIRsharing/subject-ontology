@@ -722,15 +722,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3345 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3345">
-        <obo:IAO_0000115>Topic concerning the identity of biological entities, or reports on such entities, and the mapping of entities and records in different databases.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3368 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3368">

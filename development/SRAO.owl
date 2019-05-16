@@ -1412,17 +1412,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3345 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3345">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000115>The use of identifier schema to provide unambiguous identification of entities and records in a variety of locations, such as databases, repositories, journals and datasets. [PAM 28.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Data Identity and Mapping</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3368 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3368">
