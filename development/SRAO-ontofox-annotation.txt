@@ -197,6 +197,7 @@ http://purl.obolibrary.org/obo/NCIT_C17028 # Clinical Psychology
 http://purl.obolibrary.org/obo/NCIT_C17030 # Educational Psychology
 http://purl.obolibrary.org/obo/NCIT_C17038 # Psychosomatic Medicine
 http://purl.obolibrary.org/obo/NCIT_C17039 # Public Health
+http://purl.obolibrary.org/obo/NCIT_C17055 # Radiobiology
 http://purl.obolibrary.org/obo/NCIT_C17059 # Radiology
 http://purl.obolibrary.org/obo/NCIT_C17099 # Rheumatology
 http://purl.obolibrary.org/obo/NCIT_C17141 # Social Sciences

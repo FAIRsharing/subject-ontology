@@ -2380,6 +2380,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17055">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Radiation Oncology and Radiobiology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Radiation Oncology and Radiobiology&apos; into parent class &apos;Radiobiology&apos; and child class &apos;Radiation Oncology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Radiobiology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17059">
@@ -2899,6 +2913,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored (through deletion) re3data composite class &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos; by merging with existing classes &apos;Ecosystem Science&apos;, &apos;Biodiversity&apos; and &apos;Ecology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label>Ecosystem Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0018936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0018936">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_2640"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17055"/>
+        <obo:IAO_0000115 xml:lang="en">Radiation Oncology is the study of the effects of ionizing radiation for treatment of tumors. [NCIT http://purl.obolibrary.org/obo/NCIT_C17760, AL 16.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Radiation Oncology and Radiobiology&apos; into parent class &apos;Radiobiology&apos; and child class &apos;Radiation Oncology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Radiation Oncology</rdfs:label>
     </owl:Class>
     
 
@@ -3759,16 +3787,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 28.9.17 &apos;Cardiothoracic Surgery&apos; is asserted as a child of Medicine by re3data, and has been further refined by FAIRsharing as a child of Surgery, a class originating in EDAM.</rdfs:comment>
         <rdfs:label xml:lang="en">Cardiothoracic Surgery</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000133 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000133">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Radiation Oncology and Radiobiology</rdfs:label>
     </owl:Class>
     
 
