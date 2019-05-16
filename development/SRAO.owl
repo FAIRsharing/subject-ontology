@@ -4104,7 +4104,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000187">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <obo:IAO_0000115 xml:lang="en">Particles, Nuclei and Fields are interlinked areas of study within Physics. Particle physics is a research area concerned with the nature of the particles that constitute matter and radiation. Atomic nuclei, together with their constituents and interactions are studied within Nuclear Physics. Fields, in physics, are regions in which each point is affected by a force. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Particle_physics, https://en.wikipedia.org/wiki/Nuclear_physics ; and Encyclopedia Britannica https://www.britannica.com/science/field-physics, AL 16.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 16.5.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
         <rdfs:label xml:lang="en">Particles, Nuclei and Fields</rdfs:label>
     </owl:Class>
     
