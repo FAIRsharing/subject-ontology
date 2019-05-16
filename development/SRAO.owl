@@ -1662,13 +1662,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3405 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3405">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3421"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Dentistry, Oral Surgery</ontology:SRAO_0000268>
         <ontology:SRAO_0000269>Dentistry</ontology:SRAO_0000269>
-        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Dentistry, Oral Surgery&apos; by renaming it to &apos;Dentistry&apos; to align with EDAM and according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:comment>AL: 28.9.17 &apos;Dentistry, Oral Surgery&apos; is asserted as a child of Medicine by re3data, but has been further refined as a child of Surgery due to the reference to Oral Surgery. This may need to be revisited in future.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Dentistry, Oral Surgery&apos; into &apos;Dentistry&apos; (which moved to be a direct child of Medicine) and &apos;Oral Surgery&apos;, which retains its position as a child of Surgery, according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Dentistry</rdfs:label>
     </owl:Class>
     
@@ -2421,6 +2420,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 10.4.2019: Renamed &apos;Statistics and Probability&apos; to &apos;Statistics&apos; to align with FAIRsharing curation best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Statistics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17174">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3421"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Dentistry, Oral Surgery&apos; into &apos;Dentistry&apos; (which moved to be a direct child of Medicine) and &apos;Oral Surgery&apos;, which retains its position as a child of Surgery, according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Oral Surgery</rdfs:label>
     </owl:Class>
     
 

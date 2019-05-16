@@ -201,6 +201,7 @@ http://purl.obolibrary.org/obo/NCIT_C17059 # Radiology
 http://purl.obolibrary.org/obo/NCIT_C17099 # Rheumatology
 http://purl.obolibrary.org/obo/NCIT_C17141 # Social Sciences
 http://purl.obolibrary.org/obo/NCIT_C17167 # Statistics
+http://purl.obolibrary.org/obo/NCIT_C17174 # Oral Surgery
 http://purl.obolibrary.org/obo/NCIT_C17940 # Microbial Genetics
 http://purl.obolibrary.org/obo/NCIT_C18011 # Immunology
 http://purl.obolibrary.org/obo/NCIT_C18076 # Bioengineering
