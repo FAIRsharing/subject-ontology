@@ -198,21 +198,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0218 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0218">
-        <obo:IAO_0000115>The processing and analysis of natural language, such as scientific literature in English, in order to extract data and information, or to enable human-computer interaction.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>BioNLP</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Literature mining</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>NLP</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Text analytics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Text data mining</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Text mining</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0219 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0219">
@@ -1579,6 +1564,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0010354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0010354"/>
     
 
 

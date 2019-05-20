@@ -173,6 +173,7 @@ http://purl.obolibrary.org/obo/NCIT_C15188 # Biomedical Science
 http://purl.obolibrary.org/obo/NCIT_C15245 # Health Services Research
 http://purl.obolibrary.org/obo/NCIT_C16294 # Anthropology
 http://purl.obolibrary.org/obo/NCIT_C16304 # Architecture
+http://purl.obolibrary.org/obo/NCIT_C16309 # Artificial Intelligence
 http://purl.obolibrary.org/obo/NCIT_C16349 # Biophysics
 http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
 http://purl.obolibrary.org/obo/NCIT_C16414 # Chemistry
@@ -202,6 +203,7 @@ http://purl.obolibrary.org/obo/NCIT_C17099 # Rheumatology
 http://purl.obolibrary.org/obo/NCIT_C17141 # Social Sciences
 http://purl.obolibrary.org/obo/NCIT_C17167 # Statistics
 http://purl.obolibrary.org/obo/NCIT_C17174 # Oral Surgery
+http://purl.obolibrary.org/obo/NCIT_C17606 # Digital Image Processing
 http://purl.obolibrary.org/obo/NCIT_C17940 # Microbial Genetics
 http://purl.obolibrary.org/obo/NCIT_C18011 # Immunology
 http://purl.obolibrary.org/obo/NCIT_C18076 # Bioengineering

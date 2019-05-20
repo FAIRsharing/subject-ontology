@@ -739,11 +739,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_0092 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0092">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000257"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <obo:IAO_0000115>Data visualization is a general term that describes any effort to help people understand the significance of data by placing it in a visual context. [PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <ontology:SRAO_0000269>Data visualisation</ontology:SRAO_0000269>
-        <rdfs:comment>AL: 29.9.17 &apos;Data visualization&apos; is asserted as a child of &apos;Computer Science&apos; within EDAM. This assertion has been refined to &apos;Artifical Intelligence, Imaging and Language Processing&apos;.</rdfs:comment>
         <rdfs:label>Data visualization</rdfs:label>
     </owl:Class>
     
@@ -825,19 +824,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Synthetic Chemistry&apos; and &apos;Drug Discovery&apos; to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label>Medicinal Chemistry</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_0218 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0218">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1335455465014"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000257"/>
-        <obo:IAO_0000115>The application of computational techniques to the analysis and synthesis of natural language and speech. [Oxford English Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:comment>AL: 29.9.17 &apos;Natural Language Processing&apos; is asserted as a child of &apos;Computer Science&apos; and &apos;Literature and language&apos; within EDAM. These assertions have been refined to &apos;Artifical Intelligence, Imaging and Language Processing&apos; and &apos;Linguistics&apos;.</rdfs:comment>
-        <rdfs:label>Natural Language Processing</rdfs:label>
     </owl:Class>
     
 
@@ -1858,11 +1844,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3474 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3474">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16309"/>
         <obo:IAO_0000115>The application of artificial intelligence methods to algorithms, in order to create methods that can learn from data in order to generate an ouput, rather than relying on explicitly encoded information only. [EDAM, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 &apos;Machine learning&apos; is asserted as a child of &apos;Computer Science&apos; within EDAM. This assertion has been refined to &apos;Artifical Intelligence, Imaging and Language Processing&apos;.</rdfs:comment>
-        <rdfs:label>Machine learning</rdfs:label>
+        <rdfs:label xml:lang="en">Machine Learning</rdfs:label>
     </owl:Class>
     
 
@@ -2089,6 +2075,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 23.5.18: The original &quot;Construction Engineering and Architecture&quot; class from re3data has been split into &quot;Construction Engineering&quot; and &quot;Architecture&quot;. Users have requested the single terms, and removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label>Architecture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16309">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115 xml:lang="en">Artificial Intelligence is the field of study concerned with the capacity of computers or other machines to exhibit or simulate intelligent behaviour. [Adapted from OED, 20.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Artificial Intelligence, Image and Language Processing</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Artificial Intelligence, Image and Language Processing&apos; into sibling classes &apos;Artificial Intelligence&apos; and &apos;Digital Image Processing&apos;, with &apos;Natural Language Processing&apos; as a child term of &apos;Artificial Intelligence&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Artificial Intelligence</rdfs:label>
     </owl:Class>
     
 
@@ -2447,6 +2447,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17606">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Artificial Intelligence, Image and Language Processing&apos; into sibling classes &apos;Artificial Intelligence&apos; and &apos;Digital Image Processing&apos;, with &apos;Natural Language Processing&apos; as a child term of &apos;Artificial Intelligence&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Digital Image Processing</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17940">
@@ -2788,6 +2800,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 7.5.2019 Refactored re3data composite class &apos;Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials&apos; into child class &apos;Thermomechanical Processing&apos; with parent class &apos;Metallurgy&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Metallurgy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0010354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0010354">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1335455465014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16309"/>
+        <obo:IAO_0000115>The application of computational techniques to the analysis and synthesis of natural language and speech. [Oxford English Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Artificial Intelligence, Image and Language Processing&apos; into sibling classes &apos;Artificial Intelligence&apos; and &apos;Digital Image Processing&apos;, with &apos;Natural Language Processing&apos; as a child term of &apos;Artificial Intelligence&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label>Natural Language Processing</rdfs:label>
     </owl:Class>
     
 
@@ -4686,22 +4712,6 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
         <obo:IAO_0000115>Theoretical computer science is a subset of general computer science and mathematics that focuses on more mathematical topics of computing and includes the theory of computation. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Theoretical Computer Science</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000257 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000257">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
-        <obo:IAO_0000115>&apos;Artificial Intelligence, Image and Language Processing&apos; covers three related but separate topics.
-Artificial Intelligence - the theory and development of computer systems able to perform tasks normally requiring human intelligence, such as visual perception, speech recongition, decision-making and translation between languages. [Oxford English Dictionary. PAM 27.02.2018]
-
-Image Processing - The analysis and manipulation of a digitized image, especially in order to improve its quality. [Oxford English Dictionary. PAM 27.02.2018]
-
-Language Processing - The application of computational techniques to the analysis and synthesis of natural language and speech. [Oxford English Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Artificial Intelligence, Image and Language Processing</rdfs:label>
     </owl:Class>
     
 
