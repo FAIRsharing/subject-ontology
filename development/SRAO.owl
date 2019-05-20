@@ -660,9 +660,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://aims.fao.org/aos/agrovoc/c_9000089 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_9000089">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000256"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <obo:IAO_0000115>Knowledge and Information systems create, share, and manage knowledge and information. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Operating, Communication and Information Systems</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 20.5.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Operating, Communication and Information Systems&apos; by merging and aligning with its child class &apos;Knowledge and Information Systems&apos; according to FAIRsharing curation best practises. We already cover communications via 1) the inclusion of communications systems as part of this class, and 2) the prescence of Telecommunications Engineering. Further, Operating Systems has been deemed as not in scope for SRAO.</rdfs:comment>
         <rdfs:label>Knowledge And Information Systems</rdfs:label>
     </owl:Class>
     
@@ -4695,17 +4699,6 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
         <obo:IAO_0000115>Theoretical computer science is a subset of general computer science and mathematics that focuses on more mathematical topics of computing and includes the theory of computation. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Theoretical Computer Science</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000256 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000256">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
-        <obo:IAO_0000115>&apos;Operating, Communication and Information Systems&apos; collate data from a variety of disparate sources and synthesise them into a new structure for dissemination via a variety of media and methods. [PAM 28.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Operating, Communication and Information Systems</rdfs:label>
     </owl:Class>
     
 
