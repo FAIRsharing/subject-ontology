@@ -692,18 +692,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3335 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3335">
-        <obo:IAO_0000115>The diseases and abnormalities of the heart and circulatory system.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Cardiovascular disease</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Cardiovascular medicine</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Heart disease</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3336 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3336">
@@ -1572,6 +1560,14 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Historical</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>History</ontology:SRAO_0000276>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C86055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86055">
+        <obo:IAO_0000115>The diseases and abnormalities of the heart and circulatory system.</obo:IAO_0000115>
     </owl:Class>
     
 

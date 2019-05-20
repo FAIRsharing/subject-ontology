@@ -1378,18 +1378,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3335 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3335">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000269>Cardiology</ontology:SRAO_0000269>
-        <rdfs:label xml:lang="en">Cardiology, Angiology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3336 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3336">
@@ -2635,6 +2623,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">History</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C86055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86055">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Cardiology, Angiology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Cardiology, Angiology&apos; into sibling classes &apos;Cardiology&apos; and &apos;Angiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label>Cardiology</rdfs:label>
     </owl:Class>
     
 
@@ -5133,6 +5134,19 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Statistical Physics, Soft Matter, Biological Physics, Nonlinear Dynamics&apos;. &apos;Biophysics&apos; was already present in SRAO, and added &apos;Soft Matter Physics&apos;, &apos;Nonlinear Dynamics&apos;, and &apos;Statistical Physics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Statistical Physics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000309 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000309">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000115 xml:lang="en">Angiology is the medical specialty which studies the diseases of the circulatory system and of the lymphatic system, i.e., arteries, veins and lymphatic vessels, and its diseases. [Adapted from Wikipedia, AL 20.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Vascular Medicine</obo:IAO_0000118>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Cardiology, Angiology&apos; into sibling classes &apos;Cardiology&apos; and &apos;Angiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Angiology</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
