@@ -2801,7 +2801,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/OMIT_0010809 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0010809">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000192"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
+        <obo:IAO_0000115 xml:lang="en">The branch of science concerned with the physical and biological properties and phenomena of the ocean. [OED, AL 20.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Oceanography</rdfs:label>
@@ -4186,20 +4187,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000192 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000192">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Atmospheric Science and Oceanography</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000193 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000193">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000192"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
+        <obo:IAO_0000115 xml:lang="en">Atmospheric science is the study of the dynamics and chemistry of the layers of gas that surround the Earth, other planets and moons. This encompasses the interactions between various parts of the atmosphere as well as interactions with the oceans and freshwater systems, the biosphere and human activities. [Nature https://www.nature.com/subjects/atmospheric-science, AL 20.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Atmospheric Science</rdfs:label>
     </owl:Class>
