@@ -2106,6 +2106,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C16413 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000219"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -4349,12 +4350,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000218 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000218">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115>Thermal Engineering is a study of energy transport particularly in nanoscale structure to obtain knowledge and understanding of the scientific effects on physical world that can engineering discoveries in industrial energy applications. [Wikipedia, PAM 27.02.2018]
-
-Process engineering focuses on the design, operation, control, optimization and intensification of chemical, physical, and biological processes. Process engineering encompasses a vast range of industries, such as chemical, petrochemical, agriculture, mineral processing, advanced material, food, pharmaceutical, software development and biotechnological industries. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000225"/>
+        <obo:IAO_0000115 xml:lang="en">Thermal Engineering is a study of energy transport particularly in nanoscale structure to obtain knowledge and understanding of the scientific effects on physical world that can engineering discoveries in industrial energy applications. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Thermal Engineering/Process Engineering</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Thermal Engineering/Process Engineering</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Thermal Engineering/Process Engineering&apos; into &apos;Thermal Engineering&apos; according to FAIRsharing curation best practises. &apos;Process Engineering&apos; already existed within SRAO.</rdfs:comment>
+        <rdfs:label xml:lang="en">Thermal Engineering</rdfs:label>
     </owl:Class>
     
 
@@ -4362,9 +4363,12 @@ Process engineering focuses on the design, operation, control, optimization and 
     <!-- http://www.fairsharing.org/ontology/SRAO_0000219 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000219">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000218"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
+        <obo:IAO_0000115 xml:lang="en">Process engineering is the understanding and application of the fundamental principles and laws of nature that allow us to transform raw material and energy into products that are useful to society, at an industrial level. Process engineering focuses on the design, operation, control, optimization and intensification of chemical, physical, and biological processes. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Process_engineering, AL 20.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Process Engineering, Technical Chemistry</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Process Engineering, Technical Chemistry</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Process Engineering, Technical Chemistry&apos; into &apos;Process Engineering&apos; according to FAIRsharing curation best practises. &apos;Technical Chemistry was already present as a child term.</rdfs:comment>
+        <rdfs:label xml:lang="en">Process Engineering</rdfs:label>
     </owl:Class>
     
 
@@ -4372,7 +4376,9 @@ Process engineering focuses on the design, operation, control, optimization and 
     <!-- http://www.fairsharing.org/ontology/SRAO_0000221 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000219"/>
+        <obo:IAO_0000115 xml:lang="en">Technical Chemistry is a branch of Chemistry dealing with chemical processes in an industrial setting. This includes material development, water resources management, environmental technology, or waste management. It also includes the development and testing of new substances and materials. [Adapted from https://www.tugraz.at/en/studying-and-teaching/degree-and-certificate-programmes/masters-degree-programmes/technical-chemistry/, AL 20.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Technical Chemistry</rdfs:label>
     </owl:Class>
@@ -4383,6 +4389,7 @@ Process engineering focuses on the design, operation, control, optimization and 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000222">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000219"/>
+        <obo:IAO_0000115 xml:lang="en">Mechanical Process Engineering is a specialization of Process Engineering that deals with product development, design, and manufacturing processes. It involves assessing existing product manufacturing processes and developing new manufacturing processes based on the specifications of new products. [Adapted from https://study.com/articles/mechanical_process_engineer_job_description_salary.html, AL 20.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Mechanical Process Engineering</rdfs:label>
     </owl:Class>
@@ -4392,7 +4399,9 @@ Process engineering focuses on the design, operation, control, optimization and 
     <!-- http://www.fairsharing.org/ontology/SRAO_0000223 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000223">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000219"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16413"/>
+        <obo:IAO_0000115 xml:lang="en">Biological Process Engineering is a specialization of Chemical Engineering and Process Engineering that deals with the design and development of equipment and processes for the manufacturing of products such as agriculture, food, feed, pharmaceuticals, nutraceuticals, chemicals, and polymers and paper. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Bioprocess_engineering, AL 20.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Bioprocess Engineering</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Biological Process Engineering</rdfs:label>
     </owl:Class>
@@ -4403,9 +4412,12 @@ Process engineering focuses on the design, operation, control, optimization and 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000224">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000218"/>
-        <obo:IAO_0000115>&apos;Heat Energy Technology, Thermal Machines, Fluid Mechanics&apos; covers all aspects of heat transfer and storage systems, including thermal efficiency machines and the study of forces and flow within fluids [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Thermal technology is the technology of producing, storing, controlling, transmitting, and getting work from heat energy. [https://canvas.instructure.com/courses/838884/pages/unit-3-lesson-8-an-introduction-to-thermal-technology, AL 20.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Heat Energy Technology</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Heat Energy Technology, Thermal Machines, Fluid Mechanics</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Heat Energy Technology, Thermal Machines, Fluid Mechanics</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Heat Energy Technology, Thermal Machines, Fluid Mechanics&apos; into &apos;Thermal Technology&apos; according to FAIRsharing curation best practises. &apos;Fluid Mechanics&apos; was already present within SRAO, and &apos;Thermal Machines&apos; is not currently within scope.</rdfs:comment>
+        <rdfs:label xml:lang="en">Thermal Technology</rdfs:label>
     </owl:Class>
     
 
@@ -4413,20 +4425,11 @@ Process engineering focuses on the design, operation, control, optimization and 
     <!-- http://www.fairsharing.org/ontology/SRAO_0000225 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000225">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000224"/>
-        <obo:IAO_0000115>&apos;Energy Process Engineering&apos; covers the broad field of engineering dealing with energy efficiency, energy services, facility management, plant engineering, environmental compliance and alternative energy technologies, focussing on design, operation, control and optimization of energy use. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
+        <obo:IAO_0000115 xml:lang="en">Energy Engineering covers the broad field of engineering dealing with energy efficiency, energy services, facility management, plant engineering, environmental compliance and alternative energy technologies, focussing on design, operation, control and optimization of energy use. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Energy_engineering, PAM 28.02.2018, updated by AL 20.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Energy Process Engineering</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000226 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000226">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000224"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Technical Thermodynamics</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Energy Process Engineering</ontology:SRAO_0000268>
+        <rdfs:label xml:lang="en">Energy Engineering</rdfs:label>
     </owl:Class>
     
 
@@ -4434,19 +4437,11 @@ Process engineering focuses on the design, operation, control, optimization and 
     <!-- http://www.fairsharing.org/ontology/SRAO_0000227 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000227">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000224"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000215"/>
+        <obo:IAO_0000115 xml:lang="en">Fluid Mechanics the branch of mechanics dealing with the flow of liquids and gases and the way they respond to and exert forces. [OED, AL 20.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Fluid Mechanics</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000228 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000228">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000224"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Hydraulic and Turbo Engines and Piston Engines</rdfs:label>
     </owl:Class>
     
 
@@ -4466,6 +4461,7 @@ Process engineering focuses on the design, operation, control, optimization and 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009732"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000219"/>
         <obo:IAO_0000115 xml:lang="en">Thermomechanical processing is a metallurgical process that combines mechanical or plastic deformation process like compression or forging, rolling etc. with thermal processes like heat-treatment, water quenching, heating and cooling at various rates into a single process. [Adapted from Wikipedia, https://en.wikipedia.org/wiki/Thermomechanical_processing, AL 28.3.19]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials</ontology:SRAO_0000268>
@@ -4540,7 +4536,6 @@ Process engineering focuses on the design, operation, control, optimization and 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000238">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16413"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
         <obo:IAO_0000115 xml:lang="en">Functional Materials Research is concerned with materials which possess particular native properties and functions of their own, such as ferroelectricity, piezoelectricity, magnetism or energy storage functions. Functional materials are found in all classes of materials: ceramics, metals, polymers and organic molecules. Functional materials are often used in electromagnetic applications from KHz to THz and at optical frequencies where the plasmonic properties of metals assume particular importance. Functional materials are also of critical importance in materials for energy such as electro- and magnetocaloric materials, for energy storage and for solar harvesting functions. [Adapted from http://www.imperial.ac.uk/materials/research/functional/, Al 14.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -5116,7 +5111,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000307">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000223"/>
         <obo:IAO_0000115 xml:lang="en">Food Process Engineering is a field of study focusing on the applications of engineering principles and concepts to food and food processes. The processes include any physical properties and changes to the food product that result in preservation of the food, extending to transportation, product shelf-life, or improvements in the product quality attributes. [Adapted from https://onlinelibrary.wiley.com/page/journal/17454530/homepage/productinformation.html, AL 14.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Agricultural and Food Process Engineering&apos; into sibling classes &apos;Agricultural Engineering&apos; and &apos;Food Process Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
