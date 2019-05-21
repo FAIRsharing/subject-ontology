@@ -409,7 +409,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://aims.fao.org/aos/agrovoc/c_331559 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_331559">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
         <obo:IAO_0000115>Environmental Sciences is a broad interdisciplinary field in which ecologists work with other physical, chemical, and biological researchers to study and seek solutions to environmental problems. Environmental science focuses on the environment and how humans can manage and utilise its resources and the effects our actions have on the environment. [Adapted by AL from https://www.quora.com/What-are-the-main-differences-between-ecology-and-environmental-science and https://blog.oup.com/2012/05/its-ecology-not-environmental-science/ 26.6.18]</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
@@ -751,7 +751,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_0091">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Bioinformatics and Theoretical Biology</ontology:SRAO_0000268>
@@ -900,7 +900,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_0780 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0780">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Plant Sciences</ontology:SRAO_0000268>
@@ -936,7 +936,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_1317 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_1317">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Structural Biology</rdfs:label>
@@ -947,7 +947,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_2229 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2229">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Cell Biology</rdfs:label>
@@ -959,7 +959,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_2258">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 27.9.17 Cheminformatics is asserted as a child of Informatics by EDAM,  and also as a child of Chemistry and Biology within FAIRsharing. This &apos;subClass of Bioinformatics&apos; assertion is based on the definition of Cheminformatics as provided by EDAM: &quot;The application of information technology to chemistry in biological research environment.&quot; However, this may need to be revisited at some point in the future.
@@ -972,7 +972,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_2259 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2259">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Systems biology</rdfs:label>
     </owl:Class>
@@ -993,7 +993,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_2815 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2815">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Human Biology</rdfs:label>
     </owl:Class>
@@ -1014,7 +1014,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3047 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3047">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Molecular biology</rdfs:label>
     </owl:Class>
@@ -1037,7 +1037,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3053 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3053">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>General Genetics</ontology:SRAO_0000268>
@@ -1071,7 +1071,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3064 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3064">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Developmental Biology</rdfs:label>
@@ -1092,26 +1092,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3067 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3067">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000118 xml:lang="en">Morphology</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 14.5.2019: Synonym &apos;Morphology&apos; was added upon the removal of the &apos;Systematics and Morphology&apos; re3data class. &apos;Systematics and Morphology&apos; was removed as the subject was already present via both Anatomy and Biological Systematics (via Phylogenetics).</rdfs:comment>
         <rdfs:comment>AL: 25.9.17 Anatomy is asserted as a child of Biology by re3data, and as a child of Biomedical Science by EDAM. As both are correct depending on context, both assertions have been retained.</rdfs:comment>
         <rdfs:label xml:lang="en">Anatomy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_3070 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3070">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000069"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:comment>AL: 25.9.17 Biology is asserted as a child of &apos;Life Science&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
-        <rdfs:label xml:lang="en">Biology</rdfs:label>
     </owl:Class>
     
 
@@ -1183,7 +1171,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3292 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3292">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -1220,7 +1208,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3297 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3297">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Biotechnology</rdfs:label>
     </owl:Class>
@@ -1266,7 +1254,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3301 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3301">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Microbiology, Virology and Immunology</ontology:SRAO_0000268>
@@ -1312,7 +1300,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3307 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3307">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 27.9.17 &apos;Computational biology&apos; is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to Biology.</rdfs:comment>
         <rdfs:label>Computational Biology</rdfs:label>
@@ -1433,8 +1421,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3369 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3369">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3371"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Child of &apos;Synthetic Chemistry&apos; and Biology to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label>Chemical Biology</rdfs:label>
@@ -1566,7 +1554,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3391 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3391">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 26.9.17 Omics is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to Biology.</rdfs:comment>
         <rdfs:label>Omics</rdfs:label>
@@ -1893,7 +1881,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3500 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3500">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Zoology</rdfs:label>
@@ -2120,11 +2108,22 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16345">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000069"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Biology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16349 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16349">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000118 xml:lang="en">Biological Physics</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -2222,7 +2221,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C16526 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16526">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored (through deletion) re3data composite class &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos; by merging with existing classes &apos;Ecosystem Science&apos;, &apos;Biodiversity&apos; and &apos;Ecology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -2403,8 +2402,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C17055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17055">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Radiation Oncology and Radiobiology</ontology:SRAO_0000268>
@@ -4254,8 +4253,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000188 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000188">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16421"/>
         <obo:IAO_0000115 xml:lang="en">Soft Matter Physics sits at the interface between chemistry, physics and biology, and includes investigation of the structure, self-assembly, kinetics and properties of liquids, colloids, particles, formulations, gels, foams, sprays, soft solids and interfaces. [Adapted fromhttps://epsrc.ukri.org/research/ourportfolio/researchareas/biophysics/, AL 14.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>

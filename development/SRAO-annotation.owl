@@ -423,22 +423,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3070 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3070">
-        <obo:IAO_0000115>A particular biological science, especially observable traits such as aspects of biochemistry, physiology, morphology, anatomy, development and so on.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Aerobiology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Behavioural biology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Biological rhythms</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Biological science</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Chronobiology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Cryobiology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Reproductive biology</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3071 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3071">
@@ -1278,6 +1262,12 @@
         <ontology:SRAO_0000276>Architecture</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Engineering / Architecture</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16345"/>
     
 
 

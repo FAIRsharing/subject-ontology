@@ -34,7 +34,6 @@ http://edamontology.org/topic_0194
 http://edamontology.org/topic_0202
 http://edamontology.org/topic_0208
 http://edamontology.org/topic_0209
-http://edamontology.org/topic_0218
 http://edamontology.org/topic_0219
 http://edamontology.org/topic_0605
 http://edamontology.org/topic_0622
@@ -58,7 +57,6 @@ http://edamontology.org/topic_3063
 http://edamontology.org/topic_3064
 http://edamontology.org/topic_3065
 http://edamontology.org/topic_3067
-http://edamontology.org/topic_3070
 http://edamontology.org/topic_3071
 http://edamontology.org/topic_3077
 http://edamontology.org/topic_3172
@@ -174,6 +172,7 @@ http://purl.obolibrary.org/obo/NCIT_C15245 # Health Services Research
 http://purl.obolibrary.org/obo/NCIT_C16294 # Anthropology
 http://purl.obolibrary.org/obo/NCIT_C16304 # Architecture
 http://purl.obolibrary.org/obo/NCIT_C16309 # Artificial Intelligence
+http://purl.obolibrary.org/obo/NCIT_C16345 # Biology
 http://purl.obolibrary.org/obo/NCIT_C16349 # Biophysics
 http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
 http://purl.obolibrary.org/obo/NCIT_C16414 # Chemistry
