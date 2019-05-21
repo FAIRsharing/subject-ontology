@@ -4149,6 +4149,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115 xml:lang="en">Polymer Chemistry is a subtype of Polymer Research that focuses on the chemical synthesis, structure, chemical and physical properties of polymers and macromolecules. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Polymer_chemistry, 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Preparatory and Physical Chemistry of Polymers</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Preparatory and Physical Chemistry of Polymers&apos; into &apos;Polymer Chemistry&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Polymer Chemistry</rdfs:label>
     </owl:Class>
     
