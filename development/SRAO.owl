@@ -4132,6 +4132,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
+        <obo:IAO_0000115 xml:lang="en">Polymer science is subfield of Materials Science concerned with polymers, primarily synthetic polymers such as plastics and elastomers. The field of polymer science includes researchers in multiple disciplines including chemistry, physics, and engineering. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Polymer_science, AL 21.05.2109]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Macromolecular Science</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Polymer Science</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Polymer Research</rdfs:label>
     </owl:Class>
@@ -4142,8 +4146,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000179">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000178"/>
+        <obo:IAO_0000115 xml:lang="en">Polymer Chemistry is a subtype of Polymer Research that focuses on the chemical synthesis, structure, chemical and physical properties of polymers and macromolecules. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Polymer_chemistry, 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Preparatory and Physical Chemistry of Polymers</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Preparatory and Physical Chemistry of Polymers</ontology:SRAO_0000268>
+        <rdfs:label xml:lang="en">Polymer Chemistry</rdfs:label>
     </owl:Class>
     
 
@@ -4151,19 +4157,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000180 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000180">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000178"/>
+        <obo:IAO_0000115 xml:lang="en">Polymer physics is the field of physics that studies polymers, their fluctuations, mechanical properties, as well as the kinetics of reactions involving degradation and polymerisation of polymers and monomers respectively. [Wikipedia https://en.wikipedia.org/wiki/Polymer_physics, 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Experimental and Theoretical Physics of Polymers</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000181 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000181">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000178"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Polymer Materials</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Experimental and Theoretical Physics of Polymers</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Experimental and Theoretical Physics of Polymers&apos; into &apos;Polymer Physics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Polymer Physics</rdfs:label>
     </owl:Class>
     
 
