@@ -22,11 +22,10 @@ The majority of the classes come from two sources:
 
 A small number of classes come from other sources:
 
-1. OMIT
-2. NCIT
-3. AgroVoc
-4. AgroPortal categories
-5. PO
+3. OMIT
+4. NCIT
+5. AgroVoc
+6. PO
 
 This OWL file is more than just an import of the source ontologies listed. Firstly, only those disciplines which are appropriate for use within FAIRsharing have been retained. Modifications to the hierarchy have also been performed to aid usability within FAIRsharing as well as to aid ontology alignment and merging.
 
