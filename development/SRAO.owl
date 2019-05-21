@@ -162,8 +162,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://aims.fao.org/aos/agrovoc/c_10967 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_10967">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_7132"/>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_8672"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000058"/>
         <obo:IAO_0000115 xml:lang="en">Physical and economic access, by all people at all times, to the basic food they need [AgroVoc]</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 16.5.2019: Added additional parent of &apos;Agricultural Economics&apos; as per https://github.com/FAIRsharing/subject-ontology/issues/31</rdfs:comment>
@@ -338,6 +338,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115>Agricultural law is the study of the special laws and regulations that apply to the production and sale of agricultural products. It deals with such legal issues as agricultural infrastructure, seed, water, fertilizer, pesticide use, agricultural finance, agricultural labour, agricultural marketing, agricultural insurance, farming rights, land tenure and tenancy system and law on agricultural processing and rural industry. With implementation of modern technologies, issues including credit, intellectual property, trade and commerce related to agricultural products are dealt within the sphere of this law. [Wikipedia https://en.wikipedia.org/wiki/Agricultural_law, AL 23.5.18]</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <rdfs:label>Agricultural Law</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_28672 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_28672">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17735"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
+        <obo:IAO_0000115 xml:lang="en">Economic policy covers the systems for setting levels of taxation, government budgets, the money supply and interest rates as well as the labour market, national ownership, and many other areas of government interventions into the economy. Most factors of economic policy can be divided into either fiscal policy, which deals with government actions regarding taxation and spending, or monetary policy, which deals with central banking actions regarding the money supply and interest rates. [Wikipedia https://en.wikipedia.org/wiki/Economic_policy, 2.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Economic and Social Policy</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Economic and Social Policy&apos; into sibling classes &apos;Economic Policy&apos; and &apos;Social Policy&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Economic Policy</rdfs:label>
     </owl:Class>
     
 
@@ -598,6 +613,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268 xml:lang="en">Social and Cultural Anthropology and Ethnology/Folklore</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Social Anthropology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_7132 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_7132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17735"/>
+        <obo:IAO_0000115 xml:lang="en">Social policy is concerned with the ways societies across the world meet human needs for security, education, work, health and wellbeing. Social policy addresses how states and societies respond to global challenges of social, demographic and economic change, and of poverty, migration and globalisation. Social policy analyses the different roles of: national governments, the family, civil society, the market, and international organisations in providing services and support across the life course from childhood to old age. [LSE http://www.lse.ac.uk/social-policy/about-us/What-is-social-policy 2.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Economic and Social Policy&apos; into sibling classes &apos;Economic Policy&apos; and &apos;Social Policy&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Social Policy</rdfs:label>
     </owl:Class>
     
 
@@ -2459,6 +2487,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17735">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 21.5.2019: Added as a new parent for Social Policy and Economic Policy in a placement consistent with the NCIT hierarchy.</rdfs:comment>
+        <rdfs:label xml:lang="en">Policy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17940">
@@ -3524,16 +3563,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Economic Theory</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000058 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000058">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Economic and Social Policy</rdfs:label>
     </owl:Class>
     
 
