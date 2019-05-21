@@ -3275,6 +3275,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007951"/>
+        <obo:IAO_0000115 xml:lang="en">Literary Studies is the study, evaluation, and interpretation of literature. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Literary_criticism, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Literary Studies</rdfs:label>
     </owl:Class>
@@ -3305,8 +3306,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000026">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">European Literature is the literature written in the context of Western culture in the languages of Europe, including the ones belonging to the Indo-European language family as well as several geographically or historically related languages such as Basque and Hungarian. [Wikipedia https://en.wikipedia.org/wiki/Western_literature, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Western Literature</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">European and American Literature</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">European and American Literature</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;European and American Literature&apos; into sibling classes &apos;European Literature&apos; and &apos;American Literature&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">European Literature</rdfs:label>
     </owl:Class>
     
 
@@ -3315,8 +3320,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000027">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">Comparative Literature is the study of literature across cultural and national frontiers, time periods, languages and genres, even across the boundaries between literature and the other arts. [https://www.gla.ac.uk/undergraduate/degrees/comparativeliterature/, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">General and Comparative Literature and Cultural Studies</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">General and Comparative Literature and Cultural Studies</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;General and Comparative Literature and Cultural Studies&apos; into sibling classes &apos;Comparative Literature&apos; and &apos;Cultural Studies&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Comparative Literature</rdfs:label>
     </owl:Class>
     
 
@@ -5180,6 +5188,32 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Legal and Political Philosophy, Legal History, Legal Theory&apos; into sibling classes &apos;Philosophy of Law&apos; and &apos;History of Law&apos; according to FAIRsharing curation best practises. Legal Theory is not required at this time, and can fall under the Jurisprudence category generally.</rdfs:comment>
         <rdfs:label xml:lang="en">Legal History</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000311 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000311">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">American literature is literature written or produced in the United States of America and its preceding colonies [Wikipedia https://en.wikipedia.org/wiki/American_literature, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;European and American Literature&apos; into sibling classes &apos;European Literature&apos; and &apos;American Literature&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">American Literature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000312 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16478"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0002286"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">Cultural studies is a field of theoretically, politically, and empirically engaged cultural analysis that concentrates upon the political dynamics of contemporary culture, its historical foundations, defining traits, conflicts, and contingencies. Cultural studies researchers generally investigate how cultural practices relate to wider systems of power associated with or operating through social phenomena, such as ideology, class structures, national formations, ethnicity, sexual orientation, gender, and generation. [Wikipedia https://en.wikipedia.org/wiki/Cultural_studies, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;General and Comparative Literature and Cultural Studies&apos; into sibling classes &apos;Comparative Literature&apos; and &apos;Cultural Studies&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cultural Studies</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
