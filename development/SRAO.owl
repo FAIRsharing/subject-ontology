@@ -525,8 +525,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://aims.fao.org/aos/agrovoc/c_49911 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_49911">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000213"/>
         <obo:IAO_0000115 xml:lang="en">The branch of physics concerned with the properties and phenomena of sound, sometimes esp. in relation to hearing or speech. [OED, AL 14.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -4361,21 +4361,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000213 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000213">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
-        <obo:IAO_0000115>&apos;Mechanics and Constructive Mechanical Engineering&apos; applies engineering, physics, and materials science principles to design, analyze, manufacture, and maintain mechanical systems. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Mechanics and Constructive Mechanical Engineering</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000214 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000214">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000213"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Construction, Machine Elements</rdfs:label>
     </owl:Class>
@@ -4385,7 +4374,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000215 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000215">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000213"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Mechanics</rdfs:label>
     </owl:Class>
@@ -4395,7 +4385,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000216 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000216">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000213"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Lightweight Construction, Textile Technology</rdfs:label>
     </owl:Class>
@@ -4492,7 +4482,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000227 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000227">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000215"/>
         <obo:IAO_0000115 xml:lang="en">Fluid Mechanics the branch of mechanics dealing with the flow of liquids and gases and the way they respond to and exert forces. [OED, AL 20.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -4804,11 +4793,12 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
     <!-- http://www.fairsharing.org/ontology/SRAO_0000262 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000262">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115>Building Engineering Physics investigates the areas of natural science that relate to the energy performance of buildings and their indoor and outdoor environments. The understanding and application of Building Engineering Physics allows us to design and construct high performance buildings which are comfortable and functional, yet use natural resources efficiently and minimise the environmental impacts of their construction and operation. It is related to Architecture, Structural Engineering and Building Services Engineering. [https://www.raeng.org.uk/news/news-releases/2010/January/engineering-a-low-carbon-built-environment, AL 08.05.18]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Construction Material Sciences, Chemistry, Building Physics</ontology:SRAO_0000268>
-        <rdfs:comment>AL 23.5.18: Renamed to align with FAIRsharing best practices. &quot;Building Engineering Physics&quot; was chosen rather than &quot;Building Physics to match what appears to be common usage within the community.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL 23.5.18: Renamed to align with FAIRsharing best practices. &quot;Building Engineering Physics&quot; was chosen rather than &apos;Building Physics&apos; to match what appears to be common usage within the community.</rdfs:comment>
         <rdfs:label xml:lang="en">Building Engineering Physics</rdfs:label>
     </owl:Class>
     
@@ -4831,8 +4821,9 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <!-- http://www.fairsharing.org/ontology/SRAO_0000264 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000264">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000215"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
-        <obo:IAO_0000115>Applied mechanics, Statics and Dynamics are branches of the physical sciences and the practical application of mechanics. Applied mechanics, bridges the gap between physical theory and its application to technology. It is used in many fields of engineering, especially mechanical engineering and civil engineering. [Adapted from Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Applied Mechanics is the practical application of mechanics and bridges the gap between physical theory and its application to technology. It is used in many fields of engineering, especially Mechanical Engineering and Civil Engineering. [Adapted from Wikipedia, PAM 27.02.2018, updated AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Applied Mechanics, Statics and Dynamics</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored &apos;Applied Mechanics, Statics and Dynamics&apos; into &apos;Applied Mechanics&apos; to simplify the term according to FAIRsharing curation best practises.</rdfs:comment>
@@ -4845,8 +4836,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000265">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
-        <obo:IAO_0000115>Geotechnics is the application of science and technology to the management and utilization of the earth&apos;s physical resources. [Oxford English Dictionary, AL 08.05.18] It is the application of scientific methods and engineering principles to the acquisition, interpretation, and use of knowledge of materials of the Earth&apos;s crust and earth materials for the solution of engineering problems and the design of engineering works. [Wikipedia, PAM 27.02.0218]
-</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Geotechnics is the application of science and technology to the management and utilization of the earth&apos;s physical resources. [Oxford English Dictionary, AL 08.05.18] It is the application of scientific methods and engineering principles to the acquisition, interpretation, and use of knowledge of materials of the Earth&apos;s crust and earth materials for the solution of engineering problems and the design of engineering works. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Geotechnics, Hydraulic Engineering</ontology:SRAO_0000268>
         <rdfs:comment>AL 23.5.18: The original &quot;Geotechnics, Hydraulic Engineering&quot; class from re3data has been split into &quot;Geotechnics&quot; and &quot;Hydraulic Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
@@ -4881,9 +4871,12 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <!-- http://www.fairsharing.org/ontology/SRAO_0000285 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000285">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
+        <obo:IAO_0000115 xml:lang="en">Building Informatics is an application of advanced information and knowledge handling techniques to construction management. [http://www.reading.ac.uk/nmsruntime/saveasdialog.aspx?lID=36891&amp;sID=195542&amp;ContentStatus=1, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Construction Informatics</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:comment>AL 23.5.18: Awaiting definition. The original &quot;Structural Engineering, Building Informatics, Construction Operation&quot; class from re3data has been split into &quot;Structural Engineering&quot; and &quot;Building Informatics&quot;. Removal of compound terms aligns with FAIRsharing best practices. &quot;Construction Operation&quot; has been removed until it is clear what re3data intend with this discipline.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL 23.5.18: The original &quot;Structural Engineering, Building Informatics, Construction Operation&quot; class from re3data has been split into &quot;Structural Engineering&quot; and &quot;Building Informatics&quot;. Removal of compound terms aligns with FAIRsharing best practices. &quot;Construction Operation&quot; has been removed until it is clear what re3data intend with this discipline.</rdfs:comment>
         <rdfs:label xml:lang="en">Building Informatics</rdfs:label>
     </owl:Class>
     
