@@ -2786,10 +2786,25 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0004711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0004711">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000066"/>
+        <obo:IAO_0000115 xml:lang="en">Criminal Law is the branch of law concerned with defining crimes and with prosecuting and punishing offenders; the body of law relating to crime. [OED, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Criminal Law and Law of Criminal Procedure</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Criminal Law and Law of Criminal Procedure&apos; into &apos;Criminal Law&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Criminal Law</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0004713 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0004713">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0008715"/>
+        <obo:IAO_0000115 xml:lang="en">The study of crime and criminals; this as an academic discipline. [OED, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Criminology</rdfs:label>
@@ -2823,6 +2838,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0008715">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000041"/>
+        <obo:IAO_0000115 xml:lang="en">The science which treats of human laws (written or unwritten) in general; the philosophy of law. [OED, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Jurisprudence</rdfs:label>
@@ -3604,8 +3620,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0008715"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000037"/>
+        <obo:IAO_0000115 xml:lang="en">Philosophy of law is a branch of philosophy that examines the nature of law and law&apos;s relationship to other systems of norms, especially ethics and political philosophy. [Wikipedia https://en.wikipedia.org/wiki/Philosophy_of_law, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Legal Philosophy</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Legal and Political Philosophy, Legal History, Legal Theory</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Legal and Political Philosophy, Legal History, Legal Theory</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Legal and Political Philosophy, Legal History, Legal Theory&apos; into sibling classes &apos;Philosophy of Law&apos; and &apos;History of Law&apos; according to FAIRsharing curation best practises. Legal Theory is not required at this time, and can fall under the Jurisprudence category generally.</rdfs:comment>
+        <rdfs:label xml:lang="en">Philosophy of Law</rdfs:label>
     </owl:Class>
     
 
@@ -3614,6 +3635,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0008715"/>
+        <obo:IAO_0000115 xml:lang="en">Private Law is the branch of law concerning relations and dealings between private individuals. [OED, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Private Law</rdfs:label>
     </owl:Class>
@@ -3624,18 +3646,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0008715"/>
+        <obo:IAO_0000115 xml:lang="en">Public Law is the law governing relations between individuals and the State, or the conduct of the State. [OED, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Public Law</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000067 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0008715"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Criminal Law and Law of Criminal Procedure</rdfs:label>
     </owl:Class>
     
 
@@ -5150,6 +5163,20 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Cardiology, Angiology&apos; into sibling classes &apos;Cardiology&apos; and &apos;Angiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Angiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000310 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0008715"/>
+        <obo:IAO_0000115 xml:lang="en">Legal History is the study of how law has evolved and why it changed. [Wikipedia https://en.wikipedia.org/wiki/Legal_history, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">History of Law</obo:IAO_0000118>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Legal and Political Philosophy, Legal History, Legal Theory&apos; into sibling classes &apos;Philosophy of Law&apos; and &apos;History of Law&apos; according to FAIRsharing curation best practises. Legal Theory is not required at this time, and can fall under the Jurisprudence category generally.</rdfs:comment>
+        <rdfs:label xml:lang="en">Legal History</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
