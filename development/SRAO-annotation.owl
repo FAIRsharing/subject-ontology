@@ -1052,19 +1052,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3422 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3422">
-        <obo:IAO_0000115>The branches of medicine and physiology focussing on the function and disorders of the urinary system in males and females, the reproductive system in males, and the kidney.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Kidney disease</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Nephrology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Urological disorders</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Urology</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3423 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3423">
@@ -1437,6 +1424,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C17167 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17167"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17243"/>
     
 
 

@@ -1823,18 +1823,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3422 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3422">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000269>Urology and nephrology</ontology:SRAO_0000269>
-        <rdfs:label xml:lang="en">Urology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3423 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3423">
@@ -2458,6 +2446,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Dentistry, Oral Surgery&apos; into &apos;Dentistry&apos; (which moved to be a direct child of Medicine) and &apos;Oral Surgery&apos;, which retains its position as a child of Surgery, according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Oral Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17243">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Urology</rdfs:label>
     </owl:Class>
     
 
