@@ -124,7 +124,6 @@ http://edamontology.org/topic_3423
 http://edamontology.org/topic_3473
 http://edamontology.org/topic_3474
 http://edamontology.org/topic_3489
-http://edamontology.org/topic_3500
 http://edamontology.org/topic_3569
 http://edamontology.org/topic_3570
 http://edamontology.org/topic_3571
@@ -202,6 +201,7 @@ http://purl.obolibrary.org/obo/NCIT_C17099 # Rheumatology
 http://purl.obolibrary.org/obo/NCIT_C17141 # Social Sciences
 http://purl.obolibrary.org/obo/NCIT_C17167 # Statistics
 http://purl.obolibrary.org/obo/NCIT_C17174 # Oral Surgery
+http://purl.obolibrary.org/obo/NCIT_C17269 # Zoology
 http://purl.obolibrary.org/obo/NCIT_C17606 # Digital Image Processing
 http://purl.obolibrary.org/obo/NCIT_C17735 # Policy
 http://purl.obolibrary.org/obo/NCIT_C17940 # Microbial Genetics

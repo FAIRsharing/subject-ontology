@@ -1024,8 +1024,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3050 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3050">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored (through deletion) re3data composite class &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos; by merging with existing classes &apos;Ecosystem Science&apos;, &apos;Biodiversity&apos; and &apos;Ecology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -1230,7 +1230,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3299 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3299">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Evolution, Anthropology</ontology:SRAO_0000268>
@@ -1878,17 +1878,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3500 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3500">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Zoology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3569 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3569">
@@ -2246,7 +2235,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C16550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16550">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:label>Entomology</rdfs:label>
     </owl:Class>
@@ -2473,6 +2462,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Zoology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17606">
@@ -2561,7 +2561,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C18633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18633">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Animal Genetics, Cell and Developmental Biology</ontology:SRAO_0000268>
@@ -2993,7 +2993,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/OMIT_0018052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0018052">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
         <obo:IAO_0000115 xml:lang="en">Ecosystem science is the study of inter-relationships among the living organisms, physical features, bio-chemical processes, natural phenomena, and human activities in ecological communities. [NOAA https://oceanservice.noaa.gov/facts/ecosci.html, AL 16.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -3741,7 +3741,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000092 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000092">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
         <obo:IAO_0000115 xml:lang="en">Behavioural Biology is an interdisciplinary degree and field of science that examines the bidirectional interactions between behaviour and biology. An organism’s genetic, physiological and immunological processes drive behaviour, just as an individual&apos;s behaviour will impact its physiological and immunological state. [https://www.abdn.ac.uk/study/undergraduate/degree-programmes/445/C859/behavioural-biology/. AL 14.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Behavioral Biology</obo:IAO_0000118>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -3755,7 +3755,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000093 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000093">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3500"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Biochemistry and Animal Physiology</ontology:SRAO_0000268>
         <rdfs:comment>AL: 25.9.17 Changed re3data label from &quot;Biochemistry and Animal Physiology&quot; to &quot;Animal Physiology&quot; as these are two distinct disciplines. The Biochemistry discipline is positioned according to both the re3data and EDAM hierarchies.</rdfs:comment>

@@ -1111,19 +1111,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3500 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3500">
-        <obo:IAO_0000115>Animals, e.g. information on a specific animal genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Animal</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Animal biology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Animals</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Metazoa</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3569 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3569">
@@ -1450,6 +1437,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C17167 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17167"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17269"/>
     
 
 
