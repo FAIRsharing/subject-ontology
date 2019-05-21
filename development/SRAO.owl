@@ -3175,8 +3175,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
+        <obo:IAO_0000115 xml:lang="en">Modern history is the study of the historical period after post-classical history. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Modern_history, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Modern and Current History</rdfs:label>
+        <ontology:SRAO_0000268 xml:lang="en">Modern and Current History</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Modern and Current History&apos; into &apos;Modern History&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Modern History</rdfs:label>
     </owl:Class>
     
 
