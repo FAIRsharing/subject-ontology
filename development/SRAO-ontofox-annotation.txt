@@ -121,7 +121,6 @@ http://edamontology.org/topic_3420
 http://edamontology.org/topic_3421
 http://edamontology.org/topic_3423
 http://edamontology.org/topic_3473
-http://edamontology.org/topic_3474
 http://edamontology.org/topic_3489
 http://edamontology.org/topic_3569
 http://edamontology.org/topic_3570

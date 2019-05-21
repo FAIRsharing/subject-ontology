@@ -1844,18 +1844,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3474 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3474">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16309"/>
-        <obo:IAO_0000115>The application of artificial intelligence methods to algorithms, in order to create methods that can learn from data in order to generate an ouput, rather than relying on explicitly encoded information only. [EDAM, PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:comment>AL: 29.9.17 &apos;Machine learning&apos; is asserted as a child of &apos;Computer Science&apos; within EDAM. This assertion has been refined to &apos;Artifical Intelligence, Imaging and Language Processing&apos;.</rdfs:comment>
-        <rdfs:label xml:lang="en">Machine Learning</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3489 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3489">
@@ -2852,20 +2840,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 7.5.2019 Refactored re3data composite class &apos;Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials&apos; into child class &apos;Thermomechanical Processing&apos; with parent class &apos;Metallurgy&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Metallurgy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIT_0010354 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0010354">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1335455465014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16309"/>
-        <obo:IAO_0000115>The application of computational techniques to the analysis and synthesis of natural language and speech. [Oxford English Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Artificial Intelligence, Image and Language Processing&apos; into sibling classes &apos;Artificial Intelligence&apos; and &apos;Digital Image Processing&apos;, with &apos;Natural Language Processing&apos; as a child term of &apos;Artificial Intelligence&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:label>Natural Language Processing</rdfs:label>
     </owl:Class>
     
 

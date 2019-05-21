@@ -1071,15 +1071,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3474 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3474">
-        <obo:IAO_0000115>A topic concerning the application of artificial intelligence methods to algorithms, in order to create methods that can learn from data in order to generate an ouput, rather than relying on explicitly encoded information only.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3489 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3489">
@@ -1540,12 +1531,6 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIT_0010354 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0010354"/>
     
 
 
