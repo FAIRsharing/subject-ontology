@@ -3590,8 +3590,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000062 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
+        <obo:IAO_0000115 xml:lang="en">Economic and social history is the study of the way societies change in their economic activities and social organisation. It is concerned with how people in the past lived and worked, and how this has affected the development of today’s world. [https://www.gla.ac.uk/undergraduate/degrees/economicsocialhistory/, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 21.5.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
         <rdfs:label xml:lang="en">Economic and Social History</rdfs:label>
     </owl:Class>
     
