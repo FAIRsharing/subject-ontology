@@ -230,7 +230,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1648">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
         <obo:IAO_0000115>Civil engineering is the branch of engineering that deals with the design, construction, and maintenance of works of public utility, especially those relating to social infrastructure. [Oxford English Dictionary, AL 08.05.18]</obo:IAO_0000115>
-        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <rdfs:label>Civil Engineering</rdfs:label>
     </owl:Class>
     
@@ -434,8 +434,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3713">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115>Hydraulic engineering as a sub-discipline of civil engineering is concerned with the flow and conveyance of fluids, principally water and sewage. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 23.5.18: The original &quot;Geotechnics, Hydraulic Engineering&quot; class from re3data has been split into &quot;Geotechnics&quot; and &quot;Hydraulic Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label>Hydraulic Engineering</rdfs:label>
     </owl:Class>
@@ -675,8 +675,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1648"/>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
-        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Agricultural and Food Process Engineering</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Agricultural and Food Process Engineering&apos; into sibling classes &apos;Agricultural Engineering&apos; and &apos;Food Process Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Agricultural Engineering</rdfs:label>
@@ -1422,8 +1422,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3368">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3297"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Biomaterials is asserted as a child of &apos;Materials Science&apos; by re3data, and as a child of Biotechnology by EDAM.</rdfs:comment>
         <rdfs:label xml:lang="en">Biomaterials</rdfs:label>
     </owl:Class>
@@ -2098,8 +2098,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16304">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1648"/>
         <obo:IAO_0000115>Architecture - The art or practice of designing and constructing buildings [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 23.5.18: The original &quot;Construction Engineering and Architecture&quot; class from re3data has been split into &quot;Construction Engineering&quot; and &quot;Architecture&quot;. Users have requested the single terms, and removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label>Architecture</rdfs:label>
     </owl:Class>
@@ -2236,7 +2236,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16548">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>The parts of science concerned with the physical and mathematical basis of engineering and machine technology. [Oxford Dictionary, https://en.oxforddictionaries.com/definition/engineering_science, PAM 27.02.18]</obo:IAO_0000115>
-        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Engineering Sciences</ontology:SRAO_0000268>
         <rdfs:label xml:lang="en">Engineering Science</rdfs:label>
@@ -2528,7 +2528,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3297"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health. [ NCIT, PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Added parent &apos;Engineering Sciences&apos; to align with the structure found within NCIT.</rdfs:comment>
         <rdfs:label>Bioengineering</rdfs:label>
     </owl:Class>
@@ -4594,7 +4594,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115>The scientific study of the properties and applications of materials of construction or manufacture (such as ceramics, metals, polymers, and composites. [Merriam Webster Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Materials Science and Engineering</ontology:SRAO_0000268>
         <rdfs:comment>AL 10.4.2019: Placement within the hierarchy follows FAIRsharing curation choices; we have split &apos;Materials Science and Engineering&apos; to better focus on the various subjects that are primarily either Materials Engineering or Materials Science. On 23.5.18, the parent term &apos;Construction Engineering&apos; was added.</rdfs:comment>
         <rdfs:label xml:lang="en">Materials Science</rdfs:label>
@@ -4783,7 +4783,7 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1648"/>
         <obo:IAO_0000115>Construction Engineering - a professional discipline that deals with the designing, planning, construction, and management of infrastructures such as roads, tunnels, bridges, airports, railroads, facilities, buildings, dams, utilities and other projects. Construction Engineering is considered a professional sub-practice area of civil engineering or architectural engineering. [Wikipedia, PAM 27.02.2018]
 </obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Construction Engineering and Architecture</ontology:SRAO_0000268>
         <rdfs:comment>AL 23.5.18: The original &quot;Construction Engineering and Architecture&quot; class from re3data has been split into &quot;Construction Engineering&quot; and &quot;Architecture&quot;. Users have requested the single terms, and removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Construction Engineering</rdfs:label>
@@ -4796,7 +4796,7 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16304"/>
         <obo:IAO_0000115>Construction History is the history of how not only buildings are constructed, but also the construction of civil engineering and infrastructure. As such, it includes bridges, sewers, power stations, mills etc. as well as conventional buildings. In particular, the subject focuses on how these objects were constructed. [Adapted from http://www.constructionhistory.co.uk/about-construction-history-society/construction-history/, AL 08.05.18]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Architecture, Building and Construction History, Sustainable Building Technology, Building Design</ontology:SRAO_0000268>
         <rdfs:comment>AL 24.5.18: The original &quot;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&quot; class from re3data has been split into &quot;Construction History&quot;, &quot;Sustainable Building Technology&quot; and &quot;Building Design&quot;. &quot;Architecture&quot; is now the parent class, &quot;Building and Construction History&quot; have been consolidated into a single class to align with community usage and to remove it as a compound term. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label>Construction History</rdfs:label>
@@ -4822,7 +4822,7 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115>Building Engineering Physics investigates the areas of natural science that relate to the energy performance of buildings and their indoor and outdoor environments. The understanding and application of Building Engineering Physics allows us to design and construct high performance buildings which are comfortable and functional, yet use natural resources efficiently and minimise the environmental impacts of their construction and operation. It is related to Architecture, Structural Engineering and Building Services Engineering. [https://www.raeng.org.uk/news/news-releases/2010/January/engineering-a-low-carbon-built-environment, AL 08.05.18]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Construction Material Sciences, Chemistry, Building Physics</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL 23.5.18: Renamed to align with FAIRsharing best practices. &quot;Building Engineering Physics&quot; was chosen rather than &apos;Building Physics&apos; to match what appears to be common usage within the community.</rdfs:comment>
         <rdfs:label xml:lang="en">Building Engineering Physics</rdfs:label>
@@ -4850,7 +4850,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000215"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115 xml:lang="en">Applied Mechanics is the practical application of mechanics and bridges the gap between physical theory and its application to technology. It is used in many fields of engineering, especially Mechanical Engineering and Civil Engineering. [Adapted from Wikipedia, PAM 27.02.2018, updated AL 21.05.2019]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Applied Mechanics, Statics and Dynamics</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored &apos;Applied Mechanics, Statics and Dynamics&apos; into &apos;Applied Mechanics&apos; to simplify the term according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Applied Mechanics</rdfs:label>
@@ -4863,7 +4863,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000265">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115 xml:lang="en">Geotechnics is the application of science and technology to the management and utilization of the earth&apos;s physical resources. [Oxford English Dictionary, AL 08.05.18] It is the application of scientific methods and engineering principles to the acquisition, interpretation, and use of knowledge of materials of the Earth&apos;s crust and earth materials for the solution of engineering problems and the design of engineering works. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Geotechnics, Hydraulic Engineering</ontology:SRAO_0000268>
         <rdfs:comment>AL 23.5.18: The original &quot;Geotechnics, Hydraulic Engineering&quot; class from re3data has been split into &quot;Geotechnics&quot; and &quot;Hydraulic Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label>Geotechnics</rdfs:label>
@@ -4888,6 +4888,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000283">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
         <obo:IAO_0000115>Aerospace engineering is the field of engineering concerned with the development of aircraft and spacecraft. [Wikipedia https://en.wikipedia.org/wiki/Aerospace_engineering, AL 22.05.18]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">User request</obo:IAO_0000412>
         <rdfs:comment>AL 22.5.18: This class has been created based on requirements from FAIRsharing records rather than via the re3data import.</rdfs:comment>
         <rdfs:label xml:lang="en">Aerospace Engineering</rdfs:label>
     </owl:Class>
@@ -4901,7 +4902,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115 xml:lang="en">Building Informatics is an application of advanced information and knowledge handling techniques to construction management. [http://www.reading.ac.uk/nmsruntime/saveasdialog.aspx?lID=36891&amp;sID=195542&amp;ContentStatus=1, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Construction Informatics</obo:IAO_0000118>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 23.5.18: The original &quot;Structural Engineering, Building Informatics, Construction Operation&quot; class from re3data has been split into &quot;Structural Engineering&quot; and &quot;Building Informatics&quot;. Removal of compound terms aligns with FAIRsharing best practices. &quot;Construction Operation&quot; has been removed until it is clear what re3data intend with this discipline.</rdfs:comment>
         <rdfs:label xml:lang="en">Building Informatics</rdfs:label>
     </owl:Class>
@@ -4913,7 +4914,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000286">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115>Landscape Planning is concerned with developing landscaping amongst competing land uses while protecting natural processes and significant cultural and natural resources. [Wikipedia https://en.wikipedia.org/wiki/Landscape_planning, AL 08.05.18]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 24.5.18: The original &quot;Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning&quot; class from re3data has been split into &quot;Urban Planning&quot;, &quot;Transportation Planning&quot; and &quot;Landscape Planning&quot;. Urbanism and Spatial Planning have been consolidated into a single class as it provides an appropriate level of detail for FAIRsharing users. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Landscape Planning</rdfs:label>
     </owl:Class>
@@ -4926,7 +4927,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16304"/>
         <obo:IAO_0000115>Sustainable Building Technology is the application of processes that are environmentally responsible and resource-efficient throughout a building&apos;s life-cycle: from planning to design, construction, operation, maintenance, renovation, and demolition. This requires close cooperation of the contractor, the architects, the engineers, and the client at all project stages. [Wikipedia https://en.wikipedia.org/wiki/Green_building, AL 08.05.18]</obo:IAO_0000115>
         <obo:IAO_0000118>Green Building Technology</obo:IAO_0000118>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 24.5.18: The original &quot;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&quot; class from re3data has been split into &quot;Construction History&quot;, &quot;Sustainable Building Technology&quot; and &quot;Building Design&quot;. &quot;Architecture&quot; is now the parent class, &quot;Building and Construction History&quot; have been consolidated into a single class to align with community usage and to remove it as a compound term. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Sustainable Building Technology</rdfs:label>
     </owl:Class>
@@ -4938,7 +4939,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000288">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16304"/>
         <obo:IAO_0000115>Building design refers to the broadly based architectural, engineering and technical applications to the design of buildings. [Wikipedia https://en.wikipedia.org/wiki/Building_design, AL 08.05.18]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 24.5.18: The original &quot;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&quot; class from re3data has been split into &quot;Construction History&quot;, &quot;Sustainable Building Technology&quot; and &quot;Building Design&quot;. &quot;Architecture&quot; is now the parent class, &quot;Building and Construction History&quot; have been consolidated into a single class to align with community usage and to remove it as a compound term. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Building Design</rdfs:label>
     </owl:Class>
