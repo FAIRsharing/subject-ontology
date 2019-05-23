@@ -113,7 +113,6 @@ http://edamontology.org/topic_3409
 http://edamontology.org/topic_3410
 http://edamontology.org/topic_3414
 http://edamontology.org/topic_3415
-http://edamontology.org/topic_3416
 http://edamontology.org/topic_3417
 http://edamontology.org/topic_3418
 http://edamontology.org/topic_3419
@@ -188,7 +187,6 @@ http://purl.obolibrary.org/obo/NCIT_C16658 # Gynecology
 http://purl.obolibrary.org/obo/NCIT_C16715 # Immunogenetics
 http://purl.obolibrary.org/obo/NCIT_C16922 # Nuclear Medicine
 http://purl.obolibrary.org/obo/NCIT_C16928 # Obstetrics
-http://purl.obolibrary.org/obo/NCIT_C16942 # Orthopedics
 http://purl.obolibrary.org/obo/NCIT_C17028 # Clinical Psychology
 http://purl.obolibrary.org/obo/NCIT_C17030 # Educational Psychology
 http://purl.obolibrary.org/obo/NCIT_C17038 # Psychosomatic Medicine

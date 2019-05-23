@@ -987,18 +987,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3416 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3416">
-        <obo:IAO_0000115>The branch of medicine that deals with the prevention, diagnosis, and treatment of disorders of the muscle, bone and connective tissue.  It incorporates aspects of orthopaedics, rheumatology, rehabilitation medicine and pain medicine.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Musculoskeletal disorders</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Orthopaedics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Rheumatology</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3417 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3417">
