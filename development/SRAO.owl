@@ -2924,6 +2924,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/OMIT_0013823 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0013823">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_7132"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17039"/>
         <obo:IAO_0000115 xml:lang="en">Social Medicine is a branch of science concerned with social and economic aspects of health, disease, and medical care [Adapted from OED, AL 1.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
@@ -5209,6 +5210,18 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Traumatology and Orthopaedics&apos; into &apos;Traumatology&apos; and &apos;Orthopaedic Surgery&apos; according to FAIRsharing curation best practises. &apos;Orthopedics&apos; itself as a medical discipline is listed as a synonym of &apos;Musculoskeletal Medicine&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Orthopedic Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000315 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0013823"/>
+        <obo:IAO_0000115 xml:lang="en">Community care services are intended to help people who need care and support to live with dignity and independence in the community and to avoid social isolation. The services are aimed at the elderly and those who have mental illness, learning disability and physical disability. The main aim in providing community care services is to enable people to remain living in their own homes and to retain as much independence as possible, avoiding social isolation. [https://patient.info/doctor/community-care, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Care in the Community</obo:IAO_0000118>
+        <obo:IAO_0000412 xml:lang="en">Curator request</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Community Care</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
