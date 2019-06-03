@@ -231,7 +231,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
         <obo:IAO_0000115>Civil engineering is the branch of engineering that deals with the design, construction, and maintenance of works of public utility, especially those relating to social infrastructure. [Oxford English Dictionary, AL 08.05.18]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
-        <rdfs:label>Civil Engineering</rdfs:label>
+        <rdfs:label xml:lang="en">Civil Engineering</rdfs:label>
     </owl:Class>
     
 
@@ -437,7 +437,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 23.5.18: The original &quot;Geotechnics, Hydraulic Engineering&quot; class from re3data has been split into &quot;Geotechnics&quot; and &quot;Hydraulic Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <rdfs:label>Hydraulic Engineering</rdfs:label>
+        <rdfs:label xml:lang="en">Hydraulic Engineering</rdfs:label>
     </owl:Class>
     
 
@@ -460,11 +460,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_37948">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115>Urban Planning is the planning and regulation of building, development, reconstruction, etc., in an urban area [Oxford English Dictionary, AL 08.05.18]</obo:IAO_0000115>
-        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning</ontology:SRAO_0000268>
         <rdfs:comment>AL 23.5.18: The original &quot;Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning&quot; class from re3data has been split into &quot;Urban Planning&quot;, &quot;Transportation Planning&quot; and &quot;Landscape Planning&quot;. Urbanism and Spatial Planning have been consolidated into a single class as it provides an appropriate level of detail for FAIRsharing users. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <rdfs:label>Urban Planning</rdfs:label>
+        <rdfs:label xml:lang="en">Urban Planning</rdfs:label>
     </owl:Class>
     
 
@@ -2045,7 +2045,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 23.5.18: The original &quot;Construction Engineering and Architecture&quot; class from re3data has been split into &quot;Construction Engineering&quot; and &quot;Architecture&quot;. Users have requested the single terms, and removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <rdfs:label>Architecture</rdfs:label>
+        <rdfs:label xml:lang="en">Architecture</rdfs:label>
     </owl:Class>
     
 
@@ -2495,7 +2495,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health. [ NCIT, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Added parent &apos;Engineering Sciences&apos; to align with the structure found within NCIT.</rdfs:comment>
-        <rdfs:label>Bioengineering</rdfs:label>
+        <rdfs:label xml:lang="en">Bioengineering</rdfs:label>
     </owl:Class>
     
 
@@ -3028,7 +3028,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Placement within this hierarchy partially follows original placement within the OMIT hierarchy (which placed &apos;Synthetic Biology&apos; as a child of both &apos;Biology&apos; and &apos;Bioengineering&apos;. We just use &apos;Bioengineering&apos;, which itself is within the &apos;Biology&apos; hierarchy.</rdfs:comment>
         <rdfs:comment>PAM 27.02.2018: Cannot find placement in OMIT hierarchy, so taken definition from MeSH.</rdfs:comment>
-        <rdfs:label>Synthetic Biology</rdfs:label>
+        <rdfs:label xml:lang="en">Synthetic Biology</rdfs:label>
     </owl:Class>
     
 
@@ -4066,7 +4066,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
         <obo:IAO_0000115 xml:lang="en">Solid-state chemistry, also sometimes referred as materials chemistry, is the study of the synthesis, structure, and properties of solid phase materials, particularly, but not necessarily exclusively of, non-molecular solids. [Wikipedia, https://en.wikipedia.org/wiki/Solid-state_chemistry, 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Materials Chemistry</obo:IAO_0000118>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Physical Chemistry of Solids and Surfaces, Material Characterisation</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Chemical Solid State and Surface Research&apos; into &apos;Physical Chemistry&apos;, and refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises. Refactored &apos;Physical Chemistry of Solids and Surfaces, Material Characterisation&apos; into &apos;Solid-State Chemistry&apos;, and &apos;Surface Science&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Solid-State Chemistry</rdfs:label>
@@ -4105,7 +4105,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0027298"/>
         <obo:IAO_0000115 xml:lang="en">Biomimetic chemistry deals with chemical systems that can simulate biological phenomena, particularly catalysis and specificity. [https://doi.org/10.1016/B978-0-08-026220-8.50026-9, AL 14.05.2019]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Biological and Biomimetic Chemistry</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Biological and Biomimetic Chemistry&apos; into &apos;Biomimetic Chemistry&apos; according to FAIRsharing curation best practises. Also removed Biochemistry as a child and made it a sibling class, as Biochemistry is not a subset of Biomimetic Chemistry.</rdfs:comment>
         <rdfs:label xml:lang="en">Biomimetic Chemistry</rdfs:label>
@@ -4133,7 +4133,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115 xml:lang="en">Polymer science is subfield of Materials Science concerned with polymers, primarily synthetic polymers such as plastics and elastomers. The field of polymer science includes researchers in multiple disciplines including chemistry, physics, and engineering. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Polymer_science, AL 21.05.2109]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Macromolecular Science</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Polymer Science</obo:IAO_0000118>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Polymer Research</rdfs:label>
     </owl:Class>
     
@@ -4144,7 +4144,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000179">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000178"/>
         <obo:IAO_0000115 xml:lang="en">Polymer Chemistry is a subtype of Polymer Research that focuses on the chemical synthesis, structure, chemical and physical properties of polymers and macromolecules. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Polymer_chemistry, 2.4.2019]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Preparatory and Physical Chemistry of Polymers</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Preparatory and Physical Chemistry of Polymers&apos; into &apos;Polymer Chemistry&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Polymer Chemistry</rdfs:label>
@@ -4158,7 +4158,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000178"/>
         <obo:IAO_0000115 xml:lang="en">Polymer physics is the field of physics that studies polymers, their fluctuations, mechanical properties, as well as the kinetics of reactions involving degradation and polymerisation of polymers and monomers respectively. [Wikipedia https://en.wikipedia.org/wiki/Polymer_physics, 2.4.2019]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Experimental and Theoretical Physics of Polymers</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Experimental and Theoretical Physics of Polymers&apos; into &apos;Polymer Physics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Polymer Physics</rdfs:label>
@@ -4559,7 +4559,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16413"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
         <obo:IAO_0000115 xml:lang="en">Functional Materials Research is concerned with materials which possess particular native properties and functions of their own, such as ferroelectricity, piezoelectricity, magnetism or energy storage functions. Functional materials are found in all classes of materials: ceramics, metals, polymers and organic molecules. Functional materials are often used in electromagnetic applications from KHz to THz and at optical frequencies where the plasmonic properties of metals assume particular importance. Functional materials are also of critical importance in materials for energy such as electro- and magnetocaloric materials, for energy storage and for solar harvesting functions. [Adapted from http://www.imperial.ac.uk/materials/research/functional/, Al 14.5.2019]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Synthesis and Properties of Functional Materials</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Synthesis and Properties of Functional Materials&apos; into &apos;Functional Materials Research&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Functional Materials Research</rdfs:label>
@@ -4571,7 +4571,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000239">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Microstructural Mechanical Properties of Materials</rdfs:label>
     </owl:Class>
     
@@ -4582,7 +4582,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000240">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
         <obo:IAO_0000115 xml:lang="en">Materials Structuring and Functionalisation is a type of Materials Science where surfaces of materials attain desired functionalities through the use of surface structuring. [Adapted from https://www.lzh.de/en/services-for-industry/functionalization-and-structuring-of-surfaces, AL 3.4.2019]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Structuring and Functionalisation</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Renamed re3data class &apos;Structuring and Functionalisation&apos; into the more descriptive &apos;Materials Structuring and Functionalisation&apos;. Definitions and common usage show that the composite term &apos;Materials Structuring and Functionalisation&apos; should not be further divided.</rdfs:comment>
         <rdfs:label xml:lang="en">Materials Structuring and Functionalisation</rdfs:label>
@@ -4750,7 +4750,7 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Architecture, Building and Construction History, Sustainable Building Technology, Building Design</ontology:SRAO_0000268>
         <rdfs:comment>AL 24.5.18: The original &quot;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&quot; class from re3data has been split into &quot;Construction History&quot;, &quot;Sustainable Building Technology&quot; and &quot;Building Design&quot;. &quot;Architecture&quot; is now the parent class, &quot;Building and Construction History&quot; have been consolidated into a single class to align with community usage and to remove it as a compound term. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <rdfs:label>Construction History</rdfs:label>
+        <rdfs:label xml:lang="en">Construction History</rdfs:label>
     </owl:Class>
     
 
@@ -4760,9 +4760,9 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000261">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115>Transport Planning is the process of defining future policies, goals, investments, and designs to prepare for future needs to move people and goods to destinations. It is involved with the evaluation, assessment, design, and siting of transport facilities (generally streets, highways, bike lanes, and public transport lines). [Wikipedia https://en.wikipedia.org/wiki/Transportation_planning, AL 08.05.18]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 23.5.18: The original &quot;Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning&quot; class from re3data has been split into &quot;Urban Planning&quot;, &quot;Transportation Planning&quot; and &quot;Landscape Planning&quot;. Urbanism and Spatial Planning have been consolidated into a single class as it provides an appropriate level of detail for FAIRsharing users. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <rdfs:label>Transportation Planning</rdfs:label>
+        <rdfs:label xml:lang="en">Transportation Planning</rdfs:label>
     </owl:Class>
     
 
@@ -4787,10 +4787,10 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115>Structural engineering is a sub-discipline of civil engineering in which structural engineers are trained to understand, predict, and calculate the stability, strength and rigidity of built structures for buildings and nonbuilding structures, to develop designs and integrate their design with that of other designers, and to supervise construction of projects on site. [Wikipedia, PAM 27.02.2018]
 Structural Engineering is the branch of civil engineering concerned with the analysis and design of large buildings and load-bearing structures. [Oxford English Dictionary, AL 08.15.18]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Sructural Engineering, Building Informatics, Construction Operation</ontology:SRAO_0000268>
         <rdfs:comment>AL 23.5.18: The original &quot;Structural Engineering, Building Informatics, Construction Operation&quot; class from re3data has been split into &quot;Structural Engineering&quot; and &quot;Building Informatics&quot;. Removal of compound terms aligns with FAIRsharing best practices. &quot;Construction Operation&quot; has been removed until it is clear what re3data intend with this discipline.</rdfs:comment>
-        <rdfs:label>Structural Engineering</rdfs:label>
+        <rdfs:label xml:lang="en">Structural Engineering</rdfs:label>
     </owl:Class>
     
 
@@ -4817,7 +4817,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Geotechnics, Hydraulic Engineering</ontology:SRAO_0000268>
         <rdfs:comment>AL 23.5.18: The original &quot;Geotechnics, Hydraulic Engineering&quot; class from re3data has been split into &quot;Geotechnics&quot; and &quot;Hydraulic Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <rdfs:label>Geotechnics</rdfs:label>
+        <rdfs:label xml:lang="en">Geotechnics</rdfs:label>
     </owl:Class>
     
 
