@@ -689,12 +689,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_9000089">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <obo:IAO_0000115>Knowledge and Information systems create, share, and manage knowledge and information. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Operating, Communication and Information Systems</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL 20.5.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Operating, Communication and Information Systems&apos; by merging and aligning with its child class &apos;Knowledge and Information Systems&apos; according to FAIRsharing curation best practises. We already cover communications via 1) the inclusion of communications systems as part of this class, and 2) the prescence of Telecommunications Engineering. Further, Operating Systems has been deemed as not in scope for SRAO.</rdfs:comment>
-        <rdfs:label>Knowledge And Information Systems</rdfs:label>
+        <rdfs:label xml:lang="en">Knowledge and Information Systems</rdfs:label>
     </owl:Class>
     
 
@@ -768,9 +768,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0092">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <obo:IAO_0000115>Data visualization is a general term that describes any effort to help people understand the significance of data by placing it in a visual context. [PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <ontology:SRAO_0000269>Data visualisation</ontology:SRAO_0000269>
-        <rdfs:label>Data visualization</rdfs:label>
+        <rdfs:label xml:lang="en">Data Visualization</rdfs:label>
     </owl:Class>
     
 
@@ -973,8 +973,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_2259">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Systems biology</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Systems Biology</rdfs:label>
     </owl:Class>
     
 
@@ -1590,11 +1590,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3397">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:DRAO_0000001>Veterinary Science</ontology:DRAO_0000001>
         <ontology:SRAO_0000268 xml:lang="en">Basic Veterinary Medical Science</ontology:SRAO_0000268>
-        <rdfs:label>Veterinary medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Veterinary Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -1818,8 +1818,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3423">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Traditional medicine</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Traditional Medicine</rdfs:label>
     </owl:Class>
     
 
