@@ -752,13 +752,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0091">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Bioinformatics and Theoretical Biology</ontology:SRAO_0000268>
         <ontology:SRAO_0000269>Bioinformatics tools and formats</ontology:SRAO_0000269>
         <rdfs:comment>AL 27.9.17 Bioinformatics is asserted as a child of Informatics by EDAM and as a child of Biology within re3data. Within FAIRsharing, this term used to be labelled &apos;Bioinformatics tools and formats&apos;, but has been modified for simplicity. Within re3data, this term used to be labelled &apos;Bioinformatics and Theoretical Biology&apos; but was simplified as these are two distinct disciplines. Currently Theoretical Biology has not been re-introduced, but this may need to be revisited in future.</rdfs:comment>
-        <rdfs:comment>Should &apos;Informatics&apos;-&gt;&apos;Bioinformatics&apos; be under &apos;Engineering Science&apos; rather than &apos;Life Sciences&apos;? PAM 27.02.2018</rdfs:comment>
-        <rdfs:label>Bioinformatics</rdfs:label>
+        <rdfs:label xml:lang="en">Bioinformatics</rdfs:label>
     </owl:Class>
     
 
@@ -870,9 +869,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0605">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <obo:IAO_0000115>The science of processing data for storage and retrieval; information science. [Oxford English Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 26.9.17 Informatics is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to &apos;Computer Science&apos;.</rdfs:comment>
-        <rdfs:label>Informatics</rdfs:label>
+        <rdfs:label xml:lang="en">Informatics</rdfs:label>
     </owl:Class>
     
 
@@ -961,10 +960,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 27.9.17 Cheminformatics is asserted as a child of Informatics by EDAM,  and also as a child of Chemistry and Biology within FAIRsharing. This &apos;subClass of Bioinformatics&apos; assertion is based on the definition of Cheminformatics as provided by EDAM: &quot;The application of information technology to chemistry in biological research environment.&quot; However, this may need to be revisited at some point in the future.
 </rdfs:comment>
-        <rdfs:label>Cheminformatics</rdfs:label>
+        <rdfs:label xml:lang="en">Cheminformatics</rdfs:label>
     </owl:Class>
     
 
@@ -1108,9 +1107,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3071">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Some disciplines within this sub-hierarchy are on the border of what FAIRsharing would consider a discipline. Some extra work in this section of the hierarchy may be needed in future.</rdfs:comment>
-        <rdfs:label>Data Management</rdfs:label>
+        <rdfs:label xml:lang="en">Data Management</rdfs:label>
     </owl:Class>
     
 
@@ -1119,8 +1118,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3077">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Data Aquisition</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Data Aquisition</rdfs:label>
     </owl:Class>
     
 
@@ -1338,8 +1337,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
         <obo:IAO_0000115>Computer Science - The study of the principles and use of computers. [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 20.05.2019: &apos;Computer Science&apos; is asserted as a child of &apos;Computer Science, Electrical and System Engineering&apos; by re3data (which has now been simplified and removed, making this class a direct child of Engineering Science), and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
         <rdfs:label xml:lang="en">Computer Science</rdfs:label>
     </owl:Class>
@@ -1829,8 +1828,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3473">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <obo:IAO_0000115>Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Data Mining</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Data Mining</rdfs:label>
     </owl:Class>
     
 
@@ -1879,8 +1878,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3572">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Data Quality Management</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Data Quality Management</rdfs:label>
     </owl:Class>
     
 
@@ -1973,9 +1972,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C119712">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0091"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
-        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 12.12.17 Child of Bioinformatics (to align with NCIT) and also of Genomics, to align with FAIRsharing usage.</rdfs:comment>
-        <rdfs:label>Proteogenomics</rdfs:label>
+        <rdfs:label xml:lang="en">Proteogenomics</rdfs:label>
     </owl:Class>
     
 
@@ -2070,7 +2069,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <obo:IAO_0000115 xml:lang="en">Artificial Intelligence is the field of study concerned with the capacity of computers or other machines to exhibit or simulate intelligent behaviour. [Adapted from OED, 20.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Artificial Intelligence, Image and Language Processing</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Artificial Intelligence, Image and Language Processing&apos; into sibling classes &apos;Artificial Intelligence&apos; and &apos;Digital Image Processing&apos;, with &apos;Natural Language Processing&apos; as a child term of &apos;Artificial Intelligence&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Artificial Intelligence</rdfs:label>
@@ -2533,7 +2532,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000173"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:label>Computational Chemistry</rdfs:label>
+        <rdfs:label xml:lang="en">Computational Chemistry</rdfs:label>
     </owl:Class>
     
 
@@ -4720,7 +4719,7 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000258">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <obo:IAO_0000115 xml:lang="en">Computer Architecture is a field concerned with the set of rules and methods that describe the functionality, organization, and implementation of computer systems. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Computer_architecture, AL 2.4.2019]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Computer Architecture and Embedded Systems</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Computer Architecture and Embedded Systems&apos; into &apos;Computer Architecture&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Computer Architecture</rdfs:label>
