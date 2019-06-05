@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl#"
      xml:base="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ontology="http://www.fairsharing.org/ontology/"
      xmlns:edamontology="http://edamontology.org/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl"/>
@@ -20,27 +21,41 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000292"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>DEFINITION</ontology:SRAO_0000276>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>DEFINITION</ontology:SRAO_0000276>
-    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000269 -->
+
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000269"/>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000276 -->
+
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000276"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000292 -->
 
+    <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000292"/>
     
 
 
@@ -58,13 +73,13 @@
     <!-- http://edamontology.org/topic_0084 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0084">
-        <ontology:SRAO_0000269>Phylogeny reconstruction</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Phylogenetic stratigraphy</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Phylogenetic simulation</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Phylogenetic dating</ontology:SRAO_0000269>
         <obo:IAO_0000115>The study of evolutionary relationships amongst organisms.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Phylogenetic clocks</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Phylogenetic clocks</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Phylogenetic dating</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Phylogenetic simulation</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Phylogenetic stratigraphy</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Phylogeny reconstruction</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -81,12 +96,12 @@
     <!-- http://edamontology.org/topic_0089 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0089">
-        <ontology:SRAO_0000269>Ontology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Ontologies</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Terminology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Applied ontology</ontology:SRAO_0000269>
         <obo:IAO_0000115>The conceptualisation, categorisation and nomenclature (naming) of entities or phenomena within biology or bioinformatics. This includes formal ontologies, controlled vocabularies, structured glossary, symbols and terminology or other related resource.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Applied ontology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Ontologies</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Ontology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Terminology</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -103,9 +118,9 @@
     <!-- http://edamontology.org/topic_0092 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0092">
-        <ontology:SRAO_0000269>Data rendering</ontology:SRAO_0000269>
         <obo:IAO_0000115>Rendering (drawing on a computer screen) or visualisation of molecular sequences, structures or other biomolecular data.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Data rendering</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -113,13 +128,13 @@
     <!-- http://edamontology.org/topic_0121 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0121">
-        <ontology:SRAO_0000269>Targeted proteomics</ontology:SRAO_0000269>
         <obo:IAO_0000115>Protein and peptide identification, especially in the study of whole proteomes of organisms.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Protein and peptide identification</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Metaproteomics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Discovery proteomics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Peptide identification</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Discovery proteomics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Metaproteomics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Peptide identification</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Protein and peptide identification</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Targeted proteomics</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -137,8 +152,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_0176">
         <obo:IAO_0000115>The study and simulation of molecular (typically protein) conformation using a computational model of physical forces and computer simulation.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Protein dynamics</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Protein dynamics</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -156,9 +171,9 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_0202">
         <obo:IAO_0000115>The study of drugs and their effects or responses in living systems. </obo:IAO_0000115>
-        <ontology:SRAO_0000269>Pharmacoinformatics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Computational pharmacology</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Computational pharmacology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Pharmacoinformatics</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -167,8 +182,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_0208">
         <obo:IAO_0000115>The influence of genotype on drug response, for example by correlating gene expression or single-nucleotide polymorphisms with drug efficacy or toxicity.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Pharmacogenetics</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Pharmacogenetics</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -176,9 +191,9 @@
     <!-- http://edamontology.org/topic_0209 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0209">
-        <ontology:SRAO_0000269>Drug design</ontology:SRAO_0000269>
         <obo:IAO_0000115>The design and chemical synthesis of bioactive molecules, for example drugs or potential drug compounds, for medicinal purposes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Drug design</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -186,9 +201,9 @@
     <!-- http://edamontology.org/topic_0219 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0219">
-        <ontology:SRAO_0000269>Database curation</ontology:SRAO_0000269>
         <obo:IAO_0000115>Deposition and curation of database accessions, including annotation, typically with terms from a controlled vocabulary.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Database curation</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -197,10 +212,10 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_0605">
         <obo:IAO_0000115>The study and practice of information processing and use of computer information systems.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Knowledge management</ontology:SRAO_0000269>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <ontology:SRAO_0000269>Information management</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Information science</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Knowledge management</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -208,11 +223,11 @@
     <!-- http://edamontology.org/topic_0622 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0622">
-        <ontology:SRAO_0000269>Genome annotation</ontology:SRAO_0000269>
         <obo:IAO_0000115>Whole genomes of one or more organisms, or genomes in general, such as meta-information on genomes, genome projects, gene names etc.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Genome annotation</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Personal genomics</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Viral genomics</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
@@ -229,12 +244,12 @@
     <!-- http://edamontology.org/topic_0780 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0780">
-        <ontology:SRAO_0000269>Plant science</ontology:SRAO_0000269>
+        <obo:IAO_0000115>Plants, e.g. information on a specific plant genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <ontology:SRAO_0000269>Botany</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Plant</ontology:SRAO_0000269>
-        <obo:IAO_0000115>Plants, e.g. information on a specific plant genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
+        <ontology:SRAO_0000269>Plant science</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Plants</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
@@ -260,11 +275,11 @@
     <!-- http://edamontology.org/topic_1317 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_1317">
-        <ontology:SRAO_0000269>Structural assignment</ontology:SRAO_0000269>
         <obo:IAO_0000115>The molecular structure of biological molecules, particularly macromolecules such as proteins and nucleic acids.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Structure determination</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Structural determination</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Structural assignment</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Structural determination</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Structure determination</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -273,8 +288,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_2229">
         <obo:IAO_0000115>Cells, such as key genes and proteins involved in the cell cycle.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Cellular processes</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Cellular processes</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -282,10 +297,10 @@
     <!-- http://edamontology.org/topic_2258 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2258">
-        <ontology:SRAO_0000269>Chemoinformatics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Chemical informatics</ontology:SRAO_0000269>
         <obo:IAO_0000115>The application of information technology to chemistry in biological research environment.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Chemical informatics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Chemoinformatics</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -293,10 +308,10 @@
     <!-- http://edamontology.org/topic_2259 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2259">
-        <ontology:SRAO_0000269>Biological modelling</ontology:SRAO_0000269>
         <obo:IAO_0000115>The holistic modelling and analysis of complex biological systems and the interactions therein.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Biological system modelling</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Biological modelling</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Biological system modelling</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -305,11 +320,11 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_2640">
         <obo:IAO_0000115>The study of cancer, for example, genes and proteins implicated in cancer.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Neoplasms</ontology:SRAO_0000269>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Cancer</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Cancer biology</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Neoplasm</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Cancer</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Neoplasms</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -318,8 +333,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_2815">
         <obo:IAO_0000115>The study of human beings in general, including the human genome and proteome.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Humans</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Humans</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -328,9 +343,9 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_2840">
         <obo:IAO_0000115>Toxins and the adverse effects of these chemical substances on living organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <ontology:SRAO_0000269>Computational toxicology</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Toxicoinformatics</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
@@ -357,8 +372,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3053">
         <obo:IAO_0000115>The study of genes, genetic variation and heredity in living organisms.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Heredity</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Heredity</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -447,10 +462,10 @@
     <!-- http://edamontology.org/topic_3174 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3174">
-        <ontology:SRAO_0000269>Shotgun metagenomics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Biome sequencing</ontology:SRAO_0000269>
         <obo:IAO_0000115>The study of genetic material recovered from environmental samples, and associated environmental data.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Biome sequencing</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Shotgun metagenomics</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -458,9 +473,9 @@
     <!-- http://edamontology.org/topic_3263 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3263">
-        <ontology:SRAO_0000269>Data privacy</ontology:SRAO_0000269>
         <obo:IAO_0000115>The protection of data, such as patient health data, from damage or unwanted access from unauthorised users.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Data privacy</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -468,9 +483,9 @@
     <!-- http://edamontology.org/topic_3292 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3292">
-        <ontology:SRAO_0000269>Biological chemistry</ontology:SRAO_0000269>
         <obo:IAO_0000115>Chemical substances and physico-chemical processes and that occur within living organisms.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Biological chemistry</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -487,10 +502,10 @@
     <!-- http://edamontology.org/topic_3295 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3295">
-        <ontology:SRAO_0000269>Histone modification</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>DNA methylation</ontology:SRAO_0000269>
         <obo:IAO_0000115>Topic concerning the study of heritable changes, for example in gene expression or phenotype, caused by mechanisms other than changes in the DNA sequence.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>DNA methylation</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Histone modification</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -534,11 +549,11 @@
     <!-- http://edamontology.org/topic_3301 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3301">
-        <ontology:SRAO_0000269>Antimicrobial stewardship</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Microbiological surveillance</ontology:SRAO_0000269>
         <obo:IAO_0000115>The biology of microorganisms.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Microbial surveillance</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Antimicrobial stewardship</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Microbial surveillance</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Microbiological surveillance</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -555,13 +570,13 @@
     <!-- http://edamontology.org/topic_3303 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3303">
-        <ontology:SRAO_0000269>Internal medicine</ontology:SRAO_0000269>
         <obo:IAO_0000115>Research in support of healing by diagnosis, treatment, and prevention of disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <ontology:SRAO_0000269>Biomedical research</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Clinical medicine</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>General medicine</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Experimental medicine</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>General medicine</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Internal medicine</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -579,10 +594,10 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3307">
         <obo:IAO_0000115>The development and application of theory, analytical methods, mathematical models and computational simulation of biological systems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <ontology:SRAO_0000269>Biomathematics</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Mathematical biology</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Theoretical biology</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
@@ -590,11 +605,11 @@
     <!-- http://edamontology.org/topic_3308 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3308">
-        <ontology:SRAO_0000269>Metatranscriptomics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Comparative transcriptomics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Transcriptome</ontology:SRAO_0000269>
         <obo:IAO_0000115>The analysis of transcriptomes, or a set of all the RNA molecules in a specific cell, tissue etc.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Comparative transcriptomics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Metatranscriptomics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Transcriptome</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -603,8 +618,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3315">
         <obo:IAO_0000115>The study of numbers (quantity) and other topics including structure, space, and change.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Maths</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Maths</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -640,8 +655,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3334">
         <obo:IAO_0000115>The branch of medicine that deals with the anatomy, functions and disorders of the nervous system.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Neurological disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Neurological disorders</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -658,7 +673,7 @@
     <!-- http://edamontology.org/topic_3342 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3342">
-        <obo:IAO_0000115>&#39;translating&#39; the output of basic and biomedical research into better diagnostic tools, medicines, medical procedures, policies and advice.</obo:IAO_0000115>
+        <obo:IAO_0000115>&apos;translating&apos; the output of basic and biomedical research into better diagnostic tools, medicines, medical procedures, policies and advice.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -695,8 +710,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3371">
         <obo:IAO_0000115>The use of chemistry to create new compounds.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Synthetic organic chemistry</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Synthetic organic chemistry</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -704,13 +719,13 @@
     <!-- http://edamontology.org/topic_3372 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3372">
-        <ontology:SRAO_0000269>Computer programming</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Algorithms</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Software development</ontology:SRAO_0000269>
         <obo:IAO_0000115>The process that leads from an original formulation of a computing problem to executable programs.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Data structures</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269> Programming languages</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269> Programming languages</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Algorithms</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Computer programming</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Data structures</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Software development</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -719,10 +734,10 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3373">
         <obo:IAO_0000115>The process of bringing a new drug to market once a lead compounds has been identified through drug discovery.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <ontology:SRAO_0000269>Drug development science</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Medicine development</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Medicines development</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
@@ -740,14 +755,14 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3375">
         <obo:IAO_0000115>The study of how a drug interacts with the body.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Drug excretion</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Pharmacokinetics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Pharmacodynamics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Pharmacokinetics and pharmacodynamics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Drug absorption</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>ADME</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Drug distribution</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>ADME</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Drug absorption</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Drug distribution</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Drug excretion</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Pharmacodynamics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Pharmacokinetics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Pharmacokinetics and pharmacodynamics</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -756,8 +771,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3376">
         <obo:IAO_0000115>The discovery, development and approval of medicines.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Drug discovery and development</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Drug discovery and development</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -766,8 +781,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3377">
         <obo:IAO_0000115>The safety (or lack) of drugs and other medical interventions.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Drug safety</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Drug safety</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -793,10 +808,10 @@
     <!-- http://edamontology.org/topic_3390 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3390">
-        <ontology:SRAO_0000269>Nutrition science</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Dietetics</ontology:SRAO_0000269>
         <obo:IAO_0000115>The study of the effects of food components on the metabolism, health, performance and disease resistance of humans and animals.  It also includes the study of human behaviours related to food choices.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Dietetics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Nutrition science</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -814,8 +829,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3395">
         <obo:IAO_0000115>Biomedical approaches to clinical interventions that involve the use of stem cells.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Stem cell research</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Stem cell research</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -841,9 +856,9 @@
     <!-- http://edamontology.org/topic_3399 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3399">
-        <ontology:SRAO_0000269>Geriatrics</ontology:SRAO_0000269>
         <obo:IAO_0000115>The branch of medicine dealing with the diagnosis, treatment and prevention of disease in older people, and the problems specific to aging.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Geriatrics</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -851,9 +866,9 @@
     <!-- http://edamontology.org/topic_3401 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3401">
-        <ontology:SRAO_0000269>Algiatry</ontology:SRAO_0000269>
         <obo:IAO_0000115>The prevention of pain and the evaluation, treatment and rehabilitation of persons in pain.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Algiatry</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -861,9 +876,9 @@
     <!-- http://edamontology.org/topic_3402 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3402">
-        <ontology:SRAO_0000269>Anaesthetics</ontology:SRAO_0000269>
         <obo:IAO_0000115>Anaesthesia and anaesthetics.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Anaesthetics</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -872,9 +887,9 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3403">
         <obo:IAO_0000115>The multidisciplinary that cares for patients with acute, life-threatening illness or injury.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Emergency medicine</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Acute medicine</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Acute medicine</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Emergency medicine</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -883,8 +898,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3404">
         <obo:IAO_0000115>The branch of medicine that deals with prevention, diagnosis and treatment of disorders of the skin, scalp, hair and nails.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Dermatological disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Dermatological disorders</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -901,12 +916,12 @@
     <!-- http://edamontology.org/topic_3406 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3406">
-        <ontology:SRAO_0000269>Head and neck disorders</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Audiovestibular medicine</ontology:SRAO_0000269>
         <obo:IAO_0000115>The branch of medicine that deals with the prevention, diagnosis, and treatment of disorders of the ear, nose and throat.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Audiovestibular medicine</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Head and neck disorders</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Otolaryngology</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Otorhinolaryngology</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
@@ -915,11 +930,11 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3407">
         <obo:IAO_0000115>The branch of medicine dealing with diseases of endocrine organs, hormone systems, their target organs, and disorders of the pathways of glucose and lipid metabolism.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Metabolism</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Endocrinology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Endocrine disorders</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Metabolic disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Endocrine disorders</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Endocrinology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Metabolic disorders</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Metabolism</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -927,10 +942,10 @@
     <!-- http://edamontology.org/topic_3408 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3408">
-        <ontology:SRAO_0000269>Blood disorders</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Haematological disorders</ontology:SRAO_0000269>
         <obo:IAO_0000115>The branch of medicine that deals with the blood, blood-forming organs and blood diseases.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Blood disorders</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Haematological disorders</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -939,8 +954,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3409">
         <obo:IAO_0000115>The branch of medicine that deals with disorders of the oesophagus, stomach, duodenum, jejenum, ileum, large intestine, sigmoid colon and rectum.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Gastrointestinal disorders</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Gastrointestinal disorders</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -975,9 +990,9 @@
     <!-- http://edamontology.org/topic_3417 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3417">
-        <ontology:SRAO_0000269>Eye disoders</ontology:SRAO_0000269>
         <obo:IAO_0000115>The branch of medicine that deals with disorders of the eye, including eyelid, optic nerve/visual pathways and occular muscles.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Eye disoders</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -985,9 +1000,9 @@
     <!-- http://edamontology.org/topic_3418 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3418">
-        <ontology:SRAO_0000269>Child health</ontology:SRAO_0000269>
         <obo:IAO_0000115>The branch of medicine that deals with the medical care of infants, children and adolescents.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Child health</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -995,9 +1010,9 @@
     <!-- http://edamontology.org/topic_3419 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3419">
-        <ontology:SRAO_0000269>Psychiatric disorders</ontology:SRAO_0000269>
         <obo:IAO_0000115>The branch of medicine that deals with the mangement of mental illness, emotional disturbance and abnormal behaviour.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Psychiatric disorders</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -1005,12 +1020,12 @@
     <!-- http://edamontology.org/topic_3420 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3420">
-        <ontology:SRAO_0000269>Reproductive disorders</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Family planning</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Fertility medicine</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Andrology</ontology:SRAO_0000269>
         <obo:IAO_0000115>The health of the reproductive processes, functions and systems at all stages of life.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Andrology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Family planning</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Fertility medicine</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Reproductive disorders</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -1018,9 +1033,9 @@
     <!-- http://edamontology.org/topic_3421 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3421">
-        <ontology:SRAO_0000269>Transplantation</ontology:SRAO_0000269>
         <obo:IAO_0000115>The use of operative, manual and instrumental techniques on a patient to investigate and/or treat a pathological condition or help improve bodily function or appearance.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Transplantation</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -1038,8 +1053,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3473">
         <obo:IAO_0000115>The discovery of patterns in large data sets and the extraction and trasnsformation of those patterns into a useful format.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Pattern recognition</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Pattern recognition</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -1047,17 +1062,17 @@
     <!-- http://edamontology.org/topic_3489 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3489">
-        <ontology:SRAO_0000269>Record management</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Content management</ontology:SRAO_0000269>
         <obo:IAO_0000115>The general handling of data stored in digital archives such as databanks, databases proper, web portals and other data resources.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Document, record and content management</ontology:SRAO_0000269>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <ontology:SRAO_0000269>Biological databases</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Content management</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Data maintenance</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>File management</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Database administration</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Databases</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Document management</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Database administration</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Document, record and content management</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>File management</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Record management</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -1084,8 +1099,8 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3571">
         <obo:IAO_0000115>The control of data entry and maintenance to ensure the data meets defined standards, qualities or constraints.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Data stewardship</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Data stewardship</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -1093,11 +1108,11 @@
     <!-- http://edamontology.org/topic_3572 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3572">
+        <obo:IAO_0000115>The quality, integrity, and cleaning up of data. </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <ontology:SRAO_0000269>Data clean-up</ontology:SRAO_0000269>
         <ontology:SRAO_0000269>Data integrity</ontology:SRAO_0000269>
-        <obo:IAO_0000115>The quality, integrity, and cleaning up of data. </obo:IAO_0000115>
         <ontology:SRAO_0000269>Data quality</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
@@ -1132,9 +1147,9 @@
     <!-- http://edamontology.org/topic_3576 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3576">
-        <ontology:SRAO_0000269>Pharmaceutical biotechnology</ontology:SRAO_0000269>
         <obo:IAO_0000115>Biotechnology applied to the medical sciences and the development of medicines.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Pharmaceutical biotechnology</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -1143,9 +1158,9 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3577">
         <obo:IAO_0000115>An approach to medicine whereby decisions, practices and are tailored to the individual patient based on their predicted response or risk of disease.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Precision medicine</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Molecular diagnostics</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Molecular diagnostics</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Precision medicine</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -1154,11 +1169,11 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3697">
         <obo:IAO_0000115>The ecology of microorganisms including their relationship with one another and their environment.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Molecular community analysis</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Microbiome</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Environmental microbiology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Community analysis</ontology:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+        <ontology:SRAO_0000269>Community analysis</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Environmental microbiology</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Microbiome</ontology:SRAO_0000269>
+        <ontology:SRAO_0000269>Molecular community analysis</ontology:SRAO_0000269>
     </owl:Class>
     
 
@@ -1167,8 +1182,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105699">
         <obo:IAO_0000115>A surgical specialty that focuses on diagnosis and management of disorders of the arterial, venous and lymphatic systems, other than the intracranial vessels and the heart.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Vascular Surgery</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Vascular Surgery</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1176,12 +1191,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C119712 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C119712">
-        <ontology:SRAO_0000276>Proteogenomic Characterization</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Proteogenomic Analysis</ontology:SRAO_0000276>
         <obo:IAO_0000115>A method of study that relates annotated genomic information to global protein expression in order to determine the relationship between genomic sequences and both expressed proteins and predicted peptide sequences; these studies can identify novel coding regions.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Proteogenomics</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Proteogenomic Research</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Proteogenomic Analysis</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Proteogenomic Characterization</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Proteogenomic Research</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Proteogenomics</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1189,10 +1204,10 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C142642 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142642">
-        <ontology:SRAO_0000276>preclinical studies</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Preclinical Study</ontology:SRAO_0000276>
         <obo:IAO_0000115>An investigation that tests a drug, procedure or medical treatment in animals to determine any toxic effects before trials can be carried out in humans.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Preclinical Study</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>preclinical studies</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1201,8 +1216,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15188">
         <obo:IAO_0000115>Research concerned with the application of biological and physiological principles to clinical medicine.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Biomedical Research</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Biomedical Research</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1210,14 +1225,14 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C15206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15206">
-        <ontology:SRAO_0000276>Clinical Study</ontology:SRAO_0000276>
         <obo:IAO_0000115>Research conducted with human subjects or on material of human origin in which an investigator directly interacts with human subjects; includes development of new technologies, study of mechanisms of human diseases, therapy, clinical trials, epidemiologic, behavior, and health services research.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>clinical study</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>CLINICAL STUDY</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Study</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Clinical Research</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Clinical Studies</ontology:SRAO_0000276>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Clinical Study</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Study</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>clinical study</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1225,10 +1240,10 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C15245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15245">
-        <ontology:SRAO_0000276>HEALTH SERVICES RESEARCH</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Health Services Research</ontology:SRAO_0000276>
         <obo:IAO_0000115>A multidisciplinary field of inquiry that examines the costs, quality, accessibility, delivery, organization, financing, and outcomes of health care services.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>HEALTH SERVICES RESEARCH</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Health Services Research</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1236,11 +1251,11 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C15308 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15308">
+        <obo:IAO_0000115>A method of treating disease, esp. psychic disorders, by mental rather than pharmacological means (e.g., suggestion, re-education, hypnotism, and psychoanalysis). (Taber&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Psychotherapy</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>psychotherapy</ontology:SRAO_0000276>
-        <obo:IAO_0000115>A method of treating disease, esp. psychic disorders, by mental rather than pharmacological means (e.g., suggestion, re-education, hypnotism, and psychoanalysis). (Taber&#39;s)</obo:IAO_0000115>
         <ontology:SRAO_0000276>talk therapy</ontology:SRAO_0000276>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
@@ -1249,8 +1264,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16294">
         <obo:IAO_0000115>The branch of science concerned with origin and development of humans in all their physical, social, and cultural relationships.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Anthropology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Anthropology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1258,10 +1273,10 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16304 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16304">
-        <ontology:SRAO_0000276>Architecture</ontology:SRAO_0000276>
         <obo:IAO_0000115>The art or science of building; especially, the art of building houses, churches, bridges, and other structures, for the purposes of civil life</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Engineering / Architecture</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Architecture</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Engineering / Architecture</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1270,8 +1285,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16309">
         <obo:IAO_0000115>Artificial intelligence is the branch of computer science that deals with writing computer programs that can solve problems creatively.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Artificial Intelligence</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Artificial Intelligence</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1279,11 +1294,11 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16345 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16345">
-        <ontology:SRAO_0000276>Biology</ontology:SRAO_0000276>
         <obo:IAO_0000115>The scientific study of living organisms.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Biological</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Biologic</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Biologic</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Biological</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Biology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1291,10 +1306,10 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16349 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16349">
-        <ontology:SRAO_0000276>Biophysics</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Biophysical</ontology:SRAO_0000276>
         <obo:IAO_0000115>Physics as applied to biological problems; an interdisciplinary science that applies theories and methods of the physical sciences to questions of biology.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Biophysical</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Biophysics</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1303,8 +1318,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16413">
         <obo:IAO_0000115>Chemical Engineering; engineering dealing with the industrial application of chemistry. (WWWebster Dictionary)</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Chemical Engineering</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Chemical Engineering</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1313,8 +1328,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16414">
         <obo:IAO_0000115>The science of the composition, structure, properties, and reactions of matter, especially of atomic and molecular systems.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Chemistry</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Chemistry</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1322,9 +1337,9 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16417 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16417">
-        <ontology:SRAO_0000276>Clinical Chemistry</ontology:SRAO_0000276>
         <obo:IAO_0000115>The department responsible for performing chemical and enzymatic analyses of body fluids and tissues. (from Handbook of Medical Informatics)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Clinical Chemistry</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1332,10 +1347,10 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16421 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16421">
-        <ontology:SRAO_0000276>Physical Chemistry</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Chemistry, Physical</ontology:SRAO_0000276>
         <obo:IAO_0000115>The branch of chemistry dealing with the physical properties of chemical substances. Chemical thermodynamics, chemical kinetics, quantum chemistry, statistical mechanics, and spectroscopy are some areas of chemistry comprising the bulk of physical chemistry.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Chemistry, Physical</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Physical Chemistry</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1343,11 +1358,11 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16439 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16439">
-        <ontology:SRAO_0000276>Medical Informatics</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Clinical Informatics</ontology:SRAO_0000276>
         <obo:IAO_0000115>The application of informatics methods to manage medical information and improve healthcare.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Health Informatics</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Clinical Informatics</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Health Informatics</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Medical Informatics</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1355,12 +1370,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16478 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16478">
-        <ontology:SRAO_0000276>culture</ontology:SRAO_0000276>
         <obo:IAO_0000115>A pattern of learned beliefs, values, and behavior that are shared within a group. It includes language, styles of communication, practices, customs, and views on roles and relationships.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Cultural</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Culture</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Culturally</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Cultural</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Culturally</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Culture</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>culture</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1369,12 +1384,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16495">
         <obo:IAO_0000115>The statistical characterization of human populations or segments of human populations (e.g., characterization by age, sex, race, or income).</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Population Studies / Demography</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Demography</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Demographics</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Demographic Factors</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Demographic Factor</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Demographic Factor</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Demographic Factors</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Demographics</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Demography</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Population Studies / Demography</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1383,8 +1398,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16526">
         <obo:IAO_0000115>The branch of biology concerned with the relations between organisms and their environment.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Ecology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Ecology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1393,8 +1408,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16548">
         <obo:IAO_0000115>The discipline concerned with the application of scientific knowledge to solve practical issues in commerce or industry.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Engineering</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Engineering</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1403,8 +1418,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16550">
         <obo:IAO_0000115>Entomology; the branch of zoology that studies insects.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Entomology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Entomology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1412,12 +1427,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16556 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16556">
-        <ontology:SRAO_0000276>Epidemiological</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>epidemiology</ontology:SRAO_0000276>
         <obo:IAO_0000115>The study of the causes, incidence and distribution of disease in the population and its application for prevention or control.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Epidemiologic</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Epidemiology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Epidemiologic</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Epidemiological</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Epidemiology</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>epidemiology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1426,9 +1441,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16591">
         <obo:IAO_0000115>The application of medical knowledge to questions of law; research, reports and testimony in court by experts in medical science to assist in determining a legal question.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Forensics</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Forensic Medicine</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Forensic Medicine</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Forensics</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1436,9 +1451,9 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16633">
-        <ontology:SRAO_0000276>Geography</ontology:SRAO_0000276>
         <obo:IAO_0000115>The science that deals with the world and its inhabitants; a description of the earth, or a portion of the earth, including its structure, features, products, political divisions, and the people by whom it is inhabited.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Geography</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1447,9 +1462,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16658">
         <obo:IAO_0000115>The branch of medicine that deals with the diseases and hygiene of women.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Gynecology</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>GYN</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>GYN</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Gynecology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1457,9 +1472,9 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16715 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16715">
-        <ontology:SRAO_0000276>Immunogenetics</ontology:SRAO_0000276>
         <obo:IAO_0000115>A sub-field of genetics that uses both genetic and immunological analyses to study the genetics behind antibody formation and the immune response. (Biotech Life Science Dictionary)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Immunogenetics</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1467,11 +1482,11 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16922 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16922">
-        <ontology:SRAO_0000276>Radiology / Radiation Biology / Nuclear Medicine</ontology:SRAO_0000276>
-        <obo:IAO_0000115>Nuclear Medicine is the branch of medicine that uses radioactive materials either to image a patient&#39;s body or to destroy diseased cells.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Nuclear Medicine</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Radiology-Nuclear Medicine</ontology:SRAO_0000276>
+        <obo:IAO_0000115>Nuclear Medicine is the branch of medicine that uses radioactive materials either to image a patient&apos;s body or to destroy diseased cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Nuclear Medicine</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Radiology / Radiation Biology / Nuclear Medicine</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Radiology-Nuclear Medicine</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1479,10 +1494,10 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16928 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16928">
-        <ontology:SRAO_0000276>Obstetrical</ontology:SRAO_0000276>
         <obo:IAO_0000115>A medical-surgical specialty dealing with the care of a woman and her offspring during pregnancy, childbirth and the puerperium (the period shortly after birth).</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Obstetrics</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Obstetrical</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Obstetrics</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1491,8 +1506,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17028">
         <obo:IAO_0000115>The branch of psychology that deals with the diagnosis and treatment of psychological and behavioral problems.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Clinical Psychology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Clinical Psychology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1501,9 +1516,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17030">
         <obo:IAO_0000115>A branch of psychology concerned with educational techniques and assessment of academic aptitude.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Educational Psychology</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Psychology of Teaching</ontology:SRAO_0000276>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
@@ -1512,8 +1527,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17038">
         <obo:IAO_0000115>A branch of medicine concerned with the relationship between emotion and body function.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Psychosomatic Medicine</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Psychosomatic Medicine</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1522,8 +1537,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17039">
         <obo:IAO_0000115>The science and practice of protecting and improving the health of a community, as by preventive medicine, health education, control of communicable diseases, application of sanitary measures, and monitoring of environmental hazards.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Public Health</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Public Health</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1532,9 +1547,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17055">
         <obo:IAO_0000115>The study of the mechanisms and biological effects of ionizing radiation, including repair processes.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Radiobiology</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Radiation Biology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Radiation Biology</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Radiobiology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1542,12 +1557,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C17059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17059">
-        <ontology:SRAO_0000276>Radiologic</ontology:SRAO_0000276>
         <obo:IAO_0000115>The branch of medical science dealing with the medical use of X-rays or other penetrating radiation.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>radiology</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Radiologic</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Radiology</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Radiology, General</ontology:SRAO_0000276>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>radiology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1556,8 +1571,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17099">
         <obo:IAO_0000115>A medical specialty that deals with diagnosis and treatment of diseases and disorders of the connective tissues.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Rheumatology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Rheumatology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1566,9 +1581,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17141">
         <obo:IAO_0000115>Comprises the scientific study of the human aspects of the world. They are also known as social studies. Psychology studies the human mind, sociology examines human society, political science studies the governing of groups and economics concerns itself with the allocation of wealth in society.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Social Studies</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Social Sciences</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Social Sciences</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Social Studies</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1577,10 +1592,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17167">
         <obo:IAO_0000115>A branch of applied mathematics concerned with the collection and interpretation of quantitative data and the use of probability theory to estimate population parameters.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Statistics</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Statistically</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Statistical</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Statistical</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Statistically</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Statistics</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1589,9 +1604,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17174">
         <obo:IAO_0000115>Surgical procedures for treating diseases and disorders of the oral cavity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Oral Surgery</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Surgery, Oral</ontology:SRAO_0000276>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
@@ -1600,9 +1615,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17243">
         <obo:IAO_0000115>The medical specialty concerned with the study, diagnosis, and treatment of diseases of the genitourinary tract.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Urology</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Urologic</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Urologic</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Urology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1610,9 +1625,9 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C17269 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17269">
-        <ontology:SRAO_0000276>Zoology</ontology:SRAO_0000276>
         <obo:IAO_0000115>The branch of biology dealing with the study of animals.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Zoology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1621,9 +1636,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17606">
         <obo:IAO_0000115>The use of data processing systems to analyze, enhance, interpret or display digital images.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Image Processing</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Image Analysis</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Image Analysis</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Image Processing</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1631,9 +1646,9 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C17735 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17735">
-        <ontology:SRAO_0000276>Policy</ontology:SRAO_0000276>
         <obo:IAO_0000115>A plan of action adopted by an individual or social group.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Policy</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1642,8 +1657,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17940">
         <obo:IAO_0000115>A branch of genetics concerned with the mechanisms and processes of heredity in microorganisms.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Microbial Genetics</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Microbial Genetics</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1651,13 +1666,13 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C18011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18011">
-        <ontology:SRAO_0000276>Immunology (Including BRMP)</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Immunology</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Immunology (NCI Program)</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>immunology</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Immunologic</ontology:SRAO_0000276>
         <obo:IAO_0000115>The study of the immune system and its reaction to pathogens, as well as its malfunctions (autoimmune diseases, allergies, rejection of organ transplants).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Immunologic</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Immunology</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Immunology (Including BRMP)</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Immunology (NCI Program)</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>immunology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1665,10 +1680,10 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C18076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18076">
-        <ontology:SRAO_0000276>Biomedical Engineering</ontology:SRAO_0000276>
         <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Bioengineering</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Bioengineering</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Biomedical Engineering</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1677,9 +1692,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18189">
         <obo:IAO_0000115>The medical science, and specialty practice, concerned with all aspects of disease, but with special reference to the essential nature, causes, and development of abnormal conditions, as well as the structural and functional changes that result from the disease processes. Informally used to mean the result of such an examination.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Pathology</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Pathological</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Pathological</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Pathology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1687,9 +1702,9 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C18470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18470">
-        <ontology:SRAO_0000276>Computational Chemistry</ontology:SRAO_0000276>
         <obo:IAO_0000115>Computational chemistry is the branch of theoretical chemistry whose major goals are to create efficient computer programs that calculate the properties of molecules (such as total energy, dipole moment, vibrational frequencies) and to apply these programs to concrete chemical objects. (from Information Headquarters)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Computational Chemistry</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1697,9 +1712,9 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C18633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18633">
-        <ontology:SRAO_0000276>Animal Genetics</ontology:SRAO_0000276>
         <obo:IAO_0000115>The study of genetic traits in animals.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Animal Genetics</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1707,10 +1722,10 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C18645 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18645">
-        <ontology:SRAO_0000276>Enzymology</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Biochemistry, Enzymatic</ontology:SRAO_0000276>
         <obo:IAO_0000115>The branch of biochemistry dealing with the chemical nature and biological activity of enzymes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Biochemistry, Enzymatic</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Enzymology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1719,8 +1734,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18701">
         <obo:IAO_0000115>The medical field that deals with immune diseases, including autoimmune diseases, allergies, rejection of organ transplants and immune deficiency.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Clinical Immunology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Clinical Immunology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1728,10 +1743,10 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C18740 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18740">
-        <ontology:SRAO_0000276>Developmental Psychology, General</ontology:SRAO_0000276>
         <obo:IAO_0000115>The study of the psychological and behavioral changes that occur in an organism between birth and old age.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Developmental Psychology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Developmental Psychology</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Developmental Psychology, General</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1740,8 +1755,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18873">
         <obo:IAO_0000115>The metabolism of microbial life forms.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Microbial Physiology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Microbial Physiology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1750,8 +1765,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19199">
         <obo:IAO_0000115>The sciences concerned with health promotion and maintenance.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Health Sciences</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Health Sciences</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1760,8 +1775,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20179">
         <obo:IAO_0000115>Toxicogenomics is a new scientific field that elucidates how the entire genome is involved in biological responses of organisms exposed to environmental toxicants/stressors. Toxicogenomics combines information from studies of genomic-scale mRNA profiling (by microarray analysis), cell-wide or tissue-wide protein profiling (proteomics), genetic susceptibility, and computational models to understand the roles of gene-environment interactions in disease. (from National Center for Toxicogenomics homepage)</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Toxicogenomics</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Toxicogenomics</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1770,10 +1785,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20609">
         <obo:IAO_0000115>A specialized branch of chemistry dealing with the making of compounds, generally from the building blocks to the larger or complex molecules. e.g. making protein from amino acids, or DNA from nucleotides.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>Synthetic Chemistry</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Chemistry, Synthetic</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Synthesis Chemistry</ontology:SRAO_0000276>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Synthetic Chemistry</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1782,9 +1797,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C54625">
         <obo:IAO_0000115>The aggregate of past events; the continuum of events occurring in succession leading from the past to the present; a record or narrative description of past events.</obo:IAO_0000115>
-        <ontology:SRAO_0000276>History</ontology:SRAO_0000276>
-        <ontology:SRAO_0000276>Historical</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Historical</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>History</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1792,9 +1807,9 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C86055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86055">
-        <ontology:SRAO_0000276>Cardiology</ontology:SRAO_0000276>
         <obo:IAO_0000115>The branch of medicine dealing with the heart and its diseases.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Cardiology</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1802,9 +1817,9 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C95096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C95096">
-        <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
         <obo:IAO_0000115>A subject domain utilized for the submission of information encompassing and representing data, vocabulary or records related to the brain and nervous system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
     </owl:Class>
     
 
@@ -1813,13 +1828,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical entity that is or was part of a plant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
         <ontology:SRAO_0000292 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad anat&amp;#243mica vegetal (Spanish, exact)</ontology:SRAO_0000292>
         <ontology:SRAO_0000292 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物 解剖学（形態）的実体 (Japanese, exact)</ontology:SRAO_0000292>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 

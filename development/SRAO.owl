@@ -412,8 +412,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
         <obo:IAO_0000115>Environmental Sciences is a broad interdisciplinary field in which ecologists work with other physical, chemical, and biological researchers to study and seek solutions to environmental problems. Environmental science focuses on the environment and how humans can manage and utilise its resources and the effects our actions have on the environment. [Adapted by AL from https://www.quora.com/What-are-the-main-differences-between-ecology-and-environmental-science and https://blog.oup.com/2012/05/its-ecology-not-environmental-science/ 26.6.18]</obo:IAO_0000115>
-        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
-        <rdfs:label>Environmental Sciences</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <ontology:SRAO_0000278 xml:lang="en">Environmental Sciences</ontology:SRAO_0000278>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Environmental Science</rdfs:label>
     </owl:Class>
     
 
@@ -1512,8 +1514,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3377">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Safety Sciences</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <ontology:SRAO_0000269 xml:lang="en">Safety Sciences</ontology:SRAO_0000269>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Safety Science</rdfs:label>
     </owl:Class>
     
 
@@ -2399,9 +2403,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17141">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000041"/>
-        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Social Sciences</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Social Science</rdfs:label>
     </owl:Class>
     
 
@@ -2618,8 +2623,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19199">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000069"/>
-        <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <rdfs:label>Health Sciences</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Health Science</rdfs:label>
     </owl:Class>
     
 
@@ -3024,11 +3030,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026615">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000162"/>
-        <obo:IAO_0000412>OMIT</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Geosciences (including Geography)</ontology:SRAO_0000268>
+        <ontology:SRAO_0000272 xml:lang="en">Earth Sciences</ontology:SRAO_0000272>
         <rdfs:comment>AL 10.11.2017: Aligned with the OMIT &apos;Earth Sciences&apos; class, as this is the label and URI used within FAIRsharing.</rdfs:comment>
-        <rdfs:label xml:lang="en">Earth Sciences</rdfs:label>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Earth Science</rdfs:label>
     </owl:Class>
     
 
@@ -3434,9 +3442,13 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000041">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000002"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000118 xml:lang="en">Social and Behavioral Science</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Social and Behavioral Sciences</obo:IAO_0000118>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Social and Behavioural Sciences</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL 3.6.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
-        <rdfs:label xml:lang="en">Social and Behavioural Sciences</rdfs:label>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Social and Behavioural Science</rdfs:label>
     </owl:Class>
     
 
@@ -3445,8 +3457,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000042">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000041"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Education Sciences</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Education Sciences</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Education Science</rdfs:label>
     </owl:Class>
     
 
@@ -3657,8 +3671,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115 xml:lang="en">Water management is the activity of planning, developing, distributing and optimum use of water resources under defined water polices and regulations. It includes: management of water treatment of drinking water, industrial water, sewage or wastewater, management of water resources, management of flood protection, management of irrigation, and management of the water table. [Wikipedia, https://en.wikipedia.org/wiki/Category:Water_management, 28.3.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Water Resource Management</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Life Sciences</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Life Sciences</ontology:SRAO_0000268>
+        <ontology:SRAO_0000278 xml:lang="en">Life Sciences</ontology:SRAO_0000278>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Life Science</rdfs:label>
     </owl:Class>
     
 
@@ -4020,8 +4037,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000162">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Natural Sciences</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Natural Sciences</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Natural Science</rdfs:label>
     </owl:Class>
     
 
