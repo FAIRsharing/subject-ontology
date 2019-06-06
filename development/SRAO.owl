@@ -252,7 +252,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://aims.fao.org/aos/agrovoc/c_203 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_203">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000069"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Agriculture, Forestry, Horticulture and Veterinary Medicine</ontology:SRAO_0000268>
@@ -359,7 +359,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://aims.fao.org/aos/agrovoc/c_2934 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2934">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000069"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
         <obo:IAO_0000115>Fisheries science is the academic discipline of managing and understanding fisheries. It is a multidisciplinary science, which draws on the disciplines of limnology, oceanography, freshwater biology, marine biology, conservation, ecology, population dynamics, economics and management to attempt to provide an integrated picture of fisheries. [Wikipedia https://en.wikipedia.org/wiki/Fisheries_science, AL 23.5.18]</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <rdfs:label>Fisheries Science</rdfs:label>
@@ -480,6 +480,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Animal Husbandry, Breeding and Hygiene&apos; into parent &apos;Animal Husbandry&apos; and child &apos;Animal Breeding&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Animal Hygiene&apos; subdomain.</rdfs:comment>
         <rdfs:label xml:lang="en">Animal Breeding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_4318 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_4318">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000162"/>
+        <obo:IAO_0000115 xml:lang="en">Life Science is the study of all of the divisions of the natural sciences dealing with the various aspects of the phenomena of life and vital processes. [Adapted from AgroVoc, AL 6.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Life Sciences</ontology:SRAO_0000268>
+        <ontology:SRAO_0000278 xml:lang="en">Life Sciences</ontology:SRAO_0000278>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Life Science</rdfs:label>
     </owl:Class>
     
 
@@ -648,6 +663,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8320">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000203"/>
+        <obo:IAO_0000115 xml:lang="en">Water Management is the activity of planning, developing, distributing and optimum use of water resources under defined water polices and regulations. It includes: management of water treatment of drinking water, industrial water, sewage or wastewater, management of water resources, management of flood protection, management of irrigation, and management of the water table. [Wikipedia, https://en.wikipedia.org/wiki/Category:Water_management, 28.3.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Water Resource Management</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored &apos;Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management&apos; and its hierarchy into: &apos;Hydrology&apos; with child &apos;Hydrogeology&apos;; &apos;Limnology&apos;; and &apos;Water Management&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Water Chemistry&apos; subdomain. Hydrology and Limnology had previously been refactored out of this class, and now the class has been completely refactored to create one class per concept.</rdfs:comment>
@@ -1279,7 +1296,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3303 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3303">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000069"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Medicine is asserted as a child of &apos;Life Science&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
@@ -1997,7 +2014,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C15188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15188">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000069"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:comment>AL: 3.12.18 &apos;Biomedical Research&apos; is a child of &apos;Research Activity&apos; within NCIT. This assertion has been modified to &apos;Life Sciences&apos; as SRAO focuses more on the subject area rather than the research activity. There was no direct equivalent for this discipline within re3data.</rdfs:comment>
         <rdfs:label xml:lang="en">Biomedical Science</rdfs:label>
@@ -2084,7 +2101,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C16345 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16345">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000069"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Biology</rdfs:label>
@@ -2622,7 +2639,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C19199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19199">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000069"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Health Science</rdfs:label>
@@ -3660,22 +3677,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115 xml:lang="en">Public Law is the law governing relations between individuals and the State, or the conduct of the State. [OED, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Public Law</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000069 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000069">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000162"/>
-        <obo:IAO_0000115 xml:lang="en">Water management is the activity of planning, developing, distributing and optimum use of water resources under defined water polices and regulations. It includes: management of water treatment of drinking water, industrial water, sewage or wastewater, management of water resources, management of flood protection, management of irrigation, and management of the water table. [Wikipedia, https://en.wikipedia.org/wiki/Category:Water_management, 28.3.2019]</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">Water Resource Management</obo:IAO_0000118>
-        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000268 xml:lang="en">Life Sciences</ontology:SRAO_0000268>
-        <ontology:SRAO_0000278 xml:lang="en">Life Sciences</ontology:SRAO_0000278>
-        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
-        <rdfs:label xml:lang="en">Life Science</rdfs:label>
     </owl:Class>
     
 
@@ -4929,7 +4930,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <!-- http://www.fairsharing.org/ontology/SRAO_0000291 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000291">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000069"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
         <obo:IAO_0000115>Natural history is a domain of inquiry involving organisms including animals, fungi and plants in their environment; leaning more towards observational than experimental methods of study. [Wikipedia https://en.wikipedia.org/wiki/Natural_history, accessed 27.11.18]</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Natural History</rdfs:label>
     </owl:Class>
