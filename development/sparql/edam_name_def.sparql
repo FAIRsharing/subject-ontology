@@ -1,0 +1,14 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix srao: <http://www.fairsharing.org/ontology/>
+
+SELECT DISTINCT ?class ?name ?definition
+WHERE {
+    ?class rdf:type owl:Class.
+    ?class rdfs:label ?name.
+    ?class obo:IAO_0000412 ?importedfrom
+    FILTER (regex(str(?importedfrom),"http://edamontology.org/EDAM.owl")).
+    ?class obo:IAO_0000115 ?definition
+}
