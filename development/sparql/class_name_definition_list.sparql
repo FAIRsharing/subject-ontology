@@ -5,7 +5,7 @@ prefix obo: <http://purl.obolibrary.org/obo/>
 
 SELECT DISTINCT ?class ?name ?definition
 WHERE {
-    ?class rdf:type owl:Class. 
-    ?class rdfs:label ?name. 
-    ?class obo:IAO_0000115 ?definition
+    ?class rdf:type owl:Class.
+    ?class rdfs:label ?name.
+    OPTIONAL {?class obo:IAO_0000115 ?definition.}
 }
