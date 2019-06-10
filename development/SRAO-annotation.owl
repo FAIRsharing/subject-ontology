@@ -125,16 +125,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0176 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0176">
-        <obo:IAO_0000115>The study and simulation of molecular (typically protein) conformation using a computational model of physical forces and computer simulation.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Protein dynamics</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0194 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0194">
@@ -1668,6 +1658,12 @@
         <ontology:SRAO_0000276>Bioengineering</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Biomedical Engineering</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18097"/>
     
 
 

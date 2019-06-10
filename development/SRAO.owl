@@ -789,17 +789,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_0176 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0176">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:comment>AL: 29.9.17 Child of &apos;Computational Biology&apos; to align with the EDAM hierarchy. &apos;Molecular Dynamics&apos; is asserted as a child of &apos;Structure Analysis&apos; -&gt; &apos;Structure Prediction&apos; within EDAM, however this sub-hierarchy has not been retained within FAIRsharing, and its parent term &apos;Computational Biology&apos; is used instead.</rdfs:comment>
-        <rdfs:label>Molecular Dynamics</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0194 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0194">
@@ -1294,6 +1283,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3307 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3307">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 27.9.17 &apos;Computational biology&apos; is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to Biology.</rdfs:comment>
@@ -2493,7 +2483,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Bioinformatics and Theoretical Biology</ontology:SRAO_0000268>
-        <rdfs:comment>AL 27.9.17 Bioinformatics is asserted as a child of Informatics by EDAM and as a child of Biology within re3data. Within FAIRsharing, this term used to be labelled &apos;Bioinformatics tools and formats&apos;, but has been modified for simplicity. Within re3data, this term used to be labelled &apos;Bioinformatics and Theoretical Biology&apos; but was simplified as these are two distinct disciplines. Currently Theoretical Biology has not been re-introduced, but this may need to be revisited in future.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL 27.9.17 [Updated AL 10.6.2019] Bioinformatics is asserted as a child of Biology within re3data,  but has also been asserted as a child of Informatics by FAIRsharing. Within FAIRsharing, this term used to be labelled &apos;Bioinformatics tools and formats&apos;, but has been modified for simplicity. Within re3data, this term used to be labelled &apos;Bioinformatics and Theoretical Biology&apos; but was simplified as these are two distinct disciplines. Currently Theoretical Biology has not been re-introduced, but this may need to be revisited in future.</rdfs:comment>
         <rdfs:label xml:lang="en">Bioinformatics</rdfs:label>
     </owl:Class>
     
@@ -2520,6 +2510,16 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Added parent &apos;Engineering Sciences&apos; to align with the structure found within NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Bioengineering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18097">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Molecular Dynamics</rdfs:label>
     </owl:Class>
     
 
