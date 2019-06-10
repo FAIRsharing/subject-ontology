@@ -839,7 +839,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_0605">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
-        <obo:IAO_0000115>The science of processing data for storage and retrieval; information science. [Oxford English Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 26.9.17 Informatics is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to &apos;Computer Science&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Informatics</rdfs:label>
