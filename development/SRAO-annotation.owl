@@ -404,15 +404,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3302 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3302">
-        <obo:IAO_0000115>The biology of parasites.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3303 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3303">
@@ -1744,6 +1735,14 @@
         <obo:IAO_0000115>A subject domain utilized for the submission of information encompassing and representing data, vocabulary or records related to the brain and nervous system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0011270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0011270">
+        <obo:IAO_0000115 xml:lang="en">A branch of biology which deals with parasitic organisms with a strong emphasis on their role in disease. [ NCI http://purl.obolibrary.org/obo/NCIT_C16954, AL 10.6.2019]</obo:IAO_0000115>
     </owl:Class>
     
 

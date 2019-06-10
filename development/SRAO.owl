@@ -1123,16 +1123,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3302 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3302">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Parasitology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3303 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3303">
@@ -2897,6 +2887,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 24.11.17: This class was created when the original re3data subject &apos;Geology and Paleontology&apos; was split into two sibling classes. As such, we have noted that this term also comes from re3data.</rdfs:comment>
         <rdfs:label>Paleontology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0011270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0011270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 10.6.2019: OMIT does not provide a definition for this class. Therefore the source of the definition for this class was NCIT. The NCIT class whose definition was used was unsuitable for SRAO as its synonyms included &apos;Microbiology&apos;, a subject described elsewhere in SRAO and not a synonym according to FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:label xml:lang="en">Parasitology</rdfs:label>
     </owl:Class>
     
 
