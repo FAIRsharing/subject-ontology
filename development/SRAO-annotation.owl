@@ -216,18 +216,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_1317 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_1317">
-        <obo:IAO_0000115>The molecular structure of biological molecules, particularly macromolecules such as proteins and nucleic acids.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Structural assignment</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Structural determination</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Structure determination</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_2229 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2229">
@@ -1647,6 +1635,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C18097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18097"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18111"/>
     
 
 

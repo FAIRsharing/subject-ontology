@@ -781,7 +781,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_0122 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0122">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_1317"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18111"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Structural Genomics</rdfs:label>
@@ -888,17 +888,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Comparative Genomics</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_1317 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_1317">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Structural Biology</rdfs:label>
     </owl:Class>
     
 
@@ -2509,6 +2498,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Molecular Dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Structural Biology</rdfs:label>
     </owl:Class>
     
 
