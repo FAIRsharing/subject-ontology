@@ -38,7 +38,6 @@ http://edamontology.org/topic_0781
 http://edamontology.org/topic_0797
 http://edamontology.org/topic_2258
 http://edamontology.org/topic_2259
-http://edamontology.org/topic_2640
 http://edamontology.org/topic_2815
 http://edamontology.org/topic_2840
 http://edamontology.org/topic_3047
@@ -194,6 +193,7 @@ http://purl.obolibrary.org/obo/NCIT_C17243 # Urology
 http://purl.obolibrary.org/obo/NCIT_C17269 # Zoology
 http://purl.obolibrary.org/obo/NCIT_C17606 # Digital Image Processing
 http://purl.obolibrary.org/obo/NCIT_C17735 # Policy
+http://purl.obolibrary.org/obo/NCIT_C17837 # Oncology
 http://purl.obolibrary.org/obo/NCIT_C17940 # Microbial Genetics
 http://purl.obolibrary.org/obo/NCIT_C17964 # Bioinformatics
 http://purl.obolibrary.org/obo/NCIT_C17992 # Cell Biology

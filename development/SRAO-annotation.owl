@@ -238,19 +238,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_2640 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_2640">
-        <obo:IAO_0000115>The study of cancer, for example, genes and proteins implicated in cancer.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Cancer</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Cancer biology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Neoplasm</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Neoplasms</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_2815 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2815">
@@ -1578,6 +1565,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Policy</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17837"/>
     
 
 

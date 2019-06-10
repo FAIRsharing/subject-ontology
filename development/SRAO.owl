@@ -916,17 +916,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_2640 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_2640">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Hematology, Oncology, Transfusion Medicine&apos; into sibling classes &apos;Hematology&apos; and &apos;Oncology&apos;, and a child of Hematology called &apos;Transfusion Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:comment>EDAM</rdfs:comment>
-        <rdfs:label>Oncology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_2815 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2815">
@@ -2429,6 +2418,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17837">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Hematology, Oncology, Transfusion Medicine&apos; into sibling classes &apos;Hematology&apos; and &apos;Oncology&apos;, and a child of Hematology called &apos;Transfusion Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Oncology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17940">
@@ -3009,8 +3009,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/OMIT_0018936 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0018936">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_2640"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17837"/>
         <obo:IAO_0000115 xml:lang="en">Radiation Oncology is the study of the effects of ionizing radiation for treatment of tumors. [NCIT http://purl.obolibrary.org/obo/NCIT_C17760, AL 16.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
