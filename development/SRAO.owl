@@ -766,21 +766,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_0091 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0091">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
-        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000268>Bioinformatics and Theoretical Biology</ontology:SRAO_0000268>
-        <ontology:SRAO_0000269>Bioinformatics tools and formats</ontology:SRAO_0000269>
-        <rdfs:comment>AL 27.9.17 Bioinformatics is asserted as a child of Informatics by EDAM and as a child of Biology within re3data. Within FAIRsharing, this term used to be labelled &apos;Bioinformatics tools and formats&apos;, but has been modified for simplicity. Within re3data, this term used to be labelled &apos;Bioinformatics and Theoretical Biology&apos; but was simplified as these are two distinct disciplines. Currently Theoretical Biology has not been re-introduced, but this may need to be revisited in future.</rdfs:comment>
-        <rdfs:label xml:lang="en">Bioinformatics</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0092 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0092">
@@ -1991,8 +1976,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C119712 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C119712">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0091"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 12.12.17 Child of Bioinformatics (to align with NCIT) and also of Genomics, to align with FAIRsharing usage.</rdfs:comment>
         <rdfs:label xml:lang="en">Proteogenomics</rdfs:label>
@@ -2506,6 +2491,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label>Microbial Genetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17964">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268>Bioinformatics and Theoretical Biology</ontology:SRAO_0000268>
+        <rdfs:comment>AL 27.9.17 Bioinformatics is asserted as a child of Informatics by EDAM and as a child of Biology within re3data. Within FAIRsharing, this term used to be labelled &apos;Bioinformatics tools and formats&apos;, but has been modified for simplicity. Within re3data, this term used to be labelled &apos;Bioinformatics and Theoretical Biology&apos; but was simplified as these are two distinct disciplines. Currently Theoretical Biology has not been re-introduced, but this may need to be revisited in future.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bioinformatics</rdfs:label>
     </owl:Class>
     
 

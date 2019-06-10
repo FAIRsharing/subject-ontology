@@ -106,15 +106,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0091 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0091">
-        <obo:IAO_0000115>The archival, curation, processing and analysis of complex biological data.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0092 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0092">
@@ -1660,6 +1651,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Microbial Genetics</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17964"/>
     
 
 

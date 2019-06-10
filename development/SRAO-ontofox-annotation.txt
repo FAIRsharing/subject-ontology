@@ -25,7 +25,6 @@ EDAM
 http://edamontology.org/topic_0084
 http://edamontology.org/topic_0085
 http://edamontology.org/topic_0089
-http://edamontology.org/topic_0091
 http://edamontology.org/topic_0092
 http://edamontology.org/topic_0121
 http://edamontology.org/topic_0122
@@ -201,6 +200,7 @@ http://purl.obolibrary.org/obo/NCIT_C17269 # Zoology
 http://purl.obolibrary.org/obo/NCIT_C17606 # Digital Image Processing
 http://purl.obolibrary.org/obo/NCIT_C17735 # Policy
 http://purl.obolibrary.org/obo/NCIT_C17940 # Microbial Genetics
+http://purl.obolibrary.org/obo/NCIT_C17964 # Bioinformatics
 http://purl.obolibrary.org/obo/NCIT_C18011 # Immunology
 http://purl.obolibrary.org/obo/NCIT_C18076 # Bioengineering
 http://purl.obolibrary.org/obo/NCIT_C18189 # Pathology
