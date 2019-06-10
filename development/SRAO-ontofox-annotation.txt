@@ -38,7 +38,6 @@ http://edamontology.org/topic_0781
 http://edamontology.org/topic_0797
 http://edamontology.org/topic_2258
 http://edamontology.org/topic_2259
-http://edamontology.org/topic_2840
 http://edamontology.org/topic_3047
 http://edamontology.org/topic_3050
 http://edamontology.org/topic_3053
@@ -188,6 +187,7 @@ http://purl.obolibrary.org/obo/NCIT_C17099 # Rheumatology
 http://purl.obolibrary.org/obo/NCIT_C17141 # Social Sciences
 http://purl.obolibrary.org/obo/NCIT_C17167 # Statistics
 http://purl.obolibrary.org/obo/NCIT_C17174 # Oral Surgery
+http://purl.obolibrary.org/obo/NCIT_C17206 # Toxicology
 http://purl.obolibrary.org/obo/NCIT_C17243 # Urology
 http://purl.obolibrary.org/obo/NCIT_C17269 # Zoology
 http://purl.obolibrary.org/obo/NCIT_C17606 # Digital Image Processing

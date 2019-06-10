@@ -916,17 +916,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_2840 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_2840">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3377"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:comment>AL: 28.9.17 Changed re3data label from &apos;Toxicology and Occupational Medicine&apos; to &apos;Occupational Medicine&apos; as these are two distinct disciplines. The new class, Toxicology, is also present within EDAM, and is asserted as a child of &apos;Safety Sciences&apos;, This assertion has been retained for Toxicology while Occupational Medicine has been kept as a child of Medicine. Within EDAM, Toxicology is also asserted as a child of Medicine. This subClass assertion has not been retained as the re3data term &apos;Medical toxicology&apos; performs this function.</rdfs:comment>
-        <rdfs:label>Toxicology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3047 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3047">
@@ -1663,8 +1652,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3415 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3415">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_2840"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 28.9.17 &apos;Medical Toxicology&apos; is asserted as a child of Medicine by EDAM, and also as a child of Toxicology within FAIRsharing.</rdfs:comment>
         <rdfs:label>Medical Toxicology</rdfs:label>
@@ -2363,6 +2352,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17206">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3377"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 10.6.2019: Added parent term of &apos;Pharmacology&apos; to align with NCIT hierarchy. AL 27.9.17: Changed re3data label from &apos;Toxicology and Occupational Medicine&apos; to &apos;Occupational Medicine&apos; as these are two distinct disciplines. Toxicology has been placed as a child of &apos;Safety Sciences&apos;, while Occupational Medicine has been kept as a child of Medicine.</rdfs:comment>
+        <rdfs:label xml:lang="en">Toxicology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17243 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17243">
@@ -2638,7 +2639,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C20179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20179">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_2840"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 20.12.17: Although NCIT places Toxicogenomics as a child of Bioinformatics, FAIRsharing instead places it as a child of both Genomics and Toxicology.</rdfs:comment>
@@ -3841,7 +3842,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Toxicology and Occupational Medicine</ontology:SRAO_0000268>
-        <rdfs:comment>AL: 27.9.17 Changed re3data label from &apos;Toxicology and Occupational Medicine&apos; to &apos;Occupational Medicine&apos; as these are two distinct disciplines. The placement of Toxicology within EDAM, a child of &apos;Safety Sciences&apos;, has been retained while Occupational Medicine has been kept as a child of Medicine</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL: 27.9.17 Changed re3data label from &apos;Toxicology and Occupational Medicine&apos; to &apos;Occupational Medicine&apos; as these are two distinct disciplines. Toxicology has been placed as a child of &apos;Safety Sciences&apos;, while Occupational Medicine has been kept as a child of Medicine.</rdfs:comment>
         <rdfs:label xml:lang="en">Occupational Medicine</rdfs:label>
     </owl:Class>
     
