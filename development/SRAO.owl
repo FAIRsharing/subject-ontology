@@ -939,23 +939,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3053 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000268>General Genetics</ontology:SRAO_0000268>
-        <rdfs:comment>Changed re3data label from &apos;General Genetics&apos; to Genetics as this is the term used both within FAIRsharing and EDAM.</rdfs:comment>
-        <rdfs:label xml:lang="en">Genetics</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3055 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3055">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>Child of Genomics to align with the EDAM hierarchy. EDAM further asserts this as a child of &apos;Genotype and Phenotype&apos;. However, &apos;Genotype and Phenotype&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained. Instead, &apos;Quantitative Genetics&apos; has also been asserted as the child of the parent term for &apos;Genotype and Phenotype&apos;, which is Genetics.</rdfs:comment>
         <rdfs:label>Quantitative Genetics</rdfs:label>
@@ -966,7 +953,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3056 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3056">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Population Genetics</rdfs:label>
     </owl:Class>
@@ -1091,7 +1078,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3293">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0084"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000118 xml:lang="en">Biological Systematics</obo:IAO_0000118>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 14.5.2019: Synonym &apos;Biological Systematics&apos; was added upon the removal of the &apos;Plant Systematics and Evolution&apos; re3data class. &apos;Plant Systematics and Evolution&apos; was removed as it was not in scope for FAIRsharing (the subject represented by this class would be better served by a broader concept of Systematics).</rdfs:comment>
@@ -1104,7 +1091,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3295 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3295">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Epigenetics</rdfs:label>
     </owl:Class>
@@ -1267,8 +1254,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3321 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3321">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Computational Biology&apos; and Genetics, to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label>Molecular Genetics</rdfs:label>
@@ -1807,8 +1794,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3574 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3574">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 &apos;Human Genetics&apos; is asserted as a child of Medicine by re3data, and as a child of Genetics by EDAM. </rdfs:comment>
@@ -2156,6 +2143,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">General Genetics</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL (Original date unknown, updated 10.6.2019): Changed re3data label from &apos;General Genetics&apos; to Genetics as this is the term used within FAIRsharing.</rdfs:comment>
+        <rdfs:label xml:lang="en">Genetics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16633">
@@ -2183,7 +2183,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C16715 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16715">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:label>Immunogenetics</rdfs:label>
     </owl:Class>
@@ -2423,8 +2423,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C17940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17940">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -3732,7 +3732,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000087">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 28.9.17 &apos;Plant Genetics&apos; is asserted as a child of Botany within re3data, and as a child of Genetics within FAIRsharing.</rdfs:comment>
         <rdfs:label xml:lang="en">Plant Genetics</rdfs:label>
@@ -4939,7 +4939,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <!-- http://www.fairsharing.org/ontology/SRAO_0000294 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000294">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
         <obo:IAO_0000115 xml:lang="en">Neurogenetics studies the role of genetics in the development and function of the nervous system. [Wikipedia https://en.wikipedia.org/wiki/Neurogenetics, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>

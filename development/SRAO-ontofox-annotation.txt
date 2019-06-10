@@ -40,7 +40,6 @@ http://edamontology.org/topic_2258
 http://edamontology.org/topic_2259
 http://edamontology.org/topic_3047
 http://edamontology.org/topic_3050
-http://edamontology.org/topic_3053
 http://edamontology.org/topic_3055
 http://edamontology.org/topic_3056
 http://edamontology.org/topic_3064
@@ -171,6 +170,7 @@ http://purl.obolibrary.org/obo/NCIT_C16548 # Engineering Science
 http://purl.obolibrary.org/obo/NCIT_C16550 # Entomology
 http://purl.obolibrary.org/obo/NCIT_C16556 # Epidemiology
 http://purl.obolibrary.org/obo/NCIT_C16591 # Forensic Medicine
+http://purl.obolibrary.org/obo/NCIT_C16624 # Genetics
 http://purl.obolibrary.org/obo/NCIT_C16633 # Geography
 http://purl.obolibrary.org/obo/NCIT_C16658 # Gynecology
 http://purl.obolibrary.org/obo/NCIT_C16715 # Immunogenetics

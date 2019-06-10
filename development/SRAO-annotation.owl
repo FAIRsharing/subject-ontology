@@ -256,16 +256,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3053 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3053">
-        <obo:IAO_0000115>The study of genes, genetic variation and heredity in living organisms.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Heredity</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3055 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3055">
@@ -1333,6 +1323,12 @@
         <ontology:SRAO_0000276>Forensic Medicine</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Forensics</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16624"/>
     
 
 
