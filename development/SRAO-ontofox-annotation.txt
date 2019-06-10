@@ -38,7 +38,6 @@ http://edamontology.org/topic_0781
 http://edamontology.org/topic_0797
 http://edamontology.org/topic_2258
 http://edamontology.org/topic_2259
-http://edamontology.org/topic_2815
 http://edamontology.org/topic_2840
 http://edamontology.org/topic_3047
 http://edamontology.org/topic_3050
@@ -202,6 +201,7 @@ http://purl.obolibrary.org/obo/NCIT_C18076 # Bioengineering
 http://purl.obolibrary.org/obo/NCIT_C18097 # Molecular Dynamics
 http://purl.obolibrary.org/obo/NCIT_C18111 # Structural Biology
 http://purl.obolibrary.org/obo/NCIT_C18189 # Pathology
+http://purl.obolibrary.org/obo/NCIT_C18220 # Human Biology
 http://purl.obolibrary.org/obo/NCIT_C18470 # Computational Chemistry
 http://purl.obolibrary.org/obo/NCIT_C18633 # Animal Genetics
 http://purl.obolibrary.org/obo/NCIT_C18645 # Enzymology

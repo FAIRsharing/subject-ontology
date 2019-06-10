@@ -916,16 +916,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_2815 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_2815">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Human Biology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_2840 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2840">
@@ -2521,6 +2511,16 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label>Pathology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Human Biology</rdfs:label>
     </owl:Class>
     
 

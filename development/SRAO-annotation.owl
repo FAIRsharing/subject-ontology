@@ -238,16 +238,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_2815 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_2815">
-        <obo:IAO_0000115>The study of human beings in general, including the human genome and proteome.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Humans</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_2840 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2840">
@@ -1641,6 +1631,12 @@
         <ontology:SRAO_0000276>Pathological</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Pathology</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18220"/>
     
 
 
