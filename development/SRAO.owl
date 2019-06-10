@@ -873,10 +873,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_0781 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0781">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:comment>AL: 25.9.17 Virology is asserted as a child of Microbiology by re3data, and at the top level of the Topic hierarchy within EDAM.  is asserted. This assertion has been refined to Microbiology to align with re3data.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 25.9.17 [Updated AL 10.06.2019] Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology according to NCIT and FAIRsharing curators. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science according to FAIRsharing curators, a modification both of the Medicine hierarchy as listed by re3data and the Biological Sciences as listed by NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Virology</rdfs:label>
     </owl:Class>
     
@@ -1119,19 +1119,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Physiology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_3301 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3301">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000268>Microbiology, Virology and Immunology</ontology:SRAO_0000268>
-        <rdfs:comment>AL: 25.9.17 Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology to align with the EDAM hierarchy. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science based on the EDAM hierarchy, removing it from the Medicine hierarchy as listed by re3data.</rdfs:comment>
-        <rdfs:label>Microbiology</rdfs:label>
     </owl:Class>
     
 
@@ -1817,8 +1804,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3697 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3697">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Microbial Ecology and Applied Microbiology</ontology:SRAO_0000268>
@@ -2180,6 +2167,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16851">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268>Microbiology, Virology and Immunology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 25.9.17 [Updated AL 10.06.2019] Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology according to NCIT and FAIRsharing curators. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science according to FAIRsharing curators, a modification both of the Medicine hierarchy as listed by re3data and the Biological Sciences as listed by NCIT.</rdfs:comment>
+        <rdfs:label xml:lang="en">Microbiology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16922 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16922">
@@ -2413,8 +2413,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C17940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17940">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -2455,6 +2455,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 14.5.2019: Refactored Immunology from the EDAM to the NCIT class due to conflation of subject areas by the EDAM class.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL: 25.9.17 [Updated AL 10.06.2019] Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology according to NCIT and FAIRsharing curators. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science according to FAIRsharing curators, a modification both of the Medicine hierarchy as listed by re3data and the Biological Sciences as listed by NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Immunology</rdfs:label>
     </owl:Class>
     
@@ -2582,7 +2583,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18873">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3300"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
         <obo:IAO_0000118 xml:lang="en">Microbial Metabolism</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -2595,8 +2596,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C18874 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18874">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Medical Microbiology, Molecular Infection Biology&apos; into sibling classes &apos;Molecular Infection Biology&apos; and &apos;Medical Microbiology&apos; according to FAIRsharing curation best practises. Added an additional parent term of &apos;Biomedical Science&apos; to align with the definition.</rdfs:comment>
@@ -3759,7 +3760,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000097 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000097">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Metabolism, Biochemistry and Genetics of Microorganisms</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -3771,7 +3772,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000098 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000098">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Microbial Ecology and Applied Microbiology</ontology:SRAO_0000268>
         <rdfs:comment>AL: 25.9.17 Changed re3data label from &quot;Microbial Ecology and Applied Microbiology&quot; to &quot;Applied Microbiology&quot; as these are two distinct domains. Microbial Ecology, as a distinct displine, is a sibling class.</rdfs:comment>
@@ -3784,8 +3785,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000099">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3047"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3301"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
         <obo:IAO_0000115 xml:lang="en">Molecular Infection Biology is the branch of molecular biology which applies to infectious agents. [Adapted from https://www.vu.nl/en/study-guide/2018-2019/master/a-b/biomolecular-sciences/index.aspx?view=module&amp;origin=50051465x50051462&amp;id=50043925, AL 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Medical Microbiology, Molecular Infection Biology</ontology:SRAO_0000268>

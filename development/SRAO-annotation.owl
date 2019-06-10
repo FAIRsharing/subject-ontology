@@ -404,18 +404,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3301 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3301">
-        <obo:IAO_0000115>The biology of microorganisms.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Antimicrobial stewardship</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Microbial surveillance</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Microbiological surveillance</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3302 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3302">
@@ -1346,6 +1334,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Immunogenetics</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16851"/>
     
 
 
