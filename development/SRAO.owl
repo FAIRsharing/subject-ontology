@@ -801,23 +801,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_0202 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0202">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:comment>AL: 28.9.17 Pharmacology is asserted as a child of Medicine by re3data and as a child of &apos;Biomedical Science&apos; by EDAM. We have retained the re3data assertion.</rdfs:comment>
-        <rdfs:label xml:lang="en">Pharmacology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0208 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0208">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0202"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Child of Pharmacology and Genomics, to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label>Pharmacogenomics</rdfs:label>
@@ -2287,6 +2275,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 1.5.2019: Refactored re3data composite class &apos;Gynecology and Obstetrics&apos; into sibling classes &apos;Gynecology&apos; and &apos;Obstetrics&apos;. This replaced the composite EDAM IRI representing &apos;Gynecology and Obstetrics&apos; with individual NCIT terms according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Obstetrics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16974">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3303"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 10.6.2019: Pharmacology is a child of Biological Sciences within NCIT, and a child of Medicine by re3data. The re3data placement has been retained.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pharmacology</rdfs:label>
     </owl:Class>
     
 

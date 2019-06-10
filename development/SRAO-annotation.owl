@@ -134,17 +134,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0202 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0202">
-        <obo:IAO_0000115>The study of drugs and their effects or responses in living systems. </obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Computational pharmacology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Pharmacoinformatics</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0208 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0208">
@@ -1466,6 +1455,12 @@
         <ontology:SRAO_0000276>Obstetrical</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Obstetrics</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16974"/>
     
 
 
