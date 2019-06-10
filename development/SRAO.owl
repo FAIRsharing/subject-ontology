@@ -663,7 +663,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8320">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000203"/>
-        <obo:IAO_0000115 xml:lang="en">Water Management is the activity of planning, developing, distributing and optimum use of water resources under defined water polices and regulations. It includes: management of water treatment of drinking water, industrial water, sewage or wastewater, management of water resources, management of flood protection, management of irrigation, and management of the water table. [Wikipedia, https://en.wikipedia.org/wiki/Category:Water_management, 28.3.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Water Management is the activity of planning, developing, distributing and optimum use of water resources under defined water polices and regulations. It includes: management of water treatment of drinking water, industrial water, sewage or wastewater, management of water resources, management of flood protection, management of irrigation, and management of the water table. [Wikipedia, https://en.wikipedia.org/wiki/Category:Water_management, AL 28.3.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Water Resource Management</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
