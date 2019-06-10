@@ -274,15 +274,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3064 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3064">
-        <obo:IAO_0000115>How organisms grow and develop.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3065 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3065">
@@ -1269,6 +1260,12 @@
         <ontology:SRAO_0000276>Demography</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Population Studies / Demography</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16501"/>
     
 
 

@@ -960,21 +960,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3064 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Developmental Biology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3065 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3065">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16501"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Embryology</rdfs:label>
     </owl:Class>
@@ -2083,6 +2072,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Developmental Biology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16526 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16526">
@@ -2577,7 +2577,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C18740 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18740">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16501"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
