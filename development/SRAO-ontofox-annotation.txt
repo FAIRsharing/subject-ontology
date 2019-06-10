@@ -52,7 +52,6 @@ http://edamontology.org/topic_3174
 http://edamontology.org/topic_3263
 http://edamontology.org/topic_3292
 http://edamontology.org/topic_3293
-http://edamontology.org/topic_3295
 http://edamontology.org/topic_3297
 http://edamontology.org/topic_3298
 http://edamontology.org/topic_3299

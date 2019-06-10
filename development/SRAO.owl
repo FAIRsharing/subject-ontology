@@ -1020,8 +1020,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3173 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3173">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3295"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000316"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Child of Epigenetics and Genomics, to align with the EDAM hierarchy.
 </rdfs:comment>
@@ -1073,16 +1073,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:comment xml:lang="en">AL 14.5.2019: Synonym &apos;Biological Systematics&apos; was added upon the removal of the &apos;Plant Systematics and Evolution&apos; re3data class. &apos;Plant Systematics and Evolution&apos; was removed as it was not in scope for FAIRsharing (the subject represented by this class would be better served by a broader concept of Systematics).</rdfs:comment>
         <rdfs:comment>AL 25.9.17 Phylogenetics is asserted as a child of Phylogeny and &apos;Sequence Analysis&apos; by EDAM, and as a child of Genetics within FAIRsharing. &apos;Sequence Analysis&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained.</rdfs:comment>
         <rdfs:label>Phylogenetics</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_3295 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3295">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Epigenetics</rdfs:label>
     </owl:Class>
     
 
@@ -5223,6 +5213,18 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000118 xml:lang="en">Care in the Community</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">Curator request</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Community Care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000316 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <obo:IAO_0000115 xml:lang="en">Epigenetics is the study of the chemical modification of specific genes or gene-associated proteins of an organism. [Encyclopedia Britannica https://www.britannica.com/science/epigenetics, AL 10.06.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 10.6.2019: The EDAM class http://edamontology.org/topic_3295 had been used for this subject, but was refactored to a SRAO IRI, as the EDAM synonyms were not appropriate for FAIRsharing&apos;s requirements.</rdfs:comment>
+        <rdfs:label xml:lang="en">Epigenetics</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

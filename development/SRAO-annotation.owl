@@ -368,17 +368,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3295 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3295">
-        <obo:IAO_0000115>Topic concerning the study of heritable changes, for example in gene expression or phenotype, caused by mechanisms other than changes in the DNA sequence.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>DNA methylation</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Histone modification</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3297 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3297">
