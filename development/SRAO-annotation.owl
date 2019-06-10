@@ -176,18 +176,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0622 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0622">
-        <obo:IAO_0000115>Whole genomes of one or more organisms, or genomes in general, such as meta-information on genomes, genome projects, gene names etc.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Genome annotation</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Personal genomics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Viral genomics</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0637 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0637">
@@ -1781,6 +1769,12 @@
         <ontology:SRAO_0000276>Historical</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>History</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C84343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C84343"/>
     
 
 

@@ -32,7 +32,6 @@ http://edamontology.org/topic_0208
 http://edamontology.org/topic_0209
 http://edamontology.org/topic_0219
 http://edamontology.org/topic_0605
-http://edamontology.org/topic_0622
 http://edamontology.org/topic_0637
 http://edamontology.org/topic_0780
 http://edamontology.org/topic_0781
@@ -214,6 +213,7 @@ http://purl.obolibrary.org/obo/NCIT_C20085 # Proteomics
 http://purl.obolibrary.org/obo/NCIT_C20179 # Toxicogenomics
 http://purl.obolibrary.org/obo/NCIT_C20609 # Synthesis Chemistry
 http://purl.obolibrary.org/obo/NCIT_C54625 # History
+http://purl.obolibrary.org/obo/NCIT_C84343 # Genomics
 http://purl.obolibrary.org/obo/NCIT_C86055 # Cardiology
 http://purl.obolibrary.org/obo/NCIT_C95096 # Neuroscience
 http://purl.obolibrary.org/obo/NCIT_C105699 # Vascular Surgery

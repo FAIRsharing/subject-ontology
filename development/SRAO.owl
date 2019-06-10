@@ -747,8 +747,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_0085 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0085">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Computational Biology&apos; and &apos;Genomics&apos;, to align with the EDAM hierarchy. &apos;Functional Genomics&apos; is asserted as a child of &apos;Function analysis&apos; within EDAM, however this class has not been retained within FAIRsharing, and its parent term &apos;Computational Biology&apos; is used instead.</rdfs:comment>
         <rdfs:label>Functional Genomics</rdfs:label>
@@ -781,8 +781,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_0122 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0122">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_1317"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Structural Genomics</rdfs:label>
     </owl:Class>
@@ -793,7 +793,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_0194">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0084"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 25.9.17 Phylogenomics is asserted as a child of Phylogeny and &apos;Sequence Analysis&apos; by EDAM, and as a child of Genomics within FAIRsharing. &apos;Sequence Analysis&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained.</rdfs:comment>
         <rdfs:label>Phylogenomics</rdfs:label>
@@ -804,8 +804,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_0208 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0208">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Child of Pharmacology and Genomics, to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label>Pharmacogenomics</rdfs:label>
@@ -842,16 +842,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 26.9.17 Informatics is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to &apos;Computer Science&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Informatics</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_0622 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0622">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Genomics</rdfs:label>
     </owl:Class>
     
 
@@ -895,7 +885,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_0797 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0797">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Comparative Genomics</rdfs:label>
     </owl:Class>
@@ -1108,8 +1098,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3173 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3173">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3295"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Child of Epigenetics and Genomics, to align with the EDAM hierarchy.
 </rdfs:comment>
@@ -1282,8 +1272,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3308 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3308">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3321"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>Child of Genomics to align with the EDAM hierarchy. EDAM further asserts this as a child of &apos;Gene expression&apos;. However, &apos;Gene expression&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained. Instead, Transcriptomics has also been asserted as the child of the parent term for &apos;Gene expression&apos;, &apos;Molecular Genetics&apos;.</rdfs:comment>
         <rdfs:label>Transcriptomics</rdfs:label>
@@ -1943,8 +1933,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C119712 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C119712">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 12.12.17 Child of Bioinformatics (to align with NCIT) and also of Genomics, to align with FAIRsharing usage.</rdfs:comment>
         <rdfs:label xml:lang="en">Proteogenomics</rdfs:label>
@@ -2648,8 +2638,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C20179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20179">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0622"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_2840"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 20.12.17: Although NCIT places Toxicogenomics as a child of Bioinformatics, FAIRsharing instead places it as a child of both Genomics and Toxicology.</rdfs:comment>
         <rdfs:label>Toxicogenomics</rdfs:label>
@@ -2677,6 +2667,16 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">History</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C84343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C84343">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Genomics</rdfs:label>
     </owl:Class>
     
 
