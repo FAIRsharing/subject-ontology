@@ -778,16 +778,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_0121 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0121">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Proteomics</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0122 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0122">
@@ -2502,7 +2492,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000268>Bioinformatics and Theoretical Biology</ontology:SRAO_0000268>
+        <ontology:SRAO_0000268 xml:lang="en">Bioinformatics and Theoretical Biology</ontology:SRAO_0000268>
         <rdfs:comment>AL 27.9.17 Bioinformatics is asserted as a child of Informatics by EDAM and as a child of Biology within re3data. Within FAIRsharing, this term used to be labelled &apos;Bioinformatics tools and formats&apos;, but has been modified for simplicity. Within re3data, this term used to be labelled &apos;Bioinformatics and Theoretical Biology&apos; but was simplified as these are two distinct disciplines. Currently Theoretical Biology has not been re-introduced, but this may need to be revisited in future.</rdfs:comment>
         <rdfs:label xml:lang="en">Bioinformatics</rdfs:label>
     </owl:Class>
@@ -2642,6 +2632,16 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Health Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20085">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Proteomics</rdfs:label>
     </owl:Class>
     
 

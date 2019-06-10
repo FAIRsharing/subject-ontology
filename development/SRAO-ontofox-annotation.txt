@@ -26,7 +26,6 @@ http://edamontology.org/topic_0084
 http://edamontology.org/topic_0085
 http://edamontology.org/topic_0089
 http://edamontology.org/topic_0092
-http://edamontology.org/topic_0121
 http://edamontology.org/topic_0122
 http://edamontology.org/topic_0176
 http://edamontology.org/topic_0194
@@ -211,6 +210,7 @@ http://purl.obolibrary.org/obo/NCIT_C18701 # Clinical Immunology
 http://purl.obolibrary.org/obo/NCIT_C18740 # Developmental Psychology
 http://purl.obolibrary.org/obo/NCIT_C18873 # Microbial Physiology
 http://purl.obolibrary.org/obo/NCIT_C19199 # Health Sciences
+http://purl.obolibrary.org/obo/NCIT_C20085 # Proteomics
 http://purl.obolibrary.org/obo/NCIT_C20179 # Toxicogenomics
 http://purl.obolibrary.org/obo/NCIT_C20609 # Synthesis Chemistry
 http://purl.obolibrary.org/obo/NCIT_C54625 # History

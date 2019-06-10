@@ -116,20 +116,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0121 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0121">
-        <obo:IAO_0000115>Protein and peptide identification, especially in the study of whole proteomes of organisms.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Discovery proteomics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Metaproteomics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Peptide identification</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Protein and peptide identification</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Targeted proteomics</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0122 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0122">
@@ -1765,6 +1751,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Health Sciences</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20085"/>
     
 
 
