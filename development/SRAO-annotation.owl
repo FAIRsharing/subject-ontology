@@ -216,16 +216,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_2229 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_2229">
-        <obo:IAO_0000115>Cells, such as key genes and proteins involved in the cell cycle.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Cellular processes</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_2258 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2258">
@@ -1604,6 +1594,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C17964 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17964"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17992"/>
     
 
 

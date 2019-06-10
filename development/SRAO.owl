@@ -892,17 +892,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_2229 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_2229">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Cell Biology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_2258 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_2258">
@@ -2467,6 +2456,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17992">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Cell Biology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C18011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18011">
@@ -3717,7 +3717,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000086">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_2229"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17992"/>
         <obo:IAO_0000115 xml:lang="en">Plant Cell Biology is a research area focusing on the how the processes underlying plant cell function and development are regulated. [Adapted from https://www.plants.ox.ac.uk/cell-and-developmental-biology-cdb, AL 23.3.2019]</obo:IAO_0000115>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Plant Cell and Developmental Biology</ontology:SRAO_0000268>
