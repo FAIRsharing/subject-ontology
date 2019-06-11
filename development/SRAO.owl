@@ -14,20 +14,20 @@
         <owl:imports rdf:resource="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This OWL file is a hierarchical categorization of research disciplines based on multiple resources. It is used within FAIRsharing as the basis for the discipline tags present within FAIRsharing records. 
 
-The majority of the classes come from two sources:
+The initial hierarchy and class set came from FAIRsharing user requirements and from
 
 1. the re3data subject categories as listed at http://www.re3data.org/browse/by-subject/ 
 
-2. the EDAM Topic hierarchy as available at http://edamontology.org
+Additional classes have been drawn from the following sources:
 
-A small number of classes come from other sources:
+2. the EDAM Topic hierarchy as available at http://edamontology.org (http://doi.org/10.1093/bioinformatics/btt113, CC BY-SA 4.0)
+3. OMIT (https://doi.org/10.1371/journal.pone.0100855 and https://doi.org/10.1186/s13326-016-0064-2, CC BY 3.0)
+4. NCIT (http://dx.doi.org/10.3233/978-1-60750-949-3-33, CC BY 4.0)
+5. AgroVoc (http://agrovoc.uniroma2.it/agrovoc/agrovoc/en/, CC BY 3.0 IGO)
+6. PO (http://www.plantontology.org/, CC BY 4.0)
+7. OBI (https://doi.org/10.1371/journal.pone.0154556, CC BY 3.0)
 
-3. OMIT
-4. NCIT
-5. AgroVoc
-6. PO
-
-This OWL file is more than just an import of the source ontologies listed. Firstly, only those disciplines which are appropriate for use within FAIRsharing have been retained. Modifications to the hierarchy have also been performed to aid usability within FAIRsharing as well as to aid ontology alignment and merging.
+This OWL file is more than just an import of the source ontologies listed. Modifications to the hierarchy have been performed to aid usability within FAIRsharing as well as to aid ontology alignment and merging. Additional definitions and annotations have also been incorporated by the FAIRsharing team.
 
 Created by Allyson L. Lister, Peter McQuilton, Alejandra Gonzalez-Beltran, Philippe Rocca-Serra, Milo Thurston, Massimiliano Izzo, Susanna-Assunta Sansone
 
@@ -142,6 +142,15 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000292">
         <rdfs:label xml:lang="en">PO alternative term</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000317 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000317">
+        <rdfs:label xml:lang="en">OBI alternative term</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>
     
@@ -762,18 +771,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Ontology and Terminology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_0092 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0092">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
-        <obo:IAO_0000115>Data visualization is a general term that describes any effort to help people understand the significance of data by placing it in a visual context. [PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
-        <ontology:SRAO_0000269>Data visualisation</ontology:SRAO_0000269>
-        <rdfs:label xml:lang="en">Data Visualization</rdfs:label>
     </owl:Class>
     
 
@@ -2686,6 +2683,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
         <rdfs:comment>AL: 17.10.17 Neuroscience is asserted as a child of Medicine by re3data and Neuro*biology* as a child of &apos;Biomedical Science&apos; by EDAM. We have placed Neurobiology as a child of Neuroscience. The re3data label has been changed from Neurosciences to Neuroscience to align with FAIRsharing terminology.</rdfs:comment>
         <rdfs:label>Neuroscience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200111">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000412 xml:lang="en">OBI</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to OBI to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Visualization</rdfs:label>
     </owl:Class>
     
 

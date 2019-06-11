@@ -106,16 +106,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0092 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0092">
-        <obo:IAO_0000115>Rendering (drawing on a computer screen) or visualisation of molecular sequences, structures or other biomolecular data.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Data rendering</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0122 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0122">
@@ -1736,6 +1726,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200111"/>
     
 
 
