@@ -1206,8 +1206,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3336 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3336">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 29.9.17 Child of &apos;Medicines research and development&apos; and Chemistry, to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label>Drug Discovery</rdfs:label>
@@ -1276,7 +1276,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3373 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3373">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Drug Development</rdfs:label>
     </owl:Class>
@@ -1286,20 +1286,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3374 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3374">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:label>Biotherapeutics</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_3376 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3376">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:comment xml:lang="en">AL 16.5.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
-        <rdfs:label>Medicines Research and Development</rdfs:label>
     </owl:Class>
     
 
@@ -1307,7 +1296,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3377 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3377">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <ontology:SRAO_0000269 xml:lang="en">Safety Sciences</ontology:SRAO_0000269>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
@@ -1780,7 +1769,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C142642 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142642">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Preclinical and Clinical Studies&apos; into sibling classes &apos;Preclinical Studies&apos; and &apos;Clinical Studies&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Preclinical Studies</rdfs:label>
@@ -1802,7 +1791,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C15206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15206">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Preclinical and Clinical Studies&apos; into sibling classes &apos;Preclinical Studies&apos; and &apos;Clinical Studies&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Clinical Studies</rdfs:label>
@@ -2629,7 +2618,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C26633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26633">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Drug Metabolism</rdfs:label>
@@ -5247,6 +5236,18 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 10.6.2019: The EDAM class http://edamontology.org/topic_3295 had been used for this subject, but was refactored to a SRAO IRI, as the EDAM synonyms were not appropriate for FAIRsharing&apos;s requirements.</rdfs:comment>
         <rdfs:label xml:lang="en">Epigenetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000318 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 11.6.2019: The source of the definition for this class was EDAM. The EDAM class whose definition was used was unsuitable for SRAO as its synonyms included &apos;Drug Discovery&apos; and &apos;Drug Develoment&apos;, a subject described elsewhere in SRAO and not a synonym according to FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL 16.5.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
+        <rdfs:label xml:lang="en">Medicines Research and Development</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
