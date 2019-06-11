@@ -83,7 +83,6 @@ http://edamontology.org/topic_3402
 http://edamontology.org/topic_3403
 http://edamontology.org/topic_3405
 http://edamontology.org/topic_3406
-http://edamontology.org/topic_3408
 http://edamontology.org/topic_3409
 http://edamontology.org/topic_3410
 http://edamontology.org/topic_3414
@@ -162,6 +161,7 @@ http://purl.obolibrary.org/obo/NCIT_C16591 # Forensic Medicine
 http://purl.obolibrary.org/obo/NCIT_C16624 # Genetics
 http://purl.obolibrary.org/obo/NCIT_C16633 # Geography
 http://purl.obolibrary.org/obo/NCIT_C16658 # Gynecology
+http://purl.obolibrary.org/obo/NCIT_C16673 # Hematology
 http://purl.obolibrary.org/obo/NCIT_C16715 # Immunogenetics
 http://purl.obolibrary.org/obo/NCIT_C16851 # Microbiology
 http://purl.obolibrary.org/obo/NCIT_C16908 # Neurology

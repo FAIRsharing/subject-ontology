@@ -1444,18 +1444,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3408 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3408">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
-        <ontology:SRAO_0000269>Haematology</ontology:SRAO_0000269>
-        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Hematology, Oncology, Transfusion Medicine&apos; into sibling classes &apos;Hematology&apos; and &apos;Oncology&apos;, and a child of Hematology called &apos;Transfusion Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:comment>EDAM</rdfs:comment>
-        <rdfs:label>Hematology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3409 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3409">
@@ -2058,6 +2046,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Hematology, Oncology, Transfusion Medicine&apos; into sibling classes &apos;Hematology&apos; and &apos;Oncology&apos;, and a child of Hematology called &apos;Transfusion Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Hematology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16715 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16715">
@@ -2336,6 +2336,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17837">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Hematology, Oncology, Transfusion Medicine&apos; into sibling classes &apos;Hematology&apos; and &apos;Oncology&apos;, and a child of Hematology called &apos;Transfusion Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Oncology</rdfs:label>
@@ -3050,7 +3051,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/OMIT_0028546 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0028546">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3408"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16673"/>
         <obo:IAO_0000115 xml:lang="en">Transfusion medicine is the branch of medicine that is concerned with transfusion of blood and blood components. It encompasses issues of blood donation, immunohematology and other laboratory testing, transfusion practices, patient blood management, therapeutic apheresis, stem cell collections, cellular therapy, and coagulation. [Adapted from Wikipedia, https://en.wikipedia.org/wiki/Transfusion_medicine, AL 28.3.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>

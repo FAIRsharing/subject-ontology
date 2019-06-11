@@ -669,17 +669,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3408 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3408">
-        <obo:IAO_0000115>The branch of medicine that deals with the blood, blood-forming organs and blood diseases.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Blood disorders</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Haematological disorders</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3409 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3409">
@@ -1214,6 +1203,12 @@
         <ontology:SRAO_0000276>GYN</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Gynecology</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16673"/>
     
 
 
