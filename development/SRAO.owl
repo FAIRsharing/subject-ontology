@@ -525,11 +525,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_4682">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115>Industrial engineering is a branch of engineering which deals with the optimization of complex processes, systems, or organizations, to create engineering processes and systems that improve quality and productivity. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">Mechanical Engineering applies the principles of engineering, physics and materials science to the design, analysis, manufacture and maintenance of mechnical systems. [Adapted from Quora, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 24.5.18: The original &quot;Mechanical and industrial Engineering&quot; class from re3data has been split into &quot;Mechanical Engineering&quot; and &quot;Industrial Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <rdfs:label>Mechanical Engineering</rdfs:label>
+        <rdfs:label xml:lang="en">Mechanical Engineering</rdfs:label>
     </owl:Class>
     
 
@@ -4300,11 +4300,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000206">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115>Mechanical Engineering applies the principles of engineering, physics and materials science to the design, analysis, manufacture and maintenance of mechnical systems. [Adapted from Quora, PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">Industrial engineering is a branch of engineering which deals with the optimization of complex processes, systems, or organizations, to create engineering processes and systems that improve quality and productivity. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Mechanical and industrial Engineering</ontology:SRAO_0000268>
         <rdfs:comment>AL 24.5.18: The original &quot;Mechanical and industrial Engineering&quot; class from re3data has been split into &quot;Mechanical Engineering&quot; and &quot;Industrial Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <rdfs:label>Industrial Engineering</rdfs:label>
+        <rdfs:label xml:lang="en">Industrial Engineering</rdfs:label>
     </owl:Class>
     
 
