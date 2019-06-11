@@ -81,7 +81,6 @@ http://edamontology.org/topic_3399
 http://edamontology.org/topic_3401
 http://edamontology.org/topic_3402
 http://edamontology.org/topic_3403
-http://edamontology.org/topic_3404
 http://edamontology.org/topic_3405
 http://edamontology.org/topic_3406
 http://edamontology.org/topic_3407
@@ -154,6 +153,7 @@ http://purl.obolibrary.org/obo/NCIT_C16421 # Physical Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16439 # Medical Informatics
 http://purl.obolibrary.org/obo/NCIT_C16478 # Culture
 http://purl.obolibrary.org/obo/NCIT_C16495 # Demographics
+http://purl.obolibrary.org/obo/NCIT_C16500 # Dermatology
 http://purl.obolibrary.org/obo/NCIT_C16501 # Developmental Biology
 http://purl.obolibrary.org/obo/NCIT_C16526 # Ecology
 http://purl.obolibrary.org/obo/NCIT_C16548 # Engineering Science
