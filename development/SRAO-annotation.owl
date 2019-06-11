@@ -519,20 +519,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3372 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3372">
-        <obo:IAO_0000115>The process that leads from an original formulation of a computing problem to executable programs.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269> Programming languages</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Algorithms</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Computer programming</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Data structures</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Software development</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3373 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3373">
@@ -1418,6 +1404,12 @@
         <ontology:SRAO_0000276>Social Sciences</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Social Studies</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17147"/>
     
 
 

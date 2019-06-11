@@ -1273,19 +1273,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3372 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3372">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
-        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000268>Software technology</ontology:SRAO_0000268>
-        <rdfs:comment>AL: 29.9.17 Changed label from &apos;Software Technology&apos; (sourced from re3data) to &apos;Software engineering&apos; to align with EDAM. </rdfs:comment>
-        <rdfs:label xml:lang="en">Software Engineering</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3373 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3373">
@@ -2290,6 +2277,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Social Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17147">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268>Software technology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:comment>AL: 29.9.17 Changed label from &apos;Software Technology&apos; (sourced from re3data) to &apos;Software engineering&apos; to align with EDAM. </rdfs:comment>
+        <rdfs:label xml:lang="en">Software Engineering</rdfs:label>
     </owl:Class>
     
 
