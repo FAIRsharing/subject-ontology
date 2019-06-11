@@ -1203,20 +1203,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3334 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3334">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000268>Clinical Neurosciences I - Neurology, Neurosurgery</ontology:SRAO_0000268>
-        <rdfs:comment>AL: 28.9.17 Changed re3data label from &apos;Clinical Neurosciences I - Neurology, Neurosurgery&apos; to Neurology as the new label is simpler and aligns with EDAM. Neurology is asserted as a child of Medicine by EDAM and as a child of Neurobiology by re3data. Both assertions have been retained, although this may need to be revisited in future.</rdfs:comment>
-        <rdfs:label xml:lang="en">Neurology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3336 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3336">
@@ -2152,6 +2138,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 25.9.17 [Updated AL 10.06.2019] Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology according to NCIT and FAIRsharing curators. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science according to FAIRsharing curators, a modification both of the Medicine hierarchy as listed by re3data and the Biological Sciences as listed by NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Microbiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16908">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268>Clinical Neurosciences I - Neurology, Neurosurgery</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL 28.9.17 (Updated AL 11.6.2019): Changed re3data label from &apos;Clinical Neurosciences I - Neurology, Neurosurgery&apos; to Neurology as the new label is singular (non-composite). Neurology is asserted within the NCIT Medicine hierarchy and as a child of Neurobiology by re3data. The hierarchies of both have been retained.</rdfs:comment>
+        <rdfs:label xml:lang="en">Neurology</rdfs:label>
     </owl:Class>
     
 
