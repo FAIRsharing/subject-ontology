@@ -394,20 +394,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3303 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3303">
-        <obo:IAO_0000115>Research in support of healing by diagnosis, treatment, and prevention of disease.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Biomedical research</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Clinical medicine</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Experimental medicine</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>General medicine</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Internal medicine</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3304 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3304">
@@ -1732,6 +1718,12 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0200111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0009577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0009577"/>
     
 
 
