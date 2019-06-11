@@ -1480,20 +1480,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3417 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3417">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000268>Clinical Neurosciences III - Ophthalmology</ontology:SRAO_0000268>
-        <rdfs:comment>AL: 28.9.17 Changed re3data label from &apos;Clinical Neurosciences III - Opthalmology&apos; to Opthalmology as the new label is simpler and aligns with EDAM. Opthalmology is asserted as a child of Medicine by EDAM and as a child of Neurobiology by re3data. Both assertions have been retained, although this may need to be revisited in future.</rdfs:comment>
-        <rdfs:label xml:lang="en">Ophthalmology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3418 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3418">
@@ -2119,6 +2105,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 1.5.2019: Refactored re3data composite class &apos;Gynecology and Obstetrics&apos; into sibling classes &apos;Gynecology&apos; and &apos;Obstetrics&apos;. This replaced the composite EDAM IRI representing &apos;Gynecology and Obstetrics&apos; with individual NCIT terms according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Obstetrics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16939">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268>Clinical Neurosciences III - Ophthalmology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL 28.9.17 (Updated AL 11.6.2019): Changed re3data label from &apos;Clinical Neurosciences III - Opthalmology&apos; to Opthalmology as the new label is simpler and aligns with FAIRsharing best practises. Opthalmology is asserted within the Medicine hierarchy by NCIT and as a child of Neurobiology by re3data. Both assertions have been retained.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ophthalmology</rdfs:label>
     </owl:Class>
     
 
