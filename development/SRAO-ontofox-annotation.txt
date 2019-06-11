@@ -83,7 +83,6 @@ http://edamontology.org/topic_3402
 http://edamontology.org/topic_3403
 http://edamontology.org/topic_3405
 http://edamontology.org/topic_3406
-http://edamontology.org/topic_3407
 http://edamontology.org/topic_3408
 http://edamontology.org/topic_3409
 http://edamontology.org/topic_3410

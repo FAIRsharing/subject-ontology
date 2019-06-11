@@ -669,19 +669,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3407 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3407">
-        <obo:IAO_0000115>The branch of medicine dealing with diseases of endocrine organs, hormone systems, their target organs, and disorders of the pathways of glucose and lipid metabolism.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Endocrine disorders</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Endocrinology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Metabolic disorders</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Metabolism</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3408 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3408">

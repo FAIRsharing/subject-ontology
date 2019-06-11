@@ -1444,20 +1444,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3407 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3407">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <ontology:SRAO_0000268 xml:lang="en">Endocrinology, Diabetology</ontology:SRAO_0000268>
-        <ontology:SRAO_0000269>Endocrinology</ontology:SRAO_0000269>
-        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Endocrinology, Diabetology&apos; into parent &apos;Endocrinology&apos; and child &apos;Diabetology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:comment>re3data</rdfs:comment>
-        <rdfs:label xml:lang="en">Endocrinology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3408 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3408">
@@ -5068,7 +5054,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <!-- http://www.fairsharing.org/ontology/SRAO_0000304 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000304">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3407"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000320"/>
         <obo:IAO_0000115 xml:lang="en">Diabetology is a branch of medicine dealing with the study and treatment of diabetes mellitus. [Adapted from OED, AL 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Endocrinology, Diabetology&apos; into parent &apos;Endocrinology&apos; and child &apos;Diabetology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -5252,6 +5238,20 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to SRAO to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Safety Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000320 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115 xml:lang="en">Endocrinology is a branch of medicine concerned with the structure, function, and disorders of the endocrine glands. [Merriam-Webster https://www.merriam-webster.com/dictionary/endocrinology, AL 11.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Endocrinology, Diabetology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to SRAO to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Endocrinology, Diabetology&apos; into parent &apos;Endocrinology&apos; and child &apos;Diabetology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Endocrinology</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
