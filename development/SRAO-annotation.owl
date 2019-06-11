@@ -540,22 +540,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3375 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3375">
-        <obo:IAO_0000115>The study of how a drug interacts with the body.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>ADME</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Drug absorption</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Drug distribution</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Drug excretion</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Pharmacodynamics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Pharmacokinetics</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Pharmacokinetics and pharmacodynamics</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3376 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3376">
@@ -1663,6 +1647,12 @@
         <ontology:SRAO_0000276>Synthesis Chemistry</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Synthetic Chemistry</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C26633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26633"/>
     
 
 

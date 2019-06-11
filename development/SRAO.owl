@@ -1293,16 +1293,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3375 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3375">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Drug Metabolism</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3376 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3376">
@@ -2632,6 +2622,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268 xml:lang="en">AL: 10.4.2019 Refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises. Simplified this class name from &apos;Solid State and Surface Chemistry, Material Synthesis&apos; according to FAIRsharing curation best practises.</ontology:SRAO_0000268>
         <ontology:SRAO_0000268 xml:lang="en">Solid State and Surface Chemistry, Material Synthesis</ontology:SRAO_0000268>
         <rdfs:label xml:lang="en">Synthesis Chemistry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C26633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26633">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3376"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:label xml:lang="en">Drug Metabolism</rdfs:label>
     </owl:Class>
     
 

@@ -70,7 +70,6 @@ http://edamontology.org/topic_3370
 http://edamontology.org/topic_3371
 http://edamontology.org/topic_3373
 http://edamontology.org/topic_3374
-http://edamontology.org/topic_3375
 http://edamontology.org/topic_3376
 http://edamontology.org/topic_3377
 http://edamontology.org/topic_3387
@@ -208,6 +207,7 @@ http://purl.obolibrary.org/obo/NCIT_C19199 # Health Sciences
 http://purl.obolibrary.org/obo/NCIT_C20085 # Proteomics
 http://purl.obolibrary.org/obo/NCIT_C20179 # Toxicogenomics
 http://purl.obolibrary.org/obo/NCIT_C20609 # Synthesis Chemistry
+http://purl.obolibrary.org/obo/NCIT_C26633 # Drug Metabolism
 http://purl.obolibrary.org/obo/NCIT_C54625 # History
 http://purl.obolibrary.org/obo/NCIT_C84343 # Genomics
 http://purl.obolibrary.org/obo/NCIT_C86055 # Cardiology
