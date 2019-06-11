@@ -1171,7 +1171,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_3316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115>Computer Science - The study of the principles and use of computers. [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 20.05.2019: &apos;Computer Science&apos; is asserted as a child of &apos;Computer Science, Electrical and System Engineering&apos; by re3data (which has now been simplified and removed, making this class a direct child of Engineering Science), and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
