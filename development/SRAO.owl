@@ -1444,16 +1444,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3409 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3409">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
-        <rdfs:comment>EDAM</rdfs:comment>
-        <rdfs:label>Gastroenterology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3410 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3410">
@@ -2005,6 +1995,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label>Forensic Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16603">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:label xml:lang="en">Gastroenterology</rdfs:label>
     </owl:Class>
     
 
