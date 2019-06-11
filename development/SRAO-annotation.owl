@@ -540,16 +540,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3377 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3377">
-        <obo:IAO_0000115>The safety (or lack) of drugs and other medical interventions.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Drug safety</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3387 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3387">

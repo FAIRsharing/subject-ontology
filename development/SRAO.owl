@@ -1293,18 +1293,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3377 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3377">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
-        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
-        <ontology:SRAO_0000269 xml:lang="en">Safety Sciences</ontology:SRAO_0000269>
-        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
-        <rdfs:label xml:lang="en">Safety Science</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3387 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3387">
@@ -2301,8 +2289,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C17206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17206">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3377"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000319"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 10.6.2019: Added parent term of &apos;Pharmacology&apos; to align with NCIT hierarchy. This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines. AL 27.9.17: Changed re3data label from &apos;Toxicology and Occupational Medicine&apos; to &apos;Occupational Medicine&apos; as these are two distinct disciplines. Toxicology has been placed as a child of &apos;Safety Sciences&apos;, while Occupational Medicine has been kept as a child of Medicine.</rdfs:comment>
         <rdfs:label xml:lang="en">Toxicology</rdfs:label>
@@ -5244,10 +5233,24 @@ Structural Engineering is the branch of civil engineering concerned with the ana
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <obo:IAO_0000115 xml:lang="en">The discovery, development and approval of medicines. [EDAM http://edamontology.org/topic_3376, AL 11.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 11.6.2019: The source of the definition for this class was EDAM. The EDAM class whose definition was used was unsuitable for SRAO as its synonyms included &apos;Drug Discovery&apos; and &apos;Drug Develoment&apos;, a subject described elsewhere in SRAO and not a synonym according to FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL 16.5.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
         <rdfs:label xml:lang="en">Medicines Research and Development</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000319 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000206"/>
+        <obo:IAO_0000115 xml:lang="en">Safety Science is the study of the science and technology of human and industrial safety. It extends from safety of people at work to other spheres, such as transport, energy or infrastructures, as well as every other field of man&apos;s hazardous activities. [Elsevier https://www.journals.elsevier.com/safety-science, AL 11.6.2019]</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to SRAO to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Safety Science</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

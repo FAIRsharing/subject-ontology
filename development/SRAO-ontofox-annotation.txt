@@ -70,7 +70,6 @@ http://edamontology.org/topic_3370
 http://edamontology.org/topic_3371
 http://edamontology.org/topic_3373
 http://edamontology.org/topic_3374
-http://edamontology.org/topic_3377
 http://edamontology.org/topic_3387
 http://edamontology.org/topic_3388
 http://edamontology.org/topic_3390
