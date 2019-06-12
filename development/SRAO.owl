@@ -659,11 +659,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_7188">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_211"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
-        <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Soil Sciences</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 12.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:comment>AL 6.3.18: Placement of Soil Sciences is modified from the re3data hierarchy due to adjustments to align with the AgroVoc hierarchy. re3data placement is as a child of Agriculture, which has been further refined to Agronomy. AgroVoc places Soil Sciences as a child of Earth Sciences, which has been reproduced here.</rdfs:comment>
-        <rdfs:label xml:lang="en">Soil Sciences</rdfs:label>
+        <rdfs:label xml:lang="en">Soil Science</rdfs:label>
     </owl:Class>
     
 
@@ -5254,6 +5257,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000206"/>
         <obo:IAO_0000115 xml:lang="en">Safety Science is the study of the science and technology of human and industrial safety. It extends from safety of people at work to other spheres, such as transport, energy or infrastructures, as well as every other field of man&apos;s hazardous activities. [Elsevier https://www.journals.elsevier.com/safety-science, AL 11.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Safety Sciences</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to SRAO to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Safety Science</rdfs:label>
