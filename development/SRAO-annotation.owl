@@ -706,19 +706,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3420 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3420">
-        <obo:IAO_0000115>The health of the reproductive processes, functions and systems at all stages of life.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Andrology</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Family planning</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Fertility medicine</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Reproductive disorders</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3421 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3421">
@@ -1656,6 +1643,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0011270">
         <obo:IAO_0000115 xml:lang="en">A branch of biology which deals with parasitic organisms with a strong emphasis on their role in disease. [ NCI http://purl.obolibrary.org/obo/NCIT_C16954, AL 10.6.2019]</obo:IAO_0000115>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0027812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0027812"/>
     
 
 
