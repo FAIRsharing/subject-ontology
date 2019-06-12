@@ -1495,16 +1495,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3419 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3419">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Psychiatry</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3420 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3420">
@@ -2136,6 +2126,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 12.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:label xml:lang="en">Psychiatry</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17028">
@@ -2164,7 +2165,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C17038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17038">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3419"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17026"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>

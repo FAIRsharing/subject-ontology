@@ -706,16 +706,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3419 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3419">
-        <obo:IAO_0000115>The branch of medicine that deals with the mangement of mental illness, emotional disturbance and abnormal behaviour.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Psychiatric disorders</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3420 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3420">
@@ -1252,6 +1242,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C16974 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17026"/>
     
 
 
