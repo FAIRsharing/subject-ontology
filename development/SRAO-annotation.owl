@@ -715,16 +715,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3473 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3473">
-        <obo:IAO_0000115>The discovery of patterns in large data sets and the extraction and trasnsformation of those patterns into a useful format.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Pattern recognition</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3489 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3489">
@@ -1639,6 +1629,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0011270">
         <obo:IAO_0000115 xml:lang="en">A branch of biology which deals with parasitic organisms with a strong emphasis on their role in disease. [ NCI http://purl.obolibrary.org/obo/NCIT_C16954, AL 10.6.2019]</obo:IAO_0000115>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0026929 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026929"/>
     
 
 

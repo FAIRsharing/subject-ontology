@@ -1505,17 +1505,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3473 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3473">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
-        <obo:IAO_0000115>Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Data Mining</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3489 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3489">
@@ -3024,6 +3013,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:comment>AL 10.11.2017: Aligned with the OMIT &apos;Earth Sciences&apos; class, as this is the label and URI used within FAIRsharing.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Earth Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0026929 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026929">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 12.6.2019: This class has been refactored from EDAM to OMIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Mining</rdfs:label>
     </owl:Class>
     
 
