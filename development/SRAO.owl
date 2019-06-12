@@ -769,8 +769,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://edamontology.org/topic_0089">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Ontology and Terminology</rdfs:label>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Ontology and Terminology</rdfs:label>
     </owl:Class>
     
 
@@ -815,9 +815,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0209">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3336"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3371"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Synthetic Chemistry&apos; and &apos;Drug Discovery&apos; to align with the EDAM hierarchy.</rdfs:comment>
-        <rdfs:label>Medicinal Chemistry</rdfs:label>
+        <rdfs:label xml:lang="en">Medicinal Chemistry</rdfs:label>
     </owl:Class>
     
 
@@ -2961,10 +2961,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0018052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
         <obo:IAO_0000115 xml:lang="en">Ecosystem science is the study of inter-relationships among the living organisms, physical features, bio-chemical processes, natural phenomena, and human activities in ecological communities. [NOAA https://oceanservice.noaa.gov/facts/ecosci.html, AL 16.5.2019]</obo:IAO_0000115>
-        <obo:IAO_0000412>OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored (through deletion) re3data composite class &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos; by merging with existing classes &apos;Ecosystem Science&apos;, &apos;Biodiversity&apos; and &apos;Ecology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:label>Ecosystem Science</rdfs:label>
+        <rdfs:label xml:lang="en">Ecosystem Science</rdfs:label>
     </owl:Class>
     
 
