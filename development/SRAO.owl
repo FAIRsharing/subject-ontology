@@ -3422,6 +3422,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000038">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000037"/>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">History of Philosophy</rdfs:label>
     </owl:Class>
     
@@ -3431,6 +3432,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000039">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000037"/>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Theoretical Philosophy</rdfs:label>
     </owl:Class>
     
@@ -3440,6 +3442,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000040">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000037"/>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Practical Philosophy</rdfs:label>
     </owl:Class>
     
