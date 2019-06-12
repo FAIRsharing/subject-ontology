@@ -1535,16 +1535,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3572 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3572">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Data Quality Management</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3573 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3573">
@@ -1636,6 +1626,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 12.12.17 Child of Bioinformatics (to align with NCIT) and also of Genomics, to align with FAIRsharing usage.</rdfs:comment>
         <rdfs:label xml:lang="en">Proteogenomics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C142491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142491">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 12.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Quality</rdfs:label>
     </owl:Class>
     
 

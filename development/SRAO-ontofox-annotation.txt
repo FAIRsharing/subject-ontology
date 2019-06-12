@@ -91,7 +91,6 @@ http://edamontology.org/topic_3423
 http://edamontology.org/topic_3569
 http://edamontology.org/topic_3570
 http://edamontology.org/topic_3571
-http://edamontology.org/topic_3572
 http://edamontology.org/topic_3573
 http://edamontology.org/topic_3574
 http://edamontology.org/topic_3575
@@ -209,6 +208,7 @@ http://purl.obolibrary.org/obo/NCIT_C86055 # Cardiology
 http://purl.obolibrary.org/obo/NCIT_C95096 # Neuroscience
 http://purl.obolibrary.org/obo/NCIT_C105699 # Vascular Surgery
 http://purl.obolibrary.org/obo/NCIT_C119712 # Proteogenomics
+http://purl.obolibrary.org/obo/NCIT_C142491 # Data Quality
 http://purl.obolibrary.org/obo/NCIT_C142642 # Preclinical Studies
 
 [Top level source term URIs and target direct superclass URIs]

@@ -743,18 +743,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3572 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3572">
-        <obo:IAO_0000115>The quality, integrity, and cleaning up of data. </obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Data clean-up</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Data integrity</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Data quality</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3573 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3573">
@@ -836,6 +824,12 @@
         <ontology:SRAO_0000276>Proteogenomic Research</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Proteogenomics</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C142491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142491"/>
     
 
 
