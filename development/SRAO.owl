@@ -1112,6 +1112,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3300 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
@@ -3618,7 +3619,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000060">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
-        <obo:IAO_0000412>re3data</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Business Administration</rdfs:label>
     </owl:Class>
     
@@ -3751,6 +3752,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000093 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000093">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3300"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Biochemistry and Animal Physiology</ontology:SRAO_0000268>
