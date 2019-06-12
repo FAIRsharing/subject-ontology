@@ -197,6 +197,7 @@ http://purl.obolibrary.org/obo/NCIT_C18701 # Clinical Immunology
 http://purl.obolibrary.org/obo/NCIT_C18729 # Database Management
 http://purl.obolibrary.org/obo/NCIT_C18740 # Developmental Psychology
 http://purl.obolibrary.org/obo/NCIT_C18873 # Microbial Physiology
+http://purl.obolibrary.org/obo/NCIT_C18874 # Medical Microbiology
 http://purl.obolibrary.org/obo/NCIT_C19199 # Health Sciences
 http://purl.obolibrary.org/obo/NCIT_C20085 # Proteomics
 http://purl.obolibrary.org/obo/NCIT_C20179 # Toxicogenomics
