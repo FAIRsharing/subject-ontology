@@ -706,16 +706,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3421 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3421">
-        <obo:IAO_0000115>The use of operative, manual and instrumental techniques on a patient to investigate and/or treat a pathological condition or help improve bodily function or appearance.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Transplantation</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3423 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3423">
@@ -1339,6 +1329,12 @@
         <ontology:SRAO_0000276>Statistically</ontology:SRAO_0000276>
         <ontology:SRAO_0000276>Statistics</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17173"/>
     
 
 

@@ -87,7 +87,6 @@ http://edamontology.org/topic_3410
 http://edamontology.org/topic_3414
 http://edamontology.org/topic_3415
 http://edamontology.org/topic_3418
-http://edamontology.org/topic_3421
 http://edamontology.org/topic_3423
 http://edamontology.org/topic_3473
 http://edamontology.org/topic_3489
@@ -177,6 +176,7 @@ http://purl.obolibrary.org/obo/NCIT_C17099 # Rheumatology
 http://purl.obolibrary.org/obo/NCIT_C17141 # Social Sciences
 http://purl.obolibrary.org/obo/NCIT_C17147 # Software Engineering
 http://purl.obolibrary.org/obo/NCIT_C17167 # Statistics
+http://purl.obolibrary.org/obo/NCIT_C17173 # Surgery
 http://purl.obolibrary.org/obo/NCIT_C17174 # Oral Surgery
 http://purl.obolibrary.org/obo/NCIT_C17206 # Toxicology
 http://purl.obolibrary.org/obo/NCIT_C17243 # Urology

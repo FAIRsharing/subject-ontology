@@ -1495,16 +1495,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3421 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3421">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
-        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
-        <rdfs:label>Surgery</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3423 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3423">
@@ -1648,7 +1638,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C105699 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105699">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3421"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17173"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Vascular and Visceral Surgery</ontology:SRAO_0000268>
@@ -2253,10 +2243,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 12.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:label xml:lang="en">Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17174">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3421"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17173"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Dentistry, Oral Surgery&apos; into &apos;Dentistry&apos; (which moved to be a direct child of Medicine) and &apos;Oral Surgery&apos;, which retains its position as a child of Surgery, according to FAIRsharing curation best practises.</rdfs:comment>
@@ -3845,7 +3846,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000128 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000128">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3421"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17173"/>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 28.9.17 &apos;Cardiothoracic Surgery&apos; is asserted as a child of Medicine by re3data, and has been further refined by FAIRsharing as a child of Surgery, a class originating in EDAM.</rdfs:comment>
         <rdfs:label xml:lang="en">Cardiothoracic Surgery</rdfs:label>
@@ -5190,7 +5191,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <!-- http://www.fairsharing.org/ontology/SRAO_0000314 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000314">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3421"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17173"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0010991"/>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Traumatology and Orthopaedics&apos; into &apos;Traumatology&apos; and &apos;Orthopaedic Surgery&apos; according to FAIRsharing curation best practises. &apos;Orthopedics&apos; itself as a medical discipline is listed as a synonym of &apos;Musculoskeletal Medicine&apos;.</rdfs:comment>
