@@ -2991,6 +2991,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/OMIT_0026014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026014">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3292"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <rdfs:label>Glycomics</rdfs:label>
