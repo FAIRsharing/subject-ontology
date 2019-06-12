@@ -88,7 +88,6 @@ http://edamontology.org/topic_3414
 http://edamontology.org/topic_3415
 http://edamontology.org/topic_3418
 http://edamontology.org/topic_3423
-http://edamontology.org/topic_3489
 http://edamontology.org/topic_3569
 http://edamontology.org/topic_3570
 http://edamontology.org/topic_3571
@@ -196,6 +195,7 @@ http://purl.obolibrary.org/obo/NCIT_C18470 # Computational Chemistry
 http://purl.obolibrary.org/obo/NCIT_C18633 # Animal Genetics
 http://purl.obolibrary.org/obo/NCIT_C18645 # Enzymology
 http://purl.obolibrary.org/obo/NCIT_C18701 # Clinical Immunology
+http://purl.obolibrary.org/obo/NCIT_C18729 # Database Management
 http://purl.obolibrary.org/obo/NCIT_C18740 # Developmental Psychology
 http://purl.obolibrary.org/obo/NCIT_C18873 # Microbial Physiology
 http://purl.obolibrary.org/obo/NCIT_C19199 # Health Sciences

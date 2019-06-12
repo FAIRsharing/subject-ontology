@@ -715,24 +715,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3489 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3489">
-        <obo:IAO_0000115>The general handling of data stored in digital archives such as databanks, databases proper, web portals and other data resources.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <ontology:SRAO_0000269>Biological databases</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Content management</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Data maintenance</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Database administration</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Databases</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Document management</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Document, record and content management</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>File management</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Record management</ontology:SRAO_0000269>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3569 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3569">
@@ -1507,6 +1489,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <ontology:SRAO_0000276>Clinical Immunology</ontology:SRAO_0000276>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18729"/>
     
 
 

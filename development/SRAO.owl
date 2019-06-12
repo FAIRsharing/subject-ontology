@@ -1505,16 +1505,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3489 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3489">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Database Management</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3569 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3569">
@@ -2482,6 +2472,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 7.5.2019 Refactored re3data composite class &apos;Rheumatology, Clinical Immunology, Allergology&apos; into classes &apos;Rheumatology&apos; (remains child of Medicine) and &apos;Clinical Immunology&apos; (child of Immunology and Health Sciences) according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Clinical Immunology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18729">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 12.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
+        <rdfs:label xml:lang="en">Database Management</rdfs:label>
     </owl:Class>
     
 
