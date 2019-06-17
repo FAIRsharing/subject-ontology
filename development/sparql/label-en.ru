@@ -1,8 +1,10 @@
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
-prefix xml: <http://www.w3.org/XML/1998/namespace>
+prefix obo: <http://purl.obolibrary.org/obo/>
 
-DELETE { ?class rdfs:label ?label }
+DELETE {
+  ?class rdfs:label ?label
+}
 INSERT
 {
   ?class rdfs:label ?updatedlabel .
