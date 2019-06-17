@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl#"
-     xml:base="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl"
+<rdf:RDF xmlns="https://github.com/FAIRsharing/subject-ontology/raw/master/development/SRAO-annotation.owl#"
+     xml:base="https://github.com/FAIRsharing/subject-ontology/raw/master/development/SRAO-annotation.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -8,7 +8,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ontology="http://www.fairsharing.org/ontology/"
      xmlns:edamontology="http://edamontology.org/">
-    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl"/>
+    <owl:Ontology rdf:about="https://github.com/FAIRsharing/subject-ontology/raw/master/development/SRAO-annotation.owl"/>
     
 
 
