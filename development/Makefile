@@ -13,12 +13,12 @@ build_release: check_relnum clean build add_version
 # other than the refactored IRIs file, which still need to be made manually
 release: copy_release_files
 
-## 
+##
 ## Standalone targets
 ##
 
 # Compare two OWL files, providing LEFT and RIGHT paths and filenames
-robot_diff: 
+robot_diff:
 	$(ROBOT) diff --left $(LEFT) --right $(RIGHT) > $(BUILD_DIR)/diff.txt
 
 # Creates a diff between RELNUM and PREVIOUS_RELNUM
@@ -30,8 +30,8 @@ diff_release: check_relnum
 ## Variables
 ##
 
-# ROBOT_REMOTE_LOCATION := https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar
-ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.2.0/robot.jar
+# ROBOT_REMOTE_LOCATION := https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar                      
+ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4.0/robot.jar
 ROBOT := java -jar build/robot.jar
 
 # The development file
@@ -86,9 +86,9 @@ build/robot.jar: | reqd_build_dirs
 	curl -L -o build/robot.jar $(ROBOT_REMOTE_LOCATION)
 	chmod ug+x build/robot.jar
 
-merge: 
+merge:
 	$(ROBOT) merge --input $(DEV_FILE) \
-	annotate --ontology-iri $(MERGE_IRI) --output $(MERGE_FILE) 
+	annotate --ontology-iri $(MERGE_IRI) --output $(MERGE_FILE)
 
 add_version : merge
 	$(ROBOT) annotate --input $(MERGE_FILE) \
@@ -99,5 +99,3 @@ add_version : merge
 
 copy_release_files: | reqd_release_dirs check_relfiles
 	cp $(BUILD_RELFILE) $(RELEASE_DIR)
-
-
