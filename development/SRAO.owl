@@ -1,15 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.fairsharing.org/fairsharing#"
-     xml:base="http://www.fairsharing.org/fairsharing"
+<rdf:RDF xmlns="http://www.fairsharing.org/ontology/SRAO.owl#"
+     xml:base="http://www.fairsharing.org/ontology/SRAO.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:SRAO="http://www.fairsharing.org/ontology/SRAO.owl/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:ontology="http://www.fairsharing.org/ontology/"
-     xmlns:fairsharing="http://www.fairsharing.org/fairsharing/">
+     xmlns:ontology="http://www.fairsharing.org/ontology/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/SRAO.owl">
         <owl:imports rdf:resource="http://www.fairsharing.org/ontology/external/SRAO-annotation.owl"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This OWL file is a hierarchical categorization of research disciplines based on multiple resources. It is used within FAIRsharing as the basis for the discipline tags present within FAIRsharing records. 
@@ -175,7 +173,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115 xml:lang="en">Physical and economic access, by all people at all times, to the basic food they need [AgroVoc]</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 16.5.2019: Added additional parent of &apos;Agricultural Economics&apos; as per https://github.com/FAIRsharing/subject-ontology/issues/31</rdfs:comment>
-        <rdfs:label>Food Security</rdfs:label>
+        <rdfs:label xml:lang="en">Food Security</rdfs:label>
     </owl:Class>
     
 
@@ -265,7 +263,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Agriculture, Forestry, Horticulture and Veterinary Medicine</ontology:SRAO_0000268>
-        <rdfs:label>Agriculture</rdfs:label>
+        <rdfs:label xml:lang="en">Agriculture</rdfs:label>
     </owl:Class>
     
 
@@ -277,7 +275,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115>Science of crop production and soil management.</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <rdfs:comment>AL 6.3.18: Placement of Agronomy follows the AgroVoc hierarchy.</rdfs:comment>
-        <rdfs:label>Agronomy</rdfs:label>
+        <rdfs:label xml:lang="en">Agronomy</rdfs:label>
     </owl:Class>
     
 
@@ -345,7 +343,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0008715"/>
         <obo:IAO_0000115>Agricultural law is the study of the special laws and regulations that apply to the production and sale of agricultural products. It deals with such legal issues as agricultural infrastructure, seed, water, fertilizer, pesticide use, agricultural finance, agricultural labour, agricultural marketing, agricultural insurance, farming rights, land tenure and tenancy system and law on agricultural processing and rural industry. With implementation of modern technologies, issues including credit, intellectual property, trade and commerce related to agricultural products are dealt within the sphere of this law. [Wikipedia https://en.wikipedia.org/wiki/Agricultural_law, AL 23.5.18]</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
-        <rdfs:label>Agricultural Law</rdfs:label>
+        <rdfs:label xml:lang="en">Agricultural Law</rdfs:label>
     </owl:Class>
     
 
@@ -371,7 +369,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
         <obo:IAO_0000115>Fisheries science is the academic discipline of managing and understanding fisheries. It is a multidisciplinary science, which draws on the disciplines of limnology, oceanography, freshwater biology, marine biology, conservation, ecology, population dynamics, economics and management to attempt to provide an integrated picture of fisheries. [Wikipedia https://en.wikipedia.org/wiki/Fisheries_science, AL 23.5.18]</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
-        <rdfs:label>Fisheries Science</rdfs:label>
+        <rdfs:label xml:lang="en">Fisheries Science</rdfs:label>
     </owl:Class>
     
 
@@ -435,7 +433,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
         <obo:IAO_0000115>The cultivation of a garden; the art or science of cultivating or managing gardens, including the growing of flowers, fruits, and vegetables. [Oxford English Dictionary]</obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
-        <rdfs:label>Horticulture</rdfs:label>
+        <rdfs:label xml:lang="en">Horticulture</rdfs:label>
     </owl:Class>
     
 
@@ -461,7 +459,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored &apos;Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management&apos; and its hierarchy into: &apos;Hydrology&apos; with child &apos;Hydrogeology&apos;; &apos;Limnology&apos;; and &apos;Water Management&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Water Chemistry&apos; subdomain. Hydrology and Limnology had previously been refactored out of this class, and now the class has been completely refactored to create one class per concept.</rdfs:comment>
-        <rdfs:label>Hydrology</rdfs:label>
+        <rdfs:label xml:lang="en">Hydrology</rdfs:label>
     </owl:Class>
     
 
@@ -516,7 +514,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored &apos;Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management&apos; and its hierarchy into: &apos;Hydrology&apos; with child &apos;Hydrogeology&apos;; &apos;Limnology&apos;; and &apos;Water Management&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Water Chemistry&apos; subdomain. Hydrology and Limnology had previously been refactored out of this class, and now the class has been completely refactored to create one class per concept.</rdfs:comment>
-        <rdfs:label>Limnology</rdfs:label>
+        <rdfs:label xml:lang="en">Limnology</rdfs:label>
     </owl:Class>
     
 
@@ -568,7 +566,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
 </obo:IAO_0000115>
         <obo:IAO_0000412>AgroVoc</obo:IAO_0000412>
-        <rdfs:label>Aquaculture</rdfs:label>
+        <rdfs:label xml:lang="en">Aquaculture</rdfs:label>
     </owl:Class>
     
 
@@ -751,7 +749,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Computational biology&apos; and &apos;Evolutionary biology&apos;, to align with the EDAM hierarchy.</rdfs:comment>
-        <rdfs:label>Phylogeny</rdfs:label>
+        <rdfs:label xml:lang="en">Phylogeny</rdfs:label>
     </owl:Class>
     
 
@@ -763,7 +761,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Computational Biology&apos; and &apos;Genomics&apos;, to align with the EDAM hierarchy. &apos;Functional Genomics&apos; is asserted as a child of &apos;Function analysis&apos; within EDAM, however this class has not been retained within FAIRsharing, and its parent term &apos;Computational Biology&apos; is used instead.</rdfs:comment>
-        <rdfs:label>Functional Genomics</rdfs:label>
+        <rdfs:label xml:lang="en">Functional Genomics</rdfs:label>
     </owl:Class>
     
 
@@ -784,7 +782,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18111"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Structural Genomics</rdfs:label>
+        <rdfs:label xml:lang="en">Structural Genomics</rdfs:label>
     </owl:Class>
     
 
@@ -796,7 +794,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 25.9.17 Phylogenomics is asserted as a child of Phylogeny and &apos;Sequence Analysis&apos; by EDAM, and as a child of Genomics within FAIRsharing. &apos;Sequence Analysis&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained.</rdfs:comment>
-        <rdfs:label>Phylogenomics</rdfs:label>
+        <rdfs:label xml:lang="en">Phylogenomics</rdfs:label>
     </owl:Class>
     
 
@@ -808,7 +806,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Child of Pharmacology and Genomics, to align with the EDAM hierarchy.</rdfs:comment>
-        <rdfs:label>Pharmacogenomics</rdfs:label>
+        <rdfs:label xml:lang="en">Pharmacogenomics</rdfs:label>
     </owl:Class>
     
 
@@ -830,7 +828,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0219">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Data Submission, Annotation and Curation</rdfs:label>
+        <rdfs:label xml:lang="en">Data Submission, Annotation and Curation</rdfs:label>
     </owl:Class>
     
 
@@ -851,7 +849,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0637">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3299"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Taxonomy</rdfs:label>
+        <rdfs:label xml:lang="en">Taxonomy</rdfs:label>
     </owl:Class>
     
 
@@ -887,7 +885,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0797">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Comparative Genomics</rdfs:label>
+        <rdfs:label xml:lang="en">Comparative Genomics</rdfs:label>
     </owl:Class>
     
 
@@ -921,7 +919,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Molecular biology</rdfs:label>
+        <rdfs:label xml:lang="en">Molecular biology</rdfs:label>
     </owl:Class>
     
 
@@ -934,7 +932,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored (through deletion) re3data composite class &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos; by merging with existing classes &apos;Ecosystem Science&apos;, &apos;Biodiversity&apos; and &apos;Ecology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:label>Biodiversity</rdfs:label>
+        <rdfs:label xml:lang="en">Biodiversity</rdfs:label>
     </owl:Class>
     
 
@@ -945,7 +943,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>Child of Genomics to align with the EDAM hierarchy. EDAM further asserts this as a child of &apos;Genotype and Phenotype&apos;. However, &apos;Genotype and Phenotype&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained. Instead, &apos;Quantitative Genetics&apos; has also been asserted as the child of the parent term for &apos;Genotype and Phenotype&apos;, which is Genetics.</rdfs:comment>
-        <rdfs:label>Quantitative Genetics</rdfs:label>
+        <rdfs:label xml:lang="en">Quantitative Genetics</rdfs:label>
     </owl:Class>
     
 
@@ -955,7 +953,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Population Genetics</rdfs:label>
+        <rdfs:label xml:lang="en">Population Genetics</rdfs:label>
     </owl:Class>
     
 
@@ -965,7 +963,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16501"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Embryology</rdfs:label>
+        <rdfs:label xml:lang="en">Embryology</rdfs:label>
     </owl:Class>
     
 
@@ -1012,7 +1010,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
         <obo:IAO_0000118 xml:lang="en">Metabolism</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
-        <rdfs:label>Metabolomics</rdfs:label>
+        <rdfs:label xml:lang="en">Metabolomics</rdfs:label>
     </owl:Class>
     
 
@@ -1025,7 +1023,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Child of Epigenetics and Genomics, to align with the EDAM hierarchy.
 </rdfs:comment>
-        <rdfs:label>Epigenomics</rdfs:label>
+        <rdfs:label xml:lang="en">Epigenomics</rdfs:label>
     </owl:Class>
     
 
@@ -1035,7 +1033,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Metagenomics</rdfs:label>
+        <rdfs:label xml:lang="en">Metagenomics</rdfs:label>
     </owl:Class>
     
 
@@ -1045,7 +1043,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3263">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Data Security</rdfs:label>
+        <rdfs:label xml:lang="en">Data Security</rdfs:label>
     </owl:Class>
     
 
@@ -1072,7 +1070,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 14.5.2019: Synonym &apos;Biological Systematics&apos; was added upon the removal of the &apos;Plant Systematics and Evolution&apos; re3data class. &apos;Plant Systematics and Evolution&apos; was removed as it was not in scope for FAIRsharing (the subject represented by this class would be better served by a broader concept of Systematics).</rdfs:comment>
         <rdfs:comment>AL 25.9.17 Phylogenetics is asserted as a child of Phylogeny and &apos;Sequence Analysis&apos; by EDAM, and as a child of Genetics within FAIRsharing. &apos;Sequence Analysis&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained.</rdfs:comment>
-        <rdfs:label>Phylogenetics</rdfs:label>
+        <rdfs:label xml:lang="en">Phylogenetics</rdfs:label>
     </owl:Class>
     
 
@@ -1082,7 +1080,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3297">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Biotechnology</rdfs:label>
+        <rdfs:label xml:lang="en">Biotechnology</rdfs:label>
     </owl:Class>
     
 
@@ -1094,7 +1092,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 25.9.17 Child of &apos;Evolutionary Biology&apos; and Omics to align with the EDAM hierarchy. EDAM further asserts this as a child of &apos;Genotype and Phenotype&apos;. However, &apos;Genotype and Phenotype&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained.</rdfs:comment>
-        <rdfs:label>Phenomics</rdfs:label>
+        <rdfs:label xml:lang="en">Phenomics</rdfs:label>
     </owl:Class>
     
 
@@ -1107,7 +1105,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Evolution, Anthropology</ontology:SRAO_0000268>
         <rdfs:comment>AL 1.5.2019: Refactored re3data class &apos;Evolution, Anthropology&apos; into &apos;Evolutionary Biology&apos; to better fit the hierarchy. Please note Anthropology is already an existing term within SRAO. The re3data label has been retained as a re3data alternative term for backwards compatibility.</rdfs:comment>
-        <rdfs:label>Evolutionary Biology</rdfs:label>
+        <rdfs:label xml:lang="en">Evolutionary Biology</rdfs:label>
     </owl:Class>
     
 
@@ -1142,7 +1140,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 27.9.17 &apos;Computational biology&apos; is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to Biology.</rdfs:comment>
-        <rdfs:label>Computational Biology</rdfs:label>
+        <rdfs:label xml:lang="en">Computational Biology</rdfs:label>
     </owl:Class>
     
 
@@ -1154,7 +1152,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>Child of Genomics to align with the EDAM hierarchy. EDAM further asserts this as a child of &apos;Gene expression&apos;. However, &apos;Gene expression&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained. Instead, Transcriptomics has also been asserted as the child of the parent term for &apos;Gene expression&apos;, &apos;Molecular Genetics&apos;.</rdfs:comment>
-        <rdfs:label>Transcriptomics</rdfs:label>
+        <rdfs:label xml:lang="en">Transcriptomics</rdfs:label>
     </owl:Class>
     
 
@@ -1202,7 +1200,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Computational Biology&apos; and Genetics, to align with the EDAM hierarchy.</rdfs:comment>
-        <rdfs:label>Molecular Genetics</rdfs:label>
+        <rdfs:label xml:lang="en">Molecular Genetics</rdfs:label>
     </owl:Class>
     
 
@@ -1214,7 +1212,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 29.9.17 Child of &apos;Medicines research and development&apos; and Chemistry, to align with the EDAM hierarchy.</rdfs:comment>
-        <rdfs:label>Drug Discovery</rdfs:label>
+        <rdfs:label xml:lang="en">Drug Discovery</rdfs:label>
     </owl:Class>
     
 
@@ -1224,7 +1222,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3342">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Translational Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Translational Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -1249,7 +1247,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Child of &apos;Synthetic Chemistry&apos; and Biology to align with the EDAM hierarchy.</rdfs:comment>
-        <rdfs:label>Chemical Biology</rdfs:label>
+        <rdfs:label xml:lang="en">Chemical Biology</rdfs:label>
     </owl:Class>
     
 
@@ -1272,7 +1270,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 This class may be related to the re3data class &apos;Solid State and Surface Chemistry, Material Synthesis&apos;, and the placement of &apos;Synthetic Chemistry&apos; may need to be revisited.</rdfs:comment>
-        <rdfs:label>Synthetic Chemistry</rdfs:label>
+        <rdfs:label xml:lang="en">Synthetic Chemistry</rdfs:label>
     </owl:Class>
     
 
@@ -1282,7 +1280,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3373">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Drug Development</rdfs:label>
+        <rdfs:label xml:lang="en">Drug Development</rdfs:label>
     </owl:Class>
     
 
@@ -1292,7 +1290,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3374">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000318"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Biotherapeutics</rdfs:label>
+        <rdfs:label xml:lang="en">Biotherapeutics</rdfs:label>
     </owl:Class>
     
 
@@ -1303,7 +1301,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0018052"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 27.9.17 &apos;Marine Biology&apos; is asserted as a child of Biology by EDAM. This assertion has been refined to &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos;.</rdfs:comment>
-        <rdfs:label>Marine Biology</rdfs:label>
+        <rdfs:label xml:lang="en">Marine Biology</rdfs:label>
     </owl:Class>
     
 
@@ -1313,7 +1311,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3388">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3342"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Molecular Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Molecular Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -1336,7 +1334,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 26.9.17 Omics is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to Biology.</rdfs:comment>
-        <rdfs:label>Omics</rdfs:label>
+        <rdfs:label xml:lang="en">Omics</rdfs:label>
     </owl:Class>
     
 
@@ -1348,7 +1346,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <ontology:SRAO_0000269>Regnerative medicine</ontology:SRAO_0000269>
         <rdfs:comment>AL: 28.9.17 Please note the spelling mistake within EDAM for this class has been retained as an alternative term.</rdfs:comment>
-        <rdfs:label>Regenerative Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Regenerative Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -1358,7 +1356,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3396">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Systems Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Systems Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -1394,7 +1392,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3401">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Pain Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Pain Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -1417,7 +1415,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Pneumology, Clinical Infectiology Intensive Care Medicine&apos; into &apos;Critical Care Medicine&apos; (which was already in SRAO) according to FAIRsharing&apos;s remit and curation best practises.</rdfs:comment>
-        <rdfs:label>Critical Care Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Critical Care Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -1453,7 +1451,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3410">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Gender Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Gender Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -1479,7 +1477,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 28.9.17 &apos;Medical Toxicology&apos; is asserted as a child of Medicine by EDAM, and also as a child of Toxicology within FAIRsharing.</rdfs:comment>
-        <rdfs:label>Medical Toxicology</rdfs:label>
+        <rdfs:label xml:lang="en">Medical Toxicology</rdfs:label>
     </owl:Class>
     
 
@@ -1514,7 +1512,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3569">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Applied Mathematics</rdfs:label>
+        <rdfs:label xml:lang="en">Applied Mathematics</rdfs:label>
     </owl:Class>
     
 
@@ -1524,7 +1522,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3570">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Pure Mathematics</rdfs:label>
+        <rdfs:label xml:lang="en">Pure Mathematics</rdfs:label>
     </owl:Class>
     
 
@@ -1534,7 +1532,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3571">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Data Governance</rdfs:label>
+        <rdfs:label xml:lang="en">Data Governance</rdfs:label>
     </owl:Class>
     
 
@@ -1545,7 +1543,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0018052"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <ontology:SRAO_0000269>Freshwater biology</ontology:SRAO_0000269>
-        <rdfs:label>Freshwater Science</rdfs:label>
+        <rdfs:label xml:lang="en">Freshwater Science</rdfs:label>
     </owl:Class>
     
 
@@ -1568,7 +1566,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3575">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Tropical Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Tropical Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -1578,7 +1576,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_3576">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3297"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
-        <rdfs:label>Medical Biotechnology</rdfs:label>
+        <rdfs:label xml:lang="en">Medical Biotechnology</rdfs:label>
     </owl:Class>
     
 
@@ -1589,7 +1587,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
         <obo:IAO_0000412>EDAM</obo:IAO_0000412>
         <ontology:SRAO_0000269>Personalised medicine</ontology:SRAO_0000269>
-        <rdfs:label>Personalized Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Personalized Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -1603,7 +1601,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Microbial Ecology and Applied Microbiology</ontology:SRAO_0000268>
         <rdfs:comment>AL 27.9.17 &apos;Microbial Ecology&apos; is asserted as a child of Microbiology by both EDAM and re3data and as a child of Ecology by EDAM. The re3data label &apos;Microbial Ecology and Applied Microbiology&apos; was split into &apos;Microbial Ecology&apos; and &apos;Applied Microbiology&apos;</rdfs:comment>
-        <rdfs:label>Microbial Ecology</rdfs:label>
+        <rdfs:label xml:lang="en">Microbial Ecology</rdfs:label>
     </owl:Class>
     
 
@@ -1763,7 +1761,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Statistical Physics, Soft Matter, Biological Physics, Nonlinear Dynamics&apos;. &apos;Biophysics&apos; was already present in SRAO, and added &apos;Soft Matter Physics&apos;, &apos;Nonlinear Dynamics&apos;, and &apos;Statistical Physics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:label>Biophysics</rdfs:label>
+        <rdfs:label xml:lang="en">Biophysics</rdfs:label>
     </owl:Class>
     
 
@@ -1776,7 +1774,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Chemical and Thermal Process Engineering</ontology:SRAO_0000268>
-        <rdfs:label>Chemical Engineering</rdfs:label>
+        <rdfs:label xml:lang="en">Chemical Engineering</rdfs:label>
     </owl:Class>
     
 
@@ -1827,7 +1825,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Epidemiology, Medical Biometry, Medical Informatics&apos; into the &apos;Public Health&apos; subclass &apos;Epidemiology&apos; and its sibling &apos;Medical Biometry&apos; according to FAIRsharing curation best practises. &apos;Medical Informatics&apos; (which was already present) is now a parent term of &apos;Medical Biometry&apos;, which also has Public Health as an additional parent. &apos;Medical informatics&apos; was also refactored from EDAM to NCIT due to EDAM&apos;s composite term and generic synonyms.</rdfs:comment>
-        <rdfs:label>Medical Informatics</rdfs:label>
+        <rdfs:label xml:lang="en">Medical Informatics</rdfs:label>
     </owl:Class>
     
 
@@ -1837,7 +1835,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16478">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <rdfs:label>Culture</rdfs:label>
+        <rdfs:label xml:lang="en">Culture</rdfs:label>
     </owl:Class>
     
 
@@ -1848,7 +1846,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Hierarchy placement based on ESRC descriptions (http://www.esrc.ac.uk/about-us/what-is-social-science/social-science-disciplines/).</rdfs:comment>
-        <rdfs:label>Demographics</rdfs:label>
+        <rdfs:label xml:lang="en">Demographics</rdfs:label>
     </owl:Class>
     
 
@@ -1884,7 +1882,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored (through deletion) re3data composite class &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos; by merging with existing classes &apos;Ecosystem Science&apos;, &apos;Biodiversity&apos; and &apos;Ecology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:label>Ecology</rdfs:label>
+        <rdfs:label xml:lang="en">Ecology</rdfs:label>
     </owl:Class>
     
 
@@ -1907,7 +1905,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16550">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <rdfs:label>Entomology</rdfs:label>
+        <rdfs:label xml:lang="en">Entomology</rdfs:label>
     </owl:Class>
     
 
@@ -1920,7 +1918,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Epidemiology, Medical Biometry, Medical Informatics&apos; into the &apos;Public Health&apos; subclass &apos;Epidemiology&apos; and its sibling &apos;Medical Biometry&apos; according to FAIRsharing curation best practises. &apos;Medical Informatics&apos; (which was already present) is now a parent term of &apos;Medical Biometry&apos;, which also has Public Health as an additional parent.</rdfs:comment>
-        <rdfs:label>Epidemiology</rdfs:label>
+        <rdfs:label xml:lang="en">Epidemiology</rdfs:label>
     </owl:Class>
     
 
@@ -1932,7 +1930,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <rdfs:label>Forensic Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Forensic Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -2003,7 +2001,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16715">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <rdfs:label>Immunogenetics</rdfs:label>
+        <rdfs:label xml:lang="en">Immunogenetics</rdfs:label>
     </owl:Class>
     
 
@@ -2044,7 +2042,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 15.1.18: While this particular class was not directly imported from re3data, its parent class was originally named &apos;Radiology and Nuclear Medicine&apos;. As NCIT has terms separately describing both concepts, FAIRsharing has split the re3data class along the hierarchy described in NCIT.</rdfs:comment>
-        <rdfs:label>Nuclear Medicine</rdfs:label>
+        <rdfs:label xml:lang="en">Nuclear Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -2329,7 +2327,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:label>Microbial Genetics</rdfs:label>
+        <rdfs:label xml:lang="en">Microbial Genetics</rdfs:label>
     </owl:Class>
     
 
@@ -2417,7 +2415,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
-        <rdfs:label>Pathology</rdfs:label>
+        <rdfs:label xml:lang="en">Pathology</rdfs:label>
     </owl:Class>
     
 
@@ -2453,7 +2451,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Animal Genetics, Cell and Developmental Biology</ontology:SRAO_0000268>
         <rdfs:comment>AL 25.1 18: The label within NCIT has been chosen as the label for this class as it is simpler, while the re3data has been retained as an alternative term.</rdfs:comment>
-        <rdfs:label>Animal Genetics</rdfs:label>
+        <rdfs:label xml:lang="en">Animal Genetics</rdfs:label>
     </owl:Class>
     
 
@@ -2463,7 +2461,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18645">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3292"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
-        <rdfs:label>Enzymology</rdfs:label>
+        <rdfs:label xml:lang="en">Enzymology</rdfs:label>
     </owl:Class>
     
 
@@ -2562,7 +2560,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412>NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 20.12.17: Although NCIT places Toxicogenomics as a child of Bioinformatics, FAIRsharing instead places it as a child of both Genomics and Toxicology.</rdfs:comment>
-        <rdfs:label>Toxicogenomics</rdfs:label>
+        <rdfs:label xml:lang="en">Toxicogenomics</rdfs:label>
     </owl:Class>
     
 
@@ -2621,7 +2619,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Cardiology, Angiology</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Cardiology, Angiology&apos; into sibling classes &apos;Cardiology&apos; and &apos;Angiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:label>Cardiology</rdfs:label>
+        <rdfs:label xml:lang="en">Cardiology</rdfs:label>
     </owl:Class>
     
 
@@ -2635,7 +2633,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268>Neurosciences</ontology:SRAO_0000268>
         <ontology:SRAO_0000276>Neuroscience Domain</ontology:SRAO_0000276>
         <rdfs:comment>AL: 17.10.17 Neuroscience is asserted as a child of Medicine by re3data and Neuro*biology* as a child of &apos;Biomedical Science&apos; by EDAM. We have placed Neurobiology as a child of Neuroscience. The re3data label has been changed from Neurosciences to Neuroscience to align with FAIRsharing terminology.</rdfs:comment>
-        <rdfs:label>Neuroscience</rdfs:label>
+        <rdfs:label xml:lang="en">Neuroscience</rdfs:label>
     </owl:Class>
     
 
@@ -2697,7 +2695,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <ontology:SRAO_0000268>Arts</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL 10.4.2019: Renamed &apos;Arts&apos; to &apos;Art&apos; to match the meaning intended within OMIT.</rdfs:comment>
-        <rdfs:label>Art</rdfs:label>
+        <rdfs:label xml:lang="en">Art</rdfs:label>
     </owl:Class>
     
 
@@ -2722,7 +2720,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <ontology:SRAO_0000272>Chemistry, Organic</ontology:SRAO_0000272>
-        <rdfs:label>Organic Chemistry</rdfs:label>
+        <rdfs:label xml:lang="en">Organic Chemistry</rdfs:label>
     </owl:Class>
     
 
@@ -2819,7 +2817,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3300"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
-        <rdfs:label>Neurophysiology</rdfs:label>
+        <rdfs:label xml:lang="en">Neurophysiology</rdfs:label>
     </owl:Class>
     
 
@@ -2861,7 +2859,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
         <obo:IAO_0000412>re3data</obo:IAO_0000412>
         <rdfs:comment>AL 24.11.17: This class was created when the original re3data subject &apos;Geology and Paleontology&apos; was split into two sibling classes. As such, we have noted that this term also comes from re3data.</rdfs:comment>
-        <rdfs:label>Paleontology</rdfs:label>
+        <rdfs:label xml:lang="en">Paleontology</rdfs:label>
     </owl:Class>
     
 
@@ -2893,7 +2891,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0012276">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
-        <rdfs:label>Primary Health Care</rdfs:label>
+        <rdfs:label xml:lang="en">Primary Health Care</rdfs:label>
     </owl:Class>
     
 
@@ -2942,7 +2940,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0015767">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17039"/>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
-        <rdfs:label>Global Health</rdfs:label>
+        <rdfs:label xml:lang="en">Global Health</rdfs:label>
     </owl:Class>
     
 
@@ -2994,7 +2992,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3292"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
         <obo:IAO_0000412>OMIT</obo:IAO_0000412>
-        <rdfs:label>Glycomics</rdfs:label>
+        <rdfs:label xml:lang="en">Glycomics</rdfs:label>
     </owl:Class>
     
 
@@ -3005,7 +3003,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000193"/>
         <obo:IAO_0000115>Meteorology is the branch of science that deals with atmospheric phenomena and processes, especially with a view to forecasting the weather. [AL, modified from OED, accessed 26.11.18]</obo:IAO_0000115>
-        <rdfs:label>Meteorology</rdfs:label>
+        <rdfs:label xml:lang="en">Meteorology</rdfs:label>
     </owl:Class>
     
 
@@ -3084,7 +3082,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
         <obo:IAO_0000412>PO</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Please note the original Plant Ontology term is &apos;plant anatomical entity&apos;, however FAIRsharing requires the use of the term in the sense of a subject/discipline.</rdfs:comment>
-        <rdfs:label>Plant Anatomy</rdfs:label>
+        <rdfs:label xml:lang="en">Plant Anatomy</rdfs:label>
     </owl:Class>
     
 

@@ -16,8 +16,8 @@
 ## retrieving for SRAO.
 
 [URI of the OWL(RDF/XML) output file]
-https://github.com/FAIRsharing/subject-ontology/raw/master/development/SRAO-annotation.owl
-## http://www.fairsharing.org/ontology/external/SRAO-annotation.owl
+## https://github.com/FAIRsharing/subject-ontology/raw/master/development/SRAO-annotation.owl
+http://www.fairsharing.org/ontology/external/SRAO-annotation.owl
 
 [Source ontology]
 EDAM
