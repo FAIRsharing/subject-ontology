@@ -2542,6 +2542,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19638">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Mechanics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C20085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20085">
@@ -3769,6 +3781,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000097">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
+        <obo:IAO_0000115 xml:lang="en">Molecular Microbiology is the branch of microbiology devoted to the study of the molecular basis of the physiological processes that occur in microorganisms. [Alan Ward https://www.staff.ncl.ac.uk/alan.ward/Molecular_Microbiology/Lecture%201.pptx, AL 6.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Metabolism, Biochemistry and Genetics of Microorganisms</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -4000,6 +4013,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000153">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <obo:IAO_0000115 xml:lang="en">Phytomedicine is a plant-based traditional medicinal practice that uses various plant materials in preventive and therapeutic processes (Wallis, 2005; Ali, 2008). [ScienceDirect https://www.sciencedirect.com/topics/nursing-and-health-professions/phytomedicine, AL 6.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Phytomedicine</rdfs:label>
     </owl:Class>
@@ -4377,17 +4391,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000215 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000215">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Mechanics</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000218 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000218">
@@ -4478,7 +4481,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000227 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000227">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000215"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19638"/>
         <obo:IAO_0000115 xml:lang="en">Fluid Mechanics the branch of mechanics dealing with the flow of liquids and gases and the way they respond to and exert forces. [OED, AL 20.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Fluid Mechanics</rdfs:label>
@@ -4817,7 +4820,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <!-- http://www.fairsharing.org/ontology/SRAO_0000264 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000264">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000215"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19638"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
         <obo:IAO_0000115 xml:lang="en">Applied Mechanics is the practical application of mechanics and bridges the gap between physical theory and its application to technology. It is used in many fields of engineering, especially Mechanical Engineering and Civil Engineering. [Adapted from Wikipedia, PAM 27.02.2018, updated AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
