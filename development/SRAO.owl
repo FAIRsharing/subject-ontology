@@ -256,6 +256,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_2018 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2018">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_211"/>
+        <obo:IAO_0000115 xml:lang="en">Plant Cultivation is the practice of growing and nurturing plants outside of their wild habitat (i.e., in gardens, nurseries, arboreta). [Adapted from https://www.eionet.europa.eu/gemet/en/concept/1899, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000278 xml:lang="en">Cultivation</ontology:SRAO_0000278>
+        <rdfs:comment>AL 6.3.18: re3data placement of Plant Cultivation is as a direct child of Agriculture. However, to align with the introduction of the Agronomy term from AgroVoc, Plant Cultivation has moved under Agronomy.</rdfs:comment>
+        <rdfs:label xml:lang="en">Plant Cultivation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_203 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_203">
@@ -3980,17 +3994,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Biological Psychiatry</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000149 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000149">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_211"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:comment>AL 6.3.18: re3data placement of Plant Cultivation is as a direct child of Agriculture. However, to align with the introduction of the Agronomy term from AgroVoc, Plant Cultivation has moved under Agronomy.</rdfs:comment>
-        <rdfs:label xml:lang="en">Plant Cultivation</rdfs:label>
     </owl:Class>
     
 
