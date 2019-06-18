@@ -208,6 +208,7 @@ http://purl.obolibrary.org/obo/NCIT_C20085 # Proteomics
 http://purl.obolibrary.org/obo/NCIT_C20179 # Toxicogenomics
 http://purl.obolibrary.org/obo/NCIT_C20609 # Synthesis Chemistry
 http://purl.obolibrary.org/obo/NCIT_C26633 # Drug Metabolism
+http://purl.obolibrary.org/obo/NCIT_C39794 # Philosophy
 http://purl.obolibrary.org/obo/NCIT_C54625 # History
 http://purl.obolibrary.org/obo/NCIT_C84343 # Genomics
 http://purl.obolibrary.org/obo/NCIT_C86055 # Cardiology

@@ -814,6 +814,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_92381">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
+        <obo:IAO_0000115 xml:lang="en">Agroecology is the study of ecological processes applied to agricultural production systems. [http://dbpedia.org/page/Agroecology, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Ecology of Agricultural Landscapes</ontology:SRAO_0000268>
@@ -2727,6 +2728,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C39794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C39794">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007951"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Philosophy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C54625 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C54625">
@@ -2894,8 +2906,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0007039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
+        <obo:IAO_0000115 xml:lang="en">Geology is the study or science of the earth, its history, and its life as recorded in the rocks; includes the study of geologic features of an area, such as the geometry of rock formations, weathering and erosion, and sedimentation. [GEMET https://www.eionet.europa.eu/gemet/en/concept/3650, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Geology and Paleontology</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 18.6.2019: This class&apos; label was updated when the original re3data subject &apos;Geology and Paleontology&apos; was split into two sibling classes.</rdfs:comment>
         <rdfs:label xml:lang="en">Geology</rdfs:label>
     </owl:Class>
     
@@ -3130,6 +3145,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0024195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0024195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
+        <obo:IAO_0000115 xml:lang="en">Medieval History is the study of the historical period also known as the Middle Ages. This is defined as the period in European history from the collapse of Roman civilization in the 5th century CE to the period of the Renaissance (variously interpreted as beginning in the 13th, 14th, or 15th century, depending on the region of Europe and on other factors). [Adapted from Encyclopedia Britannica https://www.britannica.com/event/Middle-Ages, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Medieval History</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0026014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026014">
@@ -3286,16 +3313,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268 xml:lang="en">Egyptology and Ancient Near Eastern Studies</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Egyptology and Ancient Near Eastern Studies&apos; into sibling classes &apos;Ancient Near Eastern Studies&apos; and &apos;Ancient Near Eastern Studies&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Egyptology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000011 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Medieval History</rdfs:label>
     </owl:Class>
     
 
@@ -3542,20 +3559,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000037 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007951"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Philosophy</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000038 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000038">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C39794"/>
+        <obo:IAO_0000115 xml:lang="en">History of philosophy is a research area concerned with the various periods, individuals and/or schools of philosophy. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Philosophy#History_of_philosophy, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">History of Philosophy</rdfs:label>
     </owl:Class>
@@ -3565,7 +3573,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000039 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000039">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C39794"/>
         <obo:IAO_0000115 xml:lang="en">Theoretical Philosophy is a discipline dealing with questions concerning the nature and scope of human knowledge, the relations between language, thought and reality, the structures of correct reasoning, and the fundamental categories of reality. [Adapted from https://www.philosophy.su.se/utbildning/kurser/grundnivå/deltidskurser/2.44303/theoretical-philosophy-i-30-credits-tpi-1.276132, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Theoretical Philosophy</rdfs:label>
@@ -3576,7 +3584,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000040 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000040">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C39794"/>
+        <obo:IAO_0000115 xml:lang="en">Practical Philosophy is the study of the bases of philosophy (metaphysics, knowledge theory, logic) for &quot;practical thinking&quot;, with the emphasis on values, attitudes to life and norms of behaviour. Value theory and analysis of normative positions constitute the core of practical philosophy. [Adapted from https://www.fil.lu.se/en/department/subjects-at-the-department/practical-philosophy/, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Practical Philosophy</rdfs:label>
     </owl:Class>
@@ -3711,6 +3720,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <obo:IAO_0000115 xml:lang="en">Communication Science is the study of ways in which human beings communicate, including speech, gesture, telecommunication systems, publishing and broadcasting media, etc. [Collins English Dictionary https://www.collinsdictionary.com/dictionary/english/communication-science, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Communication Science</rdfs:label>
     </owl:Class>
@@ -3775,8 +3785,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000064 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C39794"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0008715"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000037"/>
         <obo:IAO_0000115 xml:lang="en">Philosophy of law is a branch of philosophy that examines the nature of law and law&apos;s relationship to other systems of norms, especially ethics and political philosophy. [Wikipedia https://en.wikipedia.org/wiki/Philosophy_of_law, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Legal Philosophy</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -3891,6 +3901,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000098">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3297"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
+        <obo:IAO_0000115 xml:lang="en">Applied Microbiology is a scientific discipline that deals with the application of microorganisms and the knowledge about them. Applications include biotechnology, agriculture, medicine, food microbiology and bioremediation. [Nature https://www.nature.com/subjects/applied-microbiology, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Microbial Ecology and Applied Microbiology</ontology:SRAO_0000268>
         <rdfs:comment>AL: 25.9.17 Changed re3data label from &quot;Microbial Ecology and Applied Microbiology&quot; to &quot;Applied Microbiology&quot; as these are two distinct domains. Microbial Ecology, as a distinct displine, is a sibling class.</rdfs:comment>
@@ -4002,6 +4013,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000137">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <obo:IAO_0000115 xml:lang="en">Cellular Neuroscience is the study of neurons at the cellular level. It includes cell morphology and physiological properties such as membrane trafficking, synthesis and transport of proteins, and synaptic plasticity. [Nature https://www.nature.com/subjects/cellular-neuroscience, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Cellular Neuroscience</rdfs:label>
     </owl:Class>
@@ -4438,6 +4450,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000211">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000207"/>
+        <obo:IAO_0000115 xml:lang="en">Plastics Engineering encompasses the processing, design, development, and manufacture of plastics products. [Wikipedia https://en.wikipedia.org/wiki/Plastics_engineering, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Plastics Engineering</rdfs:label>
     </owl:Class>
