@@ -297,14 +297,26 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://aims.fao.org/aos/agrovoc/c_2468 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2468">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17167"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
         <obo:IAO_0000115 xml:lang="en">The application of mathematics and statistics to the study of economic and financial data. [AgroVoc]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Statistics and Econometrics</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Statistics and Econometrics&apos; into &apos;Econometrics&apos; and added a parent term of &apos;Statistics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Econometrics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_2481 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2481">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000041"/>
+        <obo:IAO_0000115 xml:lang="en">Economics is the branch of social science that deals with the production and distribution and consumption of goods and services and their management). [AgroVoc, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Economics</rdfs:label>
     </owl:Class>
     
 
@@ -365,8 +377,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://aims.fao.org/aos/agrovoc/c_28672 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_28672">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17735"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
         <obo:IAO_0000115 xml:lang="en">Economic policy covers the systems for setting levels of taxation, government budgets, the money supply and interest rates as well as the labour market, national ownership, and many other areas of government interventions into the economy. Most factors of economic policy can be divided into either fiscal policy, which deals with government actions regarding taxation and spending, or monetary policy, which deals with central banking actions regarding the money supply and interest rates. [Wikipedia https://en.wikipedia.org/wiki/Economic_policy, 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -715,7 +727,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8672">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
         <obo:IAO_0000115 xml:lang="en">Agricultural Economics is an applied social science that deals with the production, distribution, and consumption of agricultural or farming goods and services. [https://www.eionet.europa.eu/gemet/en/concept/193, AL 14.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -2817,6 +2829,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0007951">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">Humanities is the branch of learning concerned with human culture; the academic subjects collectively comprising this branch of learning, as history, literature, ancient and modern languages, law, philosophy, art, and music. [OED, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Humanities</rdfs:label>
@@ -2941,6 +2954,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0012276">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115 xml:lang="en">Primary Health Care is a whole-of-society approach to health and well-being centred on the needs and preferences of individuals, families and communities.  It addresses the broader determinants of health and focuses on the comprehensive and interrelated aspects of physical, mental and social health and wellbeing. [WHO https://www.who.int/news-room/fact-sheets/detail/primary-health-care, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Primary Health Care</rdfs:label>
     </owl:Class>
@@ -3045,6 +3059,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Theology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0024194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0024194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">Ancient History is the study of the history of past events from the beginning of writing and recorded human history and extending as far as the post-classical history. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Ancient_history, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Ancient History</rdfs:label>
     </owl:Class>
     
 
@@ -3195,17 +3222,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000007 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000004"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Ancient History</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000009 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000009">
@@ -3233,6 +3249,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000012">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000013"/>
+        <obo:IAO_0000115 xml:lang="en">Early Modern History is the study of the period of modern history that follows the late Middle Ages of the post-classical era. Although the chronological limits of the period are open to debate, the timeframe spans the period after the late portion of the post-classical age (c. 1500), known as the Middle Ages, through the beginning of the Age of Revolutions (c. 1800). [Adapted from Wikipedia https://en.wikipedia.org/wiki/Early_modern_period, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Early Modern History</rdfs:label>
     </owl:Class>
@@ -3492,6 +3509,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000039">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000037"/>
+        <obo:IAO_0000115 xml:lang="en">Theoretical Philosophy is a discipline dealing with questions concerning the nature and scope of human knowledge, the relations between language, thought and reality, the structures of correct reasoning, and the fundamental categories of reality. [Adapted from https://www.philosophy.su.se/utbildning/kurser/grundnivå/deltidskurser/2.44303/theoretical-philosophy-i-30-credits-tpi-1.276132, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Theoretical Philosophy</rdfs:label>
     </owl:Class>
@@ -3643,18 +3661,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <obo:IAO_0000115 xml:lang="en">Political Science is the study of the State and systems of government; the analysis of political activity and behaviour. [OED, AL 12.6.20019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Political Science</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000056 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000056">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000041"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Economics</rdfs:label>
     </owl:Class>
     
 
@@ -3662,7 +3671,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000057 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000057">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Economic Theory</rdfs:label>
     </owl:Class>
@@ -3672,7 +3681,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000059 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000059">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Public Finance</rdfs:label>
     </owl:Class>
@@ -3682,7 +3691,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000060 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000060">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
+        <obo:IAO_0000115 xml:lang="en">Business Administration is the field of study concerning the process of running a business. It includes all aspects of overseeing and supervising business operations, as well as related fields which include accounting, finance, project management and marketing. [Adapted from OED and Wikipedia https://en.wikipedia.org/wiki/Business_administration, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Business Administration</rdfs:label>
     </owl:Class>
@@ -3692,8 +3702,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000062 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000062">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000056"/>
         <obo:IAO_0000115 xml:lang="en">Economic and social history is the study of the way societies change in their economic activities and social organisation. It is concerned with how people in the past lived and worked, and how this has affected the development of today’s world. [https://www.gla.ac.uk/undergraduate/degrees/economicsocialhistory/, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 21.5.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
@@ -3991,6 +4001,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000140">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3304"/>
+        <obo:IAO_0000115 xml:lang="en">Comparative Neurobiology is the study of how nervous systems work by comparing the neurobiology of multiple species. [Adapted from https://le.ac.uk/modules/bs3064, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Comparative Neurobiology</rdfs:label>
     </owl:Class>
@@ -4231,6 +4242,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000183">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <obo:IAO_0000115 xml:lang="en">Condensed Matter Physics is the field of physics that deals with the macroscopic and microscopic physical properties of matter. In particular it is concerned with the &quot;condensed&quot; phases that appear whenever the number of constituents in a system is extremely large and the interactions between the constituents are strong. [Wikipedia https://en.wikipedia.org/wiki/Condensed_matter_physics, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Condensed Matter Physics</rdfs:label>
     </owl:Class>
