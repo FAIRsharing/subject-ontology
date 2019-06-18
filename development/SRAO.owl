@@ -2704,6 +2704,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0002540">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">Art is the expression or application of creative skill and imagination, typically in a visual form such as painting, drawing, or sculpture, producing works to be appreciated primarily for their beauty or emotional power. Also: such works themselves considered collectively. [Adapted from OED definition 8a, AL 6.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <ontology:SRAO_0000268>Arts</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL 10.4.2019: Renamed &apos;Arts&apos; to &apos;Art&apos; to match the meaning intended within OMIT.</rdfs:comment>
@@ -2998,6 +2999,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0021467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0021467">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007951"/>
+        <obo:IAO_0000115 xml:lang="en">Theology is the study or science which is concerned with God, his nature and attributes, and his relations with man and the universe. [Adapted from OED, AL 6.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Theology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0026014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026014">
@@ -3126,6 +3139,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">Prehistory is the branch of knowledge that deals with events or conditions before written or recorded history. [Adapted from OED, AL 6.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Prehistory</rdfs:label>
     </owl:Class>
@@ -3311,6 +3325,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000025">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">German Literature comprises the written works of the German-speaking peoples of central Europe. [Encyclopedia Britannica https://www.britannica.com/art/German-literature, AL 6.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Modern German Literature</rdfs:label>
     </owl:Class>
@@ -3396,20 +3411,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000034 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007951"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Theology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000035 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000035">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000034"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0021467"/>
         <rdfs:label xml:lang="en">Protestant Theology</rdfs:label>
     </owl:Class>
     
@@ -3418,7 +3423,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000036 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000036">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000034"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0021467"/>
         <rdfs:label xml:lang="en">Roman Catholic Theology</rdfs:label>
     </owl:Class>
     
@@ -3574,6 +3579,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <obo:IAO_0000115 xml:lang="en">Empirical Social Research uses empirical data on social formations and their members as a basis for explaining social phenomena. It is concerned with empirical research activities grounded in social theory and enriching social theory. [Adapted from https://doi.org/10.1016/B978-0-08-097086-8.03217-7, AL 6.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Empirical Social Research</rdfs:label>
     </owl:Class>
