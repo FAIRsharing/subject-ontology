@@ -187,6 +187,7 @@ http://purl.obolibrary.org/obo/NCIT_C17964 # Bioinformatics
 http://purl.obolibrary.org/obo/NCIT_C17992 # Cell Biology
 http://purl.obolibrary.org/obo/NCIT_C18011 # Immunology
 http://purl.obolibrary.org/obo/NCIT_C18076 # Bioengineering
+http://purl.obolibrary.org/obo/NCIT_C18088 # Developmental Neurobiology
 http://purl.obolibrary.org/obo/NCIT_C18097 # Molecular Dynamics
 http://purl.obolibrary.org/obo/NCIT_C18111 # Structural Biology
 http://purl.obolibrary.org/obo/NCIT_C18189 # Pathology
