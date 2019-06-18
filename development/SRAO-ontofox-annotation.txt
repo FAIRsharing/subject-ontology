@@ -140,6 +140,7 @@ http://purl.obolibrary.org/obo/NCIT_C16349 # Biophysics
 http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
 http://purl.obolibrary.org/obo/NCIT_C16414 # Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16417 # Clinical Chemistry
+http://purl.obolibrary.org/obo/NCIT_C16419 # Organic Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16421 # Physical Chemistry
 http://purl.obolibrary.org/obo/NCIT_C16439 # Medical Informatics
 http://purl.obolibrary.org/obo/NCIT_C16478 # Culture
@@ -158,6 +159,7 @@ http://purl.obolibrary.org/obo/NCIT_C16658 # Gynecology
 http://purl.obolibrary.org/obo/NCIT_C16673 # Hematology
 http://purl.obolibrary.org/obo/NCIT_C16715 # Immunogenetics
 http://purl.obolibrary.org/obo/NCIT_C16851 # Microbiology
+http://purl.obolibrary.org/obo/NCIT_C16902 # Nephrology
 http://purl.obolibrary.org/obo/NCIT_C16908 # Neurology
 http://purl.obolibrary.org/obo/NCIT_C16910 # Neurophysiology
 http://purl.obolibrary.org/obo/NCIT_C16922 # Nuclear Medicine

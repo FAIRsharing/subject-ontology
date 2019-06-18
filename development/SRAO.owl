@@ -232,6 +232,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_16379 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_16379">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
+        <obo:IAO_0000115 xml:lang="en">Plant Nutrition is the science of plant nutrients and their relation to plant health and disease. [AgroVoc, AL 17.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Plant Nutrition</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_1648 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1648">
@@ -1912,6 +1924,16 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16419">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Organic Chemistry</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16421 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16421">
@@ -2124,6 +2146,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 25.9.17 [Updated AL 10.06.2019] Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology according to NCIT and FAIRsharing curators. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science according to FAIRsharing curators, a modification both of the Medicine hierarchy as listed by re3data and the Biological Sciences as listed by NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Microbiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16902">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Nephrology</rdfs:label>
     </owl:Class>
     
 
@@ -2892,17 +2925,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIT_0003951 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0003951">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
-        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
-        <ontology:SRAO_0000272>Chemistry, Organic</ontology:SRAO_0000272>
-        <rdfs:label xml:lang="en">Organic Chemistry</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIT_0004711 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0004711">
@@ -3295,6 +3317,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000002">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <obo:IAO_0000115 xml:lang="en">Humanities and Social Sciences is a broad multi-disciplinary research area incorporating both the Humanities and the Social Sciences. One differentiator for these two closely-related subjects is that humanities are predominately interested in studying the specifics and the &apos;unique&apos;, while social sciences are mainly interested in the general / population level. [Adapted from https://www.thebritishacademy.ac.uk/blog/what-social-science, AL 17.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 3.6.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
         <rdfs:label xml:lang="en">Humanities and Social Sciences</rdfs:label>
@@ -3403,6 +3426,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">Art history is the study of objects of art in their historical development and stylistic contexts; that is genre, design, format, and style. [Wikipedia https://en.wikipedia.org/wiki/Art_history, AL 18.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Art History</rdfs:label>
     </owl:Class>
@@ -3590,6 +3614,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0021467"/>
+        <obo:IAO_0000115 xml:lang="en">Roman Catholic Theology is the understanding of Roman Catholic doctrine or teachings, and results from the studies of theologians. It is based on canonical scripture, and sacred tradition, as interpreted authoritatively by the magisterium of the Roman Catholic Church. [Wikipedia https://en.wikipedia.org/wiki/Catholic_theology, AL 18.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Catholic Theology</obo:IAO_0000118>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Roman Catholic Theology</rdfs:label>
     </owl:Class>
     
@@ -3860,6 +3887,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000083">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
+        <obo:IAO_0000115 xml:lang="en">Inter-organismic Interactions of Plants is a research area concerned with all biochemical, physiological and molecular aspects of plant-plant interactions. [Adapted from https://www.tandfonline.com/action/journalInformation?show=aimsScope&amp;journalCode=tjpi20, AL 17.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Inter-organismic Interactions of Plants</rdfs:label>
     </owl:Class>
@@ -3981,16 +4009,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000118 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Nephrology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000128 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000128">
@@ -4086,18 +4104,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <obo:IAO_0000115 xml:lang="en">Biological Psychiatry is the branch of psychiatry concerned with the biological basis for mental disorders, typically using physical methods or medication (as opposed to psychotherapy) as treatment. [OED, AL 18.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Biological Psychiatry</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000150 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000150">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Plant Nutrition</rdfs:label>
     </owl:Class>
     
 
@@ -4144,6 +4153,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115 xml:lang="en">Molecular Chemistry is a subject concerned with the synthesis of molecules with new biological or physical properties to address scientific or societal challenges. This research area covers the development of new synthetic methodologies for the synthesis of both natural and novel products. [Adapted from https://www.reading.ac.uk/chemistry/research/chem-molecularchemistry.aspx and https://www.ru.nl/english/education/masters/molecular-chemistry/, AL 18.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Molecular Chemistry</rdfs:label>
     </owl:Class>
@@ -4163,7 +4173,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000166 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000166">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0003951"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16419"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000164"/>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>17.10.17 AL: &apos;Organic Molecular Chemistry&apos; is asserted as a child of &apos;Molecular Chemistry&apos; by re3data, and as a child of &apos;Organic Chemistry&apos; within FAIRsharing.</rdfs:comment>
@@ -4256,7 +4266,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000179 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0003951"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16419"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000178"/>
         <obo:IAO_0000115 xml:lang="en">Polymer Chemistry is a subtype of Polymer Research that focuses on the chemical synthesis, structure, chemical and physical properties of polymers and macromolecules. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Polymer_chemistry, 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -4440,6 +4450,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000208">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000207"/>
+        <obo:IAO_0000115 xml:lang="en">Metal-Cutting Manufacturing Engineering is the research area concerned with the manufacturing processes in which parts are shaped by removal of unwanted material. It is of great interest for industries such as automotive, aeronautics, aerospace, moulds and dies, and biomedicine. [Adapted from https://www.degruyter.com/view/product/463708, AL 17.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Metal-Cutting Manufacturing Engineering</rdfs:label>
     </owl:Class>
@@ -5292,7 +5303,10 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17173"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0010991"/>
+        <obo:IAO_0000115 xml:lang="en">Orthopedic Surgery is the branch of surgery broadly concerned with the skeletal system (bones and joints).  [NCIT http://purl.obolibrary.org/obo/NCIT_C16942, AL 18.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Orthopaedic Surgery</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 18.6.2019: The NCIT class used as the source of this definition conflates &apos;Orthopedics&apos; and &apos;Orthopedic Surgery&apos;, whereas we have two separate classes. Therefore we used the definition, but not the NCIT IRI.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Traumatology and Orthopaedics&apos; into &apos;Traumatology&apos; and &apos;Orthopaedic Surgery&apos; according to FAIRsharing curation best practises. &apos;Orthopedics&apos; itself as a medical discipline is listed as a synonym of &apos;Musculoskeletal Medicine&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Orthopedic Surgery</rdfs:label>
     </owl:Class>
