@@ -705,6 +705,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_6347 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_6347">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
+        <obo:IAO_0000115 xml:lang="en">Public Finance is the theory and practice of governmental money matters, including taxation, spending, transfer and property incomes, borrowing, debt and revenue management. [GEMET https://www.eionet.europa.eu/gemet/en/concept/6793. AL 18.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Public Finance</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_6498 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_6498">
@@ -3812,16 +3823,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000059 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000059">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Public Finance</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000060 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000060">
@@ -4583,7 +4584,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000230">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115>[Definition needed]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Materials Engineering is a research area concerned with the production of specifications for materials as well as their design, processing and application. [Adapted from https://targetjobs.co.uk/careers-advice/job-descriptions/276077-materials-engineer-job-description, AL 18.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Materials Engineering</rdfs:label>
     </owl:Class>
@@ -4951,7 +4952,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000283">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115>Aerospace engineering is the field of engineering concerned with the development of aircraft and spacecraft. [Wikipedia https://en.wikipedia.org/wiki/Aerospace_engineering, AL 22.05.18]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Aerospace Engineering is the field of engineering concerned with the development of aircraft and spacecraft. [Wikipedia https://en.wikipedia.org/wiki/Aerospace_engineering, AL 22.05.18]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">User request</obo:IAO_0000412>
         <rdfs:comment>AL 22.5.18: This class has been created based on requirements from FAIRsharing records rather than via the re3data import.</rdfs:comment>
         <rdfs:label xml:lang="en">Aerospace Engineering</rdfs:label>
@@ -5263,7 +5264,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000311">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">American literature is literature written or produced in the United States of America and its preceding colonies [Wikipedia https://en.wikipedia.org/wiki/American_literature, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">American Literature is literature written or produced in the United States of America and its preceding colonies [Wikipedia https://en.wikipedia.org/wiki/American_literature, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;European and American Literature&apos; into sibling classes &apos;European Literature&apos; and &apos;American Literature&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">American Literature</rdfs:label>
