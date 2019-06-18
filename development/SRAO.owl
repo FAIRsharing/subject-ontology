@@ -350,6 +350,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_25189 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_25189">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
+        <obo:IAO_0000115 xml:lang="en">Plant Physiology is concerned with the study of the function and chemical reactions within the various organs of plants. [Adapted from GEMET https://www.eionet.europa.eu/gemet/en/concept/6316, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Plant Physiology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_2638 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2638">
@@ -639,6 +651,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_5956 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_5956">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
+        <obo:IAO_0000115 xml:lang="en">Plant Breeding is the research area concerned with raising a certain type of plant by crossing one variety with another to produce a new variety where the desired characteristics are strongest. [GEMET https://www.eionet.europa.eu/gemet/en/concept/6298, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Plant Breeding</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_5963 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_5963">
@@ -760,6 +784,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1648"/>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
+        <obo:IAO_0000115 xml:lang="en">Agricultural Engineering is a discipline concerned with developing and improving the means for providing food and fiber for mankind&apos;s needs. [GEMET https://www.eionet.europa.eu/gemet/en/concept/195, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Agricultural and Food Process Engineering</ontology:SRAO_0000268>
@@ -2177,10 +2202,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17027">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000041"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Psychology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Differential Psychology, Clinical Psychology, Medical Psychology, Methodology&apos; into sibling classes &apos;Differential Psychology&apos;, &apos;Clinical Psychology&apos; and &apos;Medical Psychology&apos; according to FAIRsharing curation best practises.&apos;Methodology&apos; was not required within SRAO at this time.</rdfs:comment>
@@ -2192,7 +2228,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C17030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000042"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -2584,7 +2620,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18740">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16501"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Developmental and Educational Psychology</ontology:SRAO_0000268>
@@ -2990,17 +3026,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIT_0012525 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0012525">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000041"/>
-        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Psychology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIT_0012532 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0012532">
@@ -3362,7 +3387,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000020">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1335455465014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16294"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000042"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000054"/>
         <obo:IAO_0000115 xml:lang="en">Applied Linguistics is the branch of linguistics concerned with practical applications of language studies, such as language teaching, translation, and speech therapy. It is an interdisciplinary field which identifies, investigates, and offers solutions to language-related real-life problems. Some of the academic fields related to applied linguistics are education, psychology, communication research, anthropology, and sociology. [Adapted from OED, Wikipedia https://en.wikipedia.org/wiki/Applied_linguistics, AL 1.4.2019]</obo:IAO_0000115>
@@ -3402,6 +3427,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000024">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">Medieval German Literature is a field of study concerned with literature written in Germany, starting with the Carolingian dynasty. Various dates have been given for the end of the German literary Middle Ages, with the Reformation (1517) being the last possible cut-off point. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Medieval_German_literature, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Medieval German Literature</rdfs:label>
     </owl:Class>
@@ -3561,6 +3587,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000041">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">Social and Behavioral Science is a broad area of study that applies to a unique range of disciplines -- anthropology, sociology, and psychology, among them -- that are primarily concerned with the analysis of human behavior. [Adapted from https://www.ashford.edu/online-degrees/social-behavioral-science/what-is-social-and-behavioral-science, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Social and Behavioral Science</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Social and Behavioral Sciences</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -3616,8 +3643,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000047 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
         <obo:IAO_0000115 xml:lang="en">Biological psychology is the application of the principles of biology to the study of mental processes and behaviour. For example, it involves the measuring of biological, physiological, or genetic variables in an attempt to relate them to psychological or behavioural variables. [Adapted from https://opentextbc.ca/introductiontopsychology/chapter/2-1-biological-psychology-structuralism-and-functionalism/, AL 9.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Behavioral Neuroscience</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Behavioural Neuroscience</obo:IAO_0000118>
@@ -3635,7 +3662,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000049 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
         <obo:IAO_0000115 xml:lang="en">The study of social interactions, including their origins and effects on individuals and groups. [OED, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Social Psychology, Industrial and Organisational Psychology</ontology:SRAO_0000268>
@@ -3648,7 +3675,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://www.fairsharing.org/ontology/SRAO_0000050 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
         <obo:IAO_0000115 xml:lang="en">Differential psychology studies the ways in which individuals differ in their behavior and the processes that underlie it. This is a discipline that develops classifications (taxonomies) of psychological individual differences. This is distinguished from other aspects of psychology in that although psychology is ostensibly a study of individuals, modern psychologists often study groups, or attempt to discover general psychological processes that apply to all individuals. [Wikipedia, https://en.wikipedia.org/wiki/Differential_psychology, 28.3.19]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Differential Psychology, Clinical Psychology, Medical Psychology, Methodology</ontology:SRAO_0000268>
@@ -3662,6 +3689,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <obo:IAO_0000115 xml:lang="en">Sociological Theory is a field of Social Sciences focusing on the introduction of new substantive theories, history of theory, metatheory, formal theory construction, and synthetic contributions. [https://journals.sagepub.com/home/stx, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Sociological Theory</rdfs:label>
     </owl:Class>
@@ -3787,16 +3815,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Inter-organismic Interactions of Plants</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000084 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000084">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Plant Physiology</rdfs:label>
     </owl:Class>
     
 
@@ -3941,6 +3959,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17173"/>
+        <obo:IAO_0000115 xml:lang="en">Cariothoracic Surgery is the field of medicine involved in surgical treatment of organs inside the thorax (the chest)—generally treatment of conditions of the heart (heart disease) and lungs (lung disease). [Wikipedia https://en.wikipedia.org/wiki/Cardiothoracic_surgery, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 28.9.17 &apos;Cardiothoracic Surgery&apos; is asserted as a child of Medicine by re3data, and has been further refined by FAIRsharing as a child of Surgery, a class originating in EDAM.</rdfs:comment>
         <rdfs:label xml:lang="en">Cardiothoracic Surgery</rdfs:label>
@@ -4042,16 +4061,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Plant Nutrition</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000152 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000152">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Plant Breeding</rdfs:label>
     </owl:Class>
     
 
@@ -4273,6 +4282,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000185">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000183"/>
+        <obo:IAO_0000115 xml:lang="en">Theoretical Condensed Matter Physics involves the use of theoretical models to understand properties of states of matter. These include models to study the electronic properties of solids and the physics of phase transitions. Modern theoretical studies involve the use of numerical computation of electronic structure and mathematical tools to understand phenomena such as high-temperature superconductivity, topological phases, and gauge symmetries. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Condensed_matter_physics#Theoretical, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Theoretical Condensed Matter Physics</rdfs:label>
     </owl:Class>
@@ -4359,6 +4369,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16633"/>
+        <obo:IAO_0000115 xml:lang="en">Human Geography is the branch of geography that deals with the activities of mankind as they affect or are influenced by the landscape; (also) the geographical features of a place or region as they relate to or are affected by humans or human activity. [OED, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Human Geography</rdfs:label>
     </owl:Class>
@@ -4369,6 +4380,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
+        <obo:IAO_0000115 xml:lang="en">Water Research is the study of the science and technology of water quality and its management worldwide. [Elsevier https://www.journals.elsevier.com/water-research, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Water Research</rdfs:label>
     </owl:Class>
@@ -5014,7 +5026,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000296">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
         <obo:IAO_0000115 xml:lang="en">Mathematical psychology is an approach to psychological research that is based on mathematical modeling of perceptual, thought, cognitive and motor processes, and on the establishment of law-like rules that relate quantifiable stimulus characteristics with quantifiable behavior. [Wikipedia https://en.wikipedia.org/wiki/Mathematical_psychology, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;General, Biological and Mathematical Psychology&apos; into sibling classes &apos;Biological Psychology&apos; and &apos;Mathematical Psychology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -5026,7 +5038,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <!-- http://www.fairsharing.org/ontology/SRAO_0000297 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000297">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012525"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
         <obo:IAO_0000115 xml:lang="en">Industrial and Organisational Psychology is the science of human behaviour relating to work and applies psychological theories and principles to organizations and individuals in their places of work as well as the individual&apos;s work-life more generally. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Industrial_and_organizational_psychology, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">I/O Psychology</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Industrial and Organizational Psychology</obo:IAO_0000118>
