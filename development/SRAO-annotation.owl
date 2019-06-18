@@ -23,6 +23,9 @@
     <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000292"/>
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000317"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <ontology:SRAO_0000317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</ontology:SRAO_0000317>
         <ontology:SRAO_0000317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</ontology:SRAO_0000317>
@@ -33,9 +36,6 @@
         <ontology:SRAO_0000317 xml:lang="en">definition</ontology:SRAO_0000317>
         <ontology:SRAO_0000317>textual definition</ontology:SRAO_0000317>
         <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000269"/>
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000276"/>
@@ -891,6 +891,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C153192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C153192">
+        <obo:IAO_0000115>A study of the complete set of glycans produced in a given cell or organism under specific conditions.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Glycomics</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16294">
@@ -970,6 +980,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16417">
         <ontology:SRAO_0000276>Clinical Chemistry</ontology:SRAO_0000276>
         <obo:IAO_0000115>The department responsible for performing chemical and enzymatic analyses of body fluids and tissues. (from Handbook of Medical Informatics)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16419">
+        <obo:IAO_0000115>A branch of chemistry that deals specifically with the structures, synthesis and reactions of carbon-containing compounds.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Organic Chemistry</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -1172,11 +1192,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16902">
+        <obo:IAO_0000115>A branch of medicine concerned with the development, anatomy, function, and dysfunction of the kidney.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Nephrology</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16908 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16908">
         <obo:IAO_0000115>A branch of medicine concerned with the development, anatomy, function, and dysfunction of the nervous system.</obo:IAO_0000115>
         <ontology:SRAO_0000276>Neurology</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16910">
+        <obo:IAO_0000115>A branch of neuroscience concerned with the physiology of the nervous system.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Neurophysiology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -1200,6 +1240,17 @@
         <ontology:SRAO_0000276>Obstetrical</ontology:SRAO_0000276>
         <obo:IAO_0000115>A medical-surgical specialty dealing with the care of a woman and her offspring during pregnancy, childbirth and the puerperium (the period shortly after birth).</obo:IAO_0000115>
         <ontology:SRAO_0000276>Obstetrics</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16931">
+        <obo:IAO_0000115>This branch of medicine is concerned with the prevention, diagnosis, and treatment of injuries and illnesses that occur at the workplace or as a result of toxic exposures, stress, or accidents at the workplace. Occupational medicine encompasses issues such as industrial hygiene, safety, pollution control, ergonomics, industrial and agricultural toxicology, disability evaluation, physical rehabilitation, industrial psychology and emergency medicine. (BioTech Life Science Dictionary)</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Occupational Medicine</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Occupational or Industrial Medicine</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -1497,6 +1548,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18088">
+        <obo:IAO_0000115>The branch of neurobiology concerned with the changes that take place in the nervous system between fertilization and maturity.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Developmental Neurobiology</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C18097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18097">
@@ -1632,6 +1693,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19638">
+        <obo:IAO_0000115>Its fundamental principle is that any physical system can be decomposed into a collection of simple independent local elements each of which interacts only with its immediate neighbors.  In classical mechanics a complete description of any physical system is supposed to be specified by giving the values of the various fields (e.g., the electric field, the magnetic field, etc.) at each of the relevant spacetime points.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Classical Mechanics</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C20085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20085">
@@ -1670,6 +1741,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26633">
         <obo:IAO_0000115>A series of chemical modifications of a drug compound by enzymatic activity that make the substrate (drug) more water soluble to allow its clearance from the body. Drug metabolism occurs in two phases: Phase I (biotransformation) involves oxidation, hydroxylation reduction, and hydrolysis. Phase II (conjugation) involves synthesis and conjugation.</obo:IAO_0000115>
         <ontology:SRAO_0000276>Drug Metabolism</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C39794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C39794">
+        <obo:IAO_0000115>The field of study concerned with the rational investigation of questions about existence and knowledge and ethics.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Philosophy</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
