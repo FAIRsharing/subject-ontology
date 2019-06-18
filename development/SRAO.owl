@@ -274,6 +274,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_203">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
+        <obo:IAO_0000115 xml:lang="en">Agriculture is the science, art, or practice of cultivating the soil, producing crops, and raising livestock and in varying degrees the preparation and marketing of the resulting products. [AgroVoc http://aims.fao.org/aos/agrovoc/c_203, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Agriculture, Forestry, Horticulture and Veterinary Medicine</ontology:SRAO_0000268>
@@ -548,7 +549,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://aims.fao.org/aos/agrovoc/c_4318 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_4318">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000162"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0011790"/>
         <obo:IAO_0000115 xml:lang="en">Life Science is the study of all of the divisions of the natural sciences dealing with the various aspects of the phenomena of life and vital processes. [Adapted from AgroVoc, AL 6.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -608,6 +609,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Acoustics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_49985 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_49985">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <obo:IAO_0000115 xml:lang="en">Plant Genetics is the scientific study of the hereditary material of plants for purposes such as hybridization, improved food resources and increased production. [GEMET https://www.eionet.europa.eu/gemet/en/concept/6307, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment>AL: 28.9.17 &apos;Plant Genetics&apos; is asserted as a child of Botany within re3data, and as a child of Genetics within FAIRsharing.</rdfs:comment>
+        <rdfs:label xml:lang="en">Plant Genetics</rdfs:label>
     </owl:Class>
     
 
@@ -1242,7 +1257,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3315 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3315">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000162"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0011790"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 26.9.17 Mathematics is asserted as a child of &apos;Natural Sciences&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
@@ -1266,7 +1281,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://edamontology.org/topic_3318 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3318">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000162"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0011790"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 26.9.17 Physics is asserted as a child of &apos;Natural Sciences&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
@@ -1783,6 +1798,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C153192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C153192">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3292"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Glycomics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16294">
@@ -1864,7 +1890,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/NCIT_C16414 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16414">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000162"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0011790"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 21.1.19 Chemistry is asserted as a child of &apos;Natural Sciences&apos; by re3data, and a child of Physical Sciences within NCIT.</rdfs:comment>
@@ -2830,6 +2856,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0002494">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">Classical Archaeology is the archaeological investigation of the Mediterranean civilizations of Ancient Greece and Ancient Rome. [Wikipedia https://en.wikipedia.org/wiki/Classical_archaeology, AL 13.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000272>Archaeology</ontology:SRAO_0000272>
@@ -2999,6 +3026,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0011166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000291"/>
+        <obo:IAO_0000115 xml:lang="en">Paleontology is the branch of science that deals with extinct and fossil humans, animals, and plants, or more generally with evidence of organic life during the geological past. [OED, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000118>Palaeontology</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -3023,9 +3051,23 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0011594">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115 xml:lang="en">Pharmacy is the medical area concerned with the preparation and dispensing of medicinal drugs. [Adapted from OED definition 3, AL 17.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Pharmacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0011790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0011790">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <obo:IAO_0000115 xml:lang="en">Natural Science is the branch of knowledge that deals with the natural or physical world, in contrast to the social sciences and human sciences. [Adapted from OED, AL 17.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Natural Sciences</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Natural Science</rdfs:label>
     </owl:Class>
     
 
@@ -3073,6 +3115,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0015767">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17039"/>
+        <obo:IAO_0000115 xml:lang="en">Global health is field of study concerned with the health of populations in a global context; this includes worldwide health improvement (including mental health), reduction of disparities, and protection against global threats that disregard national borders. Global health can be measured as a function of various global diseases and their prevalence in the world and threat to decrease life in the present day. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Global_health, AL 17.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Global Health</rdfs:label>
     </owl:Class>
@@ -3157,17 +3200,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIT_0026014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026014">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3292"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
-        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Glycomics</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIT_0026522 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026522">
@@ -3182,7 +3214,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/OMIT_0026615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026615">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000162"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0011790"/>
         <obo:IAO_0000115 xml:lang="en">Earth Science is the science that deals with the earth or any part thereof; includes the disciplines of geology, geography, oceanography and meteorology, among others. [GEMET https://www.eionet.europa.eu/gemet/en/concept/2405, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -3298,6 +3330,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000006">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">Classical Philology is the branch of knowledge that deals with the historical, linguistic, interpretative, and critical aspects of literature from the classical period, generally considered to be the Ancient Greek and Ancient Roman civilizations. [Adapted from OED, AL 13.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Classical Philology</rdfs:label>
     </owl:Class>
@@ -3380,6 +3413,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000017">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">Musicology is the branch of knowledge that deals with music as a subject of study rather than as a skill or performing art; academic research in or scholarly study of music. [OED, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Musicology</rdfs:label>
     </owl:Class>
@@ -3545,6 +3579,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0021467"/>
+        <obo:IAO_0000115 xml:lang="en">Protestant Theology is the study of the Christian denomination of Protestantism. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Protestantism#Theology, AL 13.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Protestant Theology</rdfs:label>
     </owl:Class>
     
@@ -3742,6 +3778,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000057">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
+        <obo:IAO_0000115 xml:lang="en">Economic Theory is the field of study concerned with those areas of economics based on rigorous theoretical reasoning and on topics in mathematics that are supported by the analysis of economic problems. [Adapted from SpringerLink https://link.springer.com/journal/199, AL 17.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Economic Theory</rdfs:label>
     </owl:Class>
@@ -3853,18 +3890,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268 xml:lang="en">Plant Cell and Developmental Biology</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Plant Cell and Developmental Biology&apos; into &apos;Plant Cell Biology&apos; to simplify the term according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Plant Cell Biology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000087 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000087">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:comment>AL: 28.9.17 &apos;Plant Genetics&apos; is asserted as a child of Botany within re3data, and as a child of Genetics within FAIRsharing.</rdfs:comment>
-        <rdfs:label xml:lang="en">Plant Genetics</rdfs:label>
     </owl:Class>
     
 
@@ -4111,18 +4136,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000268 xml:lang="en">Basic Research on Pathogenesis, Diagnostics and Therapy and Clinical Veterinary Medicine</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Basic Research on Pathogenesis, Diagnostics and Therapy and Clinical Veterinary Medicine&apos; into &apos;Clinical Veterinary Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Clinical Veterinary Medicine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000162 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000162">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000268 xml:lang="en">Natural Sciences</ontology:SRAO_0000268>
-        <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
-        <rdfs:label xml:lang="en">Natural Science</rdfs:label>
     </owl:Class>
     
 
