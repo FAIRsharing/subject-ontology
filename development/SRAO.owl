@@ -170,7 +170,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_10967">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_7132"/>
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_8672"/>
-        <obo:IAO_0000115 xml:lang="en">Physical and economic access, by all people at all times, to the basic food they need [AgroVoc]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Food Security is the area of research concerned with physical and economic access, by all people at all times, to the basic food they need [AgroVoc, AL 19.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 16.5.2019: Added additional parent of &apos;Agricultural Economics&apos; as per https://github.com/FAIRsharing/subject-ontology/issues/31</rdfs:comment>
         <rdfs:label xml:lang="en">Food Security</rdfs:label>
@@ -183,7 +183,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_11669">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_3731"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007039"/>
-        <obo:IAO_0000115 xml:lang="en">That part of geology which treats of the relations of water on or below the surface of the earth. [OED, 28.3.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Hydrogeology is the subfield of Geology that is concerned with the study of water on or below the surface of the earth. [Adapted from OED, AL 19.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management</ontology:SRAO_0000268>
@@ -248,7 +248,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1648">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115>Civil engineering is the branch of engineering that deals with the design, construction, and maintenance of works of public utility, especially those relating to social infrastructure. [Oxford English Dictionary, AL 08.05.18]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Civil Engineering is the branch of engineering that deals with the design, construction, and maintenance of works of public utility, especially those relating to social infrastructure. [OED, AL 08.05.18]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Civil Engineering</rdfs:label>
     </owl:Class>
@@ -299,7 +299,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_211">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000115>Science of crop production and soil management.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Agronomy is the science of crop production and soil management. [AgroVoc, AL 19.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <rdfs:comment>AL 6.3.18: Placement of Agronomy follows the AgroVoc hierarchy.</rdfs:comment>
         <rdfs:label xml:lang="en">Agronomy</rdfs:label>
@@ -312,7 +312,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2468">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17167"/>
-        <obo:IAO_0000115 xml:lang="en">The application of mathematics and statistics to the study of economic and financial data. [AgroVoc]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Econometrics is the application of mathematics and statistics to the study of economic and financial data. [AgroVoc]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Statistics and Econometrics</ontology:SRAO_0000268>
@@ -393,7 +393,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_27925">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000115 xml:lang="en">Science of feeds and their nutrients, their relation to animal health and disease; for providing feeds to animals use [AgroVoc, 28.3.19]</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3390"/>
+        <obo:IAO_0000115 xml:lang="en">Animal Nutrition is the science of feeds and their nutrients, their relation to animal health and disease; for providing feeds to animals use [AgroVoc, AL 28.3.19]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Animal Nutrition and Nutrition Physiology</ontology:SRAO_0000268>
@@ -407,7 +408,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_28633">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0008715"/>
-        <obo:IAO_0000115>Agricultural law is the study of the special laws and regulations that apply to the production and sale of agricultural products. It deals with such legal issues as agricultural infrastructure, seed, water, fertilizer, pesticide use, agricultural finance, agricultural labour, agricultural marketing, agricultural insurance, farming rights, land tenure and tenancy system and law on agricultural processing and rural industry. With implementation of modern technologies, issues including credit, intellectual property, trade and commerce related to agricultural products are dealt within the sphere of this law. [Wikipedia https://en.wikipedia.org/wiki/Agricultural_law, AL 23.5.18]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Agricultural Law is the study of the special laws and regulations that apply to the production and sale of agricultural products. It deals with such legal issues as agricultural infrastructure, seed, water, fertilizer, pesticide use, agricultural finance, agricultural labour, agricultural marketing, agricultural insurance, farming rights, land tenure and tenancy system and law on agricultural processing and rural industry. With implementation of modern technologies, issues including credit, intellectual property, trade and commerce related to agricultural products are dealt within the sphere of this law. [Wikipedia https://en.wikipedia.org/wiki/Agricultural_law, AL 23.5.18]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Agricultural Law</rdfs:label>
     </owl:Class>
@@ -433,7 +434,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2934">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
-        <obo:IAO_0000115>Fisheries science is the academic discipline of managing and understanding fisheries. It is a multidisciplinary science, which draws on the disciplines of limnology, oceanography, freshwater biology, marine biology, conservation, ecology, population dynamics, economics and management to attempt to provide an integrated picture of fisheries. [Wikipedia https://en.wikipedia.org/wiki/Fisheries_science, AL 23.5.18]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Fisheries Science is the academic discipline of managing and understanding fisheries. It is a multidisciplinary science, which draws on the disciplines of limnology, oceanography, freshwater biology, marine biology, conservation, ecology, population dynamics, economics and management to attempt to provide an integrated picture of fisheries. [Wikipedia https://en.wikipedia.org/wiki/Fisheries_science, AL 23.5.18]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Fisheries Science</rdfs:label>
     </owl:Class>
@@ -485,7 +486,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_331559">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
-        <obo:IAO_0000115>Environmental Sciences is a broad interdisciplinary field in which ecologists work with other physical, chemical, and biological researchers to study and seek solutions to environmental problems. Environmental science focuses on the environment and how humans can manage and utilise its resources and the effects our actions have on the environment. [Adapted by AL from https://www.quora.com/What-are-the-main-differences-between-ecology-and-environmental-science and https://blog.oup.com/2012/05/its-ecology-not-environmental-science/ 26.6.18]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Environmental Science is a broad interdisciplinary field in which ecologists work with other physical, chemical, and biological researchers to study and seek solutions to environmental problems. Environmental science focuses on the environment and how humans can manage and utilise its resources and the effects our actions have on the environment. [Adapted by AL from https://www.quora.com/What-are-the-main-differences-between-ecology-and-environmental-science and https://blog.oup.com/2012/05/its-ecology-not-environmental-science/ 26.6.18]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <ontology:SRAO_0000278 xml:lang="en">Environmental Sciences</ontology:SRAO_0000278>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
@@ -498,7 +499,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3671">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000115>The cultivation of a garden; the art or science of cultivating or managing gardens, including the growing of flowers, fruits, and vegetables. [Oxford English Dictionary]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Horticulture is the research area concerned with the cultivation or management of gardens, including the growing of flowers, fruits, and vegetables. [Adapted from OED, AL 19.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Horticulture</rdfs:label>
     </owl:Class>
@@ -509,7 +510,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_3713">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
-        <obo:IAO_0000115>Hydraulic engineering as a sub-discipline of civil engineering is concerned with the flow and conveyance of fluids, principally water and sewage. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Hydraulic Engineering as a sub-discipline of civil engineering is concerned with the flow and conveyance of fluids, principally water and sewage. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 23.5.18: The original &quot;Geotechnics, Hydraulic Engineering&quot; class from re3data has been split into &quot;Geotechnics&quot; and &quot;Hydraulic Engineering&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
@@ -549,7 +550,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_423">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_8532"/>
-        <obo:IAO_0000115 xml:lang="en">Animal breeding is a branch of Agriculture that addresses the controlled improvement of selected characteristics of livestock. [Adapted from AgroVoc and Wikipedia, https://en.wikipedia.org/wiki/Animal_breeding, 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Animal Breeding is a branch of Agriculture that addresses the controlled improvement of selected characteristics of livestock. [Adapted from AgroVoc and Wikipedia, https://en.wikipedia.org/wiki/Animal_breeding, 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Animal Husbandry, Breeding and Hygiene&apos; into parent &apos;Animal Husbandry&apos; and child &apos;Animal Breeding&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Animal Hygiene&apos; subdomain.</rdfs:comment>
@@ -617,7 +618,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_49911">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
-        <obo:IAO_0000115 xml:lang="en">The branch of physics concerned with the properties and phenomena of sound, sometimes esp. in relation to hearing or speech. [OED, AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Acoustics is the branch of physics concerned with the properties and phenomena of sound, sometimes esp. in relation to hearing or speech. [OED, AL 14.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Acoustics</rdfs:label>
@@ -656,7 +657,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_5807">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000198"/>
-        <obo:IAO_0000115 xml:lang="en">The technique of using photographs to ascertain measurements of what is photographed, esp. in surveying and mapping. [OED]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Photogrammetry is the technique of using photographs to ascertain measurements of what is photographed, esp. in surveying and mapping. [OED]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartogaphy&apos; into parent class &apos;Geoinformatics&apos; and child classes &apos;Geodesy&apos;, &apos;Photogrammetry&apos;, &apos;Remote Sensing&apos; and &apos;Cartography&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -695,7 +696,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_5963">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
-        <obo:IAO_0000115 xml:lang="en">Plant ecology is a subdiscipline of ecology which studies the distribution and abundance of plants, the effects of environmental factors upon the abundance of plants, and the interactions among and between plants and other organisms. [Wikipedia https://en.wikipedia.org/wiki/Plant_ecology, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Plant Ecology is a subdiscipline of Ecology which studies the distribution and abundance of plants, the effects of environmental factors upon the abundance of plants, and the interactions among and between plants and other organisms. [Wikipedia https://en.wikipedia.org/wiki/Plant_ecology, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Plant Ecology and Ecosystem Analysis</ontology:SRAO_0000268>
@@ -720,7 +721,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_6498">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000198"/>
-        <obo:IAO_0000115 xml:lang="en">Remote sensing is the acquisition of information about an object or phenomenon without making physical contact with the object and thus in contrast to on-site observation, especially the Earth. Remote sensing is used in numerous fields, including geography, land surveying and most Earth Science disciplines as well as military, intelligence, commercial, economic, planning, and humanitarian applications. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Remote_sensing, AL 2.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Remote Sensing is the acquisition of information about an object or phenomenon without making physical contact with the object and thus in contrast to on-site observation, especially the Earth. Remote sensing is used in numerous fields, including geography, land surveying and most Earth Science disciplines as well as military, intelligence, commercial, economic, planning, and humanitarian applications. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Remote_sensing, AL 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartogaphy&apos; into parent class &apos;Geoinformatics&apos; and child classes &apos;Geodesy&apos;, &apos;Photogrammetry&apos;, &apos;Remote Sensing&apos; and &apos;Cartography&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -862,7 +863,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_9000089">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
-        <obo:IAO_0000115>Knowledge and Information systems create, share, and manage knowledge and information. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Knowledge and Information Systems create, share, and manage knowledge and information. [Adapted from Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Operating, Communication and Information Systems</ontology:SRAO_0000268>
@@ -2750,6 +2751,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18948">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16419"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000178"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000268 xml:lang="en">Preparatory and Physical Chemistry of Polymers</ontology:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Preparatory and Physical Chemistry of Polymers&apos; into &apos;Polymer Chemistry&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Polymer Chemistry</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C19199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19199">
@@ -2987,7 +3002,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0004713">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0008715"/>
-        <obo:IAO_0000115 xml:lang="en">The study of crime and criminals; this as an academic discipline. [OED, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Criminology is the study of crime and criminals; this as an academic discipline. [OED, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Criminology</rdfs:label>
@@ -3025,7 +3040,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0008715">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000041"/>
-        <obo:IAO_0000115 xml:lang="en">The science which treats of human laws (written or unwritten) in general; the philosophy of law. [OED, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Jurisprudence is the science which treats of human laws (written or unwritten) in general; the philosophy of law. [OED, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Jurisprudence</rdfs:label>
@@ -3063,7 +3078,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0010809">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
-        <obo:IAO_0000115 xml:lang="en">The branch of science concerned with the physical and biological properties and phenomena of the ocean. [OED, AL 20.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Oceanography is the branch of science concerned with the physical and biological properties and phenomena of the ocean. [OED, AL 20.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Oceanography</rdfs:label>
@@ -3193,7 +3208,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0018016">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
-        <obo:IAO_0000115 xml:lang="en">Nonlinear dynamics is the branch of physics that studies systems governed by equations more complex than the linear, aX+b form. Nonlinear systems, such as the weather or neurons, often appear chaotic, unpredictable or counterintuitive, and yet their behaviour is not random. [Nature https://www.nature.com/subjects/nonlinear-dynamics, AL 14.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Nonlinear Dynamics is the branch of Physics that studies systems governed by equations more complex than the linear, aX+b form. Nonlinear systems, such as the weather or neurons, often appear chaotic, unpredictable or counterintuitive, and yet their behaviour is not random. [Nature https://www.nature.com/subjects/nonlinear-dynamics, AL 14.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Statistical Physics, Soft Matter, Biological Physics, Nonlinear Dynamics&apos;. &apos;Biophysics&apos; was already present in SRAO, and added &apos;Soft Matter Physics&apos;, &apos;Nonlinear Dynamics&apos;, and &apos;Statistical Physics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -3206,7 +3221,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0018052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
-        <obo:IAO_0000115 xml:lang="en">Ecosystem science is the study of inter-relationships among the living organisms, physical features, bio-chemical processes, natural phenomena, and human activities in ecological communities. [NOAA https://oceanservice.noaa.gov/facts/ecosci.html, AL 16.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Ecosystem Science is the study of inter-relationships among the living organisms, physical features, bio-chemical processes, natural phenomena, and human activities in ecological communities. [NOAA https://oceanservice.noaa.gov/facts/ecosci.html, AL 16.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored (through deletion) re3data composite class &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos; by merging with existing classes &apos;Ecosystem Science&apos;, &apos;Biodiversity&apos; and &apos;Ecology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -3320,7 +3335,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0027298">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18076"/>
-        <obo:IAO_0000115>A field of biological research combining engineering in the formulation, design, and building (synthesis) of novel biological structures, functions, and systems. [MeSH, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Synthetic Biology is a field of biological research combining engineering in the formulation, design, and building (synthesis) of novel biological structures, functions, and systems. [MeSH, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Placement within this hierarchy partially follows original placement within the OMIT hierarchy (which placed &apos;Synthetic Biology&apos; as a child of both &apos;Biology&apos; and &apos;Bioengineering&apos;. We just use &apos;Bioengineering&apos;, which itself is within the &apos;Biology&apos; hierarchy.</rdfs:comment>
         <rdfs:comment>PAM 27.02.2018: Cannot find placement in OMIT hierarchy, so taken definition from MeSH.</rdfs:comment>
@@ -3347,7 +3362,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0028546">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16673"/>
-        <obo:IAO_0000115 xml:lang="en">Transfusion medicine is the branch of medicine that is concerned with transfusion of blood and blood components. It encompasses issues of blood donation, immunohematology and other laboratory testing, transfusion practices, patient blood management, therapeutic apheresis, stem cell collections, cellular therapy, and coagulation. [Adapted from Wikipedia, https://en.wikipedia.org/wiki/Transfusion_medicine, AL 28.3.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Transfusion Medicine is the branch of medicine that is concerned with transfusion of blood and blood components. It encompasses issues of blood donation, immunohematology and other laboratory testing, transfusion practices, patient blood management, therapeutic apheresis, stem cell collections, cellular therapy, and coagulation. [Adapted from Wikipedia, https://en.wikipedia.org/wiki/Transfusion_medicine, AL 28.3.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Hematology, Oncology, Transfusion Medicine</ontology:SRAO_0000268>
@@ -3645,7 +3660,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000033">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000299"/>
-        <obo:IAO_0000115 xml:lang="en">Religious studies, is an academic field devoted to research into religious beliefs, behaviors, and institutions. It describes, compares, interprets, and explains religion, emphasizing systematic, historically based, and cross-cultural perspectives. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Religious_studies, AL 11.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Religious Studies is an academic field devoted to research into religious beliefs, behaviors, and institutions. It describes, compares, interprets, and explains religion, emphasizing systematic, historically based, and cross-cultural perspectives. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Religious_studies, AL 11.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Religious Studies and Jewish Studies</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
@@ -3758,7 +3773,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000045">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000042"/>
-        <obo:IAO_0000115 xml:lang="en">Professional socialization is the process of forming associations with others in a chosen profession; specifically, the process by which a person learns to function within a particular profession by internalizing its values and norms. [Adapted from OED, AL 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Professional Socialization is the process of forming associations with others in a chosen profession; specifically, the process by which a person learns to function within a particular profession by internalizing its values and norms. [Adapted from OED, AL 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Research on Socialization and Educational Institutions and Professions</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Research on Socialization and Educational Institutions and Professions&apos; into &apos;Professional Socialization&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -3790,7 +3805,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
-        <obo:IAO_0000115 xml:lang="en">The study of social interactions, including their origins and effects on individuals and groups. [OED, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Social Psychology is the study of social interactions, including their origins and effects on individuals and groups. [Adapted from OED, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Social Psychology, Industrial and Organisational Psychology</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Social Psychology, Industrial and Organisational Psychology&apos; into sibling classes &apos;Social Psychology&apos; and &apos;Industrial and Organisational Psychology&apos; according to FAIRsharing curation best practises. Definitions and common usage show that the composite term &apos;Industrial and Organisational Psychology&apos; should not be further divided.</rdfs:comment>
@@ -3896,7 +3911,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C39794"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0008715"/>
-        <obo:IAO_0000115 xml:lang="en">Philosophy of law is a branch of philosophy that examines the nature of law and law&apos;s relationship to other systems of norms, especially ethics and political philosophy. [Wikipedia https://en.wikipedia.org/wiki/Philosophy_of_law, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Philosophy of Law is a branch of philosophy that examines the nature of law and law&apos;s relationship to other systems of norms, especially ethics and political philosophy. [Wikipedia https://en.wikipedia.org/wiki/Philosophy_of_law, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Legal Philosophy</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Legal and Political Philosophy, Legal History, Legal Theory</ontology:SRAO_0000268>
@@ -4113,7 +4128,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000139">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_2259"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
-        <obo:IAO_0000115 xml:lang="en">Systemic Neuroscience is a subdiscipline of neuroscience and systems biology that studies the structure and function of neural circuits and systems. It encompasses a number of areas of study concerned with how nerve cells behave when connected together to form neural pathways, neural circuits, and larger brain networks. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Systems_neuroscience, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Systemic Neuroscience is a subdiscipline of Neuroscience and Systems Biology that studies the structure and function of neural circuits and systems. It encompasses a number of areas of study concerned with how nerve cells behave when connected together to form neural pathways, neural circuits, and larger brain networks. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Systems_neuroscience, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Systems Neuroscience</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Systemic Neuroscience, Computational Neuroscience, Behaviour</ontology:SRAO_0000268>
@@ -4218,7 +4233,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16421"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
-        <obo:IAO_0000115 xml:lang="en">Solid-state chemistry, also sometimes referred as materials chemistry, is the study of the synthesis, structure, and properties of solid phase materials, particularly, but not necessarily exclusively of, non-molecular solids. [Wikipedia, https://en.wikipedia.org/wiki/Solid-state_chemistry, 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Solid-State Chemistry, also sometimes referred as materials chemistry, is the study of the synthesis, structure, and properties of solid phase materials, particularly, but not necessarily exclusively of, non-molecular solids. [Wikipedia, https://en.wikipedia.org/wiki/Solid-state_chemistry, 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Materials Chemistry</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Physical Chemistry of Solids and Surfaces, Material Characterisation</ontology:SRAO_0000268>
@@ -4245,7 +4260,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
-        <obo:IAO_0000115 xml:lang="en">Theoretical chemistry is the examination of the structural and dynamic properties of molecules and molecular materials using the tools of quantum chemistry, equilibrium and nonequilibrium statistical mechanics and dynamics. [https://chemistry.cornell.edu/theoretical, AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Theoretical Chemistry is the examination of the structural and dynamic properties of molecules and molecular materials using the tools of quantum chemistry, equilibrium and nonequilibrium statistical mechanics and dynamics. [https://chemistry.cornell.edu/theoretical, AL 14.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">General Theoretical Chemistry</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;General Theoretical Chemistry&apos; into &apos;Theoretical Chemistry&apos; to simplify the term according to FAIRsharing curation best practises.</rdfs:comment>
@@ -4285,25 +4300,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
-        <obo:IAO_0000115 xml:lang="en">Polymer science is subfield of Materials Science concerned with polymers, primarily synthetic polymers such as plastics and elastomers. The field of polymer science includes researchers in multiple disciplines including chemistry, physics, and engineering. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Polymer_science, AL 21.05.2109]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Polymer Research is a subfield of Materials Science concerned with polymers, primarily synthetic polymers such as plastics and elastomers. The field of polymer science includes researchers in multiple disciplines including chemistry, physics, and engineering. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Polymer_science, AL 21.05.2109]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Macromolecular Science</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Polymer Science</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Polymer Research</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000179 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16419"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000178"/>
-        <obo:IAO_0000115 xml:lang="en">Polymer Chemistry is a subtype of Polymer Research that focuses on the chemical synthesis, structure, chemical and physical properties of polymers and macromolecules. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Polymer_chemistry, 2.4.2019]</obo:IAO_0000115>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <ontology:SRAO_0000268 xml:lang="en">Preparatory and Physical Chemistry of Polymers</ontology:SRAO_0000268>
-        <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Preparatory and Physical Chemistry of Polymers&apos; into &apos;Polymer Chemistry&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:label xml:lang="en">Polymer Chemistry</rdfs:label>
     </owl:Class>
     
 
@@ -4313,7 +4314,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000180">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000178"/>
-        <obo:IAO_0000115 xml:lang="en">Polymer physics is the field of physics that studies polymers, their fluctuations, mechanical properties, as well as the kinetics of reactions involving degradation and polymerisation of polymers and monomers respectively. [Wikipedia https://en.wikipedia.org/wiki/Polymer_physics, 2.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Polymer Physics is the field of physics that studies polymers, their fluctuations, mechanical properties, as well as the kinetics of reactions involving degradation and polymerisation of polymers and monomers respectively. [Wikipedia https://en.wikipedia.org/wiki/Polymer_physics, 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Experimental and Theoretical Physics of Polymers</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Experimental and Theoretical Physics of Polymers&apos; into &apos;Polymer Physics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -4518,7 +4519,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115 xml:lang="en">Process engineering is the understanding and application of the fundamental principles and laws of nature that allow us to transform raw material and energy into products that are useful to society, at an industrial level. Process engineering focuses on the design, operation, control, optimization and intensification of chemical, physical, and biological processes. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Process_engineering, AL 20.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Process Engineering is the understanding and application of the fundamental principles and laws of nature that allow us to transform raw material and energy into products that are useful to society, at an industrial level. Process engineering focuses on the design, operation, control, optimization and intensification of chemical, physical, and biological processes. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Process_engineering, AL 20.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Process Engineering, Technical Chemistry</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Process Engineering, Technical Chemistry&apos; into &apos;Process Engineering&apos; according to FAIRsharing curation best practises. &apos;Technical Chemistry was already present as a child term.</rdfs:comment>
@@ -4566,7 +4567,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000224">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000218"/>
-        <obo:IAO_0000115 xml:lang="en">Thermal technology is the technology of producing, storing, controlling, transmitting, and getting work from heat energy. [https://canvas.instructure.com/courses/838884/pages/unit-3-lesson-8-an-introduction-to-thermal-technology, AL 20.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Thermal Technology is the technology of producing, storing, controlling, transmitting, and getting work from heat energy. [https://canvas.instructure.com/courses/838884/pages/unit-3-lesson-8-an-introduction-to-thermal-technology, AL 20.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Heat Energy Technology</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Heat Energy Technology, Thermal Machines, Fluid Mechanics</ontology:SRAO_0000268>
@@ -4615,7 +4616,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009732"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000219"/>
-        <obo:IAO_0000115 xml:lang="en">Thermomechanical processing is a metallurgical process that combines mechanical or plastic deformation process like compression or forging, rolling etc. with thermal processes like heat-treatment, water quenching, heating and cooling at various rates into a single process. [Adapted from Wikipedia, https://en.wikipedia.org/wiki/Thermomechanical_processing, AL 28.3.19]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Thermomechanical Processing is a metallurgical process that combines mechanical or plastic deformation process like compression or forging, rolling etc. with thermal processes like heat-treatment, water quenching, heating and cooling at various rates into a single process. [Adapted from Wikipedia, https://en.wikipedia.org/wiki/Thermomechanical_processing, AL 28.3.19]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 7.5.2019 Refactored re3data composite class &apos;Metallurgical and Thermal Processes, Thermomechanical Treatment of Materials&apos; into child class &apos;Thermomechanical Processing&apos; with parent class &apos;Metallurgy&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -4727,7 +4728,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115>System Engineering - The investigation of complex, man-made systems in relation to the apparatus that is or might be involved in them. [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Systems Engineering is concerned with the investigation of complex, man-made systems in relation to the apparatus that is or might be involved in them. [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Systems Engineering</rdfs:label>
     </owl:Class>
@@ -4800,7 +4801,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000251">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19349"/>
-        <obo:IAO_0000115 xml:lang="en">Telecommunications engineering is a subfield of Electrical Engineering that encompasses modes of communication such as satellites, radio, internet and broadband technologies and wireless telephone services. It also deals with wireless modes of communication and information transfer, such as wireless telephony services, radio and satellite communications, and internet and broadband technologies. [Adapted from https://gradireland.com/careers-advice/job-descriptions/communications-engineer and Wikipedia https://en.wikipedia.org/wiki/Telecommunications_engineering, AL 2.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Telecommunications Engineering is a subfield of Electrical Engineering that encompasses modes of communication such as satellites, radio, internet and broadband technologies and wireless telephone services. It also deals with wireless modes of communication and information transfer, such as wireless telephony services, radio and satellite communications, and internet and broadband technologies. [Adapted from https://gradireland.com/careers-advice/job-descriptions/communications-engineer and Wikipedia https://en.wikipedia.org/wiki/Telecommunications_engineering, AL 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Communication Engineering</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Communication, High-Frequency and Network Technology, Theoretical Electrical Engineering</ontology:SRAO_0000268>
@@ -4828,7 +4829,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000254">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
-        <obo:IAO_0000115>Theoretical computer science is a subset of general computer science and mathematics that focuses on more mathematical topics of computing and includes the theory of computation. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Theoretical Computer Science is a subset of general computer science and mathematics that focuses on more mathematical topics of computing and includes the theory of computation. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Theoretical Computer Science</rdfs:label>
     </owl:Class>
@@ -4905,8 +4906,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000263">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
-        <obo:IAO_0000115>Structural engineering is a sub-discipline of civil engineering in which structural engineers are trained to understand, predict, and calculate the stability, strength and rigidity of built structures for buildings and nonbuilding structures, to develop designs and integrate their design with that of other designers, and to supervise construction of projects on site. [Wikipedia, PAM 27.02.2018]
-Structural Engineering is the branch of civil engineering concerned with the analysis and design of large buildings and load-bearing structures. [Oxford English Dictionary, AL 08.15.18]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Structural Engineering is a sub-discipline of civil engineering in which structural engineers are trained to understand, predict, and calculate the stability, strength and rigidity of built structures for buildings and nonbuilding structures, to develop designs and integrate their design with that of other designers, and to supervise construction of projects on site. [Wikipedia, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Sructural Engineering, Building Informatics, Construction Operation</ontology:SRAO_0000268>
         <rdfs:comment>AL 23.5.18: The original &quot;Structural Engineering, Building Informatics, Construction Operation&quot; class from re3data has been split into &quot;Structural Engineering&quot; and &quot;Building Informatics&quot;. Removal of compound terms aligns with FAIRsharing best practices. &quot;Construction Operation&quot; has been removed until it is clear what re3data intend with this discipline.</rdfs:comment>
@@ -5090,7 +5090,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000298">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16421"/>
-        <obo:IAO_0000115 xml:lang="en">Surface science is the study of physical and chemical phenomena that occur at the interface of two phases, including solid–liquid interfaces, solid–gas interfaces, solid–vacuum interfaces, and liquid–gas interfaces. [Wikipedia, https://en.wikipedia.org/wiki/Surface_science, 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Surface Science is the study of physical and chemical phenomena that occur at the interface of two phases, including solid–liquid interfaces, solid–gas interfaces, solid–vacuum interfaces, and liquid–gas interfaces. [Wikipedia, https://en.wikipedia.org/wiki/Surface_science, 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Chemical Solid State and Surface Research&apos; into &apos;Physical Chemistry&apos;, and refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises. Refactored &apos;Physical Chemistry of Solids and Surfaces, Material Characterisation&apos; into &apos;Solid-State Chemistry&apos;, and &apos;Surface Science&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Surface Science</rdfs:label>
@@ -5183,7 +5183,9 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000305">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000015"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000299"/>
-        <obo:IAO_0000115 xml:lang="en">Theatre studies (sometimes referred to as theatrology or dramatics) is the study of theatrical performance in relation to its literary, physical, psycho-biological, sociological, and historical contexts. [Wikipedia https://en.wikipedia.org/wiki/Theatre_studies, AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Theatre Studies (sometimes referred to as theatrology or dramatics) is the study of theatrical performance in relation to its literary, physical, psycho-biological, sociological, and historical contexts. [Wikipedia https://en.wikipedia.org/wiki/Theatre_studies, AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Theater Studies</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Theatrology</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 14.5.2019: Refactored &apos;Theatre and Media Studies&apos; to sibling classes &apos;Theatre Studies&apos; and &apos;Media Studies&apos; to align with FAIRsharing curation best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Theatre Studies</rdfs:label>
@@ -5221,7 +5223,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000308">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17167"/>
-        <obo:IAO_0000115 xml:lang="en">Statistical physics is a branch of physics that uses probability theory and statistics to solve physical problems that usually involve systems composed of a large number of units. Its main purpose is to study the properties of a system from the statistical behaviour of its components. [Nature https://www.nature.com/subjects/statistical-physics, AL 14.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Statistical Physics is a branch of physics that uses probability theory and statistics to solve physical problems that usually involve systems composed of a large number of units. Its main purpose is to study the properties of a system from the statistical behaviour of its components. [Nature https://www.nature.com/subjects/statistical-physics, AL 14.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Statistical Physics, Soft Matter, Biological Physics, Nonlinear Dynamics&apos;. &apos;Biophysics&apos; was already present in SRAO, and added &apos;Soft Matter Physics&apos;, &apos;Nonlinear Dynamics&apos;, and &apos;Statistical Physics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Statistical Physics</rdfs:label>
