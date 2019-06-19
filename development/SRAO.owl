@@ -222,7 +222,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_16129">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000115 xml:lang="en">Forest management is a branch of forestry concerned with overall administrative, economic, legal, and social aspects, as well as scientific and technical aspects, such as silviculture, protection, and forest regulation. This includes management for aesthetics, fish, recreation, urban values, water, wilderness, wildlife, wood products, forest genetic resources, and other forest resource values. Management can be based on conservation, economics, or a mixture of the two. [Wikipedia https://en.wikipedia.org/wiki/Forest_management, 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Forest Management is a branch of forestry concerned with overall administrative, economic, legal, and social aspects, as well as scientific and technical aspects, such as silviculture, protection, and forest regulation. This includes management for aesthetics, fish, recreation, urban values, water, wilderness, wildlife, wood products, forest genetic resources, and other forest resource values. Management can be based on conservation, economics, or a mixture of the two. [Wikipedia https://en.wikipedia.org/wiki/Forest_management, 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Inventory Control and Use of Forest Resources</ontology:SRAO_0000268>
@@ -419,7 +419,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_28672">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17735"/>
-        <obo:IAO_0000115 xml:lang="en">Economic policy covers the systems for setting levels of taxation, government budgets, the money supply and interest rates as well as the labour market, national ownership, and many other areas of government interventions into the economy. Most factors of economic policy can be divided into either fiscal policy, which deals with government actions regarding taxation and spending, or monetary policy, which deals with central banking actions regarding the money supply and interest rates. [Wikipedia https://en.wikipedia.org/wiki/Economic_policy, 2.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Economic Policy covers the systems for setting levels of taxation, government budgets, the money supply and interest rates as well as the labour market, national ownership, and many other areas of government interventions into the economy. Most factors of economic policy can be divided into either fiscal policy, which deals with government actions regarding taxation and spending, or monetary policy, which deals with central banking actions regarding the money supply and interest rates. [Wikipedia https://en.wikipedia.org/wiki/Economic_policy, 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Economic and Social Policy</ontology:SRAO_0000268>
@@ -469,7 +469,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_331401">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000243"/>
-        <obo:IAO_0000115 xml:lang="en">Logistics engineering is a field of engineering dedicated to the scientific organization of the purchase, transport, storage, distribution, and warehousing of materials and finished goods. [Wikipedia https://en.wikipedia.org/wiki/Logistics_engineering, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Logistics Engineering is a field of engineering dedicated to the scientific organization of the purchase, transport, storage, distribution, and warehousing of materials and finished goods. [Wikipedia https://en.wikipedia.org/wiki/Logistics_engineering, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Traffic and Transport Systems, Logistics</ontology:SRAO_0000268>
@@ -2056,7 +2056,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16548">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:IAO_0000115>The parts of science concerned with the physical and mathematical basis of engineering and machine technology. [Oxford Dictionary, https://en.oxforddictionaries.com/definition/engineering_science, PAM 27.02.18]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268>Engineering Sciences</ontology:SRAO_0000268>
@@ -2079,9 +2078,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16556">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17039"/>
-        <obo:IAO_0000115 xml:lang="en">AL: 1.5.2019 Earlier releases of SRAO had an EDAM term (topic_3305) but this was refactored to NCIT to remove the composite concepts.</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL: 1.5.2019 Earlier releases of SRAO had an EDAM term (topic_3305) but this was refactored to NCIT to remove the composite concepts.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Epidemiology, Medical Biometry, Medical Informatics&apos; into the &apos;Public Health&apos; subclass &apos;Epidemiology&apos; and its sibling &apos;Medical Biometry&apos; according to FAIRsharing curation best practises. &apos;Medical Informatics&apos; (which was already present) is now a parent term of &apos;Medical Biometry&apos;, which also has Public Health as an additional parent.</rdfs:comment>
         <rdfs:label xml:lang="en">Epidemiology</rdfs:label>
     </owl:Class>
@@ -2588,7 +2587,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18076">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3297"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health. [ NCIT, PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <rdfs:comment>AL 23.11.17: Added parent &apos;Engineering Sciences&apos; to align with the structure found within NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Bioengineering</rdfs:label>
@@ -2763,6 +2761,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Electrical Engineering</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C19638 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19638">
@@ -2897,7 +2906,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0001094">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000047"/>
-        <obo:IAO_0000115 xml:lang="en">Cognitive neuroscience is the field of study focusing on the neural substrates of mental processes. It is at the intersection of psychology and neuroscience, but also overlaps with physiological psychology, cognitive psychology and neuropsychology. It combines the theories of cognitive psychology and computational modelling with experimental data about the brain. [Nature https://www.nature.com/subjects/cognitive-neuroscience, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Cognitive Neuroscience is the field of study focusing on the neural substrates of mental processes. It is at the intersection of psychology and neuroscience, but also overlaps with physiological psychology, cognitive psychology and neuropsychology. It combines the theories of cognitive psychology and computational modelling with experimental data about the brain. [Nature https://www.nature.com/subjects/cognitive-neuroscience, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Cognitive Neuroscience and Neuroimaging</ontology:SRAO_0000268>
@@ -3081,8 +3090,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/OMIT_0011166 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0011166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0019137"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000291"/>
         <obo:IAO_0000115 xml:lang="en">Paleontology is the branch of science that deals with extinct and fossil humans, animals, and plants, or more generally with evidence of organic life during the geological past. [OED, AL 12.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000118>Palaeontology</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
@@ -3216,6 +3225,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Radiation Oncology and Radiobiology&apos; into parent class &apos;Radiobiology&apos; and child class &apos;Radiation Oncology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Radiation Oncology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0019137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0019137">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
+        <obo:IAO_0000115 xml:lang="en">Natural History is a domain of inquiry involving organisms including animals, fungi and plants in their environment; leaning more towards observational than experimental methods of study. [Wikipedia https://en.wikipedia.org/wiki/Natural_history, accessed 27.11.18]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Natural History</rdfs:label>
     </owl:Class>
     
 
@@ -3399,7 +3419,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000009">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000004"/>
-        <obo:IAO_0000115 xml:lang="en">The study of Egyptian antiquities, of the ancient Egyptian language and history. [OED, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Egyptology is the study of Egyptian antiquities, of the ancient Egyptian language and history. [Adapted from OED, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Egyptology and Ancient Near Eastern Studies</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Egyptology and Ancient Near Eastern Studies&apos; into sibling classes &apos;Ancient Near Eastern Studies&apos; and &apos;Ancient Near Eastern Studies&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -3423,7 +3443,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
-        <obo:IAO_0000115 xml:lang="en">Modern history is the study of the historical period after post-classical history. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Modern_history, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Modern History is the study of the historical period after post-classical history. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Modern_history, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Modern and Current History</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Modern and Current History&apos; into &apos;Modern History&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -3483,7 +3503,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000018">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000015"/>
-        <obo:IAO_0000115 xml:lang="en">Media studies is a discipline and field of study that deals with the content, history, and effects of various media; in particular, the mass media. [Wikipedia, https://en.wikipedia.org/wiki/Media_studies, 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Media Studies is a discipline and field of study that deals with the content, history, and effects of various media; in particular, the mass media. [Wikipedia, https://en.wikipedia.org/wiki/Media_studies, 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Theatre and Media Studies</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL 10.4.2019: Refactored &apos;Theatre and Media Studies&apos; to sibling classes &apos;Theatre Studies&apos; and &apos;Media Studies&apos; to align with FAIRsharing curation best practices.</rdfs:comment>
@@ -3612,7 +3632,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000032">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000033"/>
-        <obo:IAO_0000115 xml:lang="en">Islamic studies refers to the study of Islam. Islamic studies can be pursued from a primarily secular or traditional religous perspective. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Islamic_studies, 11.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Islamic Studies refers to the study of Islam. Islamic studies can be pursued from a primarily secular or traditional religous perspective. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Islamic_studies, 11.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Islamic Studies, Arabian Studies, Semitic Studies</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
@@ -3783,7 +3803,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
-        <obo:IAO_0000115 xml:lang="en">Differential psychology studies the ways in which individuals differ in their behavior and the processes that underlie it. This is a discipline that develops classifications (taxonomies) of psychological individual differences. This is distinguished from other aspects of psychology in that although psychology is ostensibly a study of individuals, modern psychologists often study groups, or attempt to discover general psychological processes that apply to all individuals. [Wikipedia, https://en.wikipedia.org/wiki/Differential_psychology, 28.3.19]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Differential Psychology is the study of the ways in which individuals differ in their behavior and the processes that underlie it. This is a discipline that develops classifications (taxonomies) of psychological individual differences. This is distinguished from other aspects of psychology in that although psychology is ostensibly a study of individuals, modern psychologists often study groups, or attempt to discover general psychological processes that apply to all individuals. [Wikipedia, https://en.wikipedia.org/wiki/Differential_psychology, 28.3.19]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Differential Psychology, Clinical Psychology, Medical Psychology, Methodology</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Differential Psychology, Clinical Psychology, Medical Psychology, Methodology&apos; into sibling classes &apos;Differential Psychology&apos;, &apos;Clinical Psychology&apos; and &apos;Medical Psychology&apos; according to FAIRsharing curation best practises.&apos;Methodology&apos; was not required within SRAO at this time.</rdfs:comment>
@@ -3863,7 +3883,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000062">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_2481"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54625"/>
-        <obo:IAO_0000115 xml:lang="en">Economic and social history is the study of the way societies change in their economic activities and social organisation. It is concerned with how people in the past lived and worked, and how this has affected the development of today’s world. [https://www.gla.ac.uk/undergraduate/degrees/economicsocialhistory/, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Economic and Social History is the study of the way societies change in their economic activities and social organisation. It is concerned with how people in the past lived and worked, and how this has affected the development of today’s world. [https://www.gla.ac.uk/undergraduate/degrees/economicsocialhistory/, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 21.5.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
         <rdfs:label xml:lang="en">Economic and Social History</rdfs:label>
@@ -4068,7 +4088,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000136">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3047"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
-        <obo:IAO_0000115 xml:lang="en">Molecular neuroscience is a branch of neuroscience that examines the biology of the nervous system with molecular biology, molecular genetics, protein chemistry and related methodologies. [Nature https://www.nature.com/subjects/molecular-neuroscience, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Molecular Neuroscience is a branch of neuroscience that examines the biology of the nervous system with molecular biology, molecular genetics, protein chemistry and related methodologies. [Nature https://www.nature.com/subjects/molecular-neuroscience, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Molecular Neuroscience and Neurogenetics</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Molecular Neuroscience and Neurogenetics&apos; into sibling classes &apos;Molecular Neuroscience&apos; and &apos;Neurogenetics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -4239,7 +4259,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0027298"/>
-        <obo:IAO_0000115 xml:lang="en">Biomimetic chemistry deals with chemical systems that can simulate biological phenomena, particularly catalysis and specificity. [https://doi.org/10.1016/B978-0-08-026220-8.50026-9, AL 14.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Biomimetic Chemistry deals with chemical systems that can simulate biological phenomena, particularly catalysis and specificity. [https://doi.org/10.1016/B978-0-08-026220-8.50026-9, AL 14.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Biological and Biomimetic Chemistry</ontology:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Biological and Biomimetic Chemistry&apos; into &apos;Biomimetic Chemistry&apos; according to FAIRsharing curation best practises. Also removed Biochemistry as a child and made it a sibling class, as Biochemistry is not a subset of Biomimetic Chemistry.</rdfs:comment>
@@ -4252,7 +4272,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
-        <obo:IAO_0000115 xml:lang="en">Food chemistry is the study of chemical processes and interactions of all biological and non-biological components of foods. The biological substances include such items as meat, poultry, lettuce, beer, and milk as examples. It is similar to biochemistry in its main components such as carbohydrates, lipids, and protein, but it also includes areas such as water, vitamins, minerals, enzymes, food additives, flavors, and colors. [Adapted from Wikipedia, AL 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Food Chemistry is the study of chemical processes and interactions of all biological and non-biological components of foods. The biological substances include such items as meat, poultry, lettuce, beer, and milk as examples. It is similar to biochemistry in its main components such as carbohydrates, lipids, and protein, but it also includes areas such as water, vitamins, minerals, enzymes, food additives, flavors, and colors. [Adapted from Wikipedia, AL 1.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 11.4.2019: &apos;Food Chemistry&apos; used to be a child term of the now-deleted &apos;Biological Chemistry and Food Chemistry&apos; class, which was deleted according to FAIRsharing curation guidelines as it overlapped with &apos;Food Chemistry&apos; itself.</rdfs:comment>
         <rdfs:label xml:lang="en">Food Chemistry</rdfs:label>
@@ -4632,7 +4652,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000234">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000230"/>
-        <obo:IAO_0000115>The study of the mechnical behaviour of materials used in construction. [PAM 01.03.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mechanical Behaviour of Construction is the study of the mechnical behaviour of materials used in construction. [PAM 01.03.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Mechanical Behaviour of Construction Materials</rdfs:label>
     </owl:Class>
@@ -4643,7 +4663,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000235">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000230"/>
-        <obo:IAO_0000115>&apos;Coating and Surface Technology&apos; covers the technology surround any mixture of film-forming materials, including pigments, solvents, and other additives. [Adapted from Britannica, PAM 01.03.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Coating and Surface Technology covers the technology surround any mixture of film-forming materials, including pigments, solvents, and other additives. [Adapted from Britannica, PAM 01.03.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 14.5.2019: Please note that this composite term is correct with regards to the subject area, and therefore has not been modified to have a singular form.</rdfs:comment>
         <rdfs:label xml:lang="en">Coating and Surface Technology</rdfs:label>
@@ -4656,7 +4676,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000236">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000259"/>
-        <obo:IAO_0000115>The scientific study of the properties and applications of materials of construction or manufacture (such as ceramics, metals, polymers, and composites. [Merriam Webster Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Materials Science is the scientific study of the properties and applications of materials of construction or manufacture (such as ceramics, metals, polymers, and composites. [Merriam Webster Dictionary. PAM 27.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Materials Science and Engineering</ontology:SRAO_0000268>
         <rdfs:comment>AL 10.4.2019: Placement within the hierarchy follows FAIRsharing curation choices; we have split &apos;Materials Science and Engineering&apos; to better focus on the various subjects that are primarily either Materials Engineering or Materials Science. On 23.5.18, the parent term &apos;Construction Engineering&apos; was added.</rdfs:comment>
@@ -4732,7 +4752,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000245">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000243"/>
-        <obo:IAO_0000115>A system of measurement is a collection of units of measurement and rules relating them to each other. Systems of measurement have historically been important, regulated and defined for the purposes of science and commerce. Systems of measurement in modern use include the metric system, the imperial system, and United States customary units. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115>Measurement Systems describes the field of study concerned with collections of units of measurement and rules relating them to each other. Systems of measurement have historically been important, regulated and defined for the purposes of science and commerce. Systems of measurement in modern use include the metric system, the imperial system, and United States customary units. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Measurement Systems</rdfs:label>
     </owl:Class>
@@ -4743,9 +4763,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000246">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000243"/>
-        <obo:IAO_0000115>Microsystem is the name commonly used in Europe to describe the same technology which goes under the name MEMS (Micro Electro Mechanical Systems) in the US. In Japan, this field is often termed micromachines.
-
-Microsystems are miniaturized (silicon or polymer) devices which perform electrical and non-electronic functions: typically sensing and actuation. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Microsystems is the name commonly used in Europe to describe the same technology which goes under the name MEMS (Micro Electro Mechanical Systems) in the US. In Japan, this field is often termed micromachines. Microsystems are miniaturized (silicon or polymer) devices which perform electrical and non-electronic functions: typically sensing and actuation. [Wikipedia, PAM 28.02.2018]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Microsystems</rdfs:label>
     </owl:Class>
@@ -4765,21 +4783,10 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000249 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000249">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115>Electrical Engineering - The electrical aspects of engineering and electrical and electronic devices. [Oxford English Dictionary, PAM 27.02.2018]</obo:IAO_0000115>
-        <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Electrical Engineering</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/SRAO_0000250 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000250">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19349"/>
         <obo:IAO_0000115 xml:lang="en">Component Engineering is an Electrical Engineering discipline primarily used to ensure the availability of suitable components required to manufacture a larger product. [Wikipedia, https://en.wikipedia.org/wiki/Component_engineering, 23.3.19]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Electronic Semiconductors, Components, Circuits, Systems</ontology:SRAO_0000268>
@@ -4792,7 +4799,7 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
     <!-- http://www.fairsharing.org/ontology/SRAO_0000251 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000251">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19349"/>
         <obo:IAO_0000115 xml:lang="en">Telecommunications engineering is a subfield of Electrical Engineering that encompasses modes of communication such as satellites, radio, internet and broadband technologies and wireless telephone services. It also deals with wireless modes of communication and information transfer, such as wireless telephony services, radio and satellite communications, and internet and broadband technologies. [Adapted from https://gradireland.com/careers-advice/job-descriptions/communications-engineer and Wikipedia https://en.wikipedia.org/wiki/Telecommunications_engineering, AL 2.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Communication Engineering</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -4806,7 +4813,7 @@ Microsystems are miniaturized (silicon or polymer) devices which perform electri
     <!-- http://www.fairsharing.org/ontology/SRAO_0000252 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000252">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19349"/>
         <obo:IAO_0000115 xml:lang="en">Power Engineering is a subfield of Electrical Engineering that deals with the generation, transmission, distribution and utilization of electric power, and the electrical apparatus connected to such systems. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Power_engineering, AL 8.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Power Systems Engineering</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
@@ -5002,7 +5009,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000288">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16304"/>
-        <obo:IAO_0000115>Building design refers to the broadly based architectural, engineering and technical applications to the design of buildings. [Wikipedia https://en.wikipedia.org/wiki/Building_design, AL 08.05.18]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Building Design refers to the broadly based architectural, engineering and technical applications to the design of buildings. [Wikipedia https://en.wikipedia.org/wiki/Building_design, AL 08.05.18]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 24.5.18: The original &quot;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&quot; class from re3data has been split into &quot;Construction History&quot;, &quot;Sustainable Building Technology&quot; and &quot;Building Design&quot;. &quot;Architecture&quot; is now the parent class, &quot;Building and Construction History&quot; have been consolidated into a single class to align with community usage and to remove it as a compound term. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Building Design</rdfs:label>
@@ -5015,18 +5022,8 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000290">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
-        <obo:IAO_0000115>Materials informatics employs techniques, tools, and theories drawn from the emerging fields of data science, internet, computer science and engineering, and digital technologies to the materials science and engineering to accelerate materials, products and manufacturing innovations. [https://doi.org/10.1007/s10845-018-1392-0, AL accessed 10.9.18]</obo:IAO_0000115>
+        <obo:IAO_0000115>Materials Informatics employs techniques, tools, and theories drawn from the emerging fields of data science, internet, computer science and engineering, and digital technologies to the materials science and engineering to accelerate materials, products and manufacturing innovations. [https://doi.org/10.1007/s10845-018-1392-0, AL accessed 10.9.18]</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Materials Informatics</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000291 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000291">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
-        <obo:IAO_0000115>Natural history is a domain of inquiry involving organisms including animals, fungi and plants in their environment; leaning more towards observational than experimental methods of study. [Wikipedia https://en.wikipedia.org/wiki/Natural_history, accessed 27.11.18]</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Natural History</rdfs:label>
     </owl:Class>
     
 
@@ -5049,9 +5046,9 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000295">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19349"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000249"/>
-        <obo:IAO_0000115 xml:lang="en">Computational neuroscience is the field of study in which mathematical tools and theories are used to investigate brain function. It can also incorporate diverse approaches from electrical engineering, computer science and physics in order to understand how the nervous system processes information. [Nature https://www.nature.com/subjects/computational-neuroscience, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Computational Neuroscience is the field of study in which mathematical tools and theories are used to investigate brain function. It can also incorporate diverse approaches from electrical engineering, computer science and physics in order to understand how the nervous system processes information. [Nature https://www.nature.com/subjects/computational-neuroscience, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Systemic Neuroscience, Computational Neuroscience, Behaviour&apos; into sibling classes &apos;Systemic Neuroscience&apos; and &apos;Computational Neuroscience&apos; according to FAIRsharing curation best practises. The &apos;Behaviour&apos; aspect of the original class name is now superceded by &apos;Biological Psychology&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Computational Neuroscience</rdfs:label>
@@ -5064,7 +5061,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000296">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
-        <obo:IAO_0000115 xml:lang="en">Mathematical psychology is an approach to psychological research that is based on mathematical modeling of perceptual, thought, cognitive and motor processes, and on the establishment of law-like rules that relate quantifiable stimulus characteristics with quantifiable behavior. [Wikipedia https://en.wikipedia.org/wiki/Mathematical_psychology, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mathematical Psychology is an approach to psychological research that is based on mathematical modeling of perceptual, thought, cognitive and motor processes, and on the establishment of law-like rules that relate quantifiable stimulus characteristics with quantifiable behavior. [Wikipedia https://en.wikipedia.org/wiki/Mathematical_psychology, 3.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;General, Biological and Mathematical Psychology&apos; into sibling classes &apos;Biological Psychology&apos; and &apos;Mathematical Psychology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Mathematical Psychology</rdfs:label>
@@ -5160,7 +5157,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000303">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000033"/>
-        <obo:IAO_0000115 xml:lang="en">Jewish studies is an academic discipline centered on the study of Jews and Judaism. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Jewish_studies, AL 11.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Jewish Studies is an academic discipline centered on the study of Jews and Judaism. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Jewish_studies, AL 11.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Judaic Studies</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
@@ -5198,7 +5195,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000306">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
-        <obo:IAO_0000115 xml:lang="en">Data integration involves combining data residing in different sources and providing users with a unified view of them. [Wikipedia https://en.wikipedia.org/wiki/Data_integration, AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Data Integration involves combining data residing in different sources and providing users with a unified view of them. [Wikipedia https://en.wikipedia.org/wiki/Data_integration, AL 14.5.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">User request</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored EDAM composite class &apos;Data Integration and Warehousing&apos; (topic_3366) with a SRAO IRI and renamed it &apos;Data Integration&apos; according to FAIRsharing curation best practises. The EDAM term was determined to not align with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Data Integration</rdfs:label>
@@ -5277,7 +5274,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16478"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0002286"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">Cultural studies is a field of theoretically, politically, and empirically engaged cultural analysis that concentrates upon the political dynamics of contemporary culture, its historical foundations, defining traits, conflicts, and contingencies. Cultural studies researchers generally investigate how cultural practices relate to wider systems of power associated with or operating through social phenomena, such as ideology, class structures, national formations, ethnicity, sexual orientation, gender, and generation. [Wikipedia https://en.wikipedia.org/wiki/Cultural_studies, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Cultural Studies is a field of theoretically, politically, and empirically engaged cultural analysis that concentrates upon the political dynamics of contemporary culture, its historical foundations, defining traits, conflicts, and contingencies. Cultural studies researchers generally investigate how cultural practices relate to wider systems of power associated with or operating through social phenomena, such as ideology, class structures, national formations, ethnicity, sexual orientation, gender, and generation. [Wikipedia https://en.wikipedia.org/wiki/Cultural_studies, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;General and Comparative Literature and Cultural Studies&apos; into sibling classes &apos;Comparative Literature&apos; and &apos;Cultural Studies&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Cultural Studies</rdfs:label>
@@ -5317,7 +5314,7 @@ Structural Engineering is the branch of civil engineering concerned with the ana
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0013823"/>
-        <obo:IAO_0000115 xml:lang="en">Community care services are intended to help people who need care and support to live with dignity and independence in the community and to avoid social isolation. The services are aimed at the elderly and those who have mental illness, learning disability and physical disability. The main aim in providing community care services is to enable people to remain living in their own homes and to retain as much independence as possible, avoiding social isolation. [https://patient.info/doctor/community-care, AL 21.05.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Community Care research is concerned with services that are intended to help people who need care and support to live with dignity and independence in the community and to avoid social isolation. The services are aimed at the elderly and those who have mental illness, learning disability and physical disability. The main aim in providing community care services is to enable people to remain living in their own homes and to retain as much independence as possible, avoiding social isolation. [https://patient.info/doctor/community-care, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Care in the Community</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">Curator request</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Community Care</rdfs:label>
