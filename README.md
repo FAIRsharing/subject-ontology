@@ -5,12 +5,12 @@ The Subject Resource Application Ontology (SRAO) is an application ontology desc
 All classes within SRAO come from publicly-available ontologies and controlled vocabularies. Currently, the following ontologies are used to build SRAO:
 
 1. [re3data](https://www.re3data.org/browse/by-subject/). Please note that this is a hierarchical controlled vocabulary and not an ontology. As such, terms which originate within re3data and which do not have a corresponding class within the external ontologies listed here will have a SRAO IRI.
-2. [OMIT](https://github.com/OmniSearch/omit) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/omit))
-3. [NCIT](https://ncit.nci.nih.gov/ncitbrowser/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit))
-4. [AgroVoc](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/)
-5. [AgroPortal categories](https://www.sciencedirect.com/science/article/pii/S0168169916309541) - view in the [AgroPortal Browse screen](http://agroportal.lirmm.fr/ontologies).
-6. [PO](http://browser.planteome.org/amigo) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/po))
-7. [EDAM](http://edamontology.org/page) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/edam))
+2. [AgroVoc](http://agrovoc.uniroma2.it/agrovoc/agrovoc/en/)
+3. [EDAM](http://edamontology.org/page) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/edam))
+4. [NCIT](https://ncit.nci.nih.gov/ncitbrowser/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit))
+5. [OBI](http://obi-ontology.org/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit))
+6. [OMIT](https://github.com/OmniSearch/omit) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/obi))
+7. [PO](http://browser.planteome.org/amigo) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/po))
 
 # Files
 
@@ -65,6 +65,8 @@ BMC Research Notes. 2010, 3:175. PMID: 20569493
 Within FAIRsharing, SRAO is used by both curators and our user community to annotate FAIRsharing records. SRAO itself is also available for general use from this repository under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. Please also see our [License file](LICENSE.md).
 
 If you wish to use the ontology in your work, you are free to do so. The license, as above, is CC-BY-SA, and we request that you also add the FAIRsharing logo to your work wherever you mention the ontology. Also, please let us know so we can get a warm feeling inside.
+
+For license information for the external ontologies used to create DRAO, please see our [Licensing Compliance](https://github.com/FAIRsharing/subject-ontology/blob/master/LicensingCompliance.md) page.
 
 # Contact Us
 
