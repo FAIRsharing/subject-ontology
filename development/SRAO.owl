@@ -3585,7 +3585,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">German Literature comprises the written works of the German-speaking peoples of central Europe. [Encyclopedia Britannica https://www.britannica.com/art/German-literature, AL 6.6.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">Modern German Literature</rdfs:label>
+        <rdfs:comment xml:lang="en">AL 3.7.2019: Renamed from &apos;Modern German Literature&apos; (the original re3data label) to &apos;German Literature&apos; as FAIRsharing required a more broad subject area.</rdfs:comment>
+        <rdfs:label xml:lang="en">German Literature</rdfs:label>
     </owl:Class>
     
 
