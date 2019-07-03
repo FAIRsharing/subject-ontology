@@ -734,12 +734,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_6707">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
-        <obo:IAO_0000115 xml:lang="en">Rural sociology is a field of sociology traditionally associated with the study of social structure and conflict in rural areas although topical areas such as food and agriculture or natural resource access transcend traditional rural spatial boundaries. The sociology of food and agriculture is one focus of rural sociology, and much of the field is dedicated to the economics of farm production. Other areas of study include rural migration and other demographic patterns, environmental sociology, amenity-led development, public lands policies, so-called &quot;boomtown&quot; development, social disruption, the sociology of natural resources (including forests, mining, fishing and other areas), rural cultures, and identities, rural health care, and educational policies. [Adapted from http://dbpedia.org/page/Rural_sociology, AL 9.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Rural and Agricultural Sociology is a field of sociology traditionally associated with the study of social structure and conflict in rural areas and agricultural settings. The sociology of food and agriculture is one focus of rural sociology, and much of the field is dedicated to the economics of farm production. Other areas of study include rural migration and other demographic patterns, environmental sociology, amenity-led development, public lands policies, so-called &quot;boomtown&quot; development, social disruption, the sociology of natural resources (including forests, mining, fishing and other areas), rural cultures, and identities, rural health care, and educational policies. [Adapted from http://dbpedia.org/page/Rural_sociology, AL 9.4.2019]</obo:IAO_0000115>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">User request</obo:IAO_0000412>
-        <ontology:SRAO_0000268 xml:lang="en">Rural and Agricultural Sociology</ontology:SRAO_0000268>
-        <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Rural and Agricultural Sociology&apos; into &apos;Rural Sociology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
-        <rdfs:label xml:lang="en">Rural Sociology</rdfs:label>
+        <ontology:SRAO_0000278 xml:lang="en">Rural Sociology</ontology:SRAO_0000278>
+        <rdfs:comment xml:lang="en">AL 3.7.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rural and Agricultural Sociology</rdfs:label>
     </owl:Class>
     
 
