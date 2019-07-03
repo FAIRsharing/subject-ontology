@@ -6,3 +6,4 @@ NCIT|http://dx.doi.org/10.3233/978-1-60750-949-3-33|https://creativecommons.org/
 OBI|https://doi.org/10.1371/journal.pone.0154556|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.284e1z
 OMIT|https://doi.org/10.1371/journal.pone.0100855 and https://doi.org/10.1186/s13326-016-0064-2|https://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.mf91p5
 PO|http://www.plantontology.org/|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.3ngg40
+re3data subject hierarchy|https://www.re3data.org/browse/by-subject/|https://creativecommons.org/publicdomain/zero/1.0/ and https://creativecommons.org/licenses/by/4.0/ where PD is not possible|
