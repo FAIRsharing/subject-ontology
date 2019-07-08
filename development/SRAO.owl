@@ -1891,7 +1891,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <ontology:SRAO_0000268 xml:lang="en">Artificial Intelligence, Image and Language Processing</ontology:SRAO_0000268>
-        <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Artificial Intelligence, Image and Language Processing&apos; into sibling classes &apos;Artificial Intelligence&apos; and &apos;Digital Image Processing&apos;, with &apos;Natural Language Processing&apos; as a child term of &apos;Artificial Intelligence&apos; according to FAIRsharing curation best practises.</rdfs:comment>
+        <rdfs:comment xml:lang="en">AL: 20.5.2019, Updated AL 8.7.19: Refactored re3data composite class &apos;Artificial Intelligence, Image and Language Processing&apos; into sibling classes &apos;Artificial Intelligence&apos; and &apos;Digital Image Processing&apos;, according to FAIRsharing curation best practises. Please note that the &apos;Natural Language Processing&apos; component was not retained as it is already present within DRAO.</rdfs:comment>
         <rdfs:label xml:lang="en">Artificial Intelligence</rdfs:label>
     </owl:Class>
     
