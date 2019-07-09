@@ -2663,6 +2663,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18478">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000236"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000298"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 9.7.2019: Moved from DRAO to SRAO, as it is a subject area rather than a domain. At the same time, it was refactored from http://purl.obolibrary.org/obo/OMIT_0022673 to http://purl.obolibrary.org/obo/NCIT_C18478 for the curation provided by NCIT.</rdfs:comment>
+        <rdfs:label xml:lang="en">Nanotechnology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C18633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18633">
