@@ -23,6 +23,9 @@
     <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000292"/>
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000317"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <ontology:SRAO_0000317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</ontology:SRAO_0000317>
         <ontology:SRAO_0000317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</ontology:SRAO_0000317>
@@ -33,9 +36,6 @@
         <ontology:SRAO_0000317 xml:lang="en">definition</ontology:SRAO_0000317>
         <ontology:SRAO_0000317>textual definition</ontology:SRAO_0000317>
         <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000269"/>
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/SRAO_0000276"/>
@@ -280,15 +280,6 @@
 
     <owl:Class rdf:about="http://edamontology.org/topic_3071">
         <obo:IAO_0000115>The development and use of architectures, policies, practices and procedures for management of data.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_3077 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3077">
-        <obo:IAO_0000115>The acquisition of data, typically measurements of physical systems using any type of sampling system, or by another other means.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     

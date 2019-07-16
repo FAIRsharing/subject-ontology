@@ -45,7 +45,6 @@ http://edamontology.org/topic_3056
 http://edamontology.org/topic_3065
 http://edamontology.org/topic_3067
 http://edamontology.org/topic_3071
-http://edamontology.org/topic_3077
 http://edamontology.org/topic_3172
 http://edamontology.org/topic_3173
 http://edamontology.org/topic_3174
