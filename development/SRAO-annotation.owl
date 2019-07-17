@@ -1414,6 +1414,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17193">
+        <ontology:SRAO_0000276>Thermodynamics</ontology:SRAO_0000276>
+        <obo:IAO_0000115>The branch of physics concerned with the conversion of different forms of energy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17206">

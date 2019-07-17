@@ -179,6 +179,7 @@ http://purl.obolibrary.org/obo/NCIT_C17147 # Software Engineering
 http://purl.obolibrary.org/obo/NCIT_C17167 # Statistics
 http://purl.obolibrary.org/obo/NCIT_C17173 # Surgery
 http://purl.obolibrary.org/obo/NCIT_C17174 # Oral Surgery
+http://purl.obolibrary.org/obo/NCIT_C17193 # Thermodynamics
 http://purl.obolibrary.org/obo/NCIT_C17206 # Toxicology
 http://purl.obolibrary.org/obo/NCIT_C17243 # Urology
 http://purl.obolibrary.org/obo/NCIT_C17269 # Zoology
