@@ -30,7 +30,7 @@ diff_release: check_relnum
 ## Variables
 ##
 
-# ROBOT_REMOTE_LOCATION := https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar                      
+# ROBOT_REMOTE_LOCATION := https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar
 ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4.0/robot.jar
 ROBOT := java -jar build/robot.jar
 
@@ -43,7 +43,7 @@ BUILD_DIR := build
 # The release name
 RELEASE_NAME := SRAO-release-$(RELNUM).owl
 # The release directory
-RELEASE_TOP_DIR := releases
+RELEASE_TOP_DIR := ../releases
 RELEASE_DIR := $(RELEASE_TOP_DIR)/$(RELNUM)
 
 # The standalone OWL file
