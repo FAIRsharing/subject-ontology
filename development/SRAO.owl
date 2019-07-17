@@ -3158,6 +3158,18 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0012123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0012123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16495"/>
+        <obo:IAO_0000115 xml:lang="en">Population Dynamics is the study of how and why populations change in size and structure over time. Important factors in population dynamics include rates of reproduction, death and migration. [Nature https://www.nature.com/subjects/population-dynamics, AL 16.7.2019]</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 17.7.2019: Imported from DRAO as more appropriate within SRAO.</rdfs:comment>
+        <rdfs:label xml:lang="en">Population Dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0012276 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0012276">
