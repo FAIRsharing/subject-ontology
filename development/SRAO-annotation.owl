@@ -563,16 +563,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_3395 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3395">
-        <obo:IAO_0000115>Biomedical approaches to clinical interventions that involve the use of stem cells.</obo:IAO_0000115>
-        <ontology:SRAO_0000269>Stem cell research</ontology:SRAO_0000269>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3396 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3396">
@@ -1061,6 +1051,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16526">
         <obo:IAO_0000115>The branch of biology concerned with the relations between organisms and their environment.</obo:IAO_0000115>
         <ontology:SRAO_0000276>Ecology</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16540">
+        <ontology:SRAO_0000276>Neurophysiology / Electrophysiology</ontology:SRAO_0000276>
+        <obo:IAO_0000115>That branch of physiology that is concerned with the electric phenomena associated with living bodies and involved in their functional activity.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Electrophysiology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -1817,6 +1818,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86055">
         <ontology:SRAO_0000276>Cardiology</ontology:SRAO_0000276>
         <obo:IAO_0000115>The branch of medicine dealing with the heart and its diseases.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C93254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C93254">
+        <obo:IAO_0000115>The branch of medicine that involves the laboratory growth of functional tissues and organs and their use to regenerate or replace tissues and organs in the body that are damaged by diseases or cannot be healed. Examples include the transplantation of in vitro developed tissues, cell therapies, and stimulation of regeneration by biological substances.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Regenerative Medicine</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     

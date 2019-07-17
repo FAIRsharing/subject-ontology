@@ -1631,21 +1631,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/topic_3395 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_3395">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
-        <obo:IAO_0000115>Biomedical approaches to clinical interventions that involve the use of stem cells.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
-        <ontology:SRAO_0000269>Regnerative medicine</ontology:SRAO_0000269>
-        <ontology:SRAO_0000269>Stem cell research</ontology:SRAO_0000269>
-        <rdfs:comment>AL: 28.9.17 Please note the spelling mistake within EDAM for this class has been retained as an alternative term.</rdfs:comment>
-        <rdfs:label xml:lang="en">Regenerative Medicine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_3396 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3396">
@@ -2361,6 +2346,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000276>Ecology</ontology:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored (through deletion) re3data composite class &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos; by merging with existing classes &apos;Ecosystem Science&apos;, &apos;Biodiversity&apos; and &apos;Ecology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Ecology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16540">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3300"/>
+        <obo:IAO_0000115>That branch of physiology that is concerned with the electric phenomena associated with living bodies and involved in their functional activity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <ontology:SRAO_0000276>Electrophysiology</ontology:SRAO_0000276>
+        <ontology:SRAO_0000276>Neurophysiology / Electrophysiology</ontology:SRAO_0000276>
+        <rdfs:comment xml:lang="en">AL 17.7.2019: Imported from DRAO as more appropriate within SRAO.</rdfs:comment>
+        <rdfs:label xml:lang="en">Electrophysiology</rdfs:label>
     </owl:Class>
     
 
@@ -3492,6 +3492,20 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000276>Cardiology</ontology:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Cardiology, Angiology&apos; into sibling classes &apos;Cardiology&apos; and &apos;Angiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Cardiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C93254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C93254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine that involves the laboratory growth of functional tissues and organs and their use to regenerate or replace tissues and organs in the body that are damaged by diseases or cannot be healed. Examples include the transplantation of in vitro developed tissues, cell therapies, and stimulation of regeneration by biological substances.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <ontology:SRAO_0000276>Regenerative Medicine</ontology:SRAO_0000276>
+        <rdfs:comment xml:lang="en">AL 17.7.2019: Imported from DRAO as more appropriate within SRAO.</rdfs:comment>
+        <rdfs:label xml:lang="en">Regenerative Medicine</rdfs:label>
     </owl:Class>
     
 
