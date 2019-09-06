@@ -116,7 +116,7 @@ http://www.fairsharing.org/ontology/SRAO_0000093|http://aims.fao.org/aos/agrovoc
 http://www.fairsharing.org/ontology/SRAO_0000112|http://purl.obolibrary.org/obo/NCIT_C16931
 http://purl.obolibrary.org/obo/OMIT_0010508|http://purl.obolibrary.org/obo/NCIT_C16910
 http://www.fairsharing.org/ontology/SRAO_0000152|http://aims.fao.org/aos/agrovoc/c_5956
-http://purl.obolibrary.org/obo/NCIT_C17027|http://purl.obolibrary.org/obo/NCIT_C17027
+http://purl.obolibrary.org/obo/OMIT_0012525|http://purl.obolibrary.org/obo/NCIT_C17027
 http://www.fairsharing.org/ontology/SRAO_0000084|http://aims.fao.org/aos/agrovoc/c_25189
 http://www.fairsharing.org/ontology/SRAO_0000011|http://purl.obolibrary.org/obo/OMIT_0024195
 http://www.fairsharing.org/ontology/SRAO_0000037|http://purl.obolibrary.org/obo/NCIT_C39794
