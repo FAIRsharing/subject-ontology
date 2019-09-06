@@ -1,0 +1,7 @@
+first_iri|second_iri|third_iri|note
+http://purl.obolibrary.org/obo/OMIT_0022673|http://purl.obolibrary.org/obo/NCIT_C18478||Note: This means that relations from DRAO first_iri are transferred to SRAO second_iri and first_iri is deprecated.
+http://purl.obolibrary.org/obo/OMIT_0012123|||Note: This means that first_iri is moved from DRAO->SRAO with links preserved.
+http://purl.obolibrary.org/obo/OMIT_0014667|http://purl.obolibrary.org/obo/NCIT_C17193||Note: This means that relations from the DRAO first_iri are transferred to the SRAO second_iri, and the first_iri is deprecated.
+http://purl.obolibrary.org/obo/OMIT_0023533|http://purl.obolibrary.org/obo/NCIT_C93254||Note: This means that relations from the DRAO first_iri are transferred to the SRAO second_iri, and the first_iri is deprecated.
+http://purl.obolibrary.org/obo/OMIT_0005842|http://purl.obolibrary.org/obo/NCIT_C16540||Note: This means that relations from the DRAO first_iri are transferred to the SRAO second_iri, and the first_iri is deprecated.
+http://purl.obolibrary.org/obo/OMIT_0023533|http://edamontology.org/topic_3395|http://purl.obolibrary.org/obo/NCIT_C93254|Note: first_iri and second_iri are deprecated and their relations transferred to third_iri.

@@ -1,0 +1,3 @@
+first_iri|second_iri|note
+http://edamontology.org/topic_3345||Note: This means that first_iri is moved from SRAO->DRAO with links preserved.
+http://edamontology.org/topic_3077|http://purl.obolibrary.org/obo/ERO_0100295, <|Note: This means that first_iri is moved from SRAO->DRAO and takes the relations of second_iri. The second_iri is then deleted.
