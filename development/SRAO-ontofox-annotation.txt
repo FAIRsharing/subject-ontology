@@ -167,6 +167,7 @@ http://purl.obolibrary.org/obo/NCIT_C16931 # Occupational Medicine
 http://purl.obolibrary.org/obo/NCIT_C16939 # Ophthalmology
 http://purl.obolibrary.org/obo/NCIT_C16974 # Pharmacology
 http://purl.obolibrary.org/obo/NCIT_C17026 # Psychiatry
+http://purl.obolibrary.org/obo/NCIT_C17027 # Psychology
 http://purl.obolibrary.org/obo/NCIT_C17028 # Clinical Psychology
 http://purl.obolibrary.org/obo/NCIT_C17030 # Educational Psychology
 http://purl.obolibrary.org/obo/NCIT_C17038 # Psychosomatic Medicine
