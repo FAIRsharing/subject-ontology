@@ -28,10 +28,8 @@
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <ontology:SRAO_0000317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</ontology:SRAO_0000317>
-        <ontology:SRAO_0000317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</ontology:SRAO_0000317>
         <ontology:SRAO_0000276>DEFINITION</ontology:SRAO_0000276>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <ontology:SRAO_0000317>definition</ontology:SRAO_0000317>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <ontology:SRAO_0000317 xml:lang="en">definition</ontology:SRAO_0000317>
         <ontology:SRAO_0000317>textual definition</ontology:SRAO_0000317>
@@ -1280,6 +1278,16 @@
         <ontology:SRAO_0000276>Psychiatry</ontology:SRAO_0000276>
         <obo:IAO_0000115>The medical speciality that deals with the medical management of mental disorders.</obo:IAO_0000115>
         <ontology:SRAO_0000276>Psychiatric</ontology:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17027">
+        <obo:IAO_0000115>The study of behavior and cognition.</obo:IAO_0000115>
+        <ontology:SRAO_0000276>Psychology</ontology:SRAO_0000276>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
