@@ -132,8 +132,5 @@ http://www.fairsharing.org/ontology/SRAO_0000193|http://aims.fao.org/aos/agrovoc
 http://www.fairsharing.org/ontology/SRAO_0000249|http://purl.obolibrary.org/obo/NCIT_C19349
 http://www.fairsharing.org/ontology/SRAO_0000291|http://purl.obolibrary.org/obo/OMIT_0019137
 http://www.fairsharing.org/ontology/SRAO_0000179|http://purl.obolibrary.org/obo/NCIT_C18948
-http://edamontology.org/format_1207|http://purl.obolibrary.org/obo/CHEBI_36976
-http://purl.obolibrary.org/obo/OMIT_0026595|http://purl.obolibrary.org/obo/NCIT_C64862
-http://edamontology.org/data_2968|http://purl.obolibrary.org/obo/IAO_0000101
 http://edamontology.org/topic_0218||Note: Deleted as already in DRAO - use http://purl.obolibrary.org/obo/ERO_0100106 instead
 http://edamontology.org/topic_3474||Note: Deleted as already in DRAO - use http://purl.obolibrary.org/obo/OMIT_0001480 instead
