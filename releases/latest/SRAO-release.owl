@@ -57,7 +57,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <ontology:SRAO_0000276>DEFINITION</ontology:SRAO_0000276>
         <ontology:SRAO_0000317 xml:lang="en">definition</ontology:SRAO_0000317>
         <ontology:SRAO_0000317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</ontology:SRAO_0000317>
-        <ontology:SRAO_0000317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</ontology:SRAO_0000317>
+        <ontology:SRAO_0000317>textual definition</ontology:SRAO_0000317>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -2692,8 +2692,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17027">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/SRAO_0000041"/>
+        <obo:IAO_0000115>The study of behavior and cognition.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <ontology:SRAO_0000276>Psychology</ontology:SRAO_0000276>
         <rdfs:label xml:lang="en">Psychology</rdfs:label>
     </owl:Class>
     
