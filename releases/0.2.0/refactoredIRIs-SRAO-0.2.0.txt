@@ -36,7 +36,6 @@ http://www.fairsharing.org/ontology/SRAO_0000196|
 http://edamontology.org/topic_3365|
 http://edamontology.org/topic_3366|http://www.fairsharing.org/ontology/SRAO_0000306
 http://www.fairsharing.org/ontology/SRAO_0000170|
-http://edamontology.org/topic_3332|http://purl.obolibrary.org/obo/NCIT_C18470
 http://www.fairsharing.org/ontology/SRAO_0000081|
 http://www.fairsharing.org/ontology/SRAO_0000089|
 http://www.fairsharing.org/ontology/SRAO_0000157|
@@ -127,7 +126,6 @@ http://www.fairsharing.org/ontology/SRAO_0000150|http://aims.fao.org/aos/agrovoc
 http://purl.obolibrary.org/obo/OMIT_0003951|http://purl.obolibrary.org/obo/NCIT_C16419
 http://www.fairsharing.org/ontology/SRAO_0000118|http://purl.obolibrary.org/obo/NCIT_C16902
 http://www.fairsharing.org/ontology/SRAO_0000059|http://aims.fao.org/aos/agrovoc/c_6347
-http://www.fairsharing.org/ontology/SRAO_0000158|http://aims.fao.org/aos/agrovoc/c_8532
 http://www.fairsharing.org/ontology/SRAO_0000193|http://aims.fao.org/aos/agrovoc/c_694
 http://www.fairsharing.org/ontology/SRAO_0000249|http://purl.obolibrary.org/obo/NCIT_C19349
 http://www.fairsharing.org/ontology/SRAO_0000291|http://purl.obolibrary.org/obo/OMIT_0019137
