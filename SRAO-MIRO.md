@@ -1,4 +1,4 @@
-# Summary 
+# Summary
 This document contains conformance details of SRAO with the Minimum Information for Reporting of an Ontology (MIRO) guidelines. Please see [https://github.com/owlcs/miro](https://github.com/owlcs/miro) for full details of the MIRO guidelines.
 
 This is a work in progress. Incomplete sections are marked with a :red_circle: red circle.
@@ -15,7 +15,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The full name of the ontology, including the acronym and the version number referred to in the report. |
 | **Importance:** | MUST |
-| **Value:** | Subject Resource Application Ontology (SRAO), Version 0.1.0 |
+| **Value:** | Subject Resource Application Ontology (SRAO), Version 0.2.0 |
 ----
 
 ### A.2 Ontology owner
@@ -42,7 +42,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The web location where the ontology file is available. |
 | **Importance:** | MUST |
-| **Value:** | [https://github.com/FAIRsharing/subject-ontology/blob/master/releases/0.1.0/SRAO-release-0.1.0.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/releases/0.1.0/SRAO-release-0.1.0.owl) |
+| **Value:** | [https://github.com/FAIRsharing/subject-ontology/blob/master/releases/0.2.0/SRAO-release-0.2.0.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/releases/0.2.0/SRAO-release-0.2.0.owl) |
 ----
 
 ### A.5 Ontology repository
@@ -80,7 +80,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The names and citations for other ontology or ontologies in the same general area as the one being reported upon, together with a description on why the one being reported is needed instead or in addition to the others. |
 | **Importance:** | MUST |
-| **Value:** | SRAO is an application ontology and, as such, does not generally create its own classes. Instead, it pulls all required classes from many publicly-available ontologies and controlled vocabularies. Currently, the following vocabularies are used to build SRAO: [re3data](https://www.re3data.org/browse/by-subject/), [OMIT](https://github.com/OmniSearch/omit) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/omit)), [NCIT](https://ncit.nci.nih.gov/ncitbrowser/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit))), [AgroVoc](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/), [AgroPortal categories](https://www.sciencedirect.com/science/article/pii/S0168169916309541) - view in the [AgroPortal Browse screen](http://agroportal.lirmm.fr/ontologies), [PO](http://browser.planteome.org/amigo) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/po)), [EDAM](http://edamontology.org/page) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/edam)). |
+| **Value:** | SRAO is an application ontology and, as such, does not generally create its own classes. Instead, it pulls all required classes from many publicly-available ontologies and controlled vocabularies. Currently, the following vocabularies are used to build SRAO: [re3data](https://www.re3data.org/browse/by-subject/), [OMIT](https://github.com/OmniSearch/omit) ([https://doi.org/10.1371/journal.pone.0100855](https://doi.org/10.1371/journal.pone.0100855) and [https://doi.org/10.1186/s13326-016-0064-2](https://doi.org/10.1186/s13326-016-0064-2)]) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/omit)) - CC BY 3.0, [NCIT](https://ncit.nci.nih.gov/ncitbrowser/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit)) - CC BY 4.0, [AgroVoc](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/) - CC BY 3.0 IGO, [PO](http://browser.planteome.org/amigo) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/po)) - CC BY 4.0, [OBI](https://doi.org/10.1371/journal.pone.0154556) - CC BY 3.0), [EDAM Topic Hierarchy](http://doi.org/10.1093/bioinformatics/btt113) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/edam)) - CC BY-SA 4.0. |
 ----
 
 ### B.3 Target audience
@@ -109,7 +109,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The person, group of people or organisation that actually creates the content of the ontology. This is distinct from the Ontology Owner (above) that is concerned with the management of the ontology's development. |
 | **Importance:** | MUST |
-| **Value:** | DRAO is developed by the FAIRsharing Team and by the FAIRsharing community maintainers. |
+| **Value:** | SRAO is developed by the FAIRsharing Team and by the FAIRsharing community maintainers. |
 ----
 
 ### C.3 Communication
@@ -129,7 +129,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | How the knowledge in the ontology was gathered, sorted, verified, etc. |
 | **Importance:** | MUST |
-| **Value:** | SRAO is an application ontology and, as such, does not generally create its own classes. Instead, it pulls all required classes from 7 external ontologies and controlled vocabularies. Full details of the knowledge aquisition methodology, and issues arising from it, are available in the [SRAO README](https://github.com/FAIRsharing/subject-ontology/blob/master/README.md). |
+| **Value:** | SRAO is an application ontology and, as such, does not generally create its own classes. Instead, it pulls all required classes from 7 external ontologies and controlled vocabularies. Full details of the knowledge acquisition methodology, and issues arising from it, are available in the [SRAO README](https://github.com/FAIRsharing/subject-ontology/blob/master/README.md). |
 ----
 
 ### D.2 Source knowledge location
@@ -167,7 +167,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The tool(s) used in developing the ontology. |
 | **Importance:** | OPTIONAL |
-| **Value:** | [Ontofox](http://ontofox.hegroup.org/) (Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse. BMC Research Notes. 2010, 3:175. PMID: 20569493) and [Ontodog](http://ontodog.hegroup.org/) (Zheng J, Xiang Z, Stoeckert Jr. CJ, He Y. Ontodog: a web-based ontology community view generation tool. Bioinformatics. 2014; doi: 10.1093/bioinformatics/btu008) have been used to build the subset ontology files and associated annotation. [Protege](https://protege.stanford.edu/) (including versions 4.3.0 and 5.2.0; Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003) has been used to create the core OWL file and to view the ontology. [ROBOT](http://robot.obolibrary.org) was used to merge all development ontology files and build the releases. |
+| **Value:** | [Ontofox](http://ontofox.hegroup.org/) (Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse. BMC Research Notes. 2010, 3:175. PMID: 20569493) has been used to build the subset ontology files and associated annotation. [Protege](https://protege.stanford.edu/) (including versions 4.3.0 and 5.2.0; Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003) has been used to create the core OWL file and to view the ontology. [ROBOT](http://robot.obolibrary.org) ([publication](https://doi.org/10.1186/s12859-019-3002-3)) was used to merge all development ontology files and build the releases. |
 ----
 
 ### E.3 Ontology metrics
@@ -176,7 +176,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | Number of classes, properties, axioms and types of axioms, rules and individuals in the ontology. |
 | **Importance:** | SHOULD |
-| **Value:** |  includes 399 classes, 0 object properties, 20 annotation properties, 2518 axioms (440 SubClassOf axioms), 0 rules, 0 individuals.  |
+| **Value:** |  includes 422 classes, 0 object properties, 15 annotation properties, 3359 axioms (559 SubClassOf axioms), 0 rules, 0 individuals.  |
 ----
 
 ### E.4 Incorporation of other ontologies
@@ -185,7 +185,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The names, versions and citations of external ontologies imported into the ontology and where they are placed in the host ontology. |
 | **Importance:** | MUST |
-| **Value:** | DRAO is an application ontology and, as such, does not create its own classes. Instead, it pulls all required classes from over 50 publicly-available ontologies. Currently, the following vocabularies are used to build SRAO: [re3data](https://www.re3data.org/browse/by-subject/), [OMIT](https://github.com/OmniSearch/omit) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/omit)), [NCIT](https://ncit.nci.nih.gov/ncitbrowser/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit))), [AgroVoc](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/), [AgroPortal categories](https://www.sciencedirect.com/science/article/pii/S0168169916309541) - view in the [AgroPortal Browse screen](http://agroportal.lirmm.fr/ontologies), [PO](http://browser.planteome.org/amigo) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/po)), [EDAM](http://edamontology.org/page) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/edam)). Placement within SRAO will primarily follow the [re3data](https://www.re3data.org/browse/by-subject/) hierarchy, except where that causes direct issues. In such cases, an ontologist will resolve the hierarchy in a way appropriate to FAIRsharing requirements. :red_circle: Versions and citations not added.|
+| **Value:** | SRAO is an application ontology and, as such, does not create its own classes. Instead, it pulls all required classes from 7 publicly-available ontologies. Currently, the following vocabularies are used to build SRAO: [re3data](https://www.re3data.org/browse/by-subject/), [OMIT](https://github.com/OmniSearch/omit) ([https://doi.org/10.1371/journal.pone.0100855](https://doi.org/10.1371/journal.pone.0100855) and [https://doi.org/10.1186/s13326-016-0064-2](https://doi.org/10.1186/s13326-016-0064-2)]) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/omit)) - CC BY 3.0, [NCIT](https://ncit.nci.nih.gov/ncitbrowser/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit)) - CC BY 4.0, [AgroVoc](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/) - CC BY 3.0 IGO, [PO](http://browser.planteome.org/amigo) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/po)) - CC BY 4.0, [OBI](https://doi.org/10.1371/journal.pone.0154556) - CC BY 3.0), [EDAM Topic Hierarchy](http://doi.org/10.1093/bioinformatics/btt113) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/edam)) - CC BY-SA 4.0. Placement within SRAO will primarily follow the [re3data](https://www.re3data.org/browse/by-subject/) hierarchy, except where that causes direct issues. In such cases, an ontologist will resolve the hierarchy in a way appropriate to FAIRsharing requirements. :red_circle: Versions not added.|
 ----
 
 ### E.5 Entity naming convention
@@ -212,7 +212,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | What metadata for each entity is to be present. This could include, but not be limited to: A natural language definition, editor, edit history, examples, entity label and synonyms, etc. |
 | **Importance:** | MUST |
-| **Value:** | Each class minimally requires a label and an 'imported from' annotation property stating where the class originated. Further information including textual definition, synonyms, and availability to the FAIRsharing community is optionally available. If an editor has created additional annotation not sourced from the external ontology, then the editor's initials will be included. |
+| **Value:** | Each class minimally requires a label, a definition and an 'imported from' annotation property stating where the class originated. Further information including synonyms and availability to the FAIRsharing community is optionally available. If an editor has created additional annotation not sourced from the external ontology, then the editor's initials will be included. |
 ----
 
 ### E.8 Upper ontology
@@ -233,7 +233,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 | **Value:** | SRAO requires only simple subclass relationships in order to provide hierarchical tagging for FAIRsharing records. Therefore currently no other relationships are used. |
 ----
 
-### E.10 Axiom patterns 
+### E.10 Axiom patterns
 
 |  | Specification |
 |---|---|
@@ -242,7 +242,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 | **Value:** | As an application ontology, SRAO does not create its own classes. As such it does not have a defined axiom pattern.|
 ----
 
-### E.11 Dereferenceable IRIs 
+### E.11 Dereferenceable IRIs
 
 |  | Specification |
 |---|---|
@@ -253,7 +253,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 
 ## F. Managing Change
 
-### F.1 Sustainability plan 
+### F.1 Sustainability plan
 
 |  | Specification |
 |---|---|
@@ -262,13 +262,13 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 | **Value:** | SRAO is maintained by the FAIRsharing Team, and will be actively maintained and developed for the lifetime of this project. Additions to SRAO occur when the FAIRsharing community adds tags to their records in the Subject section of a FAIRsharing entry. If they create a new tag, FAIRsharing curators assess that tag and, if appropriate, place it within either SRAO or DRAO. Otherwise, it will remain in our manually-curated "User tag" vocabulary. |
 ----
 
-### F.2 Entity deprecation strategy 
+### F.2 Entity deprecation strategy
 
 |  | Specification |
 |---|---|
 | **Description:** | Describe the procedures for managing entities that become removed, split or redefined. |
 | **Importance:** | MUST |
-| **Value:** | SRAO is an application ontology, and therefore as external ontologies deprecate classes, we will have to find alternatives. We may also choose to delete an term which is no longer appropriate for FAIRsharing. However, this will just be dropping an external class from an application ontology - the originating ontology will still retain that class. |
+| **Value:** | SRAO is an application ontology, and therefore as external ontologies deprecate classes, we will have to find alternatives. We may also choose to delete an term which is no longer appropriate for FAIRsharing. This will usually just be dropping an external class from an application ontology - the originating ontology will still retain that class. Where a SRAO IRI is no longer required, up through version 0.2.0 the unnecessary class was deleted. In future versions we plan to deprecate an IRI using the owl:deprecated boolean. |
 ----
 
 ### F.3 Versioning policy
@@ -277,7 +277,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | State or make reference to the policy that governs when new versions of the ontology are created and released. |
 | **Importance:** | MUST |
-| **Value:** | GitHub retains all releases of DRAO, which are produced on an as-needed basis. |
+| **Value:** | GitHub retains all releases of SRAO, which are produced on an as-needed basis. |
 ----
 
 ## G. Quality Assurance
@@ -327,5 +327,3 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 | **Importance:** | MUST |
 | **Value:** | SRAO is used to tag and link FAIRsharing records. |
 ----
-
-
