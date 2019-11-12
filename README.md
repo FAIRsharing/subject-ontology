@@ -60,13 +60,13 @@ BMC Research Notes. 2010, 3:175. PMID: 20569493
 - [Protege](http://protege.stanford.edu/) - Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003.
 - [ROBOT](http://robot.obolibrary.org/)
 
-# Usage and License
+# Usage and Licence
 
-Within FAIRsharing, SRAO is used by both curators and our user community to annotate FAIRsharing records. SRAO itself is also available for general use from this repository under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. Please also see our [License file](LICENSE.md).
+Within FAIRsharing, SRAO is used by both curators and our user community to annotate FAIRsharing records. SRAO itself is also available for general use from this repository under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) licence. Please also see our [Licence file](LICENSE.md).
 
-If you wish to use the ontology in your work, you are free to do so. The license, as above, is CC-BY-SA, and we request that you also add the FAIRsharing logo to your work wherever you mention the ontology. Also, please let us know so we can get a warm feeling inside.
+If you wish to use the ontology in your work, you are free to do so. The licence, as above, is CC-BY, and we request that you also add the FAIRsharing logo to your work wherever you mention the ontology. Also, please let us know so we can get a warm feeling inside.
 
-For license information for the external ontologies used to create DRAO, please see our [Licensing Compliance](https://github.com/FAIRsharing/subject-ontology/blob/master/LicensingCompliance.md) page.
+For licence information for the external ontologies used to create DRAO, please see our [Licensing Compliance](https://github.com/FAIRsharing/subject-ontology/blob/master/LicensingCompliance.md) page.
 
 # Contact Us
 
