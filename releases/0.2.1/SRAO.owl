@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.fairsharing.org/ontology/SRAO.owl#"
-     xml:base="http://www.fairsharing.org/ontology/SRAO.owl"
+<rdf:RDF xmlns="http://www.fairsharing.org/ontology/subject/SRAO.owl#"
+     xml:base="http://www.fairsharing.org/ontology/subject/SRAO.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,12 +9,11 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:domains="http://www.fairsharing.org/ontology/domains/"
-     xmlns:subject="http://www.fairsharing.org/ontology/subject/"
-     xmlns:ontology="http://www.fairsharing.org/ontology/"
-     xmlns:subjects="http://www.fairsharing.org/ontology/subjects/">
+     xmlns:subject="http://www.fairsharing.org/ontology/subject/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/subject/SRAO.owl">
-        <owl:imports rdf:resource="http://www.fairsharing.org/ontology/subject/external/SRAO-annotation.owl"/>
+        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO.owl/0.2.1"/>
         <dc:creator xml:lang="en">The FAIRsharing Team, contact@fairsharing.org</dc:creator>
+        <dc:description xml:lang="en">The FAIRsharing Subject Ontology (SRAO) is an application ontology for the categorization of research disciplines across all research domains, from the humanities to the natural sciences. It utilizes multiple external vocabularies.</dc:description>
         <dc:title xml:lang="en">FAIRsharing Subject Ontology (SRAO)</dc:title>
         <rdfs:comment xml:lang="en">SRAO is a hierarchy of academic disciplines that draws from the re3data subject list as well as importing terms from 6 publicly-available ontologies. This hierarchy covers all of the humanities and natural sciences and, where external vocabularies could not be found, SRAO classes were created.
 
@@ -56,8 +55,15 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <rdfs:label>definition</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <subject:SRAO_0000276>DEFINITION</subject:SRAO_0000276>
+        <subject:SRAO_0000317 xml:lang="en">definition</subject:SRAO_0000317>
+        <subject:SRAO_0000317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</subject:SRAO_0000317>
+        <subject:SRAO_0000317>textual definition</subject:SRAO_0000317>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -75,6 +81,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label>imported from</rdfs:label>
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -82,6 +89,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
     
 
 
@@ -169,6 +182,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:label xml:lang="en">OBI alternative term</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     
 
 
@@ -912,7 +931,14 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_0084">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3299"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
+        <obo:IAO_0000115>The study of evolutionary relationships amongst organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Phylogenetic clocks</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Phylogenetic dating</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Phylogenetic simulation</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Phylogenetic stratigraphy</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Phylogeny reconstruction</subject:SRAO_0000269>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Computational biology&apos; and &apos;Evolutionary biology&apos;, to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label xml:lang="en">Phylogeny</rdfs:label>
     </owl:Class>
@@ -924,6 +950,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_0085">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
+        <obo:IAO_0000115>The study of gene or protein functions and their interactions in totality in a given organism, tissue, cell etc.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Computational Biology&apos; and &apos;Genomics&apos;, to align with the EDAM hierarchy. &apos;Functional Genomics&apos; is asserted as a child of &apos;Function analysis&apos; within EDAM, however this class has not been retained within FAIRsharing, and its parent term &apos;Computational Biology&apos; is used instead.</rdfs:comment>
         <rdfs:label xml:lang="en">Functional Genomics</rdfs:label>
@@ -935,7 +963,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_0089">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
+        <obo:IAO_0000115>The conceptualisation, categorisation and nomenclature (naming) of entities or phenomena within biology or bioinformatics. This includes formal ontologies, controlled vocabularies, structured glossary, symbols and terminology or other related resource.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Applied ontology</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Ontologies</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Ontology</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Terminology</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Ontology and Terminology</rdfs:label>
     </owl:Class>
     
@@ -946,6 +980,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_0122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18111"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
+        <obo:IAO_0000115>The elucidation of the three dimensional structure for all (available) proteins in a given organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Structural Genomics</rdfs:label>
     </owl:Class>
@@ -957,6 +993,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_0194">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0084"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
+        <obo:IAO_0000115>The integrated study of evolutionary relationships and whole genome data, for example, in the analysis of species trees, horizontal gene transfer and evolutionary reconstruction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 25.9.17 Phylogenomics is asserted as a child of Phylogeny and &apos;Sequence Analysis&apos; by EDAM, and as a child of Genomics within FAIRsharing. &apos;Sequence Analysis&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained.</rdfs:comment>
         <rdfs:label xml:lang="en">Phylogenomics</rdfs:label>
@@ -969,7 +1007,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_0208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
+        <obo:IAO_0000115>The influence of genotype on drug response, for example by correlating gene expression or single-nucleotide polymorphisms with drug efficacy or toxicity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Pharmacogenetics</subject:SRAO_0000269>
         <rdfs:comment>AL: 25.9.17 Child of Pharmacology and Genomics, to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label xml:lang="en">Pharmacogenomics</rdfs:label>
     </owl:Class>
@@ -981,7 +1022,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_0209">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3336"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3371"/>
+        <obo:IAO_0000115>The design and chemical synthesis of bioactive molecules, for example drugs or potential drug compounds, for medicinal purposes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Drug design</subject:SRAO_0000269>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Synthetic Chemistry&apos; and &apos;Drug Discovery&apos; to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label xml:lang="en">Medicinal Chemistry</rdfs:label>
     </owl:Class>
@@ -992,7 +1036,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_0219">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
+        <obo:IAO_0000115>Deposition and curation of database accessions, including annotation, typically with terms from a controlled vocabulary.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Database curation</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Data Submission, Annotation and Curation</rdfs:label>
     </owl:Class>
     
@@ -1002,7 +1049,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_0605">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>The study and practice of information processing and use of computer information systems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Information management</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Information science</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Knowledge management</subject:SRAO_0000269>
         <rdfs:comment>AL: 26.9.17 Informatics is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to &apos;Computer Science&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Informatics</rdfs:label>
     </owl:Class>
@@ -1013,6 +1065,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_0637">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3299"/>
+        <obo:IAO_0000115>Organism classification, identification and naming.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Taxonomy</rdfs:label>
     </owl:Class>
@@ -1023,10 +1077,16 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_0780">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>Plants, e.g. information on a specific plant genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Plant Sciences</subject:SRAO_0000268>
+        <subject:SRAO_0000269>Botany</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Plant</subject:SRAO_0000269>
         <subject:SRAO_0000269>Plant biology</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Plant science</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Plants</subject:SRAO_0000269>
         <rdfs:comment>AL: 28.9.17 Changed re3data label from &apos;Plant Sciences&apos; to Botany to align with FAIRsharing terminology.</rdfs:comment>
         <rdfs:label xml:lang="en">Botany</rdfs:label>
     </owl:Class>
@@ -1037,6 +1097,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_0781">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
+        <obo:IAO_0000115>Study of viruses, e.g. sequence and structural data, interactions of viral proteins, or a viral genome including molecular sequences, genes and annotation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 25.9.17 [Updated AL 10.06.2019] Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology according to NCIT and FAIRsharing curators. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science according to FAIRsharing curators, a modification both of the Medicine hierarchy as listed by re3data and the Biological Sciences as listed by NCIT.</rdfs:comment>
@@ -1049,6 +1111,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_0797">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
+        <obo:IAO_0000115>The study (typically comparison) of the sequence, structure or function of multiple genomes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Comparative Genomics</rdfs:label>
     </owl:Class>
@@ -1061,7 +1125,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115>The application of information technology to chemistry in biological research environment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Chemical informatics</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Chemoinformatics</subject:SRAO_0000269>
         <rdfs:comment>AL 27.9.17 Cheminformatics is asserted as a child of Informatics by EDAM,  and also as a child of Chemistry and Biology within FAIRsharing. This &apos;subClass of Bioinformatics&apos; assertion is based on the definition of Cheminformatics as provided by EDAM: &quot;The application of information technology to chemistry in biological research environment.&quot; However, this may need to be revisited at some point in the future.
 </rdfs:comment>
         <rdfs:label xml:lang="en">Cheminformatics</rdfs:label>
@@ -1073,7 +1141,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_2259">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The holistic modelling and analysis of complex biological systems and the interactions therein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Biological modelling</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Biological system modelling</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Systems Biology</rdfs:label>
     </owl:Class>
     
@@ -1083,6 +1155,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The molecular basis of biological activity, particularly the macromolecules (e.g. proteins and nucleic acids) that are essential to life.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Molecular biology</rdfs:label>
     </owl:Class>
@@ -1094,6 +1168,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
+        <obo:IAO_0000115>The degree of variation of life forms within a given ecosystem, biome or an entire planet.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored (through deletion) re3data composite class &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos; by merging with existing classes &apos;Ecosystem Science&apos;, &apos;Biodiversity&apos; and &apos;Ecology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
@@ -1106,6 +1182,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <obo:IAO_0000115>The genes and genetic mechanisms such as Mendelian inheritance that underly continuous phenotypic traits (such as height or weight).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>Child of Genomics to align with the EDAM hierarchy. EDAM further asserts this as a child of &apos;Genotype and Phenotype&apos;. However, &apos;Genotype and Phenotype&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained. Instead, &apos;Quantitative Genetics&apos; has also been asserted as the child of the parent term for &apos;Genotype and Phenotype&apos;, which is Genetics.</rdfs:comment>
         <rdfs:label xml:lang="en">Quantitative Genetics</rdfs:label>
@@ -1117,6 +1195,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <obo:IAO_0000115>The distribution of allele frequencies in a population of organisms and its change subject to evolutionary processes including natural selection, genetic drift, mutation and gene flow.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Population Genetics</rdfs:label>
     </owl:Class>
@@ -1127,6 +1207,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16501"/>
+        <obo:IAO_0000115>The development of organisms between the one-cell stage (typically the zygote) and the end of the embryonic stage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Embryology</rdfs:label>
     </owl:Class>
@@ -1138,7 +1220,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The form and function of the structures of living organisms.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Morphology</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 14.5.2019: Synonym &apos;Morphology&apos; was added upon the removal of the &apos;Systematics and Morphology&apos; re3data class. &apos;Systematics and Morphology&apos; was removed as the subject was already present via both Anatomy and Biological Systematics (via Phylogenetics).</rdfs:comment>
@@ -1152,6 +1236,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3071">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
+        <obo:IAO_0000115>The development and use of architectures, policies, practices and procedures for management of data.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Some disciplines within this sub-hierarchy are on the border of what FAIRsharing would consider a discipline. Some extra work in this section of the hierarchy may be needed in future.</rdfs:comment>
         <rdfs:label xml:lang="en">Data Management</rdfs:label>
@@ -1163,7 +1249,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3172">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
+        <obo:IAO_0000115>The systematic study of metabolites, the chemical processes they are involved, and the chemical fingerprints of specific cellular processes in a whole cell, tissue, organ or organism.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Metabolism</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Metabolomics</rdfs:label>
     </owl:Class>
@@ -1175,6 +1263,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000316"/>
+        <obo:IAO_0000115>The study of the epigenetic modifications of a whole cell, tissue, organism etc.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Child of Epigenetics and Genomics, to align with the EDAM hierarchy.
 </rdfs:comment>
@@ -1187,7 +1277,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
+        <obo:IAO_0000115>The study of genetic material recovered from environmental samples, and associated environmental data.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Biome sequencing</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Shotgun metagenomics</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Metagenomics</rdfs:label>
     </owl:Class>
     
@@ -1197,7 +1291,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3263">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
+        <obo:IAO_0000115>The protection of data, such as patient health data, from damage or unwanted access from unauthorised users.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Data privacy</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Data Security</rdfs:label>
     </owl:Class>
     
@@ -1208,8 +1305,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3292">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115>Chemical substances and physico-chemical processes and that occur within living organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000269>Biological chemistry</subject:SRAO_0000269>
         <rdfs:comment>AL 25.9.17 Biochemistry is asserted as a child of Biology by both EDAM and re3data, and as a child of Chemistry by EDAM. This assertion has been refined to &apos;Biology and Biomimetic Chemistry&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Biochemistry</rdfs:label>
     </owl:Class>
@@ -1221,7 +1321,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3293">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0084"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <obo:IAO_0000115>The study of evolutionary relationships amongst organisms from analysis of genetic information (typically gene or protein sequences).</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Biological Systematics</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 14.5.2019: Synonym &apos;Biological Systematics&apos; was added upon the removal of the &apos;Plant Systematics and Evolution&apos; re3data class. &apos;Plant Systematics and Evolution&apos; was removed as it was not in scope for FAIRsharing (the subject represented by this class would be better served by a broader concept of Systematics).</rdfs:comment>
         <rdfs:comment>AL 25.9.17 Phylogenetics is asserted as a child of Phylogeny and &apos;Sequence Analysis&apos; by EDAM, and as a child of Genetics within FAIRsharing. &apos;Sequence Analysis&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained.</rdfs:comment>
@@ -1234,6 +1336,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3297">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The exploitation of biological process, structure and function for industrial purposes, for example the genetic manipulation of microorganisms for the antibody production.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Biotechnology</rdfs:label>
     </owl:Class>
@@ -1245,6 +1349,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3298">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3299"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
+        <obo:IAO_0000115>Phenomes, or the study of the change in phenotype (the physical and biochemical traits of organisms) in response to genetic and environmental factors. </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 25.9.17 Child of &apos;Evolutionary Biology&apos; and Omics to align with the EDAM hierarchy. EDAM further asserts this as a child of &apos;Genotype and Phenotype&apos;. However, &apos;Genotype and Phenotype&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained.</rdfs:comment>
         <rdfs:label xml:lang="en">Phenomics</rdfs:label>
@@ -1256,6 +1362,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3299">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
+        <obo:IAO_0000115>The evolutionary processes, from the genetic to environmental scale, that produced life in all its diversity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Evolution, Anthropology</subject:SRAO_0000268>
@@ -1270,6 +1378,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3300">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The functions of living organisms and their constituent parts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Physiology</rdfs:label>
@@ -1281,6 +1391,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3304">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <obo:IAO_0000115>The study of the nervous system and brain; its anatomy, physiology and function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 17.10.17 Neurobiology is asserted as a child of &apos;Biomedical Science&apos; by EDAM and Neuro*science* as a child of Medicine by re3data. We have further refined the EDAM assertion and placed Neurobiology as a child of Neuroscience. Earlier versions of this class (from 28.9.17) had it synonymous with Neuroscience.</rdfs:comment>
         <rdfs:label xml:lang="en">Neurobiology</rdfs:label>
@@ -1293,7 +1405,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3307">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The development and application of theory, analytical methods, mathematical models and computational simulation of biological systems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Biomathematics</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Mathematical biology</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Theoretical biology</subject:SRAO_0000269>
         <rdfs:comment>AL: 27.9.17 &apos;Computational biology&apos; is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to Biology.</rdfs:comment>
         <rdfs:label xml:lang="en">Computational Biology</rdfs:label>
     </owl:Class>
@@ -1305,7 +1422,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3308">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3321"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
+        <obo:IAO_0000115>The analysis of transcriptomes, or a set of all the RNA molecules in a specific cell, tissue etc.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Comparative transcriptomics</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Metatranscriptomics</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Transcriptome</subject:SRAO_0000269>
         <rdfs:comment>Child of Genomics to align with the EDAM hierarchy. EDAM further asserts this as a child of &apos;Gene expression&apos;. However, &apos;Gene expression&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained. Instead, Transcriptomics has also been asserted as the child of the parent term for &apos;Gene expression&apos;, &apos;Molecular Genetics&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Transcriptomics</rdfs:label>
     </owl:Class>
@@ -1316,8 +1438,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0011790"/>
+        <obo:IAO_0000115>The study of numbers (quantity) and other topics including structure, space, and change.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000269>Maths</subject:SRAO_0000269>
         <rdfs:comment>AL: 26.9.17 Mathematics is asserted as a child of &apos;Natural Sciences&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
         <rdfs:label xml:lang="en">Mathematics</rdfs:label>
     </owl:Class>
@@ -1328,6 +1453,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
+        <obo:IAO_0000115>The theory and practical use of computer systems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 20.05.2019: &apos;Computer Science&apos; is asserted as a child of &apos;Computer Science, Electrical and System Engineering&apos; by re3data (which has now been simplified and removed, making this class a direct child of Engineering Science), and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
@@ -1340,6 +1467,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0011790"/>
+        <obo:IAO_0000115>The study of matter, space and time, and related concepts such as energy and force.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 26.9.17 Physics is asserted as a child of &apos;Natural Sciences&apos; by re3data, and is at the top level of the Topic hierarchy within EDAM.</rdfs:comment>
@@ -1353,6 +1482,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3321">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <obo:IAO_0000115>The structure and function of genes at a molecular level.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 Child of &apos;Computational Biology&apos; and Genetics, to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label xml:lang="en">Molecular Genetics</rdfs:label>
@@ -1365,6 +1496,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3336">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000318"/>
+        <obo:IAO_0000115>The discovery and design of drugs or potential drug compounds.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL 29.9.17 Child of &apos;Medicines research and development&apos; and Chemistry, to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label xml:lang="en">Drug Discovery</rdfs:label>
@@ -1376,6 +1509,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3342">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>&apos;translating&apos; the output of basic and biomedical research into better diagnostic tools, medicines, medical procedures, policies and advice.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Translational Medicine</rdfs:label>
     </owl:Class>
@@ -1387,6 +1522,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3368">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3297"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000236"/>
+        <obo:IAO_0000115>Any matter, surface or construct that interacts with a biological system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Biomaterials is asserted as a child of &apos;Materials Science&apos; by re3data, and as a child of Biotechnology by EDAM.</rdfs:comment>
@@ -1400,6 +1537,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3369">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3371"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The use of synthetic chemistry to study and manipulate biological systems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 25.9.17 Child of &apos;Synthetic Chemistry&apos; and Biology to align with the EDAM hierarchy.</rdfs:comment>
         <rdfs:label xml:lang="en">Chemical Biology</rdfs:label>
@@ -1411,6 +1550,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3370">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115>The study of the separation, identification, and quantification of the chemical components of natural and artificial materials.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Analytical Chemistry, Method Development (Chemistry)</subject:SRAO_0000268>
@@ -1423,7 +1564,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3371">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115>The use of chemistry to create new compounds.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Synthetic organic chemistry</subject:SRAO_0000269>
         <rdfs:comment>AL: 29.9.17 This class may be related to the re3data class &apos;Solid State and Surface Chemistry, Material Synthesis&apos;, and the placement of &apos;Synthetic Chemistry&apos; may need to be revisited.</rdfs:comment>
         <rdfs:label xml:lang="en">Synthetic Chemistry</rdfs:label>
     </owl:Class>
@@ -1434,7 +1578,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3373">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000318"/>
+        <obo:IAO_0000115>The process of bringing a new drug to market once a lead compounds has been identified through drug discovery.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Drug development science</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Medicine development</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Medicines development</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Drug Development</rdfs:label>
     </owl:Class>
     
@@ -1444,6 +1593,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3374">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000318"/>
+        <obo:IAO_0000115>The process of formulating abd administering a pharmaceutical compound to achieve a therapeutic effect.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Biotherapeutics</rdfs:label>
     </owl:Class>
@@ -1454,6 +1605,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3387">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0018052"/>
+        <obo:IAO_0000115>The study of organisms in the ocean or brackish waters.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 27.9.17 &apos;Marine Biology&apos; is asserted as a child of Biology by EDAM. This assertion has been refined to &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Marine Biology</rdfs:label>
@@ -1465,6 +1618,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3388">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3342"/>
+        <obo:IAO_0000115>The identification of molecular and genetic causes of disease and the development of interventions to correct them.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Molecular Medicine</rdfs:label>
     </owl:Class>
@@ -1475,9 +1630,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3390">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <obo:IAO_0000115>The study of the effects of food components on the metabolism, health, performance and disease resistance of humans and animals.  It also includes the study of human behaviours related to food choices.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Nutritional sciences</subject:SRAO_0000268>
+        <subject:SRAO_0000269>Dietetics</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Nutrition science</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Nutritional Science</rdfs:label>
     </owl:Class>
     
@@ -1487,6 +1646,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3391">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The collective characterisation and quantification of pools of biological molecules that translate into the structure, function, and dynamics of an organism or organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 26.9.17 Omics is asserted at the top level of the Topic hierarchy within EDAM. This assertion has been refined to Biology.</rdfs:comment>
         <rdfs:label xml:lang="en">Omics</rdfs:label>
@@ -1498,6 +1659,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3396">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>An interdisciplinary field of study that looks at the dynamic systems of the human body as part of an integrted whole, incoporating biochemical, physiological, and environmental interactions that sustain life.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Systems Medicine</rdfs:label>
     </owl:Class>
@@ -1509,6 +1672,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3397">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>Topic concerning the branch of medicine that deals with the prevention, diagnosis, and treatment of disease, disorder and injury in animals.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <domains:DRAO_0000001>Veterinary Science</domains:DRAO_0000001>
@@ -1522,9 +1687,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3399">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine dealing with the diagnosis, treatment and prevention of disease in older people, and the problems specific to aging.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Gerontology and Geriatric Medicine</subject:SRAO_0000268>
+        <subject:SRAO_0000269>Geriatrics</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Geriatric Medicine</rdfs:label>
     </owl:Class>
     
@@ -1534,7 +1702,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3401">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The prevention of pain and the evaluation, treatment and rehabilitation of persons in pain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Algiatry</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Pain Medicine</rdfs:label>
     </owl:Class>
     
@@ -1544,8 +1715,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3402">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>Anaesthesia and anaesthetics.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000269>Anaesthetics</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Anaesthesiology</rdfs:label>
     </owl:Class>
     
@@ -1555,8 +1729,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3403">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The multidisciplinary that cares for patients with acute, life-threatening illness or injury.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000269>Acute medicine</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Emergency medicine</subject:SRAO_0000269>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Pneumology, Clinical Infectiology Intensive Care Medicine&apos; into &apos;Critical Care Medicine&apos; (which was already in SRAO) according to FAIRsharing&apos;s remit and curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Care Medicine</rdfs:label>
     </owl:Class>
@@ -1567,6 +1745,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3405">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The study, diagnosis, prevention and treatments of disorders of the oral cavity, maxillofacial area and adjacent structures.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Dentistry, Oral Surgery</subject:SRAO_0000268>
@@ -1581,9 +1761,15 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3406">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine that deals with the prevention, diagnosis, and treatment of disorders of the ear, nose and throat.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000269>Audiovestibular medicine</subject:SRAO_0000269>
         <subject:SRAO_0000269>Ear, nose and throat medicine</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Head and neck disorders</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Otolaryngology</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Otorhinolaryngology</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Otolaryngology</rdfs:label>
     </owl:Class>
     
@@ -1593,6 +1779,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3410">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The study of the biological and physiological differences between males and females and how they effect differences in disease presentation and management.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Gender Medicine</rdfs:label>
     </owl:Class>
@@ -1603,6 +1791,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3414">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine that treats body wounds or shock produced by sudden physical injury, as from violence or accident.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Traumatology and Orthopaedics</subject:SRAO_0000268>
@@ -1618,6 +1808,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3415">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine that deals with the diagnosis, management and prevention of poisoning and other adverse health effects caused by medications, occupational and environmental toxins, and biological agents.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:comment>AL: 28.9.17 &apos;Medical Toxicology&apos; is asserted as a child of Medicine by EDAM, and also as a child of Toxicology within FAIRsharing.</rdfs:comment>
         <rdfs:label xml:lang="en">Medical Toxicology</rdfs:label>
@@ -1629,9 +1821,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3418">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine that deals with the medical care of infants, children and adolescents.</obo:IAO_0000115>
         <obo:IAO_0000118>Pediatrics</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Pediatric and Adolescent Medicine</subject:SRAO_0000268>
+        <subject:SRAO_0000269>Child health</subject:SRAO_0000269>
         <subject:SRAO_0000269>Paediatrics</subject:SRAO_0000269>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Pediatric and Adolescent Medicine&apos; by renaming it to &apos;Pediatrics&apos; to align with EDAM and according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:comment>re3data</rdfs:comment>
@@ -1644,6 +1839,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3423">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>Medical therapies that fall beyond the scope of conventional medicine but may be used alongside it in the treatment of disease and ill health.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Traditional Medicine</rdfs:label>
     </owl:Class>
@@ -1654,6 +1851,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3569">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
+        <obo:IAO_0000115>The application of mathematics to specific problems in science, typically by the formulation and analysis of mathematical models.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Applied Mathematics</rdfs:label>
     </owl:Class>
@@ -1664,6 +1863,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3570">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
+        <obo:IAO_0000115>The study of abstract mathematical concepts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Pure Mathematics</rdfs:label>
     </owl:Class>
@@ -1674,7 +1875,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3571">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
+        <obo:IAO_0000115>The control of data entry and maintenance to ensure the data meets defined standards, qualities or constraints.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Data stewardship</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Data Governance</rdfs:label>
     </owl:Class>
     
@@ -1684,6 +1888,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3573">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0018052"/>
+        <obo:IAO_0000115>The study of organisms in freshwater ecosystems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <subject:SRAO_0000269>Freshwater biology</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Freshwater Science</rdfs:label>
@@ -1696,6 +1902,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3574">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The study of inheritatnce in human beings.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL: 29.9.17 &apos;Human Genetics&apos; is asserted as a child of Medicine by re3data, and as a child of Genetics by EDAM. </rdfs:comment>
@@ -1708,6 +1916,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3575">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>Health problems that are prevalent in tropical and subtropical regions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Tropical Medicine</rdfs:label>
     </owl:Class>
@@ -1718,7 +1928,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3576">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3297"/>
+        <obo:IAO_0000115>Biotechnology applied to the medical sciences and the development of medicines.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Pharmaceutical biotechnology</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Medical Biotechnology</rdfs:label>
     </owl:Class>
     
@@ -1728,8 +1941,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3577">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>An approach to medicine whereby decisions, practices and are tailored to the individual patient based on their predicted response or risk of disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <subject:SRAO_0000269>Molecular diagnostics</subject:SRAO_0000269>
         <subject:SRAO_0000269>Personalised medicine</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Precision medicine</subject:SRAO_0000269>
         <rdfs:label xml:lang="en">Personalized Medicine</rdfs:label>
     </owl:Class>
     
@@ -1740,9 +1957,15 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3697">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
+        <obo:IAO_0000115>The ecology of microorganisms including their relationship with one another and their environment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Microbial Ecology and Applied Microbiology</subject:SRAO_0000268>
+        <subject:SRAO_0000269>Community analysis</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Environmental microbiology</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Microbiome</subject:SRAO_0000269>
+        <subject:SRAO_0000269>Molecular community analysis</subject:SRAO_0000269>
         <rdfs:comment>AL 27.9.17 &apos;Microbial Ecology&apos; is asserted as a child of Microbiology by both EDAM and re3data and as a child of Ecology by EDAM. The re3data label &apos;Microbial Ecology and Applied Microbiology&apos; was split into &apos;Microbial Ecology&apos; and &apos;Applied Microbiology&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Microbial Ecology</rdfs:label>
     </owl:Class>
@@ -1753,9 +1976,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105699">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17173"/>
+        <obo:IAO_0000115>A surgical specialty that focuses on diagnosis and management of disorders of the arterial, venous and lymphatic systems, other than the intracranial vessels and the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Vascular and Visceral Surgery</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Vascular Surgery</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Vascular and Visceral Surgery&apos; into &apos;Vascular Surgery&apos; according to FAIRsharing&apos;s requirements and curation best practises.</rdfs:comment>
         <rdfs:comment>AL: 28.9.17 &apos;Vascular and Visceral Surgery&apos; is asserted as a child of Medicine by re3data, and has been further refined by FAIRsharing as a child of Surgery, a class originating in EDAM.</rdfs:comment>
         <rdfs:label xml:lang="en">Vascular Surgery</rdfs:label>
@@ -1768,7 +1994,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C119712">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
+        <obo:IAO_0000115>A method of study that relates annotated genomic information to global protein expression in order to determine the relationship between genomic sequences and both expressed proteins and predicted peptide sequences; these studies can identify novel coding regions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Proteogenomic Analysis</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Proteogenomic Characterization</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Proteogenomic Research</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Proteogenomics</subject:SRAO_0000276>
         <rdfs:comment>AL 12.12.17 Child of Bioinformatics (to align with NCIT) and also of Genomics, to align with FAIRsharing usage.</rdfs:comment>
         <rdfs:label xml:lang="en">Proteogenomics</rdfs:label>
     </owl:Class>
@@ -1779,7 +2011,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142491">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
+        <obo:IAO_0000115>The condition of information that describes its credibility, authenticity, and appropriateness for its function. Important aspects include source recognition, accuracy, innovativeness, and information on changes to the data.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Data Quality</subject:SRAO_0000276>
+        <subject:SRAO_0000276>data quality</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 12.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Data Quality</rdfs:label>
     </owl:Class>
@@ -1790,7 +2026,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142642">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000318"/>
+        <obo:IAO_0000115>An investigation that tests a drug, procedure or medical treatment in animals to determine any toxic effects before trials can be carried out in humans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Preclinical Study</subject:SRAO_0000276>
+        <subject:SRAO_0000276>preclinical studies</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Preclinical and Clinical Studies&apos; into sibling classes &apos;Preclinical Studies&apos; and &apos;Clinical Studies&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Preclinical Studies</rdfs:label>
     </owl:Class>
@@ -1801,7 +2041,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15188">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
+        <obo:IAO_0000115>Research concerned with the application of biological and physiological principles to clinical medicine.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Biomedical Research</subject:SRAO_0000276>
         <rdfs:comment>AL: 3.12.18 &apos;Biomedical Research&apos; is a child of &apos;Research Activity&apos; within NCIT. This assertion has been modified to &apos;Life Sciences&apos; as SRAO focuses more on the subject area rather than the research activity. There was no direct equivalent for this discipline within re3data.</rdfs:comment>
         <rdfs:label xml:lang="en">Biomedical Science</rdfs:label>
     </owl:Class>
@@ -1812,7 +2055,15 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15206">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000318"/>
+        <obo:IAO_0000115>Research conducted with human subjects or on material of human origin in which an investigator directly interacts with human subjects; includes development of new technologies, study of mechanisms of human diseases, therapy, clinical trials, epidemiologic, behavior, and health services research.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>CLINICAL STUDY</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Clinical Research</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Clinical Studies</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Clinical Study</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Study</subject:SRAO_0000276>
+        <subject:SRAO_0000276>clinical study</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Preclinical and Clinical Studies&apos; into sibling classes &apos;Preclinical Studies&apos; and &apos;Clinical Studies&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Clinical Studies</rdfs:label>
     </owl:Class>
@@ -1823,8 +2074,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17039"/>
+        <obo:IAO_0000115>A multidisciplinary field of inquiry that examines the costs, quality, accessibility, delivery, organization, financing, and outcomes of health care services.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>HEALTH SERVICES RESEARCH</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Health Services Research</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Public Health, Health Services Research, Social Medicine&apos; into the &apos;Public Health&apos; class and parts of its hierarchy according to FAIRsharing curation best practises. Child terms from this refactoring are &apos;Social Medicine&apos; and &apos;Health Services Research&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Health Services Research</rdfs:label>
     </owl:Class>
@@ -1835,9 +2090,14 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <obo:IAO_0000115>A method of treating disease, esp. psychic disorders, by mental rather than pharmacological means (e.g., suggestion, re-education, hypnotism, and psychoanalysis). (Taber&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Clinical Neurosciences II - Psychotherapy, Psychosomatic Medicine</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Psychotherapy</subject:SRAO_0000276>
+        <subject:SRAO_0000276>psychotherapy</subject:SRAO_0000276>
+        <subject:SRAO_0000276>talk therapy</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 4.4.2019 Refactored re3data composite class &apos;Clinical Neurosciences II - Psychotherapy, Psychosomatic Medicine&apos; into sibling classes &apos;Psychotherapy&apos; and &apos;Psychosomatic Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Psychotherapy</rdfs:label>
     </owl:Class>
@@ -1849,7 +2109,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C153192">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3292"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
+        <obo:IAO_0000115>A study of the complete set of glycans produced in a given cell or organism under specific conditions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Glycomics</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Glycomics</rdfs:label>
     </owl:Class>
     
@@ -1859,9 +2122,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16294">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007951"/>
+        <obo:IAO_0000115>The branch of science concerned with origin and development of humans in all their physical, social, and cultural relationships.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Anthropology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Anthropology</rdfs:label>
     </owl:Class>
@@ -1872,8 +2138,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16304">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_1648"/>
+        <obo:IAO_0000115>The art or science of building; especially, the art of building houses, churches, bridges, and other structures, for the purposes of civil life</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Architecture</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Engineering / Architecture</subject:SRAO_0000276>
         <rdfs:comment>AL 23.5.18: The original &quot;Construction Engineering and Architecture&quot; class from re3data has been split into &quot;Construction Engineering&quot; and &quot;Architecture&quot;. Users have requested the single terms, and removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Architecture</rdfs:label>
     </owl:Class>
@@ -1884,9 +2154,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16309">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>Artificial intelligence is the branch of computer science that deals with writing computer programs that can solve problems creatively.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Artificial Intelligence, Image and Language Processing</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Artificial Intelligence</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 20.5.2019, Updated AL 8.7.19: Refactored re3data composite class &apos;Artificial Intelligence, Image and Language Processing&apos; into sibling classes &apos;Artificial Intelligence&apos; and &apos;Digital Image Processing&apos;, according to FAIRsharing curation best practises. Please note that the &apos;Natural Language Processing&apos; component was not retained as it is already present within DRAO.</rdfs:comment>
         <rdfs:label xml:lang="en">Artificial Intelligence</rdfs:label>
     </owl:Class>
@@ -1897,8 +2170,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16345">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
+        <obo:IAO_0000115>The scientific study of living organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Biologic</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Biological</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Biology</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Biology</rdfs:label>
     </owl:Class>
     
@@ -1909,9 +2187,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16349">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>Physics as applied to biological problems; an interdisciplinary science that applies theories and methods of the physical sciences to questions of biology.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Biological Physics</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Biophysical</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Biophysics</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Statistical Physics, Soft Matter, Biological Physics, Nonlinear Dynamics&apos;. &apos;Biophysics&apos; was already present in SRAO, and added &apos;Soft Matter Physics&apos;, &apos;Nonlinear Dynamics&apos;, and &apos;Statistical Physics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Biophysics</rdfs:label>
     </owl:Class>
@@ -1923,9 +2205,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16413">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000219"/>
+        <obo:IAO_0000115>Chemical Engineering; engineering dealing with the industrial application of chemistry. (WWWebster Dictionary)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Chemical and Thermal Process Engineering</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Chemical Engineering</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Chemical Engineering</rdfs:label>
     </owl:Class>
     
@@ -1935,8 +2220,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16414">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0011790"/>
+        <obo:IAO_0000115>The science of the composition, structure, properties, and reactions of matter, especially of atomic and molecular systems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Chemistry</subject:SRAO_0000276>
         <rdfs:comment>AL: 21.1.19 Chemistry is asserted as a child of &apos;Natural Sciences&apos; by re3data, and a child of Physical Sciences within NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Chemistry</rdfs:label>
     </owl:Class>
@@ -1948,8 +2236,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16417">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3370"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The department responsible for performing chemical and enzymatic analyses of body fluids and tissues. (from Handbook of Medical Informatics)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Clinical Chemistry</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Clinical Chemistry and Pathobiochemistry&apos; into sibling classes &apos;Clinical Chemistry&apos; and &apos;Pathobiochemistry&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Clinical Chemistry</rdfs:label>
     </owl:Class>
@@ -1960,7 +2251,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16419">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115>A branch of chemistry that deals specifically with the structures, synthesis and reactions of carbon-containing compounds.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Organic Chemistry</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Organic Chemistry</rdfs:label>
     </owl:Class>
     
@@ -1970,9 +2264,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16421">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115>The branch of chemistry dealing with the physical properties of chemical substances. Chemical thermodynamics, chemical kinetics, quantum chemistry, statistical mechanics, and spectroscopy are some areas of chemistry comprising the bulk of physical chemistry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Chemical Solid State and Surface Research</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Chemistry, Physical</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Physical Chemistry</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Chemical Solid State and Surface Research&apos; into &apos;Physical Chemistry&apos;, and refactored all child classes and the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Physical Chemistry</rdfs:label>
     </owl:Class>
@@ -1984,8 +2282,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16439">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The application of informatics methods to manage medical information and improve healthcare.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Clinical Informatics</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Health Informatics</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Medical Informatics</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Epidemiology, Medical Biometry, Medical Informatics&apos; into the &apos;Public Health&apos; subclass &apos;Epidemiology&apos; and its sibling &apos;Medical Biometry&apos; according to FAIRsharing curation best practises. &apos;Medical Informatics&apos; (which was already present) is now a parent term of &apos;Medical Biometry&apos;, which also has Public Health as an additional parent. &apos;Medical informatics&apos; was also refactored from EDAM to NCIT due to EDAM&apos;s composite term and generic synonyms.</rdfs:comment>
         <rdfs:label xml:lang="en">Medical Informatics</rdfs:label>
     </owl:Class>
@@ -1996,7 +2299,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16478">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <obo:IAO_0000115>A pattern of learned beliefs, values, and behavior that are shared within a group. It includes language, styles of communication, practices, customs, and views on roles and relationships.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Cultural</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Culturally</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Culture</subject:SRAO_0000276>
+        <subject:SRAO_0000276>culture</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Culture</rdfs:label>
     </owl:Class>
     
@@ -2006,7 +2315,14 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16495">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <obo:IAO_0000115>The statistical characterization of human populations or segments of human populations (e.g., characterization by age, sex, race, or income).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Demographic Factor</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Demographic Factors</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Demographics</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Demography</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Population Studies / Demography</subject:SRAO_0000276>
         <rdfs:comment>AL 23.11.17: Hierarchy placement based on ESRC descriptions (http://www.esrc.ac.uk/about-us/what-is-social-science/social-science-disciplines/).</rdfs:comment>
         <rdfs:label xml:lang="en">Demographics</rdfs:label>
     </owl:Class>
@@ -2017,8 +2333,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16500">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine focused on the study of the skin, and responsible for the medical management of its associated diseases.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Dermatology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Dermatology</rdfs:label>
     </owl:Class>
@@ -2029,8 +2348,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16501">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The study of how a multicellular organism develops from its early immature forms (e.g., zygote, larva, embryo) into an adult.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Developmental Biology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Developmental Biology</rdfs:label>
     </owl:Class>
@@ -2041,8 +2363,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16526">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The branch of biology concerned with the relations between organisms and their environment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Ecology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored (through deletion) re3data composite class &apos;Animal Ecology, Biodiversity and Ecosystem Research&apos; by merging with existing classes &apos;Ecosystem Science&apos;, &apos;Biodiversity&apos; and &apos;Ecology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Ecology</rdfs:label>
     </owl:Class>
@@ -2053,7 +2378,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16540">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3300"/>
+        <obo:IAO_0000115>That branch of physiology that is concerned with the electric phenomena associated with living bodies and involved in their functional activity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Electrophysiology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Neurophysiology / Electrophysiology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 17.7.2019: Imported from DRAO as more appropriate within SRAO.</rdfs:comment>
         <rdfs:label xml:lang="en">Electrophysiology</rdfs:label>
     </owl:Class>
@@ -2064,9 +2393,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16548">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <obo:IAO_0000115>The discipline concerned with the application of scientific knowledge to solve practical issues in commerce or industry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Engineering Sciences</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Engineering</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Engineering Science</rdfs:label>
     </owl:Class>
     
@@ -2076,7 +2408,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16550">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
+        <obo:IAO_0000115>Entomology; the branch of zoology that studies insects.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Entomology</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Entomology</rdfs:label>
     </owl:Class>
     
@@ -2086,8 +2421,14 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16556">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17039"/>
+        <obo:IAO_0000115>The study of the causes, incidence and distribution of disease in the population and its application for prevention or control.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Epidemiologic</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Epidemiological</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Epidemiology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>epidemiology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Earlier releases of SRAO had an EDAM term (topic_3305) but this was refactored to NCIT to remove the composite concepts.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Epidemiology, Medical Biometry, Medical Informatics&apos; into the &apos;Public Health&apos; subclass &apos;Epidemiology&apos; and its sibling &apos;Medical Biometry&apos; according to FAIRsharing curation best practises. &apos;Medical Informatics&apos; (which was already present) is now a parent term of &apos;Medical Biometry&apos;, which also has Public Health as an additional parent.</rdfs:comment>
         <rdfs:label xml:lang="en">Epidemiology</rdfs:label>
@@ -2099,8 +2440,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16591">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The application of medical knowledge to questions of law; research, reports and testimony in court by experts in medical science to assist in determining a legal question.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Forensic Medicine</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Forensics</subject:SRAO_0000276>
         <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Forensic Medicine</rdfs:label>
     </owl:Class>
@@ -2111,8 +2456,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16603">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine that focuses on diagnosis and treatment of conditions affecting the gastrointestinal tract.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Gastroenterology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Gastroenterology</rdfs:label>
     </owl:Class>
@@ -2123,9 +2471,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16624">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The branch of biology that deals with heredity, especially the mechanisms of hereditary transmission and the variation of inherited characteristics among similar or related organisms</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">General Genetics</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Genetics</subject:SRAO_0000276>
+        <subject:SRAO_0000276>genetics</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL (Original date unknown, updated 10.6.2019): Changed re3data label from &apos;General Genetics&apos; to Genetics as this is the term used within FAIRsharing. This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Genetics</rdfs:label>
     </owl:Class>
@@ -2136,8 +2488,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16633">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
+        <obo:IAO_0000115>The science that deals with the world and its inhabitants; a description of the earth, or a portion of the earth, including its structure, features, products, political divisions, and the people by whom it is inhabited.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Geography</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Geography</rdfs:label>
     </owl:Class>
     
@@ -2147,9 +2502,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16658">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine that deals with the diseases and hygiene of women.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Gynecology and Obstetrics</subject:SRAO_0000268>
+        <subject:SRAO_0000276>GYN</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Gynecology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 1.5.2019: Refactored re3data composite class &apos;Gynecology and Obstetrics&apos; into sibling classes &apos;Gynecology&apos; and &apos;Obstetrics&apos;. This replaced the composite EDAM IRI representing &apos;Gynecology and Obstetrics&apos; with individual NCIT terms according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Gynecology</rdfs:label>
     </owl:Class>
@@ -2160,8 +2519,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16673">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine that deals with the blood and blood-forming organs and the diseases thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Hematologic</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Hematology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Hematology, Oncology, Transfusion Medicine&apos; into sibling classes &apos;Hematology&apos; and &apos;Oncology&apos;, and a child of Hematology called &apos;Transfusion Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Hematology</rdfs:label>
     </owl:Class>
@@ -2172,7 +2535,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16715">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <obo:IAO_0000115>A sub-field of genetics that uses both genetic and immunological analyses to study the genetics behind antibody formation and the immune response. (Biotech Life Science Dictionary)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Immunogenetics</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Immunogenetics</rdfs:label>
     </owl:Class>
     
@@ -2182,9 +2548,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16851">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The science that deals with the study of microorganisms, including algae, archaea, bacteria, fungi, protozoa, and viruses.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Microbiology, Virology and Immunology</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Microbiology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 25.9.17 [Updated AL 10.06.2019] Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology according to NCIT and FAIRsharing curators. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science according to FAIRsharing curators, a modification both of the Medicine hierarchy as listed by re3data and the Biological Sciences as listed by NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Microbiology</rdfs:label>
@@ -2196,8 +2565,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16902">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>A branch of medicine concerned with the development, anatomy, function, and dysfunction of the kidney.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Nephrology</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Nephrology</rdfs:label>
     </owl:Class>
     
@@ -2208,9 +2580,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16908">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>A branch of medicine concerned with the development, anatomy, function, and dysfunction of the nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Clinical Neurosciences I - Neurology, Neurosurgery</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Neurology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL 28.9.17 (Updated AL 11.6.2019): Changed re3data label from &apos;Clinical Neurosciences I - Neurology, Neurosurgery&apos; to Neurology as the new label is singular (non-composite). Neurology is asserted within the NCIT Medicine hierarchy and as a child of Neurobiology by re3data. The hierarchies of both have been retained.</rdfs:comment>
         <rdfs:label xml:lang="en">Neurology</rdfs:label>
@@ -2223,7 +2598,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16910">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3300"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <obo:IAO_0000115>A branch of neuroscience concerned with the physiology of the nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Neurophysiology</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Neurophysiology</rdfs:label>
     </owl:Class>
     
@@ -2233,8 +2611,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16922">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17059"/>
+        <obo:IAO_0000115>Nuclear Medicine is the branch of medicine that uses radioactive materials either to image a patient&apos;s body or to destroy diseased cells.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Nuclear Medicine</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Radiology / Radiation Biology / Nuclear Medicine</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Radiology-Nuclear Medicine</subject:SRAO_0000276>
         <rdfs:comment>AL 15.1.18: While this particular class was not directly imported from re3data, its parent class was originally named &apos;Radiology and Nuclear Medicine&apos;. As NCIT has terms separately describing both concepts, FAIRsharing has split the re3data class along the hierarchy described in NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Nuclear Medicine</rdfs:label>
     </owl:Class>
@@ -2245,8 +2628,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16928">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>A medical-surgical specialty dealing with the care of a woman and her offspring during pregnancy, childbirth and the puerperium (the period shortly after birth).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Obstetrical</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Obstetrics</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 1.5.2019: Refactored re3data composite class &apos;Gynecology and Obstetrics&apos; into sibling classes &apos;Gynecology&apos; and &apos;Obstetrics&apos;. This replaced the composite EDAM IRI representing &apos;Gynecology and Obstetrics&apos; with individual NCIT terms according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Obstetrics</rdfs:label>
     </owl:Class>
@@ -2257,9 +2644,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16931">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>This branch of medicine is concerned with the prevention, diagnosis, and treatment of injuries and illnesses that occur at the workplace or as a result of toxic exposures, stress, or accidents at the workplace. Occupational medicine encompasses issues such as industrial hygiene, safety, pollution control, ergonomics, industrial and agricultural toxicology, disability evaluation, physical rehabilitation, industrial psychology and emergency medicine. (BioTech Life Science Dictionary)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Toxicology and Occupational Medicine</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Occupational Medicine</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Occupational or Industrial Medicine</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 27.9.17 Changed re3data label from &apos;Toxicology and Occupational Medicine&apos; to &apos;Occupational Medicine&apos; as these are two distinct disciplines. Toxicology has been placed as a child of &apos;Safety Sciences&apos;, while Occupational Medicine has been kept as a child of Medicine.</rdfs:comment>
         <rdfs:label xml:lang="en">Occupational Medicine</rdfs:label>
     </owl:Class>
@@ -2271,9 +2662,14 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16939">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>A medical specialty concerned with the structure and function of the eye and the medical and surgical treatment of its defects and diseases.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Clinical Neurosciences III - Ophthalmology</subject:SRAO_0000268>
+        <subject:SRAO_0000276>OPHTHALMOLOGY</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Ophthalmologic</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Ophthalmology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL 28.9.17 (Updated AL 11.6.2019): Changed re3data label from &apos;Clinical Neurosciences III - Opthalmology&apos; to Opthalmology as the new label is simpler and aligns with FAIRsharing best practises. Opthalmology is asserted within the Medicine hierarchy by NCIT and as a child of Neurobiology by re3data. Both assertions have been retained.</rdfs:comment>
         <rdfs:label xml:lang="en">Ophthalmology</rdfs:label>
@@ -2285,8 +2681,15 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16974">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The study of pharmacologic agents. This includes the preparation, compounding, and dispensing of drugs, as well as the characteristics and properties of drugs, their effects on the body, and how they are metabolized and eliminated from the body.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>P</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Pharmacologic</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Pharmacological</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Pharmacology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>pharmacology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 10.6.2019: Pharmacology is a child of Biological Sciences within NCIT, and a child of Medicine by re3data. The re3data placement has been retained. This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Pharmacology</rdfs:label>
     </owl:Class>
@@ -2297,7 +2700,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The medical speciality that deals with the medical management of mental disorders.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Psychiatric</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Psychiatry</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 12.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Psychiatry</rdfs:label>
     </owl:Class>
@@ -2308,8 +2715,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17027">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000041"/>
+        <obo:IAO_0000115>The study of behavior and cognition.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Psychology</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Psychology</rdfs:label>
     </owl:Class>
     
@@ -2319,8 +2729,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
+        <obo:IAO_0000115>The branch of psychology that deals with the diagnosis and treatment of psychological and behavioral problems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Clinical Psychology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Differential Psychology, Clinical Psychology, Medical Psychology, Methodology&apos; into sibling classes &apos;Differential Psychology&apos;, &apos;Clinical Psychology&apos; and &apos;Medical Psychology&apos; according to FAIRsharing curation best practises.&apos;Methodology&apos; was not required within SRAO at this time.</rdfs:comment>
         <rdfs:label xml:lang="en">Clinical Psychology</rdfs:label>
     </owl:Class>
@@ -2332,8 +2745,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000042"/>
+        <obo:IAO_0000115>A branch of psychology concerned with educational techniques and assessment of academic aptitude.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Educational Psychology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Psychology of Teaching</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Developmental and Educational Psychology&apos; into sibling classes &apos;Developmental Psychology&apos; and &apos;Educational Psychology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Educational Psychology</rdfs:label>
     </owl:Class>
@@ -2345,8 +2762,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17026"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95096"/>
+        <obo:IAO_0000115>A branch of medicine concerned with the relationship between emotion and body function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Psychosomatic Medicine</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 4.4.2019 Refactored re3data composite class &apos;Clinical Neurosciences II - Psychotherapy, Psychosomatic Medicine&apos; into sibling classes &apos;Psychotherapy&apos; and &apos;Psychosomatic Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Psychosomatic Medicine</rdfs:label>
     </owl:Class>
@@ -2357,9 +2777,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The science and practice of protecting and improving the health of a community, as by preventive medicine, health education, control of communicable diseases, application of sanitary measures, and monitoring of environmental hazards.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Public Health, Health Services Research, Social Medicine</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Public Health</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Public Health, Health Services Research, Social Medicine&apos; into the &apos;Public Health&apos; class and parts of its hierarchy according to FAIRsharing curation best practises. Child terms from this refactoring are &apos;Social Medicine&apos; and &apos;Health Services Research&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Public Health</rdfs:label>
     </owl:Class>
@@ -2371,9 +2794,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The study of the mechanisms and biological effects of ionizing radiation, including repair processes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Radiation Oncology and Radiobiology</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Radiation Biology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Radiobiology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Radiation Oncology and Radiobiology&apos; into parent class &apos;Radiobiology&apos; and child class &apos;Radiation Oncology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Radiobiology</rdfs:label>
     </owl:Class>
@@ -2384,8 +2811,14 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medical science dealing with the medical use of X-rays or other penetrating radiation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Radiologic</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Radiology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Radiology, General</subject:SRAO_0000276>
+        <subject:SRAO_0000276>radiology</subject:SRAO_0000276>
         <rdfs:comment>AL 15.1.18 Originally named &apos;Radiology and Nuclear Medicine&apos;, but split into two separate classes (according to the NCIT hierarchy) after Radiology was required in FAIRsharing as a standalone concept.</rdfs:comment>
         <rdfs:label xml:lang="en">Radiology</rdfs:label>
     </owl:Class>
@@ -2396,9 +2829,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0010991"/>
+        <obo:IAO_0000115>A medical specialty that deals with diagnosis and treatment of diseases and disorders of the connective tissues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Rheumatology, Clinical Immunology, Allergology</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Rheumatology</subject:SRAO_0000276>
         <rdfs:comment>AL: 7.5.2019 Refactored re3data composite class &apos;Rheumatology, Clinical Immunology, Allergology&apos; into classes &apos;Rheumatology&apos; (remains child of Medicine) and &apos;Clinical Immunology&apos; (child of Immunology and Health Sciences) according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Rheumatology</rdfs:label>
     </owl:Class>
@@ -2409,8 +2845,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17141">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000041"/>
+        <obo:IAO_0000115>Comprises the scientific study of the human aspects of the world. They are also known as social studies. Psychology studies the human mind, sociology examines human society, political science studies the governing of groups and economics concerns itself with the allocation of wealth in society.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Social Sciences</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Social Studies</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Social Science</rdfs:label>
     </owl:Class>
@@ -2421,9 +2861,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17147">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of computer software.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Software technology</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Computer Software Engineering</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Software Engineering</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment>AL: 29.9.17 Changed label from &apos;Software Technology&apos; (sourced from re3data) to &apos;Software engineering&apos; to align with EDAM. </rdfs:comment>
         <rdfs:label xml:lang="en">Software Engineering</rdfs:label>
@@ -2435,8 +2879,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17167">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3315"/>
+        <obo:IAO_0000115>A branch of applied mathematics concerned with the collection and interpretation of quantitative data and the use of probability theory to estimate population parameters.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Statistics and Probability</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Statistical</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Statistically</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Statistics</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 10.4.2019: Renamed &apos;Statistics and Probability&apos; to &apos;Statistics&apos; to align with FAIRsharing curation best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Statistics</rdfs:label>
     </owl:Class>
@@ -2447,7 +2896,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medical science that treats disease or injury by operative procedures.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Surgery</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 12.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Surgery</rdfs:label>
     </owl:Class>
@@ -2458,8 +2910,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17173"/>
+        <obo:IAO_0000115>Surgical procedures for treating diseases and disorders of the oral cavity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Oral Surgery</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Surgery, Oral</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 16.5.2019 Refactored re3data composite class &apos;Dentistry, Oral Surgery&apos; into &apos;Dentistry&apos; (which moved to be a direct child of Medicine) and &apos;Oral Surgery&apos;, which retains its position as a child of Surgery, according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Oral Surgery</rdfs:label>
     </owl:Class>
@@ -2470,7 +2926,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17193">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <obo:IAO_0000115>The branch of physics concerned with the conversion of different forms of energy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Thermodynamics</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 17.7.2019: Imported from DRAO as more appropriate within SRAO. At the same time, IRI changed from http://purl.obolibrary.org/obo/OMIT_0014667 to http://purl.obolibrary.org/obo/NCIT_C17193 as it provides a definition.</rdfs:comment>
         <rdfs:label xml:lang="en">Thermodynamics</rdfs:label>
     </owl:Class>
@@ -2483,7 +2942,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000318"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000319"/>
+        <obo:IAO_0000115>Toxicology is the branch of pharmacology that deals with the nature and effects and treatments of poisons.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>TOX</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Toxicology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>toxicology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 10.6.2019: Added parent term of &apos;Pharmacology&apos; to align with NCIT hierarchy. This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines. AL 27.9.17: Changed re3data label from &apos;Toxicology and Occupational Medicine&apos; to &apos;Occupational Medicine&apos; as these are two distinct disciplines. Toxicology has been placed as a child of &apos;Safety Sciences&apos;, while Occupational Medicine has been kept as a child of Medicine.</rdfs:comment>
         <rdfs:label xml:lang="en">Toxicology</rdfs:label>
     </owl:Class>
@@ -2494,8 +2958,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The medical specialty concerned with the study, diagnosis, and treatment of diseases of the genitourinary tract.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Urologic</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Urology</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Urology</rdfs:label>
     </owl:Class>
     
@@ -2505,8 +2973,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17269">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The branch of biology dealing with the study of animals.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Zoology</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Zoology</rdfs:label>
     </owl:Class>
     
@@ -2516,8 +2987,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17606">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115>The use of data processing systems to analyze, enhance, interpret or display digital images.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Image Analysis</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Image Processing</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Artificial Intelligence, Image and Language Processing&apos; into sibling classes &apos;Artificial Intelligence&apos; and &apos;Digital Image Processing&apos;, with &apos;Natural Language Processing&apos; as a child term of &apos;Artificial Intelligence&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Digital Image Processing</rdfs:label>
     </owl:Class>
@@ -2528,7 +3003,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17735">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <obo:IAO_0000115>A plan of action adopted by an individual or social group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Policy</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 21.5.2019: Added as a new parent for Social Policy and Economic Policy in a placement consistent with the NCIT hierarchy.</rdfs:comment>
         <rdfs:label xml:lang="en">Policy</rdfs:label>
     </owl:Class>
@@ -2539,8 +3017,14 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17837">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The study of tumors encompassing the physical, chemical, and biologic properties.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Cancer, Oncology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Oncologic</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Oncology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>oncology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Hematology, Oncology, Transfusion Medicine&apos; into sibling classes &apos;Hematology&apos; and &apos;Oncology&apos;, and a child of Hematology called &apos;Transfusion Medicine&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Oncology</rdfs:label>
@@ -2553,8 +3037,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17940">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
+        <obo:IAO_0000115>A branch of genetics concerned with the mechanisms and processes of heredity in microorganisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Microbial Genetics</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Microbial Genetics</rdfs:label>
     </owl:Class>
@@ -2566,9 +3053,14 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17964">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>Bioinformatics derives knowledge from computer analysis of biological data. These can consist of the information stored in the genetic code, but also experimental results from various sources, patient statistics, and scientific literature. Research in bioinformatics includes method development for storage, retrieval, and analysis of the data. Bioinformatics is a rapidly developing branch of biology and is highly interdisciplinary, using techniques and concepts from informatics, statistics, mathematics, chemistry, biochemistry, physics, and linguistics. It has many practical applications in different areas of biology and medicine. (M. Nilges and Jens P. Linge, Unite de Bio-informatique Structurale, Institut Pasteur, Paris)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Bioinformatics and Theoretical Biology</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Bioinformatics</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Computational Biology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>bioinformatics</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL 27.9.17 [Updated AL 10.6.2019] Bioinformatics is asserted as a child of Biology within re3data,  but has also been asserted as a child of Informatics by FAIRsharing. Within FAIRsharing, this term used to be labelled &apos;Bioinformatics tools and formats&apos;, but has been modified for simplicity. Within re3data, this term used to be labelled &apos;Bioinformatics and Theoretical Biology&apos; but was simplified as these are two distinct disciplines. Currently Theoretical Biology has not been re-introduced, but this may need to be revisited in future.</rdfs:comment>
         <rdfs:label xml:lang="en">Bioinformatics</rdfs:label>
@@ -2580,8 +3072,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17992">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The study of the internal workings of cells at the microscopic and molecular level.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Cell Biology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Cellular Biology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Cell Biology</rdfs:label>
     </owl:Class>
@@ -2592,8 +3088,15 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <obo:IAO_0000115>The study of the immune system and its reaction to pathogens, as well as its malfunctions (autoimmune diseases, allergies, rejection of organ transplants).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Immunologic</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Immunology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Immunology (Including BRMP)</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Immunology (NCI Program)</subject:SRAO_0000276>
+        <subject:SRAO_0000276>immunology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 14.5.2019: Refactored Immunology from the EDAM to the NCIT class due to conflation of subject areas by the EDAM class.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 25.9.17 [Updated AL 10.06.2019] Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology according to NCIT and FAIRsharing curators. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science according to FAIRsharing curators, a modification both of the Medicine hierarchy as listed by re3data and the Biological Sciences as listed by NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Immunology</rdfs:label>
@@ -2606,7 +3109,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18076">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3297"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
+        <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Bioengineering</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Biomedical Engineering</subject:SRAO_0000276>
         <rdfs:comment>AL 23.11.17: Added parent &apos;Engineering Sciences&apos; to align with the structure found within NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Bioengineering</rdfs:label>
     </owl:Class>
@@ -2617,7 +3124,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18088">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3304"/>
+        <obo:IAO_0000115>The branch of neurobiology concerned with the changes that take place in the nervous system between fertilization and maturity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Developmental Neurobiology</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Developmental Neurobiology</rdfs:label>
     </owl:Class>
     
@@ -2627,7 +3137,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18097">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
+        <obo:IAO_0000115>The science of simulating the motions of a system of particles. (Karplus and Petsko)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Molecular Dynamics</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Molecular Dynamics (MD) Simulation</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Molecular Dynamics</rdfs:label>
     </owl:Class>
@@ -2638,8 +3152,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The discipline concerned with the three-dimensional configuration of biological molecules and the influence of structure on function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Structural Biology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Structural Biology</rdfs:label>
     </owl:Class>
@@ -2650,8 +3167,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The medical science, and specialty practice, concerned with all aspects of disease, but with special reference to the essential nature, causes, and development of abnormal conditions, as well as the structural and functional changes that result from the disease processes. Informally used to mean the result of such an examination.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Pathological</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Pathology</subject:SRAO_0000276>
         <rdfs:comment>AL 27.11.18: The original &quot;Pathology and Forensic Medicine&quot; class from re3data has been split into &quot;Pathology&quot; and &quot;Forensic Medicine&quot;. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Pathology</rdfs:label>
     </owl:Class>
@@ -2662,7 +3183,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>Interdisciplinary studies involving biology, anthropology, nutrition, and medicine with a focus on humans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Human Biology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Human Biology</rdfs:label>
     </owl:Class>
@@ -2674,7 +3198,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18470">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000173"/>
+        <obo:IAO_0000115>Computational chemistry is the branch of theoretical chemistry whose major goals are to create efficient computer programs that calculate the properties of molecules (such as total energy, dipole moment, vibrational frequencies) and to apply these programs to concrete chemical objects. (from Information Headquarters)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Computational Chemistry</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Computational Chemistry</rdfs:label>
     </owl:Class>
@@ -2689,7 +3216,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000236"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000298"/>
+        <obo:IAO_0000115>A multidisciplinary field that strives to comprehend the interactions of cellular components, molecular components and engineered materials at the nanoscale (i.e., less than 100 nanometers). This discipline focuses on the understanding and control of matter at the nanoscale, wherein unique phenomena enable novel applications.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Nanoscale Science</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Nanotech</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Nanotechnology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>nanotechnology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 9.7.2019: Moved from DRAO to SRAO, as it is a subject area rather than a domain. At the same time, it was refactored from http://purl.obolibrary.org/obo/OMIT_0022673 to http://purl.obolibrary.org/obo/NCIT_C18478 for the curation provided by NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Nanotechnology</rdfs:label>
     </owl:Class>
@@ -2700,9 +3233,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18633">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
+        <obo:IAO_0000115>The study of genetic traits in animals.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Animal Genetics, Cell and Developmental Biology</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Animal Genetics</subject:SRAO_0000276>
         <rdfs:comment>AL 25.1 18: The label within NCIT has been chosen as the label for this class as it is simpler, while the re3data has been retained as an alternative term.</rdfs:comment>
         <rdfs:label xml:lang="en">Animal Genetics</rdfs:label>
     </owl:Class>
@@ -2713,7 +3249,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18645">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3292"/>
+        <obo:IAO_0000115>The branch of biochemistry dealing with the chemical nature and biological activity of enzymes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Biochemistry, Enzymatic</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Enzymology</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Enzymology</rdfs:label>
     </owl:Class>
     
@@ -2724,8 +3264,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18701">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18011"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19199"/>
+        <obo:IAO_0000115>The medical field that deals with immune diseases, including autoimmune diseases, allergies, rejection of organ transplants and immune deficiency.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Clinical Immunology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 7.5.2019 Refactored re3data composite class &apos;Rheumatology, Clinical Immunology, Allergology&apos; into classes &apos;Rheumatology&apos; (remains child of Medicine) and &apos;Clinical Immunology&apos; (child of Immunology and Health Sciences) according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Clinical Immunology</rdfs:label>
     </owl:Class>
@@ -2736,7 +3279,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18729">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3071"/>
+        <obo:IAO_0000115>Database management involves the design and maintenance of electronic data storage systems to facilitate and optimize the categorization, selection, and retrieval of information.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Data Base Management</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 12.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Database Management</rdfs:label>
     </owl:Class>
@@ -2748,9 +3294,13 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18740">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16501"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
+        <obo:IAO_0000115>The study of the psychological and behavioral changes that occur in an organism between birth and old age.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Developmental and Educational Psychology</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Developmental Psychology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Developmental Psychology, General</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Developmental and Educational Psychology&apos; into sibling classes &apos;Developmental Psychology&apos; and &apos;Educational Psychology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Developmental Psychology</rdfs:label>
     </owl:Class>
@@ -2762,9 +3312,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18873">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3300"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
+        <obo:IAO_0000115>The metabolism of microbial life forms.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Microbial Metabolism</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Microbial Physiology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Microbial Physiology</rdfs:label>
     </owl:Class>
@@ -2776,8 +3329,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18874">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
+        <obo:IAO_0000115>The study of microorganisms with an emphasis on their role in the human disease process.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Medical Microbiology</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Microbiology, Medical</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Medical Microbiology, Molecular Infection Biology&apos; into sibling classes &apos;Molecular Infection Biology&apos; and &apos;Medical Microbiology&apos; according to FAIRsharing curation best practises. Added an additional parent term of &apos;Biomedical Science&apos; to align with the definition.</rdfs:comment>
         <rdfs:label xml:lang="en">Medical Microbiology</rdfs:label>
     </owl:Class>
@@ -2789,9 +3346,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18948">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16419"/>
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000178"/>
+        <obo:IAO_0000115>The study of synthesis and application of polymers.  Polymers are any of numerous natural and synthetic compounds of usually high molecular weight consisting of up to millions of repeated linked units, each a relatively light and simple molecule.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Preparatory and Physical Chemistry of Polymers</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Polymer Chemistry</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Preparatory and Physical Chemistry of Polymers&apos; into &apos;Polymer Chemistry&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Polymer Chemistry</rdfs:label>
     </owl:Class>
@@ -2802,7 +3362,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19199">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
+        <obo:IAO_0000115>The sciences concerned with health promotion and maintenance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Health Sciences</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Health Science</rdfs:label>
     </owl:Class>
@@ -2813,8 +3376,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19349">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
+        <obo:IAO_0000115>The application of engineering and mathematical principles to electrical problems</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Electrical Engineering</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Electrical Engineering</rdfs:label>
     </owl:Class>
     
@@ -2825,8 +3391,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19638">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <obo:IAO_0000115>Its fundamental principle is that any physical system can be decomposed into a collection of simple independent local elements each of which interacts only with its immediate neighbors.  In classical mechanics a complete description of any physical system is supposed to be specified by giving the values of the various fields (e.g., the electric field, the magnetic field, etc.) at each of the relevant spacetime points.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Classical Mechanics</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Mechanics</rdfs:label>
     </owl:Class>
     
@@ -2836,7 +3405,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20085">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
+        <obo:IAO_0000115>The global analysis of cellular proteins. Proteomics uses a combination of sophisticated techniques including two-dimensional (2D) gel electrophoresis, image analysis, mass spectrometry, amino acid sequencing, and bio-informatics to resolve comprehensively, to quantify, and to characterize proteins. The application of proteomics provides major opportunities to elucidate disease mechanisms and to identify new diagnostic markers and therapeutic targets.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Proteomics</subject:SRAO_0000276>
+        <subject:SRAO_0000276>proteomics</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Proteomics</rdfs:label>
     </owl:Class>
@@ -2848,7 +3421,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20179">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
+        <obo:IAO_0000115>Toxicogenomics is a new scientific field that elucidates how the entire genome is involved in biological responses of organisms exposed to environmental toxicants/stressors. Toxicogenomics combines information from studies of genomic-scale mRNA profiling (by microarray analysis), cell-wide or tissue-wide protein profiling (proteomics), genetic susceptibility, and computational models to understand the roles of gene-environment interactions in disease. (from National Center for Toxicogenomics homepage)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Toxicogenomics</subject:SRAO_0000276>
         <rdfs:comment>AL 20.12.17: Although NCIT places Toxicogenomics as a child of Bioinformatics, FAIRsharing instead places it as a child of both Genomics and Toxicology.</rdfs:comment>
         <rdfs:label xml:lang="en">Toxicogenomics</rdfs:label>
     </owl:Class>
@@ -2859,10 +3435,15 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20609">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16421"/>
+        <obo:IAO_0000115>A specialized branch of chemistry dealing with the making of compounds, generally from the building blocks to the larger or complex molecules. e.g. making protein from amino acids, or DNA from nucleotides.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">AL: 10.4.2019 Refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises. Simplified this class name from &apos;Solid State and Surface Chemistry, Material Synthesis&apos; according to FAIRsharing curation best practises.</subject:SRAO_0000268>
         <subject:SRAO_0000268 xml:lang="en">Solid State and Surface Chemistry, Material Synthesis</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Chemistry, Synthetic</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Synthesis Chemistry</subject:SRAO_0000276>
+        <subject:SRAO_0000276>Synthetic Chemistry</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Synthesis Chemistry</rdfs:label>
     </owl:Class>
     
@@ -2872,7 +3453,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26633">
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000318"/>
+        <obo:IAO_0000115>A series of chemical modifications of a drug compound by enzymatic activity that make the substrate (drug) more water soluble to allow its clearance from the body. Drug metabolism occurs in two phases: Phase I (biotransformation) involves oxidation, hydroxylation reduction, and hydrolysis. Phase II (conjugation) involves synthesis and conjugation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Drug Metabolism</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Drug Metabolism</rdfs:label>
     </owl:Class>
@@ -2883,8 +3467,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C39794">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007951"/>
+        <obo:IAO_0000115>The field of study concerned with the rational investigation of questions about existence and knowledge and ethics.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Philosophy</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">Philosophy</rdfs:label>
     </owl:Class>
     
@@ -2894,8 +3481,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C54625">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007951"/>
+        <obo:IAO_0000115>The aggregate of past events; the continuum of events occurring in succession leading from the past to the present; a record or narrative description of past events.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <subject:SRAO_0000276>Historical</subject:SRAO_0000276>
+        <subject:SRAO_0000276>History</subject:SRAO_0000276>
         <rdfs:label xml:lang="en">History</rdfs:label>
     </owl:Class>
     
@@ -2905,7 +3496,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C84343">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3391"/>
+        <obo:IAO_0000115>The study of comprehensive sets of genes via high throughput methods.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Genomics Research</subject:SRAO_0000276>
+        <subject:SRAO_0000276>genomics</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Genomics</rdfs:label>
     </owl:Class>
@@ -2916,9 +3511,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine dealing with the heart and its diseases.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268 xml:lang="en">Cardiology, Angiology</subject:SRAO_0000268>
+        <subject:SRAO_0000276>Cardiology</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Cardiology, Angiology&apos; into sibling classes &apos;Cardiology&apos; and &apos;Angiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Cardiology</rdfs:label>
     </owl:Class>
@@ -2929,7 +3527,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C93254">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>The branch of medicine that involves the laboratory growth of functional tissues and organs and their use to regenerate or replace tissues and organs in the body that are damaged by diseases or cannot be healed. Examples include the transplantation of in vitro developed tissues, cell therapies, and stimulation of regeneration by biological substances.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <subject:SRAO_0000276>Regenerative Medicine</subject:SRAO_0000276>
         <rdfs:comment xml:lang="en">AL 17.7.2019: Imported from DRAO as more appropriate within SRAO.</rdfs:comment>
         <rdfs:label xml:lang="en">Regenerative Medicine</rdfs:label>
     </owl:Class>
@@ -2940,6 +3541,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C95096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
+        <obo:IAO_0000115>A subject domain utilized for the submission of information encompassing and representing data, vocabulary or records related to the brain and nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000268>Neurosciences</subject:SRAO_0000268>
@@ -2954,7 +3557,12 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200111">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3316"/>
+        <obo:IAO_0000115 xml:lang="en">An planned process that creates images, diagrams or animations from the input data.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 xml:lang="en">OBI</obo:IAO_0000412>
+        <subject:SRAO_0000317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data encoding as image</subject:SRAO_0000317>
+        <subject:SRAO_0000317 xml:lang="en">data visualization</subject:SRAO_0000317>
+        <subject:SRAO_0000317 xml:lang="en">visualization</subject:SRAO_0000317>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to OBI to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Data Visualization</rdfs:label>
     </owl:Class>
@@ -3434,7 +4042,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical entity that is or was part of a plant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
         <obo:IAO_0000412 xml:lang="en">PO</obo:IAO_0000412>
+        <subject:SRAO_0000292 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad anat&amp;#243mica vegetal (Spanish, exact)</subject:SRAO_0000292>
+        <subject:SRAO_0000292 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物 解剖学（形態）的実体 (Japanese, exact)</subject:SRAO_0000292>
         <rdfs:comment>AL 23.11.17: Please note the original Plant Ontology term is &apos;plant anatomical entity&apos;, however FAIRsharing requires the use of the term in the sense of a subject/discipline.</rdfs:comment>
         <rdfs:label xml:lang="en">Plant Anatomy</rdfs:label>
     </owl:Class>
