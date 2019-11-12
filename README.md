@@ -5,11 +5,11 @@ The Subject Resource Application Ontology (SRAO) is an application ontology desc
 All classes within SRAO come from publicly-available ontologies and controlled vocabularies. Currently, the following ontologies are used to build SRAO:
 
 1. [re3data](https://www.re3data.org/browse/by-subject/). Please note that this is a hierarchical controlled vocabulary and not an ontology. As such, terms which originate within re3data and which do not have a corresponding class within the external ontologies listed here will have a SRAO IRI.
-2. [AgroVoc](http://agrovoc.uniroma2.it/agrovoc/agrovoc/en/)
+2. [NCIT](https://ncit.nci.nih.gov/ncitbrowser/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit))
 3. [EDAM](http://edamontology.org/page) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/edam))
-4. [NCIT](https://ncit.nci.nih.gov/ncitbrowser/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit))
-5. [OBI](http://obi-ontology.org/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/ncit))
-6. [OMIT](https://github.com/OmniSearch/omit) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/obi))
+4. [AgroVoc](http://agrovoc.uniroma2.it/agrovoc/agrovoc/en/)
+5. [OMIT](https://github.com/OmniSearch/omit) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/omit))
+6. [OBI](http://obi-ontology.org/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/obi))
 7. [PO](http://browser.planteome.org/amigo) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/po))
 
 # Files
@@ -19,7 +19,7 @@ To view the latest release of SRAO please visit [our release directory](https://
 Below are short descriptions of the other files found within this repository:
 
 Within any [releases/](https://github.com/FAIRsharing/subject-ontology/tree/master/releases) subdirectory
-- SRAO-release-RELNUM.owl - The automatically-generated release file. It is a single file (with no imports) for ease of use.
+- SRAO.owl - The automatically-generated release file. It is a single file (with no imports) for ease of use.
 - refactoredIRIs-SRAO-RELNUM.txt - A list of IRI refactorings performed since the last release.
 - README.md A short description of the changes made since the last release.
 
@@ -58,7 +58,7 @@ SRAO is written in OWL and serialized as RDF/XML.
 - [Ontofox](http://ontofox.hegroup.org/) - Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse. 
 BMC Research Notes. 2010, 3:175. PMID: 20569493
 - [Protege](http://protege.stanford.edu/) - Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003.
-- [ROBOT](http://robot.obolibrary.org/)
+- [ROBOT](http://robot.obolibrary.org/) - R.C. Jackson, J.P. Balhoff, E. Douglass, N.L. Harris, C.J. Mungall, and J.A. Overton. [ROBOT: A tool for automating ontology workflows.](https://doi.org/10.1186/s12859-019-3002-3) BMC Bioinformatics, vol. 20, July 2019. 
 
 # Usage and Licence
 
