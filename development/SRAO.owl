@@ -1747,6 +1747,17 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C105692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 20.5.20: Added as part of https://github.com/FAIRsharing/subject-ontology/issues/52</rdfs:comment>
+        <rdfs:label xml:lang="en">Respiratory Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C105699 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105699">

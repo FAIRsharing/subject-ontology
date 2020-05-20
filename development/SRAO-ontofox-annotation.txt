@@ -220,6 +220,7 @@ http://purl.obolibrary.org/obo/NCIT_C84343 # Genomics
 http://purl.obolibrary.org/obo/NCIT_C86055 # Cardiology
 http://purl.obolibrary.org/obo/NCIT_C93254 # Regenerative Medicine
 http://purl.obolibrary.org/obo/NCIT_C95096 # Neuroscience
+http://purl.obolibrary.org/obo/NCIT_C105692 # Pulmonary Medicine / Respiratory Medicine
 http://purl.obolibrary.org/obo/NCIT_C105699 # Vascular Surgery
 http://purl.obolibrary.org/obo/NCIT_C119712 # Proteogenomics
 http://purl.obolibrary.org/obo/NCIT_C142491 # Data Quality

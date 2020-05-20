@@ -20,14 +20,11 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000276"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <subject:SRAO_0000317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</subject:SRAO_0000317>
-        <subject:SRAO_0000317>textual definition</subject:SRAO_0000317>
         <subject:SRAO_0000276>DEFINITION</subject:SRAO_0000276>
         <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <subject:SRAO_0000317 xml:lang="en">definition</subject:SRAO_0000317>
     </owl:AnnotationProperty>
@@ -773,6 +770,16 @@
         <subject:SRAO_0000269>Community analysis</subject:SRAO_0000269>
         <subject:SRAO_0000269>Microbiome</subject:SRAO_0000269>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C105692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105692">
+        <obo:IAO_0000115>A medical specialty concerned with diagnosis and treatment of lung disorders and other breathing problems.</obo:IAO_0000115>
+        <subject:SRAO_0000276>Pulmonary Medicine</subject:SRAO_0000276>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
 
