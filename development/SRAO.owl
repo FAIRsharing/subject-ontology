@@ -3450,6 +3450,19 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0027237#Drug_Repositioning -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0027237#Drug_Repositioning">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000318"/>
+        <obo:IAO_0000115>Drug repositioning is the deliberate and methodical practice of finding new applications for existing drugs. [Adapted from MeSH https://meshb.nlm.nih.gov/record/ui?ui=D058492, AL 20.5.2020]</obo:IAO_0000115>
+        <obo:IAO_0000412>OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412>User request</obo:IAO_0000412>
+        <rdfs:comment>AL 20.5.20: Although the MESH hierarchy lists this class as a child term of &apos;Drug Development&apos;, which we have as a subject in SRAO, it was agreed with the curation team that we should create it as a sibling class of &apos;Drug Development&apos; as this more closely matches the defintions.</rdfs:comment>
+        <rdfs:label>Drug Repositioning</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000002 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000002">
