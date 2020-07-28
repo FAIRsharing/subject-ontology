@@ -55,7 +55,7 @@ robot_diff:
 # Creates a diff between RELNUM and PREVIOUS_RELNUM
 diff_release: check_relnum
 	test $(PREVIOUS_RELNUM)
-	robot_diff LEFT=$(RELEASE_TOP_DIR)/$(PREVIOUS_RELNUM)/SRAO.owl RIGHT=$(RELEASE_FILE)
+	$(ROBOT) diff --left $(RELEASE_TOP_DIR)/$(PREVIOUS_RELNUM)/SRAO.owl --right $(RELEASE_FILE)
 
 ##
 ## Targets
