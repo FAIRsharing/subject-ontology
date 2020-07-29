@@ -20,7 +20,8 @@ release: copy_release_files
 ##
 
 # ROBOT_REMOTE_LOCATION := https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar
-ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4.3/robot.jar
+# ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4.3/robot.jar
+ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/latest/download/robot.jar
 ROBOT := java -jar build/robot.jar
 
 # The development file
@@ -54,7 +55,7 @@ robot_diff:
 # Creates a diff between RELNUM and PREVIOUS_RELNUM
 diff_release: check_relnum
 	test $(PREVIOUS_RELNUM)
-	robot_diff LEFT=$(RELEASE_TOP_DIR)/$(PREVIOUS_RELNUM)/SRAO.owl RIGHT=$(RELEASE_FILE)
+	$(ROBOT) diff --left $(RELEASE_TOP_DIR)/$(PREVIOUS_RELNUM)/SRAO.owl --right $(RELEASE_FILE)
 
 ##
 ## Targets

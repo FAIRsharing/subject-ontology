@@ -4,3 +4,4 @@ development/sparql/*.csv
 robot-extract.txt
 robot-filter.txt
 development/all.csv
+development/.~lock*
