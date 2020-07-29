@@ -3465,11 +3465,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <!-- http://purl.obolibrary.org/obo/OMIT_0026346#Infectious_Disease_Medicine -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026346#Infectious_Disease_Medicine">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026346">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
-        <obo:IAO_0000115></obo:IAO_0000115>
         <obo:IAO_0000115>Infectious Disease Medicine is a branch of internal medicine concerned with the diagnosis and treatment of infectious diseases. [Adapted from MeSH https://meshb.nlm.nih.gov/record/ui?ui=D055552, PM 29.07.2020]</obo:IAO_0000115>
-        <obo:IAO_0000412>MeSH; FAIRsharing requirement</obo:IAO_0000412>
+        <obo:IAO_0000412>OMIT</obo:IAO_0000412>
+        <obo:IAO_0000412>FAIRsharing requirement</obo:IAO_0000412>
         <rdfs:comment>PM 29.07.2020. The nearest term in SRAO is Epidemiology, but as this is about populations rather than individuals (as discussed in #49) we should not consider that part of the hierarchy. We may wish to relate this term to the Immunology hierarchy in some way.</rdfs:comment>
         <rdfs:label xml:lang="en">Infectious Disease Medicine</rdfs:label>
     </owl:Class>
