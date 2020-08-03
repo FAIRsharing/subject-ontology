@@ -50,12 +50,12 @@ VERSION_IRI := "http://www.fairsharing.org/ontology/subject/SRAO.owl/$(RELNUM)"
 
 # Compare two OWL files, providing LEFT and RIGHT paths and filenames
 robot_diff:
-	$(ROBOT) diff --left $(LEFT) --right $(RIGHT) > $(BUILD_DIR)/diff.txt
+	$(ROBOT) diff --labels=true --format=markdown --left $(LEFT) --right $(RIGHT) --output $(BUILD_DIR)/diff.md
 
 # Creates a diff between RELNUM and PREVIOUS_RELNUM
 diff_release: check_relnum
 	test $(PREVIOUS_RELNUM)
-	$(ROBOT) diff --left $(RELEASE_TOP_DIR)/$(PREVIOUS_RELNUM)/SRAO.owl --right $(RELEASE_FILE)
+	$(ROBOT) diff --labels=true --format=markdown --left $(RELEASE_TOP_DIR)/$(PREVIOUS_RELNUM)/SRAO.owl --right $(RELEASE_FILE) --output $(BUILD_DIR)/diff.md
 
 ##
 ## Targets

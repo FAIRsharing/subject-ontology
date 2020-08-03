@@ -171,12 +171,14 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>
     
+
 
 
     <!-- 
@@ -3365,8 +3367,20 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Medieval History</rdfs:label>
     </owl:Class>
-    
 
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0026346 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>Infectious Disease Medicine is a branch of internal medicine concerned with the diagnosis and treatment of infectious diseases. [Adapted from MeSH https://meshb.nlm.nih.gov/record/ui?ui=D055552, PM 29.07.2020]</obo:IAO_0000115>
+        <obo:IAO_0000412>FAIRsharing requirement</obo:IAO_0000412>
+        <obo:IAO_0000412>OMIT</obo:IAO_0000412>
+        <rdfs:comment>PM 29.07.2020. The nearest term in SRAO is Epidemiology, but as this is about populations rather than individuals (as discussed in #49) we should not consider that part of the hierarchy. We may wish to relate this term to the Immunology hierarchy in some way.</rdfs:comment>
+        <rdfs:label xml:lang="en">Infectious Disease Medicine</rdfs:label>
+    </owl:Class>
+    
 
     <!-- http://purl.obolibrary.org/obo/OMIT_0026346 -->
 
@@ -3496,6 +3510,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:label xml:lang="en">Medical Virology</rdfs:label>
     </owl:Class>
     
+
 
 
     <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000002 -->
@@ -5434,7 +5449,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0013823"/>
         <obo:IAO_0000115 xml:lang="en">Community Care research is concerned with services that are intended to help people who need care and support to live with dignity and independence in the community and to avoid social isolation. The services are aimed at the elderly and those who have mental illness, learning disability and physical disability. The main aim in providing community care services is to enable people to remain living in their own homes and to retain as much independence as possible, avoiding social isolation. [https://patient.info/doctor/community-care, AL 21.05.2019]</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Care in the Community</obo:IAO_0000118>
-        <obo:IAO_0000412 xml:lang="en">Curator request</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Community Care</rdfs:label>
     </owl:Class>
     
