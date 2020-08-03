@@ -10,6 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:domains="http://www.fairsharing.org/ontology/domains/"
      xmlns:subject="http://www.fairsharing.org/ontology/subject/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ontology="http://www.fairsharing.org/ontology/"
      xmlns:subjects="http://www.fairsharing.org/ontology/subjects/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/subject/SRAO.owl">
@@ -168,6 +169,16 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>
     
+
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
 
 
     <!-- 
@@ -3356,8 +3367,20 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Medieval History</rdfs:label>
     </owl:Class>
-    
 
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0026346 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>Infectious Disease Medicine is a branch of internal medicine concerned with the diagnosis and treatment of infectious diseases. [Adapted from MeSH https://meshb.nlm.nih.gov/record/ui?ui=D055552, PM 29.07.2020]</obo:IAO_0000115>
+        <obo:IAO_0000412>FAIRsharing requirement</obo:IAO_0000412>
+        <obo:IAO_0000412>OMIT</obo:IAO_0000412>
+        <rdfs:comment>PM 29.07.2020. The nearest term in SRAO is Epidemiology, but as this is about populations rather than individuals (as discussed in #49) we should not consider that part of the hierarchy. We may wish to relate this term to the Immunology hierarchy in some way.</rdfs:comment>
+        <rdfs:label xml:lang="en">Infectious Disease Medicine</rdfs:label>
+    </owl:Class>
+    
 
     <!-- http://purl.obolibrary.org/obo/OMIT_0026346 -->
 
@@ -3474,6 +3497,20 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:label xml:lang="en">Plant Anatomy</rdfs:label>
     </owl:Class>
     
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000400 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000400">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0781"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>Medical Virology is the study of the diagnosis and management of infectious diseases from a clinical and laboratory perspective, with particular interest in infection control, medical microbiology and public health. [Adapted from Royal College of Pathologists https://www.rcpath.org/resourceLibrary/medical-virology-incorporating-cit-curriculum.html, AL 20.5.2020]</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Clinical Virology</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>FAIRsharing requirement</rdfs:comment>
+        <rdfs:label xml:lang="en">Medical Virology</rdfs:label>
+    </owl:Class>
+    
+
 
 
     <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000002 -->
