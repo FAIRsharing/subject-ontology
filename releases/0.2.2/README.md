@@ -16,7 +16,7 @@ Please contact us at contact@fairsharing.org if you have any questions.
 
 # Ontology comparison
 
-I ran a diff between the 0.2.1 and 0.2.2. using [Robot diff](http://robot.obolibrary.org/diff). Below is the output of that run, which confirms that all of the changes listed in the [0.2.2 Milestone](https://github.com/FAIRsharing/subject-ontology/milestone/4) have been completed correctly. The output of that diff is shown below.
+I ran a diff between the 0.2.1 and 0.2.2 releases using [Robot diff](http://robot.obolibrary.org/diff). Below is the output of that run, which confirms that all of the changes listed in the [0.2.2 Milestone](https://github.com/FAIRsharing/subject-ontology/milestone/4) have been completed correctly.
 
 ## Old
 - Ontology IRI: `http://www.fairsharing.org/ontology/subject/SRAO.owl`
