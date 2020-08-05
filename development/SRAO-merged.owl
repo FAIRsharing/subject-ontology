@@ -4085,19 +4085,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000400 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000400">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0781"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
-        <obo:IAO_0000115>Medical Virology is the study of the diagnosis and management of infectious diseases from a clinical and laboratory perspective, with particular interest in infection control, medical microbiology and public health. [Adapted from Royal College of Pathologists https://www.rcpath.org/resourceLibrary/medical-virology-incorporating-cit-curriculum.html, AL 20.5.2020]</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>Clinical Virology</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>FAIRsharing requirement</rdfs:comment>
-        <rdfs:label xml:lang="en">Medical Virology</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000002 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000002">
@@ -6089,6 +6076,19 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to SRAO to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 1.5.2019 Refactored re3data composite class &apos;Endocrinology, Diabetology&apos; into parent &apos;Endocrinology&apos; and child &apos;Diabetology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Endocrinology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000400 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000400">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0781"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>Medical Virology is the study of the diagnosis and management of infectious diseases from a clinical and laboratory perspective, with particular interest in infection control, medical microbiology and public health. [Adapted from Royal College of Pathologists https://www.rcpath.org/resourceLibrary/medical-virology-incorporating-cit-curriculum.html, AL 20.5.2020]</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Clinical Virology</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>FAIRsharing requirement</rdfs:comment>
+        <rdfs:label xml:lang="en">Medical Virology</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
