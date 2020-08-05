@@ -9,7 +9,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:domains="http://www.fairsharing.org/ontology/domains/"
-     xmlns:subject="http://www.fairsharing.org/ontology/subject/">
+     xmlns:subject="http://www.fairsharing.org/ontology/subject/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/subject/SRAO.owl">
         <dc:creator xml:lang="en">The FAIRsharing Team, contact@fairsharing.org</dc:creator>
         <dc:title xml:lang="en">FAIRsharing Subject Ontology (SRAO)</dc:title>
@@ -168,6 +169,14 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000317">
         <rdfs:label xml:lang="en">OBI alternative term</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>
     
@@ -2036,7 +2045,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://purl.obolibrary.org/obo/NCIT_C15188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15188">
-        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19199"/>
         <obo:IAO_0000115>Research concerned with the application of biological and physiological principles to clinical medicine.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
@@ -4071,6 +4081,19 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <subject:SRAO_0000292 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物 解剖学（形態）的実体 (Japanese, exact)</subject:SRAO_0000292>
         <rdfs:comment>AL 23.11.17: Please note the original Plant Ontology term is &apos;plant anatomical entity&apos;, however FAIRsharing requires the use of the term in the sense of a subject/discipline.</rdfs:comment>
         <rdfs:label xml:lang="en">Plant Anatomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000400 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000400">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0781"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000115>Medical Virology is the study of the diagnosis and management of infectious diseases from a clinical and laboratory perspective, with particular interest in infection control, medical microbiology and public health. [Adapted from Royal College of Pathologists https://www.rcpath.org/resourceLibrary/medical-virology-incorporating-cit-curriculum.html, AL 20.5.2020]</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Clinical Virology</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>FAIRsharing requirement</rdfs:comment>
+        <rdfs:label xml:lang="en">Medical Virology</rdfs:label>
     </owl:Class>
     
 
