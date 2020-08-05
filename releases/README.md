@@ -6,7 +6,7 @@ for how you can use and re-use this ontology.
 
 ## SRAO Updates
 
-This minor point release was created to 1) add a few COVID-19-related terms, and 2) to make a few small but timely modifications to the ontology. modify how IRIs in SRAO are built.
+This minor point release was created to 1) add a few COVID-19-related terms, and 2) to make a few small but timely modifications to the ontology.
 
 One class was promoted from the user-defined tag list to SRAO. Refactoring information for this release is available at [refactoredIRIs-SRAO-0.2.2.txt](https://github.com/FAIRsharing/subject-ontology/blob/master/releases/0.2.2/refactoredIRIs-SRAO-0.2.2.txt).
 
