@@ -5,7 +5,6 @@ Old IRI|New IRI
 # List of promotions from user-defined tags to SRAO
 Old Label|New IRI
 Drug repositioning|http://purl.obolibrary.org/obo/OMIT_0027237
-Approved drug|http://www.fairsharing.org/ontology/DRAO_0000322
 
 # List of IRIs that have moved from DRAO to SRAO in the current milestone
 # There are spaces for three IRIs, but you may only need one or two of them.
