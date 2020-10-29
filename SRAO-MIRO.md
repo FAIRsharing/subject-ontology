@@ -15,7 +15,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The full name of the ontology, including the acronym and the version number referred to in the report. |
 | **Importance:** | MUST |
-| **Value:** | Subject Resource Application Ontology (SRAO), Version 0.2.0 |
+| **Value:** | Subject Resource Application Ontology (SRAO), Version 0.2.2 |
 ----
 
 ### A.2 Ontology owner
@@ -42,7 +42,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The web location where the ontology file is available. |
 | **Importance:** | MUST |
-| **Value:** | [https://github.com/FAIRsharing/subject-ontology/blob/master/releases/0.2.0/SRAO-release-0.2.0.owl](https://github.com/FAIRsharing/subject-ontology/blob/master/releases/0.2.0/SRAO-release-0.2.0.owl) |
+| **Value:** | [https://github.com/FAIRsharing/subject-ontology/raw/master/releases/SRAO.owl](https://github.com/FAIRsharing/subject-ontology/raw/master/releases/SRAO.owl) |
 ----
 
 ### A.5 Ontology repository
@@ -176,7 +176,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | Number of classes, properties, axioms and types of axioms, rules and individuals in the ontology. |
 | **Importance:** | SHOULD |
-| **Value:** |  includes 422 classes, 0 object properties, 15 annotation properties, 3359 axioms (559 SubClassOf axioms), 0 rules, 0 individuals.  |
+| **Value:** |  includes 426 classes, 0 object properties, 17 annotation properties, 3390 axioms (565 SubClassOf axioms), 0 rules, 0 individuals.  |
 ----
 
 ### E.4 Incorporation of other ontologies
@@ -268,7 +268,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | Describe the procedures for managing entities that become removed, split or redefined. |
 | **Importance:** | MUST |
-| **Value:** | SRAO is an application ontology, and therefore as external ontologies deprecate classes, we will have to find alternatives. We may also choose to delete an term which is no longer appropriate for FAIRsharing. This will usually just be dropping an external class from an application ontology - the originating ontology will still retain that class. Where a SRAO IRI is no longer required, up through version 0.2.0 the unnecessary class was deleted. In future versions we plan to deprecate an IRI using the owl:deprecated boolean. |
+| **Value:** | SRAO is an application ontology, and therefore as external ontologies deprecate classes, we will have to find alternatives. We may also choose to delete an term which is no longer appropriate for FAIRsharing. This will usually just be dropping an external class from an application ontology - the originating ontology will still retain that class. Where a SRAO IRI is no longer required, up through version 0.2.2 the unnecessary class was deleted. In future versions we plan to deprecate an IRI using the owl:deprecated boolean. |
 ----
 
 ### F.3 Versioning policy
