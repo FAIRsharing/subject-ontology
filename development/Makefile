@@ -1,9 +1,18 @@
 ##
+## Variables required for Top-level targets
+##
+
+# Where all the files created by this makefile should go
+BUILD_DIR := build
+# Where ROBOT lives during makes
+ROBOT_LOCAL := $(BUILD)/robot.jar
+
+##
 ## Top-level targets
 ##
 
 # By default, this Makefile will build the standalone version of the ontology.
-build: build/robot.jar merge
+build: $(ROBOT_LOCAL) merge
 
 # The build_release target should be run with a current release number specified
 # with RELNUM, e.g. RELNUM=0.1.0
@@ -22,13 +31,11 @@ release: copy_release_files
 # ROBOT_REMOTE_LOCATION := https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar
 # ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4.3/robot.jar
 ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/latest/download/robot.jar
-ROBOT := java -jar build/robot.jar
+ROBOT := java -jar $(ROBOT_LOCAL)
 
 # The development file
 BASE_FILE := SRAO.owl
 
-# Where all the files created by this makefile should go
-BUILD_DIR := build
 
 # The release directory
 RELEASE_TOP_DIR := ../releases
@@ -49,13 +56,19 @@ VERSION_IRI := "http://www.fairsharing.org/ontology/subject/SRAO.owl/$(RELNUM)"
 ##
 
 # Compare two OWL files, providing LEFT and RIGHT paths and filenames
-robot_diff:
+robot_diff: $(ROBOT_LOCAL)
 	$(ROBOT) diff --labels=true --format=markdown --left $(LEFT) --right $(RIGHT) --output $(BUILD_DIR)/diff.md
 
 # Creates a diff between RELNUM and PREVIOUS_RELNUM
-diff_release: check_relnum
+diff_release: check_relnum $(ROBOT_LOCAL)
 	test $(PREVIOUS_RELNUM)
 	$(ROBOT) diff --labels=true --format=markdown --left $(RELEASE_TOP_DIR)/$(PREVIOUS_RELNUM)/SRAO.owl --right $(RELEASE_FILE) --output $(BUILD_DIR)/diff.md
+
+
+## Produce a table of statistics about the ontology
+robot_measure: $(ROBOT_LOCAL)
+	$(ROBOT) measure --metrics extended --input $(INPUT) --output $(BUILD_DIR)/metrics.html
+
 
 ##
 ## Targets
@@ -81,7 +94,7 @@ reqd_release_dirs:
 	test -d $(BUILD_DIR)
 	mkdir $(RELEASE_DIR)
 
-build/robot.jar: | reqd_build_dirs
+$(ROBOT_LOCAL): | reqd_build_dirs
 	curl -L -o build/robot.jar $(ROBOT_REMOTE_LOCATION)
 	chmod ug+x build/robot.jar
 
