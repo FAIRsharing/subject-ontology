@@ -652,7 +652,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_4682">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
-        <obo:IAO_0000115 xml:lang="en">Mechanical Engineering applies the principles of engineering, physics and materials science to the design, analysis, manufacture and maintenance of mechnical systems.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mechanical Engineering applies the principles of engineering, physics and materials science to the design, analysis, manufacture and maintenance of mechanical systems.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Adapted from Quora, PAM 27.02.2018</obo:IAO_0000119>
@@ -5935,6 +5935,20 @@ Example: &quot;JPEG&quot; is Subject Agnostic, which means that the format is ap
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Allyson Lister 15.11.21</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Subject Agnostic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000402 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000402">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4682"/>
+        <obo:IAO_0000115 xml:lang="en">The planning or specification for the construction of an object, system, device or tool used for scientific purposes, including the study of both natural phenomena and theoretical research. May include the result of the plan or specification in the form of a prototype, product or process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Created by https://github.com/only1chunts and adapted from https://en.wikipedia.org/wiki/Design and https://en.wikipedia.org/wiki/Scientific_instrument, 8.7.21</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">User request</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">Added as a result of the discussion at https://github.com/FAIRsharing/subject-ontology/issues/64</rdfs:comment>
+        <rdfs:label xml:lang="en">Scientific Instrument Design</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
