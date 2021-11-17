@@ -115,15 +115,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0122 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0122">
-        <obo:IAO_0000115>The elucidation of the three dimensional structure for all (available) proteins in a given organism.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0194 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0194">
@@ -1754,6 +1745,15 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <subject:SRAO_0000276>Proteomics</subject:SRAO_0000276>
         <subject:SRAO_0000276>proteomics</subject:SRAO_0000276>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20126">
+        <obo:IAO_0000115>The elucidation of the three dimensional structure for all (available) proteins in a given organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 

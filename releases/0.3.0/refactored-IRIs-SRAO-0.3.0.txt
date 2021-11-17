@@ -1,6 +1,7 @@
 # List of refactored IRIs that have remained in SRAO.
 
 Old IRI|New IRI|Note
+http://edamontology.org/topic_0122|http://purl.obolibrary.org/obo/NCIT_C20126|See https://github.com/FAIRsharing/subject-ontology/issues/48
 
 # List of promotions from user-defined tags to SRAO
 Old Label|New IRI|Note
