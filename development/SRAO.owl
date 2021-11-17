@@ -5988,6 +5988,86 @@ Example: &quot;JPEG&quot; is Subject Agnostic, which means that the resource is 
         <rdfs:comment xml:lang="en">See also https://github.com/FAIRsharing/subject-ontology/issues/36</rdfs:comment>
         <rdfs:label xml:lang="en">Metaproteomics</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000406 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000406">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000189"/>
+        <obo:IAO_0000115 xml:lang="en">Selenography is the study of the surface and physical features of the Moon.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Delphine Dauga</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Lunar Science</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Topography_of_the_Moon, DD 6.5.21</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Selenography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000407 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000407">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000189"/>
+        <obo:IAO_0000115 xml:lang="en">Cosmology is a branch of astronomy concerned with the studies of the origin and evolution of the universe, from the Big Bang to today and on into the future.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Delphine Dauga</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Cosmology, DD 6.5.21</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Cosmology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000408 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000408">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+        <obo:IAO_0000115 xml:lang="en">Electromagnetism is a branch of physics involving the study of the electromagnetic force, a type of physical interaction that occurs between electrically charged particles.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Delphine Dauga</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Electromagnetism, DD 6.5.21</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Electromagnetism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000409 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000409">
+        <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4856"/>
+        <obo:IAO_0000115 xml:lang="en">Gemology or gemmology is the science dealing with natural and artificial gemstone materials. It is considered a geoscience and a branch of mineralogy.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Delphine Dauga</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Gemology, DD 6.5.21</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Gemology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000410 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0010809"/>
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000411"/>
+        <obo:IAO_0000115 xml:lang="en">Bathymetry is the study of underwater depth of ocean floors or lake floors.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Delphine Dauga</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Bathymetry, DD 6.5.21</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Bathymetry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000411 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000411">
+        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000203"/>
+        <obo:IAO_0000115 xml:lang="en">Hydrography is the branch of applied sciences which deals with the measurement and description of the physical features of oceans, seas, coastal areas, lakes and rivers, as well as with the prediction of their change over time, for the primary purpose of safety of navigation and in support of all other marine activities, including economic development, security and defense, scientific research, and environmental protection.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Delphine Dauga</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Hydrography, DD 6.5.21</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Hydrography</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
