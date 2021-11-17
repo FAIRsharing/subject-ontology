@@ -3162,14 +3162,14 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://purl.obolibrary.org/obo/OMIT_0002494 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0002494">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000004"/>
-        <obo:IAO_0000115 xml:lang="en">Classical Archaeology is the archaeological investigation of the Mediterranean civilizations of Ancient Greece and Ancient Rome.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0002286"/>
+        <obo:IAO_0000115 xml:lang="en">Archaeology is the scientific study human activity through the recovery and analysis of the remains and monuments of the prehistoric period.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Wikipedia https://en.wikipedia.org/wiki/Classical_archaeology, AL 13.6.2019</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">Adapted by AL from OED and https://en.wikipedia.org/wiki/Archaeology, 17.11.21</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000272>Archaeology</subject:SRAO_0000272>
-        <rdfs:label xml:lang="en">Classical Archaeology</rdfs:label>
+        <rdfs:label xml:lang="en">Archaeology</rdfs:label>
     </owl:Class>
     
 
