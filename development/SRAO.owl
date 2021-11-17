@@ -3699,8 +3699,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Adapted from https://www.thebritishacademy.ac.uk/blog/what-social-science, AL 17.6.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">AL 17.11.21: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL 3.6.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
-        <rdfs:label xml:lang="en">Humanities and Social Sciences</rdfs:label>
+        <rdfs:label xml:lang="en">Humanities and Social Science</rdfs:label>
     </owl:Class>
     
 
