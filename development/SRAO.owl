@@ -1581,9 +1581,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3397">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0009577"/>
+        <obo:IAO_0000118>Veterinary Science</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <domains:DRAO_0000001>Veterinary Science</domains:DRAO_0000001>
         <rdfs:label xml:lang="en">Veterinary Medicine</rdfs:label>
     </owl:Class>
     
