@@ -998,7 +998,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_0089">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">See also https://github.com/FAIRsharing/subject-ontology/issues/24</rdfs:comment>
         <rdfs:label xml:lang="en">Ontology and Terminology</rdfs:label>
     </owl:Class>
     
