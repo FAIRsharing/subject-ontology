@@ -152,15 +152,6 @@
     
 
 
-    <!-- http://edamontology.org/topic_0219 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0219">
-        <obo:IAO_0000115>Deposition and curation of database accessions, including annotation, typically with terms from a controlled vocabulary.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/topic_0605 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0605">

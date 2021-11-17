@@ -30,7 +30,6 @@ http://edamontology.org/topic_0122
 http://edamontology.org/topic_0194
 http://edamontology.org/topic_0208
 http://edamontology.org/topic_0209
-http://edamontology.org/topic_0219
 http://edamontology.org/topic_0605
 http://edamontology.org/topic_0637
 http://edamontology.org/topic_0780
