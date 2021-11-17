@@ -226,10 +226,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_11669">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_3731"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007039"/>
-        <obo:IAO_0000115 xml:lang="en">Hydrogeology is the subfield of Geology that is concerned with the study of water on or below the surface of the earth. [Adapted from OED, AL 19.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Hydrogeology is the subfield of Geology that is concerned with the study of water on or below the surface of the earth.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Adapted from OED, AL 19.6.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored &apos;Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management&apos; and its hierarchy into: &apos;Hydrology&apos; with child &apos;Hydrogeology&apos;; &apos;Limnology&apos;; and &apos;Water Management&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Water Chemistry&apos; subdomain. Hydrology and Limnology had previously been refactored out of this class, and now the class has been completely refactored to create one class per concept.</rdfs:comment>
         <rdfs:label xml:lang="en">Hydrogeology</rdfs:label>
     </owl:Class>
@@ -266,10 +267,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_16129">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000115 xml:lang="en">Forest Management is a branch of forestry concerned with overall administrative, economic, legal, and social aspects, as well as scientific and technical aspects, such as silviculture, protection, and forest regulation. This includes management for aesthetics, fish, recreation, urban values, water, wilderness, wildlife, wood products, forest genetic resources, and other forest resource values. Management can be based on conservation, economics, or a mixture of the two. [Wikipedia https://en.wikipedia.org/wiki/Forest_management, 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Forest Management is a branch of forestry concerned with overall administrative, economic, legal, and social aspects, as well as scientific and technical aspects, such as silviculture, protection, and forest regulation. This includes management for aesthetics, fish, recreation, urban values, water, wilderness, wildlife, wood products, forest genetic resources, and other forest resource values. Management can be based on conservation, economics, or a mixture of the two.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Wikipedia https://en.wikipedia.org/wiki/Forest_management, 1.4.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Inventory Control and Use of Forest Resources</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Inventory Control and Use of Forest Resources&apos; into &apos;Forest Management&apos; to simplify the term according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Inventory Control&apos; subdomain.</rdfs:comment>
         <rdfs:label xml:lang="en">Forest Management</rdfs:label>
     </owl:Class>
@@ -332,10 +334,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_203">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_4318"/>
-        <obo:IAO_0000115 xml:lang="en">Agriculture is the science, art, or practice of cultivating the soil, producing crops, and raising livestock and in varying degrees the preparation and marketing of the resulting products. [AgroVoc http://aims.fao.org/aos/agrovoc/c_203, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Agriculture is the science, art, or practice of cultivating the soil, producing crops, and raising livestock and in varying degrees the preparation and marketing of the resulting products.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">AgroVoc http://aims.fao.org/aos/agrovoc/c_203, AL 12.6.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Agriculture, Forestry, Horticulture and Veterinary Medicine</subject:SRAO_0000268>
         <rdfs:label xml:lang="en">Agriculture</rdfs:label>
     </owl:Class>
     
@@ -530,7 +533,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000119 xml:lang="en">Wikipedia https://en.wikipedia.org/wiki/Logistics_engineering, 3.4.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Traffic and Transport Systems, Logistics</subject:SRAO_0000268>
         <subject:SRAO_0000278 xml:lang="en">Logistics</subject:SRAO_0000278>
         <rdfs:comment xml:lang="en">AL: 4.4.2019 Refactored re3data composite label &apos;Traffic and Transport Systems, Logistics&apos; into &apos;Logistics Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Logistics Engineering</rdfs:label>
@@ -543,7 +545,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_331559">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
-        <obo:IAO_0000115 xml:lang="en">Environmental Science is a broad interdisciplinary field in which ecologists work with other physical, chemical, and biological researchers to study and seek solutions to environmental problems. Environmental science focuses on the environment and how humans can manage and utilise its resources and the effects our actions have on the environment. [Adapted by AL from https://www.quora.com/What-are-the-main-differences-between-ecology-and-environmental-science and https://blog.oup.com/2012/05/its-ecology-not-environmental-science/ 26.6.18]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Environmental Science is a broad interdisciplinary field in which ecologists work with other physical, chemical, and biological researchers to study and seek solutions to environmental problems. Environmental science focuses on the environment and how humans can manage and utilise its resources and the effects our actions have on the environment.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Adapted by AL from https://www.quora.com/What-are-the-main-differences-between-ecology-and-environmental-science and https://blog.oup.com/2012/05/its-ecology-not-environmental-science/ 26.6.18</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <subject:SRAO_0000278 xml:lang="en">Environmental Sciences</subject:SRAO_0000278>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
@@ -624,10 +628,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_4318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0011790"/>
-        <obo:IAO_0000115 xml:lang="en">Life Science is the study of all of the divisions of the natural sciences dealing with the various aspects of the phenomena of life and vital processes. [Adapted from AgroVoc, AL 6.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Life Science is the study of all of the divisions of the natural sciences dealing with the various aspects of the phenomena of life and vital processes.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Adapted from AgroVoc, AL 6.6.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Life Sciences</subject:SRAO_0000268>
         <subject:SRAO_0000278 xml:lang="en">Life Sciences</subject:SRAO_0000278>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Life Science</rdfs:label>
@@ -762,10 +767,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_5963">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
-        <obo:IAO_0000115 xml:lang="en">Plant Ecology is a subdiscipline of Ecology which studies the distribution and abundance of plants, the effects of environmental factors upon the abundance of plants, and the interactions among and between plants and other organisms. [Wikipedia https://en.wikipedia.org/wiki/Plant_ecology, 3.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Plant Ecology is a subdiscipline of Ecology which studies the distribution and abundance of plants, the effects of environmental factors upon the abundance of plants, and the interactions among and between plants and other organisms.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Wikipedia https://en.wikipedia.org/wiki/Plant_ecology, 3.4.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Plant Ecology and Ecosystem Analysis</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Plant Ecology and Ecosystem Analysis&apos; into &apos;Plant Ecology&apos; to simplify the term according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Ecosystem Analysis&apos; subdomain.</rdfs:comment>
         <rdfs:label xml:lang="en">Plant Ecology</rdfs:label>
     </owl:Class>
@@ -831,10 +837,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16294"/>
         <obo:IAO_0000115 xml:lang="en">Social Anthropology is the study of human societies where the culture and its continuity (including narratives, rituals, and symbolic behavior associated with them) are seen as a dependent variable, embedded in its historical and social context, rather than the independent variable. Social anthropology is the more common term in Britain, with Cultural Anthropology usually preferred in the United States, though these can also often describe different research areas. The terms tend to reflect a difference in emphasis between the two disciplines, with social anthropology emphasizing the organizational bases of societies and cultures, such as political systems, tribal kinship, and economic organization. In practice, the disciplines coincide in many respects.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Social and Cultural Anthropology and Ethnology/Folklore</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">Adapted from Wikipedia https://en.wikipedia.org/wiki/Social_anthropology and OED, AL 11.4.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Social and Cultural Anthropology and Ethnology/Folklore</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 11.4.2019 Refactored re3data composite class &apos;Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies&apos; and its children &apos;African, American and Oceania Studies&apos;, &apos;Asian Studies&apos;, &apos;Religious Studies and Jewish Studies&apos;, &apos;Islamic Studies, Arabian Studies, Semitic Studies&apos;, and &apos;Social and Cultural Anthropology and Ethnology/Folklore&apos; into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Social Anthropology</rdfs:label>
     </owl:Class>
@@ -862,10 +868,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_211"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
-        <obo:IAO_0000115 xml:lang="en">Soil Science is the study of the properties, occurrence, and management of soil as a natural resource. Generally it includes the chemistry, microbiology, physics, morphology, and mineralogy of soils, as well as their genesis and classification. [GEMET https://www.eionet.europa.eu/gemet/en/concept/7890, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Soil Science is the study of the properties, occurrence, and management of soil as a natural resource. Generally it includes the chemistry, microbiology, physics, morphology, and mineralogy of soils, as well as their genesis and classification.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GEMET https://www.eionet.europa.eu/gemet/en/concept/7890, AL 12.6.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Soil Sciences</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL 12.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:comment>AL 6.3.18: Placement of Soil Sciences is modified from the re3data hierarchy due to adjustments to align with the AgroVoc hierarchy. re3data placement is as a child of Agriculture, which has been further refined to Agronomy. AgroVoc places Soil Sciences as a child of Earth Sciences, which has been reproduced here.</rdfs:comment>
         <rdfs:label xml:lang="en">Soil Science</rdfs:label>
@@ -891,10 +898,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8532">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
-        <obo:IAO_0000115 xml:lang="en">Animal Husbandry is the branch of agriculture concerned with animals that are raised for meat, fibre, milk, eggs, or other products. It includes day-to-day care, selective breeding and the raising of livestock. [Wikipedia, https://en.wikipedia.org/wiki/Animal_husbandry, 1.4.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Animal Husbandry is the branch of agriculture concerned with animals that are raised for meat, fibre, milk, eggs, or other products. It includes day-to-day care, selective breeding and the raising of livestock.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Wikipedia, https://en.wikipedia.org/wiki/Animal_husbandry, 1.4.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Animal Husbandry, Breeding and Hygiene</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Animal Husbandry, Breeding and Hygiene&apos; into parent &apos;Animal Husbandry&apos; and child &apos;Animal Breeding&apos; according to FAIRsharing curation best practises. Please note we do not currently require the &apos;Animal Hygiene&apos; subdomain.</rdfs:comment>
         <rdfs:label xml:lang="en">Animal Husbandry</rdfs:label>
     </owl:Class>
@@ -928,7 +936,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000119 xml:lang="en">GEMET https://www.eionet.europa.eu/gemet/en/concept/195, AL 12.6.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Agricultural and Food Process Engineering</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Agricultural and Food Process Engineering&apos; into sibling classes &apos;Agricultural Engineering&apos; and &apos;Food Process Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Agricultural Engineering</rdfs:label>
     </owl:Class>
@@ -945,7 +952,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000119 xml:lang="en">Adapted from Wikipedia, PAM 28.02.2018</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Operating, Communication and Information Systems</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL 20.5.2019: This &apos;composite term&apos; (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Operating, Communication and Information Systems&apos; by merging and aligning with its child class &apos;Knowledge and Information Systems&apos; according to FAIRsharing curation best practises. We already cover communications via 1) the inclusion of communications systems as part of this class, and 2) the prescence of Telecommunications Engineering. Further, Operating Systems has been deemed as not in scope for SRAO.</rdfs:comment>
         <rdfs:label xml:lang="en">Knowledge and Information Systems</rdfs:label>
@@ -958,10 +964,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_92381">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_203"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
-        <obo:IAO_0000115 xml:lang="en">Agroecology is the study of ecological processes applied to agricultural production systems. [http://dbpedia.org/page/Agroecology, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Agroecology is the study of ecological processes applied to agricultural production systems.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://dbpedia.org/page/Agroecology, AL 12.6.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">AgroVoc</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268>Ecology of Agricultural Landscapes</subject:SRAO_0000268>
         <rdfs:comment>AL 9.11.2017: Added subClassOf Ecology axiom to allow users to find this subject both via the original re3data hierarchy and the additional EDAM hierarchy. Also added the URI and label from AGROVOC as it is preferred to the re3data label, which has become an alternative term.</rdfs:comment>
         <rdfs:label xml:lang="en">Agroecology</rdfs:label>
     </owl:Class>
@@ -1083,9 +1090,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_0780">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000118>Plant Science</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268>Plant Sciences</subject:SRAO_0000268>
         <subject:SRAO_0000269>Plant biology</subject:SRAO_0000269>
         <rdfs:comment>AL: 28.9.17 Changed re3data label from &apos;Plant Sciences&apos; to Botany to align with FAIRsharing terminology.</rdfs:comment>
         <rdfs:label xml:lang="en">Botany</rdfs:label>
@@ -1323,9 +1331,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3299">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268>Evolution, Anthropology</subject:SRAO_0000268>
         <rdfs:comment>AL 1.5.2019: Refactored re3data class &apos;Evolution, Anthropology&apos; into &apos;Evolutionary Biology&apos; to better fit the hierarchy. Please note Anthropology is already an existing term within SRAO. The re3data label has been retained as a re3data alternative term for backwards compatibility.</rdfs:comment>
         <rdfs:label xml:lang="en">Evolutionary Biology</rdfs:label>
     </owl:Class>
@@ -1820,9 +1828,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://edamontology.org/topic_3697">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16526"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268>Microbial Ecology and Applied Microbiology</subject:SRAO_0000268>
         <rdfs:comment>AL 27.9.17 &apos;Microbial Ecology&apos; is asserted as a child of Microbiology by both EDAM and re3data and as a child of Ecology by EDAM. The re3data label &apos;Microbial Ecology and Applied Microbiology&apos; was split into &apos;Microbial Ecology&apos; and &apos;Applied Microbiology&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Microbial Ecology</rdfs:label>
     </owl:Class>
@@ -2074,9 +2082,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16421">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Chemical Solid State and Surface Research</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Chemical Solid State and Surface Research&apos; into &apos;Physical Chemistry&apos;, and refactored all child classes and the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Physical Chemistry</rdfs:label>
     </owl:Class>
@@ -2236,9 +2244,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16624">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">General Genetics</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL (Original date unknown, updated 10.6.2019): Changed re3data label from &apos;General Genetics&apos; to Genetics as this is the term used within FAIRsharing. This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:label xml:lang="en">Genetics</rdfs:label>
     </owl:Class>
@@ -2296,9 +2304,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16851">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268>Microbiology, Virology and Immunology</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL: 25.9.17 [Updated AL 10.06.2019] Changed re3data label from &apos;Microbiology, Virology and Immunology&apos; to &apos;Microbiology&apos; as these are three distinct disciplines. All three disciplines have been removed from the Medicine hierarchy as listed by re3data. Microbiology has been asserted as a child of Biology according to NCIT and FAIRsharing curators. Virology has been asserted as a child of Microbiology to align with re3data, further refining the placement within EDAM. Immunology remains a child of Biomedical Science according to FAIRsharing curators, a modification both of the Medicine hierarchy as listed by re3data and the Biological Sciences as listed by NCIT.</rdfs:comment>
         <rdfs:label xml:lang="en">Microbiology</rdfs:label>
@@ -2390,7 +2398,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268>Clinical Neurosciences III - Ophthalmology</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to NCIT to better align with FAIRsharing curation guidelines.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL 28.9.17 (Updated AL 11.6.2019): Changed re3data label from &apos;Clinical Neurosciences III - Opthalmology&apos; to Opthalmology as the new label is simpler and aligns with FAIRsharing best practises. Opthalmology is asserted within the Medicine hierarchy by NCIT and as a child of Neurobiology by re3data. Both assertions have been retained.</rdfs:comment>
         <rdfs:label xml:lang="en">Ophthalmology</rdfs:label>
@@ -2519,9 +2526,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0010991"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268>Rheumatology, Clinical Immunology, Allergology</subject:SRAO_0000268>
         <rdfs:comment>AL: 7.5.2019 Refactored re3data composite class &apos;Rheumatology, Clinical Immunology, Allergology&apos; into classes &apos;Rheumatology&apos; (remains child of Medicine) and &apos;Clinical Immunology&apos; (child of Immunology and Health Sciences) according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Rheumatology</rdfs:label>
     </owl:Class>
@@ -2843,7 +2850,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Animal Genetics, Cell and Developmental Biology</subject:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL 17.11.21: Removed re3data alternative term &quot;Animal Genetics, Cell and Developmental Biology&quot;</rdfs:comment>
         <rdfs:comment>AL 25.1 18: The label within NCIT has been chosen as the label for this class as it is simpler, while the re3data has been retained as an alternative term.</rdfs:comment>
         <rdfs:label xml:lang="en">Animal Genetics</rdfs:label>
     </owl:Class>
@@ -2937,7 +2944,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Preparatory and Physical Chemistry of Polymers</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 21.5.2019 Refactored re3data composite class &apos;Preparatory and Physical Chemistry of Polymers&apos; into &apos;Polymer Chemistry&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Polymer Chemistry</rdfs:label>
     </owl:Class>
@@ -3008,7 +3014,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16421"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Solid State and Surface Chemistry, Material Synthesis</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises. Simplified this class name from &apos;Solid State and Surface Chemistry, Material Synthesis&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Synthesis Chemistry</rdfs:label>
     </owl:Class>
@@ -3067,7 +3072,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Cardiology, Angiology</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 20.5.2019 Refactored re3data composite class &apos;Cardiology, Angiology&apos; into sibling classes &apos;Cardiology&apos; and &apos;Angiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Cardiology</rdfs:label>
     </owl:Class>
@@ -3219,10 +3223,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0007039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026615"/>
-        <obo:IAO_0000115 xml:lang="en">Geology is the study or science of the earth, its history, and its life as recorded in the rocks; includes the study of geologic features of an area, such as the geometry of rock formations, weathering and erosion, and sedimentation. [GEMET https://www.eionet.europa.eu/gemet/en/concept/3650, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Geology is the study or science of the earth, its history, and its life as recorded in the rocks; includes the study of geologic features of an area, such as the geometry of rock formations, weathering and erosion, and sedimentation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GEMET https://www.eionet.europa.eu/gemet/en/concept/3650, AL 12.6.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268>Geology and Paleontology</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL 18.6.2019: This class&apos; label was updated when the original re3data subject &apos;Geology and Paleontology&apos; was split into two sibling classes.</rdfs:comment>
         <rdfs:label xml:lang="en">Geology</rdfs:label>
     </owl:Class>
@@ -3583,10 +3588,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026615">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0011790"/>
         <obo:IAO_0000115 xml:lang="en">Earth Science is the science that deals with the earth or any part thereof; includes the disciplines of geology, geography, oceanography and meteorology, among others. [GEMET https://www.eionet.europa.eu/gemet/en/concept/2405, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Geoscience</obo:IAO_0000118>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268>Geosciences (including Geography)</subject:SRAO_0000268>
-        <subject:SRAO_0000272 xml:lang="en">Earth Sciences</subject:SRAO_0000272>
         <rdfs:comment>AL 10.11.2017: Aligned with the OMIT &apos;Earth Sciences&apos; class, as this is the label and URI used within FAIRsharing.</rdfs:comment>
         <rdfs:comment xml:lang="en">AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Earth Science</rdfs:label>
@@ -3872,7 +3876,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OED</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Typology, Non-European Languages, Historical Linguistics</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 7.5.2019 Refactored re3data composite class &apos;Typology, Non-European Languages, Historical Linguistics&apos; into &apos;Historical Linguistics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Historical Linguistics</rdfs:label>
     </owl:Class>
@@ -4341,9 +4344,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000086">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0780"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17992"/>
-        <obo:IAO_0000115 xml:lang="en">Plant Cell Biology is a research area focusing on the how the processes underlying plant cell function and development are regulated. [Adapted from https://www.plants.ox.ac.uk/cell-and-developmental-biology-cdb, AL 23.3.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Plant Cell Biology is a research area focusing on the how the processes underlying plant cell function and development are regulated.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Adapted from https://www.plants.ox.ac.uk/cell-and-developmental-biology-cdb, AL 23.3.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Plant Cell and Developmental Biology</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;Plant Cell and Developmental Biology&apos; into &apos;Plant Cell Biology&apos; to simplify the term according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Plant Cell Biology</rdfs:label>
     </owl:Class>
@@ -4354,10 +4358,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
-        <obo:IAO_0000115 xml:lang="en">Behavioural Biology is an interdisciplinary degree and field of science that examines the bidirectional interactions between behaviour and biology. An organism’s genetic, physiological and immunological processes drive behaviour, just as an individual&apos;s behaviour will impact its physiological and immunological state. [https://www.abdn.ac.uk/study/undergraduate/degree-programmes/445/C859/behavioural-biology/. AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Behavioural Biology is an interdisciplinary degree and field of science that examines the bidirectional interactions between behaviour and biology. An organism’s genetic, physiological and immunological processes drive behaviour, just as an individual&apos;s behaviour will impact its physiological and immunological state.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Behavioral Biology</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">https://www.abdn.ac.uk/study/undergraduate/degree-programmes/445/C859/behavioural-biology/. AL 14.5.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Sensory and Behavioural Biology</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 14.5.2019 Refactored re3data composite class &apos;Sensory and Behavioural Biology&apos; into &apos;Behavioural Biology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Behavioural Biology</rdfs:label>
     </owl:Class>
@@ -4368,9 +4373,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000097">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
-        <obo:IAO_0000115 xml:lang="en">Molecular Microbiology is the branch of microbiology devoted to the study of the molecular basis of the physiological processes that occur in microorganisms. [Alan Ward https://www.staff.ncl.ac.uk/alan.ward/Molecular_Microbiology/Lecture%201.pptx, AL 6.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Molecular Microbiology is the branch of microbiology devoted to the study of the molecular basis of the physiological processes that occur in microorganisms.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Alan Ward https://www.staff.ncl.ac.uk/alan.ward/Molecular_Microbiology/Lecture%201.pptx, AL 6.6.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Metabolism, Biochemistry and Genetics of Microorganisms</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored re3data composite class &apos;Metabolism, Biochemistry and Genetics of Microorganisms&apos; into sibling classes &apos;Microbial Genetics&apos;, &apos; Microbial Physiology&apos; and &apos;Molecular Microbiology&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Molecular Microbiology</rdfs:label>
     </owl:Class>
@@ -4382,9 +4388,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000098">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3297"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
-        <obo:IAO_0000115 xml:lang="en">Applied Microbiology is a scientific discipline that deals with the application of microorganisms and the knowledge about them. Applications include biotechnology, agriculture, medicine, food microbiology and bioremediation. [Nature https://www.nature.com/subjects/applied-microbiology, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Applied Microbiology is a scientific discipline that deals with the application of microorganisms and the knowledge about them. Applications include biotechnology, agriculture, medicine, food microbiology and bioremediation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Nature https://www.nature.com/subjects/applied-microbiology, AL 12.6.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268>Microbial Ecology and Applied Microbiology</subject:SRAO_0000268>
         <rdfs:comment>AL: 25.9.17 Changed re3data label from &quot;Microbial Ecology and Applied Microbiology&quot; to &quot;Applied Microbiology&quot; as these are two distinct domains. Microbial Ecology, as a distinct displine, is a sibling class.</rdfs:comment>
         <rdfs:label xml:lang="en">Applied Microbiology</rdfs:label>
     </owl:Class>
@@ -4481,7 +4488,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Nature https://www.nature.com/subjects/molecular-neuroscience, 3.4.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Molecular Neuroscience and Neurogenetics</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 9.4.2019 Refactored re3data composite class &apos;Molecular Neuroscience and Neurogenetics&apos; into sibling classes &apos;Molecular Neuroscience&apos; and &apos;Neurogenetics&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Molecular Neuroscience</rdfs:label>
     </owl:Class>
@@ -4634,9 +4640,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16421"/>
-        <obo:IAO_0000115 xml:lang="en">Molecular Physical Chemistry is a field of Physical Chemistry concerned primarily with thermodynamics and reaction dynamics and other molecular properties that allow the behaviour of larger groups of molecules to be predicted. [Adapted from Molecular Physical Chemistry: A Concise Introduction 978-0854046195, AL 12.6.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Molecular Physical Chemistry is a field of Physical Chemistry concerned primarily with thermodynamics and reaction dynamics and other molecular properties that allow the behaviour of larger groups of molecules to be predicted.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Adapted from Molecular Physical Chemistry: A Concise Introduction 978-0854046195, AL 12.6.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Physical Chemistry of Molecules, Interfaces and Liquids - Spectroscopy, Kinetics</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises. Refactored &apos;Physical Chemistry of Molecules, Interfaces and Liquids - Spectroscopy, Kinetics&apos; into &apos;Molecular Physical Chemistry&apos; to simplify the term according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Molecular Physical Chemistry</rdfs:label>
     </owl:Class>
@@ -4647,9 +4654,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
-        <obo:IAO_0000115 xml:lang="en">Theoretical Chemistry is the examination of the structural and dynamic properties of molecules and molecular materials using the tools of quantum chemistry, equilibrium and nonequilibrium statistical mechanics and dynamics. [https://chemistry.cornell.edu/theoretical, AL 14.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Theoretical Chemistry is the examination of the structural and dynamic properties of molecules and molecular materials using the tools of quantum chemistry, equilibrium and nonequilibrium statistical mechanics and dynamics.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://chemistry.cornell.edu/theoretical, AL 14.5.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">General Theoretical Chemistry</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored &apos;General Theoretical Chemistry&apos; into &apos;Theoretical Chemistry&apos; to simplify the term according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Theoretical Chemistry</rdfs:label>
     </owl:Class>
@@ -4813,9 +4821,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000198">
         <rdfs:subClassOf rdf:resource="http://aims.fao.org/aos/agrovoc/c_3235"/>
-        <obo:IAO_0000115 xml:lang="en">Geoinformatics is the science of developing and using information science infrastructure to address the problems of geography, cartography, geosciences and related branches of science and engineering. [Adapted from Wikipedia https://en.wikipedia.org/wiki/Geoinformatics, AL 8.5.2019]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Geoinformatics is the science of developing and using information science infrastructure to address the problems of geography, cartography, geosciences and related branches of science and engineering.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Adapted from Wikipedia https://en.wikipedia.org/wiki/Geoinformatics, AL 8.5.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartogaphy</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartogaphy&apos; into parent class &apos;Geoinformatics&apos; and child classes &apos;Geodesy&apos;, &apos;Photogrammetry&apos;, &apos;Remote Sensing&apos; and &apos;Cartography&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Geoinformatics</rdfs:label>
     </owl:Class>
@@ -5006,7 +5015,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000117 xml:lang="en">Peter McQuilton</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Adapted from Wikipedia https://en.wikipedia.org/wiki/Energy_engineering, PAM 28.02.2018, updated by AL 20.05.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Energy Process Engineering</subject:SRAO_0000268>
         <rdfs:label xml:lang="en">Energy Engineering</rdfs:label>
     </owl:Class>
     
@@ -5184,9 +5192,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000243"/>
         <obo:IAO_0000115>Robotics is an interdisciplinary branch of engineering and science that deals with the design, construction, operation, and use of robots, as well as computer systems for their control, sensory feedback, and information processing.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Mechatronics</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">AL, modified from Wikipedia https://en.wikipedia.org/wiki/Robotics, accessed 26.11.18</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268>Mechatronics</subject:SRAO_0000268>
         <rdfs:comment>21.1.19 Changes to the label, synonyms and definition of this class reference the following issue: https://github.com/FAIRsharing/subject-ontology/issues/11</rdfs:comment>
         <rdfs:label xml:lang="en">Robotics</rdfs:label>
     </owl:Class>
@@ -5239,9 +5247,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19349"/>
         <obo:IAO_0000115 xml:lang="en">Component Engineering is an Electrical Engineering discipline primarily used to ensure the availability of suitable components required to manufacture a larger product.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Electronic Semiconductors, Components, Circuits, Systems</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">Wikipedia, https://en.wikipedia.org/wiki/Component_engineering, 23.3.19</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Electronic Semiconductors, Components, Circuits, Systems</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Electronic Semiconductors, Components, Circuits, Systems&apos; into &apos;Component Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Component Engineering</rdfs:label>
     </owl:Class>
@@ -5272,7 +5280,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000118 xml:lang="en">Power Systems Engineering</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">Adapted from Wikipedia https://en.wikipedia.org/wiki/Power_engineering, AL 8.5.2019</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Electrical Energy Generation, Distribution, Application</subject:SRAO_0000268>
         <rdfs:comment xml:lang="en">AL: 8.5.2019 Refactored re3data composite class &apos;Electrical Energy Generation, Distribution, Application&apos; into &apos;Power Engineering&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Power Engineering</rdfs:label>
     </owl:Class>
@@ -5328,7 +5335,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Adapted from http://www.constructionhistory.co.uk/about-construction-history-society/construction-history/, AL 08.05.18</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">Architecture, Building and Construction History, Sustainable Building Technology, Building Design</subject:SRAO_0000268>
         <rdfs:comment>AL 24.5.18: The original &quot;Architecture, Building and Construction History, Sustainable Building Technology, Building Design&quot; class from re3data has been split into &quot;Construction History&quot;, &quot;Sustainable Building Technology&quot; and &quot;Building Design&quot;. &quot;Architecture&quot; is now the parent class, &quot;Building and Construction History&quot; have been consolidated into a single class to align with community usage and to remove it as a compound term. Removal of compound terms aligns with FAIRsharing best practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Construction History</rdfs:label>
     </owl:Class>
