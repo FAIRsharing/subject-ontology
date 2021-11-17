@@ -1,2 +1,0 @@
-Old Label|New IRI|Note
-Drug repositioning|http://purl.obolibrary.org/obo/OMIT_0027237|Note: We have moved Drug repositioning from the user-defined tag list to SRAO

@@ -19,12 +19,9 @@
         <dc:title xml:lang="en">FAIRsharing Subject Ontology (SRAO)</dc:title>
         <rdfs:comment xml:lang="en">SRAO is a hierarchy of academic disciplines that draws from the re3data subject list as well as importing terms from 6 publicly-available ontologies. This hierarchy covers all of the humanities and natural sciences and, where external vocabularies could not be found, SRAO classes were created.
 
-The initial hierarchy and class set came from FAIRsharing user requirements and from
+The initial hierarchy and class set came from FAIRsharing user requirements. Additional classes have been drawn from the following sources:
 
 1. the re3data subject categories as listed at http://www.re3data.org/browse/by-subject/
-
-Additional classes have been drawn from the following sources:
-
 2. NCIT (http://dx.doi.org/10.3233/978-1-60750-949-3-33, CC BY 4.0)
 3. the EDAM Topic hierarchy as available at http://edamontology.org (http://doi.org/10.1093/bioinformatics/btt113, CC BY-SA 4.0)
 4. AgroVoc (http://agrovoc.uniroma2.it/agrovoc/agrovoc/en/, CC BY 3.0 IGO)
@@ -1834,6 +1831,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">User request</obo:IAO_0000412>
+        <rdfs:comment>See also https://github.com/FAIRsharing/subject-ontology/issues/36</rdfs:comment>
         <rdfs:label xml:lang="en">Metatranscriptomics</rdfs:label>
     </owl:Class>
     
@@ -3171,6 +3169,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 xml:lang="en">Adapted by AL from OED and https://en.wikipedia.org/wiki/Archaeology, 17.11.21</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">OMIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">See also https://github.com/FAIRsharing/subject-ontology/issues/55</rdfs:comment>
         <rdfs:label xml:lang="en">Archaeology</rdfs:label>
     </owl:Class>
     
@@ -6002,6 +6001,7 @@ Example: &quot;JPEG&quot; is Subject Agnostic, which means that the resource is 
         <obo:IAO_0000118 xml:lang="en">Lunar Science</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Topography_of_the_Moon, DD 6.5.21</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">See also https://github.com/FAIRsharing/subject-ontology/issues/53</rdfs:comment>
         <rdfs:label xml:lang="en">Selenography</rdfs:label>
     </owl:Class>
     
@@ -6015,6 +6015,7 @@ Example: &quot;JPEG&quot; is Subject Agnostic, which means that the resource is 
         <obo:IAO_0000117 xml:lang="en">Delphine Dauga</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Cosmology, DD 6.5.21</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">See also https://github.com/FAIRsharing/subject-ontology/issues/53</rdfs:comment>
         <rdfs:label xml:lang="en">Cosmology</rdfs:label>
     </owl:Class>
     
@@ -6028,6 +6029,7 @@ Example: &quot;JPEG&quot; is Subject Agnostic, which means that the resource is 
         <obo:IAO_0000117 xml:lang="en">Delphine Dauga</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Electromagnetism, DD 6.5.21</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:comment>See also https://github.com/FAIRsharing/subject-ontology/issues/53</rdfs:comment>
         <rdfs:label xml:lang="en">Electromagnetism</rdfs:label>
     </owl:Class>
     
@@ -6041,6 +6043,7 @@ Example: &quot;JPEG&quot; is Subject Agnostic, which means that the resource is 
         <obo:IAO_0000117 xml:lang="en">Delphine Dauga</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Gemology, DD 6.5.21</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">See also https://github.com/FAIRsharing/subject-ontology/issues/53</rdfs:comment>
         <rdfs:label xml:lang="en">Gemology</rdfs:label>
     </owl:Class>
     
@@ -6055,6 +6058,7 @@ Example: &quot;JPEG&quot; is Subject Agnostic, which means that the resource is 
         <obo:IAO_0000117 xml:lang="en">Delphine Dauga</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Bathymetry, DD 6.5.21</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">See also https://github.com/FAIRsharing/subject-ontology/issues/53</rdfs:comment>
         <rdfs:label xml:lang="en">Bathymetry</rdfs:label>
     </owl:Class>
     
@@ -6068,6 +6072,7 @@ Example: &quot;JPEG&quot; is Subject Agnostic, which means that the resource is 
         <obo:IAO_0000117 xml:lang="en">Delphine Dauga</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Hydrography, DD 6.5.21</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">FAIRsharing requirement</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">See also https://github.com/FAIRsharing/subject-ontology/issues/53</rdfs:comment>
         <rdfs:label xml:lang="en">Hydrography</rdfs:label>
     </owl:Class>
 </rdf:RDF>
