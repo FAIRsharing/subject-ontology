@@ -95,6 +95,7 @@ http://edamontology.org/topic_3575
 http://edamontology.org/topic_3576
 http://edamontology.org/topic_3577
 http://edamontology.org/topic_3697
+http://edamontology.org/topic_3941
 
 [Top level source term URIs and target direct superclass URIs]
 
@@ -224,6 +225,7 @@ http://purl.obolibrary.org/obo/NCIT_C105699 # Vascular Surgery
 http://purl.obolibrary.org/obo/NCIT_C119712 # Proteogenomics
 http://purl.obolibrary.org/obo/NCIT_C142491 # Data Quality
 http://purl.obolibrary.org/obo/NCIT_C142642 # Preclinical Studies
+http://purl.obolibrary.org/obo/NCIT_C153189 # Transcriptomics
 http://purl.obolibrary.org/obo/NCIT_C153192 # Glycomics
 
 [Top level source term URIs and target direct superclass URIs]

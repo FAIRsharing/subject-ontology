@@ -1258,6 +1258,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://edamontology.org/topic_3174">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3697"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Metagenomics</rdfs:label>
     </owl:Class>
@@ -1384,7 +1385,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
-        <rdfs:comment>Child of Genomics to align with the EDAM hierarchy. EDAM further asserts this as a child of &apos;Gene expression&apos;. However, &apos;Gene expression&apos; is not a recognized discipline within FAIRsharing and therefore this assertion has not been retained. Instead, Transcriptomics has also been asserted as the child of the parent term for &apos;Gene expression&apos;, &apos;Molecular Genetics&apos;.</rdfs:comment>
         <rdfs:label xml:lang="en">Transcriptomics</rdfs:label>
     </owl:Class>
     
@@ -1833,6 +1833,19 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <rdfs:comment>AL 27.9.17 &apos;Microbial Ecology&apos; is asserted as a child of Microbiology by both EDAM and re3data and as a child of Ecology by EDAM. The re3data label &apos;Microbial Ecology and Applied Microbiology&apos; was split into &apos;Microbial Ecology&apos; and &apos;Applied Microbiology&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Microbial Ecology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3941 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3941">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3308"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3697"/>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
+        <obo:IAO_0000412 xml:lang="en">User request</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Metatranscriptomics</rdfs:label>
     </owl:Class>
     
 
@@ -5967,6 +5980,7 @@ Example: &quot;JPEG&quot; is Subject Agnostic, which means that the resource is 
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000404">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3697"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20085"/>
         <obo:IAO_0000115 xml:lang="en">Metaproteomics refers to the large-scale characterization of the entire protein complement of environmental or clinical samples at a given point in time. The method indiscriminately identifies proteins from the microbiota and the host/environments (metagenome). Computational analyses afford assignments of these proteins to their biological origins. It is often performed using liquid-chromatography-based separation coupled to mass spectrometry for peptide identification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.1186/s40168-015-0094-5</obo:IAO_0000119>
