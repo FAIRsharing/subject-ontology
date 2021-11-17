@@ -3008,8 +3008,8 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16421"/>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
-        <subject:SRAO_0000268 xml:lang="en">AL: 10.4.2019 Refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises. Simplified this class name from &apos;Solid State and Surface Chemistry, Material Synthesis&apos; according to FAIRsharing curation best practises.</subject:SRAO_0000268>
         <subject:SRAO_0000268 xml:lang="en">Solid State and Surface Chemistry, Material Synthesis</subject:SRAO_0000268>
+        <rdfs:comment xml:lang="en">AL: 10.4.2019 Refactored the Physical and Theoretical Chemistry hierarchies to reconcile them using non-composite terms according to FAIRsharing curation best practises. Simplified this class name from &apos;Solid State and Surface Chemistry, Material Synthesis&apos; according to FAIRsharing curation best practises.</rdfs:comment>
         <rdfs:label xml:lang="en">Synthesis Chemistry</rdfs:label>
     </owl:Class>
     
