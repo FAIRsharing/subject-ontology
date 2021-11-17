@@ -5919,9 +5919,9 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000401 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000401">
-        <obo:IAO_0000115 xml:lang="en">Subject Agnostic provides a way of describing research that is applicable across all subject areas. Please note that this term does not, by default, mean that an onbject tagged with is completely generic.
+        <obo:IAO_0000115 xml:lang="en">Subject Agnostic provides a way of describing research and resources that are applicable across all subject areas. Please note that this term does not, by default, mean that an object tagged with it is completely generic.
 
-Example: &quot;JPEG&quot; is Subject Agnostic, which means that the format is applicable regardless of subject, but it does not mean that it is a generic format that can be used for any data.</obo:IAO_0000115>
+Example: &quot;JPEG&quot; is Subject Agnostic, which means that the resource is applicable regardless of subject, but it does not mean that it can or should be used for any type of data.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Allyson Lister 15.11.21</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Subject Agnostic</rdfs:label>
