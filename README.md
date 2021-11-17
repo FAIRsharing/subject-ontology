@@ -16,7 +16,7 @@ All classes within SRAO come from publicly-available ontologies and controlled v
 
 # Files
 
-To view the latest release of SRAO please visit [our release directory](https://github.com/FAIRsharing/subject-ontology/tree/master/releases). The release files are created by merging the development files into a single document for easier loading within the editor of your choice, such as [Protege](http://protege.stanford.edu/). 
+To view the latest release of SRAO please visit [our release directory](https://github.com/FAIRsharing/subject-ontology/tree/master/releases). The release files are created by merging the development files into a single document for easier loading within the editor of your choice, such as [Protege](http://protege.stanford.edu/).
 
 Below are short descriptions of the other files found within this repository:
 
@@ -37,7 +37,7 @@ FAIRsharing (https://www.fairsharing.org) is a manually-curated, cross-disciplin
 
 As FAIRsharing has grown, over 1000 domain tags across all areas of research have been added by users and curators. This tagging system, essentially a flat list, has become unwieldy and limited. To provide a hierarchical structure and richer semantics, two application ontologies drawn from multiple community ontologies were created to supplement these user tags. FAIRsharing domain tags are now divided into three separate fields:
 
-- Subject Resource Application Ontology (SRAO) - **This repository.** A hierarchy of academic disciplines that formalises the re3data subject list (https://www.re3data.org/browse/by-subject/). Combined with subsets of six additional ontologies, SRAO provides over 420 classes.
+- Subject Resource Application Ontology (SRAO) - **This repository.** A hierarchy of academic disciplines that combines subsets of seven external ontologies, SRAO provides over 420 classes.
 - [Domain Resource Application Ontology (DRAO)](https://github.com/FAIRsharing/domain-ontology) - a hierarchy of specific research domains and descriptors. Fifty external ontologies are used to provide nearly 1000 classes.
 - Free-text user tags. A small number of FAIRsharing domain tags were not mappable to external ontologies and are retained as user tags. Existing and new user tags may be promoted to either application ontology as required.
 
@@ -47,20 +47,20 @@ Terms are added to SRAO manually, and additional annotation from the originating
 
 # Build
 
-Initially, SRAO was built from the [re3data subject list](https://www.re3data.org/browse/by-subject/). However, this list is neither comprehensive enough nor does it include any extra metadata such as definitions and synonyms. Therefore additional external ontology classes were added by our curation team until all subject areas / disciplines required to describe FAIRsharing records were included.
+Classes from a number of different external ontology classes were added by our curation team until all subject areas / disciplines required to describe FAIRsharing records were included. Additional classes continue to be added as required both by FAIRsharing and other SRAO users.
 
-Where an external ontology contains definitions and/or synonyms, these are automatically imported into SRAO via Ontofox to supplement the curation already present. Release files are created using [ROBOT](http://robot.obolibrary.org/) via a controlling [Makefile](development/Makefile).
+Where an external ontology contains definitions, these are automatically imported into SRAO via Ontofox to supplement the curation already present. Synonyms from these ontologies are vetted and added when the synonym is sufficiently different from the primary label. Release files are created using [ROBOT](http://robot.obolibrary.org/) via a controlling [Makefile](development/Makefile).
 
-SRAO is written in OWL and serialized as RDF/XML. 
+SRAO is written in OWL and serialized as RDF/XML.
 
 ## Tools Used
 
 [Ontofox](http://ontofox.hegroup.org/) has been used to add annotation. [Protege](https://protege.stanford.edu/) (including versions 4.3.0 and 5.2.0) has been used to create and curate the core OWL file. [ROBOT](http://robot.obolibrary.org/) has been used to compare, check and merge all development ontology files into a single merged release file.
 
-- [Ontofox](http://ontofox.hegroup.org/) - Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse. 
+- [Ontofox](http://ontofox.hegroup.org/) - Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse.
 BMC Research Notes. 2010, 3:175. PMID: 20569493
 - [Protege](http://protege.stanford.edu/) - Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003.
-- [ROBOT](http://robot.obolibrary.org/) - R.C. Jackson, J.P. Balhoff, E. Douglass, N.L. Harris, C.J. Mungall, and J.A. Overton. [ROBOT: A tool for automating ontology workflows.](https://doi.org/10.1186/s12859-019-3002-3) BMC Bioinformatics, vol. 20, July 2019. 
+- [ROBOT](http://robot.obolibrary.org/) - R.C. Jackson, J.P. Balhoff, E. Douglass, N.L. Harris, C.J. Mungall, and J.A. Overton. [ROBOT: A tool for automating ontology workflows.](https://doi.org/10.1186/s12859-019-3002-3) BMC Bioinformatics, vol. 20, July 2019.
 
 # Usage and Licence
 
@@ -73,5 +73,3 @@ For licence information for the external ontologies used to create DRAO, please 
 # Contact Us
 
 Please feel free to contact us with any comments or suggestions at contact@fairsharing.org.
-
-
