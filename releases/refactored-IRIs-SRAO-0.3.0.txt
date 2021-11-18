@@ -1,0 +1,55 @@
+# List of refactored IRIs that have remained in SRAO.
+
+Old IRI|New IRI|Note
+http://edamontology.org/topic_0122|http://purl.obolibrary.org/obo/NCIT_C20126|See https://github.com/FAIRsharing/subject-ontology/issues/48
+
+# List of promotions from user-defined tags to SRAO
+Old Label|New IRI|Note
+General Purpose|http://www.fairsharing.org/ontology/subject/SRAO_0000401|See https://github.com/FAIRsharing/subject-ontology/issues/15
+Bathymetry|http://www.fairsharing.org/ontology/subject/SRAO_0000402|See https://github.com/FAIRsharing/subject-ontology/issues/53
+Selenography|http://www.fairsharing.org/ontology/subject/SRAO_0000406|See https://github.com/FAIRsharing/subject-ontology/issues/53
+Cosmology|http://www.fairsharing.org/ontology/subject/SRAO_0000407|See https://github.com/FAIRsharing/subject-ontology/issues/53
+Electromagnetism|http://www.fairsharing.org/ontology/subject/SRAO_0000408|See https://github.com/FAIRsharing/subject-ontology/issues/53
+Gemology|http://www.fairsharing.org/ontology/subject/SRAO_0000409|See https://github.com/FAIRsharing/subject-ontology/issues/53
+Hydrography|http://www.fairsharing.org/ontology/subject/SRAO_0000411|See https://github.com/FAIRsharing/subject-ontology/issues/53
+
+# List of IRIs that have moved from DRAO to SRAO in the current milestone
+# There are spaces for three IRIs, but you may only need one or two of them.
+# In the note, please explain what type of mapping/refactoring has been
+# performed.
+#
+# Every time you modify this list, copy the changes to
+# refactored-IRIs-current.txt within the DRAO project so that the full
+# history of the changes will ultimately be present in both AO release
+# directories.
+#
+# Examples (from release 0.2.0)
+# http://purl.obolibrary.org/obo/OMIT_0022673|http://purl.obolibrary.org/obo/NCIT_C18478||Note: This means that relations from DRAO first_iri are transferred to SRAO second_iri and first_iri is deprecated.
+# http://purl.obolibrary.org/obo/OMIT_0012123|||Note: This means that first_iri is moved from DRAO->SRAO with IRI preserved.
+# http://purl.obolibrary.org/obo/OMIT_0023533|http://edamontology.org/topic_3395|http://purl.obolibrary.org/obo/NCIT_C93254|Note: first_iri and second_iri are deprecated and their relations transferred to third_iri.
+
+first_iri|second_iri|third_iri|note
+
+# List of IRIs that have moved from SRAO to DRAO in the current milestone
+# There are spaces for three IRIs, but you may only need one or two of them.
+# In the note, please explain what type of mapping/refactoring has been
+# performed.
+#
+# Every time you modify this list, copy the changes to
+# refactored-IRIs-current.txt within the DRAO project so that the full
+# history of the changes will ultimately be present in both AO release
+# directories.
+#
+# Please note that sometimes the SRAO IRI is retained, and sometimes the
+# DRAO IRI is retained; the note confirms exactly what happened.
+#
+# Examples (from release 0.2.0)
+# http://edamontology.org/topic_3345|||Note: This means that first_iri is moved from SRAO->DRAO with links preserved.
+# http://edamontology.org/topic_3077|http://purl.obolibrary.org/obo/ERO_0100295||Note: This means that first_iri is moved from SRAO->DRAO and takes the relations of second_iri. The second_iri is then deleted.
+# http://edamontology.org/topic_0218|http://purl.obolibrary.org/obo/ERO_0100106||Note: This means that relations from the SRAO first_iri are transferred to the DRAO second_iri, and the first_iri is deprecated.
+
+first_iri|second_iri|third_iri|note
+
+# List of deleted IRIs
+IRI|Note
+http://edamontology.org/topic_0219|See https://github.com/FAIRsharing/subject-ontology/issues/26

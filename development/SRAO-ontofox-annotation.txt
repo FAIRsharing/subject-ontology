@@ -26,11 +26,9 @@ EDAM
 http://edamontology.org/topic_0084
 http://edamontology.org/topic_0085
 http://edamontology.org/topic_0089
-http://edamontology.org/topic_0122
 http://edamontology.org/topic_0194
 http://edamontology.org/topic_0208
 http://edamontology.org/topic_0209
-http://edamontology.org/topic_0219
 http://edamontology.org/topic_0605
 http://edamontology.org/topic_0637
 http://edamontology.org/topic_0780
@@ -96,6 +94,7 @@ http://edamontology.org/topic_3575
 http://edamontology.org/topic_3576
 http://edamontology.org/topic_3577
 http://edamontology.org/topic_3697
+http://edamontology.org/topic_3941
 
 [Top level source term URIs and target direct superclass URIs]
 
@@ -103,10 +102,10 @@ http://edamontology.org/topic_3697
 includeNoIntermediates
 
 [Source annotation URIs]
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000269
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000269
+#http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+#mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000269
+#http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+#mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000269
 http://www.geneontology.org/formats/oboInOwl#hasDefinition
 mapTo http://purl.obolibrary.org/obo/IAO_0000115
 
@@ -234,12 +233,12 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000118
-mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000276
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000276
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000276
+#http://purl.obolibrary.org/obo/IAO_0000118
+#mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000276
+#http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+#mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000276
+#http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+#mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000276
 
 #### NOTES ON PO IMPORT ####
 ##
@@ -282,9 +281,9 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://purl.obolibrary.org/obo/IAO_0000115
-http://www.w3.org/2000/01/rdf-schema#label
-mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000317
-http://purl.obolibrary.org/obo/IAO_0000118
-mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000317
+#http://www.w3.org/2000/01/rdf-schema#label
+#mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000317
+#http://purl.obolibrary.org/obo/IAO_0000118
+#mapTo http://www.fairsharing.org/ontology/subject/SRAO_0000317
 http://purl.obolibrary.org/obo/OBI_0001847
 http://purl.obolibrary.org/obo/OBI_9991118

@@ -5,7 +5,7 @@
 # Where all the files created by this makefile should go
 BUILD_DIR := build
 # Where ROBOT lives during makes
-ROBOT_LOCAL := $(BUILD)/robot.jar
+ROBOT_LOCAL := $(BUILD_DIR)/robot.jar
 
 ##
 ## Top-level targets
