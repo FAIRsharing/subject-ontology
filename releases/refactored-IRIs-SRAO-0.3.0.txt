@@ -6,7 +6,7 @@ http://edamontology.org/topic_0122|http://purl.obolibrary.org/obo/NCIT_C20126|Se
 # List of promotions from user-defined tags to SRAO
 Old Label|New IRI|Note
 General Purpose|http://www.fairsharing.org/ontology/subject/SRAO_0000401|See https://github.com/FAIRsharing/subject-ontology/issues/15
-Bathymetry|http://www.fairsharing.org/ontology/subject/SRAO_0000402|See https://github.com/FAIRsharing/subject-ontology/issues/53
+Bathymetry|http://www.fairsharing.org/ontology/subject/SRAO_0000410|See https://github.com/FAIRsharing/subject-ontology/issues/53
 Selenography|http://www.fairsharing.org/ontology/subject/SRAO_0000406|See https://github.com/FAIRsharing/subject-ontology/issues/53
 Cosmology|http://www.fairsharing.org/ontology/subject/SRAO_0000407|See https://github.com/FAIRsharing/subject-ontology/issues/53
 Electromagnetism|http://www.fairsharing.org/ontology/subject/SRAO_0000408|See https://github.com/FAIRsharing/subject-ontology/issues/53
