@@ -3107,7 +3107,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C95096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15188"/>
-        <obo:IAO_0000118 xml:lang="en">Allyson Lister</obo:IAO_0000118>
+        <obo:IAO_0000117 xml:lang="en">Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000412 xml:lang="en">NCIT</obo:IAO_0000412>
         <obo:IAO_0000412 xml:lang="en">re3data</obo:IAO_0000412>
         <subject:SRAO_0000276>Neuroscience Domain</subject:SRAO_0000276>
