@@ -1,0 +1,14 @@
+# retrieve level 3 and their parent classes.
+
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+  SELECT DISTINCT ?l3label ?l2label
+  WHERE {
+    ?level1 rdfs:subClassOf owl:Thing .
+    ?level1 rdfs:label ?l1label .
+    ?level2 rdfs:subClassOf ?level1 .
+    ?level2 rdfs:label ?l2label .
+    ?level3 rdfs:subClassOf ?level2 .
+    ?level3 rdfs:label ?l3label .
+  } ORDER BY ?l3label

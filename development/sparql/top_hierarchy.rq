@@ -1,0 +1,12 @@
+# retrieve level 1 and level 2 classes
+
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+  SELECT DISTINCT ?l2label ?l1label
+  WHERE {
+    ?level1 rdfs:subClassOf owl:Thing .
+    ?level1 rdfs:label ?l1label .
+    ?level2 rdfs:subClassOf ?level1 .
+    ?level2 rdfs:label ?l2label .
+  } ORDER BY ?l2label
