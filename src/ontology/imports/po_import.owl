@@ -1,0 +1,38 @@
+Prefix(:=<http://www.fairsharing.org/ontology/subject/SRAO/imports/po_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/subject/SRAO/imports/po_import.owl>
+<http://www.fairsharing.org/ontology/subject/SRAO/releases/2023-10-10/imports/po_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/po/releases/2023-07-13/po.owl>)
+Annotation(owl:versionInfo "2023-10-10")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025131>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<http://www.fairsharing.org/ontology/subject/SRAO_0000292>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#saved-by>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-genus-differentia>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-is_a>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/PO_0025131> (<http://purl.obolibrary.org/obo/PO_0025131>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0025131> "An anatomical entity that is or was part of a plant.")
+AnnotationAssertion(<http://www.fairsharing.org/ontology/subject/SRAO_0000292> <http://purl.obolibrary.org/obo/PO_0025131> "plant anatomical entity")
+
+
+)

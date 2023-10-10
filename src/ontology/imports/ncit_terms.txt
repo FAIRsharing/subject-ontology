@@ -1,0 +1,101 @@
+http://purl.obolibrary.org/obo/NCIT_C15206 # Clinical Studies
+http://purl.obolibrary.org/obo/NCIT_C15308 # Psychotherapy
+http://purl.obolibrary.org/obo/NCIT_C15188 # Biomedical Science
+http://purl.obolibrary.org/obo/NCIT_C15245 # Health Services Research
+http://purl.obolibrary.org/obo/NCIT_C16294 # Anthropology
+http://purl.obolibrary.org/obo/NCIT_C16304 # Architecture
+http://purl.obolibrary.org/obo/NCIT_C16309 # Artificial Intelligence
+http://purl.obolibrary.org/obo/NCIT_C16345 # Biology
+http://purl.obolibrary.org/obo/NCIT_C16349 # Biophysics
+http://purl.obolibrary.org/obo/NCIT_C16413 # Chemical Engineering
+http://purl.obolibrary.org/obo/NCIT_C16414 # Chemistry
+http://purl.obolibrary.org/obo/NCIT_C16417 # Clinical Chemistry
+http://purl.obolibrary.org/obo/NCIT_C16419 # Organic Chemistry
+http://purl.obolibrary.org/obo/NCIT_C16421 # Physical Chemistry
+http://purl.obolibrary.org/obo/NCIT_C16439 # Medical Informatics
+http://purl.obolibrary.org/obo/NCIT_C16478 # Culture
+http://purl.obolibrary.org/obo/NCIT_C16495 # Demographics
+http://purl.obolibrary.org/obo/NCIT_C16500 # Dermatology
+http://purl.obolibrary.org/obo/NCIT_C16501 # Developmental Biology
+http://purl.obolibrary.org/obo/NCIT_C16526 # Ecology
+http://purl.obolibrary.org/obo/NCIT_C16540 # Electrophysiology
+http://purl.obolibrary.org/obo/NCIT_C16548 # Engineering Science
+http://purl.obolibrary.org/obo/NCIT_C16550 # Entomology
+http://purl.obolibrary.org/obo/NCIT_C16556 # Epidemiology
+http://purl.obolibrary.org/obo/NCIT_C16591 # Forensic Medicine
+http://purl.obolibrary.org/obo/NCIT_C16603 # Gastroenterology
+http://purl.obolibrary.org/obo/NCIT_C16624 # Genetics
+http://purl.obolibrary.org/obo/NCIT_C16633 # Geography
+http://purl.obolibrary.org/obo/NCIT_C16658 # Gynecology
+http://purl.obolibrary.org/obo/NCIT_C16673 # Hematology
+http://purl.obolibrary.org/obo/NCIT_C16715 # Immunogenetics
+http://purl.obolibrary.org/obo/NCIT_C16851 # Microbiology
+http://purl.obolibrary.org/obo/NCIT_C16902 # Nephrology
+http://purl.obolibrary.org/obo/NCIT_C16908 # Neurology
+http://purl.obolibrary.org/obo/NCIT_C16910 # Neurophysiology
+http://purl.obolibrary.org/obo/NCIT_C16922 # Nuclear Medicine
+http://purl.obolibrary.org/obo/NCIT_C16928 # Obstetrics
+http://purl.obolibrary.org/obo/NCIT_C16931 # Occupational Medicine
+http://purl.obolibrary.org/obo/NCIT_C16939 # Ophthalmology
+http://purl.obolibrary.org/obo/NCIT_C16974 # Pharmacology
+http://purl.obolibrary.org/obo/NCIT_C17026 # Psychiatry
+http://purl.obolibrary.org/obo/NCIT_C17027 # Psychology
+http://purl.obolibrary.org/obo/NCIT_C17028 # Clinical Psychology
+http://purl.obolibrary.org/obo/NCIT_C17030 # Educational Psychology
+http://purl.obolibrary.org/obo/NCIT_C17038 # Psychosomatic Medicine
+http://purl.obolibrary.org/obo/NCIT_C17039 # Public Health
+http://purl.obolibrary.org/obo/NCIT_C17055 # Radiobiology
+http://purl.obolibrary.org/obo/NCIT_C17059 # Radiology
+http://purl.obolibrary.org/obo/NCIT_C17099 # Rheumatology
+http://purl.obolibrary.org/obo/NCIT_C17141 # Social Sciences
+http://purl.obolibrary.org/obo/NCIT_C17147 # Software Engineering
+http://purl.obolibrary.org/obo/NCIT_C17167 # Statistics
+http://purl.obolibrary.org/obo/NCIT_C17173 # Surgery
+http://purl.obolibrary.org/obo/NCIT_C17174 # Oral Surgery
+http://purl.obolibrary.org/obo/NCIT_C17193 # Thermodynamics
+http://purl.obolibrary.org/obo/NCIT_C17206 # Toxicology
+http://purl.obolibrary.org/obo/NCIT_C17243 # Urology
+http://purl.obolibrary.org/obo/NCIT_C17269 # Zoology
+http://purl.obolibrary.org/obo/NCIT_C17606 # Digital Image Processing
+http://purl.obolibrary.org/obo/NCIT_C17735 # Policy
+http://purl.obolibrary.org/obo/NCIT_C17837 # Oncology
+http://purl.obolibrary.org/obo/NCIT_C17940 # Microbial Genetics
+http://purl.obolibrary.org/obo/NCIT_C17964 # Bioinformatics
+http://purl.obolibrary.org/obo/NCIT_C17992 # Cell Biology
+http://purl.obolibrary.org/obo/NCIT_C18011 # Immunology
+http://purl.obolibrary.org/obo/NCIT_C18076 # Bioengineering
+http://purl.obolibrary.org/obo/NCIT_C18088 # Developmental Neurobiology
+http://purl.obolibrary.org/obo/NCIT_C18097 # Molecular Dynamics
+http://purl.obolibrary.org/obo/NCIT_C18111 # Structural Biology
+http://purl.obolibrary.org/obo/NCIT_C18189 # Pathology
+http://purl.obolibrary.org/obo/NCIT_C18220 # Human Biology
+http://purl.obolibrary.org/obo/NCIT_C18470 # Computational Chemistry
+http://purl.obolibrary.org/obo/NCIT_C18478 # Nanotechnology
+http://purl.obolibrary.org/obo/NCIT_C18633 # Animal Genetics
+http://purl.obolibrary.org/obo/NCIT_C18645 # Enzymology
+http://purl.obolibrary.org/obo/NCIT_C18701 # Clinical Immunology
+http://purl.obolibrary.org/obo/NCIT_C18729 # Database Management
+http://purl.obolibrary.org/obo/NCIT_C18740 # Developmental Psychology
+http://purl.obolibrary.org/obo/NCIT_C18873 # Microbial Physiology
+http://purl.obolibrary.org/obo/NCIT_C18874 # Medical Microbiology
+http://purl.obolibrary.org/obo/NCIT_C18948 # Polymer Chemistry
+http://purl.obolibrary.org/obo/NCIT_C19199 # Health Sciences
+http://purl.obolibrary.org/obo/NCIT_C19349 # Electrical Engineering
+http://purl.obolibrary.org/obo/NCIT_C19638 # Mechanics
+http://purl.obolibrary.org/obo/NCIT_C20085 # Proteomics
+http://purl.obolibrary.org/obo/NCIT_C20179 # Toxicogenomics
+http://purl.obolibrary.org/obo/NCIT_C20609 # Synthesis Chemistry
+http://purl.obolibrary.org/obo/NCIT_C26633 # Drug Metabolism
+http://purl.obolibrary.org/obo/NCIT_C39794 # Philosophy
+http://purl.obolibrary.org/obo/NCIT_C54625 # History
+http://purl.obolibrary.org/obo/NCIT_C84343 # Genomics
+http://purl.obolibrary.org/obo/NCIT_C86055 # Cardiology
+http://purl.obolibrary.org/obo/NCIT_C93254 # Regenerative Medicine
+http://purl.obolibrary.org/obo/NCIT_C95096 # Neuroscience
+http://purl.obolibrary.org/obo/NCIT_C105692 # Pulmonary Medicine / Respiratory Medicine
+http://purl.obolibrary.org/obo/NCIT_C105699 # Vascular Surgery
+http://purl.obolibrary.org/obo/NCIT_C119712 # Proteogenomics
+http://purl.obolibrary.org/obo/NCIT_C142491 # Data Quality
+http://purl.obolibrary.org/obo/NCIT_C142642 # Preclinical Studies
+http://purl.obolibrary.org/obo/NCIT_C153192 # Glycomics
+http://purl.obolibrary.org/obo/NCIT_C20126 # Structural Genomics

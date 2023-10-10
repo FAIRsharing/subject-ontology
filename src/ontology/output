@@ -1,0 +1,79 @@
+SRAO.Makefile:11: warning: overriding recipe for target 'imports/edam_import.owl'
+Makefile:329: warning: ignoring old recipe for target 'imports/edam_import.owl'
+SRAO.Makefile:25: warning: overriding recipe for target 'imports/ncit_import.owl'
+Makefile:333: warning: ignoring old recipe for target 'imports/ncit_import.owl'
+SRAO.Makefile:35: warning: overriding recipe for target 'imports/po_import.owl'
+Makefile:325: warning: ignoring old recipe for target 'imports/po_import.owl'
+echo "ODK Makefile version: v1.4.3 (this is the version of the ODK with which this Makefile was generated, \
+        not the version of the ODK you are running)" &&\
+echo "ROBOT version (ODK): " && robot --catalog catalog-v001.xml --version
+robot --catalog catalog-v001.xml reason --input tmp/SRAO-preprocess.owl --reasoner ELK --equivalent-classes-allowed asserted-only \
+	--exclude-tautologies structural --output test.owl && rm test.owl
+robot --catalog catalog-v001.xml verify  --catalog catalog-v001.xml -i tmp/SRAO-preprocess.owl --queries ../sparql/owldef-self-reference-violation.sparql ../sparql/iri-range-violation.sparql ../sparql/label-with-iri-violation.sparql ../sparql/multiple-replaced_by-violation.sparql -O reports
+robot --catalog catalog-v001.xml report -i tmp/merged-SRAO-edit.owl -l true  --fail-on None --base-iri http://www.fairsharing.org/ontology/subject/SRAO_ --base-iri http://www.fairsharing.org/ontology/subject/SRAO --print 5 -o reports/SRAO-edit.owl-obo-report.tsv
+if [ true  = true ] && [ true  = true ]; then curl -L http://purl.obolibrary.org/obo/obi.owl --create-dirs -o mirror/obi.owl --retry 4 --max-time 400 &&\
+	robot --catalog catalog-v001.xml convert -i mirror/obi.owl -o mirror-obi.tmp.owl &&\
+	mv mirror-obi.tmp.owl tmp/mirror-obi.owl; fi
+if [ true  = true ] && [ true  = true ] && [ -f tmp/mirror-obi.owl ]; then if cmp -s tmp/mirror-obi.owl mirror/obi.owl ; then echo "Mirror identical, ignoring."; else echo "Mirrors different, updating." &&\
+	cp tmp/mirror-obi.owl mirror/obi.owl; fi; fi
+if [ true  = true ]; then cat tmp/seed.txt imports/obi_terms.txt | grep -v ^# | sort | uniq >  imports/obi_terms_combined.txt; fi
+if [ true  = true ]; then robot --catalog catalog-v001.xml query -i mirror/obi.owl --update ../sparql/preprocess-module.ru \
+    extract -T imports/obi_terms_combined.txt --copy-ontology-annotations true --force true --method BOT \
+    remove --base-iri http://purl.obolibrary.org/obo/OBI --axioms external --preserve-structure false --trim false \
+	remove  --term rdfs:label  --term IAO:0000115 -T imports/obi_terms_combined.txt --select complement \
+	query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+	annotate --ontology-iri http://www.fairsharing.org/ontology/subject/SRAO/imports/obi_import.owl annotate -V http://www.fairsharing.org/ontology/subject/SRAO/releases/2023-10-09/imports/obi_import.owl --annotation owl:versionInfo 2023-10-09 convert -f ofn --output imports/obi_import.owl.tmp.owl && mv imports/obi_import.owl.tmp.owl imports/obi_import.owl; fi
+if [ true  = true ] && [ true  = true ]; then curl -L http://purl.obolibrary.org/obo/po.owl --create-dirs -o mirror/po.owl --retry 4 --max-time 400 &&\
+	robot --catalog catalog-v001.xml convert -i mirror/po.owl -o mirror-po.tmp.owl &&\
+	mv mirror-po.tmp.owl tmp/mirror-po.owl; fi
+if [ true  = true ] && [ true  = true ] && [ -f tmp/mirror-po.owl ]; then if cmp -s tmp/mirror-po.owl mirror/po.owl ; then echo "Mirror identical, ignoring."; else echo "Mirrors different, updating." &&\
+	cp tmp/mirror-po.owl mirror/po.owl; fi; fi
+if [ true  = true ]; then cat tmp/seed.txt imports/po_terms.txt | grep -v ^# | sort | uniq >  imports/po_terms_combined.txt; fi
+if [ true  = true ]; then robot --catalog catalog-v001.xml query -i mirror/po.owl --update ../sparql/preprocess-module.ru \
+    extract -T imports/po_terms_combined.txt --copy-ontology-annotations true --annotate-with-source true --force true --method BOT \
+    remove --base-iri http://purl.obolibrary.org/obo/PO --axioms external --preserve-structure false --trim false \
+	remove  --term rdfs:label  --term IAO:0000115 -T imports/po_terms_combined.txt --select complement \
+	query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+	annotate --ontology-iri http://www.fairsharing.org/ontology/subject/SRAO/imports/po_import.owl annotate -V http://www.fairsharing.org/ontology/subject/SRAO/releases/2023-10-09/imports/po_import.owl --annotation owl:versionInfo 2023-10-09 convert -f ofn --output imports/po_import.owl.tmp.owl && mv imports/po_import.owl.tmp.owl imports/po_import.owl; fi
+if [ true  = true ] && [ true  = true ]; then robot --catalog catalog-v001.xml convert -I https://edamontology.org/EDAM.owl -o mirror-edam.tmp.owl &&\
+	mv mirror-edam.tmp.owl tmp/mirror-edam.owl; fi
+if [ true  = true ] && [ true  = true ] && [ -f tmp/mirror-edam.owl ]; then if cmp -s tmp/mirror-edam.owl mirror/edam.owl ; then echo "Mirror identical, ignoring."; else echo "Mirrors different, updating." &&\
+	cp tmp/mirror-edam.owl mirror/edam.owl; fi; fi
+if [ true  = true ]; then robot --catalog catalog-v001.xml query -i mirror/edam.owl --update ../sparql/preprocess-module.ru \
+	extract -T imports/edam_terms_combined.txt --copy-ontology-annotations true --annotate-with-source true --force true --individuals exclude --annotate-with-source true --method subset \
+	rename --mappings imports/edam_mappings.tsv \
+	remove --base-iri http://edamontology.org/ --axioms external --preserve-structure false --trim false \
+	remove -T imports/edam_terms_combined.txt --term IAO:0000115 --term rdfs:isDefinedBy --select complement \
+	query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+	annotate --ontology-iri http://www.fairsharing.org/ontology/subject/SRAO/imports/edam_import.owl annotate -V http://www.fairsharing.org/ontology/subject/SRAO/releases/2023-10-09/imports/edam_import.owl --annotation owl:versionInfo 2023-10-09 --output imports/edam_import.owl.tmp.owl && mv imports/edam_import.owl.tmp.owl imports/edam_import.owl; fi
+if [ true  = true ] && [ true  = true ]; then curl -L http://purl.obolibrary.org/obo/ncit.owl --create-dirs -o mirror/ncit.owl --retry 4 --max-time 400 &&\
+	robot --catalog catalog-v001.xml convert -i mirror/ncit.owl -o mirror-ncit.tmp.owl &&\
+	mv mirror-ncit.tmp.owl tmp/mirror-ncit.owl; fi
+if [ true  = true ] && [ true  = true ] && [ -f tmp/mirror-ncit.owl ]; then if cmp -s tmp/mirror-ncit.owl mirror/ncit.owl ; then echo "Mirror identical, ignoring."; else echo "Mirrors different, updating." &&\
+	cp tmp/mirror-ncit.owl mirror/ncit.owl; fi; fi
+if [ true  = true ]; then cat tmp/seed.txt imports/ncit_terms.txt | grep -v ^# | sort | uniq >  imports/ncit_terms_combined.txt; fi
+if [ true  = true ]; then robot --catalog catalog-v001.xml query -i mirror/ncit.owl --update ../sparql/preprocess-module.ru \
+	extract -T imports/ncit_terms_combined.txt --copy-ontology-annotations true --annotate-with-source true --force true --individuals exclude --annotate-with-source true --method subset \
+	rename --mappings imports/ncit_mappings.tsv \
+	remove --base-iri http://purl.obolibrary.org/obo/NCIT --axioms external --preserve-structure false --trim false \
+	remove -T imports/ncit_terms_combined.txt --term IAO:0000115 --select complement \
+	query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+	annotate --ontology-iri http://www.fairsharing.org/ontology/subject/SRAO/imports/ncit_import.owl annotate -V http://www.fairsharing.org/ontology/subject/SRAO/releases/2023-10-09/imports/ncit_import.owl --annotation owl:versionInfo 2023-10-09 --output imports/ncit_import.owl.tmp.owl && mv imports/ncit_import.owl.tmp.owl imports/ncit_import.owl; fi
+robot --catalog catalog-v001.xml merge --input tmp/SRAO-preprocess.owl  \
+	reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
+	relax \
+	reduce -r ELK \
+	 annotate --ontology-iri http://www.fairsharing.org/ontology/subject/SRAO/SRAO-full.owl annotate -V http://www.fairsharing.org/ontology/subject/SRAO/releases/2023-10-09/SRAO-full.owl --annotation owl:versionInfo 2023-10-09 --output SRAO-full.owl.tmp.owl && mv SRAO-full.owl.tmp.owl SRAO-full.owl
+robot --catalog catalog-v001.xml annotate --input SRAO-full.owl --ontology-iri http://www.fairsharing.org/ontology/subject/SRAO.owl annotate -V http://www.fairsharing.org/ontology/subject/SRAO/releases/2023-10-09/SRAO.owl --annotation owl:versionInfo 2023-10-09 \
+	convert -o SRAO.owl.tmp.owl && mv SRAO.owl.tmp.owl SRAO.owl
+robot --catalog catalog-v001.xml merge -i SRAO.owl convert -f ofn -o tmp/validate.ofn
+robot --catalog catalog-v001.xml validate-profile --profile DL -i tmp/validate.ofn -o reports/validate_profile_owl2dl_SRAO.owl.txt || { cat reports/validate_profile_owl2dl_SRAO.owl.txt && exit 1; }
+echo "Finished running all tests successfully."
+robot --catalog catalog-v001.xml convert --input SRAO.owl --check false -f obo  -o SRAO.obo.tmp.obo && grep -v ^owl-axioms SRAO.obo.tmp.obo > SRAO.obo && rm SRAO.obo.tmp.obo
+robot --catalog catalog-v001.xml remove --input tmp/SRAO-preprocess.owl --select imports --trim false merge   \
+ \
+annotate --link-annotation http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 \
+	--ontology-iri http://www.fairsharing.org/ontology/subject/SRAO/SRAO-base.owl annotate -V http://www.fairsharing.org/ontology/subject/SRAO/releases/2023-10-09/SRAO-base.owl --annotation owl:versionInfo 2023-10-09 \
+	--output SRAO-base.owl.tmp.owl && mv SRAO-base.owl.tmp.owl SRAO-base.owl
+robot --catalog catalog-v001.xml convert --input SRAO-base.owl --check false -f obo  -o SRAO-base.obo.tmp.obo && grep -v ^owl-axioms SRAO-base.obo.tmp.obo > SRAO-base.obo && rm SRAO-base.obo.tmp.obo
+robot --catalog catalog-v001.xml convert --input SRAO-full.owl --check false -f obo  -o SRAO-full.obo.tmp.obo && grep -v ^owl-axioms SRAO-full.obo.tmp.obo > SRAO-full.obo && rm SRAO-full.obo.tmp.obo

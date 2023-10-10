@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+        <uri name="http://www.fairsharing.org/ontology/subject/SRAO/imports/obi_import.owl" uri="imports/obi_import.owl"/>
+        <uri name="http://www.fairsharing.org/ontology/subject/SRAO/imports/po_import.owl" uri="imports/po_import.owl"/>
+        <uri name="http://www.fairsharing.org/ontology/subject/SRAO/imports/edam_import.owl" uri="imports/edam_import.owl"/>
+        <uri name="http://www.fairsharing.org/ontology/subject/SRAO/imports/ncit_import.owl" uri="imports/ncit_import.owl"/>
+    </group>
+</catalog>

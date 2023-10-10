@@ -1,0 +1,436 @@
+LABEL,SubClass Of
+Acoustics,Mechanical Engineering|Physics
+Aerospace Engineering,Engineering Science
+African Studies,Area Studies
+Agricultural Economics,Agriculture|Economics
+Agricultural Engineering,Agriculture|Civil Engineering|Mechanical Engineering
+Agricultural Law,Jurisprudence
+Agriculture,Life Science
+Agroecology,Agriculture|Ecology
+Agronomy,Agriculture
+American Literature,Literary Studies
+American Studies,Area Studies
+Anaesthesiology,Medicine
+Analytical Chemistry,Chemistry
+Anatomy,Biology|Biomedical Science
+Ancient Cultures,Culture|Humanities
+Ancient History,Ancient Cultures|History
+Ancient Near Eastern Studies,Ancient Cultures|Area Studies
+Angiology,Medicine
+Animal Breeding,Animal Husbandry
+Animal Genetics,Zoology
+Animal Husbandry,Agriculture
+Animal Nutrition,Agriculture|Nutritional Science
+Animal Physiology,Physiology|Zoology
+Anthropology,Humanities
+Applied Linguistics,Anthropology|Communication Science|Education Science|Linguistics|Psychology
+Applied Mathematics,Mathematics
+Applied Mechanics,Construction Engineering|Mechanics
+Applied Microbiology,Biotechnology|Microbiology
+Aquaculture,Fisheries Science
+Arabian Studies,Area Studies
+Archaeology,Cultural Anthropology
+Architecture,Civil Engineering
+Area Studies,Anthropology|Culture|Geography|History|Linguistics|Literary Studies|Political Science
+Art,Fine Arts
+Art History,Fine Arts|History
+Artificial Intelligence,Computer Science
+Asian Studies,Area Studies
+Astrophysics and Astronomy,Physics
+Atmospheric Science,Earth Science
+"Atomic, Molecular, Optical and Plasma Physics",Physics
+Automation,Production Technology
+Bathymetry,Hydrography|Oceanography
+Behavioural Biology,Zoology
+Biochemistry,Biology|Chemistry
+Biodiversity,Ecology|Zoology
+Bioengineering,Biotechnology|Engineering Science
+Bioinformatics,Biology|Informatics
+Biological Process Engineering,Chemical Engineering
+Biological Psychiatry,Neuroscience
+Biological Psychology,Neuroscience|Psychology
+Biology,Life Science
+Biomaterials,Biotechnology|Materials Science
+Biomedical Science,Biology|Health Science
+Biomimetic Chemistry,Chemistry|Synthetic Biology
+Biophysics,Biology|Physics
+Biotechnology,Biology
+Biotherapeutics,Medicines Research and Development
+Botany,Biology
+Building Design,Architecture
+Building Engineering Physics,Construction Engineering|Physics
+Building Informatics,Construction Engineering|Informatics
+Business Administration,Economics
+Cardiology,Medicine
+Cardiothoracic Surgery,Surgery
+Cartography,Geoinformatics
+Cell Biology,Biology
+Cellular Neuroscience,Neuroscience
+Chemical Biology,Biology|Synthetic Chemistry
+Chemical Engineering,Chemistry|Process Engineering
+Cheminformatics,Biology|Chemistry|Informatics
+Chemistry,Natural Science
+Civil Engineering,Engineering Science
+Classical Philology,Ancient Cultures
+Clinical Chemistry,Analytical Chemistry|Medicine
+Clinical Immunology,Health Science|Immunology
+Clinical Psychology,Psychology
+Clinical Studies,Medicines Research and Development
+Clinical Veterinary Medicine,Veterinary Medicine
+Coating and Surface Technology,Materials Engineering
+Cognitive Neuroscience,Biological Psychology
+Communication Science,Social Science
+Community Care,Social Medicine
+Comparative Genomics,Genomics
+Comparative Literature,Literary Studies
+Comparative Neurobiology,Neurobiology
+Component Engineering,Electrical Engineering
+Composite Materials,Materials Engineering
+Computational Biology,Biology|Computer Science
+Computational Chemistry,Computer Science|Theoretical Chemistry
+Computational Neuroscience,Computer Science|Electrical Engineering|Neuroscience|Physics
+Computer Architecture,Computer Science
+Computer Science,Engineering Science
+Condensed Matter Physics,Physics
+Construction Engineering,Civil Engineering
+Construction History,Architecture
+Cosmology,Astrophysics and Astronomy
+Criminal Law,Public Law
+Criminology,Jurisprudence
+Critical Care Medicine,Medicine
+Cultural Anthropology,Anthropology
+Cultural Studies,Cultural Anthropology|Culture|Literary Studies
+Culture,Social Science
+Data Governance,Data Management
+Data Integration,Data Management
+Data Management,Informatics
+Data Mining,Computer Science
+Data Quality,Data Management
+Data Security,Data Management
+Data Visualization,Computer Science
+Database Management,Data Management
+Demographics,Social Science
+Dentistry,Medicine
+Dermatology,Medicine
+Developmental Biology,Biology
+Developmental Neurobiology,Neurobiology
+Developmental Psychology,Developmental Biology|Psychology
+Diabetology,Endocrinology
+Differential Psychology,Psychology
+Digital Image Processing,Computer Science
+Drug Development,Medicines Research and Development
+Drug Discovery,Chemistry|Medicines Research and Development
+Drug Metabolism,Medicines Research and Development
+Drug Repositioning,Medicines Research and Development
+Early Modern History,Modern History
+Earth Science,Natural Science
+Ecology,Biology
+Econometrics,Economics|Statistics
+Economic Policy,Economics|Policy
+Economic Theory,Economics
+Economic and Social History,Economics|History
+Economics,Social and Behavioural Science
+Ecosystem Science,Zoology
+Education Science,Social and Behavioural Science
+Educational Psychology,Education Science|Psychology
+Egyptology,Ancient Cultures
+Electrical Engineering,Engineering Science
+Electromagnetism,Physics
+Electrophysiology,Physiology
+Embryology,Developmental Biology
+Empirical Social Research,Social Science
+Endocrinology,Medicine
+Energy Engineering,Engineering Science
+Engineering Science,
+Entomology,Zoology
+Environmental Science,Biology|Earth Science
+Enzymology,Biochemistry
+Epidemiology,Public Health
+Epigenetics,Genetics
+Epigenomics,Epigenetics|Genomics
+Ergonomics,Systems Engineering
+European Literature,Literary Studies
+Evolutionary Biology,Zoology
+Experimental Condensed Matter Physics,Condensed Matter Physics
+Farming Systems Research,Agriculture
+Fine Arts,Humanities
+Fisheries Science,Life Science
+Fluid Mechanics,Mechanics
+Food Chemistry,Chemistry
+Food Process Engineering,Agriculture|Biological Process Engineering
+Food Security,Agricultural Economics|Social Policy
+Forensic Medicine,Medicine
+Forest Management,Agriculture
+Freshwater Science,Ecosystem Science
+Functional Genomics,Computational Biology|Genomics
+Functional Materials Research,Chemical Engineering|Materials Science
+Gastroenterology,Medicine
+Gemology,Mineralogy
+Gender Medicine,Medicine
+Genetics,Biology
+Genomics,Omics
+Geochemistry,Chemistry|Geology
+Geodesy,Geoinformatics
+Geography,Earth Science
+Geoinformatics,Geophysics
+Geology,Earth Science
+Geophysics,Earth Science
+Geotechnics,Construction Engineering
+Geriatric Medicine,Medicine
+German Literature,Literary Studies
+Global Health,Public Health
+Glycomics,Biochemistry|Omics
+Gynecology,Medicine
+Health Science,Life Science
+Health Services Research,Public Health
+Hematology,Medicine
+Historical Linguistics,Linguistics
+History,Humanities
+History of Philosophy,Philosophy
+History of Science,History
+Horticulture,Agriculture
+Human Biology,Biology
+Human Genetics,Genetics|Medicine
+Human Geography,Geography
+Human-Machine Systems Engineering,Systems Engineering
+Humanities,Humanities and Social Science
+Humanities and Social Science,
+Hydraulic Engineering,Construction Engineering
+Hydrogeology,Geology|Hydrology
+Hydrography,Water Research
+Hydrology,Water Research
+Immunogenetics,Genetics
+Immunology,Biomedical Science
+Industrial Engineering,Engineering Science
+Industrial and Organisational Psychology,Psychology
+Infectious Disease Medicine,Medicine
+Informatics,Computer Science
+Inorganic Molecular Chemistry,Molecular Chemistry
+Inter-organismic Interactions of Plants,Botany
+Islamic Studies,Religious Studies
+Jewish Studies,Religious Studies
+Jurisprudence,Social and Behavioural Science
+Knowledge and Information Systems,Computer Science
+Landscape Planning,Construction Engineering
+Legal History,History|Jurisprudence
+Life Science,Natural Science
+Limnology,Water Research
+Linguistics,Humanities
+Literary Studies,Humanities
+Logistics Engineering,Systems Engineering
+Marine Biology,Ecosystem Science
+Maritime Engineering,Engineering Science
+Materials Engineering,Engineering Science
+Materials Informatics,Informatics|Materials Science
+Materials Science,Construction Engineering|Engineering Science
+Materials Structuring and Functionalisation,Materials Science
+Mathematical Psychology,Mathematics|Psychology
+Mathematics,Natural Science
+Measurement Systems,Systems Engineering
+Mechanical Behaviour of Construction Materials,Materials Engineering
+Mechanical Engineering,Engineering Science
+Mechanical Process Engineering,Process Engineering
+Mechanics,Mechanical Engineering|Physics
+Media Studies,Fine Arts
+Medical Biometry,Medical Informatics|Public Health|Statistics
+Medical Biotechnology,Biotechnology
+Medical Informatics,Informatics|Medicine
+Medical Microbiology,Biomedical Science|Microbiology
+Medical Physics,Biophysics|Medicine
+Medical Psychology,Clinical Psychology|Medicine
+Medical Toxicology,Medicine|Toxicology
+Medical Virology,Medicine|Virology
+Medicinal Chemistry,Drug Discovery|Synthetic Chemistry
+Medicine,Life Science
+Medicines Research and Development,Biomedical Science
+Medieval German Literature,Literary Studies
+Medieval History,History
+Metabolomics,Omics
+Metagenomics,Genomics|Microbial Ecology
+Metal-Cutting Manufacturing Engineering,Production Technology
+Metallurgy,Materials Engineering
+Metaproteomics,Microbial Ecology|Proteomics
+Metataxonomics,Microbial Ecology
+Metatranscriptomics,Microbial Ecology|Transcriptomics
+Meteorology,Atmospheric Science|Physics
+Microbial Ecology,Ecology|Microbiology
+Microbial Genetics,Genetics|Microbiology
+Microbial Physiology,Microbiology|Physiology
+Microbiology,Biology
+Microstructural Mechanical Properties of Materials,Materials Science
+Microsystems,Systems Engineering
+Mineralogy,Geology
+Modern History,History
+Molecular Chemistry,Chemistry
+Molecular Dynamics,Computational Biology
+Molecular Genetics,Computational Biology|Genetics
+Molecular Infection Biology,Biomedical Science|Microbiology|Molecular biology
+Molecular Medicine,Translational Medicine
+Molecular Microbiology,Microbiology
+Molecular Neurology,Neuroscience
+Molecular Neuroscience,Molecular biology|Neuroscience
+Molecular Physical Chemistry,Physical Chemistry
+Molecular biology,Biology
+Musculoskeletal Medicine,Medicine
+Musicology,Fine Arts
+Nanotechnology,Chemistry|Computer Science|Materials Science|Physics|Surface Science
+Natural History,Life Science
+Natural Science,
+Nephrology,Medicine
+Neurobiology,Neuroscience
+Neurogenetics,Genetics|Neuroscience
+Neurology,Medicine|Neuroscience
+Neurophysiology,Neuroscience|Physiology
+Neuroscience,Biomedical Science
+Nonlinear Dynamics,Mathematics|Physics
+Nuclear Medicine,Radiology
+Nutritional Science,Biomedical Science
+Obstetrics,Medicine
+Occupational Medicine,Medicine
+Oceania Studies,Area Studies
+Oceanography,Earth Science
+Omics,Biology
+Oncology,Medicine
+Ontology and Terminology,Informatics
+Ophthalmology,Medicine|Neuroscience
+Oral Surgery,Surgery
+Organic Chemistry,Chemistry
+Organic Molecular Chemistry,Molecular Chemistry|Organic Chemistry
+Orthopedic Surgery,Musculoskeletal Medicine|Surgery
+Otolaryngology,Medicine
+Pain Medicine,Medicine
+Paleontology,Earth Science|Natural History
+Parasitology,Biomedical Science
+"Particles, Nuclei and Fields",Physics
+Pathobiochemistry,Biochemistry|Clinical Chemistry|Pathology
+Pathology,Medicine
+Pediatrics,Medicine
+Personalized Medicine,Medicine
+Pharmacogenomics,Genomics|Pharmacology
+Pharmacology,Medicine
+Pharmacy,Medicine
+Phenomics,Evolutionary Biology|Omics
+Philosophy,Humanities
+Philosophy of Law,Jurisprudence|Philosophy
+Photogrammetry,Geoinformatics
+Phylogenetics,Genetics|Phylogeny
+Phylogenomics,Genomics|Phylogeny
+Phylogeny,Computational Biology|Evolutionary Biology
+Physical Chemistry,Chemistry
+Physical Geography,Geography
+Physics,Natural Science
+Physiology,Biology|Medicine
+Phytochemistry,Biochemistry|Botany
+Phytomedicine,Agriculture
+Plant Anatomy,Botany
+Plant Breeding,Agriculture
+Plant Cell Biology,Botany|Cell Biology
+Plant Cultivation,Agronomy
+Plant Ecology,Botany|Ecology
+Plant Genetics,Botany|Genetics
+Plant Nutrition,Agriculture|Botany
+Plant Physiology,Botany
+Plastics Engineering,Production Technology
+Policy,Social Science
+Political Science,Social Science
+Polymer Chemistry,Organic Chemistry|Polymer Research
+Polymer Physics,Physics|Polymer Research
+Polymer Research,Chemistry|Materials Science
+Population Dynamics,Demographics|Epidemiology|Mathematics
+Population Genetics,Genetics
+Power Engineering,Electrical Engineering
+Practical Philosophy,Philosophy
+Preclinical Studies,Medicines Research and Development
+Prehistory,Ancient Cultures|History
+Primary Health Care,Medicine
+Primary Shaping Technology,Production Technology
+Private Law,Jurisprudence
+Process Engineering,Engineering Science
+Production Technology,Industrial Engineering
+Professional Socialization,Education Science
+Proteogenomics,Bioinformatics|Genomics
+Proteomics,Omics
+Protestant Theology,Theology
+Psychiatry,Medicine
+Psychology,Social and Behavioural Science
+Psychosomatic Medicine,Neuroscience|Psychiatry
+Psychotherapy,Neuroscience
+Public Finance,Economics
+Public Health,Medicine
+Public Law,Jurisprudence
+Pure Mathematics,Mathematics
+Quantitative Genetics,Genetics
+Radiation Oncology,Oncology|Radiobiology
+Radiobiology,Biology|Medicine
+Radiology,Medicine
+Regenerative Medicine,Medicine
+Religious Studies,Area Studies
+Remote Sensing,Geoinformatics
+Reproductive Health,Medicine
+"Research on Teaching, Learning and Training",Education Science
+Respiratory Medicine,Medicine
+Rheumatology,Musculoskeletal Medicine
+Robotics,Systems Engineering
+Roman Catholic Theology,Theology
+Rural and Agricultural Sociology,Social Science
+Safety Science,Industrial Engineering|Social Science
+Scientific Instrument Design,Mechanical Engineering
+Selenography,Astrophysics and Astronomy
+Sintering,Materials Engineering
+Social Anthropology,Anthropology
+Social Medicine,Public Health|Social Policy
+Social Policy,Policy
+Social Psychology,Psychology
+Social Science,Social and Behavioural Science
+Social and Behavioural Science,Humanities and Social Science
+Sociological Theory,Social Science
+Soft Matter Physics,Biology|Physical Chemistry|Physics
+Software Engineering,Computer Science
+Soil Science,Agronomy|Earth Science|Microbiology
+Solid-State Chemistry,Materials Science|Physical Chemistry
+Statistical Physics,Physics|Statistics
+Statistics,Mathematics
+Structural Biology,Biology
+Structural Engineering,Construction Engineering
+Structural Genomics,Genomics|Structural Biology
+Subject Agnostic,
+Surface Science,Physical Chemistry
+Surgery,Medicine
+Sustainable Building Technology,Architecture
+Synthesis Chemistry,Physical Chemistry
+Synthetic Biology,Bioengineering
+Synthetic Chemistry,Chemistry
+Systemic Neuroscience,Neuroscience|Systems Biology
+Systems Biology,Biology
+Systems Engineering,Engineering Science
+Systems Medicine,Medicine
+Taxonomy,Evolutionary Biology
+Technical Chemistry,Chemistry|Process Engineering
+Telecommunication Engineering,Electrical Engineering
+Theatre Studies,Area Studies|Fine Arts
+Theology,Humanities
+Theoretical Chemistry,Chemistry
+Theoretical Computer Science,Computer Science
+Theoretical Condensed Matter Physics,Condensed Matter Physics
+Theoretical Philosophy,Philosophy
+Thermal Engineering,Energy Engineering
+Thermal Technology,Thermal Engineering
+Thermodynamics,Physics
+Thermomechanical Processing,Metallurgy|Process Engineering
+Toxicogenomics,Genomics|Toxicology
+Toxicology,Medicines Research and Development|Pharmacology|Safety Science
+Traditional Medicine,Medicine
+Transcriptomics,Genomics|Molecular Genetics
+Transfusion Medicine,Hematology
+Translational Medicine,Medicine
+Transportation Planning,Construction Engineering
+Traumatology,Medicine
+Tropical Medicine,Medicine
+Urban Planning,Construction Engineering
+Urology,Medicine
+Vascular Surgery,Surgery
+Veterinary Medicine,Agriculture|Medicine
+Virology,Microbiology
+Water Management,Water Research
+Water Research,Earth Science
+Zoology,Biology

@@ -1,0 +1,1 @@
+This is the old directory for updating and releasing SRAO, and is now obsolete. For full information regarding the current build procedure, please see [the main README](../README.md).

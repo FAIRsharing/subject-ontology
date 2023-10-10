@@ -1,0 +1,932 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.fairsharing.org/ontology/subject/SRAO/imports/ncit_import.owl#"
+     xml:base="http://www.fairsharing.org/ontology/subject/SRAO/imports/ncit_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#">
+    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/subject/SRAO/imports/ncit_import.owl">
+        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO/releases/2023-10-10/imports/ncit_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/ncit/releases/2022-08-19/ncit.owl"/>
+        <owl:versionInfo>2023-10-10</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://protege.stanford.edu/plugins/owl/protege#defaultLanguage -->
+
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/isVersionOf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isVersionOf"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C105692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105692">
+        <obo:IAO_0000115>A medical specialty concerned with diagnosis and treatment of lung disorders and other breathing problems.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C105699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105699">
+        <obo:IAO_0000115>A surgical specialty that focuses on diagnosis and management of disorders of the arterial, venous and lymphatic systems, other than the intracranial vessels and the heart.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C119712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C119712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
+        <obo:IAO_0000115>A method of study that relates annotated genomic information to global protein expression in order to determine the relationship between genomic sequences and both expressed proteins and predicted peptide sequences; these studies can identify novel coding regions.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C142491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142491">
+        <obo:IAO_0000115>The condition of information that describes its credibility, authenticity, and appropriateness for its function. Important aspects include source recognition, accuracy, innovativeness, and information on changes to the data.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C142642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142642">
+        <obo:IAO_0000115>An investigation that tests a drug, procedure or medical treatment in animals to determine any toxic effects before trials can be carried out in humans.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15188">
+        <obo:IAO_0000115>Research concerned with the application of biological and physiological principles to clinical medicine.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15206">
+        <obo:IAO_0000115>Research conducted with human subjects or on material of human origin in which an investigator directly interacts with human subjects; includes development of new technologies, study of mechanisms of human diseases, therapy, clinical trials, epidemiologic, behavior, and health services research.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15245">
+        <obo:IAO_0000115>A multidisciplinary field of inquiry that examines the costs, quality, accessibility, delivery, organization, financing, and outcomes of health care services.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15308">
+        <obo:IAO_0000115>A method of treating disease, esp. psychic disorders, by mental rather than pharmacological means (e.g., suggestion, re-education, hypnotism, and psychoanalysis). (Taber&apos;s)</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C153192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C153192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
+        <obo:IAO_0000115>A study of the complete set of glycans produced in a given cell or organism under specific conditions.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <obo:IAO_0000115>The branch of science concerned with origin and development of humans in all their physical, social, and cultural relationships.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16304">
+        <obo:IAO_0000115>The art or science of building; especially, the art of building houses, churches, bridges, and other structures, for the purposes of civil life</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16309">
+        <obo:IAO_0000115>Artificial intelligence is the branch of computer science that deals with writing computer programs that can solve problems creatively.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16345">
+        <obo:IAO_0000115>The scientific study of living organisms.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16349">
+        <obo:IAO_0000115>Physics as applied to biological problems; an interdisciplinary science that applies theories and methods of the physical sciences to questions of biology.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
+        <obo:IAO_0000115>Chemical Engineering; engineering dealing with the industrial application of chemistry. (WWWebster Dictionary)</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16414">
+        <obo:IAO_0000115>The science of the composition, structure, properties, and reactions of matter, especially of atomic and molecular systems.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16417">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19199"/>
+        <obo:IAO_0000115>The department responsible for performing chemical and enzymatic analyses of body fluids and tissues. (from Handbook of Medical Informatics)</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16419">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115>A branch of chemistry that deals specifically with the structures, synthesis and reactions of carbon-containing compounds.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16421">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115>The branch of chemistry dealing with the physical properties of chemical substances. Chemical thermodynamics, chemical kinetics, quantum chemistry, statistical mechanics, and spectroscopy are some areas of chemistry comprising the bulk of physical chemistry.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16439">
+        <obo:IAO_0000115>The application of informatics methods to manage medical information and improve healthcare.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16478">
+        <obo:IAO_0000115>A pattern of learned beliefs, values, and behavior that are shared within a group. It includes language, styles of communication, practices, customs, and views on roles and relationships.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16495">
+        <obo:IAO_0000115>The statistical characterization of human populations or segments of human populations (e.g., characterization by age, sex, race, or income).</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16500">
+        <obo:IAO_0000115>The branch of medicine focused on the study of the skin, and responsible for the medical management of its associated diseases.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The study of how a multicellular organism develops from its early immature forms (e.g., zygote, larva, embryo) into an adult.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16526">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The branch of biology concerned with the relations between organisms and their environment.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16910"/>
+        <obo:IAO_0000115>That branch of physiology that is concerned with the electric phenomena associated with living bodies and involved in their functional activity.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16548">
+        <obo:IAO_0000115>The discipline concerned with the application of scientific knowledge to solve practical issues in commerce or industry.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16550">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
+        <obo:IAO_0000115>Entomology; the branch of zoology that studies insects.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16556">
+        <obo:IAO_0000115>The study of the causes, incidence and distribution of disease in the population and its application for prevention or control.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16591">
+        <obo:IAO_0000115>The application of medical knowledge to questions of law; research, reports and testimony in court by experts in medical science to assist in determining a legal question.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16603">
+        <obo:IAO_0000115>The branch of medicine that focuses on diagnosis and treatment of conditions affecting the gastrointestinal tract.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The branch of biology that deals with heredity, especially the mechanisms of hereditary transmission and the variation of inherited characteristics among similar or related organisms</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16633">
+        <obo:IAO_0000115>The science that deals with the world and its inhabitants; a description of the earth, or a portion of the earth, including its structure, features, products, political divisions, and the people by whom it is inhabited.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16658">
+        <obo:IAO_0000115>The branch of medicine that deals with the diseases and hygiene of women.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16673">
+        <obo:IAO_0000115>The branch of medicine that deals with the blood and blood-forming organs and the diseases thereof.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <obo:IAO_0000115>A sub-field of genetics that uses both genetic and immunological analyses to study the genetics behind antibody formation and the immune response. (Biotech Life Science Dictionary)</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16851">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The science that deals with the study of microorganisms, including algae, archaea, bacteria, fungi, protozoa, and viruses.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16902">
+        <obo:IAO_0000115>A branch of medicine concerned with the development, anatomy, function, and dysfunction of the kidney.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16908">
+        <obo:IAO_0000115>A branch of medicine concerned with the development, anatomy, function, and dysfunction of the nervous system.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16910">
+        <obo:IAO_0000115>A branch of neuroscience concerned with the physiology of the nervous system.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16922 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16922">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17059"/>
+        <obo:IAO_0000115>Nuclear Medicine is the branch of medicine that uses radioactive materials either to image a patient&apos;s body or to destroy diseased cells.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16928 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16928">
+        <obo:IAO_0000115>A medical-surgical specialty dealing with the care of a woman and her offspring during pregnancy, childbirth and the puerperium (the period shortly after birth).</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16931">
+        <obo:IAO_0000115>This branch of medicine is concerned with the prevention, diagnosis, and treatment of injuries and illnesses that occur at the workplace or as a result of toxic exposures, stress, or accidents at the workplace. Occupational medicine encompasses issues such as industrial hygiene, safety, pollution control, ergonomics, industrial and agricultural toxicology, disability evaluation, physical rehabilitation, industrial psychology and emergency medicine. (BioTech Life Science Dictionary)</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16939">
+        <obo:IAO_0000115>A medical specialty concerned with the structure and function of the eye and the medical and surgical treatment of its defects and diseases.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16974">
+        <obo:IAO_0000115>The study of pharmacologic agents. This includes the preparation, compounding, and dispensing of drugs, as well as the characteristics and properties of drugs, their effects on the body, and how they are metabolized and eliminated from the body.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17026">
+        <obo:IAO_0000115>The medical specialty that deals with the medical management of mental disorders.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17027">
+        <obo:IAO_0000115>The study of behavior and cognition.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
+        <obo:IAO_0000115>The branch of psychology that deals with the diagnosis and treatment of psychological and behavioral problems.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
+        <obo:IAO_0000115>A branch of psychology concerned with educational techniques and assessment of academic aptitude.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17026"/>
+        <obo:IAO_0000115>A branch of medicine concerned with the relationship between emotion and body function.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17039">
+        <obo:IAO_0000115>The science and practice of protecting and improving the health of a community, as by preventive medicine, health education, control of communicable diseases, application of sanitary measures, and monitoring of environmental hazards.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The study of the mechanisms and biological effects of ionizing radiation, including repair processes.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17059">
+        <obo:IAO_0000115>The branch of medical science dealing with the medical use of X-rays or other penetrating radiation.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17099">
+        <obo:IAO_0000115>A medical specialty that deals with diagnosis and treatment of diseases and disorders of the connective tissues.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17141">
+        <obo:IAO_0000115>Comprises the scientific study of the human aspects of the world. They are also known as social studies. Psychology studies the human mind, sociology examines human society, political science studies the governing of groups and economics concerns itself with the allocation of wealth in society.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17147">
+        <obo:IAO_0000115>The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of computer software.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17167">
+        <obo:IAO_0000115>A branch of applied mathematics concerned with the collection and interpretation of quantitative data and the use of probability theory to estimate population parameters.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17173">
+        <obo:IAO_0000115>The branch of medical science that treats disease or injury by operative procedures.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19199"/>
+        <obo:IAO_0000115>Surgical procedures for treating diseases and disorders of the oral cavity.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17193">
+        <obo:IAO_0000115>The branch of physics concerned with the conversion of different forms of energy.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:IAO_0000115>Toxicology is the branch of pharmacology that deals with the nature and effects and treatments of poisons.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17243">
+        <obo:IAO_0000115>The medical specialty concerned with the study, diagnosis, and treatment of diseases of the genitourinary tract.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The branch of biology dealing with the study of animals.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17606">
+        <obo:IAO_0000115>The use of data processing systems to analyze, enhance, interpret or display digital images.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17735">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <obo:IAO_0000115>A plan of action adopted by an individual or social group.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17837">
+        <obo:IAO_0000115>The study of tumors encompassing the physical, chemical, and biologic properties.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17940">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <obo:IAO_0000115>A branch of genetics concerned with the mechanisms and processes of heredity in microorganisms.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17964">
+        <obo:IAO_0000115>Bioinformatics derives knowledge from computer analysis of biological data. These can consist of the information stored in the genetic code, but also experimental results from various sources, patient statistics, and scientific literature. Research in bioinformatics includes method development for storage, retrieval, and analysis of the data. Bioinformatics is a rapidly developing branch of biology and is highly interdisciplinary, using techniques and concepts from informatics, statistics, mathematics, chemistry, biochemistry, physics, and linguistics. It has many practical applications in different areas of biology and medicine. (M. Nilges and Jens P. Linge, Unite de Bio-informatique Structurale, Institut Pasteur, Paris)</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17992">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The study of the internal workings of cells at the microscopic and molecular level.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18011">
+        <obo:IAO_0000115>The study of the immune system and its reaction to pathogens, as well as its malfunctions (autoimmune diseases, allergies, rejection of organ transplants).</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
+        <obo:IAO_0000115>Bioengineering integrates physical, chemical, or mathematical sciences and engineering principles for treatment and for the study of biology, medicine, behavior, or health.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18088">
+        <obo:IAO_0000115>The branch of neurobiology concerned with the changes that take place in the nervous system between fertilization and maturity.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18097">
+        <obo:IAO_0000115>The science of simulating the motions of a system of particles. (Karplus and Petsko)</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16345"/>
+        <obo:IAO_0000115>The discipline concerned with the three-dimensional configuration of biological molecules and the influence of structure on function.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18189">
+        <obo:IAO_0000115>The medical science, and specialty practice, concerned with all aspects of disease, but with special reference to the essential nature, causes, and development of abnormal conditions, as well as the structural and functional changes that result from the disease processes. Informally used to mean the result of such an examination.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17269"/>
+        <obo:IAO_0000115>Interdisciplinary studies involving biology, anthropology, nutrition, and medicine with a focus on humans.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115>Computational chemistry is the branch of theoretical chemistry whose major goals are to create efficient computer programs that calculate the properties of molecules (such as total energy, dipole moment, vibrational frequencies) and to apply these programs to concrete chemical objects. (from Information Headquarters)</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18478">
+        <obo:IAO_0000115>A multidisciplinary field that strives to comprehend the interactions of cellular components, molecular components and engineered materials at the nanoscale (i.e., less than 100 nanometers). This discipline focuses on the understanding and control of matter at the nanoscale, wherein unique phenomena enable novel applications.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <obo:IAO_0000115>The study of genetic traits in animals.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18645">
+        <obo:IAO_0000115>The branch of biochemistry dealing with the chemical nature and biological activity of enzymes.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18701">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19199"/>
+        <obo:IAO_0000115>The medical field that deals with immune diseases, including autoimmune diseases, allergies, rejection of organ transplants and immune deficiency.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18729">
+        <obo:IAO_0000115>Database management involves the design and maintenance of electronic data storage systems to facilitate and optimize the categorization, selection, and retrieval of information.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18740">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17027"/>
+        <obo:IAO_0000115>The study of the psychological and behavioral changes that occur in an organism between birth and old age.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
+        <obo:IAO_0000115>The metabolism of microbial life forms.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18874">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16851"/>
+        <obo:IAO_0000115>The study of microorganisms with an emphasis on their role in the human disease process.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18948">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16419"/>
+        <obo:IAO_0000115>The study of synthesis and application of polymers.  Polymers are any of numerous natural and synthetic compounds of usually high molecular weight consisting of up to millions of repeated linked units, each a relatively light and simple molecule.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19199">
+        <obo:IAO_0000115>The sciences concerned with health promotion and maintenance.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16548"/>
+        <obo:IAO_0000115>The application of engineering and mathematical principles to electrical problems</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19638">
+        <obo:IAO_0000115>Its fundamental principle is that any physical system can be decomposed into a collection of simple independent local elements each of which interacts only with its immediate neighbors.  In classical mechanics a complete description of any physical system is supposed to be specified by giving the values of the various fields (e.g., the electric field, the magnetic field, etc.) at each of the relevant spacetime points.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
+        <obo:IAO_0000115>The global analysis of cellular proteins. Proteomics uses a combination of sophisticated techniques including two-dimensional (2D) gel electrophoresis, image analysis, mass spectrometry, amino acid sequencing, and bio-informatics to resolve comprehensively, to quantify, and to characterize proteins. The application of proteomics provides major opportunities to elucidate disease mechanisms and to identify new diagnostic markers and therapeutic targets.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
+        <obo:IAO_0000115>The combination of computational DNA sequence analysis with structural determinations by X-ray crystallography and NMR techniques to study protein structural families. (from RFA: GM-99-009)</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
+        <obo:IAO_0000115>Toxicogenomics is a new scientific field that elucidates how the entire genome is involved in biological responses of organisms exposed to environmental toxicants/stressors. Toxicogenomics combines information from studies of genomic-scale mRNA profiling (by microarray analysis), cell-wide or tissue-wide protein profiling (proteomics), genetic susceptibility, and computational models to understand the roles of gene-environment interactions in disease. (from National Center for Toxicogenomics homepage)</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16414"/>
+        <obo:IAO_0000115>A specialized branch of chemistry dealing with the making of compounds, generally from the building blocks to the larger or complex molecules. e.g. making protein from amino acids, or DNA from nucleotides.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C26633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26633">
+        <obo:IAO_0000115>A series of chemical modifications of a drug compound by enzymatic activity that make the substrate (drug) more water soluble to allow its clearance from the body. Drug metabolism occurs in two phases: Phase I (biotransformation) involves oxidation, hydroxylation reduction, and hydrolysis. Phase II (conjugation) involves synthesis and conjugation.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C39794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C39794">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17141"/>
+        <obo:IAO_0000115>The field of study concerned with the rational investigation of questions about existence and knowledge and ethics.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C54625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C54625">
+        <obo:IAO_0000115>The aggregate of past events; the continuum of events occurring in succession leading from the past to the present; a record or narrative description of past events.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C84343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C84343">
+        <obo:IAO_0000115>The study of comprehensive sets of genes via high throughput methods.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C86055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86055">
+        <obo:IAO_0000115>The branch of medicine dealing with the heart and its diseases.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C93254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C93254">
+        <obo:IAO_0000115>The branch of medicine that involves the laboratory growth of functional tissues and organs and their use to regenerate or replace tissues and organs in the body that are damaged by diseases or cannot be healed. Examples include the transplantation of in vitro developed tissues, cell therapies, and stimulation of regeneration by biological substances.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C95096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C95096">
+        <obo:IAO_0000115>A subject domain utilized for the submission of information encompassing and representing data, vocabulary or records related to the brain and nervous system.</obo:IAO_0000115>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+
