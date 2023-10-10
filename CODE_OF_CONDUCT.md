@@ -1,6 +1,6 @@
 # Contributor Covenant Code of Conduct
 
-This code of conduct has been drawn from the default provided by the 
+This code of conduct has been drawn from the default provided by the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
 
 ## Our Pledge
 

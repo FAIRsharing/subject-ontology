@@ -6,6 +6,8 @@ The following is a set of guidelines for contributing to SRAO.
 These guidelines are not strict rules. Use your best judgment, and feel free to propose 
 changes to this document in a pull request.
 
+This contribution document has been drawn from the default provided by the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
+
 ## Table Of Contents
 
 - [Code of Conduct](#code-of-conduct)
@@ -33,7 +35,7 @@ Please carefully read our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ### Reporting problems with the ontology
 
-Please use our [Issue Tracker](https://github.com/allysonlister/SRAO/issues/) for reporting problems with the ontology. 
+Please use our [Issue Tracker](https://github.com/FAIRsharing/subject-ontology/issues/) for reporting problems with the ontology. 
 To learn how to write a good issue [see here](#great-issues).
 
 <a id="requesting-terms"></a>
@@ -57,18 +59,14 @@ community resource, it is often necessary to do at least some of the work of add
 
 #### How to write a new term request
 
-Request a new term _via_ the GitHub [Issue Tracker](https://github.com/allysonlister/SRAO/issues/).
+Request a new term _via_ the GitHub [Issue Tracker](https://github.com/FAIRsharing/subject-ontology/issues/).
 
 It is important to remember that it takes a lot of time for curators to process issues submitted to the tracker.
-To make this work easier, please always use issue templates if they are available (https://github.com/allysonlister/SRAO/issues/new/choose).
+To make this work easier, please always use issue templates if they are available (https://github.com/FAIRsharing/subject-ontology/issues/new/choose).
 
 For how to write a good term request, please read the [best practices carefully](#great-issues).
 
 <a id="adding-terms"></a>
-
-### How to add a new term
-
-If you have never editted this ontology before, first follow a [general tutorial](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies)
 
 **Process**:
 

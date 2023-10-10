@@ -1,6 +1,6 @@
 id: SRAO
 title: Subject Resource Application Ontology
-github_org: allysonlister
+github_org: FAIRsharing
 repo: subject-ontology
 license: CC-BY 4.0
 import_group:

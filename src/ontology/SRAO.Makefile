@@ -5,6 +5,9 @@
 
 documentation_system: mkdocs
 
+## Overriding CURRENT_RELEASE to get around an issue with wget in the FAIRsharing redirects
+CURRENT_RELEASE=https://github.com/FAIRsharing/subject-ontology/raw/master/releases/SRAO.owl
+
 # EDAM import: custom rule
 # This is necessary because we want to remove all annotation EXCEPT that of definitions ('-T $(word 2,$^) --term IAO:0000115 --select complement').
 # We also want to get just the terms themselves and not their hierarchies ('--method subset' instead of '--method BOT')

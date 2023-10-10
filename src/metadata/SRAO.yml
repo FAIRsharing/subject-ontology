@@ -4,8 +4,8 @@ idspace: SRAO
 base_url: /obo/SRAO
 
 products:
-- SRAO.owl: https://raw.githubusercontent.com/allysonlister/SRAO/main/SRAO.owl
-- SRAO.obo: https://raw.githubusercontent.com/allysonlister/SRAO/main/SRAO.obo
+- SRAO.owl: https://raw.githubusercontent.com/FAIRsharing/subject-ontology/main/SRAO.owl
+- SRAO.obo: https://raw.githubusercontent.com/FAIRsharing/subject-ontology/main/SRAO.obo
 
 term_browser: ontobee
 example_terms:
@@ -14,15 +14,15 @@ example_terms:
 entries:
 
 - prefix: /releases/
-  replacement: https://raw.githubusercontent.com/allysonlister/SRAO/v
+  replacement: https://raw.githubusercontent.com/FAIRsharing/subject-ontology/v
 
 - prefix: /tracker/
-  replacement: https://github.com/allysonlister/SRAO/issues
+  replacement: https://github.com/FAIRsharing/subject-ontology/issues
 
 - prefix: /about/
   replacement: http://www.ontobee.org/ontology/SRAO?iri=http://purl.obolibrary.org/obo/
 
 ## generic fall-through, serve direct from github by default
 - prefix: /
-  replacement: https://raw.githubusercontent.com/allysonlister/SRAO/main/
+  replacement: https://raw.githubusercontent.com/FAIRsharing/subject-ontology/main/
 
