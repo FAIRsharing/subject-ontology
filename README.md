@@ -13,6 +13,7 @@ All classes within SRAO come from publicly-available ontologies and controlled v
 5. [OMIT](https://github.com/OmniSearch/omit) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/omit))
 6. [OBI](http://obi-ontology.org/) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/obi))
 7. [PO](http://browser.planteome.org/amigo) ([in OLS](https://www.ebi.ac.uk/ols/ontologies/po))
+8. [UAT](https://astrothesaurus.org/)
 
 ## Versions
 
