@@ -63,31 +63,3 @@ Request a new term _via_ the GitHub [Issue Tracker](https://github.com/FAIRshari
 
 It is important to remember that it takes a lot of time for curators to process issues submitted to the tracker.
 To make this work easier, please always use issue templates if they are available (https://github.com/FAIRsharing/subject-ontology/issues/new/choose).
-
-For how to write a good term request, please read the [best practices carefully](#great-issues).
-
-<a id="adding-terms"></a>
-
-**Process**:
-
-1. Clone the repository (In case you are not an offical team member, create a fork first)
-1. Create new branch in git, for example `git checkout -b issue123`
-1. Open src/ontology/SRAO-edit.owl in your favourite editor, i.e. [Protege](https://protege.stanford.edu/). **Careful:** double check you are editing the correct file. There are many ontology files in this repository, but only one _editors file_!
-1. Perform your edit and save your changes
-1. Commit changes to branch
-1. Push changes upstream
-1. Create pull request
-
-## Best Practices
-
-<a id="great-issues"></a>
-
-### How to write great issues?
-
-Please refer to the [OBO Academy best practices](https://oboacademy.github.io/obook/lesson/term-request/).
-
-<a id="great-pulls"></a>
-
-### How to create a great pull/merge request?
-
-Please refer to the [OBO Academy best practices](https://oboacademy.github.io/obook/howto/github-create-pull-request/)

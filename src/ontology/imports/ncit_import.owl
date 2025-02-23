@@ -11,9 +11,9 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/subject/SRAO/imports/ncit_import.owl">
-        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO/releases/2023-10-10/imports/ncit_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/ncit/releases/2022-08-19/ncit.owl"/>
-        <owl:versionInfo>2023-10-10</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO/releases/2025-02-23/imports/ncit_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/ncit/releases/2024-05-07/ncit.owl"/>
+        <owl:versionInfo>2025-02-23</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -87,6 +87,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C105699 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105699">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17173"/>
         <obo:IAO_0000115>A surgical specialty that focuses on diagnosis and management of disorders of the arterial, venous and lymphatic systems, other than the intracranial vessels and the heart.</obo:IAO_0000115>
     </owl:Class>
     
@@ -95,7 +96,8 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C119712 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C119712">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000115>A method of study that relates annotated genomic information to global protein expression in order to determine the relationship between genomic sequences and both expressed proteins and predicted peptide sequences; these studies can identify novel coding regions.</obo:IAO_0000115>
     </owl:Class>
     
@@ -463,6 +465,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C17026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19199"/>
         <obo:IAO_0000115>The medical specialty that deals with the medical management of mental disorders.</obo:IAO_0000115>
     </owl:Class>
     
@@ -471,6 +474,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C17027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19199"/>
         <obo:IAO_0000115>The study of behavior and cognition.</obo:IAO_0000115>
     </owl:Class>
     
@@ -571,7 +575,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C17174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17174">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19199"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17173"/>
         <obo:IAO_0000115>Surgical procedures for treating diseases and disorders of the oral cavity.</obo:IAO_0000115>
     </owl:Class>
     
@@ -846,7 +850,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C20126 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000115>The combination of computational DNA sequence analysis with structural determinations by X-ray crystallography and NMR techniques to study protein structural families. (from RFA: GM-99-009)</obo:IAO_0000115>
     </owl:Class>
     
@@ -855,7 +859,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C20179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84343"/>
         <obo:IAO_0000115>Toxicogenomics is a new scientific field that elucidates how the entire genome is involved in biological responses of organisms exposed to environmental toxicants/stressors. Toxicogenomics combines information from studies of genomic-scale mRNA profiling (by microarray analysis), cell-wide or tissue-wide protein profiling (proteomics), genetic susceptibility, and computational models to understand the roles of gene-environment interactions in disease. (from National Center for Toxicogenomics homepage)</obo:IAO_0000115>
     </owl:Class>
     
@@ -898,7 +902,9 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C84343 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C84343">
-        <obo:IAO_0000115>The study of comprehensive sets of genes via high throughput methods.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16624"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17964"/>
+        <obo:IAO_0000115>The study of the structure, function, expression, evolution, mapping and editing of genomes.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -928,5 +934,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

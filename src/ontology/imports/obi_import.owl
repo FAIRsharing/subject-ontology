@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.fairsharing.org/ontology/subject/SRAO/imports/obi_import.owl>
-<http://www.fairsharing.org/ontology/subject/SRAO/releases/2023-10-10/imports/obi_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/obi/2023-09-20/obi.owl>)
-Annotation(owl:versionInfo "2023-10-10")
+<http://www.fairsharing.org/ontology/subject/SRAO/releases/2025-02-23/imports/obi_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/obi/2025-01-09/obi.owl>)
+Annotation(owl:versionInfo "2025-02-23")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0200111>))
 Declaration(AnnotationProperty(<http://protege.stanford.edu/plugins/owl/protege#defaultLanguage>))

@@ -3,7 +3,8 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
-documentation_system: mkdocs
+documentation:
+	documentation_system: mkdocs
 
 ## Overriding CURRENT_RELEASE to get around an issue with wget in the FAIRsharing redirects
 CURRENT_RELEASE=https://github.com/FAIRsharing/subject-ontology/raw/master/releases/SRAO.owl
