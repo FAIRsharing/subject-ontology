@@ -7,4 +7,4 @@ OBI|https://doi.org/10.1371/journal.pone.0154556|http://creativecommons.org/lice
 OMIT|https://doi.org/10.1371/journal.pone.0100855 and https://doi.org/10.1186/s13326-016-0064-2|https://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.mf91p5
 PO|http://www.plantontology.org/|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.3ngg40
 re3data subject hierarchy|https://www.re3data.org/browse/by-subject/|https://creativecommons.org/publicdomain/zero/1.0/ and https://creativecommons.org/licenses/by/4.0/ where PD is not possible|
-UAT|https://astrothesaurus.org/, https://doi.org/10.3847/2515-5172/ab8dc7|https://creativecommons.org/licenses/by-sa/3.0/deed.en_US|
+UAT|https://astrothesaurus.org/, https://doi.org/10.3847/2515-5172/ab8dc7|https://creativecommons.org/licenses/by-sa/3.0/deed.en_US|https://doi.org/10.25504/FAIRsharing.998c4c

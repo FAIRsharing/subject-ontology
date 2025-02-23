@@ -176,7 +176,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | Number of classes, properties, axioms and types of axioms, rules and individuals in the ontology. |
 | **Importance:** | SHOULD |
-| **Value:** |  includes 426 classes, 0 object properties, 17 annotation properties, 3390 axioms (565 SubClassOf axioms), 0 rules, 0 individuals.  |
+| **Value:** |  includes 447 classes, 0 object properties, 52 annotation properties, 3724 axioms (593 SubClassOf axioms), 0 rules, 0 individuals.  |
 ----
 
 ### E.4 Incorporation of other ontologies
@@ -221,7 +221,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | If an upper ontology is used, which one is used and why is it used? If not used, then why. |
 | **Importance:** | MUST |
-| **Value:** | No upper-level ontology was used as we initially based our hierarchy on the [re3data](https://www.re3data.org/browse/by-subject/) hierarchy. |
+| **Value:** | No upper-level ontology was used. |
 ----
 
 ### E.9 Ontology relationships
@@ -239,7 +239,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | An axiom pattern is a regular design of axioms or a template for axioms used to represent a category of entities or common aspects of a variety of types of entities. An axiom pattern may comprise both asserted and inferred axioms. The aim of a pattern is to achieve a consistent style of representation. An important family of axiom patterns are Ontology Design pattern (ODP) which are commonly used solutions for issues in representation.  |
 | **Importance:** | MUST |
-| **Value:** | As an application ontology, SRAO does not create its own classes. As such it does not have a defined axiom pattern.|
+| **Value:** | As an application ontology, SRAO does not create its own classes unless required due to there not being an appopriate community ontology to use. As such it does not have a defined axiom pattern.|
 ----
 
 ### E.11 Dereferenceable IRIs
@@ -268,7 +268,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | Describe the procedures for managing entities that become removed, split or redefined. |
 | **Importance:** | MUST |
-| **Value:** | SRAO is an application ontology, and therefore as external ontologies deprecate classes, we will have to find alternatives. We may also choose to delete an term which is no longer appropriate for FAIRsharing. This will usually just be dropping an external class from an application ontology - the originating ontology will still retain that class. Where a SRAO IRI is no longer required, up through version 0.2.2 the unnecessary class was deleted. In future versions we plan to deprecate an IRI using the owl:deprecated boolean. |
+| **Value:** | SRAO is an application ontology, and therefore as external ontologies deprecate classes, we will have to find alternatives. We may also choose to delete an term which is no longer appropriate for FAIRsharing. This will usually just be dropping an external class from an application ontology - the originating ontology will still retain that class. Where a SRAO IRI is no longer required, up through version 0.2.2 the unnecessary class was deleted. Now, deprecated classes follow the procedure outlined in [README-editors.md](src/ontology/README-editors.md). |
 ----
 
 ### F.3 Versioning policy
@@ -288,7 +288,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | Description of the procedure used to judge whether the ontology achieves the claims made for the ontology. State, for example, whether the ontology is logically consistent, answers the queries it claims to answer, and whether it can answer them in a time that is reasonable for the projected use case scenario (benchmarking). |
 | **Importance:** | MUST |
-| **Value:** | The ontology was successfully classified by HermiT 1.3.8 in less than 1 second. |
+| **Value:** | Classification on ad hoc basis via Protege. Classification via ODK release procedure. |
 ----
 
 ### G.2 Evaluation
