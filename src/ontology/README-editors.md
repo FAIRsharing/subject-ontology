@@ -118,7 +118,7 @@ If it is to be replaced by a new IRI, do these steps first:
 2. Add a comment to the new class, noting the old IRI and a comment describing why the old IRI was being retired.
 
 Now retire / deprecate the old IRI:
-1. Add the old SRAO IRI to [RETIRED.md](RETIRED.md), with the new IRI that is taking its place (as appropriate).
+1. Add the old SRAO IRI to [RETIRED.md](./RETIRED.md), with the new IRI that is taking its place (as appropriate).
 2. Prepend the name of the class with "OBSOLETE”.
 3. Use http://purl.obolibrary.org/obo/IAO_0100001 (term replaced by) to reference the new IRI.
 4. Add a 'term tracker item' annotation to reference the issue that deals with the refactoring in github.
