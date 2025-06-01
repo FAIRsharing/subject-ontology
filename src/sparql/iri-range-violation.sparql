@@ -16,4 +16,3 @@ WHERE {
   FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://www.fairsharing.org/ontology/subject/SRAO_")))
   FILTER (!isIRI(?value))
 }
-

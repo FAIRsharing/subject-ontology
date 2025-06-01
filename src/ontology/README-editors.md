@@ -25,8 +25,8 @@ if you wish to update the ODK first, as outlined [here](https://oboacademy.githu
 
 If you have updated the ODK, then make sure you update in your branch too. It must successfully run twice before this step is complete. Change to this directory (src/ontology) and run:
 
-	sh run.sh make update_repo
-	sh run.sh make update_repo
+	sh run.sh update_repo
+	sh run.sh update_repo
 
 ## Refresh an imported ontology
 

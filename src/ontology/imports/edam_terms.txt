@@ -1,6 +1,5 @@
 http://edamontology.org/topic_0084
 http://edamontology.org/topic_0085
-http://edamontology.org/topic_0089
 http://edamontology.org/topic_0153
 http://edamontology.org/topic_0194
 http://edamontology.org/topic_0208

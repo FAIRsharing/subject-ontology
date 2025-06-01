@@ -13,7 +13,7 @@
      xmlns:subject="http://www.fairsharing.org/ontology/subject/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/subject/SRAO/SRAO-base.owl">
-        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO/releases/2025-02-23/SRAO-base.owl"/>
+        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO/releases/2025-06-01/SRAO-base.owl"/>
         <dc:creator xml:lang="en">The FAIRsharing Team, contact@fairsharing.org</dc:creator>
         <dc:title xml:lang="en">FAIRsharing Subject Ontology (SRAO)</dc:title>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
@@ -36,7 +36,7 @@ Originally developed for use within FAIRsharing.org
 
 Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2025-02-23</owl:versionInfo>
+        <owl:versionInfo>2025-06-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2898,7 +2898,6 @@ Example: &quot;JPEG&quot; is Subject Agnostic, which means that the resource is 
     <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000407 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000407">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000189"/>
         <obo:IAO_0000233>https://github.com/FAIRsharing/subject-ontology/issues/38</obo:IAO_0000233>
         <obo:IAO_0100001>http://astrothesaurus.org/uat/343</obo:IAO_0100001>
         <rdfs:comment>AL 20.2.25: refactored so that the UAT IRI could be used for Cosmology instead.</rdfs:comment>

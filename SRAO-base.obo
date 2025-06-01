@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: http://www.fairsharing.org/ontology/subject/SRAO/releases/2025-02-23/SRAO-base.owl
+data-version: http://www.fairsharing.org/ontology/subject/SRAO/releases/2025-06-01/SRAO-base.owl
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: domains http://www.fairsharing.org/ontology/domains/ 
@@ -11,14 +11,13 @@ property_value: dc:title "FAIRsharing Subject Ontology (SRAO)" xsd:string
 property_value: dc:type IAO:8000001
 property_value: dcterms:description "SRAO is a hierarchy of academic disciplines that draws from the re3data subject list as well as importing terms from 7 publicly-available ontologies. This hierarchy covers all of the humanities and natural sciences and, where external vocabularies could not be found, SRAO classes were created.\n\nThe initial hierarchy and class set came from FAIRsharing user requirements. Additional classes have been drawn from the following sources:\n\n1. the re3data subject categories as listed at http://www.re3data.org/browse/by-subject/\n2. NCIT (http://dx.doi.org/10.3233/978-1-60750-949-3-33, CC BY 4.0)\n3. the EDAM Topic hierarchy as available at http://edamontology.org (http://doi.org/10.1093/bioinformatics/btt113, CC BY-SA 4.0)\n4. AgroVoc (http://agrovoc.uniroma2.it/agrovoc/agrovoc/en/, CC BY 3.0 IGO)\n5. OMIT (https://doi.org/10.1371/journal.pone.0100855 and https://doi.org/10.1186/s13326-016-0064-2, CC BY 3.0)\n6. OBI (https://doi.org/10.1371/journal.pone.0154556, CC BY 3.0)\n7. PO (http://www.plantontology.org/, CC BY 4.0)\n8. UAT: (https://astrothesaurus.org/, CC BY 3.0 Unported)\n\nModifications to the hierarchy have been performed to aid usability within FAIRsharing as well as to aid ontology alignment and merging. Additional definitions and annotations have also been incorporated by the FAIRsharing Team.\n\nOriginally developed for use within FAIRsharing.org\n\nLicensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
-property_value: owl:versionInfo "2025-02-23" xsd:string
+property_value: owl:versionInfo "2025-06-01" xsd:string
 
 [Term]
 id: subject:SRAO_0000002
 name: Humanities and Social Science
 def: "Humanities and Social Sciences is a broad multi-disciplinary research area incorporating both the Humanities and the Social Sciences. One differentiator for these two closely-related subjects is that humanities are predominately interested in studying the specifics and the 'unique', while social sciences are mainly interested in the general / population level." []
 comment: AL 17.11.21: The label was modified from plural to singular according to FAIRsharing best practises.
-comment: AL 3.6.2019: This 'composite term' (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.
 property_value: IAO:0000117 "Allyson Lister, https://orcid.org/0000-0002-7702-4495" xsd:string
 property_value: IAO:0000119 "Adapted from https://www.thebritishacademy.ac.uk/blog/what-social-science, AL 17.6.2019" xsd:string
 property_value: IAO:0000412 "re3data" xsd:string
@@ -293,7 +292,6 @@ id: subject:SRAO_0000041
 name: Social and Behavioural Science
 def: "Social and Behavioral Science is a broad area of study that applies to a unique range of disciplines -- anthropology, sociology, and psychology, among them -- that are primarily concerned with the analysis of human behavior." []
 comment: AL 3.6.2019: This 'composite term' (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.
-comment: AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.
 is_a: subject:SRAO_0000002 ! Humanities and Social Science
 property_value: IAO:0000117 "Allyson Lister, https://orcid.org/0000-0002-7702-4495" xsd:string
 property_value: IAO:0000119 "Adapted from https://www.ashford.edu/online-degrees/social-behavioral-science/what-is-social-and-behavioral-science, AL 12.6.2019" xsd:string
@@ -525,7 +523,6 @@ property_value: IAO:0000412 "re3data" xsd:string
 id: subject:SRAO_0000099
 name: Molecular Infection Biology
 def: "Molecular Infection Biology is the branch of molecular biology which applies to infectious agents." []
-comment: AL: 10.4.2019 Refactored re3data composite class 'Medical Microbiology, Molecular Infection Biology' into sibling classes 'Molecular Infection Biology' and 'Medical Microbiology' according to FAIRsharing curation best practises. Added an additional parent term of 'Molecular Biology' to align with the definition.
 comment: AL: 28.9.17 'Medical Microbiology, Molecular Infection Biology' is asserted as a child of Microbiology by re3data, and has additionally been positioned as a child of 'Biomedical Sciences'.
 is_a: NCIT:C15188
 is_a: NCIT:C16851
@@ -550,7 +547,6 @@ property_value: IAO:0000412 "re3data" xsd:string
 id: subject:SRAO_0000109
 name: Pathobiochemistry
 def: "Pathobiochemistry is an intersiciplinary research area related to both biochemistry and pathology. Research focuses on diseases as a disruption of the ordinary biochemical processes of an organism." []
-comment: AL: 16.5.2019 Refactored re3data composite class 'Clinical Chemistry and Pathobiochemistry' into sibling classes 'Clinical Chemistry' and 'Pathobiochemistry' according to FAIRsharing curation best practises.
 comment: re3data
 is_a: NCIT:C16417
 is_a: NCIT:C18189
@@ -1209,7 +1205,6 @@ id: subject:SRAO_0000262
 name: Building Engineering Physics
 def: "Building Engineering Physics investigates the areas of natural science that relate to the energy performance of buildings and their indoor and outdoor environments. The understanding and application of Building Engineering Physics allows us to design and construct high performance buildings which are comfortable and functional, yet use natural resources efficiently and minimise the environmental impacts of their construction and operation. It is related to Architecture, Structural Engineering and Building Services Engineering." []
 comment: AL 15.11.21: Removed re3data alternative term "Construction Material Sciences, Chemistry, Building Physics" and added "Construction Material Sciences", as the full term from re3data combined a number of different research aspects.
-comment: AL 23.5.18: Renamed to align with FAIRsharing best practices. "Building Engineering Physics" was chosen rather than 'Building Physics' to match what appears to be common usage within the community.
 is_a: subject:SRAO_0000259 ! Construction Engineering
 is_a: topic:3318
 property_value: IAO:0000117 "Allyson Lister, https://orcid.org/0000-0002-7702-4495" xsd:string
@@ -1339,7 +1334,6 @@ id: subject:SRAO_0000295
 name: Computational Neuroscience
 def: "Computational Neuroscience is the field of study in which mathematical tools and theories are used to investigate brain function. It can also incorporate diverse approaches from a number of additional disciplines (such as computer science) in order to understand how the nervous system processes information." []
 comment: AL 28.4.2023: Refactored this class to remove the parents 'Physics' and 'Electrical Engineering, which were leading to misclassifications as listed https://github.com/FAIRsharing/subject-ontology/issues/71
-comment: AL: 9.4.2019 Refactored re3data composite class 'Systemic Neuroscience, Computational Neuroscience, Behaviour' into sibling classes 'Systemic Neuroscience' and 'Computational Neuroscience' according to FAIRsharing curation best practises. The 'Behaviour' aspect of the original class name is now superceded by 'Biological Psychology'.
 is_a: NCIT:C95096
 is_a: topic:3316
 property_value: IAO:0000117 "Allyson Lister, https://orcid.org/0000-0002-7702-4495" xsd:string
@@ -1383,7 +1377,6 @@ id: subject:SRAO_0000299
 name: Area Studies
 def: "Area Studies is a type of multidisciplinary social research focusing on specific geographic regions or culturally defined areas. Area studies typically draw on disciplines such as political science, history, sociology, ethnology, geography, linguistics, literature, and cultural studies." []
 comment: AL 11.4.19: This class has been created based on hierarchy requirements from FAIRsharing rather than via the re3data import.
-comment: AL: 11.4.2019 Refactored re3data composite class 'Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies' and its children 'African, American and Oceania Studies', 'Asian Studies', 'Religious Studies and Jewish Studies', 'Islamic Studies, Arabian Studies, Semitic Studies', and 'Social and Cultural Anthropology and Ethnology/Folklore' into a completely reworked hierarchy of singular concepts according to FAIRsharing curation best practises.
 is_a: c:1335455465014
 is_a: NCIT:C16294
 is_a: NCIT:C16478
@@ -1550,7 +1543,6 @@ id: subject:SRAO_0000314
 name: Orthopedic Surgery
 def: "Orthopedic Surgery is the branch of surgery broadly concerned with the skeletal system (bones and joints)." []
 comment: AL 18.6.2019: The NCIT class used as the source of this definition conflates 'Orthopedics' and 'Orthopedic Surgery', whereas we have two separate classes. Therefore we used the definition, but not the NCIT IRI.
-comment: AL: 16.5.2019 Refactored re3data composite class 'Traumatology and Orthopaedics' into 'Traumatology' and 'Orthopaedic Surgery' according to FAIRsharing curation best practises. 'Orthopedics' itself as a medical discipline is listed as a synonym of 'Musculoskeletal Medicine'.
 is_a: NCIT:C17173
 is_a: OMIT:0010991
 property_value: IAO:0000117 "Allyson Lister, https://orcid.org/0000-0002-7702-4495" xsd:string
@@ -1580,7 +1572,6 @@ id: subject:SRAO_0000318
 name: Medicines Research and Development
 def: "The discovery, development and approval of medicines." []
 comment: AL 11.6.2019: The source of the definition for this class was EDAM. The EDAM class whose definition was used was unsuitable for SRAO as its synonyms included 'Drug Discovery' and 'Drug Develoment', a subject described elsewhere in SRAO and not a synonym according to FAIRsharing curation guidelines.
-comment: AL 16.5.2019: This 'composite term' (a class describing multiple concepts) is a standard conflation within this research area and is therefore retained. This is in contrast with the general rule within FAIRsharing to refactor composite terms.
 is_a: NCIT:C15188
 property_value: IAO:0000117 "Allyson Lister, https://orcid.org/0000-0002-7702-4495" xsd:string
 property_value: IAO:0000119 "EDAM http://edamontology.org/topic_3376, AL 11.6.2019" xsd:string
@@ -1591,7 +1582,6 @@ id: subject:SRAO_0000319
 name: Safety Science
 def: "Safety Science is the study of the science and technology of human and industrial safety. It extends from safety of people at work to other spheres, such as transport, energy or infrastructures, as well as every other field of man's hazardous activities." []
 comment: AL 11.6.2019: This class has been refactored from EDAM to SRAO to better align with FAIRsharing curation guidelines.
-comment: AL 5.6.2019: The label was modified from plural to singular according to FAIRsharing best practises.
 is_a: NCIT:C17141
 is_a: subject:SRAO_0000206 ! Industrial Engineering
 property_value: IAO:0000117 "Allyson Lister, https://orcid.org/0000-0002-7702-4495" xsd:string
@@ -1602,7 +1592,6 @@ id: subject:SRAO_0000320
 name: Endocrinology
 def: "Endocrinology is a branch of medicine concerned with the structure, function, and disorders of the endocrine glands." []
 comment: AL 11.6.2019: This class has been refactored from EDAM to SRAO to better align with FAIRsharing curation guidelines.
-comment: AL: 1.5.2019 Refactored re3data composite class 'Endocrinology, Diabetology' into parent 'Endocrinology' and child 'Diabetology' according to FAIRsharing curation best practises.
 is_a: OMIT:0009577
 property_value: IAO:0000117 "Allyson Lister, https://orcid.org/0000-0002-7702-4495" xsd:string
 property_value: IAO:0000119 "Merriam-Webster https://www.merriam-webster.com/dictionary/endocrinology, AL 11.6.2019" xsd:string
@@ -1672,7 +1661,6 @@ property_value: IAO:0000412 "FAIRsharing requirement" xsd:string
 id: subject:SRAO_0000407
 name: OBSOLETE Cosmology
 comment: AL 20.2.25: refactored so that the UAT IRI could be used for Cosmology instead.
-is_a: subject:SRAO_0000189 ! Astronomy and Astrophysics
 property_value: IAO:0000233 "https://github.com/FAIRsharing/subject-ontology/issues/38" xsd:string
 is_obsolete: true
 replaced_by: http://astrothesaurus.org/uat/343

@@ -6,4 +6,3 @@ WHERE {
   FILTER (REGEX(?value, "http[s]?[:]"))
   FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://www.fairsharing.org/ontology/subject/SRAO_")))
 }
-

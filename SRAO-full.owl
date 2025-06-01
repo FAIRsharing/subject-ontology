@@ -17,7 +17,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:edamontology="http://edamontology.org/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/subject/SRAO/SRAO-full.owl">
-        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO/releases/2025-02-23/SRAO-full.owl"/>
+        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO/releases/2025-06-01/SRAO-full.owl"/>
         <dc:creator xml:lang="en">The FAIRsharing Team, contact@fairsharing.org</dc:creator>
         <dc:title xml:lang="en">FAIRsharing Subject Ontology (SRAO)</dc:title>
         <dcterms:description xml:lang="en">SRAO is a hierarchy of academic disciplines that draws from the re3data subject list as well as importing terms from 7 publicly-available ontologies. This hierarchy covers all of the humanities and natural sciences and, where external vocabularies could not be found, SRAO classes were created.
@@ -39,7 +39,7 @@ Originally developed for use within FAIRsharing.org
 
 Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2025-02-23</owl:versionInfo>
+        <owl:versionInfo>2025-06-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -129,12 +129,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
@@ -173,12 +167,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/date -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
-    
-
-
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
@@ -194,12 +182,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/subject -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
     
 
 
@@ -387,23 +369,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://xmlns.com/foaf/0.1/page -->
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/page"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.w3.org/2001/XMLSchema#date -->
-
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
     
 
 
@@ -1370,20 +1335,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:comment>AL: 29.9.17 Child of &apos;Computational Biology&apos; and &apos;Genomics&apos;, to align with the EDAM hierarchy. &apos;Functional Genomics&apos; is asserted as a child of &apos;Function analysis&apos; within EDAM, however this class has not been retained within FAIRsharing, and its parent term &apos;Computational Biology&apos; is used instead.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://edamontology.org/topic.owl"/>
         <rdfs:label xml:lang="en">Functional Genomics</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/topic_0089 -->
-
-    <owl:Class rdf:about="http://edamontology.org/topic_0089">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
-        <obo:IAO_0000115>The conceptualisation, categorisation and nomenclature (naming) of entities or phenomena within biology or bioinformatics. This includes formal ontologies, controlled vocabularies, structured glossary, symbols and terminology or other related resource.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Allyson Lister, https://orcid.org/0000-0002-7702-4495</obo:IAO_0000117>
-        <obo:IAO_0000412 xml:lang="en">EDAM</obo:IAO_0000412>
-        <rdfs:comment xml:lang="en">See also https://github.com/FAIRsharing/subject-ontology/issues/24</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://edamontology.org/topic.owl"/>
-        <rdfs:label xml:lang="en">Ontology and Terminology</rdfs:label>
     </owl:Class>
     
 
@@ -3789,7 +3740,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000119 xml:lang="en">PERSON: Tina Boussard</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="en">OBI</obo:IAO_0000412>
         <rdfs:comment xml:lang="en">AL 11.6.2019: This class has been refactored from EDAM to OBI to better align with FAIRsharing curation guidelines.</rdfs:comment>
-        <rdfs:label xml:lang="en">Data Visualization</rdfs:label>
         <rdfs:label xml:lang="en">data visualization</rdfs:label>
     </owl:Class>
     
@@ -6680,7 +6630,6 @@ Example: &quot;JPEG&quot; is Subject Agnostic, which means that the resource is 
     <!-- http://www.fairsharing.org/ontology/subject/SRAO_0000407 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/subject/SRAO_0000407">
-        <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/subject/SRAO_0000189"/>
         <obo:IAO_0000233>https://github.com/FAIRsharing/subject-ontology/issues/38</obo:IAO_0000233>
         <obo:IAO_0100001>http://astrothesaurus.org/uat/343</obo:IAO_0100001>
         <rdfs:comment>AL 20.2.25: refactored so that the UAT IRI could be used for Cosmology instead.</rdfs:comment>

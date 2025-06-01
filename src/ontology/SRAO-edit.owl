@@ -105,7 +105,6 @@ Declaration(Class(<http://astrothesaurus.org/uat/563>))
 Declaration(Class(<http://astrothesaurus.org/uat/739>))
 Declaration(Class(<http://edamontology.org/topic_0084>))
 Declaration(Class(<http://edamontology.org/topic_0085>))
-Declaration(Class(<http://edamontology.org/topic_0089>))
 Declaration(Class(<http://edamontology.org/topic_0153>))
 Declaration(Class(<http://edamontology.org/topic_0194>))
 Declaration(Class(<http://edamontology.org/topic_0208>))
@@ -1287,14 +1286,6 @@ AnnotationAssertion(rdfs:comment <http://edamontology.org/topic_0085> "AL: 29.9.
 AnnotationAssertion(rdfs:label <http://edamontology.org/topic_0085> "Functional Genomics"@en)
 SubClassOf(<http://edamontology.org/topic_0085> <http://edamontology.org/topic_3307>)
 SubClassOf(<http://edamontology.org/topic_0085> obo:NCIT_C84343)
-
-# Class: <http://edamontology.org/topic_0089> (Ontology and Terminology)
-
-AnnotationAssertion(obo:IAO_0000117 <http://edamontology.org/topic_0089> "Allyson Lister, https://orcid.org/0000-0002-7702-4495"@en)
-AnnotationAssertion(obo:IAO_0000412 <http://edamontology.org/topic_0089> "EDAM"@en)
-AnnotationAssertion(rdfs:comment <http://edamontology.org/topic_0089> "See also https://github.com/FAIRsharing/subject-ontology/issues/24"@en)
-AnnotationAssertion(rdfs:label <http://edamontology.org/topic_0089> "Ontology and Terminology"@en)
-SubClassOf(<http://edamontology.org/topic_0089> <http://edamontology.org/topic_0605>)
 
 # Class: <http://edamontology.org/topic_0153> (Lipidomics)
 
@@ -2740,12 +2731,11 @@ AnnotationAssertion(rdfs:comment obo:NCIT_C95096 "AL: 17.10.17 Neuroscience is a
 AnnotationAssertion(rdfs:label obo:NCIT_C95096 "Neuroscience"@en)
 SubClassOf(obo:NCIT_C95096 obo:NCIT_C15188)
 
-# Class: obo:OBI_0200111 (Data Visualization)
+# Class: obo:OBI_0200111 (data visualization)
 
 AnnotationAssertion(obo:IAO_0000117 obo:OBI_0200111 "Allyson Lister, https://orcid.org/0000-0002-7702-4495"@en)
 AnnotationAssertion(obo:IAO_0000412 obo:OBI_0200111 "OBI"@en)
 AnnotationAssertion(rdfs:comment obo:OBI_0200111 "AL 11.6.2019: This class has been refactored from EDAM to OBI to better align with FAIRsharing curation guidelines."@en)
-AnnotationAssertion(rdfs:label obo:OBI_0200111 "Data Visualization"@en)
 SubClassOf(obo:OBI_0200111 <http://edamontology.org/topic_3316>)
 
 # Class: obo:OMIT_0001094 (Cognitive Neuroscience)
@@ -4828,7 +4818,6 @@ AnnotationAssertion(obo:IAO_0100001 subject:SRAO_0000407 "http://astrothesaurus.
 AnnotationAssertion(rdfs:comment subject:SRAO_0000407 "AL 20.2.25: refactored so that the UAT IRI could be used for Cosmology instead.")
 AnnotationAssertion(rdfs:label subject:SRAO_0000407 "OBSOLETE Cosmology")
 AnnotationAssertion(owl:deprecated subject:SRAO_0000407 "true"^^xsd:boolean)
-SubClassOf(subject:SRAO_0000407 subject:SRAO_0000189)
 
 # Class: subject:SRAO_0000408 (Electromagnetism)
 

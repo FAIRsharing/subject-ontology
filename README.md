@@ -63,7 +63,7 @@ Currently, [Protege](https://protege.stanford.edu/) (in various versions) has be
 - [ROBOT](http://robot.obolibrary.org/) - R.C. Jackson, J.P. Balhoff, E. Douglass, N.L. Harris, C.J. Mungall, and J.A. Overton. [ROBOT: A tool for automating ontology workflows.](https://doi.org/10.1186/s12859-019-3002-3) BMC Bioinformatics, vol. 20, July 2019.
 
 
-Prior to the use of the ODK with release 0.4.0, the following tools were also used:
+Prior to the use of the ODK with release 0.4.0 and earlier, the following tools were also used:
 
 - [Ontofox](http://ontofox.hegroup.org/) - Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse.
 BMC Research Notes. 2010, 3:175. PMID: 20569493
