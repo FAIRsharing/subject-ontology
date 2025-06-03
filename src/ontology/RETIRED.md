@@ -6,7 +6,7 @@ Terms may be moved from SRAO to either DRAO or our object tags; sometimes these 
 
 Name | SRAO IRI | New tag location | New IRI (if applicable) | Release | Note
 ----|--------|-------------|-------------|-------------|---
-Ontology and Terminology | http://edamontology.org/topic_0089 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/DefinedTermSet | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/subject-ontology/issues/88)
+Ontology and Terminology | http://edamontology.org/topic_0089 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/DefinedTermSet | 2025-06-01 | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/subject-ontology/issues/88)
 
 ### IRIs that have been retired with the 2025-02-23 release
 * http://www.fairsharing.org/ontology/subject/SRAO_0000407 - replaced with UAT Cosmology (http://astrothesaurus.org/uat/343). For consistency, this IRI still exists within SRAO, but with the owl:deprecated flag set to 'true' and with appropriate comments and labels (now labelled 'OBSOLETE Cosmology').
